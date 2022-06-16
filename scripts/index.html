@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{{{project}}}</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+		<style>
+			.container {
+				background-color: rgba(255, 255, 255, 0.25);
+			}
+			.li-0 {
+				display: inline-block;
+				vertical-align: top;
+				margin: 5px;
+				padding: 10px;
+				background-color: rgba(255, 255, 255, 0.75);
+			}
+			@font-face {
+				font-family: "Noto";
+				src: url({{a_font}});
+			}
+			.noto {
+				font-family: "Noto";
+			}
+			.relative {
+				position: relative;
+			}
+			.heading {
+				position: absolute;
+				overflow: hidden;
+				height: 100%;
+				opacity: 0.1;
+				z-index: -1;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<span class="navbar-text">
+					As at
+					<a href="{{repo_url}}/commit/{{commit}}"><code>{{commit}}</code></a>
+				</span>
+				<div class="mx-auto order-0">
+					<a class="navbar-brand" href="#"> {{{project}}} </a>
+				</div>
+			</div>
+		</nav>
+		<div class="relative">
+			<h1 class="display-3 heading noto">{{sample_text}}</h1>
+
+			<div class="container p-5">
+				<h3>Fonts (HEAD build)</h3>
+
+				{{#families}}
+
+				<h4>{{name}}</h4>
+				<div class="row align-items-start">{{{ fonttree}}}</div>
+
+				{{/families}}
+
+				<h3>Tests</h3>
+
+				<img src="{{{shields_url}}}%2Foverall.json" />
+				<img src="{{{shields_url}}}%2FGoogleFonts.json" />
+				<img src="{{{shields_url}}}%2FNotoFonts.json" />
+				<img src="{{{shields_url}}}%2FOutlineCorrectnessChecks.json" />
+				<img src="{{{shields_url}}}%2FShapingChecks.json" />
+				<img src="{{{shields_url}}}%2FUniversal.json" />
+
+				{{#families}}
+
+				<h4>{{name}}</h4>
+
+				<ul>
+					{{#fontbakery}}
+					<li>
+						<a href="{{path}}">FontBakery Report ({{name}})</a>
+					</li>
+					{{/fontbakery}}
+				</ul>
+
+				<ul>
+					{{#diffenator}}
+					<li>
+						<a href="{{path}}">{{name}}</a>
+					</li>
+					{{/diffenator}}
+				</ul>
+				{{/families}}
+
+				<h3>Proof sheets</h3>
+				<ul>
+					<li>
+						<a href="proof/glyphs.html">All glyphs</a>
+					</li>
+					<li>
+						<a href="proof/text.html">Sample text</a>
+					</li>
+					<li>
+						<a href="proof/waterfall.html">Waterfall test</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

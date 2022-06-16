@@ -1,0 +1,9 @@
+name: Build, QA, Release
+
+on: push
+
+jobs:
+  build_font:
+    uses: notofonts/notobuilder/.github/workflows/build.yaml@main
+    secrets: inherit
+
