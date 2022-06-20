@@ -1,0 +1,8 @@
+{
+    "tests": [
+        {
+            "input": "๰",
+            "expectation": "uni0E70=0+1024"
+        }
+    ]
+}
