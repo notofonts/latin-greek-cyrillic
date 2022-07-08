@@ -2,5 +2,5 @@ buildVariable: true
 familyName: Noto Sans
 googleFonts: true
 sources:
-- NotoSans-MM.glyphs
-- NotoSans-ItalicMM.glyphs
+- NotoSans.glyphs
+- NotoSans-Italic.glyphs
