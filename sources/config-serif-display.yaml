@@ -4,4 +4,5 @@ category:
 familyName: Noto Serif Display
 googleFonts: true
 sources:
+- NotoSerifDisplay.glyphs
 - NotoSerifDisplay-Italic.glyphs
