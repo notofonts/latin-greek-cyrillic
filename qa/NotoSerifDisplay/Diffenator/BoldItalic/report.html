@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+	.box-title{
+	  width: 100%;
+	  float: left;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	  display: block;
+	  font-weight: 700;
+	  cursor: pointer;
+	  -webkit-user-select: none; /* Safari */        
+	  -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* IE10+/Edge */
+	  user-select: none; /* Standard */
+	  text-align: center;
+	  color: white;
+	  background-color: black;
+	  width: 50px;
+	  display: block;
+	  padding: 10px;
+	}
+	.tooltip {
+	z-index: 1;
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	font-size: 10pt;
+	line-height: 13pt;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1000;
+	}
+	.tooltip .tooltiptext {
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+	.tooltip:hover .tooltiptext {
+	visibility: visible;
+	}
+	           /* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attrib-before{
+                color: red;
+                cursor: text;
+            }
+            .attrib-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .before .cell .after {
+            	display:  none;
+            }
+            .after .cell .before {
+            	display:  none;
+            }
+            .both .cell .before {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .after {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+
+	  
+	    @font-face { font-family: before; src: url(before.ttf); }
+	  
+
+	  
+	    @font-face { font-family: after; src: url(after.ttf); }
+	  
+
+	  
+
+	  
+	    .before { font-family: before; }
+	  
+
+	  
+	    .after { font-family: after; }
+	  
+
+	  
+	
+.cell{
+  position: relative;
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+    </style>
+</head>
+<body>
+    
+    <div id="nav">
+        <div id="font-toggle">Before</div>
+     </div>
+    
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+     
+<div class="node" >
+GDEF
+  <div class="node" style="display:none">
+  table
+    <div class="node" style="display:none">
+    LigCaretList
+      <div class="node" style="display:none">
+      LigGlyph
+        <div class="node" style="display:none">
+        [0]
+          <div class="node" style="display:none">
+          CaretValue
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              Coordinate
+                <span class="attrib-before">247</span> <span class="attrib-after">283</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [1]
+          <div class="node" style="display:none">
+          CaretValue
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              Coordinate
+                <span class="attrib-before">241</span> <span class="attrib-after">297</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [2]
+          <div class="node" style="display:none">
+          CaretValue
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              Coordinate
+                <span class="attrib-before">247</span> <span class="attrib-after">286</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [3]
+          <div class="node" style="display:none">
+          CaretValue
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              Coordinate
+                <span class="attrib-before">237</span> <span class="attrib-after">288</span>
+              </div>
+            </div>
+            <div class="node" style="display:none">
+            [1]
+              <div class="node" style="display:none">
+              Coordinate
+                <span class="attrib-before">554</span> <span class="attrib-after">625</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [4]
+          <div class="node" style="display:none">
+          CaretValue
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              Coordinate
+                <span class="attrib-before">241</span> <span class="attrib-after">283</span>
+              </div>
+            </div>
+            <div class="node" style="display:none">
+            [1]
+              <div class="node" style="display:none">
+              Coordinate
+                <span class="attrib-before">543</span> <span class="attrib-after">629</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [5]
+          <div class="node" style="display:none">
+          CaretValue
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              Coordinate
+                <span class="attrib-before">241</span> <span class="attrib-after">282</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [6]
+          <div class="node" style="display:none">
+          CaretValue
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              Coordinate
+                <span class="attrib-before">231</span> <span class="attrib-after">282</span>
+              </div>
+            </div>
+            <div class="node" style="display:none">
+            [1]
+              <div class="node" style="display:none">
+              Coordinate
+                <span class="attrib-before">538</span> <span class="attrib-after">620</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [7]
+          <div class="node" style="display:none">
+          CaretValue
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              Coordinate
+                <span class="attrib-before">231</span> <span class="attrib-after">280</span>
+              </div>
+            </div>
+            <div class="node" style="display:none">
+            [1]
+              <div class="node" style="display:none">
+              Coordinate
+                <span class="attrib-before">547</span> <span class="attrib-after">616</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [8]
+          <div class="node" style="display:none">
+          CaretValue
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              Coordinate
+                <span class="attrib-before">249</span> <span class="attrib-after">288</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [9]
+          <div class="node" style="display:none">
+          CaretValue
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              Coordinate
+                <span class="attrib-before">241</span> <span class="attrib-after">286</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="node" >
+head
+  <div class="node" style="display:none">
+  modified
+    <span class="attrib-before">3741004951</span> <span class="attrib-after">3741840704</span>
+  </div>
+  <div class="node" style="display:none">
+  checkSumAdjustment
+    <span class="attrib-before">956373507</span> <span class="attrib-after">868325003</span>
+  </div>
+</div>
+    </div>
+	    
+       </div>
+    
+    </div>
+
+    
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "before"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	  items = document.getElementsByClassName("box");
+	  console.log("Click from "+POSITION)
+	  
+	  if (POSITION === "before") {
+	  POSITION = "after"
+	  for (item of items) {
+	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("before", "after")
+            item.lastElementChild.className = item.lastElementChild.className.replace("before", "after")
+	    fontToggle.textContent = "After"
+	  }
+	  } else if (POSITION === "after") {
+	  POSITION = "both"
+	  for (item of items) {
+	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("after", "both")
+            item.lastElementChild.className = item.lastElementChild.className.replace("after", "both")
+	    fontToggle.textContent = "Both"
+	  }
+
+	  } else {
+	  POSITION = "before"
+	  for (item of items) {
+	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("both", "before")
+            item.lastElementChild.className = item.lastElementChild.className.replace("both", "before")
+	    fontToggle.textContent = "Before"
+	  }
+	}
+	}
+	fontToggle.addEventListener("click", switchFonts);
+	</script>
+    <script>
+    const divs = document.querySelectorAll('.node');
+    divs.forEach(el => el.addEventListener('click', event => {
+    var children = event.target.querySelectorAll(".node");
+    children.forEach(function(e) {
+        if (e.style.display === "none") {
+            e.style.display = "block";
+        } else {
+            e.style.display = "none";
+        }
+    })
+    }));
+    </script>
+</html>

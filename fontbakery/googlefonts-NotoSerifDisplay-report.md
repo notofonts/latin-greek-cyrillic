@@ -23,16 +23,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* uni03D0
-	* uniA7FD
-	* uni1FFC
-	* uni1FBE
-	* uni1F87
-	* uniA716
-	* uni1F27
-	* phi and 245 more.
+	* uni1F37
+	* uni1F5F
+	* uni1DFC
+	* uni1FAD
+	* uni0424
+	* uni0295
+	* uni1FA8
+	* uni20B1
+	* uni1FD7
+	* uni1FCC and 245 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -67,25 +67,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod
+	- uni03B9030403140301
 
-	- uni03B1030403130300 
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 31 more.
 
@@ -228,16 +228,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* four
-	* uni03D0
-	* uni1FFC
-	* uni1FBE
-	* uniA716
-	* uni1FEE
-	* phi
-	* uni1F2F and 220 more.
+	* uni1F37
+	* uni1F5F
+	* uni1FAD
+	* uni1DBF
+	* uni0424
+	* uni1FA8
+	* uni20B1
+	* uni1FD7
+	* uni1FCC
+	* uni1FDF and 220 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -282,25 +282,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FCE02C9
-
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod 
+	- uni03B9030403140301
+
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 35 more.
 
@@ -412,16 +412,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni03D0
-	* uniA7FD
-	* uni1FFC
-	* uni1FBE
-	* uni1F87
-	* uniA716
-	* uni1F27
-	* phi
-	* uni1F2F and 183 more.
+	* uni1F37
+	* uni1F5F
+	* uni1DFC
+	* uni1FAD
+	* uni0424
+	* uni0295
+	* uni1FA8
+	* uni1F10
+	* uni1FCC
+	* uni1FDF and 183 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -449,25 +449,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod
+	- uni03B9030403140301
 
-	- uni03B1030403130300 
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 31 more.
 
@@ -610,16 +610,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* four
-	* upsilon
-	* uni03D0
-	* uni1FFC
-	* uni1FBE
-	* uni1F87
-	* uniA716
-	* uni1F27 and 191 more.
+	* uni1F5F
+	* uni1FAD
+	* uni1FA8
+	* uni1FE0
+	* uni1F10
+	* uni1FCC
+	* uni1FDF
+	* uni1FC6
+	* uni1F0B
+	* uni1F83 and 191 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -664,25 +664,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FCE02C9
-
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod 
+	- uni03B9030403140301
+
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 35 more.
 
@@ -794,16 +794,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* uni03D0
-	* uniA7FD
-	* uni1FFC
-	* uni1FBE
-	* uni1F87
-	* uniA716
-	* uni1F27
-	* phi and 242 more.
+	* uni1F37
+	* uni1F5F
+	* uni1DFC
+	* uni1FAD
+	* uni0424
+	* uni0295
+	* uni1FA8
+	* uni1F10
+	* uni20B1
+	* uni1FD7 and 242 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -838,25 +838,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod
+	- uni03B9030403140301
 
-	- uni03B1030403130300 
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 31 more.
 
@@ -999,16 +999,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* four
-	* uni03D0
-	* uni1FFC
-	* uni1FBE
-	* uni1F87
-	* uniA716
-	* phi
-	* uni1F2F and 216 more.
+	* uni1F37
+	* uni1F5F
+	* uni1FAD
+	* uni1DBF
+	* uni0424
+	* uni1FA8
+	* uni1F10
+	* uni20B1
+	* uni1FD7
+	* uni1FCC and 216 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1053,25 +1053,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FCE02C9
-
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod 
+	- uni03B9030403140301
+
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 35 more.
 
@@ -1183,16 +1183,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* uniA7FD
-	* uni1FFC
-	* uni1FBE
-	* uniA716
-	* uni1FAA
-	* uni1F64
+	* uni1DFC
+	* uni1FAD
+	* uni0295
 	* uni1FA8
-	* uni1F7C and 76 more.
+	* uni1FCC
+	* uni02E4
+	* exclamdown.sc
+	* uniAB40
+	* uni1F62
+	* uni1F61 and 76 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1227,25 +1227,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod
+	- uni03B9030403140301
 
-	- uni03B1030403130300 
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 31 more.
 
@@ -1388,16 +1388,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* uni1FFC
-	* uni1FBE
-	* uniA716
-	* uni1FAA
-	* uni1F64
-	* uni1FE3
+	* uni1FAD
 	* uni1FA8
-	* uni03C5030403130301 and 68 more.
+	* uni1FCC
+	* uni1F62
+	* uni1F61
+	* uni1F7D
+	* uni1F55
+	* uni1FF2
+	* uni1FBE
+	* uni03CF and 68 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1442,25 +1442,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FCE02C9
-
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod 
+	- uni03B9030403140301
+
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 35 more.
 
@@ -1575,16 +1575,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* uni03D0
-	* uni1FFC
-	* uni1FBE
-	* uniA716
-	* phi
-	* uni1FAA
-	* uni1F64
-	* uni1FE3 and 100 more.
+	* uni1FAD
+	* uni0424
+	* uni1FA8
+	* uni1FCC
+	* uni1FC6
+	* uni1F62
+	* uni1F61
+	* uni1F7D
+	* uni1F55
+	* uni1FF2 and 100 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1622,25 +1622,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FCE02C9
-
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod 
+	- uni03B9030403140301
+
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 35 more.
 
@@ -1752,16 +1752,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* uni03D0
-	* uniA7FD
-	* uni1FFC
-	* uni1FBE
-	* uni1F87
-	* uniA716
-	* phi
-	* uni1FAA and 88 more.
+	* uni1DFC
+	* uni1FAD
+	* uni0424
+	* uni0295
+	* uni1FA8
+	* uni1FCC
+	* uni02E4
+	* exclamdown.sc
+	* uniAB40
+	* uni1F83 and 88 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1796,25 +1796,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod
+	- uni03B9030403140301
 
-	- uni03B1030403130300 
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 31 more.
 
@@ -1957,16 +1957,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* uni03D0
-	* uni1FFC
-	* uni1FBE
-	* uniA716
-	* phi
-	* uni1FAA
-	* uni1F64
-	* uni1FE3 and 86 more.
+	* uni1FAD
+	* uni0424
+	* uni1FA8
+	* uni1FCC
+	* uni1F62
+	* uni1F61
+	* uni1F7D
+	* uni1F55
+	* uni1FF2
+	* psi and 86 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -2011,25 +2011,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FCE02C9
-
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod 
+	- uni03B9030403140301
+
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 35 more.
 
@@ -2141,16 +2141,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* uni03D0
-	* uniA7FD
-	* uni1FFC
-	* uni1FBE
-	* uni1F87
-	* uniA716
-	* phi
-	* uni1FAA and 142 more.
+	* uni1DFC
+	* uni1FAD
+	* uni0424
+	* uni0295
+	* uni1FA8
+	* uni1F10
+	* uni1FCC
+	* uni02E4
+	* exclamdown.sc
+	* epsilontonos and 142 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -2185,25 +2185,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod
+	- uni03B9030403140301
 
-	- uni03B1030403130300 
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 31 more.
 
@@ -2346,16 +2346,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* uni03D0
-	* uni1FFC
-	* uni1FBE
-	* uni1F87
-	* uniA716
-	* phi
-	* uni1FAA
-	* uni1F64 and 121 more.
+	* uni1FAD
+	* uni0424
+	* uni1FA8
+	* uni1FCC
+	* uni1FC6
+	* uni1F83
+	* uni1F62
+	* uni1F61
+	* uni1F7D
+	* uni1F55 and 121 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -2400,25 +2400,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FCE02C9
-
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod 
+	- uni03B9030403140301
+
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 35 more.
 
@@ -2530,16 +2530,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* uni03D0
-	* uniA7FD
-	* uni1FFC
-	* uni1FBE
-	* uni1F87
-	* uniA716
-	* phi
-	* uni1FAA and 138 more.
+	* uni1DFC
+	* uni1FAD
+	* uni0424
+	* uni0295
+	* uni1FA8
+	* uni1FCC
+	* uni02E4
+	* exclamdown.sc
+	* epsilontonos
+	* uniAB40 and 138 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -2567,25 +2567,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod
+	- uni03B9030403140301
 
-	- uni03B1030403130300 
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 31 more.
 
@@ -2725,16 +2725,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* uni03D0
-	* uniA7FD
-	* uni1FFC
-	* uni1FBE
-	* uni1F87
-	* uniA716
-	* phi
-	* uni1F2F and 169 more.
+	* uni1F5F
+	* uni1DFC
+	* uni1FAD
+	* uni0424
+	* uni0295
+	* uni1FA8
+	* uni1F10
+	* uni1FCC
+	* uni1FDF
+	* uni02E4 and 169 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -2769,25 +2769,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod
+	- uni03B9030403140301
 
-	- uni03B1030403130300 
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 31 more.
 
@@ -2930,16 +2930,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* four
-	* upsilon
-	* uni03D0
-	* uni1FFC
-	* uni1FBE
-	* uni1F87
-	* uniA716
-	* phi and 145 more.
+	* uni1FAD
+	* uni0424
+	* uni1FA8
+	* uni1FE0
+	* uni1FCC
+	* uni1FC6
+	* uni1F83
+	* uni1FE6
+	* uni03BC
+	* uni1F51 and 145 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -2984,25 +2984,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FCE02C9
-
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod 
+	- uni03B9030403140301
+
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 35 more.
 
@@ -3114,16 +3114,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* uniA7FD
-	* uni1FFC
-	* uniA716
-	* uni1FAA
-	* uni1F64
+	* uni1DFC
+	* uni1FAD
+	* uni0295
 	* uni1FA8
-	* uni1F7C
-	* uni0295 and 73 more.
+	* uni1FCC
+	* uni02E4
+	* exclamdown.sc
+	* uniAB40
+	* uni1F62
+	* uni1F61 and 73 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -3158,25 +3158,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod
+	- uni03B9030403140301
 
-	- uni03B1030403130300 
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 31 more.
 
@@ -3319,16 +3319,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FBC
-	* uni1F60
-	* uni1FFC
-	* uniA716
-	* uni1FAA
-	* uni1F64
+	* uni1FAD
 	* uni1FA8
-	* uni03C5030403130301
-	* uni1F7C
-	* uni1FAB and 65 more.
+	* uni1FCC
+	* uni1F62
+	* uni1F61
+	* uni1F7D
+	* uni1F55
+	* uni1FF2
+	* uni03CF
+	* uni1FBC and 65 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -3373,25 +3373,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FCE02C9
-
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod 
+	- uni03B9030403140301
+
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 35 more.
 
@@ -3557,25 +3557,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FCE02C9
-
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod 
+	- uni03B9030403140301
+
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 35 more.
 
@@ -3628,25 +3628,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni03B9030603140301
-
-	- uni03B9030603140300
-
-	- uni03B1030403140300
-
-	- uni03C5030403130301
+	- uni03C5030403140300
 
 	- uni03C5030603130301
 
-	- uni03B1030403140301
+	- uni03C5030403140301
 
-	- uni03B9030403130300
+	- uni03C5030803060300
 
-	- uni03B1030603130300
+	- uni03B1030603140301
 
-	- dasiavaria_macronmod
+	- uni03B9030403140301
 
-	- uni03B1030403130300 
+	- uni03B9030803060301
+
+	- uni03B1030403130301
+
+	- uni03C5030603140301
+
+	- uni03B1030603140300 
 
 	- And 31 more.
 
