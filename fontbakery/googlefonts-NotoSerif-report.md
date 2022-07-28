@@ -44,25 +44,25 @@ Fontbakery version: 0.8.9
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -233,25 +233,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -363,16 +363,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FAB
-	* uni01C1
-	* uni1DA4
-	* kappa
-	* uni1D43
-	* uni1DAF
-	* uni1F25
-	* uni02C2
-	* uni1D0A
-	* uni1D9B and 380 more.
+	* uni02C5
+	* uni1F55
+	* uni02B7
+	* uni026F
+	* germandbls
+	* uni1F5D
+	* uni0345
+	* uni1D41
+	* uni03D4
+	* uni1F2E and 380 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -400,25 +400,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -558,16 +558,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FAB
+	* uni02C5
+	* uni1F55
+	* uni04E5
+	* uni02B7
+	* uni1F5D
+	* uni0345
+	* uni1D41
 	* Ydieresis
-	* uni1DA4
-	* uni031A
-	* uni1D43
-	* uni1DAF
-	* uni1F25
-	* theta
-	* uni02C2
-	* uni1D0A and 438 more.
+	* uni03D4
+	* uni1F2E and 438 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -605,25 +605,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -756,25 +756,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -945,25 +945,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -1103,25 +1103,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -1280,25 +1280,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -1402,16 +1402,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FAB
-	* uni01C1
-	* uni03DB
-	* uni1FE0
-	* uni1DA4
-	* uni1D43
-	* uni1DAF
-	* uni1F25
-	* theta
-	* uni02C2 and 357 more.
+	* uni02C5
+	* uni02B7
+	* uni1F5D
+	* uni1D41
+	* uni02EB
+	* uni03A9
+	* uni043C
+	* uni1D2C
+	* uni1D3F
+	* uni02FA and 357 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1449,25 +1449,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -1600,25 +1600,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -1775,25 +1775,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -1914,25 +1914,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -2103,25 +2103,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -2233,16 +2233,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1FAB
-	* uni01C1
-	* uni03DB
-	* uni1FE0
-	* uni1DA4
-	* kappa
-	* uni1D43
-	* uni1DAF
-	* uni1F25
-	* theta and 368 more.
+	* uni02C5
+	* uni1FF8
+	* uni02B7
+	* uni026F
+	* uni1F5D
+	* uni1D41
+	* uni1F2A
+	* uni02EB
+	* uni1D2C
+	* uni1D3F and 368 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -2270,25 +2270,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -2441,25 +2441,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -2622,25 +2622,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -2773,25 +2773,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -2952,25 +2952,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -3133,25 +3133,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
@@ -3204,25 +3204,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni1FDD0306
+
 	- uni1FDE0306
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030803040300
+	- uni03B9030403130300
 
-	- uni03C5030403130301
+	- uni03B1030603140300
 
-	- uni03B9030403130301
+	- uni03C5030603130300
 
-	- uni03B9030603140301
+	- uni03C5030403140301
 
-	- uni03B1030403130300
+	- uni03B9030403140300
 
-	- uni03C5030403130300
+	- beta.alt1
 
-	- uni03B9030603130300
-
-	- uni03C5030403140301 
+	- uni03B9030803040301 
 
 	- And 31 more.
 
