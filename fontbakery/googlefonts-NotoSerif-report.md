@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.10
 
 <details><summary><b>[2] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
@@ -10,11 +10,7 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** Family 'Noto Serif' has 6 fonts (should be 4 or fewer). [code: too-many]
-</div></details><br></div></details><details><summary><b>[10] NotoSerif-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerif-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -44,25 +40,25 @@ Fontbakery version: 0.8.9
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -189,11 +185,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 59 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerif-BlackItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerif-BlackItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -233,25 +225,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -350,11 +342,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 25 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSerif-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerif-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -363,16 +351,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni02C5
-	* uni1F55
-	* uni02B7
-	* uni026F
-	* germandbls
-	* uni1F5D
-	* uni0345
-	* uni1D41
-	* uni03D4
-	* uni1F2E and 380 more.
+	* Aring
+	* Lambda
+	* Phi
+	* Sigma
+	* Xi
+	* alphatonos
+	* beta
+	* chi
+	* copyright
+	* degree and 380 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -400,25 +388,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -545,11 +533,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 44 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerif-BoldItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerif-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -558,16 +542,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni02C5
-	* uni1F55
-	* uni04E5
-	* uni02B7
-	* uni1F5D
-	* uni0345
-	* uni1D41
-	* Ydieresis
-	* uni03D4
-	* uni1F2E and 438 more.
+	* Adieresis
+	* Edieresis
+	* Idieresis
+	* Iotadieresis
+	* Odieresis
+	* Omegatonos
+	* Phi
+	* Psi
+	* Udieresis
+	* Upsilondieresis and 438 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -605,25 +589,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -722,11 +706,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSerif-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerif-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -756,25 +736,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -901,11 +881,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 47 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerif-ExtraBoldItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerif-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -945,25 +921,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -1062,11 +1038,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSerif-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerif-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -1103,25 +1075,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -1236,11 +1208,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 136 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerif-ExtraLightItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerif-ExtraLightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -1280,25 +1248,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -1389,11 +1357,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uniA737 (U+A737): B<<334.0,119.5>-<336.0,132.0>-<339.0,145.0>>/B<<339.0,145.0>-<301.0,70.0>-<252.0,30.0>> = 13.87519629558255 
 
 	* And uniA7A0 (U+A7A0): L<<650.0,354.0>--<492.0,319.0>>/L<<492.0,319.0>--<645.0,319.0>> = 12.49040571790919 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSerif-Italic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerif-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -1402,16 +1366,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni02C5
-	* uni02B7
-	* uni1F5D
-	* uni1D41
-	* uni02EB
-	* uni03A9
-	* uni043C
-	* uni1D2C
-	* uni1D3F
-	* uni02FA and 357 more.
+	* Phi
+	* Psi
+	* Sigma
+	* Xi
+	* alpha
+	* alphatonos
+	* beta
+	* chi
+	* copyright
+	* dieresistonos and 357 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1449,25 +1413,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -1566,11 +1530,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSerif-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerif-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -1600,25 +1560,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -1731,11 +1691,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 89 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerif-LightItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerif-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -1775,25 +1731,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -1880,11 +1836,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni2133 (U+2133): B<<1101.5,668.0>-<1119.0,688.0>-<1125.0,694.0>>/B<<1125.0,694.0>-<1109.0,683.0>-<1066.5,648.5>> = 10.491477012331565 
 
 	* And uniA7A0 (U+A7A0): L<<669.0,362.0>--<497.0,324.0>>/L<<497.0,324.0>--<668.0,324.0>> = 12.458246440004897 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSerif-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerif-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -1914,25 +1866,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -2059,11 +2011,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 56 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerif-MediumItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerif-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -2103,25 +2051,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -2220,11 +2168,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 9 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSerif-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerif-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -2233,16 +2177,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni02C5
-	* uni1FF8
-	* uni02B7
-	* uni026F
-	* uni1F5D
-	* uni1D41
-	* uni1F2A
-	* uni02EB
-	* uni1D2C
-	* uni1D3F and 368 more.
+	* .notdef
+	* Aring
+	* Phi
+	* Psi
+	* Sigma
+	* alpha
+	* alphatonos
+	* beta
+	* chi
+	* copyright and 368 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -2270,25 +2214,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -2407,11 +2351,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 54 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerif-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerif-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -2441,25 +2381,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -2578,11 +2518,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 73 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerif-SemiBoldItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerif-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -2622,25 +2558,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -2739,11 +2675,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 9 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSerif-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerif-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -2773,25 +2705,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -2908,11 +2840,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 178 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerif-ThinItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerif-ThinItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -2952,25 +2880,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -3069,31 +2997,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSerif-Italic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerif-Italic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
-* 🔥 **FAIL** The "wght" axis coordinate of the "Regular" instance must be 400. Got None instead. [code: wght-not-400]
-</div></details><details><summary>🔥 <b>FAIL:</b> The variable font 'wdth' (Width) axis coordinate must be 100 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wdth_coord">com.google.fonts/check/varfont/regular_wdth_coord</a>)</summary><div>
-
-
-* 🔥 **FAIL** The "wdth" axis coordinate of the "Regular" instance must be 100. Got None as a default value instead. [code: wdth-not-100]
-</div></details><details><summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 700 on the 'Bold' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/bold_wght_coord">com.google.fonts/check/varfont/bold_wght_coord</a>)</summary><div>
-
-
-* 🔥 **FAIL** The "wght" axis coordinate of the "Bold" instance must be 700. Got None instead. [code: wght-not-700]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
-
-
-* 🔥 **FAIL** 'Italic' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 297. [code: invalid-default-instance-subfamily-nameid:297]
+* 🔥 **FAIL** name id 266 missing from name table
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
 
 
@@ -3128,30 +3052,38 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Checking with ots-sanitize. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ots">com.google.fonts/check/ots</a>)</summary><div>
+
+
+* ⚠ **WARN** ots-sanitize passed this file, however warnings were printed:
+
+ERROR: STAT: Invalid nameID: 266
+ERROR: Table discarded
+ [code: ots-sanitize-warn]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -3162,19 +3094,27 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
 	 uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
-</div></details><br></div></details><details><summary><b>[8] NotoSerif[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerif[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>🔥 <b>FAIL:</b> Validate STAT particle names and values match the fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT/gf_axisregistry">com.google.fonts/check/STAT/gf_axisregistry</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the font variation axis 'ital', the name 'Normal' is not among the expected ones (Roman, Italic) according to the Google Fonts Axis Registry. [code: invalid-name]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
-
-
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 288. [code: invalid-default-instance-subfamily-nameid:288]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
 
 
@@ -3204,25 +3144,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni1FDD0306
-
-	- uni1FDE0306
+	- beta.alt1
 
 	- dasiaoxia_macronmod
 
-	- uni03B9030403130300
+	- dasiavaria_macronmod
 
-	- uni03B1030603140300
+	- psilioxia_macronmod
 
-	- uni03C5030603130300
+	- psilivaria_macronmod
 
-	- uni03C5030403140301
+	- uni03B1030403130300
 
-	- uni03B9030403140300
+	- uni03B1030403130301
 
-	- beta.alt1
+	- uni03B1030403140300
 
-	- uni03B9030803040301 
+	- uni03B1030403140301
+
+	- uni03B1030603130300 
 
 	- And 31 more.
 
@@ -3238,8 +3178,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 20 | 27 | 150 | 2218 | 143 | 1857 | 0 |
-| 0% | 1% | 3% | 50% | 3% | 42% | 0% |
+| 6 | 24 | 151 | 2154 | 143 | 1777 | 0 |
+| 0% | 1% | 4% | 51% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
