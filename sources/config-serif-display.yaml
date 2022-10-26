@@ -1,8 +1,0 @@
-buildVariable: true
-category:
-- SERIF
-familyName: Noto Serif Display
-googleFonts: true
-sources:
-- NotoSerifDisplay.glyphs
-- NotoSerifDisplay-Italic.glyphs
