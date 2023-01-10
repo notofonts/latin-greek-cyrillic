@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.10
+Fontbakery version: 0.8.11a8
 
 <details><summary><b>[2] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
@@ -10,7 +10,11 @@ Fontbakery version: 0.8.10
 
 
 * 🔥 **FAIL** Family 'Noto Serif' has 6 fonts (should be 4 or fewer). [code: too-many]
-</div></details><br></div></details><details><summary><b>[9] NotoSerif-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerif-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -114,6 +118,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* rho (U+03C1): L<<49.0,-221.0>--<51.0,53.0>> -> L<<51.0,53.0>--<51.0,263.0>>
 
+	* u10788 (U+10788): L<<707.0,404.0>--<704.0,287.0>> -> L<<704.0,287.0>--<704.0,274.0>>
+
 	* uni03BC (U+03BC): L<<66.0,-221.0>--<68.0,225.0>> -> L<<68.0,225.0>--<64.0,536.0>>
 
 	* uni03FC (U+03FC): L<<50.0,-82.0>--<51.0,53.0>> -> L<<51.0,53.0>--<51.0,263.0>>
@@ -122,11 +128,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni1D66 (U+1D66): L<<42.0,-132.0>--<43.0,60.0>> -> L<<43.0,60.0>--<42.0,296.0>>
 
-	* uni1D68 (U+1D68): L<<32.0,-133.0>--<33.0,32.0>> -> L<<33.0,32.0>--<33.0,158.0>>
+	* uni1D68 (U+1D68): L<<32.0,-133.0>--<33.0,32.0>> -> L<<33.0,32.0>--<33.0,158.0>> 
 
-	* uni1D8E (U+1D8E): L<<531.0,195.0>--<527.0,0.0>> -> L<<527.0,0.0>--<527.0,-22.0>> 
-
-	* And 3 more.
+	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -154,7 +158,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni03F0 (U+03F0): B<<273.5,223.5>-<256.0,186.0>-<241.0,162.0>>/L<<241.0,162.0>--<532.0,536.0>> = 5.880204881078469 
 
-	* And 32 more.
+	* And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -185,7 +189,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 59 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSerif-BlackItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerif-BlackItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -301,17 +309,17 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* rho (U+03C1): L<<-79.0,-221.0>--<-20.0,53.0>> -> L<<-20.0,53.0>--<24.0,263.0>>
 
+	* u10788 (U+10788): L<<739.0,404.0>--<709.0,287.0>> -> L<<709.0,287.0>--<706.0,274.0>>
+
+	* u1079F (U+1079F): L<<244.0,534.0>--<186.0,293.0>> -> L<<186.0,293.0>--<181.0,273.0>>
+
 	* uni03BC (U+03BC): L<<-54.0,-221.0>--<41.0,225.0>> -> L<<41.0,225.0>--<102.0,536.0>>
 
 	* uni03FC (U+03FC): L<<-49.0,-82.0>--<-20.0,53.0>> -> L<<-20.0,53.0>--<24.0,263.0>>
 
-	* uni1D0B (U+1D0B): L<<342.0,445.0>--<314.0,327.0>> -> L<<314.0,327.0>--<307.0,300.0>>
+	* uni1D0B (U+1D0B): L<<342.0,445.0>--<314.0,327.0>> -> L<<314.0,327.0>--<307.0,300.0>> 
 
-	* uni1D27 (U+1D27): L<<328.0,99.0>--<328.0,126.0>> -> L<<328.0,126.0>--<316.0,366.0>>
-
-	* uni1D5D (U+1D5D): L<<16.0,155.0>--<61.0,347.0>> -> L<<61.0,347.0>--<113.0,583.0>> 
-
-	* And 6 more.
+	* And 12 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -342,7 +350,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 25 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSerif-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerif-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -462,25 +474,29 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* rho (U+03C1): L<<53.0,-240.0>--<57.0,122.0>> -> L<<57.0,122.0>--<57.0,263.0>>
 
+	* u10788 (U+10788): L<<657.0,396.0>--<653.0,287.0>> -> L<<653.0,287.0>--<653.0,256.0>>
+
+	* u107A1 (U+107A1): L<<144.0,607.0>--<149.0,607.0>> -> L<<149.0,607.0>--<150.0,607.0>>
+
 	* uni03BC (U+03BC): L<<71.0,-240.0>--<75.0,75.0>> -> L<<75.0,75.0>--<68.0,536.0>>
 
 	* uni03FC (U+03FC): L<<55.0,-81.0>--<57.0,122.0>> -> L<<57.0,122.0>--<57.0,263.0>>
 
 	* uni1D5D (U+1D5D): L<<47.0,143.0>--<50.0,363.0>> -> L<<50.0,363.0>--<44.0,603.0>>
 
-	* uni1D66 (U+1D66): L<<47.0,-144.0>--<50.0,76.0>> -> L<<50.0,76.0>--<44.0,316.0>>
+	* uni1D66 (U+1D66): L<<47.0,-144.0>--<50.0,76.0>> -> L<<50.0,76.0>--<44.0,316.0>> 
 
-	* uni1D68 (U+1D68): L<<34.0,-144.0>--<37.0,73.0>> -> L<<37.0,73.0>--<37.0,158.0>>
-
-	* uni1D7A (U+1D7A): L<<248.0,468.0>--<248.0,158.0>> -> L<<248.0,158.0>--<248.0,155.0>> 
-
-	* And 4 more.
+	* And 7 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* u107A0 (U+107A0): B<<167.5,511.5>-<164.0,526.0>-<163.0,538.0>>/B<<163.0,538.0>-<162.0,525.0>-<156.0,509.5>> = 9.162347045721665
+
+	* u107A1 (U+107A1): B<<167.5,511.5>-<164.0,526.0>-<163.0,538.0>>/B<<163.0,538.0>-<162.0,525.0>-<156.0,509.5>> = 9.162347045721665
 
 	* uni01B4 (U+01B4): B<<320.0,162.5>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<330.0,132.0>-<335.0,149.0>> = 9.796209917474465
 
@@ -496,13 +512,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni03F0 (U+03F0): B<<233.5,219.0>-<220.0,180.0>-<208.0,155.0>>/L<<208.0,155.0>--<481.0,536.0>> = 9.981933481390366
 
-	* uni0443 (U+0443): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127
+	* uni0443 (U+0443): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127 
 
-	* uni045E (U+045E): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127
-
-	* uni0478 (U+0478): B<<1047.0,162.0>-<1053.0,138.0>-<1055.0,118.0>>/B<<1055.0,118.0>-<1057.0,139.0>-<1065.5,165.0>> = 11.150925168505127 
-
-	* And 19 more.
+	* And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -530,10 +542,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> 
 
-	* And 44 more.
+	* And 48 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerif-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerif-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -663,6 +679,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* rho (U+03C1): L<<-74.0,-240.0>--<6.0,122.0>> -> L<<6.0,122.0>--<35.0,263.0>>
 
+	* u10788 (U+10788): L<<694.0,396.0>--<667.0,291.0>> -> L<<667.0,291.0>--<662.0,271.0>>
+
 	* uni03BC (U+03BC): L<<-48.0,-240.0>--<22.0,75.0>> -> L<<22.0,75.0>--<111.0,536.0>>
 
 	* uni03FC (U+03FC): L<<-39.0,-81.0>--<6.0,122.0>> -> L<<6.0,122.0>--<35.0,263.0>>
@@ -671,11 +689,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni1D5D (U+1D5D): L<<22.0,143.0>--<74.0,363.0>> -> L<<74.0,363.0>--<124.0,603.0>>
 
-	* uni1D66 (U+1D66): L<<-83.0,-240.0>--<-31.0,-20.0>> -> L<<-31.0,-20.0>--<19.0,220.0>>
+	* uni1D66 (U+1D66): L<<-83.0,-240.0>--<-31.0,-20.0>> -> L<<-31.0,-20.0>--<19.0,220.0>> 
 
-	* uni1D68 (U+1D68): L<<-100.0,-240.0>--<-48.0,-23.0>> -> L<<-48.0,-23.0>--<-29.0,62.0>> 
-
-	* And 3 more.
+	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -706,7 +722,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[9] NotoSerif-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerif-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -812,17 +832,17 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* rho (U+03C1): L<<51.0,-230.0>--<54.0,84.0>> -> L<<54.0,84.0>--<54.0,263.0>>
 
+	* u10788 (U+10788): L<<684.0,400.0>--<681.0,287.0>> -> L<<681.0,287.0>--<681.0,266.0>>
+
 	* uni03BC (U+03BC): L<<68.0,-230.0>--<71.0,157.0>> -> L<<71.0,157.0>--<66.0,536.0>>
 
 	* uni03FC (U+03FC): L<<52.0,-82.0>--<54.0,84.0>> -> L<<54.0,84.0>--<54.0,263.0>>
 
 	* uni04B1 (U+04B1): L<<103.0,7.0>--<234.0,7.0>> -> L<<234.0,7.0>--<234.0,7.0>>
 
-	* uni1D5D (U+1D5D): L<<44.0,150.0>--<46.0,354.0>> -> L<<46.0,354.0>--<43.0,592.0>>
+	* uni1D5D (U+1D5D): L<<44.0,150.0>--<46.0,354.0>> -> L<<46.0,354.0>--<43.0,592.0>> 
 
-	* uni1D66 (U+1D66): L<<44.0,-137.0>--<46.0,67.0>> -> L<<46.0,67.0>--<43.0,305.0>> 
-
-	* And 6 more.
+	* And 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -831,6 +851,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* eogonek (U+0119): B<<270.5,-58.5>-<297.0,-26.0>-<333.0,-9.0>>/B<<333.0,-9.0>-<329.0,-10.0>-<324.0,-10.0>> = 11.24147876762648
+
+	* u107A0 (U+107A0): B<<165.0,503.5>-<161.0,519.0>-<160.0,530.0>>/B<<160.0,530.0>-<158.0,517.0>-<154.5,505.0>> = 13.94059117029001
+
+	* u107A1 (U+107A1): B<<165.0,503.5>-<161.0,519.0>-<160.0,530.0>>/B<<160.0,530.0>-<158.0,517.0>-<154.5,505.0>> = 13.94059117029001
 
 	* uni01B4 (U+01B4): B<<328.5,175.5>-<335.0,150.0>-<337.0,131.0>>/B<<337.0,131.0>-<339.0,153.0>-<345.0,173.0>> = 11.203434865229296
 
@@ -844,13 +868,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni028E (U+028E): B<<254.0,360.5>-<248.0,386.0>-<246.0,405.0>>/B<<246.0,405.0>-<244.0,383.0>-<238.0,363.0>> = 11.203434865229296
 
-	* uni02B8 (U+02B8): B<<214.0,392.5>-<218.0,377.0>-<219.0,366.0>>/B<<219.0,366.0>-<220.0,379.0>-<224.0,391.0>> = 9.593134262730318
+	* uni02B8 (U+02B8): B<<214.0,392.5>-<218.0,377.0>-<219.0,366.0>>/B<<219.0,366.0>-<220.0,379.0>-<224.0,391.0>> = 9.593134262730318 
 
-	* uni0377 (U+0377): B<<443.5,261.5>-<460.0,318.0>-<487.0,376.0>>/L<<487.0,376.0>--<199.0,0.0>> = 12.487788400929684
-
-	* uni03F0 (U+03F0): B<<255.0,221.5>-<239.0,183.0>-<226.0,159.0>>/L<<226.0,159.0>--<509.0,536.0>> = 8.451277793680566 
-
-	* And 24 more.
+	* And 27 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -878,10 +898,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni03BC (U+03BC): L<<388.0,235.0>--<386.0,536.0>> 
 
-	* And 47 more.
+	* And 51 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSerif-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerif-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -997,17 +1021,17 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* rho (U+03C1): L<<-77.0,-230.0>--<-8.0,84.0>> -> L<<-8.0,84.0>--<29.0,263.0>>
 
+	* u10788 (U+10788): L<<719.0,400.0>--<690.0,288.0>> -> L<<690.0,288.0>--<686.0,273.0>>
+
 	* uni03BC (U+03BC): L<<-51.0,-230.0>--<32.0,157.0>> -> L<<32.0,157.0>--<106.0,536.0>>
 
 	* uni03FC (U+03FC): L<<-44.0,-82.0>--<-8.0,84.0>> -> L<<-8.0,84.0>--<29.0,263.0>>
 
 	* uni1D0B (U+1D0B): L<<325.0,445.0>--<297.0,325.0>> -> L<<297.0,325.0>--<289.0,293.0>>
 
-	* uni1D5D (U+1D5D): L<<19.0,150.0>--<67.0,354.0>> -> L<<67.0,354.0>--<118.0,592.0>>
+	* uni1D5D (U+1D5D): L<<19.0,150.0>--<67.0,354.0>> -> L<<67.0,354.0>--<118.0,592.0>> 
 
-	* uni1D66 (U+1D66): L<<-86.0,-233.0>--<-38.0,-29.0>> -> L<<-38.0,-29.0>--<13.0,209.0>> 
-
-	* And 5 more.
+	* And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1038,7 +1062,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSerif-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerif-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -1151,17 +1179,17 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* tripledagger (U+2E4B): L<<383.0,304.0>--<220.0,319.0>> -> L<<220.0,319.0>--<218.0,319.0>>
 
+	* u10788 (U+10788): L<<535.0,373.0>--<532.0,287.0>> -> L<<532.0,287.0>--<532.0,231.0>>
+
 	* uni023E (U+023E): L<<449.0,684.0>--<447.0,684.0>> -> L<<447.0,684.0>--<306.0,684.0>>
 
 	* uni0246 (U+0246): L<<414.0,684.0>--<410.0,684.0>> -> L<<410.0,684.0>--<189.0,684.0>>
 
 	* uni0290 (U+0290): L<<413.0,143.0>--<408.0,0.0>> -> L<<408.0,0.0>--<408.0,-82.0>>
 
-	* uni03BC (U+03BC): L<<59.0,-240.0>--<61.0,134.0>> -> L<<61.0,134.0>--<59.0,536.0>>
+	* uni03BC (U+03BC): L<<59.0,-240.0>--<61.0,134.0>> -> L<<61.0,134.0>--<59.0,536.0>> 
 
-	* uni03FC (U+03FC): L<<45.0,-88.0>--<46.0,63.0>> -> L<<46.0,63.0>--<46.0,287.0>> 
-
-	* And 10 more.
+	* And 11 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1208,7 +1236,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 136 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSerif-ExtraLightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerif-ExtraLightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -1334,7 +1366,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni1D0B (U+1D0B): L<<176.0,451.0>--<141.0,285.0>> -> L<<141.0,285.0>--<130.0,232.0>> 
 
-	* And 9 more.
+	* And 11 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1357,7 +1389,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uniA737 (U+A737): B<<334.0,119.5>-<336.0,132.0>-<339.0,145.0>>/B<<339.0,145.0>-<301.0,70.0>-<252.0,30.0>> = 13.87519629558255 
 
 	* And uniA7A0 (U+A7A0): L<<650.0,354.0>--<492.0,319.0>>/L<<492.0,319.0>--<645.0,319.0>> = 12.49040571790919 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[9] NotoSerif-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerif-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -1491,15 +1527,15 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* rho (U+03C1): L<<-59.0,-240.0>--<17.0,109.0>> -> L<<17.0,109.0>--<47.0,253.0>>
 
+	* u10788 (U+10788): L<<632.0,384.0>--<606.0,288.0>> -> L<<606.0,288.0>--<602.0,268.0>>
+
 	* uni03BC (U+03BC): L<<-34.0,-240.0>--<45.0,126.0>> -> L<<45.0,126.0>--<126.0,536.0>>
 
 	* uni03FC (U+03FC): L<<-24.0,-80.0>--<17.0,109.0>> -> L<<17.0,109.0>--<47.0,253.0>>
 
-	* uni049D (U+049D): L<<200.0,294.0>--<252.0,294.0>> -> L<<252.0,294.0>--<252.0,294.0>>
+	* uni049D (U+049D): L<<200.0,294.0>--<252.0,294.0>> -> L<<252.0,294.0>--<252.0,294.0>> 
 
-	* uni049D (U+049D): L<<243.0,248.0>--<242.0,248.0>> -> L<<242.0,248.0>--<190.0,248.0>> 
-
-	* And 7 more.
+	* And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1530,7 +1566,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[9] NotoSerif-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerif-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -1634,19 +1674,19 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* rho (U+03C1): L<<48.0,-240.0>--<50.0,83.0>> -> L<<50.0,83.0>--<50.0,273.0>>
 
+	* u10788 (U+10788): L<<558.0,378.0>--<554.0,287.0>> -> L<<554.0,287.0>--<554.0,239.0>>
+
+	* u1079F (U+1079F): L<<7.0,307.0>--<35.0,307.0>> -> L<<35.0,307.0>--<35.0,307.0>>
+
 	* uni0290 (U+0290): L<<431.0,151.0>--<426.0,0.0>> -> L<<426.0,0.0>--<426.0,-68.0>>
 
 	* uni03BC (U+03BC): L<<64.0,-240.0>--<66.0,131.0>> -> L<<66.0,131.0>--<63.0,536.0>>
 
 	* uni03FC (U+03FC): L<<49.0,-85.0>--<50.0,83.0>> -> L<<50.0,83.0>--<50.0,273.0>>
 
-	* uni04B1 (U+04B1): L<<312.0,0.0>--<312.0,0.0>> -> L<<312.0,0.0>--<438.0,0.0>>
+	* uni04B1 (U+04B1): L<<312.0,0.0>--<312.0,0.0>> -> L<<312.0,0.0>--<438.0,0.0>> 
 
-	* uni1D5D (U+1D5D): L<<41.0,143.0>--<42.0,360.0>> -> L<<42.0,360.0>--<42.0,619.0>>
-
-	* uni1D66 (U+1D66): L<<41.0,-188.0>--<42.0,30.0>> -> L<<42.0,30.0>--<42.0,288.0>> 
-
-	* And 7 more.
+	* And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1691,7 +1731,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 89 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSerif-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerif-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -1817,7 +1861,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni03FC (U+03FC): L<<-27.0,-85.0>--<10.0,83.0>> -> L<<10.0,83.0>--<50.0,273.0>> 
 
-	* And 9 more.
+	* And 11 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1836,7 +1880,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni2133 (U+2133): B<<1101.5,668.0>-<1119.0,688.0>-<1125.0,694.0>>/B<<1125.0,694.0>-<1109.0,683.0>-<1066.5,648.5>> = 10.491477012331565 
 
 	* And uniA7A0 (U+A7A0): L<<669.0,362.0>--<497.0,324.0>>/L<<497.0,324.0>--<668.0,324.0>> = 12.458246440004897 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[9] NotoSerif-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerif-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -1940,6 +1988,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* rho (U+03C1): L<<53.0,-240.0>--<56.0,113.0>> -> L<<56.0,113.0>--<56.0,256.0>>
 
+	* u10788 (U+10788): L<<607.0,387.0>--<604.0,287.0>> -> L<<604.0,287.0>--<604.0,252.0>>
+
 	* uni0290 (U+0290): L<<466.0,167.0>--<463.0,0.0>> -> L<<463.0,0.0>--<463.0,-46.0>>
 
 	* uni03BC (U+03BC): L<<70.0,-240.0>--<74.0,112.0>> -> L<<74.0,112.0>--<68.0,536.0>>
@@ -1948,11 +1998,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni1D5D (U+1D5D): L<<45.0,143.0>--<47.0,363.0>> -> L<<47.0,363.0>--<45.0,610.0>>
 
-	* uni1D66 (U+1D66): L<<45.0,-144.0>--<47.0,76.0>> -> L<<47.0,76.0>--<45.0,323.0>>
+	* uni1D66 (U+1D66): L<<45.0,-144.0>--<47.0,76.0>> -> L<<47.0,76.0>--<45.0,323.0>> 
 
-	* uni1D68 (U+1D68): L<<34.0,-144.0>--<37.0,68.0>> -> L<<37.0,68.0>--<37.0,153.0>> 
-
-	* And 6 more.
+	* And 7 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2011,7 +2059,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 56 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSerif-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerif-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -2131,13 +2183,13 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* s_t (U+FB06): L<<451.0,451.0>--<451.0,451.0>> -> L<<451.0,451.0>--<451.0,451.0>>
 
+	* u10788 (U+10788): L<<649.0,387.0>--<623.0,289.0>> -> L<<623.0,289.0>--<618.0,269.0>>
+
 	* uni023E (U+023E): L<<547.0,661.0>--<546.0,661.0>> -> L<<546.0,661.0>--<454.0,661.0>>
 
-	* uni03BC (U+03BC): L<<-38.0,-240.0>--<39.0,112.0>> -> L<<39.0,112.0>--<122.0,536.0>>
+	* uni03BC (U+03BC): L<<-38.0,-240.0>--<39.0,112.0>> -> L<<39.0,112.0>--<122.0,536.0>> 
 
-	* uni03FC (U+03FC): L<<-28.0,-80.0>--<14.0,113.0>> -> L<<14.0,113.0>--<44.0,256.0>> 
-
-	* And 8 more.
+	* And 11 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2168,7 +2220,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 9 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSerif-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerif-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -2288,6 +2344,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* rho (U+03C1): L<<53.0,-240.0>--<56.0,109.0>> -> L<<56.0,109.0>--<56.0,253.0>>
 
+	* u10788 (U+10788): L<<588.0,384.0>--<585.0,287.0>> -> L<<585.0,287.0>--<585.0,250.0>>
+
 	* uni0290 (U+0290): L<<455.0,162.0>--<450.0,0.0>> -> L<<450.0,0.0>--<450.0,-49.0>>
 
 	* uni03BC (U+03BC): L<<70.0,-240.0>--<73.0,126.0>> -> L<<73.0,126.0>--<68.0,536.0>>
@@ -2296,11 +2354,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni1D5D (U+1D5D): L<<44.0,143.0>--<46.0,363.0>> -> L<<46.0,363.0>--<45.0,613.0>>
 
-	* uni1D66 (U+1D66): L<<44.0,-144.0>--<46.0,76.0>> -> L<<46.0,76.0>--<45.0,326.0>>
+	* uni1D66 (U+1D66): L<<44.0,-144.0>--<46.0,76.0>> -> L<<46.0,76.0>--<45.0,326.0>> 
 
-	* uni1D68 (U+1D68): L<<34.0,-144.0>--<36.0,65.0>> -> L<<36.0,65.0>--<36.0,152.0>> 
-
-	* And 6 more.
+	* And 7 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2351,7 +2407,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 54 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerif-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerif-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -2457,17 +2517,17 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* rho (U+03C1): L<<53.0,-240.0>--<57.0,117.0>> -> L<<57.0,117.0>--<57.0,259.0>>
 
+	* u10788 (U+10788): L<<631.0,391.0>--<627.0,287.0>> -> L<<627.0,287.0>--<627.0,254.0>>
+
 	* uni0290 (U+0290): L<<480.0,174.0>--<479.0,0.0>> -> L<<479.0,0.0>--<479.0,-43.0>>
 
 	* uni03BC (U+03BC): L<<71.0,-240.0>--<74.0,94.0>> -> L<<74.0,94.0>--<68.0,536.0>>
 
 	* uni03FC (U+03FC): L<<55.0,-81.0>--<57.0,117.0>> -> L<<57.0,117.0>--<57.0,259.0>>
 
-	* uni04FF (U+04FF): L<<253.0,269.0>--<252.0,269.0>> -> L<<252.0,269.0>--<78.0,269.0>>
+	* uni04FF (U+04FF): L<<253.0,269.0>--<252.0,269.0>> -> L<<252.0,269.0>--<78.0,269.0>> 
 
-	* uni1D5D (U+1D5D): L<<46.0,143.0>--<49.0,363.0>> -> L<<49.0,363.0>--<44.0,607.0>> 
-
-	* And 7 more.
+	* And 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2515,10 +2575,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* hpalatalhook (U+A795): L<<233.0,313.0>--<234.0,115.0>> 
 
-	* And 73 more.
+	* And 77 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSerif-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerif-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -2632,6 +2696,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* rho (U+03C1): L<<-68.0,-240.0>--<10.0,117.0>> -> L<<10.0,117.0>--<40.0,259.0>>
 
+	* u10788 (U+10788): L<<670.0,391.0>--<644.0,290.0>> -> L<<644.0,290.0>--<639.0,270.0>>
+
 	* uni03BC (U+03BC): L<<-43.0,-240.0>--<31.0,94.0>> -> L<<31.0,94.0>--<117.0,536.0>>
 
 	* uni03FC (U+03FC): L<<-33.0,-81.0>--<10.0,117.0>> -> L<<10.0,117.0>--<40.0,259.0>>
@@ -2640,11 +2706,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni1D0B (U+1D0B): L<<279.0,444.0>--<251.0,319.0>> -> L<<251.0,319.0>--<242.0,277.0>>
 
-	* uni1D5D (U+1D5D): L<<24.0,143.0>--<76.0,363.0>> -> L<<76.0,363.0>--<128.0,607.0>>
+	* uni1D5D (U+1D5D): L<<24.0,143.0>--<76.0,363.0>> -> L<<76.0,363.0>--<128.0,607.0>> 
 
-	* uni1D66 (U+1D66): L<<-81.0,-240.0>--<-29.0,-20.0>> -> L<<-29.0,-20.0>--<23.0,224.0>> 
-
-	* And 5 more.
+	* And 9 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2675,7 +2739,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 9 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[9] NotoSerif-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerif-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -2781,17 +2849,17 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* tripledagger (U+2E4B): L<<375.0,309.0>--<213.0,321.0>> -> L<<213.0,321.0>--<212.0,321.0>>
 
+	* u10788 (U+10788): L<<521.0,370.0>--<517.0,287.0>> -> L<<517.0,287.0>--<517.0,226.0>>
+
 	* uni023E (U+023E): L<<448.0,689.0>--<445.0,689.0>> -> L<<445.0,689.0>--<293.0,689.0>>
 
 	* uni0290 (U+0290): L<<402.0,138.0>--<397.0,0.0>> -> L<<397.0,0.0>--<397.0,-91.0>>
 
 	* uni03BC (U+03BC): L<<56.0,-240.0>--<58.0,136.0>> -> L<<58.0,136.0>--<56.0,536.0>>
 
-	* uni03FC (U+03FC): L<<42.0,-90.0>--<43.0,51.0>> -> L<<43.0,51.0>--<43.0,296.0>>
+	* uni03FC (U+03FC): L<<42.0,-90.0>--<43.0,51.0>> -> L<<43.0,51.0>--<43.0,296.0>> 
 
-	* uni1D5D (U+1D5D): L<<36.0,143.0>--<38.0,358.0>> -> L<<38.0,358.0>--<38.0,626.0>> 
-
-	* And 10 more.
+	* And 11 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2837,10 +2905,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* exclamdbl (U+203C): L<<149.0,714.0>--<148.0,167.0>> 
 
-	* And 178 more.
+	* And 182 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSerif-ThinItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerif-ThinItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
@@ -2997,7 +3069,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSerif-Italic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerif-Italic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -3009,6 +3081,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3021,7 +3097,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
 
 
-* ⚠ **WARN** Font file is 2.2Mb; ideally it should be less than 1.0Mb [code: large-font]
+* ⚠ **WARN** Font file is 2.3Mb; ideally it should be less than 1.0Mb [code: large-font]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -3089,12 +3165,18 @@ ERROR: Table discarded
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
+
+
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdd038c090> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdd03e68d0> 
+
+	- And Contour 2 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdd038c090> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdd03e68d0> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
 	 uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
-</div></details><br></div></details><details><summary><b>[10] NotoSerif[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerif[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -3106,10 +3188,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
-</div></details><details><summary>🔥 <b>FAIL:</b> Validate STAT particle names and values match the fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT/gf_axisregistry">com.google.fonts/check/STAT/gf_axisregistry</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** On the font variation axis 'ital', the name 'Normal' is not among the expected ones (Roman, Italic) according to the Google Fonts Axis Registry. [code: invalid-name]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3118,7 +3200,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
 
 
-* ⚠ **WARN** Font file is 2.2Mb; ideally it should be less than 1.0Mb [code: large-font]
+* ⚠ **WARN** Font file is 2.3Mb; ideally it should be less than 1.0Mb [code: large-font]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -3168,18 +3250,43 @@ Use -F or --full-lists to disable shortening of long lists.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
+
+
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0247' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb328ad0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb370750>
+
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb328ad0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb328f90>
+
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb328ad0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb3706d0>
+
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb328ad0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb370810>
+
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb328ad0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb370a90>
+
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb328ad0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb370ad0>
+
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb328ad0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb370c10>
+
+	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb328ad0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb370ad0>
+
+	- Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb328ad0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb370ad0>
+
+	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb328ad0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb370c10> 
+
+	- And Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb328ad0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcb370c10> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
 	 uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
 </div></details><br></div></details>
+
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 6 | 24 | 151 | 2154 | 143 | 1777 | 0 |
-| 0% | 1% | 4% | 51% | 3% | 42% | 0% |
+| 6 | 43 | 153 | 2210 | 143 | 1820 | 0 |
+| 0% | 1% | 3% | 51% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
