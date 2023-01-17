@@ -8,3 +8,6 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+
+# Unicode 14.0 support for Sans and Serif
+Steve Matteson <mattesontypo@gmail.com>
