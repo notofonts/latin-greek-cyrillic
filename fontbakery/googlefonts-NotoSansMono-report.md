@@ -1,11 +1,15 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.11a8
+Fontbakery version: 0.8.11a9
 
-<details><summary><b>[1] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
+<details><summary><b>[2] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
 * 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSansMono/googlefonts/ttf', 'fonts/NotoSansMono/googlefonts/variable-ttf'] [code: single-directory]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that OS/2.fsSelection bold & italic settings are unique for each NameID1 (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.adobe.fonts/check/family/bold_italic_unique_for_nameid1">com.adobe.fonts/check/family/bold_italic_unique_for_nameid1</a>)</summary><div>
+
+
+* 🔥 **FAIL** Family 'Noto Sans Mono' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
 </div></details><br></div></details><details><summary><b>[12] NotoSansMono-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -47,7 +51,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	- uniAB66 
 
-	- And uniAB67
+	- uniAB67
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -77,7 +81,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
 
-	- And 107 more.
+	- 107 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -101,7 +105,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uniA73C (U+A73C): L<<1032.0,714.0>--<853.0,0.0>> -> L<<853.0,0.0>--<841.0,-40.0>> 
 
-	* And uniA779 (U+A779): L<<0.0,725.0>--<304.0,725.0>> -> L<<304.0,725.0>--<304.0,725.0>> [code: found-colinear-vectors]
+	* uniA779 (U+A779): L<<0.0,725.0>--<304.0,725.0>> -> L<<304.0,725.0>--<304.0,725.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -127,7 +131,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni0394 (U+0394): B<<309.5,536.5>-<302.0,561.0>-<300.0,577.0>>/B<<300.0,577.0>-<298.0,561.0>-<290.5,535.5>> = 14.25003269780357 
 
-	* And 56 more.
+	* 56 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -155,7 +159,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni220A (U+220A): L<<527.0,300.0>--<199.0,301.0>> 
 
-	* And 29 more.
+	* 29 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[12] NotoSansMono-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
@@ -199,7 +203,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	- uniAB66 
 
-	- And uniAB67
+	- uniAB67
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -229,7 +233,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
 
-	- And 107 more.
+	- 107 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -259,7 +263,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uniA73C (U+A73C): L<<1053.0,714.0>--<841.0,0.0>> -> L<<841.0,0.0>--<827.0,-44.0>> 
 
-	* And uniA779 (U+A779): L<<0.0,726.0>--<304.0,726.0>> -> L<<304.0,726.0>--<304.0,726.0>> [code: found-colinear-vectors]
+	* uniA779 (U+A779): L<<0.0,726.0>--<304.0,726.0>> -> L<<304.0,726.0>--<304.0,726.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -285,7 +289,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni2137 (U+2137): L<<372.0,0.0>--<333.0,174.0>>/B<<333.0,174.0>-<333.0,126.0>-<314.5,102.0>> = 12.633361935275003 
 
-	* And 6 more.
+	* 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -313,7 +317,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni220A (U+220A): L<<527.0,133.0>--<329.0,134.0>> 
 
-	* And 23 more.
+	* 23 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[13] NotoSansMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
@@ -364,7 +368,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- uniAB66 
 
-	- And uniAB67
+	- uniAB67
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -394,7 +398,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
 
-	- And 107 more.
+	- 107 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -430,7 +434,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uniA73C (U+A73C): L<<1043.0,714.0>--<847.0,0.0>> -> L<<847.0,0.0>--<833.0,-42.0>> 
 
-	* And uniA779 (U+A779): L<<0.0,726.0>--<304.0,726.0>> -> L<<304.0,726.0>--<304.0,726.0>> [code: found-colinear-vectors]
+	* uniA779 (U+A779): L<<0.0,726.0>--<304.0,726.0>> -> L<<304.0,726.0>--<304.0,726.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -456,7 +460,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni0476 (U+0476): B<<274.5,212.5>-<280.0,182.0>-<282.0,160.0>>/B<<282.0,160.0>-<285.0,181.0>-<290.5,211.0>> = 13.324531261890755 
 
-	* And 29 more.
+	* 29 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -484,7 +488,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni220A (U+220A): L<<325.0,573.0>--<527.0,572.0>> 
 
-	* And 25 more.
+	* 25 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[13] NotoSansMono-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
@@ -534,7 +538,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- uniAB66 
 
-	- And uniAB67
+	- uniAB67
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -564,7 +568,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
 
-	- And 105 more.
+	- 105 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -602,7 +606,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uniA772 (U+A772): L<<306.0,35.0>--<325.0,35.0>> -> L<<325.0,35.0>--<416.0,35.0>> 
 
-	* And uniA779 (U+A779): L<<0.0,724.0>--<303.0,724.0>> -> L<<303.0,724.0>--<303.0,724.0>> [code: found-colinear-vectors]
+	* uniA779 (U+A779): L<<0.0,724.0>--<303.0,724.0>> -> L<<303.0,724.0>--<303.0,724.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -622,7 +626,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni2133 (U+2133): B<<822.0,667.5>-<838.0,690.0>-<844.0,697.0>>/B<<844.0,697.0>-<821.0,680.0>-<789.0,648.0>> = 12.929470964943654 
 
-	* And xi (U+03BE): B<<232.5,696.5>-<269.0,717.0>-<313.0,728.0>>/B<<313.0,728.0>-<288.0,727.0>-<263.0,726.0>> = 11.745633425287961 [code: found-jaggy-segments]
+	* xi (U+03BE): B<<232.5,696.5>-<269.0,717.0>-<313.0,728.0>>/B<<313.0,728.0>-<288.0,727.0>-<263.0,726.0>> = 11.745633425287961 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -640,7 +644,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uniA65F (U+A65F): L<<306.0,-240.0>--<307.0,455.0>> 
 
-	* And uniA65F (U+A65F): L<<341.0,455.0>--<342.0,-240.0>> [code: found-semi-vertical]
+	* uniA65F (U+A65F): L<<341.0,455.0>--<342.0,-240.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[12] NotoSansMono-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -682,7 +686,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	- uniAB66 
 
-	- And uniAB67
+	- uniAB67
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -712,7 +716,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
 
-	- And 105 more.
+	- 105 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -750,7 +754,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uniA642 (U+A642): L<<170.0,50.0>--<170.0,50.0>> -> L<<170.0,50.0>--<343.0,50.0>> 
 
-	* And 4 more.
+	* 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -770,7 +774,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uniA7A1 (U+A7A1): L<<454.0,281.0>--<454.0,281.0>>/L<<454.0,281.0>--<125.0,206.0>> = 12.841896284172142 
 
-	* And xi (U+03BE): B<<227.0,684.5>-<262.0,704.0>-<304.0,715.0>>/B<<304.0,715.0>-<283.0,714.0>-<256.0,712.5>> = 11.950082143543746 [code: found-jaggy-segments]
+	* xi (U+03BE): B<<227.0,684.5>-<262.0,704.0>-<304.0,715.0>>/B<<304.0,715.0>-<283.0,714.0>-<256.0,712.5>> = 11.950082143543746 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -796,7 +800,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uniAB3C (U+AB3C): L<<513.0,356.0>--<512.0,-47.0>> 
 
-	* And uniAB45 (U+AB45): L<<79.0,0.0>--<78.0,126.0>> [code: found-semi-vertical]
+	* uniAB45 (U+AB45): L<<79.0,0.0>--<78.0,126.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[13] NotoSansMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -845,7 +849,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- uniAB66 
 
-	- And uniAB67
+	- uniAB67
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -875,7 +879,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
 
-	- And 101 more.
+	- 101 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -901,7 +905,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uniA779 (U+A779): L<<0.0,726.0>--<300.0,726.0>> -> L<<300.0,726.0>--<300.0,726.0>> 
 
-	* And uniA779 (U+A779): L<<300.0,726.0>--<300.0,726.0>> -> L<<300.0,726.0>--<300.0,726.0>> [code: found-colinear-vectors]
+	* uniA779 (U+A779): L<<300.0,726.0>--<300.0,726.0>> -> L<<300.0,726.0>--<300.0,726.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -925,7 +929,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni213B (U+213B): B<<286.5,621.5>-<283.0,648.0>-<281.0,664.0>>/B<<281.0,664.0>-<279.0,648.0>-<275.5,621.5>> = 14.25003269780357 
 
-	* And xi (U+03BE): B<<182.0,632.5>-<222.0,666.0>-<283.0,684.0>>/B<<283.0,684.0>-<266.0,682.0>-<234.5,680.0>> = 9.730542713923196 [code: found-jaggy-segments]
+	* xi (U+03BE): B<<182.0,632.5>-<222.0,666.0>-<283.0,684.0>>/B<<283.0,684.0>-<266.0,682.0>-<234.5,680.0>> = 9.730542713923196 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -947,7 +951,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni25AE (U+25AE): L<<148.0,-284.0>--<149.0,713.0>> 
 
-	* And uni27D7 (U+27D7): L<<77.0,658.0>--<287.0,659.0>> [code: found-semi-vertical]
+	* uni27D7 (U+27D7): L<<77.0,658.0>--<287.0,659.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[12] NotoSansMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -989,7 +993,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	- uniAB66 
 
-	- And uniAB67
+	- uniAB67
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1019,7 +1023,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
 
-	- And 101 more.
+	- 101 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1053,7 +1057,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uniA779 (U+A779): L<<0.0,726.0>--<298.0,726.0>> -> L<<298.0,726.0>--<298.0,726.0>> 
 
-	* And uniA779 (U+A779): L<<298.0,726.0>--<298.0,726.0>> -> L<<298.0,726.0>--<300.0,726.0>> [code: found-colinear-vectors]
+	* uniA779 (U+A779): L<<298.0,726.0>--<298.0,726.0>> -> L<<298.0,726.0>--<300.0,726.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -1077,7 +1081,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni213B (U+213B): B<<286.5,623.5>-<283.0,649.0>-<281.0,665.0>>/B<<281.0,665.0>-<279.0,649.0>-<275.5,623.5>> = 14.25003269780357 
 
-	* And xi (U+03BE): B<<218.0,663.5>-<250.0,682.0>-<288.0,693.0>>/B<<288.0,693.0>-<275.0,692.0>-<243.5,689.5>> = 11.745633425287899 [code: found-jaggy-segments]
+	* xi (U+03BE): B<<218.0,663.5>-<250.0,682.0>-<288.0,693.0>>/B<<288.0,693.0>-<275.0,692.0>-<243.5,689.5>> = 11.745633425287899 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1089,7 +1093,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni27D7 (U+27D7): L<<81.0,658.0>--<282.0,659.0>> 
 
-	* And uniA65F (U+A65F): L<<358.0,415.0>--<362.0,-240.0>> [code: found-semi-vertical]
+	* uniA65F (U+A65F): L<<358.0,415.0>--<362.0,-240.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[13] NotoSansMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -1138,7 +1142,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- uniAB66 
 
-	- And uniAB67
+	- uniAB67
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1168,7 +1172,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
 
-	- And 103 more.
+	- 103 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1202,7 +1206,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uniA73C (U+A73C): L<<1050.0,714.0>--<825.0,0.0>> -> L<<825.0,0.0>--<810.0,-43.0>> 
 
-	* And uniA779 (U+A779): L<<0.0,726.0>--<302.0,726.0>> -> L<<302.0,726.0>--<302.0,726.0>> [code: found-colinear-vectors]
+	* uniA779 (U+A779): L<<0.0,726.0>--<302.0,726.0>> -> L<<302.0,726.0>--<302.0,726.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -1228,7 +1232,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni213B (U+213B): B<<286.5,618.5>-<283.0,646.0>-<281.0,662.0>>/B<<281.0,662.0>-<279.0,646.0>-<275.0,618.5>> = 14.25003269780357 
 
-	* And xi (U+03BE): B<<173.5,623.5>-<211.0,656.0>-<277.0,673.0>>/B<<277.0,673.0>-<256.0,671.0>-<224.5,669.0>> = 9.003703693486726 [code: found-jaggy-segments]
+	* xi (U+03BE): B<<173.5,623.5>-<211.0,656.0>-<277.0,673.0>>/B<<277.0,673.0>-<256.0,671.0>-<224.5,669.0>> = 9.003703693486726 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1254,7 +1258,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni220A (U+220A): L<<527.0,133.0>--<329.0,134.0>> 
 
-	* And 21 more.
+	* 21 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[12] NotoSansMono-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
@@ -1289,7 +1293,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 	- uniAB66 
 
-	- And uniAB67
+	- uniAB67
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1319,7 +1323,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
 
-	- And 105 more.
+	- 105 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1357,7 +1361,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni2C6A (U+2C6A): L<<167.0,201.0>--<235.0,269.0>> -> L<<235.0,269.0>--<491.0,528.0>> 
 
-	* And 10 more.
+	* 10 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1385,7 +1389,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni20B9 (U+20B9): L<<541.0,689.0>--<314.0,689.0>>/B<<314.0,689.0>-<361.0,677.0>-<391.0,636.5>> = 14.32271997820355 
 
-	* And 4 more.
+	* 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1413,7 +1417,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* exclamdown (U+00A1): L<<312.0,355.0>--<314.0,-185.0>> 
 
-	* And 42 more.
+	* 42 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[12] NotoSansMono[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
@@ -1457,14 +1461,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 	- uniAB66 
 
-	- And uniAB67
+	- uniAB67
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'Bbarredmod' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fb619eb4c10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fb619eb6ad0> 
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'Bbarredmod' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f88da2012d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f88da203150> 
 
-	- And Contour 0 start point differs in glyph 'uni2055' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fb619eb4c10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fb619eb6ad0> [code: interpolation-issues]
+	- Contour 0 start point differs in glyph 'uni2055' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f88da2012d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f88da203150> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -1480,7 +1484,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 31 | 91 | 1116 | 62 | 892 | 0 |
+| 3 | 32 | 91 | 1111 | 62 | 896 | 0 |
 | 0% | 1% | 4% | 51% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
