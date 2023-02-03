@@ -3199,23 +3199,23 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71ee42010> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71eeadd10>
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b89a10>
 
-	- Contour 0 start point differs in glyph 'theta' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71ee42010> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71eead910>
+	- Contour 0 start point differs in glyph 'theta' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b89590>
 
-	- Contour 1 start point differs in glyph 'omegaroundcy' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71ee42010> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71eeadd10>
+	- Contour 1 start point differs in glyph 'omegaroundcy' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b89a10>
 
-	- Contour 0 start point differs in glyph 'uni1DBF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71ee42010> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71eead910>
+	- Contour 0 start point differs in glyph 'uni1DBF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b89590>
 
-	- Contour 2 start point differs in glyph 'zero.slash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71ee42010> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71eeadd10>
+	- Contour 2 start point differs in glyph 'zero.slash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b89a10>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71ee42010> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71ee424d0>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa5df47b90>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71ee42010> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71eeadb90>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b89890>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71ee42010> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71eeadbd0> 
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b898d0> 
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71ee42010> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff71eeadd10> [code: interpolation-issues]
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa60b89a10> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -3320,7 +3320,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni0249' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff72531b050> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff7252bfd90> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni0249' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa66d0b250> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7faa66c8e110> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
