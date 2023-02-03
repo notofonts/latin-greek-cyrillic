@@ -58,7 +58,7 @@ These were the version values found:
 	* iivowelcandrabindu2deva
 	* iivowelcandrabindu3deva
 	* iivowelcandrabindudeva
-	* oeopen and 6 more.
+	* oeopen and 7 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -415,7 +415,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* iivowelcandrabindu2deva
 	* iivowelcandrabindu3deva
 	* iivowelcandrabindudeva
-	* oeopen and 6 more.
+	* oeopen and 7 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -774,7 +774,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* iivowelcandrabindu2deva
 	* iivowelcandrabindu3deva
 	* iivowelcandrabindudeva
-	* oeopen and 6 more.
+	* oeopen and 7 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1121,6 +1121,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* uni03FC
+	* uni20BE
 	* uni2C65 and uniA66E
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
@@ -1625,6 +1626,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* oeopen
 	* uni0247
 	* uni03FC
+	* uni20BE
 	* uni2C65 and uniA66E
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
@@ -1950,7 +1952,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* iivowelcandrabindu2deva
 	* iivowelcandrabindudeva
 	* oeopen
-	* oshortvowelsigncandrabindudeva and 6 more.
+	* oshortvowelsigncandrabindudeva and 7 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -2277,6 +2279,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* oeopen
 	* solidusdotted
 	* uni0247
+	* uni20BE
 	* uni2C65 and uniA66E
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
@@ -2429,7 +2432,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* iivowelcandrabindu2deva
 	* iivowelcandrabindu3deva
 	* iivowelcandrabindudeva
-	* oeopen and 7 more.
+	* oeopen and 8 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -3199,23 +3202,23 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c93ec50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c9a6990>
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e946e5f50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e94551c10>
 
-	- Contour 0 start point differs in glyph 'theta' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c93ec50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c9a6590>
+	- Contour 0 start point differs in glyph 'theta' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e946e5f50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e94551810>
 
-	- Contour 1 start point differs in glyph 'omegaroundcy' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c93ec50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c9a6990>
+	- Contour 1 start point differs in glyph 'omegaroundcy' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e946e5f50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e94551c10>
 
-	- Contour 0 start point differs in glyph 'uni1DBF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c93ec50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c9a6590>
+	- Contour 0 start point differs in glyph 'uni1DBF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e946e5f50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e94551810>
 
-	- Contour 2 start point differs in glyph 'zero.slash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c93ec50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c9a6990>
+	- Contour 2 start point differs in glyph 'zero.slash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e946e5f50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e94551c10>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c93ec50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c93f110>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e946e5f50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e946e6410>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c93ec50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c9a6810>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e946e5f50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e94551a90>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c93ec50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c9a6850> 
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e946e5f50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e94551ad0> 
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c93ec50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922c9a6990> [code: interpolation-issues]
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e946e5f50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e94551c10> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -3320,7 +3323,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni0249' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922fd4dad0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f922fdb4950> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni0249' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e9a58c510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9e9a556a10> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
