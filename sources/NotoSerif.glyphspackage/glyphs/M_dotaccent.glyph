@@ -1,0 +1,195 @@
+{
+category = Letter;
+glyphname = Mdotaccent;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (454,0);
+},
+{
+name = top;
+pos = (454,903);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = M;
+},
+{
+alignment = -1;
+pos = (384,165);
+ref = dotaccent;
+}
+);
+width = 908;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (469,0);
+},
+{
+name = top;
+pos = (469,925);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = M;
+},
+{
+pos = (372,165);
+ref = dotaccent;
+}
+);
+width = 938;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (476,0);
+},
+{
+name = top;
+pos = (476,935);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = M;
+},
+{
+pos = (351,165);
+ref = dotaccent;
+}
+);
+width = 952;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (481,0);
+},
+{
+name = top;
+pos = (481,942);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = M;
+},
+{
+pos = (335,165);
+ref = dotaccent;
+}
+);
+width = 962;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (351,0);
+},
+{
+name = top;
+pos = (351,903);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = M;
+},
+{
+pos = (288,165);
+ref = dotaccent;
+}
+);
+width = 701;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (373,0);
+},
+{
+name = top;
+pos = (373,920);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = M;
+},
+{
+pos = (282,165);
+ref = dotaccent;
+}
+);
+width = 745;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (389,0);
+},
+{
+name = top;
+pos = (389,929);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = M;
+},
+{
+pos = (278,165);
+ref = dotaccent;
+}
+);
+width = 777;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (401,0);
+},
+{
+name = top;
+pos = (401,936);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = M;
+},
+{
+pos = (274,165);
+ref = dotaccent;
+}
+);
+width = 802;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 7744;
+}

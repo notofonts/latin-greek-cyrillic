@@ -1,0 +1,177 @@
+{
+category = Mark;
+glyphname = macronbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (-62,0);
+},
+{
+name = bottom;
+pos = (-84,-138);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+pos = (-349,-744);
+ref = macronmod;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (-48,0);
+},
+{
+name = bottom;
+pos = (-70,-151);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+pos = (-337,-757);
+ref = macronmod;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (-37,0);
+},
+{
+name = bottom;
+pos = (-59,-161);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+pos = (-328,-767);
+ref = macronmod;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (-28,0);
+},
+{
+name = bottom;
+pos = (-50,-156);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+pos = (-292,-762);
+ref = macronmod;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (-63,0);
+},
+{
+name = bottom;
+pos = (-84,-121);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+pos = (-294,-727);
+ref = macronmod;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (-82,0);
+},
+{
+name = bottom;
+pos = (-102,-122);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+pos = (-364,-728);
+ref = macronmod;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (-47,0);
+},
+{
+name = bottom;
+pos = (-68,-137);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+pos = (-305,-743);
+ref = macronmod;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (-36,0);
+},
+{
+name = bottom;
+pos = (-58,-148);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+pos = (-297,-754);
+ref = macronmod;
+}
+);
+width = 0;
+}
+);
+script = "";
+subCategory = Nonspacing;
+unicode = 817;
+}

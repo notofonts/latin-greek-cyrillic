@@ -1,0 +1,180 @@
+{
+category = Symbol;
+glyphname = APLquaduparrow;
+layers = (
+{
+layerId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(313,-53,l),
+(313,646,l),
+(405,632,l),
+(300,748,l),
+(196,632,l),
+(287,646,l),
+(287,-53,l)
+);
+},
+{
+ref = APLquad;
+}
+);
+width = 600;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(336,-31,l),
+(336,588,l),
+(443,571,l),
+(301,726,l),
+(159,571,l),
+(265,588,l),
+(265,-31,l)
+);
+},
+{
+ref = APLquad;
+}
+);
+width = 600;
+},
+{
+layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(346,-21,l),
+(346,567,l),
+(450,548,l),
+(301,716,l),
+(151,548,l),
+(255,567,l),
+(255,-21,l)
+);
+},
+{
+ref = APLquad;
+}
+);
+width = 600;
+},
+{
+layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
+shapes = (
+{
+closed = 1;
+nodes = (
+(353,-14,l),
+(353,553,l),
+(455,533,l),
+(301,709,l),
+(146,533,l),
+(249,553,l),
+(249,-14,l)
+);
+},
+{
+alignment = -1;
+ref = APLquad;
+}
+);
+width = 600;
+},
+{
+layerId = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(262,-53,l),
+(262,646,l),
+(340,632,l),
+(250,748,l),
+(161,632,l),
+(238,646,l),
+(238,-53,l)
+);
+},
+{
+ref = APLquad;
+}
+);
+width = 500;
+},
+{
+layerId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(284,-32,l),
+(284,590,l),
+(371,573,l),
+(253,727,l),
+(134,573,l),
+(221,590,l),
+(221,-32,l)
+);
+},
+{
+pos = (1,0);
+ref = APLquad;
+}
+);
+width = 500;
+},
+{
+layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(293,-22,l),
+(293,570,l),
+(378,552,l),
+(252,717,l),
+(125,552,l),
+(211,570,l),
+(211,-22,l)
+);
+},
+{
+ref = APLquad;
+}
+);
+width = 500;
+},
+{
+layerId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
+shapes = (
+{
+closed = 1;
+nodes = (
+(298,-16,l),
+(298,557,l),
+(382,538,l),
+(251,711,l),
+(120,538,l),
+(205,557,l),
+(205,-16,l)
+);
+},
+{
+alignment = -1;
+ref = APLquad;
+}
+);
+width = 500;
+}
+);
+script = "";
+subCategory = Other;
+unicode = 9040;
+}

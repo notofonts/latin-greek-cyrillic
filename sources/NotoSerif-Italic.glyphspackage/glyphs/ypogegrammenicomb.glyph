@@ -1,0 +1,129 @@
+{
+category = Mark;
+glyphname = ypogegrammenicomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (134,0);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = ypogegrammeni;
+}
+);
+width = 274;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (112,0);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+ref = ypogegrammeni;
+}
+);
+width = 305;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (112,0);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+ref = ypogegrammeni;
+}
+);
+width = 304;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (112,0);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+ref = ypogegrammeni;
+}
+);
+width = 319;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (112,0);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+ref = ypogegrammeni;
+}
+);
+width = 194;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (96,0);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+ref = ypogegrammeni;
+}
+);
+width = 209;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (112,0);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+ref = ypogegrammeni;
+}
+);
+width = 264;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (112,0);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+ref = ypogegrammeni;
+}
+);
+width = 309;
+}
+);
+script = greek;
+subCategory = Nonspacing;
+unicode = 837;
+}

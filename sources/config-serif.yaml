@@ -4,5 +4,5 @@ category:
 familyName: Noto Serif
 googleFonts: true
 sources:
-- NotoSerif.glyphs
-- NotoSerif-Italic.glyphs
+- NotoSerif.glyphspackage
+- NotoSerif-Italic.glyphspackage

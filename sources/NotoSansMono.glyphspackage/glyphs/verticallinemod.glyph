@@ -1,0 +1,209 @@
+{
+category = Mark;
+glyphname = verticallinemod;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (300,428);
+},
+{
+name = top;
+pos = (300,760);
+}
+);
+layerId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(312,496,l),
+(312,760,l),
+(288,760,l),
+(288,496,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (300,436);
+},
+{
+name = top;
+pos = (300,760);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(340,496,l),
+(340,760,l),
+(260,760,l),
+(260,496,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (300,446);
+},
+{
+name = top;
+pos = (300,770);
+}
+);
+layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(350,496,l),
+(350,770,l),
+(250,770,l),
+(250,496,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (300,453);
+},
+{
+name = top;
+pos = (300,776);
+}
+);
+layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
+shapes = (
+{
+closed = 1;
+nodes = (
+(356,496,l),
+(356,776,l),
+(243,776,l),
+(243,496,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (250,427);
+},
+{
+name = top;
+pos = (250,757);
+}
+);
+layerId = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(263,496,l),
+(263,757,l),
+(237,757,l),
+(237,496,l)
+);
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (250,437);
+},
+{
+name = top;
+pos = (250,764);
+}
+);
+layerId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(279,496,l),
+(279,764,l),
+(221,764,l),
+(221,496,l)
+);
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (250,447);
+},
+{
+name = top;
+pos = (250,771);
+}
+);
+layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(291,496,l),
+(291,771,l),
+(209,771,l),
+(209,496,l)
+);
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (250,453);
+},
+{
+name = top;
+pos = (250,775);
+}
+);
+layerId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
+shapes = (
+{
+closed = 1;
+nodes = (
+(298,496,l),
+(298,775,l),
+(201,775,l),
+(201,496,l)
+);
+}
+);
+width = 500;
+}
+);
+script = "";
+subCategory = Modifier;
+unicode = 712;
+}

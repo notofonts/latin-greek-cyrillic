@@ -1,0 +1,197 @@
+{
+category = Letter;
+glyphname = ycircumflex.sc;
+kernLeft = y.sc;
+kernRight = y.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (323,0);
+},
+{
+name = top;
+pos = (323,825);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (34,0);
+ref = circumflexcomb.sc;
+}
+);
+width = 646;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (266,0);
+},
+{
+name = top;
+pos = (266,801);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (-23,0);
+ref = circumflexcomb.sc;
+}
+);
+width = 531;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (301,0);
+},
+{
+name = top;
+pos = (301,815);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (12,0);
+ref = circumflexcomb.sc;
+}
+);
+width = 602;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (270,0);
+},
+{
+name = top;
+pos = (270,820);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (29,35);
+ref = circumflexcomb.sc;
+}
+);
+width = 539;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (180,0);
+},
+{
+name = top;
+pos = (180,795);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (-39,35);
+ref = circumflexcomb.sc;
+}
+);
+width = 359;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (230,0);
+},
+{
+name = top;
+pos = (230,801);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = y.sc;
+},
+{
+alignment = -1;
+pos = (-59,35);
+ref = circumflexcomb.sc;
+}
+);
+width = 459;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (219,0);
+},
+{
+name = top;
+pos = (219,806);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (-10,35);
+ref = circumflexcomb.sc;
+}
+);
+width = 437;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (248,0);
+},
+{
+name = top;
+pos = (248,814);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (12,35);
+ref = circumflexcomb.sc;
+}
+);
+width = 495;
+}
+);
+metricWidth = y.sc;
+script = latin;
+subCategory = Smallcaps;
+}

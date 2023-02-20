@@ -1,0 +1,209 @@
+{
+category = Letter;
+glyphname = Ezhcaron;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (241,0);
+},
+{
+name = top;
+pos = (399,931);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+ref = "Dzeabkhasian-cy";
+},
+{
+alignment = -1;
+pos = (144,165);
+ref = caron;
+}
+);
+width = 597;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (245,0);
+},
+{
+name = top;
+pos = (423,931);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = "Dzeabkhasian-cy";
+},
+{
+alignment = -1;
+pos = (192,165);
+ref = caron;
+}
+);
+width = 603;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (247,0);
+},
+{
+name = top;
+pos = (428,931);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+ref = "Dzeabkhasian-cy";
+},
+{
+alignment = -1;
+pos = (115,165);
+ref = caron;
+}
+);
+width = 607;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (248,0);
+},
+{
+name = top;
+pos = (443,931);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+ref = "Dzeabkhasian-cy";
+},
+{
+alignment = -1;
+pos = (105,165);
+ref = caron;
+}
+);
+width = 610;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (179,0);
+},
+{
+name = top;
+pos = (317,931);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+ref = "Dzeabkhasian-cy";
+},
+{
+alignment = -1;
+pos = (88,165);
+ref = caron;
+}
+);
+width = 413;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (185,0);
+},
+{
+name = top;
+pos = (368,931);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+ref = "Dzeabkhasian-cy";
+},
+{
+alignment = -1;
+pos = (111,165);
+ref = caron;
+}
+);
+width = 483;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (189,0);
+},
+{
+name = top;
+pos = (380,931);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+ref = "Dzeabkhasian-cy";
+},
+{
+alignment = -1;
+pos = (100,165);
+ref = caron;
+}
+);
+width = 492;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (192,0);
+},
+{
+name = top;
+pos = (390,931);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+ref = "Dzeabkhasian-cy";
+},
+{
+alignment = -1;
+pos = (93,165);
+ref = caron;
+}
+);
+width = 498;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 494;
+}

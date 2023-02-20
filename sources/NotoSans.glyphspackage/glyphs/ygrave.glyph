@@ -1,0 +1,202 @@
+{
+category = Letter;
+glyphname = ygrave;
+kernRight = v.left;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (138,-240);
+},
+{
+name = top;
+pos = (305,766);
+}
+);
+layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+pos = (695,0);
+ref = gravecomb;
+}
+);
+width = 610;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (131,-240);
+},
+{
+name = top;
+pos = (246,766);
+}
+);
+layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+pos = (508,0);
+ref = gravecomb;
+}
+);
+width = 491;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (94,-240);
+},
+{
+name = top;
+pos = (255,766);
+}
+);
+layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+pos = (618,0);
+ref = gravecomb;
+}
+);
+width = 510;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (120,-240);
+},
+{
+name = top;
+pos = (285,766);
+}
+);
+layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+pos = (634,0);
+ref = gravecomb;
+}
+);
+width = 569;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (74,-240);
+},
+{
+name = top;
+pos = (185,766);
+}
+);
+layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+pos = (463,0);
+ref = gravecomb;
+}
+);
+width = 370;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (109,-240);
+},
+{
+name = top;
+pos = (222,766);
+}
+);
+layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+pos = (490,0);
+ref = gravecomb;
+}
+);
+width = 444;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (50,-243);
+},
+{
+name = top;
+pos = (214,766);
+}
+);
+layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+pos = (576,0);
+ref = gravecomb;
+}
+);
+width = 428;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (44,-242);
+},
+{
+name = top;
+pos = (158,763);
+}
+);
+layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+pos = (487,0);
+ref = gravecomb;
+}
+);
+width = 316;
+}
+);
+script = latin;
+subCategory = Lowercase;
+unicode = 7923;
+}

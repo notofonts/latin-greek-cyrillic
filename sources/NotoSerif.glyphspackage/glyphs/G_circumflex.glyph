@@ -1,0 +1,197 @@
+{
+category = Letter;
+glyphname = Gcircumflex;
+kernLeft = O;
+kernRight = G;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (405,0);
+},
+{
+name = top;
+pos = (405,931);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = G;
+},
+{
+pos = (182,165);
+ref = circumflex;
+}
+);
+width = 810;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (357,0);
+},
+{
+name = top;
+pos = (357,931);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = G;
+},
+{
+pos = (206,165);
+ref = circumflex;
+}
+);
+width = 714;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (385,0);
+},
+{
+name = top;
+pos = (385,931);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = G;
+},
+{
+pos = (192,165);
+ref = circumflex;
+}
+);
+width = 769;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (338,0);
+},
+{
+name = top;
+pos = (338,931);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = G;
+},
+{
+pos = (145,165);
+ref = circumflex;
+}
+);
+width = 675;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (250,0);
+},
+{
+name = top;
+pos = (250,931);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = G;
+},
+{
+pos = (157,165);
+ref = circumflex;
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (322,0);
+},
+{
+name = top;
+pos = (322,931);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = G;
+},
+{
+alignment = -1;
+pos = (212,165);
+ref = circumflex;
+}
+);
+width = 644;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (288,0);
+},
+{
+name = top;
+pos = (288,931);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = G;
+},
+{
+pos = (151,165);
+ref = circumflex;
+}
+);
+width = 576;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (316,0);
+},
+{
+name = top;
+pos = (316,931);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = G;
+},
+{
+pos = (148,165);
+ref = circumflex;
+}
+);
+width = 632;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 284;
+}

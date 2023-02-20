@@ -1,0 +1,120 @@
+{
+glyphname = Omicronpsilivaria;
+kernLeft = GRK_Omicrontonos;
+kernRight = GRK_Omicron;
+layers = (
+{
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+pos = (149,0);
+ref = Omicron;
+},
+{
+pos = (-40,0);
+ref = psilivaria.case;
+}
+);
+width = 835;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (225,0);
+ref = Omicron;
+},
+{
+pos = (-40,0);
+ref = psilivaria.case;
+}
+);
+width = 967;
+},
+{
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+pos = (269,0);
+ref = Omicron;
+},
+{
+pos = (-55,0);
+ref = psilivaria.case;
+}
+);
+width = 1056;
+},
+{
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+pos = (301,0);
+ref = Omicron;
+},
+{
+pos = (-66,0);
+ref = psilivaria.case;
+}
+);
+width = 1121;
+},
+{
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+pos = (153,0);
+ref = Omicron;
+},
+{
+pos = (-30,1);
+ref = psilivaria.case;
+}
+);
+width = 683;
+},
+{
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+pos = (222,0);
+ref = Omicron;
+},
+{
+pos = (-42,0);
+ref = psilivaria.case;
+}
+);
+width = 819;
+},
+{
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+pos = (232,0);
+ref = Omicron;
+},
+{
+pos = (-50,0);
+ref = psilivaria.case;
+}
+);
+width = 878;
+},
+{
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+pos = (293,0);
+ref = Omicron;
+},
+{
+pos = (-57,0);
+ref = psilivaria.case;
+}
+);
+width = 977;
+}
+);
+unicode = 8010;
+}

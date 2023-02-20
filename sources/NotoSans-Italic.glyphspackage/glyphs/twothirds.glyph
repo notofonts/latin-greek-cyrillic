@@ -1,0 +1,179 @@
+{
+category = Number;
+glyphname = twothirds;
+layers = (
+{
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+alignment = -1;
+pos = (253,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (-30,-130);
+ref = twosuperior;
+},
+{
+alignment = -1;
+pos = (317,-416);
+ref = threesuperior;
+}
+);
+width = 662;
+},
+{
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+alignment = -1;
+pos = (352,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (-35,-130);
+ref = twosuperior;
+},
+{
+alignment = -1;
+pos = (396,-416);
+ref = threesuperior;
+}
+);
+width = 789;
+},
+{
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+alignment = -1;
+pos = (418,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (-29,-128);
+ref = twosuperior;
+},
+{
+alignment = -1;
+pos = (461,-414);
+ref = threesuperior;
+}
+);
+width = 920;
+},
+{
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+alignment = -1;
+pos = (338,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (-23,-130);
+ref = twosuperior;
+},
+{
+alignment = -1;
+pos = (394,-416);
+ref = threesuperior;
+}
+);
+width = 785;
+},
+{
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+alignment = -1;
+pos = (380,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (-28,-130);
+ref = twosuperior;
+},
+{
+alignment = -1;
+pos = (413,-416);
+ref = threesuperior;
+}
+);
+width = 843;
+},
+{
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+alignment = -1;
+pos = (297,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (-21,-130);
+ref = twosuperior;
+},
+{
+alignment = -1;
+pos = (364,-416);
+ref = threesuperior;
+}
+);
+width = 723;
+},
+{
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+alignment = -1;
+pos = (373,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (-27,-130);
+ref = twosuperior;
+},
+{
+alignment = -1;
+pos = (420,-416);
+ref = threesuperior;
+}
+);
+width = 835;
+},
+{
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+alignment = -1;
+pos = (464,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (-23,-128);
+ref = twosuperior;
+},
+{
+alignment = -1;
+pos = (498,-414);
+ref = threesuperior;
+}
+);
+width = 989;
+}
+);
+metricLeft = two.numr;
+metricRight = three.dnom;
+script = "";
+subCategory = Fraction;
+unicode = 8532;
+}

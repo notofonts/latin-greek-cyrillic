@@ -1,0 +1,185 @@
+{
+category = Mark;
+glyphname = "elcomb-cy";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (53,536);
+},
+{
+name = top;
+pos = (116,834);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+pos = (-31,620);
+ref = "el-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (55,536);
+},
+{
+name = top;
+pos = (119,837);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+pos = (-46,620);
+ref = "el-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (54,536);
+},
+{
+name = top;
+pos = (118,838);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+pos = (-56,620);
+ref = "el-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (53,536);
+},
+{
+name = top;
+pos = (117,840);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+pos = (-63,620);
+ref = "el-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (46,536);
+},
+{
+name = top;
+pos = (111,838);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+pos = (-1,620);
+ref = "el-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (55,536);
+},
+{
+name = top;
+pos = (119,836);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+pos = (-19,620);
+ref = "el-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (55,536);
+},
+{
+name = top;
+pos = (119,838);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+pos = (-28,620);
+ref = "el-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (54,536);
+},
+{
+name = top;
+pos = (119,839);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+pos = (-35,620);
+ref = "el-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+}
+);
+script = "";
+subCategory = Nonspacing;
+unicode = 11751;
+}

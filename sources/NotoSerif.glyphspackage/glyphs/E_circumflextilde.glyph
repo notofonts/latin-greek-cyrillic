@@ -1,0 +1,197 @@
+{
+category = Letter;
+glyphname = Ecircumflextilde;
+kernLeft = B;
+kernRight = E;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (293,0);
+},
+{
+name = top;
+pos = (293,1023);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = E;
+},
+{
+alignment = -1;
+pos = (614,165);
+ref = circumflextildecomb;
+}
+);
+width = 585;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (312,0);
+},
+{
+name = top;
+pos = (312,1048);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (614,165);
+ref = circumflextildecomb;
+}
+);
+width = 623;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (327,0);
+},
+{
+name = top;
+pos = (327,1060);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (614,165);
+ref = circumflextildecomb;
+}
+);
+width = 653;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (338,0);
+},
+{
+name = top;
+pos = (338,1051);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (614,165);
+ref = circumflextildecomb;
+}
+);
+width = 675;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (225,0);
+},
+{
+name = top;
+pos = (225,1045);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (464,165);
+ref = circumflextildecomb;
+}
+);
+width = 449;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (250,0);
+},
+{
+name = top;
+pos = (250,1047);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (485,165);
+ref = circumflextildecomb;
+}
+);
+width = 499;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (268,0);
+},
+{
+name = top;
+pos = (268,1049);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (500,165);
+ref = circumflextildecomb;
+}
+);
+width = 535;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (282,0);
+},
+{
+name = top;
+pos = (282,1050);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (511,165);
+ref = circumflextildecomb;
+}
+);
+width = 563;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 7876;
+}

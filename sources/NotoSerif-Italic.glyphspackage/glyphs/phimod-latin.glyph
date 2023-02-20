@@ -1,0 +1,185 @@
+{
+category = Letter;
+glyphname = "phimod-latin";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (163,143);
+},
+{
+name = top;
+pos = (291,743);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 380;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (192,143);
+},
+{
+name = top;
+pos = (320,743);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 438;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (215,143);
+},
+{
+name = top;
+pos = (343,743);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 483;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (231,143);
+},
+{
+name = top;
+pos = (359,743);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 516;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (121,143);
+},
+{
+name = top;
+pos = (249,743);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 296;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (154,143);
+},
+{
+name = top;
+pos = (282,743);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 361;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (173,143);
+},
+{
+name = top;
+pos = (301,743);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 399;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (187,143);
+},
+{
+name = top;
+pos = (315,743);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 428;
+}
+);
+script = "";
+subCategory = Modifier;
+unicode = 7602;
+}

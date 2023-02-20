@@ -1,0 +1,197 @@
+{
+category = Letter;
+glyphname = Utilde;
+kernLeft = U;
+kernRight = U;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (385,0);
+},
+{
+name = top;
+pos = (385,951);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (169,165);
+ref = tilde;
+}
+);
+width = 769;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (359,0);
+},
+{
+name = top;
+pos = (359,899);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (152,165);
+ref = tilde;
+}
+);
+width = 717;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (374,0);
+},
+{
+name = top;
+pos = (374,929);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (162,165);
+ref = tilde;
+}
+);
+width = 747;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (321,0);
+},
+{
+name = top;
+pos = (321,937);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (134,165);
+ref = tilde;
+}
+);
+width = 642;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (260,0);
+},
+{
+name = top;
+pos = (260,865);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (98,165);
+ref = tilde;
+}
+);
+width = 520;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (340,0);
+},
+{
+name = top;
+pos = (340,865);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = U;
+},
+{
+alignment = -1;
+pos = (146,165);
+ref = tilde;
+}
+);
+width = 679;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (287,0);
+},
+{
+name = top;
+pos = (287,896);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (113,165);
+ref = tilde;
+}
+);
+width = 573;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (306,0);
+},
+{
+name = top;
+pos = (306,919);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (125,165);
+ref = tilde;
+}
+);
+width = 612;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 360;
+}

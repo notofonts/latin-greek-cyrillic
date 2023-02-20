@@ -1,0 +1,195 @@
+{
+category = Letter;
+glyphname = Rdotaccent;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (296,0);
+},
+{
+name = top;
+pos = (296,903);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = R;
+},
+{
+alignment = -1;
+pos = (243,165);
+ref = dotaccent;
+}
+);
+width = 592;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (328,0);
+},
+{
+name = top;
+pos = (328,925);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = R;
+},
+{
+pos = (231,165);
+ref = dotaccent;
+}
+);
+width = 656;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (354,0);
+},
+{
+name = top;
+pos = (354,935);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (209,165);
+ref = dotaccent;
+}
+);
+width = 707;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (373,0);
+},
+{
+name = top;
+pos = (373,942);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (192,165);
+ref = dotaccent;
+}
+);
+width = 745;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (230,0);
+},
+{
+name = top;
+pos = (230,903);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (181,165);
+ref = dotaccent;
+}
+);
+width = 459;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (265,0);
+},
+{
+name = top;
+pos = (265,920);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (169,165);
+ref = dotaccent;
+}
+);
+width = 530;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (291.01,0);
+},
+{
+name = top;
+pos = (291,929);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (162,165);
+ref = dotaccent;
+}
+);
+width = 582;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (311,0);
+},
+{
+name = top;
+pos = (311,936);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (155,165);
+ref = dotaccent;
+}
+);
+width = 622;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 7768;
+}

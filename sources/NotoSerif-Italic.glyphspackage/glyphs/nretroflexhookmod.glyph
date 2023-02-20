@@ -1,0 +1,185 @@
+{
+category = Letter;
+glyphname = nretroflexhookmod;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (137,143);
+},
+{
+name = top;
+pos = (237,613);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = nhookretroflex;
+scale = (0.65,0.6);
+}
+);
+width = 328;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (163,143);
+},
+{
+name = top;
+pos = (264,614);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = nhookretroflex;
+scale = (0.65,0.6);
+}
+);
+width = 380;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (192,143);
+},
+{
+name = top;
+pos = (293,615);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = nhookretroflex;
+scale = (0.65,0.6);
+}
+);
+width = 437;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (213,143);
+},
+{
+name = top;
+pos = (314,615);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = nhookretroflex;
+scale = (0.65,0.6);
+}
+);
+width = 479;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (102,143);
+},
+{
+name = top;
+pos = (202,613);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = nhookretroflex;
+scale = (0.65,0.6);
+}
+);
+width = 257;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (132,144);
+},
+{
+name = top;
+pos = (232,614);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = nhookretroflex;
+scale = (0.65,0.6);
+}
+);
+width = 316;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (156,144);
+},
+{
+name = top;
+pos = (256,614);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = nhookretroflex;
+scale = (0.65,0.6);
+}
+);
+width = 363;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (174,144);
+},
+{
+name = top;
+pos = (274,615);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = nhookretroflex;
+scale = (0.65,0.6);
+}
+);
+width = 399;
+}
+);
+script = "";
+subCategory = Modifier;
+unicode = 7599;
+}

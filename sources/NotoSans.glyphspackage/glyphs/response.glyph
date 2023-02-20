@@ -1,0 +1,178 @@
+{
+category = Symbol;
+glyphname = response;
+layers = (
+{
+layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(171,-145,l),
+(240,-145,l),
+(465,805,l),
+(182,878,l),
+(164,809,l),
+(384,757,l)
+);
+},
+{
+alignment = -1;
+ref = R;
+}
+);
+width = 600;
+},
+{
+layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
+shapes = (
+{
+closed = 1;
+nodes = (
+(121,-145,l),
+(190,-145,l),
+(415,805,l),
+(182,866,l),
+(164,797,l),
+(334,757,l)
+);
+},
+{
+alignment = -1;
+ref = R;
+}
+);
+width = 545;
+},
+{
+layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+shapes = (
+{
+closed = 1;
+nodes = (
+(179,-145,l),
+(234,-145,l),
+(459,805,l),
+(188,873,l),
+(174,821,l),
+(394,769,l)
+);
+},
+{
+alignment = -1;
+ref = R;
+}
+);
+width = 596;
+},
+{
+layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(171,-145,l),
+(240,-145,l),
+(465,805,l),
+(182,878,l),
+(164,809,l),
+(384,757,l)
+);
+},
+{
+alignment = -1;
+ref = R;
+}
+);
+width = 600;
+},
+{
+layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(82,-145,l),
+(134,-145,l),
+(359,805,l),
+(140,858,l),
+(127,810,l),
+(297,771,l)
+);
+},
+{
+alignment = -1;
+ref = R;
+}
+);
+width = 461;
+},
+{
+layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+shapes = (
+{
+closed = 1;
+nodes = (
+(106,-145,l),
+(168,-145,l),
+(393,805,l),
+(166,863,l),
+(150,802,l),
+(320,763,l)
+);
+},
+{
+alignment = -1;
+ref = R;
+}
+);
+width = 512;
+},
+{
+layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
+shapes = (
+{
+closed = 1;
+nodes = (
+(188,-145,l),
+(227,-145,l),
+(452,805,l),
+(194,867,l),
+(185,834,l),
+(405,782,l)
+);
+},
+{
+alignment = -1;
+ref = R;
+}
+);
+width = 593;
+},
+{
+layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
+shapes = (
+{
+closed = 1;
+nodes = (
+(66,-145,l),
+(93,-145,l),
+(331,803,l),
+(122,853,l),
+(116,829,l),
+(301,785,l)
+);
+},
+{
+alignment = -1;
+pos = (11,0);
+ref = R;
+}
+);
+width = 415;
+}
+);
+script = "";
+subCategory = Other;
+unicode = 8479;
+}

@@ -1,0 +1,143 @@
+{
+category = Mark;
+glyphname = psilioxia_brevecomb;
+layers = (
+{
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = 1;
+ref = breve;
+scale = (1,1.0021);
+},
+{
+alignment = -1;
+pos = (31,132);
+ref = psilioxia;
+}
+);
+width = 328;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+alignment = 1;
+ref = breve;
+scale = (1,0.9943);
+},
+{
+alignment = -1;
+pos = (43,157);
+ref = psilioxia;
+}
+);
+width = 382;
+},
+{
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+alignment = 1;
+ref = breve;
+scale = (1,0.8302);
+},
+{
+alignment = -1;
+pos = (32,69);
+ref = psilioxia;
+}
+);
+width = 460;
+},
+{
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+alignment = -1;
+pos = (16,132);
+ref = breve;
+scale = (1,0.7753);
+},
+{
+alignment = -1;
+pos = (39,176);
+ref = psilioxia;
+}
+);
+width = 495;
+},
+{
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+alignment = -1;
+pos = (-20,23);
+ref = breve;
+scale = (1,1.0091);
+},
+{
+alignment = -1;
+pos = (9,151);
+ref = psilioxia;
+}
+);
+width = 276;
+},
+{
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+alignment = -1;
+pos = (-8,93);
+ref = breve;
+scale = (1,0.8699);
+},
+{
+alignment = -1;
+pos = (12,150);
+ref = psilioxia;
+}
+);
+width = 360;
+},
+{
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+alignment = -1;
+pos = (0,121);
+ref = breve;
+scale = (1,0.8067);
+},
+{
+alignment = -1;
+pos = (17,174);
+ref = psilioxia;
+}
+);
+width = 394;
+},
+{
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+alignment = -1;
+pos = (7,121);
+ref = breve;
+scale = (1,0.8067);
+},
+{
+alignment = -1;
+pos = (7,183);
+ref = psilioxia;
+}
+);
+width = 443;
+}
+);
+metricLeft = "=psilioxia";
+metricRight = "=psilioxia";
+script = greek;
+subCategory = Spacing;
+}

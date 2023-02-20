@@ -1,0 +1,211 @@
+{
+category = Letter;
+glyphname = Scommaaccent;
+kernLeft = S;
+kernRight = S;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (168,-221);
+},
+{
+name = top;
+pos = (367,714);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = S;
+},
+{
+alignment = -1;
+pos = (287,0);
+ref = commaaccentcomb;
+}
+);
+width = 544;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (189,-221);
+},
+{
+name = top;
+pos = (388,714);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+ref = S;
+},
+{
+alignment = -1;
+pos = (296,0);
+ref = commaaccentcomb;
+}
+);
+width = 586;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (205,-221);
+},
+{
+name = top;
+pos = (404,714);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+ref = S;
+},
+{
+alignment = -1;
+pos = (304,0);
+ref = commaaccentcomb;
+}
+);
+width = 617;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (151,-221);
+},
+{
+name = top;
+pos = (350,714);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+ref = S;
+},
+{
+alignment = -1;
+pos = (376,0);
+ref = commaaccentcomb;
+}
+);
+width = 509;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (92,-221);
+},
+{
+name = top;
+pos = (291,714);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+ref = S;
+},
+{
+alignment = -1;
+pos = (237,0);
+ref = commaaccentcomb;
+}
+);
+width = 390;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (142,-221);
+},
+{
+name = top;
+pos = (341,714);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+ref = S;
+},
+{
+alignment = -1;
+pos = (289,0);
+ref = commaaccentcomb;
+}
+);
+width = 489;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (119,-221);
+},
+{
+name = top;
+pos = (318,714);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+ref = S;
+},
+{
+alignment = -1;
+pos = (301,0);
+ref = commaaccentcomb;
+}
+);
+width = 445;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (137,-221);
+},
+{
+name = top;
+pos = (336,714);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+ref = S;
+},
+{
+alignment = -1;
+pos = (343,0);
+ref = commaaccentcomb;
+}
+);
+width = 481;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 536;
+}

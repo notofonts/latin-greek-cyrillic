@@ -1,0 +1,6935 @@
+{
+.appVersion = "3141";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+classes = (
+{
+automatic = 1;
+code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex Hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute Lcommaaccent Lcaron Ldot Lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron Aringacute AEacute Oslashacute Scommaaccent Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Iotadieresis Upsilondieresis Io-cy Dje-cy Gje-cy E-cy Dze-cy I-cy Yi-cy Je-cy Lje-cy Nje-cy Tshe-cy Kje-cy Ushort-cy Dzhe-cy A-cy Be-cy Ve-cy Ge-cy De-cy Ie-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Ka-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Hardsign-cy Yeru-cy Softsign-cy Ereversed-cy Iu-cy Ia-cy Gheupturn-cy Wgrave Wacute Wdieresis Ygrave Ohm increment UpsilonhookSymbol Macute Aringbelow Ohorn Uhorn Iegrave-cy Iigrave-cy Omega-cy Yat-cy Eiotified-cy Yuslittle-cy Yuslittleiotified-cy Yusbig-cy Yusbigiotified-cy Ksi-cy Psi-cy Fita-cy Izhitsa-cy Izhitsadblgrave-cy Uk-cy Koppa-cy Iishorttail-cy Semisoftsign-cy Ertick-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pemiddlehook-cy Haabkhasian-cy Esdescender-cy Tedescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Tetse-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy Zhebreve-cy Kahook-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Gestrokehook-cy Hahook-cy Hastroke-cy Komide-cy Komidje-cy Komizje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Reversedze-cy Elhook-cy Adotbelow Ahookabove Acircumflexacute Acircumflexgrave Acircumflexhookabove Acircumflextilde Acircumflexdotbelow Abreveacute Abrevegrave Abrevehookabove Abrevetilde Abrevedotbelow Edotbelow Ehookabove Etilde Ecircumflexacute Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Ecircumflexdotbelow Ihookabove Idotbelow Odotbelow Ohookabove Ocircumflexacute Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Ocircumflexdotbelow Ohornacute Ohorngrave Ohornhookabove Ohorntilde Ohorndotbelow Udotbelow Uhookabove Uhornacute Uhorngrave Uhornhookabove Uhorntilde Uhorndotbelow Ydotbelow Yhookabove Ytilde Tcedilla Bhook Btopbar Tonesix Oopen Chook Dtail Dhook Dtopbar Ereversed Schwa Eopen Fhook Ghook Gamma-latin Iota-latin Istroke Khook Mturned Nhookleft Ocenteredtilde Oi Phook Yr Tonetwo Esh Thook Tretroflexhook Upsilon-latin Vhook Yhook Zstroke Ezh Ezhreversed Tonefive DZcaron Dzcaron LJ Lj NJ Nj Acaron Icaron Ocaron Ucaron Udieresismacron Udieresisacute Udieresiscaron Udieresisgrave Adieresismacron Adotmacron AEmacron Gstroke Gcaron Kcaron Oogonek Oogonekmacron Ezhcaron DZ Dz Gacute Hwair Wynn Ngrave Adblgrave Ainvertedbreve Edblgrave Einvertedbreve Idblgrave Iinvertedbreve Odblgrave Oinvertedbreve Rdblgrave Rinvertedbreve Udblgrave Uinvertedbreve Yogh Hcaron Nlongrightleg OU Zhook Adotaccent Ecedilla Odieresismacron Otildemacron Odotaccent Odotaccentmacron Ymacron Astroke Cstroke Lbar Tdiagonalstroke Glottalstopcased Bstroke Ubar Vturned Estroke Jstroke Qhooktail Rstroke Ystroke UpsilonacutehookSymbol UpsilondieresishookSymbol KoppaArchaic Stigma Digamma Koppa Sampi ThetaSymbol Sho SigmaLunateSymbol San SigmaLunateReversedSymbol SigmaLunateDottedSymbol SigmaLunateDottedReversedSymbol Qa-cy We-cy Bdotaccent Bdotbelow Blinebelow Ccedillaacute Ddotaccent Ddotbelow Dlinebelow Dcedilla Dcircumflexbelow Emacrongrave Emacronacute Ecircumflexbelow Etildebelow Ecedillabreve Fdotaccent Gmacron Hdotaccent Hdotbelow Hdieresis Hcedilla Hbrevebelow Itildebelow Idieresisacute Kacute Kdotbelow Klinebelow Ldotbelow Ldotbelowmacron Llinebelow Lcircumflexbelow Mdotaccent Mdotbelow Ndotaccent Ndotbelow Nlinebelow Ncircumflexbelow Otildeacute Otildedieresis Omacrongrave Omacronacute Pacute Pdotaccent Rdotaccent Rdotbelow Rdotbelowmacron Rlinebelow Sdotaccent Sdotbelow Sacutedotaccent Scarondotaccent Sdotbelowdotaccent Tdotaccent Tdotbelow Tlinebelow Tcircumflexbelow Udieresisbelow Utildebelow Ucircumflexbelow Utildeacute Umacrondieresis Vtilde Vdotbelow Wdotaccent Wdotbelow Xdotaccent Xdieresis Ydotaccent Zcircumflex Zdotbelow Zlinebelow Alphapsili Alphadasia Alphapsilivaria Alphadasiavaria Alphapsilioxia Alphadasiaoxia Alphapsiliperispomeni Alphadasiaperispomeni Epsilonpsili Epsilondasia Epsilonpsilivaria Epsilondasiavaria Epsilonpsilioxia Epsilondasiaoxia Etapsili Etadasia Etapsilivaria Etadasiavaria Etapsilioxia Etadasiaoxia Etapsiliperispomeni Etadasiaperispomeni Iotapsili Iotadasia Iotapsilivaria Iotadasiavaria Iotapsilioxia Iotadasiaoxia Iotapsiliperispomeni Iotadasiaperispomeni Omicronpsili Omicrondasia Omicronpsilivaria Omicrondasiavaria Omicronpsilioxia Omicrondasiaoxia Upsilondasia Upsilondasiavaria Upsilondasiaoxia Upsilondasiaperispomeni Omegapsili Omegadasia Omegapsilivaria Omegadasiavaria Omegapsilioxia Omegadasiaoxia Omegapsiliperispomeni Omegadasiaperispomeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni Alphavrachy Alphamacron Alphavaria Alphaoxia Alphaprosgegrammeni Epsilonvaria Epsilonoxia Etavaria Etaoxia Etaprosgegrammeni Iotavrachy Iotamacron Iotavaria Iotaoxia Upsilonvrachy Upsilonmacron Upsilonvaria Upsilonoxia Rhodasia Omicronvaria Omicronoxia Omegavaria Omegaoxia Omegaprosgegrammeni Ldoublebar Lmiddletilde Pstroke Rtail Hdescender Kdescender Zdescender Alpha-latin Whook Halfh Saltillo Eng.alt1 Eng.alt2 Eng.alt3 Lha-cy Rha-cy Yae-cy Aleutka-cy Elmiddlehook-cy Enmiddlehook-cy Pedescender-cy Shhadescender-cy LL-middleWelsh Mhook Germandbls Aturned V-middleWelsh Yloop Alphaturned-latin Sswashtail Zswashtail Alef-egyptological Ain-egyptological Heng Tz Tresillo Cuatrillo Cuatrillocomma AA Ao Au Av AVhorizontalbar AY Creverseddot Kstroke Kdiagonalstroke Kstrokediagonalstroke Lbroken Lhighstroke Olongstroke Oloop OO Pstrokethroughdescender Pflourish Psquirreltail Qstrokethroughdescender Qdiagonalstroke Rrotunda Rumrotunda Vdiagonalstroke VY Thornstroke Thornstrokethroughdescender Vend Et Is Con Dinsular Finsular Ginsular Gturnedinsular Lturned Rinsular Sinsular Tinsular Hturned Ndescender Cbar Gobliquestroke Kobliquestroke Nobliquestroke Robliquestroke Sobliquestroke Hhook Ereversedopen Gscript Lbelt Iotaserifed Qsmall Kturned Tturned Jcrossedtail Chi-latin Beta-latin Omega-latin Lcommaaccent.loclMAH Ncommaaccent.loclMAH Aogonek.loclNAV Eogonek.loclNAV Iogonek.loclNAV Uogonek.loclNAV Zemlya-cy Dzelo-cy Dzereversed-cy Iota-cy Djerv-cy Ukmonograph-cy Omegabroad-cy Yerneutral-cy Yerubackyer-cy Yatiotified-cy Yureversed-cy Iotifieda-cy Yusclosedlittle-cy Yusblended-cy Yusiotifiedclosedlittle-cy Yn-cy Tsereversed-cy Desoft-cy Elsoft-cy Emsoft-cy Omonocular-cy Obinocular-cy Odoublemonocular-cy Dwe-cy Dzwe-cy Zhwe-cy Cche-cy Dzze-cy Tewithmiddlehook-cy Twe-cy Tswe-cy Tsse-cy Tche-cy Hwe-cy Shwe-cy Odouble-cy Ocrossed-cy Enlefthook-cy Dzzhe-cy Dche-cy Eldescender-cy Heta Archaicsampi Pamphyliandigamma KaiSymbol Yot C-fraktur H-fraktur I-fraktur R-fraktur Z-fraktur Zvisigothic Bscript Hscript Iscript Lscript PidoubleStruck Rscript Fturned angstrom CdoubleStruck HdoubleStruck NdoubleStruck PdoubleStruck QdoubleStruck RdoubleStruck ZdoubleStruck DitalicDoubleStruck GammadoubleStruck eulerconstant kelvin Escript Fscript Mscript Bflourish Fstroke Aevolapuk Oevolapuk Uevolapuk";
+name = Uppercase;
+}
+);
+customParameters = (
+{
+name = glyphOrder;
+value = (
+.notdef,
+NULL,
+CR,
+space,
+exclam,
+quotedbl,
+numbersign,
+dollar,
+percent,
+ampersand,
+quotesingle,
+parenleft,
+parenright,
+asterisk,
+plus,
+comma,
+hyphen,
+period,
+slash,
+zero,
+one,
+two,
+three,
+four,
+five,
+six,
+seven,
+eight,
+nine,
+colon,
+semicolon,
+less,
+equal,
+greater,
+question,
+at,
+A,
+B,
+C,
+D,
+E,
+F,
+G,
+H,
+I,
+J,
+K,
+L,
+M,
+N,
+O,
+P,
+Q,
+R,
+S,
+T,
+U,
+V,
+W,
+X,
+Y,
+Z,
+bracketleft,
+backslash,
+bracketright,
+asciicircum,
+underscore,
+grave,
+a,
+b,
+c,
+d,
+e,
+f,
+g,
+h,
+i,
+j,
+k,
+l,
+m,
+n,
+o,
+p,
+q,
+r,
+s,
+t,
+u,
+v,
+w,
+x,
+y,
+z,
+braceleft,
+bar,
+braceright,
+asciitilde,
+nbspace,
+exclamdown,
+cent,
+sterling,
+currency,
+yen,
+brokenbar,
+section,
+dieresis,
+copyright,
+ordfeminine,
+guillemetleft,
+logicalnot,
+softhyphen,
+registered,
+overscore,
+degree,
+plusminus,
+twosuperior,
+threesuperior,
+acute,
+micro,
+paragraph,
+periodcentered,
+cedilla,
+onesuperior,
+ordmasculine,
+guillemetright,
+onequarter,
+onehalf,
+threequarters,
+questiondown,
+Agrave,
+Aacute,
+Acircumflex,
+Atilde,
+Adieresis,
+Aring,
+AE,
+Ccedilla,
+Egrave,
+Eacute,
+Ecircumflex,
+Edieresis,
+Igrave,
+Iacute,
+Icircumflex,
+Idieresis,
+Eth,
+Ntilde,
+Ograve,
+Oacute,
+Ocircumflex,
+Otilde,
+Odieresis,
+multiply,
+Oslash,
+Ugrave,
+Uacute,
+Ucircumflex,
+Udieresis,
+Yacute,
+Thorn,
+germandbls,
+agrave,
+aacute,
+acircumflex,
+atilde,
+adieresis,
+aring,
+ae,
+ccedilla,
+egrave,
+eacute,
+ecircumflex,
+edieresis,
+igrave,
+iacute,
+icircumflex,
+idieresis,
+eth,
+ntilde,
+ograve,
+oacute,
+ocircumflex,
+otilde,
+odieresis,
+divide,
+oslash,
+ugrave,
+uacute,
+ucircumflex,
+udieresis,
+yacute,
+thorn,
+ydieresis,
+Amacron,
+amacron,
+Abreve,
+abreve,
+Aogonek,
+aogonek,
+Cacute,
+cacute,
+Ccircumflex,
+ccircumflex,
+Cdotaccent,
+cdotaccent,
+Ccaron,
+ccaron,
+Dcaron,
+dcaron,
+Dcroat,
+dcroat,
+Emacron,
+emacron,
+Ebreve,
+ebreve,
+Edotaccent,
+edotaccent,
+Eogonek,
+eogonek,
+Ecaron,
+ecaron,
+Gcircumflex,
+gcircumflex,
+Gbreve,
+gbreve,
+Gdotaccent,
+gdotaccent,
+Gcommaaccent,
+gcommaaccent,
+Hcircumflex,
+hcircumflex,
+Hbar,
+hbar,
+Itilde,
+itilde,
+Imacron,
+imacron,
+Ibreve,
+ibreve,
+Iogonek,
+iogonek,
+Idotaccent,
+IJ,
+ij,
+Jcircumflex,
+jcircumflex,
+Kcommaaccent,
+kcommaaccent,
+kgreenlandic,
+Lacute,
+lacute,
+Lcommaaccent,
+lcommaaccent,
+Lcaron,
+lcaron,
+Ldot,
+ldot,
+Lslash,
+lslash,
+Nacute,
+nacute,
+Ncommaaccent,
+ncommaaccent,
+Ncaron,
+ncaron,
+napostrophe,
+Eng,
+eng,
+Omacron,
+omacron,
+Obreve,
+obreve,
+Ohungarumlaut,
+ohungarumlaut,
+OE,
+oe,
+Racute,
+racute,
+Rcommaaccent,
+rcommaaccent,
+Rcaron,
+rcaron,
+Sacute,
+sacute,
+Scircumflex,
+scircumflex,
+Scedilla,
+scedilla,
+Scaron,
+scaron,
+Tcommaaccent,
+tcommaaccent,
+Tcaron,
+tcaron,
+Tbar,
+tbar,
+Utilde,
+utilde,
+Umacron,
+umacron,
+Ubreve,
+ubreve,
+Uring,
+uring,
+Uhungarumlaut,
+uhungarumlaut,
+Uogonek,
+uogonek,
+Wcircumflex,
+wcircumflex,
+Ycircumflex,
+ycircumflex,
+Ydieresis,
+Zacute,
+zacute,
+Zdotaccent,
+zdotaccent,
+Zcaron,
+zcaron,
+longs,
+fhook,
+Aringacute,
+aringacute,
+AEacute,
+aeacute,
+Oslashacute,
+oslashacute,
+Scommaaccent,
+scommaaccent,
+circumflex,
+caron,
+macronmod,
+breve,
+dotaccent,
+ring,
+ogonek,
+tilde,
+hungarumlaut,
+tonos,
+dieresistonos,
+Alphatonos,
+anoteleia,
+Epsilontonos,
+Etatonos,
+Iotatonos,
+Omicrontonos,
+Upsilontonos,
+Omegatonos,
+iotadieresistonos,
+Alpha,
+Beta,
+Gamma,
+Delta,
+Epsilon,
+Zeta,
+Eta,
+Theta,
+Iota,
+Kappa,
+Lambda,
+Mu,
+Nu,
+Xi,
+Omicron,
+Pi,
+Rho,
+Sigma,
+Tau,
+Upsilon,
+Phi,
+Chi,
+Psi,
+Omega,
+Iotadieresis,
+Upsilondieresis,
+alphatonos,
+epsilontonos,
+etatonos,
+iotatonos,
+upsilondieresistonos,
+alpha,
+beta,
+gamma,
+delta,
+epsilon,
+zeta,
+eta,
+theta,
+iota,
+kappa,
+lambda,
+mu,
+nu,
+xi,
+omicron,
+pi,
+rho,
+sigmafinal,
+sigma,
+tau,
+upsilon,
+phi,
+chi,
+psi,
+omega,
+iotadieresis,
+upsilondieresis,
+omicrontonos,
+upsilontonos,
+omegatonos,
+"Io-cy",
+"Dje-cy",
+"Gje-cy",
+"E-cy",
+"Dze-cy",
+"I-cy",
+"Yi-cy",
+"Je-cy",
+"Lje-cy",
+"Nje-cy",
+"Tshe-cy",
+"Kje-cy",
+"Ushort-cy",
+"Dzhe-cy",
+"A-cy",
+"Be-cy",
+"Ve-cy",
+"Ge-cy",
+"De-cy",
+"Ie-cy",
+"Zhe-cy",
+"Ze-cy",
+"Ii-cy",
+"Iishort-cy",
+"Ka-cy",
+"El-cy",
+"Em-cy",
+"En-cy",
+"O-cy",
+"Pe-cy",
+"Er-cy",
+"Es-cy",
+"Te-cy",
+"U-cy",
+"Ef-cy",
+"Ha-cy",
+"Tse-cy",
+"Che-cy",
+"Sha-cy",
+"Shcha-cy",
+"Hardsign-cy",
+"Yeru-cy",
+"Softsign-cy",
+"Ereversed-cy",
+"Iu-cy",
+"Ia-cy",
+"a-cy",
+"be-cy",
+"ve-cy",
+"ge-cy",
+"de-cy",
+"ie-cy",
+"zhe-cy",
+"ze-cy",
+"ii-cy",
+"iishort-cy",
+"ka-cy",
+"el-cy",
+"em-cy",
+"en-cy",
+"o-cy",
+"pe-cy",
+"er-cy",
+"es-cy",
+"te-cy",
+"u-cy",
+"ef-cy",
+"ha-cy",
+"tse-cy",
+"che-cy",
+"sha-cy",
+"shcha-cy",
+"hardsign-cy",
+"yeru-cy",
+"softsign-cy",
+"ereversed-cy",
+"iu-cy",
+"ia-cy",
+"io-cy",
+"dje-cy",
+"gje-cy",
+"e-cy",
+"dze-cy",
+"i-cy",
+"yi-cy",
+"je-cy",
+"lje-cy",
+"nje-cy",
+"tshe-cy",
+"kje-cy",
+"ushort-cy",
+"dzhe-cy",
+"Gheupturn-cy",
+"gheupturn-cy",
+Wgrave,
+wgrave,
+Wacute,
+wacute,
+Wdieresis,
+wdieresis,
+Ygrave,
+ygrave,
+endash,
+emdash,
+horizontalbar,
+underscoredbl,
+quoteleft,
+quoteright,
+quotesinglbase,
+quotereversed,
+quotedblleft,
+quotedblright,
+quotedblbase,
+dagger,
+daggerdbl,
+bullet,
+ellipsis,
+perthousand,
+minute,
+second,
+guilsinglleft,
+guilsinglright,
+exclamdouble,
+fraction,
+nmod,
+franc,
+lira,
+peseta,
+euro,
+careof,
+literSign,
+numero,
+trademark,
+Ohm,
+estimated,
+oneeighth,
+threeeighths,
+fiveeighths,
+seveneighths,
+partialdiff,
+increment,
+minus,
+radical,
+infinity,
+approxequal,
+notequal,
+lessequal,
+greaterequal,
+lozenge,
+caroncommaaccent,
+commaaccentcomb,
+commaaccentrotate,
+foursuperior,
+fivesuperior,
+sevensuperior,
+eightsuperior,
+enquad,
+emquad,
+enspace,
+emspace,
+threeperemspace,
+fourperemspace,
+sixperemspace,
+figurespace,
+punctuationspace,
+thinspace,
+hairspace,
+zerowidthspace,
+objectReplacementCharacter,
+replacementCharacter,
+jcaron,
+apostrophemod,
+thetaSymbol,
+UpsilonhookSymbol,
+piSymbol,
+Macute,
+macute,
+Aringbelow,
+aringbelow,
+lowringmod,
+partialdiff.mir,
+Ohorn,
+ohorn,
+Uhorn,
+uhorn,
+hook,
+"Iegrave-cy",
+"Iigrave-cy",
+"iegrave-cy",
+"iigrave-cy",
+"Omega-cy",
+"omega-cy",
+"Yat-cy",
+"yat-cy",
+"Eiotified-cy",
+"eiotified-cy",
+"Yuslittle-cy",
+"yuslittle-cy",
+"Yuslittleiotified-cy",
+"yuslittleiotified-cy",
+"Yusbig-cy",
+"yusbig-cy",
+"Yusbigiotified-cy",
+"yusbigiotified-cy",
+"Ksi-cy",
+"ksi-cy",
+"Psi-cy",
+"psi-cy",
+"Fita-cy",
+"fita-cy",
+"Izhitsa-cy",
+"izhitsa-cy",
+"Izhitsadblgrave-cy",
+"izhitsadblgrave-cy",
+"Uk-cy",
+"uk-cy",
+"Omegaround-cy",
+"omegaround-cy",
+"Omegatitlo-cy",
+"omegatitlo-cy",
+"Ot-cy",
+"ot-cy",
+"Koppa-cy",
+"koppa-cy",
+"thousand-cy",
+"hundredthousandssigncomb-cy",
+"millionssigncomb-cy",
+"Iishorttail-cy",
+"iishorttail-cy",
+"Semisoftsign-cy",
+"semisoftsign-cy",
+"Ertick-cy",
+"ertick-cy",
+"Ghestroke-cy",
+"ghestroke-cy",
+"Ghemiddlehook-cy",
+"ghemiddlehook-cy",
+"Zhedescender-cy",
+"zhedescender-cy",
+"Zedescender-cy",
+"zedescender-cy",
+"Kadescender-cy",
+"kadescender-cy",
+"Kaverticalstroke-cy",
+"kaverticalstroke-cy",
+"Kastroke-cy",
+"kastroke-cy",
+"Kabashkir-cy",
+"kabashkir-cy",
+"Endescender-cy",
+"endescender-cy",
+"Enghe-cy",
+"enghe-cy",
+"Pemiddlehook-cy",
+"pemiddlehook-cy",
+"Haabkhasian-cy",
+"haabkhasian-cy",
+"Esdescender-cy",
+"esdescender-cy",
+"Tedescender-cy",
+"tedescender-cy",
+"Ustraight-cy",
+"ustraight-cy",
+"Ustraightstroke-cy",
+"ustraightstroke-cy",
+"Hadescender-cy",
+"hadescender-cy",
+"Tetse-cy",
+"tetse-cy",
+"Chedescender-cy",
+"chedescender-cy",
+"Cheverticalstroke-cy",
+"cheverticalstroke-cy",
+"Shha-cy",
+"shha-cy",
+"Cheabkhasian-cy",
+"cheabkhasian-cy",
+"Chedescenderabkhasian-cy",
+"chedescenderabkhasian-cy",
+"Palochka-cy",
+"Zhebreve-cy",
+"zhebreve-cy",
+"Kahook-cy",
+"kahook-cy",
+"Eltail-cy",
+"eltail-cy",
+"Enhook-cy",
+"enhook-cy",
+"Entail-cy",
+"entail-cy",
+"Chekhakassian-cy",
+"chekhakassian-cy",
+"Emtail-cy",
+"emtail-cy",
+"palochka-cy",
+"Abreve-cy",
+"abreve-cy",
+"Adieresis-cy",
+"adieresis-cy",
+"Aie-cy",
+"aie-cy",
+"Iebreve-cy",
+"iebreve-cy",
+"Schwa-cy",
+"schwa-cy",
+"Schwadieresis-cy",
+"schwadieresis-cy",
+"Zhedieresis-cy",
+"zhedieresis-cy",
+"Zedieresis-cy",
+"zedieresis-cy",
+"Dzeabkhasian-cy",
+"dzeabkhasian-cy",
+"Imacron-cy",
+"imacron-cy",
+"Idieresis-cy",
+"idieresis-cy",
+"Odieresis-cy",
+"odieresis-cy",
+"Obarred-cy",
+"obarred-cy",
+"Obarreddieresis-cy",
+"obarreddieresis-cy",
+"Edieresis-cy",
+"edieresis-cy",
+"Umacron-cy",
+"umacron-cy",
+"Udieresis-cy",
+"udieresis-cy",
+"Uhungarumlaut-cy",
+"uhungarumlaut-cy",
+"Chedieresis-cy",
+"chedieresis-cy",
+"Gedescender-cy",
+"gedescender-cy",
+"Yerudieresis-cy",
+"yerudieresis-cy",
+"Gestrokehook-cy",
+"gestrokehook-cy",
+"Hahook-cy",
+"hahook-cy",
+"Hastroke-cy",
+"hastroke-cy",
+"Komide-cy",
+"komide-cy",
+"Komidje-cy",
+"komidje-cy",
+"Komizje-cy",
+"komizje-cy",
+"Komidzje-cy",
+"komidzje-cy",
+"Komilje-cy",
+"komilje-cy",
+"Kominje-cy",
+"kominje-cy",
+"Komisje-cy",
+"komisje-cy",
+"Komitje-cy",
+"komitje-cy",
+"Reversedze-cy",
+"reversedze-cy",
+"Elhook-cy",
+"elhook-cy",
+Adotbelow,
+adotbelow,
+Ahookabove,
+ahookabove,
+Acircumflexacute,
+acircumflexacute,
+Acircumflexgrave,
+acircumflexgrave,
+Acircumflexhookabove,
+acircumflexhookabove,
+Acircumflextilde,
+acircumflextilde,
+Acircumflexdotbelow,
+acircumflexdotbelow,
+Abreveacute,
+abreveacute,
+Abrevegrave,
+abrevegrave,
+Abrevehookabove,
+abrevehookabove,
+Abrevetilde,
+abrevetilde,
+Abrevedotbelow,
+abrevedotbelow,
+Edotbelow,
+edotbelow,
+Ehookabove,
+ehookabove,
+Etilde,
+etilde,
+Ecircumflexacute,
+ecircumflexacute,
+Ecircumflexgrave,
+ecircumflexgrave,
+Ecircumflexhookabove,
+ecircumflexhookabove,
+Ecircumflextilde,
+ecircumflextilde,
+Ecircumflexdotbelow,
+ecircumflexdotbelow,
+Ihookabove,
+ihookabove,
+Idotbelow,
+idotbelow,
+Odotbelow,
+odotbelow,
+Ohookabove,
+ohookabove,
+Ocircumflexacute,
+ocircumflexacute,
+Ocircumflexgrave,
+ocircumflexgrave,
+Ocircumflexhookabove,
+ocircumflexhookabove,
+Ocircumflextilde,
+ocircumflextilde,
+Ocircumflexdotbelow,
+ocircumflexdotbelow,
+Ohornacute,
+ohornacute,
+Ohorngrave,
+ohorngrave,
+Ohornhookabove,
+ohornhookabove,
+Ohorntilde,
+ohorntilde,
+Ohorndotbelow,
+ohorndotbelow,
+Udotbelow,
+udotbelow,
+Uhookabove,
+uhookabove,
+Uhornacute,
+uhornacute,
+Uhorngrave,
+uhorngrave,
+Uhornhookabove,
+uhornhookabove,
+Uhorntilde,
+uhorntilde,
+Uhorndotbelow,
+uhorndotbelow,
+Ydotbelow,
+ydotbelow,
+Yhookabove,
+yhookabove,
+Ytilde,
+ytilde,
+dong,
+cyrillichookleft,
+cyrillicbighookUC,
+Tcedilla,
+tcedilla,
+bstroke,
+Bhook,
+Btopbar,
+btopbar,
+Tonesix,
+tonesix,
+Oopen,
+Chook,
+chook,
+Dtail,
+Dhook,
+Dtopbar,
+dtopbar,
+deltaturned,
+Ereversed,
+Schwa,
+Eopen,
+Fhook,
+Ghook,
+"Gamma-latin",
+hv,
+"Iota-latin",
+Istroke,
+Khook,
+khook,
+lbar,
+lambdastroke,
+Mturned,
+Nhookleft,
+nlegrightlong,
+Ocenteredtilde,
+Oi,
+oi,
+Phook,
+phook,
+Yr,
+Tonetwo,
+tonetwo,
+Esh,
+eshreversedloop,
+tpalatalhook,
+Thook,
+thook,
+Tretroflexhook,
+"Upsilon-latin",
+Vhook,
+Yhook,
+yhook,
+Zstroke,
+zstroke,
+Ezh,
+Ezhreversed,
+ezhreversed,
+ezhtail,
+twostroke,
+Tonefive,
+tonefive,
+glottalinvertedstroke,
+wynn,
+clickdental,
+clicklateral,
+clickalveolar,
+clickretroflex,
+DZcaron,
+Dzcaron,
+dzcaron,
+LJ,
+Lj,
+lj,
+NJ,
+Nj,
+nj,
+Acaron,
+acaron,
+Icaron,
+icaron,
+Ocaron,
+ocaron,
+Ucaron,
+ucaron,
+Udieresismacron,
+udieresismacron,
+Udieresisacute,
+udieresisacute,
+Udieresiscaron,
+udieresiscaron,
+Udieresisgrave,
+udieresisgrave,
+Adieresismacron,
+adieresismacron,
+Adotmacron,
+adotmacron,
+AEmacron,
+aemacron,
+Gstroke,
+gstroke,
+Gcaron,
+gcaron,
+Kcaron,
+kcaron,
+Oogonek,
+oogonek,
+Oogonekmacron,
+oogonekmacron,
+Ezhcaron,
+ezhcaron,
+DZ,
+Dz,
+dz,
+Gacute,
+gacute,
+Hwair,
+Wynn,
+Ngrave,
+ngrave,
+Adblgrave,
+adblgrave,
+Ainvertedbreve,
+ainvertedbreve,
+Edblgrave,
+edblgrave,
+Einvertedbreve,
+einvertedbreve,
+Idblgrave,
+idblgrave,
+Iinvertedbreve,
+iinvertedbreve,
+Odblgrave,
+odblgrave,
+Oinvertedbreve,
+oinvertedbreve,
+Rdblgrave,
+rdblgrave,
+Rinvertedbreve,
+rinvertedbreve,
+Udblgrave,
+udblgrave,
+Uinvertedbreve,
+uinvertedbreve,
+Yogh,
+yogh,
+Hcaron,
+hcaron,
+Nlongrightleg,
+dcurl,
+OU,
+ou,
+Zhook,
+zhook,
+Adotaccent,
+adotaccent,
+Ecedilla,
+ecedilla,
+Odieresismacron,
+odieresismacron,
+Otildemacron,
+otildemacron,
+Odotaccent,
+odotaccent,
+Odotaccentmacron,
+odotaccentmacron,
+Ymacron,
+ymacron,
+lcurl,
+ncurl,
+tcurl,
+dbdigraph,
+qpdigraph,
+Astroke,
+Cstroke,
+cstroke,
+Lbar,
+Tdiagonalstroke,
+sswashtail,
+zswashtail,
+Glottalstopcased,
+glottalstopcased,
+Bstroke,
+Ubar,
+Vturned,
+Estroke,
+estroke,
+Jstroke,
+jstroke,
+Qhooktail,
+qhooktail,
+Rstroke,
+rstroke,
+Ystroke,
+ystroke,
+aturned,
+"alpha-latin",
+"alphaturned-latin",
+bhook,
+oopen,
+ccurl,
+dtail,
+dhook,
+ereversed,
+schwa,
+eopen,
+eopenreversedclosed,
+jdotlessstroke,
+ghook,
+gsingle,
+Gsmall,
+"gamma-latin",
+ramshorn,
+hturned,
+hhook,
+henghook,
+istroke,
+"iota-latin",
+iotaserifed,
+lmiddletilde,
+lbelt,
+lhookretroflex,
+lezh,
+mturned,
+mlonglegturned,
+mhook,
+nhookleft,
+nhookretroflex,
+Nsmall,
+obarred,
+OEsmall,
+"omegaclosed-latin",
+"phi-latin",
+rturned,
+rlonglegturned,
+rhookturned,
+rlongleg,
+rhook,
+rfishhook,
+rfishhookreversed,
+Rsmall,
+Rsmallinverted,
+shook,
+esh,
+jdotlessstrokehook,
+eshsquatreversed,
+eshcurl,
+tturned,
+tretroflexhook,
+ubar,
+"upsilon-latin",
+vhook,
+vturned,
+wturned,
+yturned,
+Ysmall,
+zretroflexhook,
+zcurl,
+ezh,
+ezhcurl,
+glottalstop,
+glottalstopreversed,
+glottalstopinverted,
+cstretched,
+bilabialclick,
+Bsmall,
+eopenclosed,
+Gsmallhook,
+Hsmall,
+jcrossedtail,
+kturned,
+Lsmall,
+qhook,
+glottalstopstroke,
+glottalstopstrokereversed,
+dzaltone,
+dezh,
+dzcurl,
+ts,
+tesh,
+tccurl,
+fengdigraph,
+lsdigraph,
+lzdigraph,
+bilabialpercussive,
+bidentalpercussive,
+hturnedfishhook,
+hturnedfishhookandtail,
+hmod,
+hhookmod,
+jmod,
+rmod,
+rturnedmod,
+rhookturnedmod,
+Rsmallinvertedmod,
+wmod,
+ymod,
+primemod,
+doubleprimemod,
+commaturnedmod,
+commareversedmod,
+ringhalfright,
+ringhalfleft,
+glottalstopmod,
+glottalstopreversedmod,
+arrowheadleftmod,
+arrowheadrightmod,
+arrowheadupmod,
+arrowheaddownmod,
+verticallinemod,
+secondtonechinese,
+fourthtonechinese,
+verticallinelowmod,
+macronlowmod,
+gravelowmod,
+acutelowmod,
+colontriangularmod,
+colontriangularhalfmod,
+ringhalfrightcentered,
+ringhalfleftcentered,
+uptackmod,
+downtackmod,
+plusmod,
+minusmod,
+crossaccentmod,
+"gammamod-latin",
+lmod,
+smod,
+xmod,
+glottalstopreversedsuperior,
+tonebarextrahighmod,
+tonebarhighmod,
+tonebarmidmod,
+tonebarlowmod,
+tonebarextralowmod,
+indepartingtonemod,
+yangdepartingtone,
+voicingmod,
+unaspiratedmod,
+doubleapostrophemod,
+lowdownarrowheadmod,
+lowuparrowheadmod,
+lowleftarrowheadmod,
+lowrightarrowheadmod,
+middlegraveaccentmod,
+middledoublegraveaccentmod,
+middledoubleacuteaccentmod,
+lowtildemod,
+raisedcolonmod,
+beginhightonemod,
+endhightonemod,
+beginlowtonemod,
+endlowtonemod,
+shelfmod,
+openshelfmod,
+lowleftarrowmod,
+hookabovecomb,
+"numeral-greek",
+"lowernumeral-greek",
+ypogegrammeni,
+sigmaLunateReversedSymbol,
+sigmaLunateDottedSymbol,
+sigmaLunateDottedReversedSymbol,
+questiongreek,
+betaSymbol,
+UpsilonacutehookSymbol,
+UpsilondieresishookSymbol,
+phiSymbol,
+kaiSymbol,
+KoppaArchaic,
+koppaArchaic,
+Stigma,
+stigma,
+Digamma,
+digamma,
+Koppa,
+koppa,
+Sampi,
+sampi,
+kappaSymbol,
+rhoSymbol,
+sigmaLunateSymbol,
+yot,
+ThetaSymbol,
+epsilonLunateSymbol,
+epsilonLunateReversedSymbol,
+Sho,
+sho,
+SigmaLunateSymbol,
+San,
+san,
+rhoStrokeSymbol,
+SigmaLunateReversedSymbol,
+SigmaLunateDottedSymbol,
+SigmaLunateDottedReversedSymbol,
+"Qa-cy",
+"qa-cy",
+"We-cy",
+"we-cy",
+Asmall,
+AEsmall,
+aeturned,
+Bbarredsmall,
+Csmall,
+Dsmall,
+Ethsmall,
+Esmall,
+eturnedopen,
+iturned,
+Jsmall,
+Ksmall,
+Lstrokesmall,
+Msmall,
+Nreversedsmall,
+Osmall,
+Oopensmall,
+osideways,
+osidewaysopen,
+oslashsideways,
+oeturned,
+OUsmall,
+otophalf,
+obottomhalf,
+Psmall,
+Rreversedsmall,
+Rturnedsmall,
+Tsmall,
+Usmall,
+usideways,
+udieresissideways,
+msidewaysturned,
+Vsmall,
+Wsmall,
+Zsmall,
+Ezhsmall,
+spirantvoicedlaryngeal,
+ain,
+Gammasmall,
+Lamdasmall,
+Pismall,
+Rhosmall,
+Psismall,
+"Elsmall-cy",
+Amod,
+AEmod,
+Bmod,
+Bbarredmod,
+Dmod,
+Emod,
+Ereversedmod,
+Gmod,
+Hmod,
+Imod,
+Jmod,
+Kmod,
+Lmod,
+Mmod,
+Nmod,
+Nreversedmod,
+Omod,
+OUmod,
+Pmod,
+Rmod,
+Tmod,
+Umod,
+Wmod,
+amod,
+aturnedmod,
+"alphamod-latin",
+aeturnedmod,
+bmod,
+dmod,
+emod,
+schwamod,
+eopenmod,
+eturnedopenmod,
+gmod,
+iturnedmod,
+kmod,
+mmod,
+engmod,
+omod,
+oopenmod,
+otophalfmod,
+obottomhalfmod,
+pmod,
+tmod,
+umod,
+usidewaysmod,
+mturnedmod,
+vmod,
+ainmod,
+betamod,
+gammamod,
+deltamod,
+phimod,
+chimod,
+isubscript,
+rsubscript,
+usubscript,
+vsubscript,
+betasubscript,
+gammasubscript,
+rhosubscript,
+phisubscript,
+chisubscript,
+ue,
+bmiddletilde,
+dmiddletilde,
+fmiddletilde,
+mmiddletilde,
+nmiddletilde,
+pmiddletilde,
+rmiddletilde,
+rfishhookmiddletilde,
+smiddletilde,
+tmiddletilde,
+zmiddletilde,
+gturned,
+"enmod-cy",
+ginsular,
+thstrikethrough,
+iotaserifedstroke,
+iotastroke,
+pstroke,
+Usmallstroke,
+upsilonstroke,
+bpalatalhook,
+dpalatalhook,
+fpalatalhook,
+gpalatalhook,
+kpalatalhook,
+lpalatalhook,
+mpalatalhook,
+npalatalhook,
+ppalatalhook,
+rpalatalhook,
+spalatalhook,
+eshpalatalhook,
+vpalatalhook,
+xpalatalhook,
+zpalatalhook,
+aretroflexhook,
+alpharetroflexhook,
+dhookandtail,
+eretroflexhook,
+eopenretroflexhook,
+eopenreversedretroflexhook,
+schwaretroflexhook,
+iretroflexhook,
+oopenretroflexhook,
+eshretroflexhook,
+uretroflexhook,
+ezhretroflexhook,
+"alphaturnedmod-latin",
+cmod,
+ccurlmod,
+ethmod,
+ereversedopenmod,
+fmod,
+jdotlessstrokemod,
+scriptgmod,
+hturnedmod,
+istrokemod,
+iotamod,
+iotaserifedmod,
+iotaserifedstrokemod,
+jcrossedtailmod,
+lretroflexhookmod,
+lpalatalhookmod,
+Lsmallmod,
+mhookmod,
+mlonglegturnedmod,
+nlefthookmod,
+nretroflexhookmod,
+Nsmallmodifier,
+barredomod,
+"phimod-latin",
+shookmod,
+eshmod,
+tpalatalhookmod,
+ubarmod,
+upsilonmod,
+Usmallmod,
+vhookmod,
+vturnedmod,
+zmod,
+zretroflexhookmod,
+zcurlmod,
+ezhmod,
+thetamod,
+Bdotaccent,
+bdotaccent,
+Bdotbelow,
+bdotbelow,
+Blinebelow,
+blinebelow,
+Ccedillaacute,
+ccedillaacute,
+Ddotaccent,
+ddotaccent,
+Ddotbelow,
+ddotbelow,
+Dlinebelow,
+dlinebelow,
+Dcedilla,
+dcedilla,
+Dcircumflexbelow,
+dcircumflexbelow,
+Emacrongrave,
+emacrongrave,
+Emacronacute,
+emacronacute,
+Ecircumflexbelow,
+ecircumflexbelow,
+Etildebelow,
+etildebelow,
+Ecedillabreve,
+ecedillabreve,
+Fdotaccent,
+fdotaccent,
+Gmacron,
+gmacron,
+Hdotaccent,
+hdotaccent,
+Hdotbelow,
+hdotbelow,
+Hdieresis,
+hdieresis,
+Hcedilla,
+hcedilla,
+Hbrevebelow,
+hbrevebelow,
+Itildebelow,
+itildebelow,
+Idieresisacute,
+idieresisacute,
+Kacute,
+kacute,
+Kdotbelow,
+kdotbelow,
+Klinebelow,
+klinebelow,
+Ldotbelow,
+ldotbelow,
+Ldotbelowmacron,
+ldotbelowmacron,
+Llinebelow,
+llinebelow,
+Lcircumflexbelow,
+lcircumflexbelow,
+Mdotaccent,
+mdotaccent,
+Mdotbelow,
+mdotbelow,
+Ndotaccent,
+ndotaccent,
+Ndotbelow,
+ndotbelow,
+Nlinebelow,
+nlinebelow,
+Ncircumflexbelow,
+ncircumflexbelow,
+Otildeacute,
+otildeacute,
+Otildedieresis,
+otildedieresis,
+Omacrongrave,
+omacrongrave,
+Omacronacute,
+omacronacute,
+Pacute,
+pacute,
+Pdotaccent,
+pdotaccent,
+Rdotaccent,
+rdotaccent,
+Rdotbelow,
+rdotbelow,
+Rdotbelowmacron,
+rdotbelowmacron,
+Rlinebelow,
+rlinebelow,
+Sdotaccent,
+sdotaccent,
+Sdotbelow,
+sdotbelow,
+Sacutedotaccent,
+sacutedotaccent,
+Scarondotaccent,
+scarondotaccent,
+Sdotbelowdotaccent,
+sdotbelowdotaccent,
+Tdotaccent,
+tdotaccent,
+Tdotbelow,
+tdotbelow,
+Tlinebelow,
+tlinebelow,
+Tcircumflexbelow,
+tcircumflexbelow,
+Udieresisbelow,
+udieresisbelow,
+Utildebelow,
+utildebelow,
+Ucircumflexbelow,
+ucircumflexbelow,
+Utildeacute,
+utildeacute,
+Umacrondieresis,
+umacrondieresis,
+Vtilde,
+vtilde,
+Vdotbelow,
+vdotbelow,
+Wdotaccent,
+wdotaccent,
+Wdotbelow,
+wdotbelow,
+Xdotaccent,
+xdotaccent,
+Xdieresis,
+xdieresis,
+Ydotaccent,
+ydotaccent,
+Zcircumflex,
+zcircumflex,
+Zdotbelow,
+zdotbelow,
+Zlinebelow,
+zlinebelow,
+hlinebelow,
+tdieresis,
+wring,
+yring,
+arighthalfring,
+longsdotaccent,
+alphapsili,
+alphadasia,
+alphapsilivaria,
+alphadasiavaria,
+alphapsilioxia,
+alphadasiaoxia,
+alphapsiliperispomeni,
+alphadasiaperispomeni,
+Alphapsili,
+Alphadasia,
+Alphapsilivaria,
+Alphadasiavaria,
+Alphapsilioxia,
+Alphadasiaoxia,
+Alphapsiliperispomeni,
+Alphadasiaperispomeni,
+epsilonpsili,
+epsilondasia,
+epsilonpsilivaria,
+epsilondasiavaria,
+epsilonpsilioxia,
+epsilondasiaoxia,
+Epsilonpsili,
+Epsilondasia,
+Epsilonpsilivaria,
+Epsilondasiavaria,
+Epsilonpsilioxia,
+Epsilondasiaoxia,
+etapsili,
+etadasia,
+etapsilivaria,
+etadasiavaria,
+etapsilioxia,
+etadasiaoxia,
+etapsiliperispomeni,
+etadasiaperispomeni,
+Etapsili,
+Etadasia,
+Etapsilivaria,
+Etadasiavaria,
+Etapsilioxia,
+Etadasiaoxia,
+Etapsiliperispomeni,
+Etadasiaperispomeni,
+iotapsili,
+iotadasia,
+iotapsilivaria,
+iotadasiavaria,
+iotapsilioxia,
+iotadasiaoxia,
+iotapsiliperispomeni,
+iotadasiaperispomeni,
+Iotapsili,
+Iotadasia,
+Iotapsilivaria,
+Iotadasiavaria,
+Iotapsilioxia,
+Iotadasiaoxia,
+Iotapsiliperispomeni,
+Iotadasiaperispomeni,
+omicronpsili,
+omicrondasia,
+omicronpsilivaria,
+omicrondasiavaria,
+omicronpsilioxia,
+omicrondasiaoxia,
+Omicronpsili,
+Omicrondasia,
+Omicronpsilivaria,
+Omicrondasiavaria,
+Omicronpsilioxia,
+Omicrondasiaoxia,
+upsilonpsili,
+upsilondasia,
+upsilonpsilivaria,
+upsilondasiavaria,
+upsilonpsilioxia,
+upsilondasiaoxia,
+upsilonpsiliperispomeni,
+upsilondasiaperispomeni,
+Upsilondasia,
+Upsilondasiavaria,
+Upsilondasiaoxia,
+Upsilondasiaperispomeni,
+omegapsili,
+omegadasia,
+omegapsilivaria,
+omegadasiavaria,
+omegapsilioxia,
+omegadasiaoxia,
+omegapsiliperispomeni,
+omegadasiaperispomeni,
+Omegapsili,
+Omegadasia,
+Omegapsilivaria,
+Omegadasiavaria,
+Omegapsilioxia,
+Omegadasiaoxia,
+Omegapsiliperispomeni,
+Omegadasiaperispomeni,
+alphavaria,
+alphaoxia,
+epsilonvaria,
+epsilonoxia,
+etavaria,
+etaoxia,
+iotavaria,
+iotaoxia,
+omicronvaria,
+omicronoxia,
+upsilonvaria,
+upsilonoxia,
+omegavaria,
+omegaoxia,
+alphapsiliypogegrammeni,
+alphadasiaypogegrammeni,
+alphapsilivariaypogegrammeni,
+alphadasiavariaypogegrammeni,
+alphapsilioxiaypogegrammeni,
+alphadasiaoxiaypogegrammeni,
+alphapsiliperispomeniypogegrammeni,
+alphadasiaperispomeniypogegrammeni,
+Alphapsiliprosgegrammeni,
+Alphadasiaprosgegrammeni,
+Alphapsilivariaprosgegrammeni,
+Alphadasiavariaprosgegrammeni,
+Alphapsilioxiaprosgegrammeni,
+Alphadasiaoxiaprosgegrammeni,
+Alphapsiliperispomeniprosgegrammeni,
+Alphadasiaperispomeniprosgegrammeni,
+etapsiliypogegrammeni,
+etadasiaypogegrammeni,
+etapsilivariaypogegrammeni,
+etadasiavariaypogegrammeni,
+etapsilioxiaypogegrammeni,
+etadasiaoxiaypogegrammeni,
+etapsiliperispomeniypogegrammeni,
+etadasiaperispomeniypogegrammeni,
+Etapsiliprosgegrammeni,
+Etadasiaprosgegrammeni,
+Etapsilivariaprosgegrammeni,
+Etadasiavariaprosgegrammeni,
+Etapsilioxiaprosgegrammeni,
+Etadasiaoxiaprosgegrammeni,
+Etapsiliperispomeniprosgegrammeni,
+Etadasiaperispomeniprosgegrammeni,
+omegapsiliypogegrammeni,
+omegadasiaypogegrammeni,
+omegapsilivariaypogegrammeni,
+omegadasiavariaypogegrammeni,
+omegapsilioxiaypogegrammeni,
+omegadasiaoxiaypogegrammeni,
+omegapsiliperispomeniypogegrammeni,
+omegadasiaperispomeniypogegrammeni,
+Omegapsiliprosgegrammeni,
+Omegadasiaprosgegrammeni,
+Omegapsilivariaprosgegrammeni,
+Omegadasiavariaprosgegrammeni,
+Omegapsilioxiaprosgegrammeni,
+Omegadasiaoxiaprosgegrammeni,
+Omegapsiliperispomeniprosgegrammeni,
+Omegadasiaperispomeniprosgegrammeni,
+alphavrachy,
+alphamacron,
+alphavariaypogegrammeni,
+alphaypogegrammeni,
+alphaoxiaypogegrammeni,
+alphaperispomeni,
+alphaperispomeniypogegrammeni,
+Alphavrachy,
+Alphamacron,
+Alphavaria,
+Alphaoxia,
+Alphaprosgegrammeni,
+koronis,
+prosgegrammeni,
+psili,
+perispomeni,
+dialytikaperispomeni,
+etavariaypogegrammeni,
+etaypogegrammeni,
+etaoxiaypogegrammeni,
+etaperispomeni,
+etaperispomeniypogegrammeni,
+Epsilonvaria,
+Epsilonoxia,
+Etavaria,
+Etaoxia,
+Etaprosgegrammeni,
+psilivaria,
+psilioxia,
+psiliperispomeni,
+iotavrachy,
+iotamacron,
+iotadialytikavaria,
+iotadialytikaoxia,
+iotaperispomeni,
+iotadialytikaperispomeni,
+Iotavrachy,
+Iotamacron,
+Iotavaria,
+Iotaoxia,
+dasiavaria,
+dasiaoxia,
+dasiaperispomeni,
+upsilonvrachy,
+upsilonmacron,
+upsilondialytikavaria,
+upsilondialytikaoxia,
+rhopsili,
+rhodasia,
+upsilonperispomeni,
+upsilondialytikaperispomeni,
+Upsilonvrachy,
+Upsilonmacron,
+Upsilonvaria,
+Upsilonoxia,
+Rhodasia,
+dialytikavaria,
+dialytikaoxia,
+varia,
+omegavariaypogegrammeni,
+omegaypogegrammeni,
+omegaoxiaypogegrammeni,
+omegaperispomeni,
+omegaperispomeniypogegrammeni,
+Omicronvaria,
+Omicronoxia,
+Omegavaria,
+Omegaoxia,
+Omegaprosgegrammeni,
+oxia,
+dasia,
+zerowidthnonjoiner,
+zerowidthjoiner,
+lefttorightmark,
+righttoleftmark,
+figuredash,
+dblverticalbar,
+quotedblrightreversed,
+lefttorightembedding,
+righttoleftembedding,
+popdirectionalformatting,
+lefttorightoverride,
+righttoleftoverride,
+narrownbspace,
+tripleprime,
+overline,
+verticalfourdots,
+inhibitsymmetricswapping,
+activatesymmetricswapping,
+"inhibitformshaping-ar",
+"activateformshaping-ar",
+nationalshapes,
+nominalshapes,
+zerosuperior,
+sixsuperior,
+ninesuperior,
+ainferior,
+einferior,
+oinferior,
+xinferior,
+schwainferior,
+eurocurrency,
+colonsign,
+cruzeiro,
+mill,
+naira,
+rupee,
+won,
+kip,
+tugrik,
+drachma,
+germanpenny,
+peso,
+guarani,
+austral,
+hryvnia,
+cedi,
+rupeeIndian,
+asteriskabovecomb,
+published,
+aktieselskab,
+fturned,
+onethird,
+twothirds,
+creversed,
+leftArrow,
+upArrow,
+rightArrow,
+downArrow,
+leftRightArrow,
+upDownArrow,
+bulletoperator,
+intersection,
+equivalence,
+logicalnoteversed,
+integraltp,
+integralbt,
+boxLightHorizontal,
+boxLightVertical,
+boxLightDownAndRight,
+boxLightDownAndLeft,
+boxLightUpAndRight,
+boxLightUpAndLeft,
+boxLightVerticalAndRight,
+boxLightVerticalAndLeft,
+boxLightDownAndHorizontal,
+boxLightUpAndHorizontal,
+boxLightVerticalAndHorizontal,
+boxDoubleHorizontal,
+boxDoubleVertical,
+boxDownSingleAndRightDouble,
+boxDownDoubleAndRightSingle,
+boxDoubleDownAndRight,
+boxDownSingleAndLeftDouble,
+boxDownDoubleAndLeftSingle,
+boxDoubleDownAndLeft,
+boxUpSingleAndRightDouble,
+boxUpDoubleAndRightSingle,
+boxDoubleUpAndRight,
+boxUpSingleAndLeftDouble,
+boxUpDoubleAndLeftSingle,
+boxDoubleUpAndLeft,
+boxVerticalSingleAndRightDouble,
+boxVerticalDoubleAndRightSingle,
+boxDoubleVerticalAndRight,
+boxVerticalSingleAndLeftDouble,
+boxVerticalDoubleAndLeftSingle,
+boxDoubleVerticalAndLeft,
+boxDownSingleAndHorizontalDouble,
+boxDownDoubleAndHorizontalSingle,
+boxDoubleDownAndHorizontal,
+boxUpSingleAndHorizontalDouble,
+boxUpDoubleAndHorizontalSingle,
+boxDoubleUpAndHorizontal,
+boxVerticalSingleAndHorizontalDouble,
+boxVerticalDoubleAndHorizontalSingle,
+boxDoubleVerticalAndHorizontal,
+upperHalfBlock,
+lowerHalfBlock,
+fullBlock,
+leftBlock,
+rightBlock,
+shadelight,
+shademedium,
+shadedark,
+blackSquare,
+whiteSquare,
+blackSmallSquare,
+whiteSmallSquare,
+filledRect,
+upBlackTriangle,
+rightBlackPointer,
+downBlackTriangle,
+leftBlackPointer,
+whiteCircle,
+dottedCircle,
+blackCircle,
+inverseBullet,
+inverseWhiteCircle,
+whiteBullet,
+"sharp-musical",
+Ldoublebar,
+ldoublebar,
+Lmiddletilde,
+Pstroke,
+Rtail,
+astroke,
+tdiagonalstroke,
+Hdescender,
+hdescender,
+Kdescender,
+kdescender,
+Zdescender,
+zdescender,
+"Alpha-latin",
+vrighthook,
+Whook,
+whook,
+vcurl,
+Halfh,
+halfh,
+taillessphi,
+doubleobliquehyphen,
+dotverticalbarmod,
+dotslashmod,
+dothorizontalbarmod,
+lowerrightcorneranglemod,
+raiseduparrowmod,
+raiseddownarrowmod,
+raisedexclamationmarkmod,
+raisedinvertedexclamationmarkmod,
+lowinvertedexclamationmarkmod,
+stressAndHighTonemod,
+stressAndLowTonemod,
+lowcircumflexmod,
+colonmod,
+shortequalmod,
+Saltillo,
+saltillo,
+Eng.alt1,
+Eng.alt2,
+Eng.alt3,
+radical.mir,
+"Lha-cy",
+"lha-cy",
+"Rha-cy",
+"rha-cy",
+"Yae-cy",
+"yae-cy",
+"Aleutka-cy",
+"aleutka-cy",
+"Elmiddlehook-cy",
+"elmiddlehook-cy",
+"Enmiddlehook-cy",
+"enmiddlehook-cy",
+"Pedescender-cy",
+"pedescender-cy",
+"Shhadescender-cy",
+"shhadescender-cy",
+cyrillic_otmark,
+liraTurkish,
+approxequal.mir,
+notequal.mir,
+integraltp.mir,
+integralbt.mir,
+"LL-middleWelsh",
+Mhook,
+Germandbls,
+Aturned,
+"V-middleWelsh",
+Yloop,
+"Alphaturned-latin",
+Sswashtail,
+Zswashtail,
+"Alef-egyptological",
+"Ain-egyptological",
+Heng,
+Tz,
+Tresillo,
+Cuatrillo,
+Cuatrillocomma,
+AA,
+Ao,
+Au,
+Av,
+AVhorizontalbar,
+AY,
+Creverseddot,
+Kstroke,
+Kdiagonalstroke,
+Kstrokediagonalstroke,
+Lbroken,
+Lhighstroke,
+Olongstroke,
+Oloop,
+OO,
+Pstrokethroughdescender,
+Pflourish,
+Psquirreltail,
+Qstrokethroughdescender,
+Qdiagonalstroke,
+Rrotunda,
+Rumrotunda,
+Vdiagonalstroke,
+VY,
+Thornstroke,
+Thornstrokethroughdescender,
+Vend,
+Et,
+Is,
+Con,
+Dinsular,
+Finsular,
+Ginsular,
+Gturnedinsular,
+Lturned,
+Rinsular,
+Sinsular,
+Tinsular,
+Hturned,
+Ndescender,
+Cbar,
+Gobliquestroke,
+Kobliquestroke,
+Nobliquestroke,
+Robliquestroke,
+Sobliquestroke,
+Hhook,
+Ereversedopen,
+Gscript,
+Lbelt,
+Iotaserifed,
+Qsmall,
+Kturned,
+Tturned,
+Jcrossedtail,
+"Chi-latin",
+"Beta-latin",
+"Omega-latin",
+Lcommaaccent.loclMAH,
+Ncommaaccent.loclMAH,
+Aogonek.loclNAV,
+Eogonek.loclNAV,
+Iogonek.loclNAV,
+Uogonek.loclNAV,
+Esmallturned,
+"idotless-cy",
+"jedotless-cy",
+"delta-latin",
+enotch,
+eopenreversed,
+eopenreversedhook,
+eturned,
+schwahook,
+idotless,
+iogonekdotless,
+jdotless,
+"ll-middleWelsh",
+longsdiagonalstroke,
+longshighstroke,
+olowringinside,
+jsubscript,
+turnedrtail,
+jstrokedotless,
+jcrossedtaildotless,
+jmoddotless,
+yotdotless,
+isubscriptdotless,
+iretroflexhookdotless,
+istrokemoddotless,
+jcrossedtailmoddotless,
+itildebelowdotless,
+idotbelowdotless,
+"alef-egyptological",
+"ain-egyptological",
+heng,
+tz,
+tresillo,
+cuatrillo,
+cuatrillocomma,
+Fsmall,
+Ssmall,
+aa,
+ao,
+au,
+av,
+avhorizontalbar,
+ay,
+creverseddot,
+kstroke,
+kdiagonalstroke,
+kstrokediagonalstroke,
+lbroken,
+lhighstroke,
+olongstroke,
+oloop,
+oo,
+pstrokethroughdescender,
+pflourish,
+psquirreltail,
+qstrokethroughdescender,
+qdiagonalstroke,
+rrotunda,
+rumrotunda,
+vdiagonalstroke,
+vy,
+thornstroke,
+thornstrokethroughdescender,
+vend,
+et,
+is,
+con,
+dum,
+lum,
+mum,
+num,
+rum,
+rumsmall,
+tum,
+um,
+dinsular,
+finsular,
+gturnedinsular,
+lturned,
+rinsular,
+sinsular,
+tinsular,
+lretroflexhookandbelt,
+ndescender,
+cbar,
+gobliquestroke,
+kobliquestroke,
+nobliquestroke,
+robliquestroke,
+sobliquestroke,
+"beta-latin",
+"omega-latin",
+Mturnedsmall,
+sakhayat,
+iotifiede,
+oeopen,
+uo,
+"alphainverted-latin",
+"v-middleWelsh",
+yloop,
+lcommaaccent.loclMAH,
+ncommaaccent.loclMAH,
+aogonek.loclNAV,
+eogonek.loclNAV,
+iogonek.loclNAV,
+uogonek.loclNAV,
+fhook.ss03,
+a.sc,
+aacute.sc,
+abreve.sc,
+acircumflex.sc,
+adieresis.sc,
+agrave.sc,
+amacron.sc,
+aogonek.sc,
+aring.sc,
+aringacute.sc,
+atilde.sc,
+ae.sc,
+aeacute.sc,
+b.sc,
+c.sc,
+cacute.sc,
+ccaron.sc,
+ccedilla.sc,
+ccircumflex.sc,
+cdotaccent.sc,
+d.sc,
+eth.sc,
+dcaron.sc,
+dcroat.sc,
+e.sc,
+eacute.sc,
+ebreve.sc,
+ecaron.sc,
+ecircumflex.sc,
+edieresis.sc,
+edotaccent.sc,
+egrave.sc,
+emacron.sc,
+eogonek.sc,
+f.sc,
+g.sc,
+gbreve.sc,
+gcircumflex.sc,
+gcommaaccent.sc,
+gdotaccent.sc,
+h.sc,
+hbar.sc,
+hcircumflex.sc,
+i.sc,
+iacute.sc,
+ibreve.sc,
+icircumflex.sc,
+idieresis.sc,
+idotaccent.sc,
+igrave.sc,
+ij.sc,
+imacron.sc,
+iogonek.sc,
+itilde.sc,
+j.sc,
+jcircumflex.sc,
+k.sc,
+kcommaaccent.sc,
+l.sc,
+lacute.sc,
+lcaron.sc,
+lcommaaccent.sc,
+ldot.sc,
+lslash.sc,
+m.sc,
+n.sc,
+nacute.sc,
+ncaron.sc,
+ncommaaccent.sc,
+eng.sc,
+ntilde.sc,
+o.sc,
+oacute.sc,
+obreve.sc,
+ocircumflex.sc,
+odieresis.sc,
+ograve.sc,
+ohungarumlaut.sc,
+omacron.sc,
+oslash.sc,
+oslashacute.sc,
+otilde.sc,
+oe.sc,
+p.sc,
+thorn.sc,
+q.sc,
+r.sc,
+racute.sc,
+rcaron.sc,
+rcommaaccent.sc,
+s.sc,
+sacute.sc,
+scaron.sc,
+scedilla.sc,
+scircumflex.sc,
+scommaaccent.sc,
+germandbls.sc,
+t.sc,
+tbar.sc,
+tcaron.sc,
+tcedilla.sc,
+tcommaaccent.sc,
+u.sc,
+uacute.sc,
+ubreve.sc,
+ucircumflex.sc,
+udieresis.sc,
+ugrave.sc,
+uhungarumlaut.sc,
+umacron.sc,
+uogonek.sc,
+uring.sc,
+utilde.sc,
+v.sc,
+w.sc,
+wacute.sc,
+wcircumflex.sc,
+wdieresis.sc,
+wgrave.sc,
+x.sc,
+y.sc,
+yacute.sc,
+ycircumflex.sc,
+ydieresis.sc,
+ygrave.sc,
+z.sc,
+zacute.sc,
+zcaron.sc,
+zdotaccent.sc,
+imod,
+sinologicaldot,
+Iepigraphicsideways,
+Fepigraphicreversed,
+Pepigraphicreversed,
+Mepigraphicinverted,
+Longaepigraphici,
+Mepigraphicarchaic,
+"Zemlya-cy",
+"Dzelo-cy",
+"Dzereversed-cy",
+"Iota-cy",
+"Djerv-cy",
+"Ukmonograph-cy",
+"Omegabroad-cy",
+"Yerneutral-cy",
+"Yerubackyer-cy",
+"Yatiotified-cy",
+"Yureversed-cy",
+"Iotifieda-cy",
+"Yusclosedlittle-cy",
+"Yusblended-cy",
+"Yusiotifiedclosedlittle-cy",
+"Yn-cy",
+"Tsereversed-cy",
+"Desoft-cy",
+"Elsoft-cy",
+"Emsoft-cy",
+"Omonocular-cy",
+"Obinocular-cy",
+"Odoublemonocular-cy",
+"Dwe-cy",
+"Dzwe-cy",
+"Zhwe-cy",
+"Cche-cy",
+"Dzze-cy",
+"Tewithmiddlehook-cy",
+"Twe-cy",
+"Tswe-cy",
+"Tsse-cy",
+"Tche-cy",
+"Hwe-cy",
+"Shwe-cy",
+"Odouble-cy",
+"Ocrossed-cy",
+"Enlefthook-cy",
+"Dzzhe-cy",
+"Dche-cy",
+"Eldescender-cy",
+"verounded-cy",
+"delonglegged-cy",
+"onarrow-cy",
+"eswide-cy",
+"tetall-cy",
+"tethreelegged-cy",
+"hardsigntall-cy",
+"yattall-cy",
+"ukunblended-cy",
+"zemlya-cy",
+"dzelo-cy",
+"dzereversed-cy",
+"iota-cy",
+"djerv-cy",
+"ukmonograph-cy",
+"omegabroad-cy",
+"yerneutral-cy",
+"yerubackyer-cy",
+"yatiotified-cy",
+"yureversed-cy",
+"iotifieda-cy",
+"yusclosedlittle-cy",
+"yusblended-cy",
+"yusiotifiedclosedlittle-cy",
+"yn-cy",
+"tsereversed-cy",
+"desoft-cy",
+"elsoft-cy",
+"emsoft-cy",
+"omonocular-cy",
+"obinocular-cy",
+"odoublemonocular-cy",
+"dwe-cy",
+"dzwe-cy",
+"zhwe-cy",
+"cche-cy",
+"dzze-cy",
+"tewithmiddlehook-cy",
+"twe-cy",
+"tswe-cy",
+"tsse-cy",
+"tche-cy",
+"hwe-cy",
+"shwe-cy",
+"odouble-cy",
+"ocrossed-cy",
+"enlefthook-cy",
+"dzzhe-cy",
+"dche-cy",
+"eldescender-cy",
+"be-cy.loclSRB",
+"omultiocular-cy",
+"payerok-cy",
+"modifierhardsign-cy",
+"modifiersoftsign-cy",
+Heta,
+Archaicsampi,
+Pamphyliandigamma,
+KaiSymbol,
+Yot,
+alpha_brevecomb_commaabovecomb_gravecomb,
+alpha_brevecomb_commaabovecomb_acutecomb,
+alpha_brevecomb_commareversedabovecomb_gravecomb,
+alpha_brevecomb_commareversedabovecomb_acutecomb,
+alpha_macroncomb_commaabovecomb_gravecomb,
+alpha_macroncomb_commaabovecomb_acutecomb,
+alpha_macroncomb_commareversedabovecomb_gravecomb,
+alpha_macroncomb_commareversedabovecomb_acutecomb,
+iota_dieresiscomb_brevecomb_gravecomb,
+iota_dieresiscomb_brevecomb_acutecomb,
+iota_dieresiscomb_macroncomb_gravecomb,
+iota_dieresiscomb_macroncomb_acutecomb,
+iota_brevecomb_commaabovecomb_gravecomb,
+iota_brevecomb_commaabovecomb_acutecomb,
+iota_brevecomb_commareversedabovecomb_gravecomb,
+iota_brevecomb_commareversedabovecomb_acutecomb,
+iota_macroncomb_commaabovecomb_gravecomb,
+iota_macroncomb_commaabovecomb_acutecomb,
+iota_macroncomb_commareversedabovecomb_gravecomb,
+iota_macroncomb_commareversedabovecomb_acutecomb,
+upsilon_dieresiscomb_brevecomb_gravecomb,
+upsilon_dieresiscomb_brevecomb_acutecomb,
+upsilon_dieresiscomb_macroncomb_gravecomb,
+upsilon_dieresiscomb_macroncomb_acutecomb,
+upsilon_brevecomb_commaabovecomb_gravecomb,
+upsilon_brevecomb_commaabovecomb_acutecomb,
+upsilon_brevecomb_commareversedabovecomb_gravecomb,
+upsilon_brevecomb_commareversedabovecomb_acutecomb,
+upsilon_macroncomb_commaabovecomb_gravecomb,
+upsilon_macroncomb_commaabovecomb_acutecomb,
+upsilon_macroncomb_commareversedabovecomb_gravecomb,
+upsilon_macroncomb_commareversedabovecomb_acutecomb,
+heta,
+archaicsampi,
+pamphyliandigamma,
+Omegasmall,
+"C-fraktur",
+"H-fraktur",
+"I-fraktur",
+"R-fraktur",
+"Z-fraktur",
+Zvisigothic,
+zvisigothic,
+Bscript,
+Hscript,
+Iscript,
+Lscript,
+PidoubleStruck,
+Rscript,
+Fturned,
+angstrom,
+CdoubleStruck,
+HdoubleStruck,
+NdoubleStruck,
+PdoubleStruck,
+QdoubleStruck,
+RdoubleStruck,
+ZdoubleStruck,
+DitalicDoubleStruck,
+GammadoubleStruck,
+eulerconstant,
+kelvin,
+Escript,
+Fscript,
+Mscript,
+Bflourish,
+Fstroke,
+Aevolapuk,
+Oevolapuk,
+Uevolapuk,
+ditalicDoubleStruck,
+eitalicDoubleStruck,
+iitalicDoubleStruck,
+jitalicDoubleStruck,
+gammadoubleStruck,
+pidoubleStruck,
+planckconstant,
+planckconstantovertwopi,
+escript,
+oscript,
+gscript,
+cpalatalhook,
+hpalatalhook,
+bflourish,
+fstroke,
+aevolapuk,
+oevolapuk,
+uevolapuk,
+alphabarred,
+aschwareversed,
+"e-blackletter",
+ebarred,
+eflourish,
+flenis,
+gscriptcrossedtail,
+lsinvertedlazy,
+ldoublemiddletilde,
+lmiddlering,
+mcrossedtail,
+ncrossedtail,
+engcrossedtail,
+"o-blackletter",
+"ostroke-blackletter",
+"oopenstroke-blackletter",
+oeinverted,
+oeturnedstroke,
+oeturnedwithhorizontalstroke,
+oopenoturned,
+ostrokeopenoturned,
+rstirrup,
+rrightleg,
+rnohandle,
+rdouble,
+rcrossedtail,
+rdoublecrossedtail,
+rscript,
+rscriptring,
+eshbaseline,
+ushortrightleg,
+ubarshortrightleg,
+ui,
+uiturned,
+ulefthook,
+"chi-latin",
+chilowrightring,
+chilowleftserif,
+xlowrightring,
+xlongleftleg,
+xlongleftlegandlowrightring,
+xlongleftlegserif,
+yshortrightleg,
+hinferior,
+kinferior,
+linferior,
+minferior,
+ninferior,
+pinferior,
+sinferior,
+tinferior,
+usmod,
+Hbarmod,
+oemod,
+hengmod,
+lsinvertedlazymod,
+lmiddletildemod,
+ulefthookmod,
+verticaltilde,
+one.paren,
+two.paren,
+zero.osf,
+one.osf,
+two.osf,
+three.osf,
+four.osf,
+five.osf,
+six.osf,
+seven.osf,
+eight.osf,
+nine.osf,
+zero.slash,
+zero.dnom,
+one.dnom,
+two.dnom,
+three.dnom,
+four.dnom,
+five.dnom,
+six.dnom,
+seven.dnom,
+eight.dnom,
+nine.dnom,
+zero.numr,
+one.numr,
+two.numr,
+three.numr,
+four.numr,
+five.numr,
+six.numr,
+seven.numr,
+eight.numr,
+nine.numr,
+onefraction,
+zerothird,
+onefifth,
+twofifths,
+threefifths,
+fourfifths,
+onesixth,
+fivesixths,
+oneseventh,
+oneninth,
+onetenth,
+zeroinferior,
+oneinferior,
+twoinferior,
+threeinferior,
+fourinferior,
+fiveinferior,
+sixinferior,
+seveninferior,
+eightinferior,
+nineinferior,
+asterism,
+blackleftbullet,
+blackrightbullet,
+bracketleftwithquill,
+bracketrightwithquill,
+caretSign,
+caretinsertionpoint,
+charactertie,
+closeup,
+daggerwithleftguard,
+daggerwithrightguard,
+dottedcross,
+dottedobelos,
+dottedrightpointingangle,
+dottedtranspositionmarker,
+downancora,
+editorialcoronis,
+exclamationquestion,
+fivedotmark,
+fivedotpunctuation,
+flowerpunctuationmark,
+forkedparagraphos,
+fourdotmark,
+fourdotpunctuation,
+hyphenationpoint,
+hyphenbullet,
+hypodiastole,
+invertedinterrobang,
+invertedundertie,
+leftdottedsubstitutionbracket,
+leftlowparaphrasebracket,
+leftraisedomissionbracket,
+leftsubstitutionbracket,
+lefttranspositionbracket,
+leftverticalbarwithquill,
+lowasterisk,
+onedotenleader,
+onedotovertwodots,
+palmbranch,
+paragraphos,
+doublequestion,
+questionexclamation,
+raisedcomma,
+raiseddot,
+raiseddottedinterpolationmarker,
+raisedinterpolationmarker,
+raisedsquare,
+referencemark,
+reversedforkedparagraphos,
+paragraphreversed,
+questionreversed,
+reversedsemicolon,
+rightangledottedsubstitutionmarker,
+rightanglesubstitutionmarker,
+rightdottedsubstitutionbracket,
+rightlowparaphrasebracket,
+rightraisedomissionbracket,
+rightsubstitutionbracket,
+righttranspositionbracket,
+rightverticalbarwithquill,
+ringpoint,
+squaredfourdot,
+swungdash,
+threedotpunctuation,
+tildedotabove,
+tildedotbelow,
+tilderingabove,
+tironiansignet,
+tophalfsectionsign,
+tricolon,
+turnedcomma,
+turneddagger,
+turnedsemicolon,
+twoasterisksvertical,
+twodotenleader,
+twodotpunctuation,
+twodotsoveronedot,
+undertie,
+triangularbullet,
+stenographicfullstop,
+verticalsixdots,
+wigglyverticalline,
+capitulum,
+commareversed,
+dashwithupturnleft,
+suspensiondbl,
+kavykainvertedlow,
+kavykawithkavykaaboveinvertedlow,
+kavykalow,
+kavykawithdotlow,
+stackedcommadbl,
+solidusdotted,
+tripledagger,
+medievalcomma,
+paragraphus,
+punctuselevatus,
+cornishversedivider,
+"asterisk-cy",
+upancora,
+wordseparatormiddledot,
+parenleftinferior,
+parenrightinferior,
+braceleft.full,
+braceright.full,
+bottomleftHalfBracket,
+bottomrightHalfBracket,
+topleftHalfBracket,
+toprightHalfBracket,
+leftDoubleParen,
+rightDoubleParen,
+leftCeiling,
+leftFloor,
+leftsidewaysubracket,
+rightCeiling,
+rightFloor,
+rightsidewaysubracket,
+parenleftsuperior,
+parenrightsuperior,
+znotationleftimagebracket,
+znotationrightimagebracket,
+hyphendieresis,
+hyphentwo,
+nonbreakinghyphen,
+threeemdash,
+twoemdash,
+hyphendouble,
+doubleprimeReversed,
+primeReversed,
+quadrupleprime,
+tripleprimeReversed,
+quotedblbasereversed,
+parenleft.sc,
+parenright.sc,
+braceleft.sc,
+braceright.sc,
+bracketleft.sc,
+bracketright.sc,
+exclam.sc,
+exclamdown.sc,
+question.sc,
+questiondown.sc,
+exclamdouble.sc,
+guilsinglleft.sc,
+guilsinglright.sc,
+"leftanglebracket-math",
+"leftdoubleanglebracket-math",
+"leftwhitesquarebracket-math",
+"rightanglebracket-math",
+"rightdoubleanglebracket-math",
+"rightwhitesquarebracket-math",
+"cwi-kayahli",
+"kavyka-cy",
+"mediumspace-math",
+lineseparator,
+paragraphseparator,
+functionapplication,
+invisibleplus,
+invisibleseparator,
+invisibletimes,
+lefttorightisolate,
+righttoleftisolate,
+firststrongisolate,
+popdirectionalisolate,
+wordjoiner,
+zeroWidthNoBreakSpace,
+livreTournois,
+manat,
+ruble,
+sheqel,
+spesmilo,
+tenge,
+nordicMark,
+lari,
+bitcoin,
+Ohminverted,
+alephsymbol,
+almostequalorequalto,
+ampersandturned,
+angle,
+asymptoticallyequal,
+because,
+betsymbol,
+between,
+bottomcurlybracket,
+bottomparenthesis,
+bottomtortoiseshellbracket,
+bowtie,
+colonequals,
+commercialMinusSign,
+complement,
+congruent,
+containsasmemberSmall,
+containsasnormalsubgrouporequalto,
+coproduct,
+curlybracketextension,
+curlyor,
+daletsymbol,
+diamondoperator,
+divides,
+dotminus,
+doublesubset,
+doublesuperset,
+element,
+elementSmall,
+endofproof,
+equalinferior,
+equalscolon,
+equalsuperior,
+existential,
+fullOuterJoin,
+gimelsymbol,
+gradient,
+greaterorequivalent,
+integralextension,
+leftOuterJoin,
+leftcurlybracketlowerhook,
+leftcurlybracketmiddlepiece,
+leftcurlybracketupperhook,
+leftnormalfactorsemidirectproduct,
+leftsquarebracketextension,
+leftsquarebracketlowercorner,
+leftsquarebracketuppercorner,
+lessorequivalent,
+minusinferior,
+minussuperior,
+multimap,
+multisetunion,
+naryintersection,
+naryunion,
+nAryCircledDotOperator,
+nArySquareIntersectionOperator,
+nArySquareUnionOperator,
+neitherapproximatelynoractuallyequalto,
+neitherasubsetofnorequalto,
+neitherasupersetofnorequalto,
+neithergreaterthannorequivalentto,
+neitherlessthannorequivalentto,
+normalsubgroupoforequalto,
+notalmostequalto,
+notcontains,
+notelement,
+notgreater,
+notgreaternorequal,
+notidentical,
+notless,
+notlessnorequal,
+notsimilar,
+notsquareimageoforequalto,
+notsquareoriginaloforequalto,
+notsubset,
+notsuperset,
+emptyset,
+logicaland,
+logicalor,
+union,
+parenleftextension,
+parenleftlowerhook,
+parenleftupperhook,
+parenrightextension,
+parenrightlowerhook,
+parenrightupperhook,
+pertenthousand,
+plusinferior,
+plussuperior,
+precedes,
+proportion,
+questionedequalto,
+ratio,
+reflexsubset,
+reflexsuperset,
+LreversedSansSerif,
+reversedtilde,
+reversedtildeequals,
+rightOuterJoin,
+rightcurlybracketlowerhook,
+rightcurlybracketmiddlepiece,
+rightcurlybracketupperhook,
+rightnormalfactorsemidirectproduct,
+rightsquarebracketextension,
+rightsquarebracketlowercorner,
+rightsquarebracketuppercorner,
+righttack,
+ringequalto,
+ringoperator,
+similar,
+squarecap,
+squarecup,
+squareimageoforequalto,
+squareoriginaloforequalto,
+staroperator,
+subset,
+succeeds,
+suchthat,
+summationdoubleStruck,
+summationbottom,
+summationtop,
+superset,
+tackdown,
+tackleft,
+theredoesnotexist,
+therefore,
+topcurlybracket,
+topparenthesis,
+toptortoiseshellbracket,
+tripletilde,
+GturnedSansSerif,
+LturnedSansSerif,
+YturnedSansSerif,
+universal,
+upperleftorlowerrightcurlybracketsection,
+upperrightorlowerleftcurlybracketsection,
+uptack,
+asteriskoperator.circled,
+equals.circled,
+fraction.circled,
+minus.circled,
+almostequalorequalto.mir,
+angle.mir,
+complement.mir,
+congruent.mir,
+existential.mir,
+multimap.mir,
+neitherapproximatelynoractuallyequalto.mir,
+notalmostequalto.mir,
+notidentical.mir,
+notsimilar.mir,
+questionedequalto.mir,
+theredoesnotexist.mir,
+tripletilde.mir,
+multiply.circled,
+operator.circled,
+plus.circled,
+reverseSolidus.circled,
+ringoperator.circled,
+summationDoubleStruck.mir,
+leftWaveArrow,
+rightWaveArrow,
+leftTwoheadedArrow,
+rightTwoheadedArrow,
+leftTailArrow,
+rightTailArrow,
+leftFrombarArrow,
+rightFrombarArrow,
+upDoubleArrow,
+rightDoubleArrow,
+downDoubleArrow,
+leftDoubleArrow,
+leftRightDoubleArrow,
+leftTripleArrow,
+rightTripleArrow,
+rightWhiteArrow,
+leftWhiteArrow,
+leftLongArrow,
+rightlongArrow,
+lowerOneEighthBlock,
+lowerOneQuarterBlock,
+lowerThreeEighthsBlock,
+lowerFiveEighthsBlock,
+lowerThreeQuartersBlock,
+lowerSevenEighthsBlock,
+upperOneEighthBlock,
+leftOneEighthBlock,
+leftOneQuarterBlock,
+leftThreeEighthsBlock,
+leftFiveEighthsBlock,
+leftThreeQuartersBlock,
+leftSevenEighthsBlock,
+rightOneEighthBlock,
+lowerLeftBlock,
+lowerRightBlock,
+upperLeftBlock,
+upperLeftAndLowerLeftAndLowerRightBlock,
+upperLeftAndLowerRightBlock,
+upperLeftAndUpperRightAndLowerLeftBlock,
+upperLeftAndUpperRightAndLowerRightBlock,
+upperRightBlock,
+upperRightAndLowerLeftBlock,
+upperRightAndLowerLeftAndLowerRightBlock,
+largeCircle,
+leftHalfBlackWhiteCircle,
+rightHalfBlackWhiteCircle,
+lowerHalfBlackWhiteCircle,
+upperHalfBlackWhiteCircle,
+leftHalfBlackCircle,
+rightHalfBlackCircle,
+upperRightBlackCircle,
+upperLeftWhiteCircle,
+upperLeftQuadrantWhiteCircle,
+lowerLeftQuadrantWhiteCircle,
+lowerRightQuadrantWhiteCircle,
+upperRightQuadrantWhiteCircle,
+verticalFillCircle,
+fisheye,
+bullseye,
+upperHalfInverseWhiteCircle,
+lowerHalfInverseWhiteCircle,
+upperHalfArc,
+lowerHalfArc,
+upperLeftArc,
+upperRightArc,
+lowerRightArc,
+lowerLeftArc,
+blackDiamond,
+whiteDiamond,
+blackInWhiteDiamond,
+blackParallelogram,
+whiteParallelogram,
+blackVerticalRect,
+whiteRect,
+whiteVerticalRect,
+whiteRoundedCornersSquare,
+whiteInBlackSquare,
+horizontalFillSquare,
+verticalFillSquare,
+crosshatchFillSquare,
+upperlefttolowerrightFillSquare,
+upperrighttolowerleftFillSquare,
+diagonalcrosshatchFillSquare,
+leftHalfBlackSquare,
+rightHalfBlackSquare,
+upperLeftDiagonalHalfBlackSquare,
+lowerRightDiagonalHalfBlackSquare,
+verticalBisectingLineWhiteSquare,
+whiteUpperLeftQuadrantSquare,
+whiteLowerLeftQuadrantSquare,
+whiteLowerRightQuadrantSquare,
+whiteUpperRightQuadrantSquare,
+mediumWhiteSquare,
+mediumBlackSquare,
+mediumWhiteSmallSquare,
+mediumBlackSmallSquare,
+rightBlackTriangle,
+leftBlackTriangle,
+upWhiteTriangle,
+rightWhiteTriangle,
+downWhiteTriangle,
+leftWhiteTriangle,
+upWhiteTriangleWithDot,
+upLeftHalfBlackTriangle,
+upRightHalfBlackTriangle,
+rightWhitePointer,
+leftWhitePointer,
+upBlackSmallTriangle,
+rightBlackSmallTriangle,
+downBlackSmallTriangle,
+leftBlackSmallTriangle,
+upWhiteSmallTriangle,
+rightWhiteSmallTriangle,
+downWhiteSmallTriangle,
+leftWhiteSmallTriangle,
+upperRightBlackTriangle,
+lowerRightBlackTriangle,
+lowerLeftBlackTriangle,
+upperLeftBlackTriangle,
+upperRightTriangle,
+lowerRightTriangle,
+lowerLeftTriangle,
+upperLeftTriangle,
+boxHeavyHorizontal,
+boxHeavyVertical,
+boxLightTripleDashHorizontal,
+boxHeavyTripleDashHorizontal,
+boxLightTripleDashVertical,
+boxHeavyTripleDashVertical,
+boxLightQuadrupleDashHorizontal,
+boxHeavyQuadrupleDashHorizontal,
+boxLightQuadrupleDashVertical,
+boxHeavyQuadrupleDashVertical,
+boxDownLightAndRightHeavy,
+boxDownHeavyAndRightLight,
+boxHeavyDownAndRight,
+boxDownLightAndLeftHeavy,
+boxDownHeavyAndLeftLight,
+boxHeavyDownAndLeft,
+boxUpLightAndRightHeavy,
+boxUpHeavyAndRightLight,
+boxHeavyUpAndRight,
+boxUpLightAndLeftHeavy,
+boxUpHeavyAndLeftLight,
+boxHeavyUpAndLeft,
+boxVerticalLightAndRightHeavy,
+boxUpHeavyAndRightDownLight,
+boxDownHeavyAndRightUpLight,
+boxVerticalHeavyAndRightLight,
+boxDownLightAndRightUpHeavy,
+boxUpLightAndRightDownHeavy,
+boxHeavyVerticalAndRight,
+boxVerticalLightAndLeftHeavy,
+boxUpHeavyAndLeftDownLight,
+boxDownHeavyAndLeftUpLight,
+boxVerticalHeavyAndLeftLight,
+boxDownLightAndLeftUpHeavy,
+boxUpLightAndLeftDownHeavy,
+boxHeavyVerticalAndLeft,
+boxLeftHeavyAndRightDownLight,
+boxRightHeavyAndLeftDownLight,
+boxDownLightAndHorizontalHeavy,
+boxDownHeavyAndHorizontalLight,
+boxRightLightAndLeftDownHeavy,
+boxLeftLightAndRightDownHeavy,
+boxHeavyDownAndHorizontal,
+boxLeftHeavyAndRightUpLight,
+boxRightHeavyAndLeftUpLight,
+boxUpLightAndHorizontalHeavy,
+boxUpHeavyAndHorizontalLight,
+boxRightLightAndLeftUpHeavy,
+boxLeftLightAndRightUpHeavy,
+boxHeavyUpAndHorizontal,
+boxLeftHeavyAndRightVerticalLight,
+boxRightHeavyAndLeftVerticalLight,
+boxVerticalLightAndHorizontalHeavy,
+boxUpHeavyAndDownHorizontalLight,
+boxDownHeavyAndUpHorizontalLight,
+boxVerticalHeavyAndHorizontalLight,
+boxLeftUpHeavyAndRightDownLight,
+boxRightUpHeavyAndLeftDownLight,
+boxLeftDownHeavyAndRightUpLight,
+boxRightDownHeavyAndLeftUpLight,
+boxDownLightAndUpHorizontalHeavy,
+boxUpLightAndDownHorizontalHeavy,
+boxRightLightAndLeftVerticalHeavy,
+boxLeftLightAndRightVerticalHeavy,
+boxHeavyVerticalAndHorizontal,
+boxLightDoubleDashHorizontal,
+boxHeavyDoubleDashHorizontal,
+boxLightDoubleDashVertical,
+boxHeavyDoubleDashVertical,
+boxLightArcDownAndRight,
+boxLightArcDownAndLeft,
+boxLightArcUpAndLeft,
+boxLightArcUpAndRight,
+boxLightDiagonalUpperRightToLowerLeft,
+boxLightDiagonalUpperLeftToLowerRight,
+boxLightDiagonalCross,
+boxLightLeft,
+boxLightUp,
+boxLightRight,
+boxLightDown,
+boxHeavyLeft,
+boxHeavyUp,
+boxHeavyRight,
+boxHeavyDown,
+boxLightLeftAndHeavyRight,
+boxLightUpAndHeavyDown,
+boxHeavyLeftAndLightRight,
+boxHeavyUpAndLightDown,
+APLIbeam,
+APLalpha,
+APLalphaunderbar,
+APLbackslashbar,
+APLcirclebackslash,
+APLcircledieresis,
+APLcirclejot,
+APLcirclestar,
+APLcirclestile,
+APLcircleunderbar,
+APLcommabar,
+APLdeldieresis,
+APLdelstile,
+APLdeltastile,
+APLdeltaunderbar,
+APLdeltilde,
+APLdiamondunderbar,
+APLdowncarettilde,
+APLdownshoestile,
+APLdowntackjot,
+APLdowntackunderbar,
+APLdownvane,
+APLepsilonunderbar,
+APLgreaterthandieresis,
+APLiota,
+APLiotaunderbar,
+APLjotdieresis,
+APLjotunderbar,
+APLleftshoestile,
+APLleftvane,
+APLomega,
+APLomegaunderbar,
+APLquad,
+APLquadbackslash,
+APLquadcircle,
+APLquadcolon,
+APLquaddel,
+APLquaddelta,
+APLquaddiamond,
+APLquaddivide,
+APLquaddownarrow,
+APLquaddowncaret,
+APLquadequal,
+APLquadgreaterthan,
+APLquadjot,
+APLquadleftarrow,
+APLquadlessthan,
+APLquadnotequal,
+APLquadquestion,
+APLquadrightarrow,
+APLquadslash,
+APLquaduparrow,
+APLquadupcaret,
+APLquotequad,
+APLquoteunderbar,
+APLrho,
+APLrightvane,
+APLsemicolonunderbar,
+APLslashbar,
+APLsquishquad,
+APLstardieresis,
+APLstiletilde,
+APLtildedieresis,
+APLupcarettilde,
+APLupshoejot,
+APLuptackdieresis,
+APLuptackjot,
+APLuptackoverbar,
+APLupvane,
+APLzilde,
+"flat-musical",
+"natural-musical",
+sixPointedBlackStar,
+lightVerticalBar,
+mediumVerticalBar,
+heavyVerticalBar,
+Qrotated,
+accountof,
+addressedtothesubject,
+bottomsquarebracket,
+bottomsquarebracketovertopsquarebracket,
+cadauna,
+centigrade,
+centrelinesymbol,
+veryHeavySolidus,
+veryHeavyReverseSolidus,
+checkerBoard,
+reverseCheckerBoard,
+facsimile,
+fahrenheit,
+horizontalscanline1,
+horizontalscanline3,
+horizontalscanline7,
+horizontalscanline9,
+informationsource,
+interrobang,
+lbbarsymbol,
+leftverticalboxline,
+ounce,
+persign,
+prescription,
+propertyline,
+radicalsymbolbottom,
+response,
+rightverticalboxline,
+scruple,
+servicemark,
+samaritansource,
+telephone,
+topsquarebracket,
+turnedNotSign,
+versicle,
+weierstrass,
+rhotichookmod,
+tonebarextrahighmod_tonebarextrahighmod_tonebarextralowmod,
+tonebarextrahighmod_tonebarextrahighmod_tonebarhighmod,
+tonebarextrahighmod_tonebarextrahighmod_tonebarlowmod,
+tonebarextrahighmod_tonebarextrahighmod_tonebarmidmod,
+tonebarextrahighmod_tonebarextralowmod,
+tonebarextrahighmod_tonebarextralowmod_tonebarextrahighmod,
+tonebarextrahighmod_tonebarextralowmod_tonebarextralowmod,
+tonebarextrahighmod_tonebarextralowmod_tonebarhighmod,
+tonebarextrahighmod_tonebarextralowmod_tonebarlowmod,
+tonebarextrahighmod_tonebarextralowmod_tonebarmidmod,
+tonebarextrahighmod_tonebarhighmod,
+tonebarextrahighmod_tonebarhighmod_tonebarextrahighmod,
+tonebarextrahighmod_tonebarhighmod_tonebarextralowmod,
+tonebarextrahighmod_tonebarhighmod_tonebarhighmod,
+tonebarextrahighmod_tonebarhighmod_tonebarlowmod,
+tonebarextrahighmod_tonebarhighmod_tonebarmidmod,
+tonebarextrahighmod_tonebarlowmod,
+tonebarextrahighmod_tonebarlowmod_tonebarextrahighmod,
+tonebarextrahighmod_tonebarlowmod_tonebarextralowmod,
+tonebarextrahighmod_tonebarlowmod_tonebarhighmod,
+tonebarextrahighmod_tonebarlowmod_tonebarlowmod,
+tonebarextrahighmod_tonebarlowmod_tonebarmidmod,
+tonebarextrahighmod_tonebarmidmod,
+tonebarextrahighmod_tonebarmidmod_tonebarextrahighmod,
+tonebarextrahighmod_tonebarmidmod_tonebarextralowmod,
+tonebarextrahighmod_tonebarmidmod_tonebarhighmod,
+tonebarextrahighmod_tonebarmidmod_tonebarlowmod,
+tonebarextrahighmod_tonebarmidmod_tonebarmidmod,
+tonebarextralowmod_tonebarextrahighmod,
+tonebarextralowmod_tonebarextrahighmod_tonebarextrahighmod,
+tonebarextralowmod_tonebarextrahighmod_tonebarextralowmod,
+tonebarextralowmod_tonebarextrahighmod_tonebarhighmod,
+tonebarextralowmod_tonebarextrahighmod_tonebarlowmod,
+tonebarextralowmod_tonebarextrahighmod_tonebarmidmod,
+tonebarextralowmod_tonebarextralowmod_tonebarextrahighmod,
+tonebarextralowmod_tonebarextralowmod_tonebarhighmod,
+tonebarextralowmod_tonebarextralowmod_tonebarlowmod,
+tonebarextralowmod_tonebarextralowmod_tonebarmidmod,
+tonebarextralowmod_tonebarhighmod,
+tonebarextralowmod_tonebarhighmod_tonebarextrahighmod,
+tonebarextralowmod_tonebarhighmod_tonebarextralowmod,
+tonebarextralowmod_tonebarhighmod_tonebarhighmod,
+tonebarextralowmod_tonebarhighmod_tonebarlowmod,
+tonebarextralowmod_tonebarhighmod_tonebarmidmod,
+tonebarextralowmod_tonebarlowmod,
+tonebarextralowmod_tonebarlowmod_tonebarextrahighmod,
+tonebarextralowmod_tonebarlowmod_tonebarextralowmod,
+tonebarextralowmod_tonebarlowmod_tonebarhighmod,
+tonebarextralowmod_tonebarlowmod_tonebarlowmod,
+tonebarextralowmod_tonebarlowmod_tonebarmidmod,
+tonebarextralowmod_tonebarmidmod,
+tonebarextralowmod_tonebarmidmod_tonebarextrahighmod,
+tonebarextralowmod_tonebarmidmod_tonebarextralowmod,
+tonebarextralowmod_tonebarmidmod_tonebarhighmod,
+tonebarextralowmod_tonebarmidmod_tonebarlowmod,
+tonebarextralowmod_tonebarmidmod_tonebarmidmod,
+tonebarhighmod_tonebarextrahighmod,
+tonebarhighmod_tonebarextrahighmod_tonebarextrahighmod,
+tonebarhighmod_tonebarextrahighmod_tonebarextralowmod,
+tonebarhighmod_tonebarextrahighmod_tonebarhighmod,
+tonebarhighmod_tonebarextrahighmod_tonebarlowmod,
+tonebarhighmod_tonebarextrahighmod_tonebarmidmod,
+tonebarhighmod_tonebarextralowmod,
+tonebarhighmod_tonebarextralowmod_tonebarextrahighmod,
+tonebarhighmod_tonebarextralowmod_tonebarextralowmod,
+tonebarhighmod_tonebarextralowmod_tonebarhighmod,
+tonebarhighmod_tonebarextralowmod_tonebarlowmod,
+tonebarhighmod_tonebarextralowmod_tonebarmidmod,
+tonebarhighmod_tonebarhighmod_tonebarextrahighmod,
+tonebarhighmod_tonebarhighmod_tonebarextralowmod,
+tonebarhighmod_tonebarhighmod_tonebarlowmod,
+tonebarhighmod_tonebarhighmod_tonebarmidmod,
+tonebarhighmod_tonebarlowmod,
+tonebarhighmod_tonebarlowmod_tonebarextrahighmod,
+tonebarhighmod_tonebarlowmod_tonebarextralowmod,
+tonebarhighmod_tonebarlowmod_tonebarhighmod,
+tonebarhighmod_tonebarlowmod_tonebarlowmod,
+tonebarhighmod_tonebarlowmod_tonebarmidmod,
+tonebarhighmod_tonebarmidmod,
+tonebarhighmod_tonebarmidmod_tonebarextrahighmod,
+tonebarhighmod_tonebarmidmod_tonebarextralowmod,
+tonebarhighmod_tonebarmidmod_tonebarhighmod,
+tonebarhighmod_tonebarmidmod_tonebarlowmod,
+tonebarhighmod_tonebarmidmod_tonebarmidmod,
+tonebarlowmod_tonebarextrahighmod,
+tonebarlowmod_tonebarextrahighmod_tonebarextrahighmod,
+tonebarlowmod_tonebarextrahighmod_tonebarextralowmod,
+tonebarlowmod_tonebarextrahighmod_tonebarhighmod,
+tonebarlowmod_tonebarextrahighmod_tonebarlowmod,
+tonebarlowmod_tonebarextrahighmod_tonebarmidmod,
+tonebarlowmod_tonebarextralowmod,
+tonebarlowmod_tonebarextralowmod_tonebarextrahighmod,
+tonebarlowmod_tonebarextralowmod_tonebarextralowmod,
+tonebarlowmod_tonebarextralowmod_tonebarhighmod,
+tonebarlowmod_tonebarextralowmod_tonebarlowmod,
+tonebarlowmod_tonebarextralowmod_tonebarmidmod,
+tonebarlowmod_tonebarhighmod,
+tonebarlowmod_tonebarhighmod_tonebarextrahighmod,
+tonebarlowmod_tonebarhighmod_tonebarextralowmod,
+tonebarlowmod_tonebarhighmod_tonebarhighmod,
+tonebarlowmod_tonebarhighmod_tonebarlowmod,
+tonebarlowmod_tonebarhighmod_tonebarmidmod,
+tonebarlowmod_tonebarlowmod_tonebarextrahighmod,
+tonebarlowmod_tonebarlowmod_tonebarextralowmod,
+tonebarlowmod_tonebarlowmod_tonebarhighmod,
+tonebarlowmod_tonebarlowmod_tonebarmidmod,
+tonebarlowmod_tonebarmidmod,
+tonebarlowmod_tonebarmidmod_tonebarextrahighmod,
+tonebarlowmod_tonebarmidmod_tonebarextralowmod,
+tonebarlowmod_tonebarmidmod_tonebarhighmod,
+tonebarlowmod_tonebarmidmod_tonebarlowmod,
+tonebarlowmod_tonebarmidmod_tonebarmidmod,
+tonebarmidmod_tonebarextrahighmod,
+tonebarmidmod_tonebarextrahighmod_tonebarextrahighmod,
+tonebarmidmod_tonebarextrahighmod_tonebarextralowmod,
+tonebarmidmod_tonebarextrahighmod_tonebarhighmod,
+tonebarmidmod_tonebarextrahighmod_tonebarlowmod,
+tonebarmidmod_tonebarextrahighmod_tonebarmidmod,
+tonebarmidmod_tonebarextralowmod,
+tonebarmidmod_tonebarextralowmod_tonebarextrahighmod,
+tonebarmidmod_tonebarextralowmod_tonebarextralowmod,
+tonebarmidmod_tonebarextralowmod_tonebarhighmod,
+tonebarmidmod_tonebarextralowmod_tonebarlowmod,
+tonebarmidmod_tonebarextralowmod_tonebarmidmod,
+tonebarmidmod_tonebarhighmod,
+tonebarmidmod_tonebarhighmod_tonebarextrahighmod,
+tonebarmidmod_tonebarhighmod_tonebarextralowmod,
+tonebarmidmod_tonebarhighmod_tonebarhighmod,
+tonebarmidmod_tonebarhighmod_tonebarlowmod,
+tonebarmidmod_tonebarhighmod_tonebarmidmod,
+tonebarmidmod_tonebarlowmod,
+tonebarmidmod_tonebarlowmod_tonebarextrahighmod,
+tonebarmidmod_tonebarlowmod_tonebarextralowmod,
+tonebarmidmod_tonebarlowmod_tonebarhighmod,
+tonebarmidmod_tonebarlowmod_tonebarlowmod,
+tonebarmidmod_tonebarlowmod_tonebarmidmod,
+tonebarmidmod_tonebarmidmod_tonebarextrahighmod,
+tonebarmidmod_tonebarmidmod_tonebarextralowmod,
+tonebarmidmod_tonebarmidmod_tonebarhighmod,
+tonebarmidmod_tonebarmidmod_tonebarlowmod,
+chineseToneYinPingmod,
+chineseToneYangPingmod,
+chineseToneYinShangmod,
+chineseToneYangShangmod,
+chineseToneYinQumod,
+chineseToneYangQumod,
+chineseToneYinRumod,
+chineseToneYangRumod,
+extraHighDottedToneBarmod,
+highDottedToneBarmod,
+midDottedToneBarmod,
+lowDottedToneBarmod,
+extraLowDottedToneBarmod,
+extraHighDottedLeftStemToneBarmod,
+highDottedLeftStemToneBarmod,
+midDottedLeftStemToneBarmod,
+lowDottedLeftStemToneBarmod,
+extraLowDottedLeftStemToneBarmod,
+extraHighLeftStemToneBarmod,
+highLeftStemToneBarmod,
+midLeftStemToneBarmod,
+lowLeftStemToneBarmod,
+extraLowLeftStemToneBarmod,
+breveinvertedbrevemod,
+ampersand.sc,
+turnediota,
+dieresiscomb,
+dotaccentcomb,
+gravecomb,
+gravecomb_brevecomb_dieresiscomb,
+gravecomb_macroncomb_dieresiscomb,
+acutecomb,
+acutecomb_brevecomb_dieresiscomb,
+acutecomb_macroncomb_dieresiscomb,
+hungarumlautcomb,
+circumflexcomb,
+caroncomb,
+brevecomb,
+ringcomb,
+tildecomb,
+macroncomb,
+overlinecomb,
+verticallineabovecomb,
+dblverticallineabovecomb,
+dblgravecomb,
+candraBinducomb,
+breveinvertedcomb,
+commaturnedabovecomb,
+commaabovecomb,
+commareversedabovecomb,
+commaaboverightcomb,
+gravebelowcomb,
+acutebelowcomb,
+lefttackbelowcomb,
+righttackbelowcomb,
+leftangleabovecomb,
+horncomb,
+ringhalfleftbelowcomb,
+uptackbelowcomb,
+downtackbelowcomb,
+plusbelowcomb,
+minusbelowcomb,
+palatalhookcomb,
+retroflexhookcomb,
+dotbelowcomb,
+dieresisbelowcomb,
+ringbelowcomb,
+cedillacomb,
+ogonekcomb,
+verticallinebelowcomb,
+bridgebelowcomb,
+dblarchinvertedbelowcomb,
+caronbelowcomb,
+circumflexbelowcomb,
+brevebelowcomb,
+breveinvertedbelowcomb,
+tildebelowcomb,
+macronbelowcomb,
+lowlinecomb,
+dbllowlinecomb,
+tildeoverlaycomb,
+strokeshortcomb,
+strokelongcomb,
+slashshortcomb,
+slashlongcomb,
+ringhalfrightbelowcomb,
+bridgeinvertedbelowcomb,
+squarebelowcomb,
+seagullbelowcomb,
+xabovecomb,
+tildeverticalcomb,
+dbloverlinecomb,
+gravetonecomb,
+acutetonecomb,
+gbridgeabovecomb,
+equalbelowcomb,
+doubleverticallinebelowcomb,
+leftanglebelowcomb,
+nottildeabovecomb,
+homotheticabovecomb,
+almostequaltoabovecomb,
+arrowleftrightbelowcomb,
+arrowupbelowcomb,
+graphemejoinercomb,
+arrowheadrightabovecomb,
+lefthalfringabovecomb,
+fermatacomb,
+xbelowcomb,
+arrowheadleftbelowcomb,
+arrowheadrightbelowcomb,
+arrowheadrightheadupbelowcomb,
+righthalfringabovecomb,
+dotaboverightcomb,
+asteriskbelowcomb,
+doubleringbelowcomb,
+zigzagabovecomb,
+doublebrevebelowcomb,
+doublebrevecomb,
+doublemacroncomb,
+doublemacronbelowcomb,
+tildedoublecomb,
+breveinverteddoublecomb,
+arrowdoublerightbelowcomb,
+acutegraveacutecomb,
+acutemacroncomb,
+arrowheadleftabovecomb,
+arrowheadrightheaddownbelow,
+brevemacroncomb,
+conjoiningmacronbelowcomb,
+conjoiningmacroncomb,
+acutedottedcomb,
+gravedottedcomb,
+doublecircumflexcomb,
+doubletildelefthalfcomb,
+doubletilderighthalfcomb,
+graveacutegravecomb,
+gravemacroncomb,
+isbelowcomb,
+ligaturelefthalfbelowcomb,
+ligaturelefthalfcomb,
+ligaturerighthalfbelowcomb,
+ligaturerighthalfcomb,
+macronacutecomb,
+macronbrevecomb,
+macrongravecomb,
+macronlefthalfbelowcomb,
+macronlefthalfcomb,
+macronrighthalfbelowcomb,
+macronrighthalfcomb,
+ogonekabovecomb,
+snakebelowcomb,
+suspensioncomb,
+tildelefthalfbelowcomb,
+tilderighthalfbelowcomb,
+circumflexdblcomb,
+diaeresisringcomb,
+infinitycomb,
+arrowdowncomb,
+tripledotcomb,
+xxbelowcomb,
+wigglylinebelowcomb,
+openmarkbelowcomb,
+doubleopenmarkbelowcomb,
+lightcentralizationstrokebelowcomb,
+strongcentralizationstrokebelowcomb,
+parentabovecomb,
+doubleparentabovecomb,
+parentbelowcomb,
+parentoverlaycomb,
+alphalatincomb,
+bcomb,
+betalatincomb,
+schwacomb,
+fcomb,
+ldoublemiddletildecomb,
+olightcentralizationstrokecomb,
+pcomb,
+eshcomb,
+ulightcentralizationstrokecomb,
+wcomb,
+adiaeresiscomb,
+odiaeresiscomb,
+udiaeresiscomb,
+uptackabovecomb,
+kavykaaboverightcmb,
+kavykaaboveleftcmb,
+dotaboveleftcmb,
+wideinvertedbridgebelowcmb,
+deletionmarkcmb,
+breveinverteddblbelowcomb,
+almostequaltobelowcomb,
+"becomb-cy",
+"vecomb-cy",
+"ghecomb-cy",
+"decomb-cy",
+"zhecomb-cy",
+"zecomb-cy",
+"kacomb-cy",
+"elcomb-cy",
+"emcomb-cy",
+"encomb-cy",
+"ocomb-cy",
+"pecomb-cy",
+"ercomb-cy",
+"escomb-cy",
+"tecomb-cy",
+"hacomb-cy",
+"tsecomb-cy",
+"checomb-cy",
+"shacomb-cy",
+"shchacomb-cy",
+"fitacomb-cy",
+"estecomb-cy",
+"acomb-cy",
+"iecomb-cy",
+"djervcomb-cy",
+"monographukcomb-cy",
+"yatcomb-cy",
+"yucomb-cy",
+"iotifiedacomb-cy",
+"littleyuscomb-cy",
+"bigyuscomb-cy",
+"iotifiedbigyuscomb-cy",
+VS1,
+urabovecomb,
+usabovecomb,
+zigzagbelowcomb,
+dieresiscomb.sc,
+dotaccentcomb.sc,
+gravecomb.sc,
+acutecomb.sc,
+hungarumlautcomb.sc,
+circumflexcomb.sc,
+caroncomb.sc,
+brevecomb.sc,
+ringcomb.sc,
+tildecomb.sc,
+macroncomb.sc,
+ogonekcomb.sc,
+macronmod.sc,
+perispomenicomb,
+koroniscomb,
+dialytikatonoscomb,
+ypogegrammenicomb,
+psilivaria_brevecomb,
+dasiavaria_brevecomb,
+psilioxia_brevecomb,
+dasiaoxia_brevecomb,
+psilivaria_firsttonechinese,
+dasiavaria_firsttonechinese,
+psilioxia_firsttonechinese,
+dasiaoxia_firsttonechinese,
+"titlocomb-cy",
+"palatalizationcomb-cy",
+"dasiapneumatacomb-cy",
+"psilipneumatacomb-cy",
+"pokrytiecomb-cy",
+"vzmetcomb-cy",
+"tenmillionscomb-cy",
+"hundredmillionscomb-cy",
+"thousandmillionscomb-cy",
+"ieukrainiancomb-cy",
+"icomb-cy",
+"yicomb-cy",
+"ucomb-cy",
+"hardsigncomb-cy",
+"yerucomb-cy",
+"softsigncomb-cy",
+"omegacomb-cy",
+"kavykacomb-cy",
+"payerokcomb-cy",
+"efcomb-cy",
+"iotifiedecomb-cy",
+"titlolefthalfcomb-cy",
+"titlorighthalfcomb-cy",
+Vmod,
+Gcomb,
+Lcomb,
+Mcomb,
+Ncomb,
+Rcomb,
+acomb,
+aecomb,
+aocomb,
+avcomb,
+ccedillacomb,
+ccomb,
+dcomb,
+ecomb,
+ethcomb,
+flattenedopenaabovecomb,
+gcomb,
+hcomb,
+icomb,
+insulardcomb,
+kcomb,
+lcomb,
+longscomb,
+mcomb,
+ncomb,
+ocomb,
+rbelowcomb,
+rcomb,
+rrotundacomb,
+scomb,
+tcomb,
+ucomb,
+vcomb,
+xcomb,
+zcomb,
+Ustroke,
+ustroke,
+Aglottal,
+aglottal,
+Iglottal,
+iglottal,
+Uglottal,
+uglottal,
+Wanglicana,
+wanglicana,
+Cpalatalhook,
+Shook,
+Zpalatalhook,
+dzdigraphretroflexhook,
+tsdigraphretroflexhook,
+cyrillicbighooklc,
+istrokedotless,
+imoddotless,
+iitalicDoubleStruckdotless,
+jitalicDoubleStruckdotless,
+jsubscriptdotless,
+wbelowcomb,
+wturnedbelowcomb,
+crosspattyright,
+crosspattyleft,
+Tironiansignet,
+Dmiddlestroke,
+dmiddlestroke,
+Smiddlestroke,
+smiddlestroke,
+Halfhturned,
+halfhturned,
+rmiddletildeturned,
+wturnedmod,
+lefttackmod,
+righttackmod
+);
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+9,
+29,
+30,
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+42,
+43,
+44,
+45,
+46,
+47,
+57,
+64,
+67,
+68,
+69,
+91,
+116
+);
+},
+{
+name = codePageRanges;
+value = (
+1252,
+1250,
+1251,
+1253,
+1254,
+1257,
+1258,
+869,
+866,
+865,
+863,
+861,
+860,
+857,
+855,
+852,
+775,
+737,
+850,
+437
+);
+},
+{
+name = "Write lastChange";
+value = 0;
+},
+{
+name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+date = "2021-10-04 15:23:17 +0000";
+familyName = "Noto Sans Mono";
+featurePrefixes = (
+{
+code = "languagesystem DFLT dflt;
+languagesystem cyrl dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
+languagesystem latn CAT;
+languagesystem latn MAH;
+languagesystem latn MOL;
+languagesystem latn NAV;
+languagesystem latn ROM;
+languagesystem latn IPPH;
+languagesystem latn APPH;
+languagesystem cyrl SRB;
+languagesystem cyrl MKD;";
+name = Languagesystems;
+}
+);
+features = (
+{
+code = "# zero.slash alternate
+    sub zero VS1 by zero.slash;
+    sub emptyset VS1 by zero;
+    lookup latnSoftDot {
+        @CombiningTopAccents = [acomb acutecomb acutetonecomb almostequaltoabovecomb arrowheadrightabovecomb brevecomb breveinvertedcomb candraBinducomb caroncomb ccomb circumflexcomb commaabovecomb commaaboverightcomb commareversedabovecomb commaturnedabovecomb dblgravecomb dbloverlinecomb dblverticallineabovecomb dcomb dialytikatonoscomb dieresiscomb dotaccentcomb ecomb fermatacomb gbridgeabovecomb gravecomb gravetonecomb hcomb homotheticabovecomb hookabovecomb hungarumlautcomb icomb koroniscomb leftangleabovecomb lefthalfringabovecomb macroncomb mcomb nottildeabovecomb ocomb perispomenicomb rcomb righthalfringabovecomb ringcomb tcomb tildecomb tildedoublecomb tildeverticalcomb ucomb vcomb verticallineabovecomb xabovecomb xcomb zigzagabovecomb];
+        @CombiningNonTopAccents = [acutebelowcomb arrowdoublerightbelowcomb arrowheadleftbelowcomb arrowheadrightbelowcomb arrowheadrightheadupbelowcomb arrowleftrightbelowcomb arrowupbelowcomb asteriskbelowcomb brevebelowcomb breveinvertedbelowcomb bridgebelowcomb bridgeinvertedbelowcomb caronbelowcomb cedillacomb circumflexbelowcomb dblarchinvertedbelowcomb dbllowlinecomb dieresisbelowcomb dotbelowcomb doublebrevebelowcomb doublemacronbelowcomb doubleringbelowcomb doubleverticallinebelowcomb downtackbelowcomb equalbelowcomb gravebelowcomb palatalhookcomb retroflexhookcomb leftanglebelowcomb lefttackbelowcomb lowlinecomb macronbelowcomb minusbelowcomb ogonekcomb plusbelowcomb righttackbelowcomb ringbelowcomb ringhalfleftbelowcomb ringhalfrightbelowcomb seagullbelowcomb squarebelowcomb tildebelowcomb uptackbelowcomb verticallinebelowcomb xbelowcomb ypogegrammenicomb breveinverteddoublecomb doublebrevecomb graphemejoinercomb doublemacroncomb dotaboverightcomb horncomb slashshortcomb slashlongcomb strokelongcomb strokeshortcomb tildeoverlaycomb];
+        sub [i j idotbelow itildebelow jcrossedtailmod istrokemod iogonek jstroke jcrossedtail jmod yot i-cy je-cy isubscript iretroflexhook istroke imod iitalicDoubleStruck jitalicDoubleStruck jsubscript]' @CombiningTopAccents by [idotless jdotless idotbelowdotless itildebelowdotless jcrossedtailmoddotless istrokemoddotless iogonekdotless jstrokedotless jcrossedtaildotless jmoddotless yotdotless idotless-cy jedotless-cy isubscriptdotless iretroflexhookdotless istrokedotless imoddotless iitalicDoubleStruckdotless jitalicDoubleStruckdotless jsubscriptdotless];
+        sub [i j idotbelow itildebelow jcrossedtailmod istrokemod iogonek jstroke jcrossedtail jmod yot i-cy je-cy isubscript iretroflexhook istroke imod iitalicDoubleStruck jitalicDoubleStruck jsubscript]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless idotbelowdotless itildebelowdotless jcrossedtailmoddotless istrokemoddotless iogonekdotless jstrokedotless jcrossedtaildotless jmoddotless yotdotless idotless-cy jedotless-cy isubscriptdotless iretroflexhookdotless istrokedotless imoddotless iitalicDoubleStruckdotless jitalicDoubleStruckdotless jsubscriptdotless];
+    } latnSoftDot;
+
+    lookup latnLigatures {
+        # The following WAS in the liga, but I think it belongs here.
+        sub O horncomb by Ohorn;
+        sub o horncomb by ohorn;
+        sub U horncomb by Uhorn;
+        sub u horncomb by uhorn;
+        sub O ogonekcomb macronmod by Oogonekmacron;
+        sub o ogonekcomb macronmod by oogonekmacron;
+        #sub O ogonekcomb macron by Oogonekmacron;
+        #sub o ogonekcomb macron by oogonekmacron;
+        #sub o.sc ogonekcomb.sc macron.sc by oogonekmacron.sc;
+        #sub o.sc ogonekcomb.sc by oogonek.sc;
+        sub O ogonekcomb by Oogonek;
+        sub o ogonekcomb by oogonek;
+        sub A ogonekcomb by Aogonek;
+        sub a ogonekcomb by aogonek;
+        sub E ogonekcomb by Eogonek;
+        sub e ogonekcomb by eogonek;
+        sub I ogonekcomb by Iogonek;
+        sub i ogonekcomb by iogonek;
+        sub U ogonekcomb by Uogonek;
+        sub u ogonekcomb by uogonek;
+        sub a.sc ogonekcomb.sc by aogonek.sc;
+        sub e.sc ogonekcomb.sc by eogonek.sc;
+        sub i.sc ogonekcomb.sc by iogonek.sc;
+        sub u.sc ogonekcomb.sc by uogonek.sc;
+        sub eopenreversed rhotichookmod by eopenreversedhook;
+        sub eturned rhotichookmod by schwahook;
+        # IPA
+        sub tonebarextrahighmod tonebarextrahighmod tonebarextralowmod by tonebarextrahighmod_tonebarextrahighmod_tonebarextralowmod;
+        sub tonebarextrahighmod tonebarextrahighmod tonebarhighmod by tonebarextrahighmod_tonebarextrahighmod_tonebarhighmod;
+        sub tonebarextrahighmod tonebarextrahighmod tonebarlowmod by tonebarextrahighmod_tonebarextrahighmod_tonebarlowmod;
+        sub tonebarextrahighmod tonebarextrahighmod tonebarmidmod by tonebarextrahighmod_tonebarextrahighmod_tonebarmidmod;
+        sub tonebarextrahighmod tonebarextralowmod tonebarextrahighmod by tonebarextrahighmod_tonebarextralowmod_tonebarextrahighmod;
+        sub tonebarextrahighmod tonebarextralowmod tonebarextralowmod by tonebarextrahighmod_tonebarextralowmod_tonebarextralowmod;
+        sub tonebarextrahighmod tonebarextralowmod tonebarhighmod by tonebarextrahighmod_tonebarextralowmod_tonebarhighmod;
+        sub tonebarextrahighmod tonebarextralowmod tonebarlowmod by tonebarextrahighmod_tonebarextralowmod_tonebarlowmod;
+        sub tonebarextrahighmod tonebarextralowmod tonebarmidmod by tonebarextrahighmod_tonebarextralowmod_tonebarmidmod;
+        sub tonebarextrahighmod tonebarhighmod tonebarextrahighmod by tonebarextrahighmod_tonebarhighmod_tonebarextrahighmod;
+        sub tonebarextrahighmod tonebarhighmod tonebarextralowmod by tonebarextrahighmod_tonebarhighmod_tonebarextralowmod;
+        sub tonebarextrahighmod tonebarhighmod tonebarhighmod by tonebarextrahighmod_tonebarhighmod_tonebarhighmod;
+        sub tonebarextrahighmod tonebarhighmod tonebarlowmod by tonebarextrahighmod_tonebarhighmod_tonebarlowmod;
+        sub tonebarextrahighmod tonebarhighmod tonebarmidmod by tonebarextrahighmod_tonebarhighmod_tonebarmidmod;
+        sub tonebarextrahighmod tonebarlowmod tonebarextrahighmod by tonebarextrahighmod_tonebarlowmod_tonebarextrahighmod;
+        sub tonebarextrahighmod tonebarlowmod tonebarextralowmod by tonebarextrahighmod_tonebarlowmod_tonebarextralowmod;
+        sub tonebarextrahighmod tonebarlowmod tonebarhighmod by tonebarextrahighmod_tonebarlowmod_tonebarhighmod;
+        sub tonebarextrahighmod tonebarlowmod tonebarlowmod by tonebarextrahighmod_tonebarlowmod_tonebarlowmod;
+        sub tonebarextrahighmod tonebarlowmod tonebarmidmod by tonebarextrahighmod_tonebarlowmod_tonebarmidmod;
+        sub tonebarextrahighmod tonebarmidmod tonebarextrahighmod by tonebarextrahighmod_tonebarmidmod_tonebarextrahighmod;
+        sub tonebarextrahighmod tonebarmidmod tonebarextralowmod by tonebarextrahighmod_tonebarmidmod_tonebarextralowmod;
+        sub tonebarextrahighmod tonebarmidmod tonebarhighmod by tonebarextrahighmod_tonebarmidmod_tonebarhighmod;
+        sub tonebarextrahighmod tonebarmidmod tonebarlowmod by tonebarextrahighmod_tonebarmidmod_tonebarlowmod;
+        sub tonebarextrahighmod tonebarmidmod tonebarmidmod by tonebarextrahighmod_tonebarmidmod_tonebarmidmod;
+        sub tonebarextralowmod tonebarextrahighmod tonebarextrahighmod by tonebarextralowmod_tonebarextrahighmod_tonebarextrahighmod;
+        sub tonebarextralowmod tonebarextrahighmod tonebarextralowmod by tonebarextralowmod_tonebarextrahighmod_tonebarextralowmod;
+        sub tonebarextralowmod tonebarextrahighmod tonebarhighmod by tonebarextralowmod_tonebarextrahighmod_tonebarhighmod;
+        sub tonebarextralowmod tonebarextrahighmod tonebarlowmod by tonebarextralowmod_tonebarextrahighmod_tonebarlowmod;
+        sub tonebarextralowmod tonebarextrahighmod tonebarmidmod by tonebarextralowmod_tonebarextrahighmod_tonebarmidmod;
+        sub tonebarextralowmod tonebarextralowmod tonebarextrahighmod by tonebarextralowmod_tonebarextralowmod_tonebarextrahighmod;
+        sub tonebarextralowmod tonebarextralowmod tonebarhighmod by tonebarextralowmod_tonebarextralowmod_tonebarhighmod;
+        sub tonebarextralowmod tonebarextralowmod tonebarlowmod by tonebarextralowmod_tonebarextralowmod_tonebarlowmod;
+        sub tonebarextralowmod tonebarextralowmod tonebarmidmod by tonebarextralowmod_tonebarextralowmod_tonebarmidmod;
+        sub tonebarextralowmod tonebarhighmod tonebarextrahighmod by tonebarextralowmod_tonebarhighmod_tonebarextrahighmod;
+        sub tonebarextralowmod tonebarhighmod tonebarextralowmod by tonebarextralowmod_tonebarhighmod_tonebarextralowmod;
+        sub tonebarextralowmod tonebarhighmod tonebarhighmod by tonebarextralowmod_tonebarhighmod_tonebarhighmod;
+        sub tonebarextralowmod tonebarhighmod tonebarlowmod by tonebarextralowmod_tonebarhighmod_tonebarlowmod;
+        sub tonebarextralowmod tonebarhighmod tonebarmidmod by tonebarextralowmod_tonebarhighmod_tonebarmidmod;
+        sub tonebarextralowmod tonebarlowmod tonebarextrahighmod by tonebarextralowmod_tonebarlowmod_tonebarextrahighmod;
+        sub tonebarextralowmod tonebarlowmod tonebarextralowmod by tonebarextralowmod_tonebarlowmod_tonebarextralowmod;
+        sub tonebarextralowmod tonebarlowmod tonebarhighmod by tonebarextralowmod_tonebarlowmod_tonebarhighmod;
+        sub tonebarextralowmod tonebarlowmod tonebarlowmod by tonebarextralowmod_tonebarlowmod_tonebarlowmod;
+        sub tonebarextralowmod tonebarlowmod tonebarmidmod by tonebarextralowmod_tonebarlowmod_tonebarmidmod;
+        sub tonebarextralowmod tonebarmidmod tonebarextrahighmod by tonebarextralowmod_tonebarmidmod_tonebarextrahighmod;
+        sub tonebarextralowmod tonebarmidmod tonebarextralowmod by tonebarextralowmod_tonebarmidmod_tonebarextralowmod;
+        sub tonebarextralowmod tonebarmidmod tonebarhighmod by tonebarextralowmod_tonebarmidmod_tonebarhighmod;
+        sub tonebarextralowmod tonebarmidmod tonebarlowmod by tonebarextralowmod_tonebarmidmod_tonebarlowmod;
+        sub tonebarextralowmod tonebarmidmod tonebarmidmod by tonebarextralowmod_tonebarmidmod_tonebarmidmod;
+        sub tonebarhighmod tonebarextrahighmod tonebarextrahighmod by tonebarhighmod_tonebarextrahighmod_tonebarextrahighmod;
+        sub tonebarhighmod tonebarextrahighmod tonebarextralowmod by tonebarhighmod_tonebarextrahighmod_tonebarextralowmod;
+        sub tonebarhighmod tonebarextrahighmod tonebarhighmod by tonebarhighmod_tonebarextrahighmod_tonebarhighmod;
+        sub tonebarhighmod tonebarextrahighmod tonebarlowmod by tonebarhighmod_tonebarextrahighmod_tonebarlowmod;
+        sub tonebarhighmod tonebarextrahighmod tonebarmidmod by tonebarhighmod_tonebarextrahighmod_tonebarmidmod;
+        sub tonebarhighmod tonebarextralowmod tonebarextrahighmod by tonebarhighmod_tonebarextralowmod_tonebarextrahighmod;
+        sub tonebarhighmod tonebarextralowmod tonebarextralowmod by tonebarhighmod_tonebarextralowmod_tonebarextralowmod;
+        sub tonebarhighmod tonebarextralowmod tonebarhighmod by tonebarhighmod_tonebarextralowmod_tonebarhighmod;
+        sub tonebarhighmod tonebarextralowmod tonebarlowmod by tonebarhighmod_tonebarextralowmod_tonebarlowmod;
+        sub tonebarhighmod tonebarextralowmod tonebarmidmod by tonebarhighmod_tonebarextralowmod_tonebarmidmod;
+        sub tonebarhighmod tonebarhighmod tonebarextrahighmod by tonebarhighmod_tonebarhighmod_tonebarextrahighmod;
+        sub tonebarhighmod tonebarhighmod tonebarextralowmod by tonebarhighmod_tonebarhighmod_tonebarextralowmod;
+        sub tonebarhighmod tonebarhighmod tonebarlowmod by tonebarhighmod_tonebarhighmod_tonebarlowmod;
+        sub tonebarhighmod tonebarhighmod tonebarmidmod by tonebarhighmod_tonebarhighmod_tonebarmidmod;
+        sub tonebarhighmod tonebarlowmod tonebarextrahighmod by tonebarhighmod_tonebarlowmod_tonebarextrahighmod;
+        sub tonebarhighmod tonebarlowmod tonebarextralowmod by tonebarhighmod_tonebarlowmod_tonebarextralowmod;
+        sub tonebarhighmod tonebarlowmod tonebarhighmod by tonebarhighmod_tonebarlowmod_tonebarhighmod;
+        sub tonebarhighmod tonebarlowmod tonebarlowmod by tonebarhighmod_tonebarlowmod_tonebarlowmod;
+        sub tonebarhighmod tonebarlowmod tonebarmidmod by tonebarhighmod_tonebarlowmod_tonebarmidmod;
+        sub tonebarhighmod tonebarmidmod tonebarextrahighmod by tonebarhighmod_tonebarmidmod_tonebarextrahighmod;
+        sub tonebarhighmod tonebarmidmod tonebarextralowmod by tonebarhighmod_tonebarmidmod_tonebarextralowmod;
+        sub tonebarhighmod tonebarmidmod tonebarhighmod by tonebarhighmod_tonebarmidmod_tonebarhighmod;
+        sub tonebarhighmod tonebarmidmod tonebarlowmod by tonebarhighmod_tonebarmidmod_tonebarlowmod;
+        sub tonebarhighmod tonebarmidmod tonebarmidmod by tonebarhighmod_tonebarmidmod_tonebarmidmod;
+        sub tonebarlowmod tonebarextrahighmod tonebarextrahighmod by tonebarlowmod_tonebarextrahighmod_tonebarextrahighmod;
+        sub tonebarlowmod tonebarextrahighmod tonebarextralowmod by tonebarlowmod_tonebarextrahighmod_tonebarextralowmod;
+        sub tonebarlowmod tonebarextrahighmod tonebarhighmod by tonebarlowmod_tonebarextrahighmod_tonebarhighmod;
+        sub tonebarlowmod tonebarextrahighmod tonebarlowmod by tonebarlowmod_tonebarextrahighmod_tonebarlowmod;
+        sub tonebarlowmod tonebarextrahighmod tonebarmidmod by tonebarlowmod_tonebarextrahighmod_tonebarmidmod;
+        sub tonebarlowmod tonebarextralowmod tonebarextrahighmod by tonebarlowmod_tonebarextralowmod_tonebarextrahighmod;
+        sub tonebarlowmod tonebarextralowmod tonebarextralowmod by tonebarlowmod_tonebarextralowmod_tonebarextralowmod;
+        sub tonebarlowmod tonebarextralowmod tonebarhighmod by tonebarlowmod_tonebarextralowmod_tonebarhighmod;
+        sub tonebarlowmod tonebarextralowmod tonebarlowmod by tonebarlowmod_tonebarextralowmod_tonebarlowmod;
+        sub tonebarlowmod tonebarextralowmod tonebarmidmod by tonebarlowmod_tonebarextralowmod_tonebarmidmod;
+        sub tonebarlowmod tonebarhighmod tonebarextrahighmod by tonebarlowmod_tonebarhighmod_tonebarextrahighmod;
+        sub tonebarlowmod tonebarhighmod tonebarextralowmod by tonebarlowmod_tonebarhighmod_tonebarextralowmod;
+        sub tonebarlowmod tonebarhighmod tonebarhighmod by tonebarlowmod_tonebarhighmod_tonebarhighmod;
+        sub tonebarlowmod tonebarhighmod tonebarlowmod by tonebarlowmod_tonebarhighmod_tonebarlowmod;
+        sub tonebarlowmod tonebarhighmod tonebarmidmod by tonebarlowmod_tonebarhighmod_tonebarmidmod;
+        sub tonebarlowmod tonebarlowmod tonebarextrahighmod by tonebarlowmod_tonebarlowmod_tonebarextrahighmod;
+        sub tonebarlowmod tonebarlowmod tonebarextralowmod by tonebarlowmod_tonebarlowmod_tonebarextralowmod;
+        sub tonebarlowmod tonebarlowmod tonebarhighmod by tonebarlowmod_tonebarlowmod_tonebarhighmod;
+        sub tonebarlowmod tonebarlowmod tonebarmidmod by tonebarlowmod_tonebarlowmod_tonebarmidmod;
+        sub tonebarlowmod tonebarmidmod tonebarextrahighmod by tonebarlowmod_tonebarmidmod_tonebarextrahighmod;
+        sub tonebarlowmod tonebarmidmod tonebarextralowmod by tonebarlowmod_tonebarmidmod_tonebarextralowmod;
+        sub tonebarlowmod tonebarmidmod tonebarhighmod by tonebarlowmod_tonebarmidmod_tonebarhighmod;
+        sub tonebarlowmod tonebarmidmod tonebarlowmod by tonebarlowmod_tonebarmidmod_tonebarlowmod;
+        sub tonebarlowmod tonebarmidmod tonebarmidmod by tonebarlowmod_tonebarmidmod_tonebarmidmod;
+        sub tonebarmidmod tonebarextrahighmod tonebarextrahighmod by tonebarmidmod_tonebarextrahighmod_tonebarextrahighmod;
+        sub tonebarmidmod tonebarextrahighmod tonebarextralowmod by tonebarmidmod_tonebarextrahighmod_tonebarextralowmod;
+        sub tonebarmidmod tonebarextrahighmod tonebarhighmod by tonebarmidmod_tonebarextrahighmod_tonebarhighmod;
+        sub tonebarmidmod tonebarextrahighmod tonebarlowmod by tonebarmidmod_tonebarextrahighmod_tonebarlowmod;
+        sub tonebarmidmod tonebarextrahighmod tonebarmidmod by tonebarmidmod_tonebarextrahighmod_tonebarmidmod;
+        sub tonebarmidmod tonebarextralowmod tonebarextrahighmod by tonebarmidmod_tonebarextralowmod_tonebarextrahighmod;
+        sub tonebarmidmod tonebarextralowmod tonebarextralowmod by tonebarmidmod_tonebarextralowmod_tonebarextralowmod;
+        sub tonebarmidmod tonebarextralowmod tonebarhighmod by tonebarmidmod_tonebarextralowmod_tonebarhighmod;
+        sub tonebarmidmod tonebarextralowmod tonebarlowmod by tonebarmidmod_tonebarextralowmod_tonebarlowmod;
+        sub tonebarmidmod tonebarextralowmod tonebarmidmod by tonebarmidmod_tonebarextralowmod_tonebarmidmod;
+        sub tonebarmidmod tonebarhighmod tonebarextrahighmod by tonebarmidmod_tonebarhighmod_tonebarextrahighmod;
+        sub tonebarmidmod tonebarhighmod tonebarextralowmod by tonebarmidmod_tonebarhighmod_tonebarextralowmod;
+        sub tonebarmidmod tonebarhighmod tonebarhighmod by tonebarmidmod_tonebarhighmod_tonebarhighmod;
+        sub tonebarmidmod tonebarhighmod tonebarlowmod by tonebarmidmod_tonebarhighmod_tonebarlowmod;
+        sub tonebarmidmod tonebarhighmod tonebarmidmod by tonebarmidmod_tonebarhighmod_tonebarmidmod;
+        sub tonebarmidmod tonebarlowmod tonebarextrahighmod by tonebarmidmod_tonebarlowmod_tonebarextrahighmod;
+        sub tonebarmidmod tonebarlowmod tonebarextralowmod by tonebarmidmod_tonebarlowmod_tonebarextralowmod;
+        sub tonebarmidmod tonebarlowmod tonebarhighmod by tonebarmidmod_tonebarlowmod_tonebarhighmod;
+        sub tonebarmidmod tonebarlowmod tonebarlowmod by tonebarmidmod_tonebarlowmod_tonebarlowmod;
+        sub tonebarmidmod tonebarlowmod tonebarmidmod by tonebarmidmod_tonebarlowmod_tonebarmidmod;
+        sub tonebarmidmod tonebarmidmod tonebarextrahighmod by tonebarmidmod_tonebarmidmod_tonebarextrahighmod;
+        sub tonebarmidmod tonebarmidmod tonebarextralowmod by tonebarmidmod_tonebarmidmod_tonebarextralowmod;
+        sub tonebarmidmod tonebarmidmod tonebarhighmod by tonebarmidmod_tonebarmidmod_tonebarhighmod;
+        sub tonebarmidmod tonebarmidmod tonebarlowmod by tonebarmidmod_tonebarmidmod_tonebarlowmod;
+        sub tonebarextrahighmod tonebarextralowmod by tonebarextrahighmod_tonebarextralowmod;
+        sub tonebarextrahighmod tonebarhighmod by tonebarextrahighmod_tonebarhighmod;
+        sub tonebarextrahighmod tonebarlowmod by tonebarextrahighmod_tonebarlowmod;
+        sub tonebarextrahighmod tonebarmidmod by tonebarextrahighmod_tonebarmidmod;
+        sub tonebarextralowmod tonebarextrahighmod by tonebarextralowmod_tonebarextrahighmod;
+        sub tonebarextralowmod tonebarhighmod by tonebarextralowmod_tonebarhighmod;
+        sub tonebarextralowmod tonebarlowmod by tonebarextralowmod_tonebarlowmod;
+        sub tonebarextralowmod tonebarmidmod by tonebarextralowmod_tonebarmidmod;
+        sub tonebarhighmod tonebarextrahighmod by tonebarhighmod_tonebarextrahighmod;
+        sub tonebarhighmod tonebarextralowmod by tonebarhighmod_tonebarextralowmod;
+        sub tonebarhighmod tonebarlowmod by tonebarhighmod_tonebarlowmod;
+        sub tonebarhighmod tonebarmidmod by tonebarhighmod_tonebarmidmod;
+        sub tonebarlowmod tonebarextrahighmod by tonebarlowmod_tonebarextrahighmod;
+        sub tonebarlowmod tonebarextralowmod by tonebarlowmod_tonebarextralowmod;
+        sub tonebarlowmod tonebarhighmod by tonebarlowmod_tonebarhighmod;
+        sub tonebarlowmod tonebarmidmod by tonebarlowmod_tonebarmidmod;
+        sub tonebarmidmod tonebarextrahighmod by tonebarmidmod_tonebarextrahighmod;
+        sub tonebarmidmod tonebarextralowmod by tonebarmidmod_tonebarextralowmod;
+        sub tonebarmidmod tonebarhighmod by tonebarmidmod_tonebarhighmod;
+        sub tonebarmidmod tonebarlowmod by tonebarmidmod_tonebarlowmod;
+    } latnLigatures;
+
+    lookup latn_decomb {
+        script latn;
+        sub itildebelow by i tildebelowcomb;
+    } latn_decomb;
+
+    script latn;
+    language dflt;
+    lookup latnSoftDot;
+    lookup latnLigatures;
+    lookup latn_decomb;
+    language CAT;
+    lookup latnSoftDot;
+    lookup latnLigatures;
+    lookup latn_decomb;
+    language MAH;
+    lookup latnSoftDot;
+    lookup latnLigatures;
+    lookup latn_decomb;
+    language MOL;
+    lookup latnSoftDot;
+    lookup latnLigatures;
+    lookup latn_decomb;
+    language NAV;
+    lookup latnSoftDot;
+    lookup latnLigatures;
+    lookup latn_decomb;
+    language ROM;
+    lookup latnSoftDot;
+    lookup latnLigatures;
+    lookup latn_decomb;
+    lookup Other_comb {
+        lookupflag 0;
+        sub acutecomb brevecomb dieresiscomb by acutecomb_brevecomb_dieresiscomb;
+        sub acutecomb macroncomb dieresiscomb by acutecomb_macroncomb_dieresiscomb;
+        sub gravecomb brevecomb dieresiscomb by gravecomb_brevecomb_dieresiscomb;
+        sub gravecomb macroncomb dieresiscomb by gravecomb_macroncomb_dieresiscomb;
+    } Other_comb;
+
+    lookup grek_comb {
+        script grek;
+        lookupflag 0;
+        sub alpha brevecomb commaabovecomb acutecomb by alpha_brevecomb_commaabovecomb_acutecomb;
+        sub alpha brevecomb commaabovecomb gravecomb by alpha_brevecomb_commaabovecomb_gravecomb;
+        sub alpha brevecomb commareversedabovecomb acutecomb by alpha_brevecomb_commareversedabovecomb_acutecomb;
+        sub alpha brevecomb commareversedabovecomb gravecomb by alpha_brevecomb_commareversedabovecomb_gravecomb;
+        sub alpha macroncomb commaabovecomb acutecomb by alpha_macroncomb_commaabovecomb_acutecomb;
+        sub alpha macroncomb commaabovecomb gravecomb by alpha_macroncomb_commaabovecomb_gravecomb;
+        sub alpha macroncomb commareversedabovecomb acutecomb by alpha_macroncomb_commareversedabovecomb_acutecomb;
+        sub alpha macroncomb commareversedabovecomb gravecomb by alpha_macroncomb_commareversedabovecomb_gravecomb;
+        sub iota brevecomb commaabovecomb acutecomb by iota_brevecomb_commaabovecomb_acutecomb;
+        sub iota brevecomb commaabovecomb gravecomb by iota_brevecomb_commaabovecomb_gravecomb;
+        sub iota brevecomb commareversedabovecomb acutecomb by iota_brevecomb_commareversedabovecomb_acutecomb;
+        sub iota brevecomb commareversedabovecomb gravecomb by iota_brevecomb_commareversedabovecomb_gravecomb;
+        sub iota dieresiscomb brevecomb acutecomb by iota_dieresiscomb_brevecomb_acutecomb;
+        sub iota dieresiscomb brevecomb gravecomb by iota_dieresiscomb_brevecomb_gravecomb;
+        sub iota dieresiscomb macroncomb acutecomb by iota_dieresiscomb_macroncomb_acutecomb;
+        sub iota dieresiscomb macroncomb gravecomb by iota_dieresiscomb_macroncomb_gravecomb;
+        sub iota macroncomb commaabovecomb acutecomb by iota_macroncomb_commaabovecomb_acutecomb;
+        sub iota macroncomb commaabovecomb gravecomb by iota_macroncomb_commaabovecomb_gravecomb;
+        sub iota macroncomb commareversedabovecomb acutecomb by iota_macroncomb_commareversedabovecomb_acutecomb;
+        sub iota macroncomb commareversedabovecomb gravecomb by iota_macroncomb_commareversedabovecomb_gravecomb;
+        sub upsilon brevecomb commaabovecomb acutecomb by upsilon_brevecomb_commaabovecomb_acutecomb;
+        sub upsilon brevecomb commaabovecomb gravecomb by upsilon_brevecomb_commaabovecomb_gravecomb;
+        sub upsilon brevecomb commareversedabovecomb acutecomb by upsilon_brevecomb_commareversedabovecomb_acutecomb;
+        sub upsilon brevecomb commareversedabovecomb gravecomb by upsilon_brevecomb_commareversedabovecomb_gravecomb;
+        sub upsilon dieresiscomb brevecomb acutecomb by upsilon_dieresiscomb_brevecomb_acutecomb;
+        sub upsilon dieresiscomb brevecomb gravecomb by upsilon_dieresiscomb_brevecomb_gravecomb;
+        sub upsilon dieresiscomb macroncomb acutecomb by upsilon_dieresiscomb_macroncomb_acutecomb;
+        sub upsilon dieresiscomb macroncomb gravecomb by upsilon_dieresiscomb_macroncomb_gravecomb;
+        sub upsilon macroncomb commaabovecomb acutecomb by upsilon_macroncomb_commaabovecomb_acutecomb;
+        sub upsilon macroncomb commaabovecomb gravecomb by upsilon_macroncomb_commaabovecomb_gravecomb;
+        sub upsilon macroncomb commareversedabovecomb acutecomb by upsilon_macroncomb_commareversedabovecomb_acutecomb;
+        sub upsilon macroncomb commareversedabovecomb gravecomb by upsilon_macroncomb_commareversedabovecomb_gravecomb;
+        sub psilivaria brevecomb by psilivaria_brevecomb;
+        sub dasiavaria brevecomb by dasiavaria_brevecomb;
+        sub psilioxia brevecomb by psilioxia_brevecomb;
+        sub dasiaoxia brevecomb by dasiaoxia_brevecomb;
+    } grek_comb;
+
+    script cyrl;
+    #sub afii10103 by afii10103dotless;
+    #sub afii10105 by afii10105dotless;
+";
+tag = ccmp;
+},
+{
+code = "feature ccmp;
+    feature locl;
+    feature subs;
+    feature sups;
+    feature numr;
+    feature dnom;
+    feature frac;
+    feature ordn;
+    feature onum;
+    feature c2sc;
+    feature smcp;
+    sub Eng by Eng.alt1;
+    sub Eng by Eng.alt2;
+    sub Eng by Eng.alt3;";
+tag = aalt;
+},
+{
+code = "script latn;
+    language NAV;
+    sub Aogonek by Aogonek.loclNAV;
+    sub Eogonek by Eogonek.loclNAV;
+    sub Iogonek by Iogonek.loclNAV;
+    sub Uogonek by Uogonek.loclNAV;
+    sub aogonek by aogonek.loclNAV;
+    sub iogonek by iogonek.loclNAV;
+    sub eogonek by eogonek.loclNAV;
+    sub uogonek by uogonek.loclNAV;
+    language MOL;
+    sub Scedilla by Scommaaccent;
+    sub scedilla by scommaaccent;
+    sub Tcedilla by Tcommaaccent;
+    sub tcedilla by tcommaaccent;
+    language ROM;
+    sub Scedilla by Scommaaccent;
+    sub scedilla by scommaaccent;
+    sub Tcedilla by Tcommaaccent;
+    sub tcedilla by tcommaaccent;
+    language MAH;
+    sub Lcommaaccent by Lcommaaccent.loclMAH;
+    sub Ncommaaccent by Ncommaaccent.loclMAH;
+    sub lcommaaccent by lcommaaccent.loclMAH;
+    sub ncommaaccent by ncommaaccent.loclMAH;
+    language CAT;
+    sub l' periodcentered' l by ldot;
+    sub L' periodcentered' L by Ldot;
+    sub l.sc' periodcentered' l.sc by ldot.sc;
+    language IPPH;
+    sub Chi by Chi-latin;
+    sub chi by chi-latin;
+    sub Beta by Beta-latin;
+    sub beta by beta-latin;
+    language APPH;
+    sub Chi by Chi-latin;
+    sub chi by chi-latin;
+    sub Beta by Beta-latin;
+    sub beta by beta-latin;
+    script cyrl;
+    language SRB;
+    sub be-cy by be-cy.loclSRB;
+    language MKD;
+    sub be-cy by be-cy.loclSRB;";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub h by hinferior;
+    sub k by kinferior;
+    sub l by linferior;
+    sub m by minferior;
+    sub n by ninferior;
+    sub p by pinferior;
+    sub s by sinferior;
+    sub t by tinferior;
+    sub zero by zeroinferior;
+    sub one by oneinferior;
+    sub two by twoinferior;
+    sub three by threeinferior;
+    sub four by fourinferior;
+    sub five by fiveinferior;
+    sub six by sixinferior;
+    sub seven by seveninferior;
+    sub eight by eightinferior;
+    sub nine by nineinferior;
+    sub parenleft by parenleftinferior;
+    sub parenright by parenrightinferior;
+    sub equal by equalinferior;
+    sub minus by minusinferior;
+    sub plus by plusinferior;";
+tag = subs;
+},
+{
+automatic = 1;
+code = "sub two by twosuperior;
+    sub three by threesuperior;
+    sub one by onesuperior;
+    sub n by nmod;
+    sub four by foursuperior;
+    sub five by fivesuperior;
+    sub seven by sevensuperior;
+    sub eight by eightsuperior;
+    sub zero by zerosuperior;
+    sub six by sixsuperior;
+    sub nine by ninesuperior;
+    sub parenleft by parenleftsuperior;
+    sub parenright by parenrightsuperior;
+    sub equal by equalsuperior;
+    sub minus by minussuperior;
+    sub plus by plussuperior;";
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub zero by zero.numr;
+    sub one by one.numr;
+    sub two by two.numr;
+    sub three by three.numr;
+    sub four by four.numr;
+    sub five by five.numr;
+    sub six by six.numr;
+    sub seven by seven.numr;
+    sub eight by eight.numr;
+    sub nine by nine.numr;";
+tag = numr;
+},
+{
+automatic = 1;
+code = "sub zero by zero.dnom;
+    sub one by one.dnom;
+    sub two by two.dnom;
+    sub three by three.dnom;
+    sub four by four.dnom;
+    sub five by five.dnom;
+    sub six by six.dnom;
+    sub seven by seven.dnom;
+    sub eight by eight.dnom;
+    sub nine by nine.dnom;";
+tag = dnom;
+},
+{
+automatic = 1;
+code = "lookup FRAC {
+        sub slash by fraction;
+    } FRAC;
+
+    lookup UP {
+        sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+    } UP;
+
+    lookup DOWN {
+        sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+        sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+    } DOWN;
+";
+tag = frac;
+},
+{
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+    sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub zero by zero.osf;
+    sub one by one.osf;
+    sub two by two.osf;
+    sub three by three.osf;
+    sub four by four.osf;
+    sub five by five.osf;
+    sub six by six.osf;
+    sub seven by seven.osf;
+    sub eight by eight.osf;
+    sub nine by nine.osf;";
+tag = onum;
+},
+{
+automatic = 1;
+code = "sub A by a.sc;
+    sub B by b.sc;
+    sub C by c.sc;
+    sub D by d.sc;
+    sub E by e.sc;
+    sub F by f.sc;
+    sub G by g.sc;
+    sub H by h.sc;
+    sub I by i.sc;
+    sub J by j.sc;
+    sub K by k.sc;
+    sub L by l.sc;
+    sub M by m.sc;
+    sub N by n.sc;
+    sub O by o.sc;
+    sub P by p.sc;
+    sub Q by q.sc;
+    sub R by r.sc;
+    sub S by s.sc;
+    sub T by t.sc;
+    sub U by u.sc;
+    sub V by v.sc;
+    sub W by w.sc;
+    sub X by x.sc;
+    sub Y by y.sc;
+    sub Z by z.sc;
+    sub Agrave by agrave.sc;
+    sub Aacute by aacute.sc;
+    sub Acircumflex by acircumflex.sc;
+    sub Atilde by atilde.sc;
+    sub Adieresis by adieresis.sc;
+    sub Aring by aring.sc;
+    sub AE by ae.sc;
+    sub Ccedilla by ccedilla.sc;
+    sub Egrave by egrave.sc;
+    sub Eacute by eacute.sc;
+    sub Ecircumflex by ecircumflex.sc;
+    sub Edieresis by edieresis.sc;
+    sub Igrave by igrave.sc;
+    sub Iacute by iacute.sc;
+    sub Icircumflex by icircumflex.sc;
+    sub Idieresis by idieresis.sc;
+    sub Eth by eth.sc;
+    sub Ntilde by ntilde.sc;
+    sub Ograve by ograve.sc;
+    sub Oacute by oacute.sc;
+    sub Ocircumflex by ocircumflex.sc;
+    sub Otilde by otilde.sc;
+    sub Odieresis by odieresis.sc;
+    sub Oslash by oslash.sc;
+    sub Ugrave by ugrave.sc;
+    sub Uacute by uacute.sc;
+    sub Ucircumflex by ucircumflex.sc;
+    sub Udieresis by udieresis.sc;
+    sub Yacute by yacute.sc;
+    sub Thorn by thorn.sc;
+    sub Amacron by amacron.sc;
+    sub Abreve by abreve.sc;
+    sub Aogonek by aogonek.sc;
+    sub Cacute by cacute.sc;
+    sub Ccircumflex by ccircumflex.sc;
+    sub Cdotaccent by cdotaccent.sc;
+    sub Ccaron by ccaron.sc;
+    sub Dcaron by dcaron.sc;
+    sub Dcroat by dcroat.sc;
+    sub Emacron by emacron.sc;
+    sub Ebreve by ebreve.sc;
+    sub Edotaccent by edotaccent.sc;
+    sub Eogonek by eogonek.sc;
+    sub Ecaron by ecaron.sc;
+    sub Gcircumflex by gcircumflex.sc;
+    sub Gbreve by gbreve.sc;
+    sub Gdotaccent by gdotaccent.sc;
+    sub Gcommaaccent by gcommaaccent.sc;
+    sub Hcircumflex by hcircumflex.sc;
+    sub Hbar by hbar.sc;
+    sub Itilde by itilde.sc;
+    sub Imacron by imacron.sc;
+    sub Ibreve by ibreve.sc;
+    sub Iogonek by iogonek.sc;
+    sub Idotaccent by idotaccent.sc;
+    sub IJ by ij.sc;
+    sub Jcircumflex by jcircumflex.sc;
+    sub Kcommaaccent by kcommaaccent.sc;
+    sub Lacute by lacute.sc;
+    sub Lcommaaccent by lcommaaccent.sc;
+    sub Lcaron by lcaron.sc;
+    sub Ldot by ldot.sc;
+    sub Lslash by lslash.sc;
+    sub Nacute by nacute.sc;
+    sub Ncommaaccent by ncommaaccent.sc;
+    sub Ncaron by ncaron.sc;
+    sub Eng by eng.sc;
+    sub Omacron by omacron.sc;
+    sub Obreve by obreve.sc;
+    sub Ohungarumlaut by ohungarumlaut.sc;
+    sub OE by oe.sc;
+    sub Racute by racute.sc;
+    sub Rcommaaccent by rcommaaccent.sc;
+    sub Rcaron by rcaron.sc;
+    sub Sacute by sacute.sc;
+    sub Scircumflex by scircumflex.sc;
+    sub Scedilla by scedilla.sc;
+    sub Scaron by scaron.sc;
+    sub Tcommaaccent by tcommaaccent.sc;
+    sub Tcaron by tcaron.sc;
+    sub Tbar by tbar.sc;
+    sub Utilde by utilde.sc;
+    sub Umacron by umacron.sc;
+    sub Ubreve by ubreve.sc;
+    sub Uring by uring.sc;
+    sub Uhungarumlaut by uhungarumlaut.sc;
+    sub Uogonek by uogonek.sc;
+    sub Wcircumflex by wcircumflex.sc;
+    sub Ycircumflex by ycircumflex.sc;
+    sub Ydieresis by ydieresis.sc;
+    sub Zacute by zacute.sc;
+    sub Zdotaccent by zdotaccent.sc;
+    sub Zcaron by zcaron.sc;
+    sub Aringacute by aringacute.sc;
+    sub AEacute by aeacute.sc;
+    sub Oslashacute by oslashacute.sc;
+    sub Scommaaccent by scommaaccent.sc;
+    sub Wgrave by wgrave.sc;
+    sub Wacute by wacute.sc;
+    sub Wdieresis by wdieresis.sc;
+    sub Ygrave by ygrave.sc;
+    sub Tcedilla by tcedilla.sc;
+    sub Germandbls by germandbls.sc;
+    sub braceleft by braceleft.sc;
+    sub braceright by braceright.sc;
+    sub bracketleft by bracketleft.sc;
+    sub bracketright by bracketright.sc;
+    sub exclam by exclam.sc;
+    sub exclamdouble by exclamdouble.sc;
+    sub exclamdown by exclamdown.sc;
+    sub guilsinglleft by guilsinglleft.sc;
+    sub guilsinglright by guilsinglright.sc;
+    sub parenleft by parenleft.sc;
+    sub parenright by parenright.sc;
+    sub question by question.sc;
+    sub questiondown by questiondown.sc;
+    sub ampersand by ampersand.sc;
+    sub dieresiscomb by dieresiscomb.sc;
+    sub dotaccentcomb by dotaccentcomb.sc;
+    sub gravecomb by gravecomb.sc;
+    sub acutecomb by acutecomb.sc;
+    sub hungarumlautcomb by hungarumlautcomb.sc;
+    sub circumflexcomb by circumflexcomb.sc;
+    sub caroncomb by caroncomb.sc;
+    sub brevecomb by brevecomb.sc;
+    sub ringcomb by ringcomb.sc;
+    sub tildecomb by tildecomb.sc;
+    sub macroncomb by macroncomb.sc;
+    sub ogonekcomb by ogonekcomb.sc;
+    sub macronmod by macronmod.sc;";
+tag = c2sc;
+},
+{
+automatic = 1;
+code = "sub a by a.sc;
+    sub aacute by aacute.sc;
+    sub abreve by abreve.sc;
+    sub acircumflex by acircumflex.sc;
+    sub adieresis by adieresis.sc;
+    sub agrave by agrave.sc;
+    sub amacron by amacron.sc;
+    sub aogonek by aogonek.sc;
+    sub aring by aring.sc;
+    sub aringacute by aringacute.sc;
+    sub atilde by atilde.sc;
+    sub ae by ae.sc;
+    sub aeacute by aeacute.sc;
+    sub b by b.sc;
+    sub c by c.sc;
+    sub cacute by cacute.sc;
+    sub ccaron by ccaron.sc;
+    sub ccedilla by ccedilla.sc;
+    sub ccircumflex by ccircumflex.sc;
+    sub d by d.sc;
+    sub eth by eth.sc;
+    sub dcaron by dcaron.sc;
+    sub dcroat by dcroat.sc;
+    sub e by e.sc;
+    sub eacute by eacute.sc;
+    sub ebreve by ebreve.sc;
+    sub ecaron by ecaron.sc;
+    sub ecircumflex by ecircumflex.sc;
+    sub edieresis by edieresis.sc;
+    sub edotaccent by edotaccent.sc;
+    sub egrave by egrave.sc;
+    sub emacron by emacron.sc;
+    sub eogonek by eogonek.sc;
+    sub f by f.sc;
+    sub g by g.sc;
+    sub gbreve by gbreve.sc;
+    sub gcircumflex by gcircumflex.sc;
+    sub gcommaaccent by gcommaaccent.sc;
+    sub h by h.sc;
+    sub hbar by hbar.sc;
+    sub hcircumflex by hcircumflex.sc;
+    sub i by i.sc;
+    sub iacute by iacute.sc;
+    sub ibreve by ibreve.sc;
+    sub icircumflex by icircumflex.sc;
+    sub idieresis by idieresis.sc;
+    sub igrave by igrave.sc;
+    sub ij by ij.sc;
+    sub imacron by imacron.sc;
+    sub iogonek by iogonek.sc;
+    sub itilde by itilde.sc;
+    sub j by j.sc;
+    sub jcircumflex by jcircumflex.sc;
+    sub k by k.sc;
+    sub kcommaaccent by kcommaaccent.sc;
+    sub l by l.sc;
+    sub lacute by lacute.sc;
+    sub lcaron by lcaron.sc;
+    sub lcommaaccent by lcommaaccent.sc;
+    sub ldot by ldot.sc;
+    sub lslash by lslash.sc;
+    sub m by m.sc;
+    sub n by n.sc;
+    sub nacute by nacute.sc;
+    sub ncaron by ncaron.sc;
+    sub ncommaaccent by ncommaaccent.sc;
+    sub eng by eng.sc;
+    sub ntilde by ntilde.sc;
+    sub o by o.sc;
+    sub oacute by oacute.sc;
+    sub obreve by obreve.sc;
+    sub ocircumflex by ocircumflex.sc;
+    sub odieresis by odieresis.sc;
+    sub ograve by ograve.sc;
+    sub ohungarumlaut by ohungarumlaut.sc;
+    sub omacron by omacron.sc;
+    sub oslash by oslash.sc;
+    sub oslashacute by oslashacute.sc;
+    sub otilde by otilde.sc;
+    sub oe by oe.sc;
+    sub p by p.sc;
+    sub thorn by thorn.sc;
+    sub q by q.sc;
+    sub r by r.sc;
+    sub racute by racute.sc;
+    sub rcaron by rcaron.sc;
+    sub rcommaaccent by rcommaaccent.sc;
+    sub s by s.sc;
+    sub sacute by sacute.sc;
+    sub scaron by scaron.sc;
+    sub scedilla by scedilla.sc;
+    sub scircumflex by scircumflex.sc;
+    sub scommaaccent by scommaaccent.sc;
+    sub germandbls by germandbls.sc;
+    sub t by t.sc;
+    sub tbar by tbar.sc;
+    sub tcaron by tcaron.sc;
+    sub tcedilla by tcedilla.sc;
+    sub tcommaaccent by tcommaaccent.sc;
+    sub u by u.sc;
+    sub uacute by uacute.sc;
+    sub ubreve by ubreve.sc;
+    sub ucircumflex by ucircumflex.sc;
+    sub udieresis by udieresis.sc;
+    sub ugrave by ugrave.sc;
+    sub uhungarumlaut by uhungarumlaut.sc;
+    sub umacron by umacron.sc;
+    sub uogonek by uogonek.sc;
+    sub uring by uring.sc;
+    sub utilde by utilde.sc;
+    sub v by v.sc;
+    sub w by w.sc;
+    sub wacute by wacute.sc;
+    sub wcircumflex by wcircumflex.sc;
+    sub wdieresis by wdieresis.sc;
+    sub wgrave by wgrave.sc;
+    sub x by x.sc;
+    sub y by y.sc;
+    sub yacute by yacute.sc;
+    sub ycircumflex by ycircumflex.sc;
+    sub ydieresis by ydieresis.sc;
+    sub ygrave by ygrave.sc;
+    sub z by z.sc;
+    sub zacute by zacute.sc;
+    sub zcaron by zcaron.sc;
+    sub zdotaccent by zdotaccent.sc;
+    sub braceleft by braceleft.sc;
+    sub braceright by braceright.sc;
+    sub bracketleft by bracketleft.sc;
+    sub bracketright by bracketright.sc;
+    sub exclam by exclam.sc;
+    sub exclamdown by exclamdown.sc;
+    sub guilsinglleft by guilsinglleft.sc;
+    sub guilsinglright by guilsinglright.sc;
+    sub parenleft by parenleft.sc;
+    sub parenright by parenright.sc;
+    sub question by question.sc;
+    sub questiondown by questiondown.sc;
+    sub ampersand by ampersand.sc;
+    sub dieresiscomb by dieresiscomb.sc;
+    sub dotaccentcomb by dotaccentcomb.sc;
+    sub gravecomb by gravecomb.sc;
+    sub acutecomb by acutecomb.sc;
+    sub hungarumlautcomb by hungarumlautcomb.sc;
+    sub circumflexcomb by circumflexcomb.sc;
+    sub caroncomb by caroncomb.sc;
+    sub brevecomb by brevecomb.sc;
+    sub ringcomb by ringcomb.sc;
+    sub tildecomb by tildecomb.sc;
+    sub macroncomb by macroncomb.sc;
+    sub ogonekcomb by ogonekcomb.sc;";
+tag = smcp;
+},
+{
+code = "sub partialdiff by partialdiff.mir;
+    sub radical by radical.mir;
+    sub approxequal by approxequal.mir;
+    sub integraltp by integraltp.mir;
+    sub integralbt by integralbt.mir;
+    sub summationdoubleStruck by summationDoubleStruck.mir;
+    sub complement by complement.mir;
+    sub existential by existential.mir;
+    sub theredoesnotexist by theredoesnotexist.mir;
+    sub notsimilar by notsimilar.mir;
+    sub neitherapproximatelynoractuallyequalto by neitherapproximatelynoractuallyequalto.mir;
+    sub notalmostequalto by notalmostequalto.mir;
+    sub almostequalorequalto by almostequalorequalto.mir;
+    sub tripletilde by tripletilde.mir;
+    sub questionedequalto by questionedequalto.mir;
+    sub notequal by notequal.mir;
+    sub notidentical by notidentical.mir;";
+tag = rtlm;
+},
+{
+code = "# zero.slash alternate
+    sub zero by zero.slash;";
+tag = zero;
+},
+{
+automatic = 1;
+code = "sub fhook by fhook.ss03;";
+labels = (
+{
+language = dflt;
+value = "Alternate f-hook";
+}
+);
+tag = ss03;
+}
+);
+fontMaster = (
+{
+axesValues = (
+26,
+100
+);
+customParameters = (
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = panose;
+value = (
+2,
+11,
+2,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
+iconName = Light;
+id = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
+metricValues = (
+{
+over = 6;
+pos = 760;
+},
+{
+over = 11;
+pos = 714;
+},
+{
+over = 10;
+pos = 528;
+},
+{
+over = -11;
+},
+{
+over = -8;
+pos = -240;
+},
+{
+over = -11;
+},
+{
+over = -11;
+},
+{
+over = 11;
+pos = 559;
+}
+);
+name = Light;
+stemValues = (
+25,
+27
+);
+userData = {
+GSOffsetHorizontal = -26;
+GSOffsetVertical = -26;
+};
+},
+{
+axesValues = (
+90,
+100
+);
+customParameters = (
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = panose;
+value = (
+2,
+11,
+5,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
+id = UUID0;
+metricValues = (
+{
+over = 6;
+pos = 760;
+},
+{
+over = 13;
+pos = 714;
+},
+{
+over = 11;
+pos = 536;
+},
+{
+over = -11;
+},
+{
+over = -6;
+pos = -240;
+},
+{
+over = 10;
+pos = 572;
+},
+{
+over = -11;
+},
+{
+}
+);
+name = Regular;
+stemValues = (
+80,
+90
+);
+userData = {
+GSOffsetHorizontal = -26;
+GSOffsetVertical = -26;
+};
+},
+{
+axesValues = (
+151,
+100
+);
+customParameters = (
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = panose;
+value = (
+2,
+11,
+8,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
+iconName = SemiBold;
+id = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+metricValues = (
+{
+over = 6;
+pos = 760;
+},
+{
+over = 13;
+pos = 714;
+},
+{
+over = 11;
+pos = 546;
+},
+{
+over = -11;
+},
+{
+over = -6;
+pos = -240;
+},
+{
+over = 10;
+pos = 582;
+},
+{
+over = -11;
+},
+{
+}
+);
+name = SemiBold;
+stemValues = (
+125,
+147
+);
+},
+{
+axesValues = (
+190,
+100
+);
+customParameters = (
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = panose;
+value = (
+2,
+11,
+10,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
+iconName = Bold;
+id = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
+metricValues = (
+{
+over = 6;
+pos = 760;
+},
+{
+over = 12;
+pos = 714;
+},
+{
+over = 11;
+pos = 553;
+},
+{
+over = -11;
+},
+{
+over = -6;
+pos = -240;
+},
+{
+over = 7;
+pos = 591;
+},
+{
+over = -11;
+},
+{
+}
+);
+name = Bold;
+stemValues = (
+151,
+179
+);
+userData = {
+GSOffsetHorizontal = 20;
+GSOffsetVertical = 10;
+};
+},
+{
+axesValues = (
+26,
+70
+);
+customParameters = (
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = panose;
+value = (
+2,
+11,
+2,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
+iconName = Light_Condensed;
+id = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
+metricValues = (
+{
+over = 6;
+pos = 760;
+},
+{
+over = 11;
+pos = 714;
+},
+{
+over = 10;
+pos = 528;
+},
+{
+over = -11;
+},
+{
+over = -16;
+pos = -240;
+},
+{
+over = 8;
+pos = 559;
+},
+{
+over = -11;
+},
+{
+}
+);
+name = "Light Condensed";
+stemValues = (
+25,
+25
+);
+userData = {
+GSOffsetHorizontal = -5;
+GSOffsetVertical = -5;
+};
+},
+{
+axesValues = (
+90,
+70
+);
+customParameters = (
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = panose;
+value = (
+2,
+11,
+5,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
+iconName = Condensed;
+id = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+metricValues = (
+{
+over = 6;
+pos = 760;
+},
+{
+over = 13;
+pos = 714;
+},
+{
+over = 12;
+pos = 536;
+},
+{
+over = -11;
+},
+{
+over = -6;
+pos = -240;
+},
+{
+over = 10;
+pos = 572;
+},
+{
+over = -11;
+},
+{
+}
+);
+name = Condensed;
+stemValues = (
+75,
+86
+);
+userData = {
+GSOffsetHorizontal = -5;
+GSOffsetVertical = -5;
+};
+},
+{
+axesValues = (
+151,
+70
+);
+customParameters = (
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = panose;
+value = (
+2,
+11,
+8,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
+iconName = SemiBold_Condensed;
+id = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+metricValues = (
+{
+over = 6;
+pos = 760;
+},
+{
+over = 13;
+pos = 714;
+},
+{
+over = 12;
+pos = 546;
+},
+{
+over = -9;
+},
+{
+over = -6;
+pos = -240;
+},
+{
+over = 8;
+pos = 582;
+},
+{
+over = -9;
+},
+{
+}
+);
+name = "SemiBold Condensed";
+stemValues = (
+117,
+132
+);
+userData = {
+GSOffsetHorizontal = -5;
+GSOffsetVertical = -5;
+};
+},
+{
+axesValues = (
+190,
+70
+);
+customParameters = (
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = panose;
+value = (
+2,
+11,
+10,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
+iconName = Bold_Condensed;
+id = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
+metricValues = (
+{
+over = 7;
+pos = 760;
+},
+{
+over = 12;
+pos = 714;
+},
+{
+over = 11;
+pos = 553;
+},
+{
+over = -8;
+},
+{
+over = -6;
+pos = -240;
+},
+{
+over = 8;
+pos = 591;
+},
+{
+over = -8;
+},
+{
+}
+);
+name = "Bold Condensed";
+stemValues = (
+139,
+160
+);
+userData = {
+GSOffsetHorizontal = -5;
+GSOffsetVertical = -5;
+};
+}
+);
+instances = (
+{
+axesValues = (
+26,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+2,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"02EF4DD5-EF93-4764-9336-ED93C6797AC3" = 1;
+};
+name = Thin;
+weightClass = 100;
+},
+{
+axesValues = (
+39,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+3,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"02EF4DD5-EF93-4764-9336-ED93C6797AC3" = 0.79688;
+UUID0 = 0.20312;
+};
+name = ExtraLight;
+weightClass = 200;
+},
+{
+axesValues = (
+58,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+4,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"02EF4DD5-EF93-4764-9336-ED93C6797AC3" = 0.5;
+UUID0 = 0.5;
+};
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+90,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+UUID0 = 1;
+};
+name = Regular;
+},
+{
+axesValues = (
+108,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.29508;
+UUID0 = 0.70492;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+128,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.62295;
+UUID0 = 0.37705;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+151,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+8,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+169,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.46154;
+"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.53846;
+};
+name = ExtraBold;
+weightClass = 800;
+},
+{
+axesValues = (
+190,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 1;
+};
+name = Black;
+weightClass = 900;
+},
+{
+axesValues = (
+26,
+89
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+2,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"02EF4DD5-EF93-4764-9336-ED93C6797AC3" = 0.63333;
+"82FB5ACD-33BC-4284-9837-1B4D88A7F1E9" = 0.36667;
+};
+name = "SemiCondensed Thin";
+weightClass = 100;
+widthClass = 4;
+},
+{
+axesValues = (
+39,
+89
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+3,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"02EF4DD5-EF93-4764-9336-ED93C6797AC3" = 0.50469;
+"82FB5ACD-33BC-4284-9837-1B4D88A7F1E9" = 0.29219;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.07448;
+UUID0 = 0.12865;
+};
+name = "SemiCondensed ExtraLight";
+weightClass = 200;
+widthClass = 4;
+},
+{
+axesValues = (
+58,
+89
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+4,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"02EF4DD5-EF93-4764-9336-ED93C6797AC3" = 0.31667;
+"82FB5ACD-33BC-4284-9837-1B4D88A7F1E9" = 0.18333;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.18333;
+UUID0 = 0.31667;
+};
+name = "SemiCondensed Light";
+weightClass = 300;
+widthClass = 4;
+},
+{
+axesValues = (
+90,
+89
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.36667;
+UUID0 = 0.63333;
+};
+name = SemiCondensed;
+widthClass = 4;
+},
+{
+axesValues = (
+108,
+89
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.1082;
+"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.18689;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.25847;
+UUID0 = 0.44645;
+};
+name = "SemiCondensed Medium";
+weightClass = 500;
+widthClass = 4;
+},
+{
+axesValues = (
+128,
+89
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.22842;
+"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.39454;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.13825;
+UUID0 = 0.2388;
+};
+name = "SemiCondensed SemiBold";
+weightClass = 600;
+widthClass = 4;
+},
+{
+axesValues = (
+151,
+89
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+8,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.36667;
+"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.63333;
+};
+isBold = 1;
+linkStyle = SemiCondensed;
+name = "SemiCondensed Bold";
+weightClass = 700;
+widthClass = 4;
+},
+{
+axesValues = (
+169,
+89
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.19744;
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.16923;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.29231;
+"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.34103;
+};
+name = "SemiCondensed ExtraBold";
+weightClass = 800;
+widthClass = 4;
+},
+{
+axesValues = (
+190,
+89
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.36667;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.63333;
+};
+name = "SemiCondensed Black";
+weightClass = 900;
+widthClass = 4;
+},
+{
+axesValues = (
+26,
+79
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+2,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"02EF4DD5-EF93-4764-9336-ED93C6797AC3" = 0.3;
+"82FB5ACD-33BC-4284-9837-1B4D88A7F1E9" = 0.7;
+};
+name = "Condensed Thin";
+weightClass = 100;
+widthClass = 3;
+},
+{
+axesValues = (
+39,
+79
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+3,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"02EF4DD5-EF93-4764-9336-ED93C6797AC3" = 0.23906;
+"82FB5ACD-33BC-4284-9837-1B4D88A7F1E9" = 0.55781;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.14219;
+UUID0 = 0.06094;
+};
+name = "Condensed ExtraLight";
+weightClass = 200;
+widthClass = 3;
+},
+{
+axesValues = (
+58,
+79
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+4,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"02EF4DD5-EF93-4764-9336-ED93C6797AC3" = 0.15;
+"82FB5ACD-33BC-4284-9837-1B4D88A7F1E9" = 0.35;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.35;
+UUID0 = 0.15;
+};
+name = "Condensed Light";
+weightClass = 300;
+widthClass = 3;
+},
+{
+axesValues = (
+90,
+79
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.7;
+UUID0 = 0.3;
+};
+name = Condensed;
+widthClass = 3;
+},
+{
+axesValues = (
+108,
+79
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.20656;
+"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.08852;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.49344;
+UUID0 = 0.21148;
+};
+name = "Condensed Medium";
+weightClass = 500;
+widthClass = 3;
+},
+{
+axesValues = (
+128,
+79
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.43607;
+"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.18689;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.26393;
+UUID0 = 0.11311;
+};
+name = "Condensed SemiBold";
+weightClass = 600;
+widthClass = 3;
+},
+{
+axesValues = (
+151,
+79
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+8,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.7;
+"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.3;
+};
+isBold = 1;
+linkStyle = Condensed;
+name = "Condensed Bold";
+weightClass = 700;
+widthClass = 3;
+},
+{
+axesValues = (
+169,
+79
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.37692;
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.32308;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.13846;
+"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.16154;
+};
+name = "Condensed ExtraBold";
+weightClass = 800;
+widthClass = 3;
+},
+{
+axesValues = (
+190,
+79
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.7;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.3;
+};
+name = "Condensed Black";
+weightClass = 900;
+widthClass = 3;
+},
+{
+axesValues = (
+26,
+70
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+2,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"82FB5ACD-33BC-4284-9837-1B4D88A7F1E9" = 1;
+};
+name = "ExtraCondensed Thin";
+weightClass = 100;
+widthClass = 2;
+},
+{
+axesValues = (
+39,
+70
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+3,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"82FB5ACD-33BC-4284-9837-1B4D88A7F1E9" = 0.79688;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.20312;
+};
+name = "ExtraCondensed ExtraLight";
+weightClass = 200;
+widthClass = 2;
+},
+{
+axesValues = (
+58,
+70
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+4,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"82FB5ACD-33BC-4284-9837-1B4D88A7F1E9" = 0.5;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.5;
+};
+name = "ExtraCondensed Light";
+weightClass = 300;
+widthClass = 2;
+},
+{
+axesValues = (
+90,
+70
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 1;
+};
+name = ExtraCondensed;
+widthClass = 2;
+},
+{
+axesValues = (
+108,
+70
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.29508;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.70492;
+};
+name = "ExtraCondensed Medium";
+weightClass = 500;
+widthClass = 2;
+},
+{
+axesValues = (
+128,
+70
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.62295;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.37705;
+};
+name = "ExtraCondensed SemiBold";
+weightClass = 600;
+widthClass = 2;
+},
+{
+axesValues = (
+151,
+70
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+8,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 1;
+};
+isBold = 1;
+linkStyle = ExtraCondensed;
+name = "ExtraCondensed Bold";
+weightClass = 700;
+widthClass = 2;
+},
+{
+axesValues = (
+169,
+70
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.53846;
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.46154;
+};
+name = "ExtraCondensed ExtraBold";
+weightClass = 800;
+widthClass = 2;
+},
+{
+axesValues = (
+190,
+70
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 1;
+};
+name = "ExtraCondensed Black";
+weightClass = 900;
+widthClass = 2;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+filter = "case == 3";
+type = "x-height";
+},
+{
+type = "italic angle";
+},
+{
+name = "zone 1";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Monotype Design Team";
+}
+);
+},
+{
+key = designerURL;
+value = "http://www.monotype.com/studio";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Monotype Imaging Inc.";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://www.google.com/get/noto/";
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Designed by Monotype design team.";
+}
+);
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = "Noto is a trademark of Google LLC.";
+}
+);
+},
+{
+key = vendorID;
+value = GOOG;
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = versionString;
+value = "Version 2.010";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+}
+);
+settings = {
+disablesAutomaticAlignment = 1;
+disablesNiceNames = 1;
+};
+stems = (
+{
+horizontal = 1;
+name = hStem0;
+},
+{
+name = vStem0;
+}
+);
+unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"02EF4DD5-EF93-4764-9336-ED93C6797AC3" = {
+HH = "25";
+HV = "26";
+OH = "25";
+OV = "27";
+nV = "26";
+nd = "23";
+oH = "25";
+oV = "27";
+tH = "25";
+};
+"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = {
+HH = "124";
+HV = "128";
+OH = "118";
+OV = "133";
+nV = "128";
+nd = "87";
+oH = "117";
+oV = "132";
+tH = "114";
+};
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = {
+HH = "140";
+HV = "153";
+OH = "143";
+OV = "157";
+nV = "155";
+nd = "102";
+oH = "139";
+oV = "160";
+tH = "135";
+};
+"82FB5ACD-33BC-4284-9837-1B4D88A7F1E9" = {
+HH = "25";
+HV = "26";
+OH = "25";
+OV = "26";
+nV = "26";
+nd = "23";
+oH = "25";
+oV = "26";
+tH = "25";
+};
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = {
+HH = "150";
+HV = "177";
+OH = "150";
+OV = "179";
+nV = "175";
+nd = "113";
+oH = "140";
+oV = "169";
+tH = "140";
+};
+"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = {
+HH = "125";
+HV = "145";
+OH = "125";
+OV = "147";
+nV = "145";
+nd = "96";
+oH = "117";
+oV = "147";
+tH = "120";
+};
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = {
+HH = "78";
+HV = "84";
+OH = "75";
+OV = "85";
+nV = "82";
+nd = "62";
+oH = "71";
+oV = "86";
+tH = "72";
+};
+UUID0 = {
+HH = "80";
+HV = "90";
+OH = "80";
+OV = "92";
+nV = "90";
+nd = "62";
+oH = "73";
+oV = "90";
+tH = "75";
+};
+};
+GSDontShowVersionAlert = 1;
+};
+versionMajor = 2;
+versionMinor = 10;
+}

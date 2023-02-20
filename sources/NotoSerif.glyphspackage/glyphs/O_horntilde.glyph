@@ -1,0 +1,198 @@
+{
+category = Letter;
+glyphname = Ohorntilde;
+kernLeft = O;
+kernRight = Ohorn;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (363,0);
+},
+{
+name = top;
+pos = (363,865);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = Ohorn;
+},
+{
+alignment = -1;
+pos = (149,165);
+ref = tilde;
+}
+);
+width = 726;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (389,0);
+},
+{
+name = top;
+pos = (389,899);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = Ohorn;
+},
+{
+pos = (146,165);
+ref = tilde;
+}
+);
+width = 778;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (422,0);
+},
+{
+name = top;
+pos = (422,929);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = Ohorn;
+},
+{
+pos = (154,165);
+ref = tilde;
+}
+);
+width = 843;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (446,0);
+},
+{
+name = top;
+pos = (446,951);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = Ohorn;
+},
+{
+pos = (160,165);
+ref = tilde;
+}
+);
+width = 875;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (277,0);
+},
+{
+name = top;
+pos = (277,865);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = Ohorn;
+},
+{
+pos = (106,165);
+ref = tilde;
+}
+);
+width = 553;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (317,0);
+},
+{
+name = top;
+pos = (317,896);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = Ohorn;
+},
+{
+pos = (108,165);
+ref = tilde;
+}
+);
+width = 630;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (348,0);
+},
+{
+name = top;
+pos = (348,919);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = Ohorn;
+},
+{
+pos = (119,165);
+ref = tilde;
+}
+);
+width = 687;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (372,0);
+},
+{
+name = top;
+pos = (372,937);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = Ohorn;
+},
+{
+pos = (127,165);
+ref = tilde;
+}
+);
+width = 730;
+}
+);
+metricWidth = Ohorn;
+script = latin;
+subCategory = Uppercase;
+unicode = 7904;
+}

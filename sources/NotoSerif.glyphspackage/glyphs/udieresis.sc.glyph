@@ -1,0 +1,197 @@
+{
+category = Letter;
+glyphname = udieresis.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (343,0);
+},
+{
+name = top;
+pos = (343,821);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (55,0);
+ref = dieresiscomb.sc;
+}
+);
+width = 685;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (312,0);
+},
+{
+name = top;
+pos = (312,779);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (24,0);
+ref = dieresiscomb.sc;
+}
+);
+width = 623;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (322,0);
+},
+{
+name = top;
+pos = (322,799);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (34,0);
+ref = dieresiscomb.sc;
+}
+);
+width = 643;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (286,0);
+},
+{
+name = top;
+pos = (286,812);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (46,35);
+ref = dieresiscomb.sc;
+}
+);
+width = 571;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (228,0);
+},
+{
+name = top;
+pos = (228,765);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (9,35);
+ref = dieresiscomb.sc;
+}
+);
+width = 456;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (302,0);
+},
+{
+name = top;
+pos = (302,753);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+alignment = -1;
+pos = (15,35);
+ref = dieresiscomb.sc;
+}
+);
+width = 603;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (253,0);
+},
+{
+name = top;
+pos = (253,785);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (25,35);
+ref = dieresiscomb.sc;
+}
+);
+width = 506;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (272,0);
+},
+{
+name = top;
+pos = (272,800);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (37,35);
+ref = dieresiscomb.sc;
+}
+);
+width = 543;
+}
+);
+metricWidth = u.sc;
+script = latin;
+subCategory = Smallcaps;
+}

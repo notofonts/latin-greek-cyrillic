@@ -1,0 +1,198 @@
+{
+category = Letter;
+glyphname = uhornhookabove;
+kernLeft = u;
+kernRight = uhorn;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (304,0);
+},
+{
+name = top;
+pos = (304,810);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+pos = (588,0);
+ref = hook;
+},
+{
+alignment = -1;
+ref = uhorn;
+}
+);
+width = 608;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (338,0);
+},
+{
+name = top;
+pos = (338,820);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+pos = (618,0);
+ref = hook;
+},
+{
+ref = uhorn;
+}
+);
+width = 676;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (389,0);
+},
+{
+name = top;
+pos = (389,825);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+pos = (618,0);
+ref = hook;
+},
+{
+ref = uhorn;
+}
+);
+width = 778;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (401,0);
+},
+{
+name = top;
+pos = (401,829);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+pos = (618,0);
+ref = hook;
+},
+{
+ref = uhorn;
+}
+);
+width = 802;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (227,0);
+},
+{
+name = top;
+pos = (227,814);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+pos = (452,0);
+ref = hook;
+},
+{
+ref = uhorn;
+}
+);
+width = 453;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (274,0);
+},
+{
+name = top;
+pos = (274,820);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+pos = (488,0);
+ref = hook;
+},
+{
+ref = uhorn;
+}
+);
+width = 547;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (308,0);
+},
+{
+name = top;
+pos = (308,824);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+pos = (503,0);
+ref = hook;
+},
+{
+ref = uhorn;
+}
+);
+width = 617;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (335,0);
+},
+{
+name = top;
+pos = (335,827);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+pos = (515,0);
+ref = hook;
+},
+{
+ref = uhorn;
+}
+);
+width = 670;
+}
+);
+metricWidth = uhorn;
+script = latin;
+subCategory = Lowercase;
+unicode = 7917;
+}

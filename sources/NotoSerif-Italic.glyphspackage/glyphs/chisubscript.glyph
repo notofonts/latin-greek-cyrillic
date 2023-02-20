@@ -1,0 +1,185 @@
+{
+category = Letter;
+glyphname = chisubscript;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (42,-241);
+},
+{
+name = top;
+pos = (141,227);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+pos = (-52,-96);
+ref = chi;
+scale = (0.65,0.6);
+}
+);
+width = 300;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (64,-240);
+},
+{
+name = top;
+pos = (163,227);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+pos = (-52,-96);
+ref = chi;
+scale = (0.65,0.6);
+}
+);
+width = 343;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (81,-240);
+},
+{
+name = top;
+pos = (180,227);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+pos = (-52,-96);
+ref = chi;
+scale = (0.65,0.6);
+}
+);
+width = 378;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (94,-240);
+},
+{
+name = top;
+pos = (193,227);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+pos = (-52,-96);
+ref = chi;
+scale = (0.65,0.6);
+}
+);
+width = 403;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (4,-240);
+},
+{
+name = top;
+pos = (104,232);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+pos = (-52,-96);
+ref = chi;
+scale = (0.65,0.6);
+}
+);
+width = 224;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (33,-241);
+},
+{
+name = top;
+pos = (132,227);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+pos = (-52,-96);
+ref = chi;
+scale = (0.65,0.6);
+}
+);
+width = 282;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (48,-240);
+},
+{
+name = top;
+pos = (147,227);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+pos = (-52,-96);
+ref = chi;
+scale = (0.65,0.6);
+}
+);
+width = 311;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (59,-240);
+},
+{
+name = top;
+pos = (158,227);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+pos = (-52,-96);
+ref = chi;
+scale = (0.65,0.6);
+}
+);
+width = 333;
+}
+);
+script = greek;
+subCategory = Modifier;
+unicode = 7530;
+}

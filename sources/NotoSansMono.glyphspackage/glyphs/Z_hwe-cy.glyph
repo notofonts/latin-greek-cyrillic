@@ -1,0 +1,201 @@
+{
+category = Letter;
+glyphname = "Zhwe-cy";
+layers = (
+{
+layerId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(712,359,l),
+(712,384,l),
+(222,384,l),
+(222,359,l)
+);
+},
+{
+alignment = -1;
+ref = "Ze-cy";
+},
+{
+alignment = -1;
+pos = (600,0);
+ref = "Ka-cy";
+}
+);
+width = 1200;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(712,333,l),
+(712,408,l),
+(222,408,l),
+(222,333,l)
+);
+},
+{
+alignment = -1;
+ref = "Ze-cy";
+},
+{
+alignment = -1;
+pos = (600,0);
+ref = "Ka-cy";
+}
+);
+width = 1200;
+},
+{
+layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(692,314,l),
+(692,428,l),
+(202,428,l),
+(202,314,l)
+);
+},
+{
+alignment = -1;
+ref = "Ze-cy";
+},
+{
+alignment = -1;
+pos = (600,0);
+ref = "Ka-cy";
+}
+);
+width = 1200;
+},
+{
+layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
+shapes = (
+{
+closed = 1;
+nodes = (
+(692,301,l),
+(692,442,l),
+(202,442,l),
+(202,301,l)
+);
+},
+{
+alignment = -1;
+ref = "Ze-cy";
+},
+{
+alignment = -1;
+pos = (600,0);
+ref = "Ka-cy";
+}
+);
+width = 1200;
+},
+{
+layerId = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(582,360,l),
+(582,386,l),
+(182,386,l),
+(182,360,l)
+);
+},
+{
+alignment = -1;
+ref = "Ze-cy";
+},
+{
+alignment = -1;
+pos = (500,0);
+ref = "Ka-cy";
+}
+);
+width = 1000;
+},
+{
+layerId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(582,333,l),
+(582,408,l),
+(182,408,l),
+(182,333,l)
+);
+},
+{
+alignment = -1;
+ref = "Ze-cy";
+},
+{
+alignment = -1;
+pos = (500,0);
+ref = "Ka-cy";
+}
+);
+width = 1000;
+},
+{
+layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(582,316,l),
+(582,426,l),
+(182,426,l),
+(182,316,l)
+);
+},
+{
+alignment = -1;
+ref = "Ze-cy";
+},
+{
+alignment = -1;
+pos = (500,0);
+ref = "Ka-cy";
+}
+);
+width = 1000;
+},
+{
+layerId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
+shapes = (
+{
+closed = 1;
+nodes = (
+(567,307,l),
+(567,437,l),
+(167,437,l),
+(167,307,l)
+);
+},
+{
+alignment = -1;
+ref = "Ze-cy";
+},
+{
+alignment = -1;
+pos = (500,0);
+ref = "Ka-cy";
+}
+);
+width = 1000;
+}
+);
+script = cyrillic;
+subCategory = Uppercase;
+unicode = 42628;
+}

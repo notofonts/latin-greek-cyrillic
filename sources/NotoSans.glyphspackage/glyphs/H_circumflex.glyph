@@ -1,0 +1,201 @@
+{
+category = Letter;
+glyphname = Hcircumflex;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (383,0);
+},
+{
+name = top;
+pos = (383,927);
+}
+);
+layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
+shapes = (
+{
+alignment = -1;
+ref = H;
+},
+{
+pos = (389,161);
+ref = circumflexcomb;
+}
+);
+width = 766;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (303,0);
+},
+{
+name = top;
+pos = (304,927);
+}
+);
+layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
+shapes = (
+{
+alignment = -1;
+ref = H;
+},
+{
+pos = (304,161);
+ref = circumflexcomb;
+}
+);
+width = 609;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (368,0);
+},
+{
+name = top;
+pos = (371,944);
+}
+);
+layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+shapes = (
+{
+alignment = -1;
+ref = H;
+},
+{
+pos = (369,178);
+ref = circumflexcomb;
+}
+);
+width = 741;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (379,0);
+},
+{
+name = top;
+pos = (383,934);
+}
+);
+layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+shapes = (
+{
+alignment = -1;
+ref = H;
+},
+{
+pos = (382,168);
+ref = circumflexcomb;
+}
+);
+width = 765;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (267,0);
+},
+{
+name = top;
+pos = (268,943);
+}
+);
+layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+shapes = (
+{
+alignment = -1;
+ref = H;
+},
+{
+pos = (268,177);
+ref = circumflexcomb;
+}
+);
+width = 533;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (289,0);
+},
+{
+name = top;
+pos = (290,933);
+}
+);
+layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+shapes = (
+{
+alignment = -1;
+ref = H;
+},
+{
+pos = (290,167);
+ref = circumflexcomb;
+}
+);
+width = 579;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (353,0);
+},
+{
+name = top;
+pos = (353,949);
+}
+);
+layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
+shapes = (
+{
+alignment = -1;
+ref = H;
+},
+{
+pos = (367,186);
+ref = circumflexcomb;
+}
+);
+width = 706;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (243,0);
+},
+{
+name = top;
+pos = (243,950);
+}
+);
+layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
+shapes = (
+{
+alignment = -1;
+ref = H;
+},
+{
+pos = (243,187);
+ref = circumflexcomb;
+}
+);
+width = 486;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 292;
+}

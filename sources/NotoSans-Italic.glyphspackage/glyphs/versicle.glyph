@@ -1,0 +1,179 @@
+{
+category = Symbol;
+glyphname = versicle;
+layers = (
+{
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(37,-145,l),
+(336,804,l),
+(143,859,l),
+(136,837,l),
+(307,789,l),
+(11,-145,l)
+);
+},
+{
+alignment = -1;
+ref = V;
+}
+);
+width = 344;
+},
+{
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(68,-145,l),
+(451,790,l),
+(230,868,l),
+(221,844,l),
+(415,774,l),
+(40,-145,l)
+);
+},
+{
+alignment = -1;
+pos = (1,0);
+ref = V;
+}
+);
+width = 535;
+},
+{
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+closed = 1;
+nodes = (
+(159,-146,l),
+(436,791,l),
+(163,877,l),
+(142,816,l),
+(359,752,l),
+(96,-146,l)
+);
+},
+{
+alignment = -1;
+ref = V;
+}
+);
+width = 590;
+},
+{
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+closed = 1;
+nodes = (
+(110,-145,l),
+(384,800,l),
+(160,858,l),
+(146,806,l),
+(316,765,l),
+(51,-145,l)
+);
+},
+{
+alignment = -1;
+ref = V;
+}
+);
+width = 464;
+},
+{
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(57,-145,l),
+(488,797,l),
+(264,873,l),
+(246,828,l),
+(422,770,l),
+(6,-145,l)
+);
+},
+{
+alignment = -1;
+ref = V;
+}
+);
+width = 552;
+},
+{
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(64,-145,l),
+(350,803,l),
+(134,857,l),
+(123,814,l),
+(293,773,l),
+(15,-145,l)
+);
+},
+{
+alignment = -1;
+ref = V;
+}
+);
+width = 404;
+},
+{
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,-145,l),
+(413,798,l),
+(180,859,l),
+(164,797,l),
+(334,757,l),
+(81,-145,l)
+);
+},
+{
+alignment = -1;
+ref = V;
+}
+);
+width = 519;
+},
+{
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,-146,l),
+(450,786,l),
+(173,879,l),
+(149,812,l),
+(365,744,l),
+(26,-146,l)
+);
+},
+{
+alignment = -1;
+ref = V;
+}
+);
+width = 617;
+}
+);
+metricWidth = V;
+script = "";
+subCategory = Other;
+unicode = 8483;
+}

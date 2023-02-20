@@ -1,0 +1,195 @@
+{
+category = Letter;
+glyphname = Udieresismacron;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (340,0);
+},
+{
+name = top;
+pos = (340,929);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = U;
+},
+{
+alignment = -1;
+pos = (50,165);
+ref = dieresismacron;
+}
+);
+width = 679;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (359,0);
+},
+{
+name = top;
+pos = (359,1000);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (90,165);
+ref = dieresismacron;
+}
+);
+width = 717;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (374,0);
+},
+{
+name = top;
+pos = (374,1023);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (110,165);
+ref = dieresismacron;
+}
+);
+width = 747;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (385,0);
+},
+{
+name = top;
+pos = (385,1031);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (125,165);
+ref = dieresismacron;
+}
+);
+width = 769;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (260,0);
+},
+{
+name = top;
+pos = (260,975);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (52,165);
+ref = dieresismacron;
+}
+);
+width = 520;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (287,0);
+},
+{
+name = top;
+pos = (287,995);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (75,165);
+ref = dieresismacron;
+}
+);
+width = 573;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (306,0);
+},
+{
+name = top;
+pos = (306,1010);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (91,165);
+ref = dieresismacron;
+}
+);
+width = 612;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (321,0);
+},
+{
+name = top;
+pos = (321,1022);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (104,165);
+ref = dieresismacron;
+}
+);
+width = 642;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 469;
+}

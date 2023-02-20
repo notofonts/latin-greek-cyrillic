@@ -1,0 +1,201 @@
+{
+category = Letter;
+glyphname = "zhwe-cy";
+layers = (
+{
+layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
+shapes = (
+{
+closed = 1;
+nodes = (
+(249,269,l),
+(475,269,l),
+(475,294,l),
+(249,294,l)
+);
+},
+{
+alignment = -1;
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (370,0);
+ref = "ka-cy";
+}
+);
+width = 790;
+},
+{
+layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+shapes = (
+{
+closed = 1;
+nodes = (
+(221,250,l),
+(591,250,l),
+(591,315,l),
+(221,315,l)
+);
+},
+{
+alignment = -1;
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (464,0);
+ref = "ka-cy";
+}
+);
+width = 987;
+},
+{
+layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(161,234,l),
+(712,234,l),
+(712,336,l),
+(161,336,l)
+);
+},
+{
+alignment = -1;
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (555,0);
+ref = "ka-cy";
+}
+);
+width = 1174;
+},
+{
+layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(153,225,l),
+(704,225,l),
+(704,349,l),
+(153,349,l)
+);
+},
+{
+alignment = -1;
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (554,0);
+ref = "ka-cy";
+}
+);
+width = 1230;
+},
+{
+layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
+shapes = (
+{
+closed = 1;
+nodes = (
+(136,271,l),
+(351,271,l),
+(351,295,l),
+(136,295,l)
+);
+},
+{
+alignment = -1;
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (258,0);
+ref = "ka-cy";
+}
+);
+width = 555;
+},
+{
+layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(202,254,l),
+(417,254,l),
+(417,312,l),
+(202,312,l)
+);
+},
+{
+alignment = -1;
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (329,0);
+ref = "ka-cy";
+}
+);
+width = 725;
+},
+{
+layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+shapes = (
+{
+closed = 1;
+nodes = (
+(263,240,l),
+(470,240,l),
+(470,328,l),
+(263,328,l)
+);
+},
+{
+alignment = -1;
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (394,0);
+ref = "ka-cy";
+}
+);
+width = 872;
+},
+{
+layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
+shapes = (
+{
+closed = 1;
+nodes = (
+(301,231,l),
+(502,231,l),
+(502,339,l),
+(301,339,l)
+);
+},
+{
+alignment = -1;
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (435,0);
+ref = "ka-cy";
+}
+);
+width = 966;
+}
+);
+script = cyrillic;
+subCategory = Lowercase;
+unicode = 42629;
+}

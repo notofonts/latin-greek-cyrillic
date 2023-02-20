@@ -1,0 +1,195 @@
+{
+category = Letter;
+glyphname = eogonek.sc;
+kernLeft = b.sc;
+kernRight = e.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (302,-240);
+},
+{
+name = top;
+pos = (302,571);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (40,0);
+ref = ogonekcomb.sc;
+}
+);
+width = 603;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (268,-240);
+},
+{
+name = top;
+pos = (268,571);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (-11,0);
+ref = ogonekcomb.sc;
+}
+);
+width = 535;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (288,-240);
+},
+{
+name = top;
+pos = (288,571);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (19,0);
+ref = ogonekcomb.sc;
+}
+);
+width = 575;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (252,-238);
+},
+{
+name = top;
+pos = (252,571);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (34,0);
+ref = ogonekcomb.sc;
+}
+);
+width = 503;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (194,-228);
+},
+{
+name = top;
+pos = (194,571);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (-27,0);
+ref = ogonekcomb.sc;
+}
+);
+width = 388;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (251,-222);
+},
+{
+name = top;
+pos = (251,571);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = e.sc;
+},
+{
+alignment = -1;
+pos = (58,0);
+ref = ogonekcomb.sc;
+}
+);
+width = 501;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (219,-232);
+},
+{
+name = top;
+pos = (219,571);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = e.sc;
+},
+{
+ref = ogonekcomb.sc;
+}
+);
+width = 438;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (238,-235);
+},
+{
+name = top;
+pos = (238,571);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (19,0);
+ref = ogonekcomb.sc;
+}
+);
+width = 475;
+}
+);
+script = latin;
+subCategory = Smallcaps;
+}

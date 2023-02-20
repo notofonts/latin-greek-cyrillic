@@ -1,0 +1,130 @@
+{
+category = Punctuation;
+glyphname = punctuselevatus;
+layers = (
+{
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+ref = period;
+},
+{
+angle = 90;
+pos = (773,359);
+ref = koronis;
+scale = (-1,1);
+}
+);
+width = 210;
+},
+{
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+ref = period;
+},
+{
+angle = 90;
+pos = (841,505);
+ref = koronis;
+scale = (-1,1);
+}
+);
+width = 256;
+},
+{
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+ref = period;
+},
+{
+angle = 90;
+pos = (856,569);
+ref = koronis;
+scale = (-1,1);
+}
+);
+width = 285;
+},
+{
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+ref = period;
+},
+{
+angle = 90;
+pos = (860,574);
+ref = koronis;
+scale = (-1,1);
+}
+);
+width = 306;
+},
+{
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+ref = period;
+},
+{
+angle = 90;
+pos = (769,493);
+ref = koronis;
+scale = (-1,1);
+}
+);
+width = 154;
+},
+{
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+ref = period;
+},
+{
+angle = 90;
+pos = (797,573);
+ref = koronis;
+scale = (-1,1);
+}
+);
+width = 202;
+},
+{
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+ref = period;
+},
+{
+angle = 90;
+pos = (835,607);
+ref = koronis;
+scale = (-1,1);
+}
+);
+width = 231;
+},
+{
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+ref = period;
+},
+{
+angle = 90;
+pos = (846,625);
+ref = koronis;
+scale = (-1,1);
+}
+);
+width = 260;
+}
+);
+metricWidth = period;
+script = "";
+subCategory = Other;
+unicode = 11854;
+}

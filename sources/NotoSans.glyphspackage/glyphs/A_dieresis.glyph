@@ -1,0 +1,203 @@
+{
+category = Letter;
+glyphname = Adieresis;
+kernLeft = A.right;
+kernRight = A.left;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (363,0);
+},
+{
+name = top;
+pos = (363,928);
+}
+);
+layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
+shapes = (
+{
+alignment = -1;
+ref = A;
+},
+{
+pos = (364,161);
+ref = dieresiscomb;
+}
+);
+width = 726;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (288,0);
+},
+{
+name = top;
+pos = (288,928);
+}
+);
+layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
+shapes = (
+{
+alignment = -1;
+ref = A;
+},
+{
+pos = (288,161);
+ref = dieresiscomb;
+}
+);
+width = 574;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (324,0);
+},
+{
+name = top;
+pos = (318,908);
+}
+);
+layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+shapes = (
+{
+alignment = -1;
+ref = A;
+},
+{
+pos = (319,178);
+ref = dieresiscomb;
+}
+);
+width = 639;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (345,0);
+},
+{
+name = top;
+pos = (345,920);
+}
+);
+layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+shapes = (
+{
+alignment = -1;
+ref = A;
+},
+{
+pos = (344,168);
+ref = dieresiscomb;
+}
+);
+width = 690;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (220,0);
+},
+{
+name = top;
+pos = (224,882);
+}
+);
+layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+shapes = (
+{
+alignment = -1;
+ref = A;
+},
+{
+pos = (223,177);
+ref = dieresiscomb;
+}
+);
+width = 450;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (261,0);
+},
+{
+name = top;
+pos = (263,910);
+}
+);
+layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+shapes = (
+{
+alignment = -1;
+ref = A;
+},
+{
+pos = (262,167);
+ref = dieresiscomb;
+}
+);
+width = 526;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (289,0);
+},
+{
+name = top;
+pos = (289,895);
+}
+);
+layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
+shapes = (
+{
+alignment = -1;
+ref = A;
+},
+{
+pos = (290,186);
+ref = dieresiscomb;
+}
+);
+width = 577;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (189,0);
+},
+{
+name = top;
+pos = (189,864);
+}
+);
+layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
+shapes = (
+{
+alignment = -1;
+ref = A;
+},
+{
+pos = (190,187);
+ref = dieresiscomb;
+}
+);
+width = 377;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 196;
+}

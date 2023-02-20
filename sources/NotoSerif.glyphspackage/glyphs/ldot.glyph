@@ -1,0 +1,196 @@
+{
+category = Letter;
+glyphname = ldot;
+kernLeft = l;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (270,0);
+},
+{
+name = top;
+pos = (270,760);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = l;
+},
+{
+pos = (309,-370);
+ref = dotaccent;
+}
+);
+width = 540;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (185,0);
+},
+{
+name = top;
+pos = (185,760);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = l;
+},
+{
+pos = (243,-370);
+ref = dotaccent;
+}
+);
+width = 370;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (234,0);
+},
+{
+name = top;
+pos = (234,760);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = l;
+},
+{
+pos = (281,-370);
+ref = dotaccent;
+}
+);
+width = 468;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (226,0);
+},
+{
+name = top;
+pos = (226,760);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = l;
+},
+{
+pos = (253,-370);
+ref = dotaccent;
+}
+);
+width = 371;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (140,0);
+},
+{
+name = top;
+pos = (140,760);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = l;
+},
+{
+pos = (179,-370);
+ref = dotaccent;
+}
+);
+width = 199;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (123,0);
+},
+{
+name = top;
+pos = (123,760);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = l;
+},
+{
+alignment = -1;
+pos = (189,-370);
+ref = dotaccent;
+}
+);
+width = 246;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (157,0);
+},
+{
+name = top;
+pos = (157,760);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = l;
+},
+{
+pos = (192,-370);
+ref = dotaccent;
+}
+);
+width = 233;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (196,0);
+},
+{
+name = top;
+pos = (196,760);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = l;
+},
+{
+pos = (227,-370);
+ref = dotaccent;
+}
+);
+width = 311;
+}
+);
+script = latin;
+subCategory = Lowercase;
+unicode = 320;
+}

@@ -1,0 +1,202 @@
+{
+category = Letter;
+glyphname = Ehookabove;
+kernRight = E.left;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (295,0);
+},
+{
+name = top;
+pos = (305,984);
+}
+);
+layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
+shapes = (
+{
+alignment = -1;
+ref = E;
+},
+{
+pos = (593,186);
+ref = hookabovecomb;
+}
+);
+width = 550;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (305,986);
+}
+);
+layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+shapes = (
+{
+alignment = -1;
+ref = E;
+},
+{
+pos = (598,178);
+ref = hookabovecomb;
+}
+);
+width = 556;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (303,0);
+},
+{
+name = top;
+pos = (301,995);
+}
+);
+layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+shapes = (
+{
+alignment = -1;
+ref = E;
+},
+{
+pos = (594,168);
+ref = hookabovecomb;
+}
+);
+width = 560;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (295,0);
+},
+{
+name = top;
+pos = (289,1001);
+}
+);
+layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
+shapes = (
+{
+alignment = -1;
+ref = E;
+},
+{
+pos = (612,161);
+ref = hookabovecomb;
+}
+);
+width = 549;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (201,0);
+},
+{
+name = top;
+pos = (216,982);
+}
+);
+layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
+shapes = (
+{
+alignment = -1;
+ref = E;
+},
+{
+pos = (503,187);
+ref = hookabovecomb;
+}
+);
+width = 381;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (221,0);
+},
+{
+name = top;
+pos = (216,988);
+}
+);
+layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+shapes = (
+{
+alignment = -1;
+ref = E;
+},
+{
+pos = (500,177);
+ref = hookabovecomb;
+}
+);
+width = 402;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (228,0);
+},
+{
+name = top;
+pos = (224,996);
+}
+);
+layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+shapes = (
+{
+alignment = -1;
+ref = E;
+},
+{
+pos = (491,167);
+ref = hookabovecomb;
+}
+);
+width = 427;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (233,0);
+},
+{
+name = top;
+pos = (229,1001);
+}
+);
+layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
+shapes = (
+{
+alignment = -1;
+ref = E;
+},
+{
+pos = (486,161);
+ref = hookabovecomb;
+}
+);
+width = 443;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 7866;
+}

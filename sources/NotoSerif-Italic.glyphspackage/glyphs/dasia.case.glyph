@@ -1,0 +1,191 @@
+{
+glyphname = dasia.case;
+layers = (
+{
+anchors = (
+{
+name = _topleft;
+pos = (254,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (202,563);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+pos = (-16,-75);
+ref = dasia;
+}
+);
+width = 193;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (278,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (226,563);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+pos = (-15,-70);
+ref = dasia;
+}
+);
+width = 229;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (293,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (261,563);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+pos = (-16,-76);
+ref = dasia;
+}
+);
+width = 274;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (311,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (279,563);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+pos = (-20,-95);
+ref = dasia;
+}
+);
+width = 299;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (205,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (173,563);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+pos = (-16,-74);
+ref = dasia;
+}
+);
+width = 157;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (234,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (202,563);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+pos = (-16,-76);
+ref = dasia;
+}
+);
+width = 206;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (250,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (218,563);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+pos = (-17,-80);
+ref = dasia;
+}
+);
+width = 226;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (291,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (259,563);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+pos = (-19,-93);
+ref = dasia;
+}
+);
+width = 272;
+}
+);
+metricLeft = "=|psili";
+metricRight = "=|psili";
+}
