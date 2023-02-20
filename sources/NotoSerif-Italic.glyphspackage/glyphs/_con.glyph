@@ -1,6 +1,6 @@
 {
 category = Letter;
-glyphname = con;
+glyphname = _con;
 layers = (
 {
 anchors = (
