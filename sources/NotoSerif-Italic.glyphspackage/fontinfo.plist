@@ -5091,7 +5091,7 @@ pos = 571;
 pos = 12;
 }
 );
-name = Light;
+name = "Light Italic";
 stemValues = (
 25,
 0,
@@ -5182,7 +5182,7 @@ pos = 571;
 pos = 12;
 }
 );
-name = Regular;
+name = Italic;
 stemValues = (
 50,
 64,
@@ -5278,7 +5278,7 @@ pos = 571;
 pos = 12;
 }
 );
-name = SemiBold;
+name = "SemiBold Italic";
 stemValues = (
 61,
 85,
@@ -5374,7 +5374,7 @@ pos = 571;
 pos = 12;
 }
 );
-name = Bold;
+name = "Bold Italic";
 stemValues = (
 69,
 100,
@@ -5470,7 +5470,7 @@ pos = 571;
 pos = 12;
 }
 );
-name = "Light Condensed";
+name = "Light Condensed Italic";
 stemValues = (
 25,
 0,
@@ -5566,7 +5566,7 @@ pos = 571;
 pos = 12;
 }
 );
-name = Condensed;
+name = "Condensed Italic";
 stemValues = (
 49,
 61,
@@ -5662,7 +5662,7 @@ pos = 571;
 pos = 12;
 }
 );
-name = "SemiBold Condensed";
+name = "SemiBold Condensed Italic";
 stemValues = (
 57,
 77,
@@ -5758,7 +5758,7 @@ pos = 571;
 pos = 12;
 }
 );
-name = "Bold Condensed";
+name = "Bold Condensed Italic";
 stemValues = (
 64,
 90,
@@ -5905,6 +5905,8 @@ value = "536";
 instanceInterpolations = {
 UUID0 = 1;
 };
+isItalic = 1;
+linkStyle = Regular;
 name = Italic;
 },
 {
@@ -6006,6 +6008,9 @@ value = "536";
 instanceInterpolations = {
 "0748FCBA-26BB-4096-A322-99C7EC440251" = 1;
 };
+isBold = 1;
+isItalic = 1;
+linkStyle = Regular;
 name = "Bold Italic";
 weightClass = 700;
 },
