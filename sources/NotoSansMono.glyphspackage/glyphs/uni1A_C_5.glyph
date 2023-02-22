@@ -5,6 +5,10 @@ layers = (
 {
 anchors = (
 {
+name = _top;
+pos = (0,528);
+},
+{
 name = top;
 pos = (0,835);
 }
@@ -70,6 +74,10 @@ width = 0;
 },
 {
 anchors = (
+{
+name = _top;
+pos = (0,536);
+},
 {
 name = top;
 pos = (0,835);
@@ -137,6 +145,10 @@ width = 0;
 {
 anchors = (
 {
+name = _top;
+pos = (0,546);
+},
+{
 name = top;
 pos = (0,835);
 }
@@ -202,6 +214,10 @@ width = 0;
 },
 {
 anchors = (
+{
+name = _top;
+pos = (0,553);
+},
 {
 name = top;
 pos = (0,835);
@@ -269,6 +285,10 @@ width = 0;
 {
 anchors = (
 {
+name = _top;
+pos = (0,528);
+},
+{
 name = top;
 pos = (0,835);
 }
@@ -334,6 +354,10 @@ width = 0;
 },
 {
 anchors = (
+{
+name = _top;
+pos = (0,536);
+},
 {
 name = top;
 pos = (0,835);
@@ -401,6 +425,10 @@ width = 0;
 {
 anchors = (
 {
+name = _top;
+pos = (0,546);
+},
+{
 name = top;
 pos = (0,835);
 }
@@ -466,6 +494,10 @@ width = 0;
 },
 {
 anchors = (
+{
+name = _top;
+pos = (0,553);
+},
 {
 name = top;
 pos = (0,835);
