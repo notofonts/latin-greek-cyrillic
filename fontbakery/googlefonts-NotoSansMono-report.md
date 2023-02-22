@@ -1476,9 +1476,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'Bbarredmod' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f5989cdb2d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f5989cdd210> 
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'Bbarredmod' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fd54f0f0c50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fd54f0f2910> 
 
-	- Contour 0 start point differs in glyph 'uni2055' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f5989cdb2d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f5989cdd210> [code: interpolation-issues]
+	- Contour 0 start point differs in glyph 'uni2055' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fd54f0f0c50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fd54f0f2910> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 

@@ -111,7 +111,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- lvocalicvowelsignleftdeva 
 
-	- 23 more.
+	- 24 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -317,7 +317,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- llvocalicvowelsignnuktaleftdeva 
 
-	- 73 more.
+	- 74 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -498,7 +498,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- lvocalicvowelsignleftdeva 
 
-	- 23 more.
+	- 24 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -700,7 +700,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- llvocalicvowelsignnuktaleftdeva 
 
-	- 73 more.
+	- 74 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -881,7 +881,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- lvocalicvowelsignleftdeva 
 
-	- 23 more.
+	- 24 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1089,7 +1089,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- llvocalicvowelsignnuktaleftdeva 
 
-	- 73 more.
+	- 74 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1257,7 +1257,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- lvocalicvowelsignleftdeva 
 
-	- 23 more.
+	- 24 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1453,7 +1453,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- llvocalicvowelsignnuktaleftdeva 
 
-	- 73 more.
+	- 74 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1633,7 +1633,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- llvocalicvowelsignnuktaleftdeva 
 
-	- 73 more.
+	- 74 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1807,7 +1807,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- lvocalicvowelsignleftdeva 
 
-	- 23 more.
+	- 24 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1987,7 +1987,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- llvocalicvowelsignnuktaleftdeva 
 
-	- 73 more.
+	- 74 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2164,7 +2164,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- lvocalicvowelsignleftdeva 
 
-	- 23 more.
+	- 24 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2344,7 +2344,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- llvocalicvowelsignnuktaleftdeva 
 
-	- 73 more.
+	- 74 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2520,7 +2520,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- lvocalicvowelsignleftdeva 
 
-	- 23 more.
+	- 24 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2683,7 +2683,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- lvocalicvowelsignleftdeva 
 
-	- 23 more.
+	- 24 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2873,7 +2873,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- llvocalicvowelsignnuktaleftdeva 
 
-	- 73 more.
+	- 74 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -3039,7 +3039,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- lvocalicvowelsignleftdeva 
 
-	- 23 more.
+	- 24 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -3246,7 +3246,7 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- llvocalicvowelsignnuktaleftdeva 
 
-	- 73 more.
+	- 74 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -3459,30 +3459,30 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- llvocalicvowelsignnuktaleftdeva 
 
-	- 73 more.
+	- 74 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3cd9550> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3b40b90>
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe912b10>
 
-	- Contour 0 start point differs in glyph 'theta' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3cd9550> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3b40790>
+	- Contour 0 start point differs in glyph 'theta' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe912710>
 
-	- Contour 1 start point differs in glyph 'omegaroundcy' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3cd9550> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3b40b90>
+	- Contour 1 start point differs in glyph 'omegaroundcy' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe912b10>
 
-	- Contour 0 start point differs in glyph 'uni1DBF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3cd9550> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3b40790>
+	- Contour 0 start point differs in glyph 'uni1DBF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe912710>
 
-	- Contour 2 start point differs in glyph 'zero.slash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3cd9550> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3b40b90>
+	- Contour 2 start point differs in glyph 'zero.slash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe912b10>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3cd9550> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3cd9a10>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3c50>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3cd9550> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3b40a10>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe912990>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3cd9550> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3b40a50> 
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe9129d0> 
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3cd9550> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73f3b40b90> [code: interpolation-issues]
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe912b10> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -3589,14 +3589,14 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 	- lvocalicvowelsignleftdeva 
 
-	- 23 more.
+	- 24 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni0249' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73eefc0150> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f73eee16a50> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni0249' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cf5fac990> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfd205190> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
