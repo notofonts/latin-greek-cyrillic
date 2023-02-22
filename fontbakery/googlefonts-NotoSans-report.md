@@ -1533,7 +1533,7 @@ minus
 
 	* uni0136 (U+0136): L<<158.0,333.0>--<216.0,388.0>> -> L<<216.0,388.0>--<582.0,714.0>> 
 
-	* 24 more.
+	* 23 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2067,7 +2067,7 @@ minus
 
 	* uni0198 (U+0198): L<<176.0,346.0>--<236.0,405.0>> -> L<<236.0,405.0>--<523.0,670.0>> 
 
-	* 23 more.
+	* 21 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -3326,7 +3326,7 @@ minus
 
 	* uni0198 (U+0198): L<<145.0,324.0>--<202.0,376.0>> -> L<<202.0,376.0>--<560.0,686.0>> 
 
-	* 25 more.
+	* 24 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -3466,23 +3466,23 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe912b10>
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b86636c50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b8a2b3250>
 
-	- Contour 0 start point differs in glyph 'theta' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe912710>
+	- Contour 0 start point differs in glyph 'theta' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b86636c50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b8a2b0050>
 
-	- Contour 1 start point differs in glyph 'omegaroundcy' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe912b10>
+	- Contour 1 start point differs in glyph 'omegaroundcy' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b86636c50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b8a2b3250>
 
-	- Contour 0 start point differs in glyph 'uni1DBF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe912710>
+	- Contour 0 start point differs in glyph 'uni1DBF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b86636c50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b8a2b0050>
 
-	- Contour 2 start point differs in glyph 'zero.slash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe912b10>
+	- Contour 2 start point differs in glyph 'zero.slash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b86636c50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b8a2b3250>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3c50>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b86636c50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b82ba1890>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe912990>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b86636c50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b8a2b3390>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe9129d0> 
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b86636c50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b8a2b1290> 
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1d011f3510> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfe912b10> [code: interpolation-issues]
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b86636c50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b8a2b3250> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -3596,7 +3596,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni0249' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cf5fac990> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1cfd205190> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni0249' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b7d163550> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3b7cfbde10> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
