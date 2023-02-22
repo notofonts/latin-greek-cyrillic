@@ -1,0 +1,133 @@
+{
+category = Punctuation;
+glyphname = doublequestion;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = question;
+},
+{
+alignment = -1;
+pos = (477,0);
+ref = question;
+}
+);
+width = 977;
+},
+{
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+ref = question;
+},
+{
+alignment = -1;
+pos = (530,0);
+ref = question;
+}
+);
+width = 1065;
+},
+{
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+metricLeft = "=question";
+metricRight = "=question";
+shapes = (
+{
+alignment = -1;
+ref = question;
+},
+{
+alignment = -1;
+pos = (571,0);
+ref = question;
+}
+);
+width = 1132;
+},
+{
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+ref = question;
+},
+{
+alignment = -1;
+pos = (473,0);
+ref = question;
+}
+);
+width = 936;
+},
+{
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+ref = question;
+},
+{
+alignment = -1;
+pos = (326,0);
+ref = question;
+}
+);
+width = 681;
+},
+{
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+ref = question;
+},
+{
+alignment = -1;
+pos = (410,0);
+ref = question;
+}
+);
+width = 847;
+},
+{
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+ref = question;
+},
+{
+alignment = -1;
+pos = (393,0);
+ref = question;
+}
+);
+width = 798;
+},
+{
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+ref = question;
+},
+{
+alignment = -1;
+pos = (438,0);
+ref = question;
+}
+);
+width = 876;
+}
+);
+metricLeft = question;
+metricRight = question;
+script = "";
+subCategory = Other;
+unicode = 8263;
+}

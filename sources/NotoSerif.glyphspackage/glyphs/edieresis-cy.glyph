@@ -1,0 +1,197 @@
+{
+category = Letter;
+glyphname = "edieresis-cy";
+kernLeft = "ze-cy";
+kernRight = "ie-cy";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (223,0);
+},
+{
+name = top;
+pos = (223,738);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+pos = (-80,0);
+ref = dieresis;
+},
+{
+alignment = -1;
+ref = "ereversed-cy";
+}
+);
+width = 445;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (246,0);
+},
+{
+name = top;
+pos = (246,744);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+pos = (-50,0);
+ref = dieresis;
+},
+{
+ref = "ereversed-cy";
+}
+);
+width = 491;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (260,0);
+},
+{
+name = top;
+pos = (260,750);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+pos = (-50,0);
+ref = dieresis;
+},
+{
+ref = "ereversed-cy";
+}
+);
+width = 519;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (270,0);
+},
+{
+name = top;
+pos = (270,762);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+pos = (-50,0);
+ref = dieresis;
+},
+{
+ref = "ereversed-cy";
+}
+);
+width = 540;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (173,0);
+},
+{
+name = top;
+pos = (173,736);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+pos = (-69,0);
+ref = dieresis;
+},
+{
+ref = "ereversed-cy";
+}
+);
+width = 346;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (196,0);
+},
+{
+name = top;
+pos = (196,745);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+pos = (-40,0);
+ref = dieresis;
+},
+{
+ref = "ereversed-cy";
+}
+);
+width = 392;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (212,0);
+},
+{
+name = top;
+pos = (212,752);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+pos = (-41,0);
+ref = dieresis;
+},
+{
+ref = "ereversed-cy";
+}
+);
+width = 425;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (225,0);
+},
+{
+name = top;
+pos = (225,758);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+pos = (-42,0);
+ref = dieresis;
+},
+{
+ref = "ereversed-cy";
+}
+);
+width = 450;
+}
+);
+script = cyrillic;
+subCategory = Lowercase;
+unicode = 1261;
+}

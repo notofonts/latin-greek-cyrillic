@@ -1,0 +1,121 @@
+{
+glyphname = Epsilondasiaoxia;
+kernLeft = GRK_Epsilontonos;
+kernRight = GRK_Epsilon;
+layers = (
+{
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+pos = (201,0);
+ref = Epsilon;
+},
+{
+pos = (-62,0);
+ref = dasiaoxia.case;
+}
+);
+width = 786;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (301,0);
+ref = Epsilon;
+},
+{
+pos = (-66,0);
+ref = dasiaoxia.case;
+}
+);
+width = 924;
+},
+{
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+pos = (348,0);
+ref = Epsilon;
+},
+{
+pos = (-80,0);
+ref = dasiaoxia.case;
+}
+);
+width = 1001;
+},
+{
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+pos = (389,0);
+ref = Epsilon;
+},
+{
+pos = (-90,0);
+ref = dasiaoxia.case;
+}
+);
+width = 1064;
+},
+{
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+pos = (208,0);
+ref = Epsilon;
+},
+{
+pos = (-49,0);
+ref = dasiaoxia.case;
+}
+);
+width = 657;
+},
+{
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+pos = (284,0);
+ref = Epsilon;
+},
+{
+pos = (-61,0);
+ref = dasiaoxia.case;
+}
+);
+width = 783;
+},
+{
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+pos = (317,0);
+ref = Epsilon;
+},
+{
+pos = (-70,0);
+ref = dasiaoxia.case;
+}
+);
+width = 852;
+},
+{
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+pos = (371,0);
+ref = Epsilon;
+},
+{
+pos = (-78,0);
+ref = dasiaoxia.case;
+}
+);
+width = 934;
+}
+);
+metricRight = "=Epsilon";
+unicode = 7965;
+}

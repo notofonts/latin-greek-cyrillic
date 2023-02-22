@@ -1,0 +1,197 @@
+{
+category = Letter;
+glyphname = "Zhebreve-cy";
+kernLeft = "Zhe-cy";
+kernRight = "Zhe-cy";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (451,0);
+},
+{
+name = top;
+pos = (451,880);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = "Zhe-cy";
+},
+{
+alignment = -1;
+pos = (160,165);
+ref = cyrillicbreve;
+}
+);
+width = 901;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (490,0);
+},
+{
+name = top;
+pos = (490,906);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = "Zhe-cy";
+},
+{
+pos = (201,165);
+ref = cyrillicbreve;
+}
+);
+width = 979;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (520,0);
+},
+{
+name = top;
+pos = (520,927);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = "Zhe-cy";
+},
+{
+pos = (235,165);
+ref = cyrillicbreve;
+}
+);
+width = 1040;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (543,0);
+},
+{
+name = top;
+pos = (543,932);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = "Zhe-cy";
+},
+{
+pos = (260,165);
+ref = cyrillicbreve;
+}
+);
+width = 1085;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (348,0);
+},
+{
+name = top;
+pos = (348,884);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = "Zhe-cy";
+},
+{
+pos = (126,165);
+ref = cyrillicbreve;
+}
+);
+width = 695;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (394,0);
+},
+{
+name = top;
+pos = (394,901);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = "Zhe-cy";
+},
+{
+pos = (166,165);
+ref = cyrillicbreve;
+}
+);
+width = 787;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (427,0);
+},
+{
+name = top;
+pos = (427,914);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = "Zhe-cy";
+},
+{
+pos = (195,165);
+ref = cyrillicbreve;
+}
+);
+width = 854;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (453,0);
+},
+{
+name = top;
+pos = (453,924);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = "Zhe-cy";
+},
+{
+pos = (217,165);
+ref = cyrillicbreve;
+}
+);
+width = 905;
+}
+);
+script = cyrillic;
+subCategory = Uppercase;
+unicode = 1217;
+}

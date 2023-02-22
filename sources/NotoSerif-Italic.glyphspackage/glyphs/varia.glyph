@@ -1,0 +1,203 @@
+{
+category = Mark;
+glyphname = varia;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (224,536);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(244,611,l),
+(197,787,ls),
+(190,811,o),
+(169,808,o),
+(152,796,c),
+(152,784,l),
+(231,605,l)
+);
+}
+);
+width = 211;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (271,536);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(294,620,l),
+(254,776,ls),
+(241,827,o),
+(186,810,o),
+(148,776,c),
+(148,764,l),
+(259,606,l)
+);
+}
+);
+width = 259;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (270,536);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+closed = 1;
+nodes = (
+(311,619,l),
+(270,774,ls),
+(255,829,o),
+(202,818,o),
+(148,774,c),
+(148,762,l),
+(261,603,l)
+);
+}
+);
+width = 276;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (294,536);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+closed = 1;
+nodes = (
+(338,623,l),
+(310,772,ls),
+(294,856,o),
+(204,836,o),
+(149,779,c),
+(149,767,l),
+(268,600,l)
+);
+}
+);
+width = 303;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (221,536);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(234,611,l),
+(197,787,ls),
+(192,811,o),
+(169,808,o),
+(152,796,c),
+(152,784,l),
+(221,605,l)
+);
+}
+);
+width = 201;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (249,536);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+closed = 1;
+nodes = (
+(279,620,l),
+(249,776,ls),
+(239,828,o),
+(181,810,o),
+(148,776,c),
+(148,764,l),
+(249,606,l)
+);
+}
+);
+width = 244;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (265,536);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+closed = 1;
+nodes = (
+(296,619,l),
+(265,774,ls),
+(254,830,o),
+(197,818,o),
+(148,774,c),
+(148,762,l),
+(251,603,l)
+);
+}
+);
+width = 261;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (277,536);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(306,623,l),
+(304,772,ls),
+(303,857,o),
+(205,836,o),
+(149,779,c),
+(148,767,l),
+(239,600,l)
+);
+}
+);
+width = 271;
+}
+);
+metricLeft = "=|tonos";
+metricRight = "=|tonos";
+script = greek;
+subCategory = Spacing;
+unicode = 8175;
+}

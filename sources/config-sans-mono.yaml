@@ -2,4 +2,4 @@ buildVariable: true
 familyName: Noto Sans Mono
 googleFonts: true
 sources:
-- NotoSansMono.glyphs
+- NotoSansMono.glyphspackage

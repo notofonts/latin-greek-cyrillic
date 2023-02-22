@@ -1,0 +1,208 @@
+{
+category = Mark;
+glyphname = macroncomb.sc;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (250,571);
+},
+{
+name = top;
+pos = (250,702);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(395,609,l),
+(395,702,l),
+(105,702,l),
+(105,609,l)
+);
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (250,571);
+},
+{
+name = top;
+pos = (250,685);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(395,626,l),
+(395,685,l),
+(105,685,l),
+(105,626,l)
+);
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (250,571);
+},
+{
+name = top;
+pos = (250,695);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+closed = 1;
+nodes = (
+(395,616,l),
+(395,695,l),
+(105,695,l),
+(105,616,l)
+);
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (209,536);
+},
+{
+name = top;
+pos = (209,695);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(330,612,l),
+(330,695,l),
+(88,695,l),
+(88,612,l)
+);
+}
+);
+width = 417;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (190,536);
+},
+{
+name = top;
+pos = (190,657);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+closed = 1;
+nodes = (
+(282,629,l),
+(282,657,l),
+(97,657,l),
+(97,629,l)
+);
+}
+);
+width = 379;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (250,536);
+},
+{
+name = top;
+pos = (250,643);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+closed = 1;
+nodes = (
+(365,618,l),
+(365,643,l),
+(135,643,l),
+(135,618,l)
+);
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (198,536);
+},
+{
+name = top;
+pos = (198,676);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(303,619,l),
+(303,676,l),
+(93,676,l),
+(93,619,l)
+);
+}
+);
+width = 396;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (204,536);
+},
+{
+name = top;
+pos = (204,687);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(318,615,l),
+(318,687,l),
+(90,687,l),
+(90,615,l)
+);
+}
+);
+width = 408;
+}
+);
+script = "";
+subCategory = Nonspacing;
+}

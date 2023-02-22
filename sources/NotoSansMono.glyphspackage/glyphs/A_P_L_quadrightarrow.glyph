@@ -1,0 +1,180 @@
+{
+category = Symbol;
+glyphname = APLquadrightarrow;
+layers = (
+{
+layerId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(517,357,l),
+(401,461,l),
+(415,370,l),
+(64,370,l),
+(64,344,l),
+(415,344,l),
+(401,252,l)
+);
+},
+{
+ref = APLquad;
+}
+);
+width = 600;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(495,357,l),
+(340,499,l),
+(357,393,l),
+(86,393,l),
+(86,322,l),
+(357,322,l),
+(340,215,l)
+);
+},
+{
+ref = APLquad;
+}
+);
+width = 600;
+},
+{
+layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(469,357,l),
+(302,507,l),
+(320,403,l),
+(81,403,l),
+(81,312,l),
+(320,312,l),
+(302,207,l)
+);
+},
+{
+ref = APLquad;
+}
+);
+width = 600;
+},
+{
+layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
+shapes = (
+{
+closed = 1;
+nodes = (
+(453,357,l),
+(277,512,l),
+(297,409,l),
+(78,409,l),
+(78,305,l),
+(297,305,l),
+(277,202,l)
+);
+},
+{
+alignment = -1;
+ref = APLquad;
+}
+);
+width = 600;
+},
+{
+layerId = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(418,357,l),
+(319,461,l),
+(331,370,l),
+(45,370,l),
+(45,344,l),
+(331,344,l),
+(319,252,l)
+);
+},
+{
+ref = APLquad;
+}
+);
+width = 500;
+},
+{
+layerId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(406,357,l),
+(275,498,l),
+(289,392,l),
+(70,392,l),
+(70,323,l),
+(289,323,l),
+(275,216,l)
+);
+},
+{
+pos = (1,0);
+ref = APLquad;
+}
+);
+width = 500;
+},
+{
+layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(382,357,l),
+(240,505,l),
+(255,401,l),
+(66,401,l),
+(66,313,l),
+(255,313,l),
+(240,209,l)
+);
+},
+{
+ref = APLquad;
+}
+);
+width = 500;
+},
+{
+layerId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
+shapes = (
+{
+closed = 1;
+nodes = (
+(367,357,l),
+(217,510,l),
+(234,407,l),
+(63,407,l),
+(63,307,l),
+(234,307,l),
+(217,204,l)
+);
+},
+{
+alignment = -1;
+ref = APLquad;
+}
+);
+width = 500;
+}
+);
+script = "";
+subCategory = Other;
+unicode = 9032;
+}

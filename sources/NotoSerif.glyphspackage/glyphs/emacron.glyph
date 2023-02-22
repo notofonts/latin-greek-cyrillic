@@ -1,0 +1,197 @@
+{
+category = Letter;
+glyphname = emacron;
+kernLeft = o;
+kernRight = e;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (299,0);
+},
+{
+name = top;
+pos = (299,692);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (140,0);
+ref = macronmod;
+}
+);
+width = 598;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (268,0);
+},
+{
+name = top;
+pos = (268,675);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = e;
+},
+{
+pos = (88,0);
+ref = macronmod;
+}
+);
+width = 535;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (286,0);
+},
+{
+name = top;
+pos = (286,685);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (118,0);
+ref = macronmod;
+}
+);
+width = 571;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (250,0);
+},
+{
+name = top;
+pos = (250,687);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (110,0);
+ref = macronmod;
+}
+);
+width = 499;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (190,0);
+},
+{
+name = top;
+pos = (190,660);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (40,0);
+ref = macronmod;
+}
+);
+width = 379;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (245,0);
+},
+{
+name = top;
+pos = (245,663);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = e;
+},
+{
+alignment = -1;
+pos = (74,0);
+ref = macronmod;
+}
+);
+width = 489;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (216,0);
+},
+{
+name = top;
+pos = (216,674);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (71,0);
+ref = macronmod;
+}
+);
+width = 431;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (235,0);
+},
+{
+name = top;
+pos = (235,681);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (93,0);
+ref = macronmod;
+}
+);
+width = 469;
+}
+);
+script = latin;
+subCategory = Lowercase;
+unicode = 275;
+}

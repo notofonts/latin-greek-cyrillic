@@ -1,0 +1,90 @@
+{
+category = Letter;
+glyphname = "payerok-cy";
+layers = (
+{
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+pos = (134,0);
+ref = "payerokcomb-cy";
+}
+);
+width = 267;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (153,0);
+ref = "payerokcomb-cy";
+}
+);
+width = 306;
+},
+{
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+pos = (160,0);
+ref = "payerokcomb-cy";
+}
+);
+width = 320;
+},
+{
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+pos = (165,0);
+ref = "payerokcomb-cy";
+}
+);
+width = 330;
+},
+{
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+pos = (114,0);
+ref = "payerokcomb-cy";
+}
+);
+width = 228;
+},
+{
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+pos = (129,0);
+ref = "payerokcomb-cy";
+}
+);
+width = 259;
+},
+{
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+pos = (137,0);
+ref = "payerokcomb-cy";
+}
+);
+width = 274;
+},
+{
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+pos = (143,0);
+ref = "payerokcomb-cy";
+}
+);
+width = 286;
+}
+);
+script = cyrillic;
+subCategory = Modifier;
+unicode = 42623;
+}

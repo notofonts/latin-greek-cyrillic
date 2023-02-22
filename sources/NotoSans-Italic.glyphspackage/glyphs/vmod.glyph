@@ -1,0 +1,185 @@
+{
+category = Letter;
+glyphname = vmod;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (139,287);
+},
+{
+name = top;
+pos = (206,604);
+}
+);
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = v;
+scale = (0.65,0.6);
+}
+);
+width = 267;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (156,287);
+},
+{
+name = top;
+pos = (224,609);
+}
+);
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = v;
+scale = (0.65,0.6);
+}
+);
+width = 304;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (170,287);
+},
+{
+name = top;
+pos = (240,615);
+}
+);
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = v;
+scale = (0.65,0.6);
+}
+);
+width = 333;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (179,287);
+},
+{
+name = top;
+pos = (250,619);
+}
+);
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = v;
+scale = (0.65,0.6);
+}
+);
+width = 354;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (93,287);
+},
+{
+name = top;
+pos = (160,603);
+}
+);
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = v;
+scale = (0.65,0.6);
+}
+);
+width = 176;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (113,287);
+},
+{
+name = top;
+pos = (181,609);
+}
+);
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = v;
+scale = (0.65,0.6);
+}
+);
+width = 218;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (133,287);
+},
+{
+name = top;
+pos = (203,614);
+}
+);
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = v;
+scale = (0.65,0.6);
+}
+);
+width = 259;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (151,287);
+},
+{
+name = top;
+pos = (222,619);
+}
+);
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = v;
+scale = (0.65,0.6);
+}
+);
+width = 297;
+}
+);
+script = "";
+subCategory = Modifier;
+unicode = 7515;
+}

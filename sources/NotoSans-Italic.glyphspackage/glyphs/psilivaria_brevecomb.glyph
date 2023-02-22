@@ -1,0 +1,184 @@
+{
+category = Mark;
+color = 5;
+glyphname = psilivaria_brevecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (244,528);
+}
+);
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+pos = (24,0);
+ref = breve;
+},
+{
+alignment = -1;
+pos = (27,130);
+ref = psilivaria;
+}
+);
+width = 347;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (286,536);
+}
+);
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+pos = (45,0);
+ref = breve;
+},
+{
+alignment = -1;
+pos = (33,157);
+ref = psilivaria;
+}
+);
+width = 431;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (349,546);
+}
+);
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+pos = (58,101);
+ref = breve;
+scale = (1,0.8331);
+},
+{
+alignment = -1;
+pos = (35,168);
+ref = psilivaria;
+}
+);
+width = 515;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (381,553);
+}
+);
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+pos = (67,138);
+ref = breve;
+scale = (1,0.7723);
+},
+{
+alignment = -1;
+pos = (36,170);
+ref = psilivaria;
+}
+);
+width = 549;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (254,526);
+}
+);
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+pos = (65,0);
+ref = breve;
+},
+{
+alignment = -1;
+pos = (28,128);
+ref = psilivaria;
+}
+);
+width = 351;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (277,536);
+}
+);
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+pos = (63,53);
+ref = breve;
+scale = (1,0.8782);
+},
+{
+alignment = -1;
+pos = (25,121);
+ref = psilivaria;
+}
+);
+width = 418;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (306,545);
+}
+);
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+pos = (70,88);
+ref = breve;
+scale = (1,0.8049);
+},
+{
+alignment = -1;
+pos = (27,130);
+ref = psilivaria;
+}
+);
+width = 497;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (354,553);
+}
+);
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+pos = (85,94);
+ref = breve;
+scale = (1,0.8049);
+},
+{
+alignment = -1;
+pos = (32,153);
+ref = psilivaria;
+}
+);
+width = 523;
+}
+);
+metricLeft = "=psilivaria";
+metricRight = "=psilivaria";
+script = greek;
+subCategory = Spacing;
+}

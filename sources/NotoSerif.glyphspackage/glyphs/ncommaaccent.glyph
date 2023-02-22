@@ -1,0 +1,197 @@
+{
+category = Letter;
+glyphname = ncommaaccent;
+kernLeft = n;
+kernRight = n;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (342,-221);
+},
+{
+name = top;
+pos = (342,536);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = n;
+},
+{
+pos = (325,0);
+ref = commaaccentcomb;
+}
+);
+width = 683;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (323,-221);
+},
+{
+name = top;
+pos = (323,536);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = n;
+},
+{
+pos = (325,0);
+ref = commaaccentcomb;
+}
+);
+width = 645;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (334,-221);
+},
+{
+name = top;
+pos = (334,536);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = n;
+},
+{
+pos = (325,0);
+ref = commaaccentcomb;
+}
+);
+width = 667;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (285,-221);
+},
+{
+name = top;
+pos = (285,536);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = n;
+},
+{
+pos = (272,0);
+ref = commaaccentcomb;
+}
+);
+width = 570;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (237,-221);
+},
+{
+name = top;
+pos = (237,536);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = n;
+},
+{
+pos = (247,0);
+ref = commaaccentcomb;
+}
+);
+width = 473;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (309,-221);
+},
+{
+name = top;
+pos = (309,536);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = n;
+},
+{
+alignment = -1;
+pos = (325,0);
+ref = commaaccentcomb;
+}
+);
+width = 617;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (258,-221);
+},
+{
+name = top;
+pos = (258,536);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = n;
+},
+{
+pos = (258,0);
+ref = commaaccentcomb;
+}
+);
+width = 515;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (273,-221);
+},
+{
+name = top;
+pos = (273,536);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = n;
+},
+{
+pos = (266,0);
+ref = commaaccentcomb;
+}
+);
+width = 546;
+}
+);
+script = latin;
+subCategory = Lowercase;
+unicode = 326;
+}

@@ -1,0 +1,196 @@
+{
+category = Letter;
+glyphname = aemacron;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (392,0);
+},
+{
+name = top;
+pos = (392,663);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = ae;
+},
+{
+alignment = -1;
+pos = (217,0);
+ref = macronmod;
+}
+);
+width = 783;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (421,0);
+},
+{
+name = top;
+pos = (421,685);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = ae;
+},
+{
+pos = (235,10);
+ref = macronmod;
+}
+);
+width = 841;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (438,0);
+},
+{
+name = top;
+pos = (438,685);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = ae;
+},
+{
+pos = (283,0);
+ref = macronmod;
+}
+);
+width = 875;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (450,0);
+},
+{
+name = top;
+pos = (450,685);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = ae;
+},
+{
+pos = (318,-7);
+ref = macronmod;
+}
+);
+width = 900;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (305,0);
+},
+{
+name = top;
+pos = (305,681);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = ae;
+},
+{
+pos = (153,21);
+ref = macronmod;
+}
+);
+width = 609;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (336,0);
+},
+{
+name = top;
+pos = (336,685);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = ae;
+},
+{
+pos = (189,11);
+ref = macronmod;
+}
+);
+width = 671;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (359,0);
+},
+{
+name = top;
+pos = (359,685);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = ae;
+},
+{
+pos = (228,4);
+ref = macronmod;
+}
+);
+width = 716;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (376,0);
+},
+{
+name = top;
+pos = (376,685);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = ae;
+},
+{
+pos = (259,-2);
+ref = macronmod;
+}
+);
+width = 751;
+}
+);
+metricWidth = ae;
+script = latin;
+subCategory = Lowercase;
+unicode = 483;
+}

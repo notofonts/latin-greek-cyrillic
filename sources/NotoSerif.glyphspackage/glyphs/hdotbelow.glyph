@@ -1,0 +1,195 @@
+{
+category = Letter;
+glyphname = hdotbelow;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (298,-139);
+},
+{
+name = top;
+pos = (298,760);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = h;
+},
+{
+alignment = -1;
+pos = (622,0);
+ref = dotbelowcomb;
+}
+);
+width = 595;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (318,-183);
+},
+{
+name = top;
+pos = (318,760);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = h;
+},
+{
+pos = (626,0);
+ref = dotbelowcomb;
+}
+);
+width = 635;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (334,-203);
+},
+{
+name = top;
+pos = (334,760);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (629,0);
+ref = dotbelowcomb;
+}
+);
+width = 667;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (346,-218);
+},
+{
+name = top;
+pos = (346,760);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (631,0);
+ref = dotbelowcomb;
+}
+);
+width = 691;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (229,-148);
+},
+{
+name = top;
+pos = (229,760);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (473,0);
+ref = dotbelowcomb;
+}
+);
+width = 457;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (254,-180);
+},
+{
+name = top;
+pos = (254,760);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (496,0);
+ref = dotbelowcomb;
+}
+);
+width = 509;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (273,-196);
+},
+{
+name = top;
+pos = (273,760);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (512.99,0);
+ref = dotbelowcomb;
+}
+);
+width = 547;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (288,-208);
+},
+{
+name = top;
+pos = (288,760);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (526,0);
+ref = dotbelowcomb;
+}
+);
+width = 576;
+}
+);
+script = latin;
+subCategory = Lowercase;
+unicode = 7717;
+}

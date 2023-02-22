@@ -1,0 +1,154 @@
+{
+category = Punctuation;
+glyphname = paragraphus;
+layers = (
+{
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(464,689,l),
+(451,705,l),
+(134,358,l),
+(147,343,l)
+);
+},
+{
+ref = "Ge-cy";
+}
+);
+width = 479;
+},
+{
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(527,668,l),
+(490,704,l),
+(151,365,l),
+(187,328,l)
+);
+},
+{
+ref = "Ge-cy";
+}
+);
+width = 478;
+},
+{
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+closed = 1;
+nodes = (
+(533,601,l),
+(484,649,l),
+(167,332,l),
+(216,284,l)
+);
+},
+{
+ref = "Ge-cy";
+}
+);
+width = 503;
+},
+{
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+closed = 1;
+nodes = (
+(539,565,l),
+(482,621,l),
+(203,343,l),
+(261,287,l)
+);
+},
+{
+ref = "Ge-cy";
+}
+);
+width = 527;
+},
+{
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(341,696,l),
+(328,709,l),
+(115,495,l),
+(127,482,l)
+);
+},
+{
+ref = "Ge-cy";
+}
+);
+width = 270;
+},
+{
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(376,648,l),
+(339,684,l),
+(112,457,l),
+(149,420,l)
+);
+},
+{
+ref = "Ge-cy";
+}
+);
+width = 324;
+},
+{
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+closed = 1;
+nodes = (
+(417,611,l),
+(368,660,l),
+(129,421,l),
+(179,373,l)
+);
+},
+{
+ref = "Ge-cy";
+}
+);
+width = 370;
+},
+{
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(452,575,l),
+(395,631,l),
+(158,395,l),
+(216,339,l)
+);
+},
+{
+ref = "Ge-cy";
+}
+);
+width = 412;
+}
+);
+metricWidth = "Ge-cy";
+script = "";
+subCategory = Other;
+unicode = 11853;
+}

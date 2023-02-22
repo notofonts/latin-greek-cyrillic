@@ -1,0 +1,185 @@
+{
+category = Mark;
+glyphname = "ghecomb-cy";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (56,528);
+},
+{
+name = top;
+pos = (121,835);
+}
+);
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+alignment = -1;
+pos = (5,620);
+ref = "ge-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (57,536);
+},
+{
+name = top;
+pos = (121,840);
+}
+);
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+alignment = -1;
+pos = (-5,620);
+ref = "ge-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (58,546);
+},
+{
+name = top;
+pos = (122,842);
+}
+);
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+alignment = -1;
+pos = (-11,620);
+ref = "ge-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (59,553);
+},
+{
+name = top;
+pos = (122,845);
+}
+);
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+alignment = -1;
+pos = (-18,620);
+ref = "ge-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (56,526);
+},
+{
+name = top;
+pos = (120,835);
+}
+);
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+alignment = -1;
+pos = (40,620);
+ref = "ge-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (57,536);
+},
+{
+name = top;
+pos = (121,839);
+}
+);
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+alignment = -1;
+pos = (26,620);
+ref = "ge-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (58,545);
+},
+{
+name = top;
+pos = (122,842);
+}
+);
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+alignment = -1;
+pos = (15,620);
+ref = "ge-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (59,553);
+},
+{
+name = top;
+pos = (122,844);
+}
+);
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+alignment = -1;
+pos = (4,620);
+ref = "ge-cy";
+scale = (0.45,0.4);
+}
+);
+width = 0;
+}
+);
+script = "";
+subCategory = Nonspacing;
+unicode = 11746;
+}

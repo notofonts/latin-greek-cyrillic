@@ -1,0 +1,177 @@
+{
+category = Mark;
+glyphname = uptackabovecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (10,400);
+},
+{
+name = top;
+pos = (58,623);
+}
+);
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+alignment = -1;
+pos = (134,671);
+ref = uptackbelowcomb;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (19,400);
+},
+{
+name = top;
+pos = (52,623);
+}
+);
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+alignment = -1;
+pos = (138,671);
+ref = uptackbelowcomb;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (16,400);
+},
+{
+name = top;
+pos = (49,624);
+}
+);
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+alignment = -1;
+pos = (135,672);
+ref = uptackbelowcomb;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (14,400);
+},
+{
+name = top;
+pos = (48,625);
+}
+);
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+alignment = -1;
+pos = (143,673);
+ref = uptackbelowcomb;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (12,400);
+},
+{
+name = top;
+pos = (60,623);
+}
+);
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+alignment = -1;
+pos = (138,671);
+ref = uptackbelowcomb;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (14,400);
+},
+{
+name = top;
+pos = (56,623);
+}
+);
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+alignment = -1;
+pos = (138,671);
+ref = uptackbelowcomb;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (13,400);
+},
+{
+name = top;
+pos = (51,623);
+}
+);
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+alignment = -1;
+pos = (138,671);
+ref = uptackbelowcomb;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (13,400);
+},
+{
+name = top;
+pos = (46,623);
+}
+);
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+alignment = -1;
+pos = (138,671);
+ref = uptackbelowcomb;
+}
+);
+width = 0;
+}
+);
+script = "";
+subCategory = Nonspacing;
+unicode = 7669;
+}

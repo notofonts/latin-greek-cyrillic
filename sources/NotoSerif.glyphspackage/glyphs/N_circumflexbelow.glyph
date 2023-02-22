@@ -1,0 +1,195 @@
+{
+category = Letter;
+glyphname = Ncircumflexbelow;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (366,-222);
+},
+{
+name = top;
+pos = (366,714);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = N;
+},
+{
+alignment = -1;
+pos = (370,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 731;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (382,-220);
+},
+{
+name = top;
+pos = (382,714);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = N;
+},
+{
+pos = (382,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 763;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (394,-218);
+},
+{
+name = top;
+pos = (394,714);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = N;
+},
+{
+pos = (399,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 788;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (403,-217);
+},
+{
+name = top;
+pos = (403,714);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = N;
+},
+{
+pos = (412,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 806;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (280,-222);
+},
+{
+name = top;
+pos = (280,714);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = N;
+},
+{
+pos = (294,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 559;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (305,-220);
+},
+{
+name = top;
+pos = (305,714);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = N;
+},
+{
+pos = (306,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 608;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (322,-219);
+},
+{
+name = top;
+pos = (322,714);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = N;
+},
+{
+pos = (327,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 644;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (336,-218);
+},
+{
+name = top;
+pos = (336,714);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = N;
+},
+{
+pos = (343,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 672;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 7754;
+}

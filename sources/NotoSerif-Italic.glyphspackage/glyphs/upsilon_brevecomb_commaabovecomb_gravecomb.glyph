@@ -1,0 +1,114 @@
+{
+category = Letter;
+glyphname = upsilon_brevecomb_commaabovecomb_gravecomb;
+kernLeft = GRK_upsilon;
+kernRight = GRK_upsilon;
+layers = (
+{
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+ref = upsilon;
+},
+{
+pos = (37,0);
+ref = psilivaria_brevecomb;
+}
+);
+width = 513;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = upsilon;
+},
+{
+pos = (9,10);
+ref = psilivaria_brevecomb;
+}
+);
+width = 551;
+},
+{
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+ref = upsilon;
+},
+{
+pos = (7,-10);
+ref = psilivaria_brevecomb;
+}
+);
+width = 607;
+},
+{
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+ref = upsilon;
+},
+{
+pos = (33,-12);
+ref = psilivaria_brevecomb;
+}
+);
+width = 657;
+},
+{
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+ref = upsilon;
+},
+{
+pos = (23,10);
+ref = psilivaria_brevecomb;
+}
+);
+width = 435;
+},
+{
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+ref = upsilon;
+},
+{
+pos = (13,-3);
+ref = psilivaria_brevecomb;
+}
+);
+width = 506;
+},
+{
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+ref = upsilon;
+},
+{
+pos = (-10,-18);
+ref = psilivaria_brevecomb;
+}
+);
+width = 540;
+},
+{
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+ref = upsilon;
+},
+{
+pos = (3,-17);
+ref = psilivaria_brevecomb;
+}
+);
+width = 579;
+}
+);
+script = greek;
+subCategory = Lowercase;
+}

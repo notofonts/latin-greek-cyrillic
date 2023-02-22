@@ -1,0 +1,198 @@
+{
+category = Letter;
+glyphname = Racute;
+kernLeft = B;
+kernRight = R;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (373,0);
+},
+{
+name = top;
+pos = (373,931);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (237,165);
+ref = acute;
+}
+);
+width = 753;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (328,0);
+},
+{
+name = top;
+pos = (328,931);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = R;
+},
+{
+pos = (216,165);
+ref = acute;
+}
+);
+width = 656;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (354,0);
+},
+{
+name = top;
+pos = (354,931);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (228,165);
+ref = acute;
+}
+);
+width = 707;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (311,0);
+},
+{
+name = top;
+pos = (311,931);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (191,165);
+ref = acute;
+}
+);
+width = 628;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (229,0);
+},
+{
+name = top;
+pos = (229,931);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (153,165);
+ref = acute;
+}
+);
+width = 457;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (296,0);
+},
+{
+name = top;
+pos = (296,931);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = R;
+},
+{
+alignment = -1;
+pos = (210,165);
+ref = acute;
+}
+);
+width = 592;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (265,0);
+},
+{
+name = top;
+pos = (265,931);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (160,165);
+ref = acute;
+}
+);
+width = 532;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (291.01,0);
+},
+{
+name = top;
+pos = (291.01,931);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (178,165);
+ref = acute;
+}
+);
+width = 586;
+}
+);
+metricRight = R;
+script = latin;
+subCategory = Uppercase;
+unicode = 340;
+}

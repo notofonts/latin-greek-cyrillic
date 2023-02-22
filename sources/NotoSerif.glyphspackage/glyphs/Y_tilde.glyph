@@ -1,0 +1,197 @@
+{
+category = Letter;
+glyphname = Ytilde;
+kernLeft = Y;
+kernRight = Y;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (270,0);
+},
+{
+name = top;
+pos = (270,865);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = Y;
+},
+{
+alignment = -1;
+pos = (91,165);
+ref = tilde;
+}
+);
+width = 539;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (313,0);
+},
+{
+name = top;
+pos = (313,899);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (107,165);
+ref = tilde;
+}
+);
+width = 625;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (347,0);
+},
+{
+name = top;
+pos = (347,929);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (120,165);
+ref = tilde;
+}
+);
+width = 693;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (372,0);
+},
+{
+name = top;
+pos = (372,951);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (129,165);
+ref = tilde;
+}
+);
+width = 743;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (211,0);
+},
+{
+name = top;
+pos = (211,865);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (53,165);
+ref = tilde;
+}
+);
+width = 422;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (254,0);
+},
+{
+name = top;
+pos = (254,896);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (78,165);
+ref = tilde;
+}
+);
+width = 508;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (286,0);
+},
+{
+name = top;
+pos = (286,919);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (91,165);
+ref = tilde;
+}
+);
+width = 571;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (310,0);
+},
+{
+name = top;
+pos = (310,937);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (101,165);
+ref = tilde;
+}
+);
+width = 620;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 7928;
+}

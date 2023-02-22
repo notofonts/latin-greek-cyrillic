@@ -1,0 +1,185 @@
+{
+category = Letter;
+glyphname = istrokemod;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (85,281);
+},
+{
+name = top;
+pos = (181,732);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = istroke;
+scale = (0.65,0.6);
+}
+);
+width = 163;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (102,281);
+},
+{
+name = top;
+pos = (200,744);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = istroke;
+scale = (0.65,0.6);
+}
+);
+width = 198;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (118,281);
+},
+{
+name = top;
+pos = (217,749);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = istroke;
+scale = (0.65,0.6);
+}
+);
+width = 230;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (130,281);
+},
+{
+name = top;
+pos = (230,753);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = istroke;
+scale = (0.65,0.6);
+}
+);
+width = 254;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (66,282);
+},
+{
+name = top;
+pos = (162,733);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = istroke;
+scale = (0.65,0.6);
+}
+);
+width = 125;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (86,281);
+},
+{
+name = top;
+pos = (183,741);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = istroke;
+scale = (0.65,0.6);
+}
+);
+width = 165;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (99,281);
+},
+{
+name = top;
+pos = (198,747);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = istroke;
+scale = (0.65,0.6);
+}
+);
+width = 192;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (109,281);
+},
+{
+name = top;
+pos = (209,751);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = istroke;
+scale = (0.65,0.6);
+}
+);
+width = 212;
+}
+);
+script = "";
+subCategory = Modifier;
+unicode = 7588;
+}

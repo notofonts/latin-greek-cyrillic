@@ -1,0 +1,185 @@
+{
+category = Letter;
+glyphname = Jmod;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (75,183);
+},
+{
+name = top;
+pos = (75,715);
+}
+);
+layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
+shapes = (
+{
+alignment = -1;
+pos = (0,287);
+ref = J;
+scale = (0.65,0.6);
+}
+);
+width = 150;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (89,173);
+},
+{
+name = top;
+pos = (89,715);
+}
+);
+layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+shapes = (
+{
+alignment = -1;
+pos = (0,287);
+ref = J;
+scale = (0.65,0.6);
+}
+);
+width = 177;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (108,161);
+},
+{
+name = top;
+pos = (108,715);
+}
+);
+layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+shapes = (
+{
+alignment = -1;
+pos = (0,287);
+ref = J;
+scale = (0.65,0.6);
+}
+);
+width = 215;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (115,153);
+},
+{
+name = top;
+pos = (115,715);
+}
+);
+layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
+shapes = (
+{
+alignment = -1;
+pos = (0,287);
+ref = J;
+scale = (0.65,0.6);
+}
+);
+width = 229;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (61,182);
+},
+{
+name = top;
+pos = (61,715);
+}
+);
+layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
+shapes = (
+{
+alignment = -1;
+pos = (0,287);
+ref = J;
+scale = (0.65,0.6);
+}
+);
+width = 121;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (73,171);
+},
+{
+name = top;
+pos = (73,715);
+}
+);
+layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+shapes = (
+{
+alignment = -1;
+pos = (0,287);
+ref = J;
+scale = (0.65,0.6);
+}
+);
+width = 146;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (86,160);
+},
+{
+name = top;
+pos = (86,715);
+}
+);
+layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+shapes = (
+{
+alignment = -1;
+pos = (0,287);
+ref = J;
+scale = (0.65,0.6);
+}
+);
+width = 172;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (95,153);
+},
+{
+name = top;
+pos = (95,715);
+}
+);
+layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
+shapes = (
+{
+alignment = -1;
+pos = (0,287);
+ref = J;
+scale = (0.65,0.6);
+}
+);
+width = 189;
+}
+);
+script = "";
+subCategory = Modifier;
+unicode = 7478;
+}

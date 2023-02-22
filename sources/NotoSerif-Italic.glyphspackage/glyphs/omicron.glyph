@@ -1,0 +1,87 @@
+{
+category = Letter;
+glyphname = omicron;
+kernLeft = GRK_omicron;
+kernRight = GRK_omicron;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+ref = o;
+}
+);
+width = 574;
+},
+{
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+ref = o;
+}
+);
+width = 618;
+},
+{
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+ref = o;
+}
+);
+width = 650;
+},
+{
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+ref = o;
+}
+);
+width = 537;
+},
+{
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+ref = o;
+}
+);
+width = 412;
+},
+{
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+pos = (-5,0);
+ref = o;
+}
+);
+width = 507;
+},
+{
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+ref = o;
+}
+);
+width = 469;
+},
+{
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+ref = o;
+}
+);
+width = 507;
+}
+);
+metricLeft = "=o-5";
+metricRight = "=o-5";
+script = greek;
+subCategory = Lowercase;
+unicode = 959;
+}

@@ -1,0 +1,197 @@
+{
+category = Letter;
+glyphname = Imacron;
+kernLeft = B;
+kernRight = H;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (213,0);
+},
+{
+name = top;
+pos = (213,857);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (26,165);
+ref = macronmod;
+}
+);
+width = 426;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (184,0);
+},
+{
+name = top;
+pos = (184,840);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-2,165);
+ref = macronmod;
+}
+);
+width = 367;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (201,0);
+},
+{
+name = top;
+pos = (201,850);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (14,165);
+ref = macronmod;
+}
+);
+width = 401;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (178,0);
+},
+{
+name = top;
+pos = (178,852);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (15,165);
+ref = macronmod;
+}
+);
+width = 355;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (127,0);
+},
+{
+name = top;
+pos = (127,825);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-24,165);
+ref = macronmod;
+}
+);
+width = 253;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (163,0);
+},
+{
+name = top;
+pos = (163,828);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = I;
+},
+{
+alignment = -1;
+pos = (-23,165);
+ref = macronmod;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (149,0);
+},
+{
+name = top;
+pos = (149,839);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-7,165);
+ref = macronmod;
+}
+);
+width = 297;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (165,0);
+},
+{
+name = top;
+pos = (165,846);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (5,165);
+ref = macronmod;
+}
+);
+width = 330;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 298;
+}

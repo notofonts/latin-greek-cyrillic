@@ -1,0 +1,111 @@
+{
+glyphname = alphapsiliperispomeniypogegrammeni.sc;
+kernLeft = GRK_alpha.sc;
+kernRight = GRK_alpha.sc;
+layers = (
+{
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+ref = alpha.sc;
+},
+{
+pos = (190,0);
+ref = ypogegrammeni;
+}
+);
+width = 521;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = alpha.sc;
+},
+{
+pos = (183,0);
+ref = ypogegrammeni;
+}
+);
+width = 592;
+},
+{
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = alpha.sc;
+},
+{
+pos = (194,0);
+ref = ypogegrammeni;
+}
+);
+width = 665;
+},
+{
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = alpha.sc;
+},
+{
+pos = (199,0);
+ref = ypogegrammeni;
+}
+);
+width = 703;
+},
+{
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = alpha.sc;
+},
+{
+pos = (133,0);
+ref = ypogegrammeni;
+}
+);
+width = 408;
+},
+{
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = alpha.sc;
+},
+{
+pos = (130,0);
+ref = ypogegrammeni;
+}
+);
+width = 484;
+},
+{
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = alpha.sc;
+},
+{
+pos = (135,0);
+ref = ypogegrammeni;
+}
+);
+width = 542;
+},
+{
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = alpha.sc;
+},
+{
+pos = (143,0);
+ref = ypogegrammeni;
+}
+);
+width = 587;
+}
+);
+}

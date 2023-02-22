@@ -1,0 +1,211 @@
+{
+category = Letter;
+glyphname = "chedieresis-cy";
+kernLeft = "che-cy";
+kernRight = "tse-cy";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (220,0);
+},
+{
+name = top;
+pos = (376,731);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+ref = "che-cy";
+},
+{
+alignment = -1;
+pos = (2,0);
+ref = dieresis;
+}
+);
+width = 552;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (248,0);
+},
+{
+name = top;
+pos = (406,745);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = "che-cy";
+},
+{
+alignment = -1;
+pos = (18,0);
+ref = dieresis;
+}
+);
+width = 609;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (270,0);
+},
+{
+name = top;
+pos = (432,763);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+ref = "che-cy";
+},
+{
+alignment = -1;
+pos = (30,0);
+ref = dieresis;
+}
+);
+width = 653;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (286,0);
+},
+{
+name = top;
+pos = (450,771);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+ref = "che-cy";
+},
+{
+alignment = -1;
+pos = (39,0);
+ref = dieresis;
+}
+);
+width = 685;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (163,0);
+},
+{
+name = top;
+pos = (319,733);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+ref = "che-cy";
+},
+{
+alignment = -1;
+pos = (-57,0);
+ref = dieresis;
+}
+);
+width = 382;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (192,0);
+},
+{
+name = top;
+pos = (349,742);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+ref = "che-cy";
+},
+{
+alignment = -1;
+pos = (17,0);
+ref = dieresis;
+}
+);
+width = 496;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (211,0);
+},
+{
+name = top;
+pos = (370,748);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+ref = "che-cy";
+},
+{
+alignment = -1;
+pos = (26,0);
+ref = dieresis;
+}
+);
+width = 535;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (226,0);
+},
+{
+name = top;
+pos = (386,753);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+ref = "che-cy";
+},
+{
+alignment = -1;
+pos = (33,0);
+ref = dieresis;
+}
+);
+width = 565;
+}
+);
+script = cyrillic;
+subCategory = Lowercase;
+unicode = 1269;
+}

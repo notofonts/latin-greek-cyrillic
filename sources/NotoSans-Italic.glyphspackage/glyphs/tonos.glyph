@@ -1,0 +1,198 @@
+{
+category = Mark;
+color = 4;
+glyphname = tonos;
+kernLeft = GRK_Alpha;
+kernRight = GRK_Alpha;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (105,527);
+}
+);
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(128,606,l),
+(225,766,l),
+(227,773,l),
+(197,773,l),
+(116,618,l),
+(113,606,l)
+);
+}
+);
+width = 159;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (115,528);
+}
+);
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(134,606,l),
+(228,769,l),
+(229,776,l),
+(199,776,l),
+(114,612,l),
+(113,606,l)
+);
+}
+);
+width = 161;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (139,546);
+}
+);
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+closed = 1;
+nodes = (
+(211,606,l),
+(359,766,l),
+(361,776,l),
+(194,776,l),
+(114,619,l),
+(111,606,l)
+);
+}
+);
+width = 294;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (145,547);
+}
+);
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+closed = 1;
+nodes = (
+(204,606,l),
+(341,767,l),
+(343,776,l),
+(194,776,l),
+(114,619,l),
+(111,606,l)
+);
+}
+);
+width = 276;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (118,536);
+}
+);
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(171,606,l),
+(300,766,l),
+(302,776,l),
+(196,776,l),
+(114,618,l),
+(112,606,l)
+);
+}
+);
+width = 234;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (122,537);
+}
+);
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(164,606,l),
+(292,767,l),
+(294,776,l),
+(197,776,l),
+(114,617,l),
+(112,606,l)
+);
+}
+);
+width = 226;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (152,553);
+}
+);
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(219,606,l),
+(363,766,l),
+(365,776,l),
+(193,776,l),
+(113,620,l),
+(110,606,l)
+);
+}
+);
+width = 299;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (146,553);
+}
+);
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+closed = 1;
+nodes = (
+(227,606,l),
+(390,766,l),
+(392,776,l),
+(193,776,l),
+(113,620,l),
+(110,606,l)
+);
+}
+);
+width = 326;
+}
+);
+metricLeft = "=acute";
+metricRight = "=acute";
+script = greek;
+subCategory = Spacing;
+unicode = 900;
+}

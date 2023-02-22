@@ -1,0 +1,195 @@
+{
+glyphname = dasiaperispomeni.case;
+layers = (
+{
+anchors = (
+{
+name = _topleft;
+pos = (450,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (300,563);
+},
+{
+angle = 78;
+pos = (418,563);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+pos = (-42,-196);
+ref = dasiaperispomeni;
+}
+);
+width = 385;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (500,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (468,563);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+pos = (-50,-232);
+ref = dasiaperispomeni;
+}
+);
+width = 436;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (516,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (484,563);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+pos = (-58,-273);
+ref = dasiaperispomeni;
+}
+);
+width = 450;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (528,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (496,563);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+pos = (-65,-309);
+ref = dasiaperispomeni;
+}
+);
+width = 462;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (389,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (357,563);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+pos = (-45,-209);
+ref = dasiaperispomeni;
+}
+);
+width = 328;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (435,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (403,563);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+pos = (-49,-230);
+ref = dasiaperispomeni;
+}
+);
+width = 370;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (448,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (416,563);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+pos = (-56,-264);
+ref = dasiaperispomeni;
+}
+);
+width = 384;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (461,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (429,563);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+pos = (-63,-294);
+ref = dasiaperispomeni;
+}
+);
+width = 395;
+}
+);
+metricLeft = "=dasiaperispomeni";
+metricRight = "=dasiaperispomeni";
+}

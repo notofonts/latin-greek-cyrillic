@@ -1,0 +1,87 @@
+{
+glyphname = anoteleia.sc;
+layers = (
+{
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+pos = (36,187);
+ref = periodcentered;
+}
+);
+width = 181;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (23,130);
+ref = periodcentered;
+}
+);
+width = 285;
+},
+{
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+pos = (22,121);
+ref = periodcentered;
+}
+);
+width = 304;
+},
+{
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+pos = (20,113);
+ref = periodcentered;
+}
+);
+width = 316;
+},
+{
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+pos = (31,163);
+ref = periodcentered;
+}
+);
+width = 208;
+},
+{
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+pos = (23,124);
+ref = periodcentered;
+}
+);
+width = 233;
+},
+{
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+pos = (21,118);
+ref = periodcentered;
+}
+);
+width = 249;
+},
+{
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+pos = (20,115);
+ref = periodcentered;
+}
+);
+width = 260;
+}
+);
+metricLeft = "=periodcentered";
+metricRight = "=periodcentered";
+}

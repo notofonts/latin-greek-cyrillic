@@ -1,0 +1,185 @@
+{
+category = Letter;
+glyphname = mhookmod;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (248,143);
+},
+{
+name = top;
+pos = (348,610);
+}
+);
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = mhook;
+scale = (0.65,0.6);
+}
+);
+width = 547;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (258,143);
+},
+{
+name = top;
+pos = (359,615);
+}
+);
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = mhook;
+scale = (0.65,0.6);
+}
+);
+width = 569;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (266,143);
+},
+{
+name = top;
+pos = (368,621);
+}
+);
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = mhook;
+scale = (0.65,0.6);
+}
+);
+width = 588;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (273,143);
+},
+{
+name = top;
+pos = (375,625);
+}
+);
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = mhook;
+scale = (0.65,0.6);
+}
+);
+width = 602;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (151,143);
+},
+{
+name = top;
+pos = (250,609);
+}
+);
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = mhook;
+scale = (0.65,0.6);
+}
+);
+width = 354;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (172,143);
+},
+{
+name = top;
+pos = (273,615);
+}
+);
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = mhook;
+scale = (0.65,0.6);
+}
+);
+width = 398;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (190,143);
+},
+{
+name = top;
+pos = (292,620);
+}
+);
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = mhook;
+scale = (0.65,0.6);
+}
+);
+width = 436;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (208,143);
+},
+{
+name = top;
+pos = (310,625);
+}
+);
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = mhook;
+scale = (0.65,0.6);
+}
+);
+width = 471;
+}
+);
+script = "";
+subCategory = Modifier;
+unicode = 7596;
+}

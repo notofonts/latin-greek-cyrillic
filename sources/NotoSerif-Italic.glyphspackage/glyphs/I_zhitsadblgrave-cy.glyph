@@ -1,0 +1,211 @@
+{
+category = Letter;
+glyphname = "Izhitsadblgrave-cy";
+kernLeft = "Psi-cy";
+kernRight = "U-cy";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (260,0);
+},
+{
+name = top;
+pos = (458,931);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (570,165);
+ref = dblgravecomb;
+}
+);
+width = 631;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (290,0);
+},
+{
+name = top;
+pos = (491,944);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (660,178);
+ref = dblgravecomb;
+}
+);
+width = 694;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (315,0);
+},
+{
+name = top;
+pos = (516,944);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (697,178);
+ref = dblgravecomb;
+}
+);
+width = 743;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (333,0);
+},
+{
+name = top;
+pos = (534,944);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (740,178);
+ref = dblgravecomb;
+}
+);
+width = 779;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (194,0);
+},
+{
+name = top;
+pos = (395,944);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (459,178);
+ref = dblgravecomb;
+}
+);
+width = 508;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (226,0);
+},
+{
+name = top;
+pos = (427,944);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (526,178);
+ref = dblgravecomb;
+}
+);
+width = 566;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (248,0);
+},
+{
+name = top;
+pos = (449,944);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (574,178);
+ref = dblgravecomb;
+}
+);
+width = 609;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (265,0);
+},
+{
+name = top;
+pos = (466,944);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (610,178);
+ref = dblgravecomb;
+}
+);
+width = 643;
+}
+);
+script = cyrillic;
+subCategory = Uppercase;
+unicode = 1142;
+}
