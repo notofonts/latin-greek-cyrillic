@@ -22,9 +22,8 @@ alignment = -1;
 ref = g.sc;
 },
 {
-alignment = -1;
 pos = (94,0);
-ref = commaaccent2;
+ref = commaaccentcomb;
 }
 );
 width = 623;
@@ -47,9 +46,8 @@ alignment = -1;
 ref = g.sc;
 },
 {
-alignment = -1;
-pos = (83,0);
-ref = commaaccent2;
+pos = (276,0);
+ref = commaaccentcomb;
 }
 );
 width = 493;
@@ -72,9 +70,8 @@ alignment = -1;
 ref = g.sc;
 },
 {
-alignment = -1;
-pos = (84,0);
-ref = commaaccent2;
+pos = (327,0);
+ref = commaaccentcomb;
 }
 );
 width = 592;
@@ -97,9 +94,8 @@ alignment = -1;
 ref = g.sc;
 },
 {
-alignment = -1;
-pos = (86,0);
-ref = commaaccent2;
+pos = (341,0);
+ref = commaaccentcomb;
 }
 );
 width = 614;
@@ -122,9 +118,8 @@ alignment = -1;
 ref = g.sc;
 },
 {
-alignment = -1;
 pos = (12,0);
-ref = commaaccent2;
+ref = commaaccentcomb;
 }
 );
 width = 422;
@@ -147,9 +142,8 @@ alignment = -1;
 ref = g.sc;
 },
 {
-alignment = -1;
 pos = (56,0);
-ref = commaaccent2;
+ref = commaaccentcomb;
 }
 );
 width = 465;
@@ -172,9 +166,8 @@ alignment = -1;
 ref = g.sc;
 },
 {
-alignment = -1;
-pos = (64,0);
-ref = commaaccent2;
+pos = (309,0);
+ref = commaaccentcomb;
 }
 );
 width = 573;
@@ -197,9 +190,8 @@ alignment = -1;
 ref = g.sc;
 },
 {
-alignment = -1;
 pos = (-33,0);
-ref = commaaccent2;
+ref = commaaccentcomb;
 }
 );
 width = 371;
