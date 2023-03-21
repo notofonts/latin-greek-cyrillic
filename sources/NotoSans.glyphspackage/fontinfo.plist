@@ -1,5 +1,5 @@
 {
-.appVersion = "3141";
+.appVersion = "3180";
 .formatVersion = 3;
 axes = (
 {
@@ -1619,6 +1619,7 @@ aktieselskab,
 fturned,
 onethird,
 twothirds,
+"Onehundredreversed-roman",
 creversed,
 dottedCircle,
 Ldoublebar,
