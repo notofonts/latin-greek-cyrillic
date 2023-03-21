@@ -12,7 +12,6 @@
 	}
 	.box-title{
 	  width: 100%;
-	  float: left;
 	  font-size: 8pt;
 	  font-weight: 700;
 	  border-top: 1px solid black;
@@ -26,7 +25,6 @@
 	  float: left;
 	}
 	.box-text{
-		float: left;
 	}
 	
 	#nav{
@@ -35,19 +33,21 @@
 	  z-index: 100;
 	}
 	#font-toggle{
-	  display: block;
-	  font-weight: 700;
-	  cursor: pointer;
-	  -webkit-user-select: none; /* Safari */        
-	  -moz-user-select: none; /* Firefox */
-          -ms-user-select: none; /* IE10+/Edge */
-	  user-select: none; /* Standard */
-	  text-align: center;
-	  color: white;
-	  background-color: black;
-	  width: 50px;
-	  display: block;
-	  padding: 10px;
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
 	}
 	.tooltip {
 	position: relative;
@@ -442,9 +442,9 @@
 
 	  
 	    @font-face{
-    src: url(new-NotoSansMono-SemiCondensedBold.ttf);
+    src: url(new-NotoSansMono-ExtraCondensedMedium.ttf);
     font-family: "new Noto Sans Mono";
-    font-weight: 700;
+    font-weight: 500;
     
     font-style: normal;
 }
@@ -458,41 +458,33 @@
 }
 	  
 	    @font-face{
-    src: url(new-NotoSansMono-CondensedBold.ttf);
+    src: url(new-NotoSansMono-SemiCondensedLight.ttf);
     font-family: "new Noto Sans Mono";
-    font-weight: 700;
+    font-weight: 300;
     
     font-style: normal;
 }
 	  
 	    @font-face{
-    src: url(new-NotoSansMono-Black.ttf);
+    src: url(new-NotoSansMono-CondensedMedium.ttf);
     font-family: "new Noto Sans Mono";
-    font-weight: 900;
+    font-weight: 500;
     
     font-style: normal;
 }
 	  
 	    @font-face{
-    src: url(new-NotoSansMono-ExtraCondensedExtraLight.ttf);
+    src: url(new-NotoSansMono-SemiBold.ttf);
     font-family: "new Noto Sans Mono";
-    font-weight: 200;
+    font-weight: 600;
     
     font-style: normal;
 }
 	  
 	    @font-face{
-    src: url(new-NotoSansMono-CondensedBlack.ttf);
+    src: url(new-NotoSansMono-Condensed.ttf);
     font-family: "new Noto Sans Mono";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-Thin.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 100;
+    font-weight: 400;
     
     font-style: normal;
 }
@@ -506,25 +498,41 @@
 }
 	  
 	    @font-face{
-    src: url(new-NotoSansMono-SemiCondensed.ttf);
+    src: url(new-NotoSansMono-Medium.ttf);
     font-family: "new Noto Sans Mono";
-    font-weight: 400;
+    font-weight: 500;
     
     font-style: normal;
 }
 	  
 	    @font-face{
-    src: url(new-NotoSansMono-ExtraCondensedLight.ttf);
+    src: url(new-NotoSansMono-SemiCondensedExtraLight.ttf);
     font-family: "new Noto Sans Mono";
-    font-weight: 300;
+    font-weight: 200;
     
     font-style: normal;
 }
 	  
 	    @font-face{
-    src: url(new-NotoSansMono-SemiCondensedLight.ttf);
+    src: url(new-NotoSansMono-CondensedThin.ttf);
     font-family: "new Noto Sans Mono";
-    font-weight: 300;
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-ExtraLight.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-SemiCondensedThin.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 100;
     
     font-style: normal;
 }
@@ -546,9 +554,65 @@
 }
 	  
 	    @font-face{
-    src: url(new-NotoSansMono-CondensedMedium.ttf);
+    src: url(new-NotoSansMono-SemiCondensedSemiBold.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-Black.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-Light.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-SemiCondensedMedium.ttf);
     font-family: "new Noto Sans Mono";
     font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-ExtraCondensedThin.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-CondensedSemiBold.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-CondensedLight.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-ExtraCondensedBlack.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 900;
     
     font-style: normal;
 }
@@ -562,7 +626,23 @@
 }
 	  
 	    @font-face{
-    src: url(new-NotoSansMono-ExtraLight.ttf);
+    src: url(new-NotoSansMono-SemiCondensedBlack.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-ExtraCondensedSemiBold.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-ExtraCondensedExtraLight.ttf);
     font-family: "new Noto Sans Mono";
     font-weight: 200;
     
@@ -570,7 +650,63 @@
 }
 	  
 	    @font-face{
-    src: url(new-NotoSansMono-ExtraCondensedThin.ttf);
+    src: url(new-NotoSansMono-CondensedBold.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-SemiCondensedBold.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-ExtraCondensedLight.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-CondensedBlack.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-SemiCondensed.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-CondensedExtraLight.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-ExtraCondensedBold.ttf);
+    font-family: "new Noto Sans Mono";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSansMono-Thin.ttf);
     font-family: "new Noto Sans Mono";
     font-weight: 100;
     
@@ -586,110 +722,6 @@
 }
 	  
 	    @font-face{
-    src: url(new-NotoSansMono-SemiCondensedExtraLight.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-Medium.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-ExtraCondensedMedium.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-ExtraCondensedBold.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-SemiBold.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-SemiCondensedThin.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-CondensedLight.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-CondensedSemiBold.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-SemiCondensedBlack.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-SemiCondensedSemiBold.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-CondensedExtraLight.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-ExtraCondensedBlack.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-Condensed.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
     src: url(new-NotoSansMono-Regular.ttf);
     font-family: "new Noto Sans Mono";
     font-weight: 400;
@@ -697,57 +729,25 @@
     font-style: normal;
 }
 	  
-	    @font-face{
-    src: url(new-NotoSansMono-Light.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-ExtraCondensedSemiBold.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-SemiCondensedMedium.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSansMono-CondensedThin.ttf);
-    font-family: "new Noto Sans Mono";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
 
 	  
 
 	  
-	    .old-Noto-Sans-Mono-Bold{
+	    .old-Bold{
     font-family: "old Noto Sans Mono";
     font-weight: 700;
     font-stretch: 100%;
     font-style: normal;
 }
 	  
-	    .old-Noto-Sans-Mono-Black{
+	    .old-Black{
     font-family: "old Noto Sans Mono";
     font-weight: 900;
     font-stretch: 100%;
     font-style: normal;
 }
 	  
-	    .old-Noto-Sans-Mono-Black{
+	    .old-Black{
     font-family: "old Noto Sans Mono";
     font-weight: 900.0;
     font-stretch: 100.0%;
@@ -756,16 +756,16 @@
 	  
 
 	  
-	    .new-Noto-Sans-Mono-Black{
+	    .new-Bold{
     font-family: "new Noto Sans Mono";
-    font-weight: 900;
+    font-weight: 700;
     font-stretch: 100%;
     font-style: normal;
 }
 	  
-	    .new-Noto-Sans-Mono-Bold{
+	    .new-Black{
     font-family: "new Noto Sans Mono";
-    font-weight: 700;
+    font-weight: 900;
     font-stretch: 100%;
     font-style: normal;
 }
@@ -778,7 +778,8 @@
 <body>
     
     <div id="nav">
-        <div id="font-toggle">old</div>
+        <div class="nav-item" id="font-toggle">old</div>
+		
      </div>
     
     <div id="content">
@@ -789,8 +790,8 @@
   
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Bold 7pt</div>
-	<span class="old-Noto-Sans-Mono-Bold" style="font-size: 7pt">
+	<div class="box-title">old-Bold 7pt</div>
+	<span class="old-Bold" style="font-size: 7pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -798,8 +799,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Bold 10pt</div>
-	<span class="old-Noto-Sans-Mono-Bold" style="font-size: 10pt">
+	<div class="box-title">old-Bold 10pt</div>
+	<span class="old-Bold" style="font-size: 10pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -807,8 +808,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Bold 11pt</div>
-	<span class="old-Noto-Sans-Mono-Bold" style="font-size: 11pt">
+	<div class="box-title">old-Bold 11pt</div>
+	<span class="old-Bold" style="font-size: 11pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -816,8 +817,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Bold 12pt</div>
-	<span class="old-Noto-Sans-Mono-Bold" style="font-size: 12pt">
+	<div class="box-title">old-Bold 12pt</div>
+	<span class="old-Bold" style="font-size: 12pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -825,8 +826,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Bold 14pt</div>
-	<span class="old-Noto-Sans-Mono-Bold" style="font-size: 14pt">
+	<div class="box-title">old-Bold 14pt</div>
+	<span class="old-Bold" style="font-size: 14pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -834,8 +835,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Bold 16pt</div>
-	<span class="old-Noto-Sans-Mono-Bold" style="font-size: 16pt">
+	<div class="box-title">old-Bold 16pt</div>
+	<span class="old-Bold" style="font-size: 16pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -843,8 +844,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Bold 18pt</div>
-	<span class="old-Noto-Sans-Mono-Bold" style="font-size: 18pt">
+	<div class="box-title">old-Bold 18pt</div>
+	<span class="old-Bold" style="font-size: 18pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -852,8 +853,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Bold 21pt</div>
-	<span class="old-Noto-Sans-Mono-Bold" style="font-size: 21pt">
+	<div class="box-title">old-Bold 21pt</div>
+	<span class="old-Bold" style="font-size: 21pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -861,8 +862,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Bold 27pt</div>
-	<span class="old-Noto-Sans-Mono-Bold" style="font-size: 27pt">
+	<div class="box-title">old-Bold 27pt</div>
+	<span class="old-Bold" style="font-size: 27pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -870,100 +871,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Bold 32pt</div>
-	<span class="old-Noto-Sans-Mono-Bold" style="font-size: 32pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-  
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 7pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 7pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 10pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 10pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 11pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 11pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 12pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 12pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 14pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 14pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 16pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 16pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 18pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 18pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 21pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 21pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 27pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 27pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 32pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 32pt">
+	<div class="box-title">old-Bold 32pt</div>
+	<span class="old-Bold" style="font-size: 32pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -973,8 +882,8 @@
   
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 7pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 7pt">
+	<div class="box-title">old-Black 7pt</div>
+	<span class="old-Black" style="font-size: 7pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -982,8 +891,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 10pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 10pt">
+	<div class="box-title">old-Black 10pt</div>
+	<span class="old-Black" style="font-size: 10pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -991,8 +900,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 11pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 11pt">
+	<div class="box-title">old-Black 11pt</div>
+	<span class="old-Black" style="font-size: 11pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -1000,8 +909,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 12pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 12pt">
+	<div class="box-title">old-Black 12pt</div>
+	<span class="old-Black" style="font-size: 12pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -1009,8 +918,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 14pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 14pt">
+	<div class="box-title">old-Black 14pt</div>
+	<span class="old-Black" style="font-size: 14pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -1018,8 +927,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 16pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 16pt">
+	<div class="box-title">old-Black 16pt</div>
+	<span class="old-Black" style="font-size: 16pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -1027,8 +936,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 18pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 18pt">
+	<div class="box-title">old-Black 18pt</div>
+	<span class="old-Black" style="font-size: 18pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -1036,8 +945,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 21pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 21pt">
+	<div class="box-title">old-Black 21pt</div>
+	<span class="old-Black" style="font-size: 21pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -1045,8 +954,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 27pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 27pt">
+	<div class="box-title">old-Black 27pt</div>
+	<span class="old-Black" style="font-size: 27pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -1054,8 +963,100 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Sans-Mono-Black 32pt</div>
-	<span class="old-Noto-Sans-Mono-Black" style="font-size: 32pt">
+	<div class="box-title">old-Black 32pt</div>
+	<span class="old-Black" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">old-Black 7pt</div>
+	<span class="old-Black" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">old-Black 10pt</div>
+	<span class="old-Black" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">old-Black 11pt</div>
+	<span class="old-Black" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">old-Black 12pt</div>
+	<span class="old-Black" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">old-Black 14pt</div>
+	<span class="old-Black" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">old-Black 16pt</div>
+	<span class="old-Black" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">old-Black 18pt</div>
+	<span class="old-Black" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">old-Black 21pt</div>
+	<span class="old-Black" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">old-Black 27pt</div>
+	<span class="old-Black" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">old-Black 32pt</div>
+	<span class="old-Black" style="font-size: 32pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -1071,23 +1072,27 @@
 	POSITION = "old"
 	fontToggle = document.getElementById("font-toggle")
 	function switchFonts() {
-	  items = document.getElementsByClassName("box");
-	  console.log("Click from "+POSITION)
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
 	  
-	  if (POSITION === "old") {
+	if (POSITION === "old") {
 	  POSITION = "new"
-	  for (item of items) {
-	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("old", "new")
-            item.lastElementChild.className = item.lastElementChild.className.replace("old", "new")
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
 	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
 	  }
 
 	  } else {
 	  POSITION = "old"
-	  for (item of items) {
-	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("new", "old")
-            item.lastElementChild.className = item.lastElementChild.className.replace("new", "old")
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
 	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
 	  }
 	}
 	}
