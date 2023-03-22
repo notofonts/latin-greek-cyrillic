@@ -1,4 +1,13 @@
+*.ufo
+*_ufo
 *~
+*.designspace
+master_*
+subset-files
+UIState.plist
+build.ninja
+.ninja_log
+*_ttf
 venv
 build.stamp
 proof
