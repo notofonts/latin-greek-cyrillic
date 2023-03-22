@@ -5217,7 +5217,10 @@ tag = rtlm;
 },
 {
 code = "# zero.slash alternate
-    sub zero by zero.slash;";
+    sub zero by zero.slash;
+    sub zero.lf by zero.slash;
+	sub zero.osf by zero.osf.slash;
+	sub zero.tosf by zero.osf.slash;";
 tag = zero;
 },
 {
