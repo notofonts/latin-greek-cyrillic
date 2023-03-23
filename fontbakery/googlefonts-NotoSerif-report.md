@@ -3397,9 +3397,9 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f587733e1d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f58742ee010> 
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37adec51d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f379e6ae590> 
 
-	- Contour 2 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f587733e1d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f58742ee010> [code: interpolation-issues]
+	- Contour 2 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37adec51d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f379e6ae590> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -3511,27 +3511,27 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0247' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f58701eeed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f5873c83b50>
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0247' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c0150>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f58701eeed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f58701eee10>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9e5f810>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f58701eeed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f5873c83a50>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c2390>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f58701eeed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f5873c802d0>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c2290>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f58701eeed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f5873c80d50>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c2450>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f58701eeed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f5873c810d0>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c3110>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f58701eeed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f5873c801d0>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c2bd0>
 
-	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f58701eeed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f5873c810d0>
+	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c3110>
 
-	- Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f58701eeed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f5873c810d0>
+	- Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c3110>
 
-	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f58701eeed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f5873c801d0> 
+	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c2bd0> 
 
-	- Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f58701eeed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f5873c801d0> [code: interpolation-issues]
+	- Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c2bd0> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 

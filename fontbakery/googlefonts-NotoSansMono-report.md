@@ -84,7 +84,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i̛̅ i̛̇ i̛̊ i̛̋ i̛̍ i̛̎ i̛̐ i̛̒ i̛̓ i̛̔ i̛̽ i̛̾ i̛̿ i̛͂ i̛͆ i̛͊ i̛͋ i̛͌ i̛͐ i̛͑ [code: soft-dotted]
+* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -236,7 +236,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i̛̅ i̛̇ i̛̊ i̛̋ i̛̍ i̛̎ i̛̐ i̛̒ i̛̓ i̛̔ i̛̽ i̛̾ i̛̿ i̛͂ i̛͆ i̛͊ i̛͋ i̛͌ i̛͐ i̛͑ [code: soft-dotted]
+* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -401,7 +401,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i̛̅ i̛̇ i̛̊ i̛̋ i̛̍ i̛̎ i̛̐ i̛̒ i̛̓ i̛̔ i̛̽ i̛̾ i̛̿ i̛͂ i̛͆ i̛͊ i̛͋ i̛͌ i̛͐ i̛͑ [code: soft-dotted]
+* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -571,7 +571,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i̛̅ i̛̇ i̛̊ i̛̋ i̛̍ i̛̎ i̛̐ i̛̒ i̛̓ i̛̔ i̛̽ i̛̾ i̛̿ i̛͂ i̛͆ i̛͊ i̛͋ i̛͌ i̛͐ i̛͑ [code: soft-dotted]
+* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -719,7 +719,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i̛̅ i̛̇ i̛̊ i̛̋ i̛̍ i̛̎ i̛̐ i̛̒ i̛̓ i̛̔ i̛̽ i̛̾ i̛̿ i̛͂ i̛͆ i̛͊ i̛͋ i̛͌ i̛͐ i̛͑ [code: soft-dotted]
+* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -882,7 +882,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i̛̅ i̛̇ i̛̊ i̛̋ i̛̍ i̛̎ i̛̐ i̛̒ i̛̓ i̛̔ i̛̽ i̛̾ i̛̿ i̛͂ i̛͆ i̛͊ i̛͋ i̛͌ i̛͐ i̛͑ [code: soft-dotted]
+* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -1026,7 +1026,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i̛̅ i̛̇ i̛̊ i̛̋ i̛̍ i̛̎ i̛̐ i̛̒ i̛̓ i̛̔ i̛̽ i̛̾ i̛̿ i̛͂ i̛͆ i̛͊ i̛͋ i̛͌ i̛͐ i̛͑ [code: soft-dotted]
+* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -1175,7 +1175,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i̛̅ i̛̇ i̛̊ i̛̋ i̛̍ i̛̎ i̛̐ i̛̒ i̛̓ i̛̔ i̛̽ i̛̾ i̛̿ i̛͂ i̛͆ i̛͊ i̛͋ i̛͌ i̛͐ i̛͑ [code: soft-dotted]
+* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -1326,7 +1326,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i̛̅ i̛̇ i̛̊ i̛̋ i̛̍ i̛̎ i̛̐ i̛̒ i̛̓ i̛̔ i̛̽ i̛̾ i̛̿ i̛͂ i̛͆ i̛͊ i̛͋ i̛͌ i̛͐ i̛͑ [code: soft-dotted]
+* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -1468,13 +1468,13 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i̛̅ i̛̇ i̛̊ i̛̋ i̛̍ i̛̎ i̛̐ i̛̒ i̛̓ i̛̔ i̛̽ i̛̾ i̛̿ i̛͂ i̛͆ i̛͊ i̛͋ i̛͌ i̛͐ i̛͑ [code: soft-dotted]
+* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'Bbarredmod' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f0bec0be810> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f0be7018d90> 
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'Bbarredmod' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdd5dea1d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcfd0a190> 
 
-	- Contour 0 start point differs in glyph 'uni2055' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f0bec0be810> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f0be7018d90> [code: interpolation-issues]
+	- Contour 0 start point differs in glyph 'uni2055' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdd5dea1d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcfd0a190> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
