@@ -4746,11 +4746,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1069;
+value = 1229;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
@@ -4843,11 +4843,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1069;
+value = 1229;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
@@ -4938,11 +4938,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1069;
+value = 1229;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
@@ -5030,11 +5030,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1069;
+value = 1229;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
@@ -5126,11 +5126,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1069;
+value = 1229;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
@@ -5222,11 +5222,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1069;
+value = 1229;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
@@ -5318,11 +5318,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1069;
+value = 1229;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
@@ -5414,11 +5414,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1069;
+value = 1229;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
