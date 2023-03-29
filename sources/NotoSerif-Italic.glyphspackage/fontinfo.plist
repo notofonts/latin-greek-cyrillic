@@ -1,5 +1,5 @@
 {
-.appVersion = "3141";
+.appVersion = "3180";
 .formatVersion = 3;
 axes = (
 {
@@ -5033,7 +5033,7 @@ value = 1069;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
@@ -5125,7 +5125,7 @@ value = 1069;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
@@ -5220,7 +5220,7 @@ value = 1069;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
@@ -5316,7 +5316,7 @@ value = 1069;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
@@ -5412,7 +5412,7 @@ value = 1069;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
@@ -5508,7 +5508,7 @@ value = 1069;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
@@ -5604,7 +5604,7 @@ value = 1069;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
@@ -5700,7 +5700,7 @@ value = 1069;
 },
 {
 name = winDescent;
-value = 293;
+value = 389;
 },
 {
 name = hheaAscender;
