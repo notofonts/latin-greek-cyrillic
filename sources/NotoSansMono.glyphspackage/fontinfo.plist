@@ -6814,7 +6814,7 @@ value = "https://scripts.sil.org/OFL";
 },
 {
 key = versionString;
-value = "Version 2.010";
+value = "Version 2.011";
 },
 {
 key = licenses;
