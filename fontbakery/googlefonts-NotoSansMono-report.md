@@ -17,13 +17,16 @@ Fontbakery version: 0.8.11
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1229 instead [code: ascent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** head version is "2.01100" while name version string (for platform 3, encoding 1) is "Version 2.010; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3882 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3881 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.39%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -53,8 +56,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
@@ -71,16 +72,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
+	- Glyph name: uni01ED	Contours detected: 4	Expected: 3
 
-	- 107 more.
+	- Glyph name: uni0228	Contours detected: 2	Expected: 1 
+
+	- 105 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -169,13 +168,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1229 instead [code: ascent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** head version is "2.01100" while name version string (for platform 3, encoding 1) is "Version 2.010; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3882 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3881 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.39%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -205,8 +207,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
@@ -223,16 +223,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
+	- Glyph name: uni01ED	Contours detected: 4	Expected: 3
 
-	- 107 more.
+	- Glyph name: uni0228	Contours detected: 2	Expected: 1 
+
+	- 105 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -327,13 +325,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1229 instead [code: ascent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** head version is "2.01100" while name version string (for platform 3, encoding 1) is "Version 2.010; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3882 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3881 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.39%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -370,8 +371,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
@@ -388,16 +387,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
+	- Glyph name: uni01ED	Contours detected: 4	Expected: 3
 
-	- 107 more.
+	- Glyph name: uni0228	Contours detected: 2	Expected: 1 
+
+	- 105 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -498,13 +495,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1229 instead [code: ascent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** head version is "2.01100" while name version string (for platform 3, encoding 1) is "Version 2.010; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3882 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3881 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.39%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -540,8 +540,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
@@ -558,16 +556,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
+	- Glyph name: uni01ED	Contours detected: 4	Expected: 3
 
-	- 105 more.
+	- Glyph name: uni0228	Contours detected: 2	Expected: 1 
+
+	- 103 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -652,13 +648,16 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1229 instead [code: ascent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** head version is "2.01100" while name version string (for platform 3, encoding 1) is "Version 2.010; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3882 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3881 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.39%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -688,8 +687,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
@@ -706,16 +703,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
+	- Glyph name: uni01ED	Contours detected: 4	Expected: 3
 
-	- 105 more.
+	- Glyph name: uni0228	Contours detected: 2	Expected: 1 
+
+	- 103 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -808,13 +803,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1229 instead [code: ascent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** head version is "2.01100" while name version string (for platform 3, encoding 1) is "Version 2.010; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3882 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3881 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.39%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -851,8 +849,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
@@ -869,16 +865,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
+	- Glyph name: uni01ED	Contours detected: 4	Expected: 3
 
-	- 101 more.
+	- Glyph name: uni0228	Contours detected: 2	Expected: 1 
+
+	- 99 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -959,13 +953,16 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1229 instead [code: ascent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** head version is "2.01100" while name version string (for platform 3, encoding 1) is "Version 2.010; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3882 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3881 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.39%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -995,8 +992,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
@@ -1013,16 +1008,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
+	- Glyph name: uni01ED	Contours detected: 4	Expected: 3
 
-	- 101 more.
+	- Glyph name: uni0228	Contours detected: 2	Expected: 1 
+
+	- 99 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -1101,13 +1094,16 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1229 instead [code: ascent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** head version is "2.01100" while name version string (for platform 3, encoding 1) is "Version 2.010; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3882 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3881 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.39%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -1144,8 +1140,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
@@ -1162,16 +1156,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
+	- Glyph name: uni01ED	Contours detected: 4	Expected: 3
 
-	- 103 more.
+	- Glyph name: uni0228	Contours detected: 2	Expected: 1 
+
+	- 101 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -1268,13 +1260,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1229 instead [code: ascent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** head version is "2.01100" while name version string (for platform 3, encoding 1) is "Version 2.010; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3882 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3881 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 248 glyphs (6.34%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -1295,8 +1290,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
@@ -1313,16 +1306,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni01ED	Contours detected: 4	Expected: 3 
+	- Glyph name: uni01ED	Contours detected: 4	Expected: 3
 
-	- 105 more.
+	- Glyph name: uni0228	Contours detected: 2	Expected: 1 
+
+	- 103 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -1439,13 +1430,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1239, but got 1229 instead [code: ascent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** head version is "2.01100" while name version string (for platform 3, encoding 1) is "Version 2.010". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3882 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3881 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.39%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
@@ -1461,10 +1455,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -1472,9 +1462,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'Bbarredmod' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdd5dea1d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcfd0a190> 
-
-	- Contour 0 start point differs in glyph 'uni2055' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdd5dea1d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcdcfd0a190> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'Bbarredmod' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fd397fc4210> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fd397fcd990> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -1490,8 +1478,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 32 | 102 | 1130 | 62 | 947 | 0 |
-| 0% | 1% | 4% | 50% | 3% | 42% | 0% |
+| 3 | 42 | 92 | 1130 | 62 | 947 | 0 |
+| 0% | 2% | 4% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

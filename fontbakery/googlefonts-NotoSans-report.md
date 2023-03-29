@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.11
 
-<details><summary><b>[4] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
+<details><summary><b>[3] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
 * 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSans/googlefonts/ttf', 'fonts/NotoSans/googlefonts/variable-ttf'] [code: single-directory]
@@ -15,32 +15,6 @@ Fontbakery version: 0.8.11
 
 
 * 🔥 **FAIL** Family 'Noto Sans' has 6 fonts (should be 4 or fewer). [code: too-many]
-</div></details><details><summary>⚠ <b>WARN:</b> Make sure all font files have the same version value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/family/equal_font_versions">com.google.fonts/check/family/equal_font_versions</a>)</summary><div>
-
-
-* ⚠ **WARN** Version info differs among font files of the same font project.
-These were the version values found:
-* fonts/NotoSans/googlefonts/ttf/NotoSans-Black.ttf: 2.0099945068359375
-* fonts/NotoSans/googlefonts/ttf/NotoSans-BlackItalic.ttf: 2.009002685546875
-* fonts/NotoSans/googlefonts/ttf/NotoSans-Bold.ttf: 2.0099945068359375
-* fonts/NotoSans/googlefonts/ttf/NotoSans-BoldItalic.ttf: 2.009002685546875
-* fonts/NotoSans/googlefonts/ttf/NotoSans-ExtraBold.ttf: 2.0099945068359375
-* fonts/NotoSans/googlefonts/ttf/NotoSans-ExtraBoldItalic.ttf: 2.009002685546875
-* fonts/NotoSans/googlefonts/ttf/NotoSans-ExtraLight.ttf: 2.0099945068359375
-* fonts/NotoSans/googlefonts/ttf/NotoSans-ExtraLightItalic.ttf: 2.009002685546875
-* fonts/NotoSans/googlefonts/ttf/NotoSans-Italic.ttf: 2.009002685546875
-* fonts/NotoSans/googlefonts/ttf/NotoSans-Light.ttf: 2.0099945068359375
-* fonts/NotoSans/googlefonts/ttf/NotoSans-LightItalic.ttf: 2.009002685546875
-* fonts/NotoSans/googlefonts/ttf/NotoSans-Medium.ttf: 2.0099945068359375
-* fonts/NotoSans/googlefonts/ttf/NotoSans-MediumItalic.ttf: 2.009002685546875
-* fonts/NotoSans/googlefonts/ttf/NotoSans-Regular.ttf: 2.0099945068359375
-* fonts/NotoSans/googlefonts/ttf/NotoSans-SemiBold.ttf: 2.0099945068359375
-* fonts/NotoSans/googlefonts/ttf/NotoSans-SemiBoldItalic.ttf: 2.009002685546875
-* fonts/NotoSans/googlefonts/ttf/NotoSans-Thin.ttf: 2.0099945068359375
-* fonts/NotoSans/googlefonts/ttf/NotoSans-ThinItalic.ttf: 2.009002685546875
-* fonts/NotoSans/googlefonts/variable-ttf/NotoSans-Italic[wdth,wght].ttf: 2.009002685546875
-* fonts/NotoSans/googlefonts/variable-ttf/NotoSans[wdth,wght].ttf: 2.0099945068359375
- [code: mismatch]
 </div></details><br></div></details><details><summary><b>[15] NotoSans-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -3508,23 +3482,23 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff425b58410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff423e928d0>
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bf4e20e90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bef9fc210>
 
-	- Contour 0 start point differs in glyph 'theta' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff425b58410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff423e91910>
+	- Contour 0 start point differs in glyph 'theta' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bf4e20e90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bef9fe650>
 
-	- Contour 1 start point differs in glyph 'omegaroundcy' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff425b58410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff423e928d0>
+	- Contour 1 start point differs in glyph 'omegaroundcy' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bf4e20e90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bef9fc210>
 
-	- Contour 0 start point differs in glyph 'uni1DBF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff425b58410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff423e91910>
+	- Contour 0 start point differs in glyph 'uni1DBF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bf4e20e90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bef9fe650>
 
-	- Contour 2 start point differs in glyph 'zero.slash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff425b58410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff423e928d0>
+	- Contour 2 start point differs in glyph 'zero.slash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bf4e20e90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bef9fc210>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff425b58410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff423f56b10>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bf4e20e90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bf48d7810>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff425b58410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff423e91c90>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bf4e20e90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bef9fe050>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff425b58410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff423e90550> 
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bf4e20e90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bef9fc950> 
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff425b58410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff423e928d0> [code: interpolation-issues]
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bf4e20e90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9bef9fc210> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -3549,7 +3523,7 @@ minus
 
 * ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
 	 U+0903 [code: non-mark-chars]
-</div></details><br></div></details><details><summary><b>[16] NotoSans[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] NotoSans[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -3643,10 +3617,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
-
-
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni0249' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff4254180d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7ff422fb7a90> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -3677,7 +3647,7 @@ minus
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 6 | 23 | 267 | 2168 | 143 | 1929 | 0 |
+| 6 | 23 | 265 | 2168 | 143 | 1931 | 0 |
 | 0% | 1% | 6% | 48% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:

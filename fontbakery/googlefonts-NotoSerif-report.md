@@ -23,7 +23,6 @@ Fontbakery version: 0.8.11
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -214,7 +213,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -387,7 +385,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -594,7 +591,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -783,7 +779,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -974,7 +969,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1147,7 +1141,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1333,7 +1326,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1498,7 +1490,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -1687,7 +1678,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1864,7 +1854,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -2025,7 +2014,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -2216,7 +2204,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -2389,7 +2376,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -2588,7 +2574,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -2771,7 +2756,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -2944,7 +2928,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -3125,7 +3108,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -3310,7 +3292,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
 
 
@@ -3397,9 +3378,9 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37adec51d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f379e6ae590> 
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f7ce9f10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36ebbeff10> 
 
-	- Contour 2 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37adec51d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f379e6ae590> [code: interpolation-issues]
+	- Contour 2 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f7ce9f10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36ebbeff10> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -3434,7 +3415,6 @@ minus
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 389, but got 293 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
 
 
@@ -3511,27 +3491,27 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0247' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c0150>
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0247' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f6ea3410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f42edb90>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9e5f810>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f6ea3410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f6ea1550>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c2390>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f6ea3410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f42ec4d0>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c2290>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f6ea3410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f42ec890>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c2450>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f6ea3410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f42ec9d0>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c3110>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f6ea3410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f42efdd0>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c2bd0>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f6ea3410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f42edc10>
 
-	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c3110>
+	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f6ea3410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f42efdd0>
 
-	- Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c3110>
+	- Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f6ea3410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f42efdd0>
 
-	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c2bd0> 
+	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f6ea3410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f42edc10> 
 
-	- Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a9823bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f37a86c2bd0> [code: interpolation-issues]
+	- Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f6ea3410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f36f42edc10> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
