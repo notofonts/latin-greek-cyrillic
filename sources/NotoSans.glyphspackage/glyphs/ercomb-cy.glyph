@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 4;
 glyphname = "ercomb-cy";
 layers = (
 {
@@ -18,7 +19,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-121,720);
-ref = "er-cy";
+ref = p;
 scale = (0.45,0.4);
 }
 );
@@ -40,7 +41,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-128,720);
-ref = "er-cy";
+ref = p;
 scale = (0.45,0.4);
 }
 );
@@ -62,7 +63,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-132,720);
-ref = "er-cy";
+ref = p;
 scale = (0.45,0.4);
 }
 );
@@ -84,7 +85,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-135,720);
-ref = "er-cy";
+ref = p;
 scale = (0.45,0.4);
 }
 );
@@ -106,7 +107,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-85,720);
-ref = "er-cy";
+ref = p;
 scale = (0.45,0.4);
 }
 );
@@ -128,7 +129,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-94,720);
-ref = "er-cy";
+ref = p;
 scale = (0.45,0.4);
 }
 );
@@ -150,7 +151,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-103,720);
-ref = "er-cy";
+ref = p;
 scale = (0.45,0.4);
 }
 );
@@ -172,7 +173,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-108,720);
-ref = "er-cy";
+ref = p;
 scale = (0.45,0.4);
 }
 );

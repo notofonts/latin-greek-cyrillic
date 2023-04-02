@@ -435,7 +435,6 @@ nodes = (
 width = 530;
 }
 );
-metricRight = "softsign-cy";
 script = "";
 subCategory = "";
 unicode = 7303;

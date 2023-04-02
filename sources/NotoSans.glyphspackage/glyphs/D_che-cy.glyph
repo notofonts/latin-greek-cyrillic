@@ -619,7 +619,6 @@ nodes = (
 width = 663;
 }
 );
-metricRight = "De-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1324;
