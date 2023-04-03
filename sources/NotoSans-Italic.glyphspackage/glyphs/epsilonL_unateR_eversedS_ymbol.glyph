@@ -1,7 +1,9 @@
 {
 category = Symbol;
-color = 5;
+color = 4;
 glyphname = epsilonLunateReversedSymbol;
+kernLeft = "zhe-cy";
+kernRight = "o-cy";
 layers = (
 {
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
@@ -19,7 +21,7 @@ shapes = (
 ref = "ereversed-cy";
 }
 );
-width = 458;
+width = 475;
 },
 {
 layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
@@ -28,7 +30,7 @@ shapes = (
 ref = "ereversed-cy";
 }
 );
-width = 483;
+width = 477;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
@@ -37,7 +39,7 @@ shapes = (
 ref = "ereversed-cy";
 }
 );
-width = 504;
+width = 476;
 },
 {
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
@@ -46,7 +48,7 @@ shapes = (
 ref = "ereversed-cy";
 }
 );
-width = 281;
+width = 279;
 },
 {
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
@@ -55,7 +57,7 @@ shapes = (
 ref = "ereversed-cy";
 }
 );
-width = 328;
+width = 330;
 },
 {
 layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
@@ -64,7 +66,7 @@ shapes = (
 ref = "ereversed-cy";
 }
 );
-width = 367;
+width = 379;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
@@ -73,9 +75,11 @@ shapes = (
 ref = "ereversed-cy";
 }
 );
-width = 403;
+width = 406;
 }
 );
+metricLeft = "ereversed-cy";
+metricWidth = "ereversed-cy";
 script = greek;
 subCategory = Math;
 unicode = 1014;

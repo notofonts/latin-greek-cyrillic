@@ -563,7 +563,6 @@ nodes = (
 width = 793;
 }
 );
-metricLeft = "Che-cy";
 metricRight = H;
 script = cyrillic;
 subCategory = Uppercase;

@@ -475,7 +475,6 @@ nodes = (
 width = 556;
 }
 );
-metricRight = "dje-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 42635;

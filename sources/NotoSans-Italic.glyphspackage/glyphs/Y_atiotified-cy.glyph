@@ -484,7 +484,6 @@ width = 742;
 }
 );
 metricLeft = H;
-metricRight = "Softsign-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 42578;

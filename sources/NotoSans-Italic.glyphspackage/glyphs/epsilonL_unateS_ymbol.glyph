@@ -1,7 +1,9 @@
 {
 category = Letter;
-color = 5;
+color = 4;
 glyphname = epsilonLunateSymbol;
+kernLeft = "o-cy";
+kernRight = "zhe-cy";
 layers = (
 {
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
@@ -10,7 +12,7 @@ shapes = (
 ref = "e-cy";
 }
 );
-width = 452;
+width = 462;
 },
 {
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
@@ -73,9 +75,11 @@ shapes = (
 ref = "e-cy";
 }
 );
-width = 405;
+width = 395;
 }
 );
+metricLeft = "e-cy";
+metricWidth = "e-cy";
 script = greek;
 subCategory = Lowercase;
 unicode = 1013;
