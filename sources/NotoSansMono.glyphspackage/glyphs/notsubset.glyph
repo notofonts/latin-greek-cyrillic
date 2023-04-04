@@ -9,7 +9,7 @@ shapes = (
 ref = subset;
 },
 {
-pos = (303,0);
+pos = (578,0);
 ref = slashlongcomb;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = subset;
 },
 {
-pos = (306,0);
+pos = (557,0);
 ref = slashlongcomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = subset;
 },
 {
-pos = (306,0);
+pos = (567,0);
 ref = slashlongcomb;
 }
 );
@@ -48,7 +48,7 @@ shapes = (
 ref = subset;
 },
 {
-pos = (306,0);
+pos = (566,0);
 ref = slashlongcomb;
 }
 );
@@ -61,7 +61,7 @@ shapes = (
 ref = subset;
 },
 {
-pos = (303,0);
+pos = (490,0);
 ref = slashlongcomb;
 }
 );
@@ -74,7 +74,7 @@ shapes = (
 ref = subset;
 },
 {
-pos = (306,3);
+pos = (478,3);
 ref = slashlongcomb;
 }
 );
@@ -87,7 +87,7 @@ shapes = (
 ref = subset;
 },
 {
-pos = (293,1);
+pos = (481,1);
 ref = slashlongcomb;
 }
 );
@@ -100,7 +100,7 @@ shapes = (
 ref = subset;
 },
 {
-pos = (285,0);
+pos = (474,0);
 ref = slashlongcomb;
 }
 );
