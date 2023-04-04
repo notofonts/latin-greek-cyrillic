@@ -1,8 +1,9 @@
 {
 category = Letter;
+color = 3;
 glyphname = "Yerudieresis-cy";
-kernLeft = "I-cy";
-kernRight = "I-cy";
+kernLeft = "En-cy";
+kernRight = "En-cy";
 layers = (
 {
 anchors = (
@@ -12,7 +13,7 @@ pos = (344,0);
 },
 {
 name = top;
-pos = (534,896);
+pos = (554,896);
 }
 );
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -23,11 +24,11 @@ ref = "Yeru-cy";
 },
 {
 alignment = -1;
-pos = (146,165);
+pos = (185,165);
 ref = dieresis;
 }
 );
-width = 804;
+width = 841;
 },
 {
 anchors = (
@@ -48,11 +49,11 @@ ref = "Yeru-cy";
 },
 {
 alignment = -1;
-pos = (207,165);
+pos = (228,165);
 ref = dieresis;
 }
 );
-width = 907;
+width = 915;
 },
 {
 anchors = (
@@ -77,7 +78,7 @@ pos = (255,165);
 ref = dieresis;
 }
 );
-width = 987;
+width = 977;
 },
 {
 anchors = (
@@ -98,11 +99,11 @@ ref = "Yeru-cy";
 },
 {
 alignment = -1;
-pos = (290,165);
+pos = (276,165);
 ref = dieresis;
 }
 );
-width = 1046;
+width = 1035;
 },
 {
 anchors = (
@@ -123,11 +124,11 @@ ref = "Yeru-cy";
 },
 {
 alignment = -1;
-pos = (126,165);
+pos = (134,165);
 ref = dieresis;
 }
 );
-width = 648;
+width = 643;
 },
 {
 anchors = (
@@ -152,7 +153,7 @@ pos = (183,165);
 ref = dieresis;
 }
 );
-width = 742;
+width = 740;
 },
 {
 anchors = (
@@ -173,11 +174,11 @@ ref = "Yeru-cy";
 },
 {
 alignment = -1;
-pos = (221,165);
+pos = (213,165);
 ref = dieresis;
 }
 );
-width = 812;
+width = 817;
 },
 {
 anchors = (
@@ -198,13 +199,15 @@ ref = "Yeru-cy";
 },
 {
 alignment = -1;
-pos = (250,165);
+pos = (242,165);
 ref = dieresis;
 }
 );
-width = 865;
+width = 885;
 }
 );
+metricLeft = "En-cy";
+metricRight = "En-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1272;

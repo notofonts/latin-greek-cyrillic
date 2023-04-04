@@ -1,8 +1,9 @@
 {
 category = Letter;
+color = 3;
 glyphname = "Chedieresis-cy";
 kernLeft = "Che-cy";
-kernRight = "I-cy";
+kernRight = "En-cy";
 layers = (
 {
 anchors = (
@@ -23,11 +24,11 @@ ref = "Che-cy";
 },
 {
 alignment = -1;
-pos = (101,165);
+pos = (110,165);
 ref = dieresis;
 }
 );
-width = 758;
+width = 726;
 },
 {
 anchors = (
@@ -48,11 +49,11 @@ ref = "Che-cy";
 },
 {
 alignment = -1;
-pos = (108,165);
+pos = (136,165);
 ref = dieresis;
 }
 );
-width = 739;
+width = 757;
 },
 {
 anchors = (
@@ -73,11 +74,11 @@ ref = "Che-cy";
 },
 {
 alignment = -1;
-pos = (118,165);
+pos = (140,165);
 ref = dieresis;
 }
 );
-width = 755;
+width = 784;
 },
 {
 anchors = (
@@ -98,11 +99,11 @@ ref = "Che-cy";
 },
 {
 alignment = -1;
-pos = (125,165);
+pos = (154,165);
 ref = dieresis;
 }
 );
-width = 767;
+width = 800;
 },
 {
 anchors = (
@@ -123,11 +124,11 @@ ref = "Che-cy";
 },
 {
 alignment = -1;
-pos = (53,165);
+pos = (75,165);
 ref = dieresis;
 }
 );
-width = 534;
+width = 546;
 },
 {
 anchors = (
@@ -148,11 +149,11 @@ ref = "Che-cy";
 },
 {
 alignment = -1;
-pos = (95,165);
+pos = (108,165);
 ref = dieresis;
 }
 );
-width = 595;
+width = 614;
 },
 {
 anchors = (
@@ -173,11 +174,11 @@ ref = "Che-cy";
 },
 {
 alignment = -1;
-pos = (104,165);
+pos = (121,165);
 ref = dieresis;
 }
 );
-width = 614;
+width = 649;
 },
 {
 anchors = (
@@ -198,13 +199,15 @@ ref = "Che-cy";
 },
 {
 alignment = -1;
-pos = (110,165);
+pos = (130,165);
 ref = dieresis;
 }
 );
-width = 628;
+width = 675;
 }
 );
+metricLeft = "Che-cy";
+metricWidth = "Che-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1268;

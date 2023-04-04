@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 3;
 glyphname = Ereversedopen;
 layers = (
 {
@@ -10,7 +11,7 @@ alignment = -1;
 ref = "Ze-cy";
 }
 );
-width = 591;
+width = 555;
 },
 {
 layerId = UUID0;
@@ -20,7 +21,7 @@ alignment = -1;
 ref = "Ze-cy";
 }
 );
-width = 603;
+width = 595;
 },
 {
 layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
@@ -30,7 +31,7 @@ alignment = -1;
 ref = "Ze-cy";
 }
 );
-width = 613;
+width = 621;
 },
 {
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
@@ -40,7 +41,7 @@ alignment = -1;
 ref = "Ze-cy";
 }
 );
-width = 620;
+width = 650;
 },
 {
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
@@ -50,7 +51,7 @@ alignment = -1;
 ref = "Ze-cy";
 }
 );
-width = 448;
+width = 410;
 },
 {
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
@@ -70,7 +71,7 @@ alignment = -1;
 ref = "Ze-cy";
 }
 );
-width = 498;
+width = 510;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
@@ -80,11 +81,11 @@ alignment = -1;
 ref = "Ze-cy";
 }
 );
-width = 508;
+width = 545;
 }
 );
 metricLeft = "Ze-cy";
-metricRight = "Ze-cy";
+metricWidth = "Ze-cy";
 script = latin;
 subCategory = Uppercase;
 unicode = 42923;

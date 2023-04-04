@@ -1,6 +1,8 @@
 {
 category = Letter;
+color = 3;
 glyphname = Btopbar;
+kernLeft = "En-cy";
 layers = (
 {
 anchors = (
@@ -20,149 +22,157 @@ alignment = -1;
 ref = "Be-cy";
 }
 );
-width = 527;
+width = 585;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (245,0);
+pos = (243,0);
 },
 {
 name = top;
-pos = (397,714);
+pos = (395,714);
 }
 );
 layerId = UUID0;
 shapes = (
 {
 alignment = -1;
+pos = (-2,0);
 ref = "Be-cy";
 }
 );
-width = 604;
+width = 630;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (275,0);
+pos = (282,0);
 },
 {
 name = top;
-pos = (427,714);
+pos = (434,714);
 }
 );
 layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
 shapes = (
 {
 alignment = -1;
+pos = (7,0);
 ref = "Be-cy";
 }
 );
-width = 664;
+width = 638;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (297,0);
+pos = (304,0);
 },
 {
 name = top;
-pos = (449,714);
+pos = (456,714);
 }
 );
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
 alignment = -1;
+pos = (7,0);
 ref = "Be-cy";
 }
 );
-width = 708;
+width = 695;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (152.009,0);
+pos = (154,0);
 },
 {
 name = top;
-pos = (304.009,714);
+pos = (306,714);
 }
 );
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
 alignment = -1;
+pos = (2,0);
 ref = "Be-cy";
 }
 );
-width = 447;
+width = 445;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (191,0);
+pos = (204,0);
 },
 {
 name = top;
-pos = (343,714);
+pos = (356,714);
 }
 );
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
 alignment = -1;
+pos = (13,0);
 ref = "Be-cy";
 }
 );
-width = 496;
+width = 502;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (217.01,0);
+pos = (234,0);
 },
 {
 name = top;
-pos = (369.01,714);
+pos = (386,714);
 }
 );
 layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
 shapes = (
 {
 alignment = -1;
+pos = (17,0);
 ref = "Be-cy";
 }
 );
-width = 547;
+width = 549;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (237,0);
+pos = (254,0);
 },
 {
 name = top;
-pos = (389,714);
+pos = (406,714);
 }
 );
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
 alignment = -1;
+pos = (17,0);
 ref = "Be-cy";
 }
 );
-width = 587;
+width = 585;
 }
 );
+metricWidth = "Be-cy";
 script = latin;
 subCategory = Uppercase;
 unicode = 386;

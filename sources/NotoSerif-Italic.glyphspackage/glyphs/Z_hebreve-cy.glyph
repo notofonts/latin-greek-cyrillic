@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 3;
 glyphname = "Zhebreve-cy";
 kernLeft = "Zhe-cy";
 kernRight = "Zhe-cy";
@@ -23,11 +24,11 @@ ref = "Zhe-cy";
 },
 {
 alignment = -1;
-pos = (169,165);
+pos = (246,165);
 ref = cyrillicbreve;
 }
 );
-width = 896;
+width = 952;
 },
 {
 anchors = (
@@ -48,11 +49,11 @@ ref = "Zhe-cy";
 },
 {
 alignment = -1;
-pos = (212,165);
+pos = (388,165);
 ref = cyrillicbreve;
 }
 );
-width = 979;
+width = 980;
 },
 {
 anchors = (
@@ -73,11 +74,11 @@ ref = "Zhe-cy";
 },
 {
 alignment = -1;
-pos = (261,165);
+pos = (381,165);
 ref = cyrillicbreve;
 }
 );
-width = 1044;
+width = 1035;
 },
 {
 anchors = (
@@ -98,11 +99,11 @@ ref = "Zhe-cy";
 },
 {
 alignment = -1;
-pos = (297,165);
+pos = (407,165);
 ref = cyrillicbreve;
 }
 );
-width = 1092;
+width = 1120;
 },
 {
 anchors = (
@@ -123,11 +124,11 @@ ref = "Zhe-cy";
 },
 {
 alignment = -1;
-pos = (109,165);
+pos = (156,165);
 ref = cyrillicbreve;
 }
 );
-width = 684;
+width = 732;
 },
 {
 anchors = (
@@ -148,11 +149,11 @@ ref = "Zhe-cy";
 },
 {
 alignment = -1;
-pos = (187,165);
+pos = (219,165);
 ref = cyrillicbreve;
 }
 );
-width = 797;
+width = 822;
 },
 {
 anchors = (
@@ -173,11 +174,11 @@ ref = "Zhe-cy";
 },
 {
 alignment = -1;
-pos = (226,165);
+pos = (237,165);
 ref = cyrillicbreve;
 }
 );
-width = 855;
+width = 880;
 },
 {
 anchors = (
@@ -198,13 +199,15 @@ ref = "Zhe-cy";
 },
 {
 alignment = -1;
-pos = (256,165);
+pos = (262,165);
 ref = cyrillicbreve;
 }
 );
-width = 900;
+width = 927;
 }
 );
+metricLeft = "Zhe-cy";
+metricWidth = "Zhe-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1217;

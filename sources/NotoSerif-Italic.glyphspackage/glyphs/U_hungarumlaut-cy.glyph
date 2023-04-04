@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 3;
 glyphname = "Uhungarumlaut-cy";
 kernLeft = "U-cy";
 kernRight = "U-cy";
@@ -52,7 +53,7 @@ pos = (195,165);
 ref = hungarumlaut;
 }
 );
-width = 670;
+width = 650;
 },
 {
 anchors = (
@@ -77,7 +78,7 @@ pos = (214,165);
 ref = hungarumlaut;
 }
 );
-width = 694;
+width = 700;
 },
 {
 anchors = (
@@ -102,7 +103,7 @@ pos = (206,165);
 ref = hungarumlaut;
 }
 );
-width = 712;
+width = 710;
 },
 {
 anchors = (
@@ -152,7 +153,7 @@ pos = (172,165);
 ref = hungarumlaut;
 }
 );
-width = 541;
+width = 528;
 },
 {
 anchors = (
@@ -177,7 +178,7 @@ pos = (177,165);
 ref = hungarumlaut;
 }
 );
-width = 565;
+width = 572;
 },
 {
 anchors = (
@@ -202,9 +203,11 @@ pos = (182,165);
 ref = hungarumlaut;
 }
 );
-width = 584;
+width = 600;
 }
 );
+metricLeft = "U-cy";
+metricWidth = "U-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1266;

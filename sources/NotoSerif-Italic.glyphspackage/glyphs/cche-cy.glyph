@@ -845,8 +845,6 @@ nodes = (
 width = 838;
 }
 );
-metricLeft = "che-cy";
-metricRight = "che-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 42631;

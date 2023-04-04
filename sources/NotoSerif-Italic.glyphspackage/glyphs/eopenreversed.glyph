@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 3;
 glyphname = eopenreversed;
 layers = (
 {
@@ -20,7 +21,7 @@ alignment = -1;
 ref = "ze-cy";
 }
 );
-width = 476;
+width = 480;
 },
 {
 anchors = (
@@ -40,7 +41,7 @@ alignment = -1;
 ref = "ze-cy";
 }
 );
-width = 544;
+width = 512;
 },
 {
 anchors = (
@@ -60,7 +61,7 @@ alignment = -1;
 ref = "ze-cy";
 }
 );
-width = 552;
+width = 535;
 },
 {
 anchors = (
@@ -80,7 +81,7 @@ alignment = -1;
 ref = "ze-cy";
 }
 );
-width = 479;
+width = 437;
 },
 {
 anchors = (
@@ -100,7 +101,7 @@ alignment = -1;
 ref = "ze-cy";
 }
 );
-width = 345;
+width = 355;
 },
 {
 anchors = (
@@ -120,7 +121,7 @@ alignment = -1;
 ref = "ze-cy";
 }
 );
-width = 419;
+width = 450;
 },
 {
 anchors = (
@@ -160,9 +161,11 @@ alignment = -1;
 ref = "ze-cy";
 }
 );
-width = 428;
+width = 420;
 }
 );
+metricLeft = "ze-cy";
+metricWidth = "ze-cy";
 script = latin;
 subCategory = Lowercase;
 unicode = 604;

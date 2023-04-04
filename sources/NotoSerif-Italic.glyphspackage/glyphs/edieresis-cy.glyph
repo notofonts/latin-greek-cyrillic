@@ -1,8 +1,9 @@
 {
 category = Letter;
+color = 3;
 glyphname = "edieresis-cy";
 kernLeft = "zhe-cy";
-kernRight = "ve-cy";
+kernRight = "o-cy";
 layers = (
 {
 anchors = (
@@ -27,7 +28,7 @@ pos = (-94,0);
 ref = dieresis;
 }
 );
-width = 403;
+width = 456;
 },
 {
 anchors = (
@@ -52,7 +53,7 @@ pos = (-54,0);
 ref = dieresis;
 }
 );
-width = 478;
+width = 500;
 },
 {
 anchors = (
@@ -73,11 +74,11 @@ ref = "ereversed-cy";
 },
 {
 alignment = -1;
-pos = (-30,0);
+pos = (-44,0);
 ref = dieresis;
 }
 );
-width = 536;
+width = 525;
 },
 {
 anchors = (
@@ -98,11 +99,11 @@ ref = "ereversed-cy";
 },
 {
 alignment = -1;
-pos = (-12,0);
+pos = (-36,0);
 ref = dieresis;
 }
 );
-width = 579;
+width = 545;
 },
 {
 anchors = (
@@ -123,11 +124,11 @@ ref = "ereversed-cy";
 },
 {
 alignment = -1;
-pos = (-74,0);
+pos = (-86,0);
 ref = dieresis;
 }
 );
-width = 345;
+width = 362;
 },
 {
 anchors = (
@@ -148,11 +149,11 @@ ref = "ereversed-cy";
 },
 {
 alignment = -1;
-pos = (-48,0);
+pos = (-70,0);
 ref = dieresis;
 }
 );
-width = 395;
+width = 400;
 },
 {
 anchors = (
@@ -173,11 +174,11 @@ ref = "ereversed-cy";
 },
 {
 alignment = -1;
-pos = (-24,0);
+pos = (-45,0);
 ref = dieresis;
 }
 );
-width = 444;
+width = 442;
 },
 {
 anchors = (
@@ -198,13 +199,15 @@ ref = "ereversed-cy";
 },
 {
 alignment = -1;
-pos = (-6,0);
+pos = (-34,0);
 ref = dieresis;
 }
 );
-width = 481;
+width = 470;
 }
 );
+metricLeft = "ereversed-cy";
+metricWidth = "ereversed-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1261;

@@ -1,6 +1,9 @@
 {
 category = Letter;
+color = 3;
 glyphname = "Aleutka-cy";
+kernLeft = "En-cy";
+kernRight = "Zhe-cy";
 layers = (
 {
 anchors = (
@@ -18,10 +21,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(517,474,l),
-(326,630,l),
-(310,612,l),
-(500,455,l)
+(595,474,l),
+(404,630,l),
+(388,612,l),
+(578,455,l)
 );
 },
 {
@@ -29,7 +32,7 @@ alignment = -1;
 ref = "Ka-cy";
 }
 );
-width = 615;
+width = 660;
 },
 {
 anchors = (
@@ -47,10 +50,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(604,466,l),
-(395,622,l),
-(366,584,l),
-(574,427,l)
+(616,466,l),
+(407,622,l),
+(378,584,l),
+(586,427,l)
 );
 },
 {
@@ -58,7 +61,7 @@ alignment = -1;
 ref = "Ka-cy";
 }
 );
-width = 700;
+width = 704;
 },
 {
 anchors = (
@@ -76,10 +79,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(653,459,l),
-(431,615,l),
-(400,572,l),
-(622,415,l)
+(642,459,l),
+(420,615,l),
+(389,572,l),
+(611,415,l)
 );
 },
 {
@@ -87,7 +90,7 @@ alignment = -1;
 ref = "Ka-cy";
 }
 );
-width = 743;
+width = 730;
 },
 {
 anchors = (
@@ -105,10 +108,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(689,454,l),
-(457,610,l),
-(425,563,l),
-(657,406,l)
+(664,454,l),
+(432,610,l),
+(400,563,l),
+(632,406,l)
 );
 },
 {
@@ -116,7 +119,7 @@ alignment = -1;
 ref = "Ka-cy";
 }
 );
-width = 797;
+width = 770;
 },
 {
 anchors = (
@@ -134,10 +137,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(440,481,l),
-(284,618,l),
-(268,599,l),
-(424,462,l)
+(481,481,l),
+(325,618,l),
+(309,599,l),
+(465,462,l)
 );
 },
 {
@@ -145,7 +148,7 @@ alignment = -1;
 ref = "Ka-cy";
 }
 );
-width = 496;
+width = 505;
 },
 {
 anchors = (
@@ -163,10 +166,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(515,461,l),
-(352,617,l),
-(324,585,l),
-(486,428,l)
+(511,461,l),
+(348,617,l),
+(320,585,l),
+(482,428,l)
 );
 },
 {
@@ -174,7 +177,7 @@ alignment = -1;
 ref = "Ka-cy";
 }
 );
-width = 571;
+width = 568;
 },
 {
 anchors = (
@@ -192,10 +195,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(559,456,l),
-(383,612,l),
-(352,575,l),
-(527,418,l)
+(547,456,l),
+(371,612,l),
+(340,575,l),
+(515,418,l)
 );
 },
 {
@@ -203,7 +206,7 @@ alignment = -1;
 ref = "Ka-cy";
 }
 );
-width = 621;
+width = 616;
 },
 {
 anchors = (
@@ -221,10 +224,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(592,453,l),
-(407,609,l),
-(374,568,l),
-(559,411,l)
+(569,453,l),
+(384,609,l),
+(351,568,l),
+(536,411,l)
 );
 },
 {
@@ -232,11 +235,11 @@ alignment = -1;
 ref = "Ka-cy";
 }
 );
-width = 659;
+width = 646;
 }
 );
 metricLeft = "Ka-cy";
-metricRight = "Ka-cy";
+metricWidth = "Ka-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1310;

@@ -1,6 +1,9 @@
 {
 category = Letter;
+color = 3;
 glyphname = epsilonLunateSymbol;
+kernLeft = "o-cy";
+kernRight = "zhe-cy";
 layers = (
 {
 anchors = (
@@ -40,7 +43,7 @@ alignment = -1;
 ref = "e-cy";
 }
 );
-width = 492;
+width = 488;
 },
 {
 anchors = (
@@ -60,7 +63,7 @@ alignment = -1;
 ref = "e-cy";
 }
 );
-width = 528;
+width = 520;
 },
 {
 anchors = (
@@ -80,7 +83,7 @@ alignment = -1;
 ref = "e-cy";
 }
 );
-width = 555;
+width = 545;
 },
 {
 anchors = (
@@ -100,7 +103,7 @@ alignment = -1;
 ref = "e-cy";
 }
 );
-width = 345;
+width = 355;
 },
 {
 anchors = (
@@ -120,7 +123,7 @@ alignment = -1;
 ref = "e-cy";
 }
 );
-width = 401;
+width = 395;
 },
 {
 anchors = (
@@ -140,7 +143,7 @@ alignment = -1;
 ref = "e-cy";
 }
 );
-width = 433;
+width = 429;
 },
 {
 anchors = (
@@ -160,11 +163,11 @@ alignment = -1;
 ref = "e-cy";
 }
 );
-width = 458;
+width = 455;
 }
 );
 metricLeft = "e-cy";
-metricRight = "e-cy";
+metricWidth = "e-cy";
 script = greek;
 subCategory = Lowercase;
 unicode = 1013;

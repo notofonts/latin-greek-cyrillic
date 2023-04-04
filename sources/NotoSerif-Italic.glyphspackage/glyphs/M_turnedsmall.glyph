@@ -747,8 +747,6 @@ nodes = (
 width = 862;
 }
 );
-metricLeft = "Sha-cy";
-metricRight = "Sha-cy";
 script = latin;
 subCategory = Lowercase;
 unicode = 43002;

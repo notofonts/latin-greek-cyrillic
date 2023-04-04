@@ -1,6 +1,9 @@
 {
 category = Letter;
+color = 3;
 glyphname = "aleutka-cy";
+kernLeft = "en-cy";
+kernRight = "ha-cy";
 layers = (
 {
 anchors = (
@@ -18,10 +21,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(472,326,l),
-(297,517,l),
-(278,501,l),
-(454,309,l)
+(435,306,l),
+(260,497,l),
+(241,481,l),
+(417,289,l)
 );
 },
 {
@@ -29,7 +32,7 @@ alignment = -1;
 ref = "ka-cy";
 }
 );
-width = 571;
+width = 510;
 },
 {
 anchors = (
@@ -47,10 +50,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(492,334,l),
-(321,519,l),
-(285,486,l),
-(456,302,l)
+(477,303,l),
+(306,488,l),
+(270,455,l),
+(441,271,l)
 );
 },
 {
@@ -58,7 +61,7 @@ alignment = -1;
 ref = "ka-cy";
 }
 );
-width = 605;
+width = 580;
 },
 {
 anchors = (
@@ -76,10 +79,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(508,340,l),
-(340,521,l),
-(300,485,l),
-(468,304,l)
+(521,311,l),
+(335,473,l),
+(300,432,l),
+(486,270,l)
 );
 },
 {
@@ -87,7 +90,7 @@ alignment = -1;
 ref = "ka-cy";
 }
 );
-width = 605;
+width = 613;
 },
 {
 anchors = (
@@ -101,16 +104,14 @@ pos = (379,536);
 }
 );
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
-metricLeft = "=afii10076";
-metricRight = "=afii10076";
 shapes = (
 {
 closed = 1;
 nodes = (
-(529,330,l),
-(375,496,l),
-(332,458,l),
-(486,291,l)
+(555,344,l),
+(364,465,l),
+(333,415,l),
+(525,293,l)
 );
 },
 {
@@ -118,7 +119,7 @@ alignment = -1;
 ref = "ka-cy";
 }
 );
-width = 643;
+width = 645;
 },
 {
 anchors = (
@@ -136,10 +137,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(368,353,l),
-(212,490,l),
-(196,471,l),
-(352,334,l)
+(361,339,l),
+(205,476,l),
+(189,457,l),
+(345,320,l)
 );
 },
 {
@@ -147,7 +148,7 @@ alignment = -1;
 ref = "ka-cy";
 }
 );
-width = 402;
+width = 400;
 },
 {
 anchors = (
@@ -165,10 +166,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(421,324,l),
-(296,507,l),
-(263,481,l),
-(388,299,l)
+(397,301,l),
+(263,478,l),
+(230,451,l),
+(364,276,l)
 );
 },
 {
@@ -176,7 +177,7 @@ alignment = -1;
 ref = "ka-cy";
 }
 );
-width = 493;
+width = 465;
 },
 {
 anchors = (
@@ -194,10 +195,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(449,324,l),
-(328,500,l),
-(291,471,l),
-(412,296,l)
+(450,310,l),
+(290,473,l),
+(258,440,l),
+(418,277,l)
 );
 },
 {
@@ -205,7 +206,7 @@ alignment = -1;
 ref = "ka-cy";
 }
 );
-width = 523;
+width = 508;
 },
 {
 anchors = (
@@ -223,10 +224,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(471,324,l),
-(353,494,l),
-(313,464,l),
-(431,293,l)
+(484,338,l),
+(318,461,l),
+(289,420,l),
+(455,297,l)
 );
 },
 {
@@ -234,11 +235,11 @@ alignment = -1;
 ref = "ka-cy";
 }
 );
-width = 546;
+width = 545;
 }
 );
 metricLeft = "ka-cy";
-metricRight = "ka-cy";
+metricWidth = "ka-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1311;

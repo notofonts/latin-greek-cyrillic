@@ -1,8 +1,9 @@
 {
 category = Letter;
+color = 3;
 glyphname = "Idieresis-cy";
-kernLeft = "I-cy";
-kernRight = "I-cy";
+kernLeft = "En-cy";
+kernRight = "En-cy";
 layers = (
 {
 anchors = (
@@ -27,7 +28,7 @@ pos = (141,165);
 ref = dieresis;
 }
 );
-width = 783;
+width = 766;
 },
 {
 anchors = (
@@ -52,7 +53,7 @@ pos = (163,165);
 ref = dieresis;
 }
 );
-width = 803;
+width = 807;
 },
 {
 anchors = (
@@ -77,7 +78,7 @@ pos = (175,165);
 ref = dieresis;
 }
 );
-width = 819;
+width = 825;
 },
 {
 anchors = (
@@ -102,7 +103,7 @@ pos = (184,165);
 ref = dieresis;
 }
 );
-width = 831;
+width = 834;
 },
 {
 anchors = (
@@ -127,7 +128,7 @@ pos = (114,165);
 ref = dieresis;
 }
 );
-width = 612;
+width = 584;
 },
 {
 anchors = (
@@ -152,7 +153,7 @@ pos = (140,165);
 ref = dieresis;
 }
 );
-width = 647;
+width = 642;
 },
 {
 anchors = (
@@ -177,7 +178,7 @@ pos = (150,165);
 ref = dieresis;
 }
 );
-width = 666;
+width = 676;
 },
 {
 anchors = (
@@ -202,9 +203,11 @@ pos = (158,165);
 ref = dieresis;
 }
 );
-width = 681;
+width = 702;
 }
 );
+metricLeft = "Ii-cy";
+metricWidth = "Ii-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1252;
