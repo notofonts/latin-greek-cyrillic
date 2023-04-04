@@ -1,20 +1,11 @@
 {
 category = Letter;
+color = 4;
 glyphname = "zhedieresis-cy";
-kernLeft = "zhe-cy";
-kernRight = "zhe-cy";
+kernLeft = cyr_zhe;
+kernRight = cyr_zhe;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (401,0);
-},
-{
-name = top;
-pos = (401,738);
-}
-);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
@@ -23,174 +14,105 @@ ref = "zhe-cy";
 },
 {
 alignment = -1;
-pos = (113,0);
+pos = (90,0);
 ref = dieresis;
 }
 );
-width = 802;
+width = 756;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (440,0);
-},
-{
-name = top;
-pos = (440,744);
-}
-);
 layerId = UUID0;
 shapes = (
 {
 ref = "zhe-cy";
 },
 {
-pos = (152,0);
+pos = (112,0);
 ref = dieresis;
 }
 );
-width = 880;
+width = 800;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (461,0);
-},
-{
-name = top;
-pos = (461,750);
-}
-);
 layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
 shapes = (
 {
 ref = "zhe-cy";
 },
 {
-pos = (173,0);
+pos = (154,0);
 ref = dieresis;
 }
 );
-width = 922;
+width = 883;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (477,0);
-},
-{
-name = top;
-pos = (477,762);
-}
-);
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
 ref = "zhe-cy";
 },
 {
-pos = (188,0);
+pos = (167,0);
 ref = dieresis;
 }
 );
-width = 943;
+width = 910;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (313,0);
-},
-{
-name = top;
-pos = (313,736);
-}
-);
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
 ref = "zhe-cy";
 },
 {
-pos = (99,0);
+pos = (81,0);
 ref = dieresis;
 }
 );
-width = 626;
+width = 600;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (350,0);
-},
-{
-name = top;
-pos = (350,745);
-}
-);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
 ref = "zhe-cy";
 },
 {
-pos = (124,0);
+pos = (102,0);
 ref = dieresis;
 }
 );
-width = 695;
+width = 660;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (377,0);
-},
-{
-name = top;
-pos = (377,752);
-}
-);
 layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
 shapes = (
 {
 ref = "zhe-cy";
 },
 {
-pos = (143,0);
+pos = (130,0);
 ref = dieresis;
 }
 );
-width = 747;
+width = 729;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (398,0);
-},
-{
-name = top;
-pos = (398,758);
-}
-);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
 ref = "zhe-cy";
 },
 {
-pos = (157,0);
+pos = (158,0);
 ref = dieresis;
 }
 );
-width = 786;
+width = 796;
 }
 );
+metricLeft = "zhe-cy";
 metricWidth = "zhe-cy";
 script = cyrillic;
 subCategory = Lowercase;

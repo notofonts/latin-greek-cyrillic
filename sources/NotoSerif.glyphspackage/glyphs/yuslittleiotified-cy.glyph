@@ -390,7 +390,6 @@ ref = "yuslittle-cy";
 width = 870;
 }
 );
-metricLeft = "en-cy";
 metricRight = "yuslittle-cy";
 script = cyrillic;
 subCategory = Lowercase;

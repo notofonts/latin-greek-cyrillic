@@ -1,6 +1,9 @@
 {
 category = Letter;
+color = 4;
 glyphname = "Yerubackyer-cy";
+kernLeft = cyr_Te;
+kernRight = cyr_En;
 layers = (
 {
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
@@ -15,7 +18,7 @@ pos = (610,0);
 ref = I;
 }
 );
-width = 935;
+width = 933;
 },
 {
 layerId = UUID0;
@@ -67,7 +70,7 @@ pos = (507,0);
 ref = I;
 }
 );
-width = 760;
+width = 759;
 },
 {
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
@@ -80,7 +83,7 @@ pos = (566,0);
 ref = I;
 }
 );
-width = 863;
+width = 864;
 },
 {
 layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
@@ -109,6 +112,7 @@ ref = I;
 width = 998;
 }
 );
+metricLeft = "Hardsign-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 42576;

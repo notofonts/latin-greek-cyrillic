@@ -1,18 +1,11 @@
 {
 category = "";
+color = 4;
 glyphname = "tethreelegged-cy";
+kernLeft = cyr_en;
+kernRight = cyr_en;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (449,0);
-},
-{
-name = top;
-pos = (449,536);
-}
-);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
@@ -21,158 +14,88 @@ pos = (896,536);
 ref = "sha-cy";
 }
 );
-width = 898;
+width = 896;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (473,0);
-},
-{
-name = top;
-pos = (473,536);
-}
-);
 layerId = UUID0;
 shapes = (
 {
 angle = 180;
-pos = (946,536);
+pos = (942,536);
 ref = "sha-cy";
 }
 );
-width = 946;
+width = 942;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (498,0);
-},
-{
-name = top;
-pos = (498,536);
-}
-);
 layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
 shapes = (
 {
 angle = 180;
-pos = (995,536);
+pos = (948,536);
 ref = "sha-cy";
 }
 );
-width = 995;
+width = 948;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (499,0);
-},
-{
-name = top;
-pos = (499,536);
-}
-);
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
 angle = 180;
-pos = (999,536);
+pos = (1001,536);
 ref = "sha-cy";
 }
 );
-width = 998;
+width = 1001;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (344,0);
-},
-{
-name = top;
-pos = (344,536);
-}
-);
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
 angle = 180;
-pos = (688,536);
+pos = (676,536);
 ref = "sha-cy";
 }
 );
-width = 690;
+width = 676;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (375,0);
-},
-{
-name = top;
-pos = (375,536);
-}
-);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
 angle = 180;
-pos = (751,536);
+pos = (726,536);
 ref = "sha-cy";
 }
 );
-width = 752;
+width = 726;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (398,0);
-},
-{
-name = top;
-pos = (398,536);
-}
-);
 layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
 shapes = (
 {
 angle = 180;
-pos = (797,536);
+pos = (798,536);
 ref = "sha-cy";
 }
 );
-width = 797;
+width = 798;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (415,0);
-},
-{
-name = top;
-pos = (415,536);
-}
-);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
 angle = 180;
-pos = (832,536);
+pos = (842,536);
 ref = "sha-cy";
 }
 );
-width = 832;
+width = 842;
 }
 );
 metricLeft = "sha-cy";
-metricRight = "sha-cy";
+metricWidth = "sha-cy";
 script = "";
 subCategory = "";
 unicode = 7301;

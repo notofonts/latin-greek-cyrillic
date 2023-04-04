@@ -3722,6 +3722,9 @@ dialytikaperispomeni.sc,
 varia.sc,
 oxia.sc,
 perispomeni.sc,
+dieresiscomb.loclCYR.cap,
+gravecomb.loclCYR,
+acutecomb.loclCYR,
 uni1AC5,
 uni1AC7,
 uni1AC8,
@@ -3846,5 +3849,6 @@ u1DF1D,
 u1DF1E,
 uniA7D2,
 uniA7D4,
-uni1DF1Adotless
+uni1DF1Adotless,
+cyrillicbreve.cap
 )

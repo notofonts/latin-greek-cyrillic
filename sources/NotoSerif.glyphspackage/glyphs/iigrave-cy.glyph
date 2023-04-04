@@ -1,20 +1,10 @@
 {
-category = Letter;
+color = 3;
 glyphname = "iigrave-cy";
-kernLeft = "ve-cy";
-kernRight = "ii-cy";
+kernLeft = cyr_en;
+kernRight = cyr_en;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (344,0);
-},
-{
-name = top;
-pos = (344,766);
-}
-);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
@@ -23,115 +13,26 @@ ref = "ii-cy";
 },
 {
 alignment = -1;
-pos = (185,0);
-ref = grave;
+pos = (186,0);
+ref = gravecomb.loclCYR;
 }
 );
-width = 688;
+width = 642;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (344,0);
-},
-{
-name = top;
-pos = (344,766);
-}
-);
-layerId = UUID0;
-shapes = (
-{
-ref = "ii-cy";
-},
-{
-pos = (143,0);
-ref = grave;
-}
-);
-width = 688;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (346,0);
-},
-{
-name = top;
-pos = (346,766);
-}
-);
 layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
 shapes = (
 {
 ref = "ii-cy";
 },
 {
-pos = (133,0);
-ref = grave;
+pos = (111,0);
+ref = gravecomb.loclCYR;
 }
 );
-width = 691;
+width = 679;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (347,0);
-},
-{
-name = top;
-pos = (347,766);
-}
-);
-layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
-shapes = (
-{
-ref = "ii-cy";
-},
-{
-pos = (126,0);
-ref = grave;
-}
-);
-width = 712;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (259,0);
-},
-{
-name = top;
-pos = (259,766);
-}
-);
-layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
-shapes = (
-{
-ref = "ii-cy";
-},
-{
-pos = (124,0);
-ref = grave;
-}
-);
-width = 518;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (273,0);
-},
-{
-name = top;
-pos = (273,766);
-}
-);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
@@ -139,60 +40,76 @@ ref = "ii-cy";
 },
 {
 pos = (102,0);
-ref = grave;
+ref = gravecomb.loclCYR;
 }
 );
-width = 551;
+width = 526;
 },
 {
-anchors = (
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
 {
-name = bottom;
-pos = (282,0);
+ref = "ii-cy";
 },
 {
-name = top;
-pos = (282,766);
+pos = (99,0);
+ref = gravecomb.loclCYR;
 }
 );
+width = 710;
+},
+{
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = "ii-cy";
+},
+{
+pos = (117,0);
+ref = gravecomb.loclCYR;
+}
+);
+width = 484;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = "ii-cy";
+},
+{
+pos = (141,0);
+ref = gravecomb.loclCYR;
+}
+);
+width = 675;
+},
+{
 layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
 shapes = (
 {
 ref = "ii-cy";
 },
 {
-pos = (100,0);
-ref = grave;
+pos = (81,0);
+ref = gravecomb.loclCYR;
 }
 );
-width = 575;
+width = 564;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (289,0);
-},
-{
-name = top;
-pos = (289,766);
-}
-);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
 ref = "ii-cy";
 },
 {
-pos = (98,0);
-ref = grave;
+pos = (70,0);
+ref = gravecomb.loclCYR;
 }
 );
-width = 593;
+width = 587;
 }
 );
-metricWidth = "ii-cy";
-script = cyrillic;
-subCategory = Lowercase;
 unicode = 1117;
 }

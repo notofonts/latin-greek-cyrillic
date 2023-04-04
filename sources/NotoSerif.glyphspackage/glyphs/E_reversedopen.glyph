@@ -1,16 +1,18 @@
 {
 category = Letter;
+color = 4;
 glyphname = Ereversedopen;
+kernLeft = cyr_Ze;
+kernRight = cyr_Ve;
 layers = (
 {
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-alignment = -1;
 ref = "Ze-cy";
 }
 );
-width = 543;
+width = 550;
 },
 {
 layerId = UUID0;
@@ -19,7 +21,7 @@ shapes = (
 ref = "Ze-cy";
 }
 );
-width = 603;
+width = 595;
 },
 {
 layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
@@ -28,7 +30,7 @@ shapes = (
 ref = "Ze-cy";
 }
 );
-width = 617;
+width = 621;
 },
 {
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
@@ -37,7 +39,7 @@ shapes = (
 ref = "Ze-cy";
 }
 );
-width = 627;
+width = 650;
 },
 {
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
@@ -46,7 +48,7 @@ shapes = (
 ref = "Ze-cy";
 }
 );
-width = 429;
+width = 410;
 },
 {
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
@@ -55,7 +57,7 @@ shapes = (
 ref = "Ze-cy";
 }
 );
-width = 470;
+width = 485;
 },
 {
 layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
@@ -64,7 +66,7 @@ shapes = (
 ref = "Ze-cy";
 }
 );
-width = 500;
+width = 510;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
@@ -73,9 +75,11 @@ shapes = (
 ref = "Ze-cy";
 }
 );
-width = 523;
+width = 545;
 }
 );
+metricLeft = "Ze-cy";
+metricWidth = "Ze-cy";
 script = latin;
 subCategory = Uppercase;
 unicode = 42923;
