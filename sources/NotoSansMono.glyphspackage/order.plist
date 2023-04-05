@@ -3799,7 +3799,6 @@ wturnedmod,
 lefttackmod,
 righttackmod,
 "paragraph-georgian",
-gravecomb.loclCYR,
 uni1AC5,
 uni1AC7,
 uni1AC8,
@@ -3924,7 +3923,8 @@ u1DF1D,
 u1DF1E,
 uniA7D2,
 uniA7D4,
-cyrillicbreve,
 uni1DF1Adotless,
-cyrillicbreve.cap
+cyrillicbreve,
+cyrillicbreve.cap,
+gravecomb.loclCYR
 )
