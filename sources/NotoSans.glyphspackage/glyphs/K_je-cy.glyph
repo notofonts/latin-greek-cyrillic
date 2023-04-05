@@ -211,6 +211,7 @@ width = 565;
 }
 );
 metricLeft = "Ka-cy";
+metricRight = "Ka-cy";
 metricWidth = "Ka-cy";
 script = cyrillic;
 subCategory = Uppercase;

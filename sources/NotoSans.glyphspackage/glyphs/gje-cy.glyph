@@ -45,7 +45,7 @@ pos = (269,0);
 ref = acutecomb.loclCYR;
 }
 );
-width = 475;
+width = 480;
 },
 {
 layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
@@ -73,7 +73,7 @@ pos = (167,0);
 ref = acutecomb.loclCYR;
 }
 );
-width = 272;
+width = 279;
 },
 {
 layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
@@ -119,7 +119,6 @@ width = 390;
 }
 );
 metricLeft = "ge-cy";
-metricWidth = "ge-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1107;

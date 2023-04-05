@@ -687,6 +687,7 @@ width = 509;
 }
 );
 metricLeft = "Es-cy";
+metricRight = "Es-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1028;

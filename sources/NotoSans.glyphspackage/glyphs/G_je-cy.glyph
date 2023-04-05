@@ -59,7 +59,7 @@ pos = (299,161);
 ref = acutecomb.loclCYR;
 }
 );
-width = 542;
+width = 561;
 },
 {
 layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
@@ -87,7 +87,7 @@ pos = (214,177);
 ref = acutecomb.loclCYR;
 }
 );
-width = 371;
+width = 380;
 },
 {
 layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
@@ -101,7 +101,7 @@ pos = (219,167);
 ref = acutecomb.loclCYR;
 }
 );
-width = 385;
+width = 408;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
@@ -115,11 +115,10 @@ pos = (229,161);
 ref = acutecomb.loclCYR;
 }
 );
-width = 418;
+width = 435;
 }
 );
 metricLeft = "Ge-cy";
-metricWidth = "Ge-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1027;

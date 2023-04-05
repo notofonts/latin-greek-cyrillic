@@ -236,7 +236,7 @@ ref = dieresiscomb.loclCYR.cap;
 width = 443;
 }
 );
-metricLeft = "Ie-cy";
+metricLeft = n/a;
 metricWidth = "Ie-cy";
 script = cyrillic;
 subCategory = Uppercase;

@@ -108,7 +108,7 @@ pos = (1,0);
 ref = T;
 }
 );
-width = 391.17;
+width = 384;
 }
 );
 script = cyrillic;

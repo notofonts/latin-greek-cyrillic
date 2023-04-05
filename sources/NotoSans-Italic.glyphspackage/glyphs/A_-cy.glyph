@@ -180,22 +180,22 @@ width = 570;
 anchors = (
 {
 name = bottom;
-pos = (189,0);
+pos = (190,0);
 },
 {
 name = top;
-pos = (332,716);
+pos = (333,716);
 }
 );
 layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
 shapes = (
 {
 alignment = -1;
-pos = (4,0);
+pos = (5,0);
 ref = A;
 }
 );
-width = 484.42;
+width = 472;
 }
 );
 script = cyrillic;

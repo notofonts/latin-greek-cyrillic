@@ -83,7 +83,7 @@ nodes = (
 ref = "el-cy";
 }
 );
-width = 865;
+width = 810;
 },
 {
 layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
