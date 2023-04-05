@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 4;
 glyphname = "Ushort-cy";
 layers = (
 {
@@ -20,9 +21,8 @@ alignment = -1;
 ref = "U-cy";
 },
 {
-alignment = -1;
-pos = (1,186);
-ref = breve;
+pos = (116,0);
+ref = cyrillicbreve.cap;
 }
 );
 width = 600;
@@ -45,9 +45,8 @@ alignment = -1;
 ref = "U-cy";
 },
 {
-alignment = -1;
-pos = (0,178);
-ref = breve;
+pos = (103,10);
+ref = cyrillicbreve.cap;
 }
 );
 width = 600;
@@ -70,9 +69,8 @@ alignment = -1;
 ref = "U-cy";
 },
 {
-alignment = -1;
-pos = (0,168);
-ref = breve;
+pos = (41,0);
+ref = cyrillicbreve.cap;
 }
 );
 width = 600;
@@ -95,9 +93,8 @@ alignment = -1;
 ref = "U-cy";
 },
 {
-alignment = -1;
-pos = (5,161);
-ref = breve;
+pos = (53,0);
+ref = cyrillicbreve.cap;
 }
 );
 width = 600;
@@ -120,9 +117,8 @@ alignment = -1;
 ref = "U-cy";
 },
 {
-alignment = -1;
-pos = (5,186);
-ref = breve;
+pos = (64,0);
+ref = cyrillicbreve.cap;
 }
 );
 width = 500;
@@ -145,9 +141,8 @@ alignment = -1;
 ref = "U-cy";
 },
 {
-alignment = -1;
-pos = (1,178);
-ref = breve;
+pos = (51,0);
+ref = cyrillicbreve.cap;
 }
 );
 width = 500;
@@ -170,9 +165,8 @@ alignment = -1;
 ref = "U-cy";
 },
 {
-alignment = -1;
-pos = (4,168);
-ref = breve;
+pos = (-2,-6);
+ref = cyrillicbreve.cap;
 }
 );
 width = 500;
@@ -195,9 +189,8 @@ alignment = -1;
 ref = "U-cy";
 },
 {
-alignment = -1;
-pos = (4,161);
-ref = breve;
+pos = (3,-5);
+ref = cyrillicbreve.cap;
 }
 );
 width = 500;

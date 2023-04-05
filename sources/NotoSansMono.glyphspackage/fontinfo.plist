@@ -1,5 +1,5 @@
 {
-.appVersion = "3180";
+.appVersion = "3148";
 .formatVersion = 3;
 axes = (
 {
@@ -4917,6 +4917,7 @@ userData = {
 GSOffsetHorizontal = -26;
 GSOffsetVertical = -26;
 };
+visible = 1;
 },
 {
 axesValues = (

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 4;
 glyphname = "kje-cy";
 layers = (
 {
@@ -20,9 +21,15 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-alignment = -1;
-pos = (330,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(297,606,l),
+(445,759,l),
+(445,766,l),
+(415,766,l),
+(276,612,l),
+(276,606,l)
+);
 }
 );
 width = 600;
@@ -45,9 +52,15 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-alignment = -1;
-pos = (320,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(314,606,l),
+(457,756,l),
+(457,766,l),
+(351,766,l),
+(256,618,l),
+(256,606,l)
+);
 }
 );
 width = 600;
@@ -70,9 +83,15 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-alignment = -1;
-pos = (320,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(335,606,l),
+(496,757,l),
+(496,766,l),
+(338,766,l),
+(239,619,l),
+(239,606,l)
+);
 }
 );
 width = 600;
@@ -95,9 +114,15 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-alignment = -1;
-pos = (310,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(323,606,l),
+(499,756,l),
+(499,766,l),
+(303,766,l),
+(200,620,l),
+(200,606,l)
+);
 }
 );
 width = 600;
@@ -120,9 +145,15 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-alignment = -1;
-pos = (280,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(239,596,l),
+(366,746,l),
+(366,753,l),
+(336,753,l),
+(225,608,l),
+(225,596,l)
+);
 }
 );
 width = 500;
@@ -145,9 +176,15 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-alignment = -1;
-pos = (270,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(241,606,l),
+(372,757,l),
+(372,766,l),
+(279,766,l),
+(189,617,l),
+(189,606,l)
+);
 }
 );
 width = 500;
@@ -170,9 +207,15 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-alignment = -1;
-pos = (263,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(270,608,l),
+(408,759,l),
+(408,768,l),
+(259,768,l),
+(177,621,l),
+(177,608,l)
+);
 }
 );
 width = 500;
@@ -195,9 +238,15 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-alignment = -1;
-pos = (260,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(262,606,l),
+(403,756,l),
+(403,766,l),
+(221,766,l),
+(143,620,l),
+(143,606,l)
+);
 }
 );
 width = 500;

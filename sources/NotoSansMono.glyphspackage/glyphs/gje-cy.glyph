@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 4;
 glyphname = "gje-cy";
 layers = (
 {
@@ -20,9 +21,15 @@ alignment = -1;
 ref = "ge-cy";
 },
 {
-alignment = -1;
-pos = (320,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(298,606,l),
+(446,759,l),
+(446,766,l),
+(416,766,l),
+(277,612,l),
+(277,606,l)
+);
 }
 );
 width = 600;
@@ -45,9 +52,15 @@ alignment = -1;
 ref = "ge-cy";
 },
 {
-alignment = -1;
-pos = (331,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(343,606,l),
+(486,756,l),
+(486,766,l),
+(380,766,l),
+(285,618,l),
+(285,606,l)
+);
 }
 );
 width = 600;
@@ -70,9 +83,15 @@ alignment = -1;
 ref = "ge-cy";
 },
 {
-alignment = -1;
-pos = (330,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(343,606,l),
+(504,757,l),
+(504,766,l),
+(346,766,l),
+(247,619,l),
+(247,606,l)
+);
 }
 );
 width = 600;
@@ -95,9 +114,15 @@ alignment = -1;
 ref = "ge-cy";
 },
 {
-alignment = -1;
-pos = (342,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(368,606,l),
+(544,756,l),
+(544,766,l),
+(348,766,l),
+(245,620,l),
+(245,606,l)
+);
 }
 );
 width = 600;
@@ -120,9 +145,15 @@ alignment = -1;
 ref = "ge-cy";
 },
 {
-alignment = -1;
-pos = (289,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(272,596,l),
+(399,746,l),
+(399,753,l),
+(369,753,l),
+(258,608,l),
+(258,596,l)
+);
 }
 );
 width = 500;
@@ -145,9 +176,15 @@ alignment = -1;
 ref = "ge-cy";
 },
 {
-alignment = -1;
-pos = (277,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(271,606,l),
+(402,757,l),
+(402,766,l),
+(309,766,l),
+(219,617,l),
+(219,606,l)
+);
 }
 );
 width = 500;
@@ -170,9 +207,15 @@ alignment = -1;
 ref = "ge-cy";
 },
 {
-alignment = -1;
-pos = (275,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(292,608,l),
+(430,759,l),
+(430,768,l),
+(281,768,l),
+(199,621,l),
+(199,608,l)
+);
 }
 );
 width = 500;
@@ -195,9 +238,15 @@ alignment = -1;
 ref = "ge-cy";
 },
 {
-alignment = -1;
-pos = (250,0);
-ref = acutecomb;
+closed = 1;
+nodes = (
+(292,606,l),
+(433,756,l),
+(433,766,l),
+(251,766,l),
+(173,620,l),
+(173,606,l)
+);
 }
 );
 width = 500;

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 4;
 glyphname = "zedescender-cy";
 layers = (
 {
@@ -21,7 +22,7 @@ ref = "ze-cy";
 },
 {
 alignment = -1;
-pos = (30,0);
+pos = (-9,0);
 ref = cyrillichookleft;
 }
 );
@@ -121,7 +122,7 @@ ref = "ze-cy";
 },
 {
 alignment = -1;
-pos = (10,0);
+pos = (-1,0);
 ref = cyrillichookleft;
 }
 );
