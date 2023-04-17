@@ -23,7 +23,7 @@ ref = s;
 },
 {
 alignment = -1;
-pos = (95,0);
+pos = (55,0);
 ref = caron;
 }
 );
@@ -48,7 +48,7 @@ ref = s;
 },
 {
 alignment = -1;
-pos = (15,0);
+pos = (40,0);
 ref = caron;
 }
 );
