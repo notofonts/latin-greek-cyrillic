@@ -36,7 +36,8 @@ shapes = (
 ref = epsilon;
 },
 {
-pos = (230,0);
+alignment = -1;
+pos = (130,0);
 ref = dasia;
 }
 );

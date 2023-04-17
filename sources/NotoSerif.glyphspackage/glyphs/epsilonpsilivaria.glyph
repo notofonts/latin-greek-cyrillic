@@ -36,7 +36,7 @@ shapes = (
 ref = epsilon;
 },
 {
-pos = (182,0);
+pos = (82,0);
 ref = psilivaria;
 }
 );
