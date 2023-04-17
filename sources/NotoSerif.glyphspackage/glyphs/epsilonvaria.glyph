@@ -36,7 +36,7 @@ shapes = (
 ref = epsilon;
 },
 {
-pos = (233,0);
+pos = (133,0);
 ref = varia;
 }
 );
