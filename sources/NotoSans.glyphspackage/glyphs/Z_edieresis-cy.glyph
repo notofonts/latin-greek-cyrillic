@@ -1,11 +1,21 @@
 {
 category = Letter;
-color = 5;
+color = 4;
 glyphname = "Zedieresis-cy";
 kernLeft = "Ze-cy";
 kernRight = "Ve-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (269,0);
+},
+{
+name = top;
+pos = (265,895);
+}
+);
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {
@@ -20,6 +30,16 @@ ref = dieresis;
 width = 554;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (286,0);
+},
+{
+name = top;
+pos = (257,908);
+}
+);
 layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
 shapes = (
 {
@@ -27,13 +47,23 @@ ref = "Ze-cy";
 },
 {
 alignment = -1;
-pos = (-3,178);
+pos = (-33,178);
 ref = dieresis;
 }
 );
 width = 577;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (291,0);
+},
+{
+name = top;
+pos = (288,920);
+}
+);
 layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
 shapes = (
 {
@@ -41,13 +71,23 @@ ref = "Ze-cy";
 },
 {
 alignment = -1;
-pos = (20,168);
+pos = (-15,168);
 ref = dieresis;
 }
 );
 width = 593;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (305,0);
+},
+{
+name = top;
+pos = (300,928);
+}
+);
 layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
 shapes = (
 {
@@ -55,13 +95,23 @@ ref = "Ze-cy";
 },
 {
 alignment = -1;
-pos = (20,161);
+pos = (-10,161);
 ref = dieresis;
 }
 );
 width = 612;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (180,0);
+},
+{
+name = top;
+pos = (154,861);
+}
+);
 layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
 shapes = (
 {
@@ -76,6 +126,16 @@ ref = dieresis;
 width = 360;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (212,0);
+},
+{
+name = top;
+pos = (184,883);
+}
+);
 layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
 shapes = (
 {
@@ -83,13 +143,23 @@ ref = "Ze-cy";
 },
 {
 alignment = -1;
-pos = (-71,165);
+pos = (-78,165);
 ref = dieresis;
 }
 );
 width = 414;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (249,0);
+},
+{
+name = top;
+pos = (221,913);
+}
+);
 layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
 shapes = (
 {
@@ -104,6 +174,16 @@ ref = dieresis;
 width = 470;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (247,0);
+},
+{
+name = top;
+pos = (226,932);
+}
+);
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
 shapes = (
 {
@@ -111,7 +191,7 @@ ref = "Ze-cy";
 },
 {
 alignment = -1;
-pos = (10,165);
+pos = (-4,165);
 ref = dieresis;
 }
 );

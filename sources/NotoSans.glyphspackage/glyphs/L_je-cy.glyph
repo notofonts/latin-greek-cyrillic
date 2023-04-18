@@ -6,6 +6,20 @@ kernLeft = "El-cy";
 kernRight = "Hardsign-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (514,0);
+},
+{
+name = center;
+pos = (495,352);
+},
+{
+name = top;
+pos = (514,714);
+}
+);
 background = {
 shapes = (
 {
@@ -96,6 +110,20 @@ nodes = (
 width = 1034;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (393,0);
+},
+{
+name = center;
+pos = (381,352);
+},
+{
+name = top;
+pos = (393,714);
+}
+);
 background = {
 shapes = (
 {
@@ -207,6 +235,20 @@ nodes = (
 width = 788;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (534,0);
+},
+{
+name = center;
+pos = (504,351);
+},
+{
+name = top;
+pos = (534,714);
+}
+);
 background = {
 shapes = (
 {
@@ -297,6 +339,20 @@ nodes = (
 width = 1010;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (498,0);
+},
+{
+name = center;
+pos = (479,351);
+},
+{
+name = top;
+pos = (498,714);
+}
+);
 background = {
 shapes = (
 {
@@ -387,6 +443,20 @@ nodes = (
 width = 1010;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (526,0);
+},
+{
+name = center;
+pos = (517,352);
+},
+{
+name = top;
+pos = (526,714);
+}
+);
 background = {
 anchors = (
 {
@@ -508,6 +578,20 @@ nodes = (
 width = 1032;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (391,0);
+},
+{
+name = center;
+pos = (368,354);
+},
+{
+name = top;
+pos = (391,714);
+}
+);
 background = {
 shapes = (
 {
@@ -593,6 +677,20 @@ nodes = (
 width = 708;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (370,0);
+},
+{
+name = center;
+pos = (351,353);
+},
+{
+name = top;
+pos = (370,714);
+}
+);
 background = {
 shapes = (
 {
@@ -703,6 +801,20 @@ nodes = (
 width = 722;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (422,0);
+},
+{
+name = center;
+pos = (413,352);
+},
+{
+name = top;
+pos = (422,714);
+}
+);
 background = {
 shapes = (
 {

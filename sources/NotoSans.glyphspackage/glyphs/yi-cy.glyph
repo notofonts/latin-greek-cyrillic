@@ -6,6 +6,16 @@ kernLeft = "yi-cy";
 kernRight = "yi-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (156,0);
+},
+{
+name = top;
+pos = (156,758);
+}
+);
 background = {
 shapes = (
 {
@@ -79,6 +89,16 @@ nodes = (
 width = 305;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (121,0);
+},
+{
+name = top;
+pos = (121,760);
+}
+);
 background = {
 shapes = (
 {
@@ -186,6 +206,16 @@ nodes = (
 width = 244;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (101,0);
+},
+{
+name = top;
+pos = (103,710);
+}
+);
 background = {
 shapes = (
 {
@@ -264,6 +294,16 @@ nodes = (
 width = 207;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (128,0);
+},
+{
+name = top;
+pos = (129,737);
+}
+);
 background = {
 shapes = (
 {
@@ -339,6 +379,16 @@ nodes = (
 width = 258;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (175,0);
+},
+{
+name = top;
+pos = (174,775);
+}
+);
 background = {
 shapes = (
 {
@@ -446,6 +496,16 @@ nodes = (
 width = 325;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (80,0);
+},
+{
+name = top;
+pos = (82,714);
+}
+);
 background = {
 shapes = (
 {
@@ -533,6 +593,16 @@ nodes = (
 width = 166;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (106,0);
+},
+{
+name = top;
+pos = (106,736);
+}
+);
 background = {
 shapes = (
 {
@@ -598,6 +668,16 @@ nodes = (
 width = 211;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (132,0);
+},
+{
+name = top;
+pos = (132,774);
+}
+);
 background = {
 shapes = (
 {
@@ -619,13 +699,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-place = (163, 170);
-place = (163, 170);
-type = Stem;
-}
-);
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
 shapes = (
 {

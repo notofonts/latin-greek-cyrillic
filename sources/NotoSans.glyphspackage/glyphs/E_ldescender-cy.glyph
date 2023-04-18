@@ -5,6 +5,16 @@ glyphname = "Eldescender-cy";
 kernLeft = "El-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (333,-175);
+},
+{
+name = top;
+pos = (333,714);
+}
+);
 background = {
 shapes = (
 {
@@ -69,6 +79,16 @@ ref = "El-cy";
 width = 683;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (354,-192);
+},
+{
+name = top;
+pos = (354,714);
+}
+);
 background = {
 shapes = (
 {
@@ -118,12 +138,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(595,0,l),
-(595,-192,l),
 (682,-192,l),
 (682,77,l),
 (585,77,l),
-(547,0,l)
+(547,0,l),
+(595,0,l),
+(595,-192,l)
 );
 },
 {
@@ -133,6 +153,16 @@ ref = "El-cy";
 width = 703;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (373,-209);
+},
+{
+name = top;
+pos = (373,714);
+}
+);
 background = {
 shapes = (
 {
@@ -182,12 +212,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(620,0,l),
-(620,-209,l),
 (766,-209,l),
 (766,125,l),
 (609,125,l),
-(544,0,l)
+(544,0,l),
+(620,0,l),
+(620,-209,l)
 );
 },
 {
@@ -197,6 +227,16 @@ ref = "El-cy";
 width = 786;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (381,-222);
+},
+{
+name = top;
+pos = (381,714);
+}
+);
 background = {
 shapes = (
 {
@@ -246,12 +286,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(641,0,l),
-(641,-222,l),
 (829,-222,l),
 (829,158,l),
 (629,158,l),
-(545,0,l)
+(545,0,l),
+(641,0,l),
+(641,-222,l)
 );
 },
 {
@@ -261,6 +301,16 @@ ref = "El-cy";
 width = 847;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (213,-173);
+},
+{
+name = top;
+pos = (213,714);
+}
+);
 background = {
 shapes = (
 {
@@ -310,12 +360,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(432,0,l),
-(432,-173,l),
 (458,-173,l),
 (458,25,l),
 (408,25,l),
-(398,0,l)
+(398,0,l),
+(432,0,l),
+(432,-173,l)
 );
 },
 {
@@ -325,6 +375,16 @@ ref = "El-cy";
 width = 485;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (250,-190);
+},
+{
+name = top;
+pos = (250,714);
+}
+);
 background = {
 shapes = (
 {
@@ -374,12 +434,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(429,0,l),
-(429,-190,l),
 (509,-190,l),
 (509,74,l),
 (422,74,l),
-(386,0,l)
+(386,0,l),
+(429,0,l),
+(429,-190,l)
 );
 },
 {
@@ -389,6 +449,16 @@ ref = "El-cy";
 width = 532;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (284,-206);
+},
+{
+name = top;
+pos = (284,714);
+}
+);
 background = {
 shapes = (
 {
@@ -438,12 +508,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(485,0,l),
-(485,-206,l),
 (615,-206,l),
 (615,116,l),
 (476,116,l),
-(418,0,l)
+(418,0,l),
+(485,0,l),
+(485,-206,l)
 );
 },
 {
@@ -453,6 +523,16 @@ ref = "El-cy";
 width = 634;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (305,-216);
+},
+{
+name = top;
+pos = (305,714);
+}
+);
 background = {
 shapes = (
 {
@@ -502,12 +582,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(520,0,l),
-(520,-216,l),
 (682,-216,l),
 (682,143,l),
 (510,143,l),
-(438,0,l)
+(438,0,l),
+(520,0,l),
+(520,-216,l)
 );
 },
 {

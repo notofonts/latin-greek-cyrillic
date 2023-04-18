@@ -6,6 +6,20 @@ kernLeft = "Zhe-cy";
 kernRight = "Zhe-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (497,0);
+},
+{
+name = center;
+pos = (497,357);
+},
+{
+name = top;
+pos = (497,714);
+}
+);
 background = {
 shapes = (
 {
@@ -104,6 +118,20 @@ nodes = (
 width = 997;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (371,0);
+},
+{
+name = center;
+pos = (371,357);
+},
+{
+name = top;
+pos = (371,714);
+}
+);
 annotations = (
 {
 pos = (4239.769,21);
@@ -177,6 +205,20 @@ nodes = (
 width = 743;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (409,0);
+},
+{
+name = center;
+pos = (409,357);
+},
+{
+name = top;
+pos = (409,714);
+}
+);
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {
@@ -227,6 +269,20 @@ nodes = (
 width = 820;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (452,0);
+},
+{
+name = center;
+pos = (452,357);
+},
+{
+name = top;
+pos = (452,714);
+}
+);
 background = {
 shapes = (
 {
@@ -312,6 +368,20 @@ nodes = (
 width = 905;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (530,0);
+},
+{
+name = center;
+pos = (530,357);
+},
+{
+name = top;
+pos = (530,714);
+}
+);
 background = {
 shapes = (
 {
@@ -379,6 +449,20 @@ nodes = (
 width = 1060;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (275,0);
+},
+{
+name = center;
+pos = (275,357);
+},
+{
+name = top;
+pos = (275,714);
+}
+);
 background = {
 shapes = (
 {
@@ -464,6 +548,20 @@ nodes = (
 width = 548;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (314,0);
+},
+{
+name = center;
+pos = (314,357);
+},
+{
+name = top;
+pos = (314,714);
+}
+);
 background = {
 shapes = (
 {
@@ -549,6 +647,20 @@ nodes = (
 width = 627;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (405,0);
+},
+{
+name = center;
+pos = (405,357);
+},
+{
+name = top;
+pos = (405,714);
+}
+);
 background = {
 shapes = (
 {

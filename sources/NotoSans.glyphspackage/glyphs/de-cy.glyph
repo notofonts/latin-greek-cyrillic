@@ -6,6 +6,20 @@ kernLeft = "de-cy";
 kernRight = "de-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (316,-140);
+},
+{
+name = center;
+pos = (323,175);
+},
+{
+name = top;
+pos = (324,546);
+}
+);
 background = {
 shapes = (
 {
@@ -91,6 +105,20 @@ nodes = (
 width = 637;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (266,-122);
+},
+{
+name = center;
+pos = (263,175);
+},
+{
+name = top;
+pos = (266,547);
+}
+);
 background = {
 shapes = (
 {
@@ -176,6 +204,20 @@ nodes = (
 width = 534;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (279,-140);
+},
+{
+name = center;
+pos = (272,176);
+},
+{
+name = top;
+pos = (275,528);
+}
+);
 background = {
 shapes = (
 {
@@ -260,6 +302,20 @@ nodes = (
 width = 567;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (304,-140);
+},
+{
+name = center;
+pos = (294,175);
+},
+{
+name = top;
+pos = (295,536);
+}
+);
 background = {
 shapes = (
 {
@@ -345,6 +401,20 @@ nodes = (
 width = 607;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (337,-140);
+},
+{
+name = center;
+pos = (338,175);
+},
+{
+name = top;
+pos = (339,553);
+}
+);
 background = {
 shapes = (
 {
@@ -430,6 +500,20 @@ nodes = (
 width = 678;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (208,-134);
+},
+{
+name = center;
+pos = (200,177);
+},
+{
+name = top;
+pos = (209,527);
+}
+);
 background = {
 shapes = (
 {
@@ -515,6 +599,20 @@ nodes = (
 width = 419;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (232,-120);
+},
+{
+name = center;
+pos = (228,175);
+},
+{
+name = top;
+pos = (235,537);
+}
+);
 background = {
 shapes = (
 {
@@ -600,6 +698,20 @@ nodes = (
 width = 466;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (291,-125);
+},
+{
+name = center;
+pos = (293,175);
+},
+{
+name = top;
+pos = (294,553);
+}
+);
 background = {
 anchors = (
 {

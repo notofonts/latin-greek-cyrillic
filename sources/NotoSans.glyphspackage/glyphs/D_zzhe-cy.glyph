@@ -6,6 +6,16 @@ kernLeft = "De-cy";
 kernRight = "Zhe-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (722,-150);
+},
+{
+name = top;
+pos = (721,714);
+}
+);
 background = {
 anchors = (
 {
@@ -107,6 +117,16 @@ ref = "Ka-cy";
 width = 1315;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (745,-158);
+},
+{
+name = top;
+pos = (745,714);
+}
+);
 background = {
 anchors = (
 {
@@ -208,6 +228,16 @@ ref = "Ka-cy";
 width = 1410;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (783,-148);
+},
+{
+name = top;
+pos = (783,714);
+}
+);
 background = {
 anchors = (
 {
@@ -309,6 +339,16 @@ ref = "Ka-cy";
 width = 1520;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (816,-160);
+},
+{
+name = top;
+pos = (816,714);
+}
+);
 background = {
 anchors = (
 {
@@ -410,6 +450,16 @@ ref = "Ka-cy";
 width = 1578;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (496,-145);
+},
+{
+name = top;
+pos = (496,714);
+}
+);
 background = {
 anchors = (
 {
@@ -511,6 +561,16 @@ ref = "Ka-cy";
 width = 859;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (544,-143);
+},
+{
+name = top;
+pos = (544,714);
+}
+);
 background = {
 anchors = (
 {
@@ -612,6 +672,16 @@ ref = "Ka-cy";
 width = 1007;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (608,-141);
+},
+{
+name = top;
+pos = (608,714);
+}
+);
 background = {
 anchors = (
 {
@@ -713,6 +783,16 @@ ref = "Ka-cy";
 width = 1169;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (655,-153);
+},
+{
+name = top;
+pos = (655,714);
+}
+);
 background = {
 anchors = (
 {
