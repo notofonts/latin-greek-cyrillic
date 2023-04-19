@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "Iegrave-cy";
 kernLeft = "Nje-cy";
 kernRight = "Ie-cy";
@@ -13,7 +13,7 @@ pos = (295,0);
 },
 {
 name = top;
-pos = (305,952);
+pos = (312,952);
 }
 );
 layerId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
@@ -34,7 +34,7 @@ width = 600;
 anchors = (
 {
 name = bottom;
-pos = (300,0);
+pos = (305,0);
 },
 {
 name = top;
@@ -63,7 +63,7 @@ pos = (303,0);
 },
 {
 name = top;
-pos = (301,934);
+pos = (305,934);
 }
 );
 layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
@@ -88,7 +88,7 @@ pos = (295,0);
 },
 {
 name = top;
-pos = (289,927);
+pos = (300,927);
 }
 );
 layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
@@ -113,7 +113,7 @@ pos = (201,0);
 },
 {
 name = top;
-pos = (216,929);
+pos = (250,919);
 }
 );
 layerId = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
@@ -138,7 +138,7 @@ pos = (221,0);
 },
 {
 name = top;
-pos = (216,930);
+pos = (253,916);
 }
 );
 layerId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
@@ -163,7 +163,7 @@ pos = (228,0);
 },
 {
 name = top;
-pos = (224,928);
+pos = (253,928);
 }
 );
 layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
@@ -188,7 +188,7 @@ pos = (233,0);
 },
 {
 name = top;
-pos = (229,927);
+pos = (253,918);
 }
 );
 layerId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
@@ -204,214 +204,6 @@ ref = gravecomb.loclCYR;
 }
 );
 width = 500;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (278,0);
-},
-{
-name = top;
-pos = (287,952);
-}
-);
-associatedMasterId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
-layerId = "5730C1EC-9214-4CF1-8C9D-8EA2F4B27C8B";
-name = "Display Light";
-shapes = (
-{
-alignment = -1;
-ref = E;
-},
-{
-alignment = -1;
-pos = (137,186);
-ref = grave;
-}
-);
-width = 518;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (283,0);
-},
-{
-name = top;
-pos = (287,944);
-}
-);
-associatedMasterId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
-layerId = "313BA902-FC8F-42B0-AE6B-ADFBAA2FDA89";
-name = "Display Regular";
-shapes = (
-{
-ref = E;
-},
-{
-pos = (122,178);
-ref = grave;
-}
-);
-width = 523;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (282,0);
-},
-{
-name = top;
-pos = (278,934);
-}
-);
-associatedMasterId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
-layerId = "D627B40E-03E0-454F-8F3E-EDA524393BAB";
-name = "Display SemiBold";
-shapes = (
-{
-ref = E;
-},
-{
-pos = (66,168);
-ref = grave;
-}
-);
-width = 521;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (274,0);
-},
-{
-name = top;
-pos = (266,927);
-}
-);
-associatedMasterId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
-layerId = "218D4D03-8B97-4235-8237-88740C02A2D9";
-name = "Display Bold";
-shapes = (
-{
-ref = E;
-},
-{
-pos = (34,161);
-ref = grave;
-}
-);
-width = 510;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (196,0);
-},
-{
-name = top;
-pos = (210,929);
-}
-);
-associatedMasterId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
-layerId = "159F6D57-AD6F-4480-A3D3-53787156BFBF";
-name = "Display Light Condensed";
-shapes = (
-{
-alignment = -1;
-ref = E;
-},
-{
-alignment = -1;
-pos = (37,166);
-ref = grave;
-}
-);
-width = 370;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (214,0);
-},
-{
-name = top;
-pos = (210,930);
-}
-);
-associatedMasterId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
-layerId = "C29A8A0B-90DB-456F-ADDF-E0EEB7C067B5";
-name = "Display Condensed";
-shapes = (
-{
-alignment = -1;
-ref = E;
-},
-{
-alignment = -1;
-pos = (25,164);
-ref = grave;
-}
-);
-width = 391;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (222,0);
-},
-{
-name = top;
-pos = (218,928);
-}
-);
-associatedMasterId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
-layerId = "B9F273D9-749F-4B06-8601-98300144F34F";
-name = "Display SemiBold Condensed";
-shapes = (
-{
-alignment = -1;
-ref = E;
-},
-{
-alignment = -1;
-pos = (19,162);
-ref = grave;
-}
-);
-width = 416;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (227,0);
-},
-{
-name = top;
-pos = (223,927);
-}
-);
-associatedMasterId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
-layerId = "65B90406-ED2A-4DD8-9DDB-6093FE4450A5";
-name = "Display Bold Condensed";
-shapes = (
-{
-ref = E;
-},
-{
-pos = (16,161);
-ref = grave;
-}
-);
-width = 432;
 }
 );
 metricWidth = "=E";

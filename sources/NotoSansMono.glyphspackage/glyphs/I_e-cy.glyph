@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "Ie-cy";
 layers = (
 {
@@ -11,7 +11,7 @@ pos = (300,0);
 },
 {
 name = top;
-pos = (310,714);
+pos = (313,714);
 }
 );
 layerId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
@@ -51,7 +51,7 @@ pos = (300,0);
 },
 {
 name = top;
-pos = (300,714);
+pos = (305,714);
 }
 );
 layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
@@ -111,7 +111,7 @@ pos = (250,0);
 },
 {
 name = top;
-pos = (250,714);
+pos = (253,714);
 }
 );
 layerId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
@@ -131,7 +131,7 @@ pos = (250,0);
 },
 {
 name = top;
-pos = (250,714);
+pos = (253,714);
 }
 );
 layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
@@ -151,7 +151,7 @@ pos = (250,0);
 },
 {
 name = top;
-pos = (250,714);
+pos = (253,714);
 }
 );
 layerId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";

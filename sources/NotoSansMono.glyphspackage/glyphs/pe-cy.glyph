@@ -266,41 +266,6 @@ nodes = (
 }
 );
 width = 500;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (302,0);
-},
-{
-name = bottomright;
-pos = (580,0);
-},
-{
-name = top;
-pos = (302,536);
-}
-);
-associatedMasterId = UUID0;
-layerId = "69B7275E-D5EE-4EA3-A515-7E7AF05D7510";
-name = "10. 11. 22 12:40";
-shapes = (
-{
-closed = 1;
-nodes = (
-(165,0,l),
-(165,464,l),
-(436,464,l),
-(436,0,l),
-(520,0,l),
-(520,537,l),
-(80,537,l),
-(80,0,l)
-);
-}
-);
-width = 600;
 }
 );
 metricLeft = n;

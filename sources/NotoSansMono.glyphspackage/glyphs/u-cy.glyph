@@ -463,28 +463,6 @@ nodes = (
 }
 );
 width = 500;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (300,-245);
-},
-{
-name = top;
-pos = (300,553);
-}
-);
-associatedMasterId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
-layerId = "52C92FED-1022-4228-9165-0A0C3A4F7FCD";
-name = "28. 11. 22 21:34";
-shapes = (
-{
-alignment = -1;
-ref = y;
-}
-);
-width = 600;
 }
 );
 script = cyrillic;
