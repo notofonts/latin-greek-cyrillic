@@ -1,10 +1,20 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "elsoft-cy";
 kernLeft = "el-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (245,0);
+},
+{
+name = top;
+pos = (357,528);
+}
+);
 background = {
 anchors = (
 {
@@ -76,8 +86,8 @@ nodes = (
 (504,503,l),
 (662,503,l),
 (668,528,l),
-(484,528,l),
-(372,0,l)
+(488,528,l),
+(376,0,l)
 );
 },
 {
@@ -87,6 +97,16 @@ ref = "el-cy";
 width = 624;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (259,0);
+},
+{
+name = top;
+pos = (373,536);
+}
+);
 background = {
 anchors = (
 {
@@ -158,8 +178,8 @@ nodes = (
 (528,466,l),
 (730,466,l),
 (745,536,l),
-(455,536,l),
-(340,0,l)
+(475,536,l),
+(360,0,l)
 );
 },
 {
@@ -169,6 +189,16 @@ ref = "el-cy";
 width = 707;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (274,0);
+},
+{
+name = top;
+pos = (390,546);
+}
+);
 background = {
 anchors = (
 {
@@ -240,8 +270,8 @@ nodes = (
 (569,425,l),
 (784,425,l),
 (810,546,l),
-(449,546,l),
-(333,0,l)
+(479,546,l),
+(363,0,l)
 );
 },
 {
@@ -251,6 +281,16 @@ ref = "el-cy";
 width = 778;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (283,0);
+},
+{
+name = top;
+pos = (401,553);
+}
+);
 background = {
 anchors = (
 {
@@ -322,8 +362,8 @@ nodes = (
 (594,414,l),
 (787,414,l),
 (816,553,l),
-(438,553,l),
-(321,0,l)
+(468,553,l),
+(351,0,l)
 );
 },
 {
@@ -333,6 +373,16 @@ ref = "el-cy";
 width = 787;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (146,0);
+},
+{
+name = top;
+pos = (258,526);
+}
+);
 background = {
 anchors = (
 {
@@ -404,8 +454,8 @@ nodes = (
 (350,501,l),
 (494,501,l),
 (499,526,l),
-(333,526,l),
-(220,0,l)
+(337,526,l),
+(224,0,l)
 );
 },
 {
@@ -415,6 +465,16 @@ ref = "el-cy";
 width = 445;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (169,0);
+},
+{
+name = top;
+pos = (283,536);
+}
+);
 background = {
 anchors = (
 {
@@ -486,8 +546,8 @@ nodes = (
 (395,468,l),
 (539,468,l),
 (554,536,l),
-(334,536,l),
-(219,0,l)
+(364,536,l),
+(249,0,l)
 );
 },
 {
@@ -497,6 +557,16 @@ ref = "el-cy";
 width = 509;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (203,0);
+},
+{
+name = top;
+pos = (319,545);
+}
+);
 background = {
 anchors = (
 {
@@ -579,6 +649,16 @@ ref = "el-cy";
 width = 583;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (227,0);
+},
+{
+name = top;
+pos = (345,553);
+}
+);
 background = {
 anchors = (
 {
@@ -650,8 +730,8 @@ nodes = (
 (503,418,l),
 (651,418,l),
 (680,553,l),
-(373,553,l),
-(255,0,l)
+(413,553,l),
+(295,0,l)
 );
 },
 {

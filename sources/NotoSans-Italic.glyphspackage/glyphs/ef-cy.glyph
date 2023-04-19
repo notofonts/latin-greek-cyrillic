@@ -1,11 +1,25 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "ef-cy";
 kernLeft = "o-cy";
 kernRight = "o-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (197,-240);
+},
+{
+name = center;
+pos = (303,260);
+},
+{
+name = top;
+pos = (407,760);
+}
+);
 background = {
 shapes = (
 {
@@ -90,6 +104,20 @@ nodes = (
 width = 607;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (264,-240);
+},
+{
+name = center;
+pos = (370,260);
+},
+{
+name = top;
+pos = (475,760);
+}
+);
 background = {
 shapes = (
 {
@@ -213,6 +241,20 @@ nodes = (
 width = 743;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (305,-240);
+},
+{
+name = center;
+pos = (411,260);
+},
+{
+name = top;
+pos = (515,760);
+}
+);
 background = {
 shapes = (
 {
@@ -297,6 +339,20 @@ nodes = (
 width = 827;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (95,-240);
+},
+{
+name = center;
+pos = (201,260);
+},
+{
+name = top;
+pos = (305,760);
+}
+);
 background = {
 shapes = (
 {
@@ -417,6 +473,20 @@ nodes = (
 width = 402;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (148,-240);
+},
+{
+name = center;
+pos = (254,260);
+},
+{
+name = top;
+pos = (360,760);
+}
+);
 background = {
 shapes = (
 {
@@ -501,6 +571,20 @@ nodes = (
 width = 507;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (236,-240);
+},
+{
+name = center;
+pos = (342,260);
+},
+{
+name = top;
+pos = (448,757);
+}
+);
 background = {
 shapes = (
 {
@@ -570,7 +654,7 @@ nodes = (
 (387,110,l),
 (458,448,l),
 (471,501,l),
-(527,758,l),
+(527,757,l),
 (368,757,l),
 (316,517,l),
 (305,448,l),
@@ -621,6 +705,20 @@ nodes = (
 width = 690;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (227,-240);
+},
+{
+name = center;
+pos = (333,260);
+},
+{
+name = top;
+pos = (439,760);
+}
+);
 background = {
 shapes = (
 {
@@ -710,6 +808,20 @@ nodes = (
 width = 670;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (202,-240);
+},
+{
+name = center;
+pos = (308,260);
+},
+{
+name = top;
+pos = (414,758);
+}
+);
 layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
 shapes = (
 {
@@ -720,7 +832,7 @@ nodes = (
 (332,84,l),
 (412,467,l),
 (423,511,l),
-(477,759,l),
+(477,758,l),
 (350,758,l),
 (299,521,l),
 (290,467,l),

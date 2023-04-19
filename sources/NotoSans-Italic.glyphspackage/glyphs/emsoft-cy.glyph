@@ -1,10 +1,20 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "emsoft-cy";
 kernLeft = "en-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (277,0);
+},
+{
+name = top;
+pos = (390,528);
+}
+);
 background = {
 anchors = (
 {
@@ -77,6 +87,16 @@ ref = "em-cy";
 width = 780;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (312,0);
+},
+{
+name = top;
+pos = (426,536);
+}
+);
 background = {
 anchors = (
 {
@@ -149,6 +169,16 @@ ref = "em-cy";
 width = 912;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (326,0);
+},
+{
+name = top;
+pos = (443,546);
+}
+);
 background = {
 anchors = (
 {
@@ -221,6 +251,16 @@ ref = "em-cy";
 width = 928;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (357,0);
+},
+{
+name = top;
+pos = (475,553);
+}
+);
 background = {
 anchors = (
 {
@@ -293,6 +333,16 @@ ref = "em-cy";
 width = 996;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (171,0);
+},
+{
+name = top;
+pos = (283,526);
+}
+);
 background = {
 anchors = (
 {
@@ -365,6 +415,16 @@ ref = "em-cy";
 width = 535;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (212,0);
+},
+{
+name = top;
+pos = (326,536);
+}
+);
 background = {
 anchors = (
 {
@@ -437,6 +497,16 @@ ref = "em-cy";
 width = 640;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (245,0);
+},
+{
+name = top;
+pos = (361,545);
+}
+);
 background = {
 anchors = (
 {
@@ -509,6 +579,16 @@ ref = "em-cy";
 width = 717;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (266,0);
+},
+{
+name = top;
+pos = (383,553);
+}
+);
 background = {
 anchors = (
 {

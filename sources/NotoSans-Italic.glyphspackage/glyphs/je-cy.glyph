@@ -1,11 +1,21 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "je-cy";
 kernLeft = "je-cy";
 kernRight = "je-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (-93,-240);
+},
+{
+name = top;
+pos = (193,711);
+}
+);
 background = {
 shapes = (
 {
@@ -80,6 +90,16 @@ nodes = (
 width = 196;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (-44,-240);
+},
+{
+name = top;
+pos = (248,760);
+}
+);
 background = {
 shapes = (
 {
@@ -106,7 +126,7 @@ nodes = (
 (147,-59,cs),
 (276,546,l),
 (129,546,l),
-(5,-37,l),
+(5,-37,ls),
 (-7,-95,o),
 (-39,-120,o),
 (-79,-120,cs),
@@ -140,6 +160,16 @@ nodes = (
 width = 288;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (-28,-240);
+},
+{
+name = top;
+pos = (265,777);
+}
+);
 background = {
 shapes = (
 {
@@ -226,6 +256,16 @@ nodes = (
 width = 314;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (-99,-240);
+},
+{
+name = top;
+pos = (177,715);
+}
+);
 background = {
 shapes = (
 {
@@ -294,9 +334,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(143,664,o),
-(147,647,o),
-(164,647,cs),
 (178,647,o),
 (186,659,o),
 (190,678,cs),
@@ -305,13 +342,26 @@ nodes = (
 (173,715,cs),
 (160,715,o),
 (151,704,o),
-(147,684,cs)
+(147,684,cs),
+(143,664,o),
+(147,647,o),
+(164,647,cs)
 );
 }
 );
 width = 161;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (-78,-240);
+},
+{
+name = top;
+pos = (196,737);
+}
+);
 background = {
 shapes = (
 {
@@ -377,6 +427,16 @@ nodes = (
 width = 193;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (-51,-240);
+},
+{
+name = top;
+pos = (239,772);
+}
+);
 background = {
 shapes = (
 {
@@ -437,6 +497,16 @@ nodes = (
 width = 258;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (-64,-240);
+},
+{
+name = top;
+pos = (223,736);
+}
+);
 background = {
 shapes = (
 {
@@ -505,6 +575,9 @@ nodes = (
 {
 closed = 1;
 nodes = (
+(237,625,o),
+(258,644,o),
+(264,676,cs),
 (271,714,o),
 (252,737,o),
 (217,737,cs),
@@ -513,16 +586,23 @@ nodes = (
 (162,686,cs),
 (155,648,o),
 (172,625,o),
-(208,625,cs),
-(237,625,o),
-(258,644,o),
-(264,676,cs)
+(208,625,cs)
 );
 }
 );
 width = 248;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (-64,-240);
+},
+{
+name = top;
+pos = (221,762);
+}
+);
 background = {
 shapes = (
 {

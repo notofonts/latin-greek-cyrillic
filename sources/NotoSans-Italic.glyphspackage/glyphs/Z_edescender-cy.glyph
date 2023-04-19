@@ -1,11 +1,21 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "Zedescender-cy";
 kernLeft = "Ze-cy";
 kernRight = "Ve-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (167,-217);
+},
+{
+name = top;
+pos = (307,714);
+}
+);
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
@@ -20,6 +30,16 @@ ref = "Ze-cy";
 width = 511;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (148,-217);
+},
+{
+name = top;
+pos = (324,714);
+}
+);
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
@@ -34,6 +54,16 @@ ref = "Ze-cy";
 width = 522;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (188,-240);
+},
+{
+name = top;
+pos = (352,714);
+}
+);
 layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
 shapes = (
 {
@@ -48,6 +78,16 @@ ref = "Ze-cy";
 width = 569;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (186,-256);
+},
+{
+name = top;
+pos = (371,714);
+}
+);
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
@@ -62,6 +102,16 @@ ref = "Ze-cy";
 width = 580;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (41,-214);
+},
+{
+name = top;
+pos = (243,714);
+}
+);
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
@@ -76,6 +126,16 @@ ref = "Ze-cy";
 width = 344;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (66,-224);
+},
+{
+name = top;
+pos = (280,714);
+}
+);
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
@@ -90,6 +150,16 @@ ref = "Ze-cy";
 width = 401;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (106,-232);
+},
+{
+name = top;
+pos = (304,714);
+}
+);
 layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
 shapes = (
 {
@@ -104,6 +174,16 @@ ref = "Ze-cy";
 width = 447;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (126,-240);
+},
+{
+name = top;
+pos = (320,714);
+}
+);
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {

@@ -1,10 +1,20 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "eldescender-cy";
 kernLeft = "el-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (175,-174);
+},
+{
+name = top;
+pos = (357,528);
+}
+);
 background = {
 anchors = (
 {
@@ -87,6 +97,16 @@ ref = "el-cy";
 width = 548;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (189,-186);
+},
+{
+name = top;
+pos = (373,536);
+}
+);
 background = {
 anchors = (
 {
@@ -169,6 +189,16 @@ ref = "el-cy";
 width = 573;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (204,-196);
+},
+{
+name = top;
+pos = (390,546);
+}
+);
 background = {
 anchors = (
 {
@@ -251,6 +281,16 @@ ref = "el-cy";
 width = 618;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (213,-202);
+},
+{
+name = top;
+pos = (401,553);
+}
+);
 background = {
 anchors = (
 {
@@ -333,6 +373,16 @@ ref = "el-cy";
 width = 661;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (86,-172);
+},
+{
+name = top;
+pos = (258,526);
+}
+);
 background = {
 anchors = (
 {
@@ -415,6 +465,16 @@ ref = "el-cy";
 width = 368;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (109,-185);
+},
+{
+name = top;
+pos = (283,536);
+}
+);
 background = {
 anchors = (
 {
@@ -497,6 +557,16 @@ ref = "el-cy";
 width = 418;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (133,-194);
+},
+{
+name = top;
+pos = (319,545);
+}
+);
 background = {
 anchors = (
 {
@@ -579,6 +649,16 @@ ref = "el-cy";
 width = 494;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (157,-203);
+},
+{
+name = top;
+pos = (345,553);
+}
+);
 background = {
 anchors = (
 {

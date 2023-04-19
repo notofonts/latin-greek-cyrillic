@@ -3760,6 +3760,7 @@ omegadasiaperispomeniypogegrammeni.sc.ad.ss06,
 omegaperispomeniypogegrammeni.sc.ad.ss06,
 anoteleia.sc,
 minus,
+cyrillicbreve.cap,
 tonos.case,
 psili.case,
 koronis.case,
@@ -3922,6 +3923,5 @@ u1DF1D,
 u1DF1E,
 uniA7D2,
 uniA7D4,
-uni1DF1Adotless,
-cyrillicbreve.cap
+uni1DF1Adotless
 )

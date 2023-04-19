@@ -1,11 +1,29 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "Che-cy";
 kernLeft = "Che-cy";
 kernRight = "En-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (229,0);
+},
+{
+name = bottomright;
+pos = (29,0);
+},
+{
+name = center;
+pos = (305,357);
+},
+{
+name = top;
+pos = (381,714);
+}
+);
 background = {
 shapes = (
 {
@@ -70,6 +88,24 @@ nodes = (
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (262,0);
+},
+{
+name = bottomright;
+pos = (77,0);
+},
+{
+name = center;
+pos = (338,357);
+},
+{
+name = top;
+pos = (414,714);
+}
+);
 background = {
 shapes = (
 {
@@ -134,6 +170,24 @@ nodes = (
 width = 660;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (267,0);
+},
+{
+name = bottomright;
+pos = (86,0);
+},
+{
+name = center;
+pos = (343,357);
+},
+{
+name = top;
+pos = (419,714);
+}
+);
 background = {
 shapes = (
 {
@@ -188,6 +242,24 @@ nodes = (
 width = 674;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (141,0);
+},
+{
+name = bottomright;
+pos = (7,0);
+},
+{
+name = center;
+pos = (217,357);
+},
+{
+name = top;
+pos = (293,714);
+}
+);
 background = {
 shapes = (
 {
@@ -252,6 +324,24 @@ nodes = (
 width = 414;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (171,0);
+},
+{
+name = bottomright;
+pos = (38,0);
+},
+{
+name = center;
+pos = (247,357);
+},
+{
+name = top;
+pos = (323,714);
+}
+);
 background = {
 anchors = (
 {
@@ -330,6 +420,24 @@ nodes = (
 width = 467;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (196,0);
+},
+{
+name = bottomright;
+pos = (60,0);
+},
+{
+name = center;
+pos = (272,357);
+},
+{
+name = top;
+pos = (348,714);
+}
+);
 background = {
 shapes = (
 {
@@ -394,6 +502,24 @@ nodes = (
 width = 527;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (243,0);
+},
+{
+name = bottomright;
+pos = (57,0);
+},
+{
+name = center;
+pos = (319,357);
+},
+{
+name = top;
+pos = (395,714);
+}
+);
 background = {
 shapes = (
 {
@@ -448,6 +574,24 @@ nodes = (
 width = 623;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (188,0);
+},
+{
+name = bottomright;
+pos = (52,0);
+},
+{
+name = center;
+pos = (264,357);
+},
+{
+name = top;
+pos = (340,714);
+}
+);
 background = {
 shapes = (
 {

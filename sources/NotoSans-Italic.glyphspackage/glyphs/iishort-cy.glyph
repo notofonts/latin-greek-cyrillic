@@ -1,11 +1,21 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "iishort-cy";
 kernLeft = "ii-cy";
 kernRight = "en-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (212,0);
+},
+{
+name = top;
+pos = (358,733);
+}
+);
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
@@ -19,6 +29,16 @@ ref = cyrillicbreve;
 width = 542;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (237,0);
+},
+{
+name = top;
+pos = (390,770);
+}
+);
 background = {
 shapes = (
 {
@@ -43,6 +63,16 @@ ref = cyrillicbreve;
 width = 595;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (241,0);
+},
+{
+name = top;
+pos = (395,785);
+}
+);
 background = {
 anchors = (
 {
@@ -131,6 +161,16 @@ ref = cyrillicbreve;
 width = 606;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (117,0);
+},
+{
+name = top;
+pos = (259,708);
+}
+);
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
@@ -144,6 +184,16 @@ ref = cyrillicbreve;
 width = 349;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (144,0);
+},
+{
+name = top;
+pos = (288,737);
+}
+);
 background = {
 shapes = (
 {
@@ -166,6 +216,16 @@ ref = cyrillicbreve;
 width = 405;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (182,0);
+},
+{
+name = top;
+pos = (339,785);
+}
+);
 background = {
 shapes = (
 {
@@ -191,6 +251,16 @@ ref = cyrillicbreve;
 width = 488;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (225,0);
+},
+{
+name = top;
+pos = (374,745);
+}
+);
 background = {
 anchors = (
 {
@@ -279,6 +349,16 @@ ref = cyrillicbreve;
 width = 569;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (167,0);
+},
+{
+name = top;
+pos = (314,764);
+}
+);
 layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
 shapes = (
 {

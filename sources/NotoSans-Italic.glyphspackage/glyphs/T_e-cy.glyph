@@ -1,11 +1,21 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "Te-cy";
 kernLeft = "Te-cy";
 kernRight = "Te-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (209,0);
+},
+{
+name = top;
+pos = (361,714);
+}
+);
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
@@ -17,6 +27,16 @@ ref = T;
 width = 529;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (208,0);
+},
+{
+name = top;
+pos = (360,714);
+}
+);
 background = {
 shapes = (
 {
@@ -37,6 +57,16 @@ ref = T;
 width = 519;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (210,0);
+},
+{
+name = top;
+pos = (352,714);
+}
+);
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
@@ -48,6 +78,16 @@ ref = T;
 width = 522;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (90,0);
+},
+{
+name = top;
+pos = (242,714);
+}
+);
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
@@ -59,6 +99,16 @@ ref = T;
 width = 291;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (111,0);
+},
+{
+name = top;
+pos = (262,714);
+}
+);
 background = {
 shapes = (
 {
@@ -79,6 +129,16 @@ ref = T;
 width = 332;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (160,0);
+},
+{
+name = top;
+pos = (311,714);
+}
+);
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
@@ -89,6 +149,16 @@ ref = T;
 width = 429;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (206,0);
+},
+{
+name = top;
+pos = (358,714);
+}
+);
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
@@ -100,6 +170,16 @@ ref = T;
 width = 523;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (136,0);
+},
+{
+name = top;
+pos = (288,714);
+}
+);
 layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
 shapes = (
 {

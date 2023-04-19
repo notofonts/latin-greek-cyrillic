@@ -1,11 +1,21 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "Pe-cy";
 kernLeft = "En-cy";
 kernRight = "En-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (278,0);
+},
+{
+name = top;
+pos = (429,714);
+}
+);
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
@@ -25,6 +35,16 @@ nodes = (
 width = 666;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (282,0);
+},
+{
+name = top;
+pos = (434,714);
+}
+);
 background = {
 shapes = (
 {
@@ -65,6 +85,16 @@ nodes = (
 width = 680;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (283,0);
+},
+{
+name = top;
+pos = (434,714);
+}
+);
 background = {
 shapes = (
 {
@@ -101,6 +131,16 @@ nodes = (
 width = 683;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (159,0);
+},
+{
+name = top;
+pos = (311,714);
+}
+);
 background = {
 shapes = (
 {
@@ -137,6 +177,16 @@ nodes = (
 width = 430;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (181,0);
+},
+{
+name = top;
+pos = (332,714);
+}
+);
 background = {
 anchors = (
 {
@@ -183,6 +233,16 @@ nodes = (
 width = 475;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (219,0);
+},
+{
+name = top;
+pos = (370,714);
+}
+);
 background = {
 shapes = (
 {
@@ -219,6 +279,16 @@ nodes = (
 width = 554;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (277,0);
+},
+{
+name = top;
+pos = (428,714);
+}
+);
 background = {
 shapes = (
 {
@@ -259,6 +329,16 @@ nodes = (
 width = 666;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (205,0);
+},
+{
+name = top;
+pos = (356,714);
+}
+);
 layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
 shapes = (
 {

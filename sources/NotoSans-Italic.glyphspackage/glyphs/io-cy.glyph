@@ -1,11 +1,21 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "io-cy";
 kernLeft = "o-cy";
 kernRight = "ie-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (210,0);
+},
+{
+name = top;
+pos = (345,711);
+}
+);
 background = {
 anchors = (
 {
@@ -102,6 +112,16 @@ ref = dieresiscomb.loclCYR;
 width = 484;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (236,0);
+},
+{
+name = top;
+pos = (367,749);
+}
+);
 background = {
 shapes = (
 {
@@ -127,6 +147,16 @@ ref = dieresiscomb.loclCYR;
 width = 524;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (247,0);
+},
+{
+name = top;
+pos = (372,759);
+}
+);
 background = {
 shapes = (
 {
@@ -154,6 +184,16 @@ ref = dieresiscomb.loclCYR;
 width = 544;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (135,0);
+},
+{
+name = top;
+pos = (267,707);
+}
+);
 background = {
 shapes = (
 {
@@ -179,6 +219,16 @@ ref = dieresiscomb.loclCYR;
 width = 313;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (154,0);
+},
+{
+name = top;
+pos = (286,723);
+}
+);
 background = {
 anchors = (
 {
@@ -223,6 +273,16 @@ ref = dieresiscomb.loclCYR;
 width = 359;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (192,0);
+},
+{
+name = top;
+pos = (327,763);
+}
+);
 background = {
 shapes = (
 {
@@ -248,6 +308,16 @@ ref = dieresiscomb.loclCYR;
 width = 448;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (221,0);
+},
+{
+name = top;
+pos = (347,726);
+}
+);
 background = {
 shapes = (
 {
@@ -280,6 +350,16 @@ ref = dieresiscomb.loclCYR;
 width = 491;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (176,0);
+},
+{
+name = top;
+pos = (313,748);
+}
+);
 layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
 shapes = (
 {

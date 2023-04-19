@@ -1,5 +1,5 @@
 {
-category = "";
+category = Mark;
 color = 4;
 glyphname = cyrillicbreve;
 layers = (
@@ -546,6 +546,6 @@ nodes = (
 width = 305;
 }
 );
-script = "";
-subCategory = "";
+script = cyrillic;
+subCategory = Nonspacing;
 }

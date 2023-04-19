@@ -1,11 +1,25 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "Elsoft-cy";
 kernLeft = "El-cy";
 kernRight = "Te-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (312,0);
+},
+{
+name = center;
+pos = (386,351);
+},
+{
+name = top;
+pos = (464,714);
+}
+);
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
@@ -24,6 +38,20 @@ ref = "El-cy";
 width = 801;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (324,0);
+},
+{
+name = center;
+pos = (398,351);
+},
+{
+name = top;
+pos = (476,714);
+}
+);
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
@@ -42,6 +70,20 @@ ref = "El-cy";
 width = 850;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (333,0);
+},
+{
+name = center;
+pos = (408,352);
+},
+{
+name = top;
+pos = (485,714);
+}
+);
 layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
 shapes = (
 {
@@ -60,6 +102,20 @@ ref = "El-cy";
 width = 851;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (337,0);
+},
+{
+name = center;
+pos = (412,352);
+},
+{
+name = top;
+pos = (489,714);
+}
+);
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
@@ -78,6 +134,20 @@ ref = "El-cy";
 width = 857;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (194,0);
+},
+{
+name = center;
+pos = (269,355);
+},
+{
+name = top;
+pos = (346,714);
+}
+);
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
@@ -96,6 +166,20 @@ ref = "El-cy";
 width = 483;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (220,0);
+},
+{
+name = center;
+pos = (296,354);
+},
+{
+name = top;
+pos = (372,714);
+}
+);
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
@@ -114,6 +198,20 @@ ref = "El-cy";
 width = 554;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (248,0);
+},
+{
+name = center;
+pos = (323,353);
+},
+{
+name = top;
+pos = (400,714);
+}
+);
 layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
 shapes = (
 {
@@ -132,6 +230,20 @@ ref = "El-cy";
 width = 640;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (271,0);
+},
+{
+name = center;
+pos = (346,352);
+},
+{
+name = top;
+pos = (423,714);
+}
+);
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {

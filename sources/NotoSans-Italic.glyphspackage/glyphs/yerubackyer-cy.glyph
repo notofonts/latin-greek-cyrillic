@@ -1,10 +1,20 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "yerubackyer-cy";
 kernRight = "en-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (324.02,0);
+},
+{
+name = top;
+pos = (436.25,528);
+}
+);
 background = {
 shapes = (
 {
@@ -89,6 +99,16 @@ ref = "yeru-cy";
 width = 704;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (393.57,0);
+},
+{
+name = top;
+pos = (507.5,536);
+}
+);
 background = {
 shapes = (
 {
@@ -173,6 +193,16 @@ ref = "yeru-cy";
 width = 816;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (456.444,0);
+},
+{
+name = top;
+pos = (572.5,546);
+}
+);
 background = {
 shapes = (
 {
@@ -257,6 +287,16 @@ ref = "yeru-cy";
 width = 916;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (471.456,0);
+},
+{
+name = top;
+pos = (589,553);
+}
+);
 background = {
 shapes = (
 {
@@ -341,6 +381,16 @@ ref = "yeru-cy";
 width = 958;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (201.695,0);
+},
+{
+name = top;
+pos = (313.5,526);
+}
+);
 background = {
 shapes = (
 {
@@ -425,6 +475,16 @@ ref = "yeru-cy";
 width = 479;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (264,0);
+},
+{
+name = top;
+pos = (378,536);
+}
+);
 background = {
 shapes = (
 {
@@ -509,6 +569,16 @@ ref = "yeru-cy";
 width = 593;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (323.907,0);
+},
+{
+name = top;
+pos = (439.75,545);
+}
+);
 background = {
 shapes = (
 {
@@ -593,6 +663,16 @@ ref = "yeru-cy";
 width = 701;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (362.956,0);
+},
+{
+name = top;
+pos = (480.5,553);
+}
+);
 background = {
 shapes = (
 {

@@ -1,11 +1,25 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "tse-cy";
 kernLeft = "ii-cy";
 kernRight = "tse-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (180,-140);
+},
+{
+name = center;
+pos = (247,176);
+},
+{
+name = top;
+pos = (325,528);
+}
+);
 background = {
 shapes = (
 {
@@ -90,6 +104,20 @@ nodes = (
 width = 563;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (209,-134);
+},
+{
+name = center;
+pos = (281,206);
+},
+{
+name = top;
+pos = (354,546);
+}
+);
 background = {
 shapes = (
 {
@@ -154,6 +182,20 @@ nodes = (
 width = 612;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (204,-151);
+},
+{
+name = center;
+pos = (279,201);
+},
+{
+name = top;
+pos = (354,553);
+}
+);
 background = {
 shapes = (
 {
@@ -246,6 +288,20 @@ nodes = (
 width = 622;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (87,-134);
+},
+{
+name = center;
+pos = (157,196);
+},
+{
+name = top;
+pos = (228,526);
+}
+);
 background = {
 shapes = (
 {
@@ -330,6 +386,20 @@ nodes = (
 width = 357;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (119,-120);
+},
+{
+name = center;
+pos = (188,208);
+},
+{
+name = top;
+pos = (258,536);
+}
+);
 annotations = (
 {
 pos = (137,286);
@@ -432,6 +502,20 @@ nodes = (
 width = 418;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (157,-125);
+},
+{
+name = center;
+pos = (229,214);
+},
+{
+name = top;
+pos = (301,553);
+}
+);
 background = {
 anchors = (
 {
@@ -525,6 +609,20 @@ nodes = (
 width = 515;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (196,-140);
+},
+{
+name = center;
+pos = (268,198);
+},
+{
+name = top;
+pos = (338,536);
+}
+);
 background = {
 shapes = (
 {
@@ -589,6 +687,20 @@ nodes = (
 width = 594;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (142,-123);
+},
+{
+name = center;
+pos = (213,212);
+},
+{
+name = top;
+pos = (284,545);
+}
+);
 layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
 shapes = (
 {
@@ -600,12 +712,12 @@ nodes = (
 (416,105,o),
 (408,105,cs),
 (382,105,o),
-(373,123,o),
+(374,123,o),
 (384,170,cs),
 (463,546,l),
 (336,546,l),
 (269,235,ls),
-(252,152,o),
+(251,152,o),
 (224,105,o),
 (186,105,cs),
 (153,105,o),

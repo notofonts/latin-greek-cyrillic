@@ -1,11 +1,21 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "Iegrave-cy";
 kernLeft = "En-cy";
 kernRight = "Ie-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (209,0);
+},
+{
+name = top;
+pos = (415,952);
+}
+);
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
@@ -19,6 +29,16 @@ ref = gravecomb.loclCYR;
 width = 530;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (240,0);
+},
+{
+name = top;
+pos = (394,934);
+}
+);
 background = {
 shapes = (
 {
@@ -45,6 +65,16 @@ ref = gravecomb.loclCYR;
 width = 530;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (252,0);
+},
+{
+name = top;
+pos = (425,927);
+}
+);
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
@@ -58,6 +88,16 @@ ref = gravecomb.loclCYR;
 width = 545;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (113,0);
+},
+{
+name = top;
+pos = (283,954);
+}
+);
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
@@ -71,6 +111,16 @@ ref = gravecomb.loclCYR;
 width = 338;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (127,0);
+},
+{
+name = top;
+pos = (300,950);
+}
+);
 background = {
 shapes = (
 {
@@ -116,6 +166,16 @@ ref = gravecomb.loclCYR;
 width = 364;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (154,0);
+},
+{
+name = top;
+pos = (331,927);
+}
+);
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
@@ -129,6 +189,16 @@ ref = gravecomb.loclCYR;
 width = 415;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (229,0);
+},
+{
+name = top;
+pos = (405,944);
+}
+);
 background = {
 shapes = (
 {
@@ -154,6 +224,16 @@ ref = gravecomb.loclCYR;
 width = 507;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (144,0);
+},
+{
+name = top;
+pos = (323,934);
+}
+);
 layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
 shapes = (
 {

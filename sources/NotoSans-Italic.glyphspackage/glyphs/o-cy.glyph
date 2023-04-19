@@ -1,11 +1,21 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "o-cy";
 kernLeft = "o-cy";
 kernRight = "o-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (221,0);
+},
+{
+name = top;
+pos = (333,528);
+}
+);
 background = {
 shapes = (
 {
@@ -84,6 +94,16 @@ nodes = (
 width = 552;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (228,0);
+},
+{
+name = top;
+pos = (344,546);
+}
+);
 background = {
 shapes = (
 {
@@ -162,6 +182,16 @@ nodes = (
 width = 570;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (229,0);
+},
+{
+name = top;
+pos = (346,553);
+}
+);
 background = {
 shapes = (
 {
@@ -223,6 +253,16 @@ nodes = (
 width = 575;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (117,0);
+},
+{
+name = top;
+pos = (229,526);
+}
+);
 background = {
 shapes = (
 {
@@ -267,30 +307,6 @@ angle = 78;
 pos = (43,278);
 }
 );
-hints = (
-{
-horizontal = 1;
-place = (-10, 25);
-place = (-10, 25);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,5);
-target = (1,5);
-type = Stem;
-},
-{
-place = (21, 24);
-place = (21, 24);
-type = Stem;
-},
-{
-place = (287, 24);
-place = (287, 24);
-type = Stem;
-}
-);
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
@@ -331,6 +347,16 @@ nodes = (
 width = 345;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (142,0);
+},
+{
+name = top;
+pos = (256,536);
+}
+);
 background = {
 shapes = (
 {
@@ -409,6 +435,16 @@ nodes = (
 width = 395;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (180,0);
+},
+{
+name = top;
+pos = (298,553);
+}
+);
 background = {
 anchors = (
 {
@@ -505,6 +541,16 @@ nodes = (
 width = 480;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (223,0);
+},
+{
+name = top;
+pos = (337,536);
+}
+);
 background = {
 shapes = (
 {
@@ -583,28 +629,14 @@ nodes = (
 width = 559;
 },
 {
-hints = (
+anchors = (
 {
-horizontal = 1;
-place = (0, 0);
-place = (0, 0);
-type = Stem;
+name = bottom;
+pos = (165,0);
 },
 {
-horizontal = 1;
-origin = (0,5);
-target = (1,5);
-type = Stem;
-},
-{
-place = (0, 0);
-place = (0, 0);
-type = Stem;
-},
-{
-place = (0, 0);
-place = (0, 0);
-type = Stem;
+name = top;
+pos = (281,545);
 }
 );
 layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";

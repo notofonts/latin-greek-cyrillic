@@ -1,12 +1,16 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "Ge-cy";
 kernLeft = "En-cy";
 kernRight = "Te-cy";
 layers = (
 {
 anchors = (
+{
+name = bottom;
+pos = (215,0);
+},
 {
 name = top;
 pos = (366,714);
@@ -31,6 +35,10 @@ width = 478;
 {
 anchors = (
 {
+name = bottom;
+pos = (225,0);
+},
+{
 name = top;
 pos = (376,714);
 }
@@ -54,6 +62,10 @@ width = 503;
 {
 anchors = (
 {
+name = bottom;
+pos = (223,0);
+},
+{
 name = top;
 pos = (374,714);
 }
@@ -76,6 +88,10 @@ width = 507;
 },
 {
 anchors = (
+{
+name = bottom;
+pos = (121,0);
+},
 {
 name = top;
 pos = (273,714);
@@ -114,6 +130,10 @@ width = 297;
 },
 {
 anchors = (
+{
+name = bottom;
+pos = (133,0);
+},
 {
 name = top;
 pos = (284,714);
@@ -163,6 +183,10 @@ width = 323;
 {
 anchors = (
 {
+name = bottom;
+pos = (169,0);
+},
+{
 name = top;
 pos = (320,714);
 }
@@ -201,6 +225,10 @@ width = 413;
 {
 anchors = (
 {
+name = bottom;
+pos = (210,0);
+},
+{
 name = top;
 pos = (361,714);
 }
@@ -238,6 +266,10 @@ width = 472;
 },
 {
 anchors = (
+{
+name = bottom;
+pos = (155,0);
+},
 {
 name = top;
 pos = (306,714);

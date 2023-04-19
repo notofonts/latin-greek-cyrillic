@@ -1,10 +1,20 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "Eldescender-cy";
 kernLeft = "El-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (312,0);
+},
+{
+name = top;
+pos = (464,714);
+}
+);
 background = {
 shapes = (
 {
@@ -69,6 +79,16 @@ ref = "El-cy";
 width = 660;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (324,0);
+},
+{
+name = top;
+pos = (476,714);
+}
+);
 background = {
 shapes = (
 {
@@ -133,6 +153,16 @@ ref = "El-cy";
 width = 672;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (333,0);
+},
+{
+name = top;
+pos = (485,714);
+}
+);
 background = {
 shapes = (
 {
@@ -197,6 +227,16 @@ ref = "El-cy";
 width = 748;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (337,0);
+},
+{
+name = top;
+pos = (489,714);
+}
+);
 background = {
 shapes = (
 {
@@ -261,6 +301,16 @@ ref = "El-cy";
 width = 779;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (194,0);
+},
+{
+name = top;
+pos = (346,714);
+}
+);
 background = {
 shapes = (
 {
@@ -325,6 +375,16 @@ ref = "El-cy";
 width = 466;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (220,0);
+},
+{
+name = top;
+pos = (372,714);
+}
+);
 background = {
 shapes = (
 {
@@ -389,6 +449,16 @@ ref = "El-cy";
 width = 500;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (248,0);
+},
+{
+name = top;
+pos = (400,714);
+}
+);
 background = {
 shapes = (
 {
@@ -453,6 +523,16 @@ ref = "El-cy";
 width = 567;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (271,0);
+},
+{
+name = top;
+pos = (423,714);
+}
+);
 background = {
 shapes = (
 {

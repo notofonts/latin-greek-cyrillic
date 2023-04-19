@@ -1,11 +1,21 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "Zhwe-cy";
 kernLeft = "Ze-cy";
 kernRight = "Zhe-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (551,0);
+},
+{
+name = top;
+pos = (702,714);
+}
+);
 background = {
 shapes = (
 {
@@ -93,6 +103,16 @@ ref = "Ka-cy";
 width = 1026;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (573,0);
+},
+{
+name = top;
+pos = (725,714);
+}
+);
 background = {
 shapes = (
 {
@@ -180,6 +200,16 @@ ref = "Ka-cy";
 width = 1058;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (700,0);
+},
+{
+name = top;
+pos = (851,714);
+}
+);
 background = {
 shapes = (
 {
@@ -267,6 +297,16 @@ ref = "Ka-cy";
 width = 1230;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (731,0);
+},
+{
+name = top;
+pos = (884,714);
+}
+);
 background = {
 shapes = (
 {
@@ -354,6 +394,16 @@ ref = "Ka-cy";
 width = 1280;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (355,0);
+},
+{
+name = top;
+pos = (506,714);
+}
+);
 background = {
 shapes = (
 {
@@ -441,6 +491,16 @@ ref = "Ka-cy";
 width = 690;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (432,0);
+},
+{
+name = top;
+pos = (584,714);
+}
+);
 background = {
 shapes = (
 {
@@ -528,6 +588,16 @@ ref = "Ka-cy";
 width = 815;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (517,0);
+},
+{
+name = top;
+pos = (678,714);
+}
+);
 background = {
 shapes = (
 {
@@ -615,6 +685,16 @@ ref = "Ka-cy";
 width = 940;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (577,0);
+},
+{
+name = top;
+pos = (728,714);
+}
+);
 background = {
 shapes = (
 {

@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "Em-cy";
 kernLeft = "En-cy";
 kernRight = "En-cy";
@@ -83,11 +83,11 @@ width = 817;
 anchors = (
 {
 name = bottom;
-pos = (376,0);
+pos = (371,0);
 },
 {
 name = top;
-pos = (528,714);
+pos = (523,714);
 }
 );
 background = {
@@ -200,11 +200,11 @@ width = 887;
 anchors = (
 {
 name = bottom;
-pos = (238,0);
+pos = (237,0);
 },
 {
 name = top;
-pos = (390,714);
+pos = (388,714);
 }
 );
 background = {
@@ -274,11 +274,11 @@ width = 587;
 anchors = (
 {
 name = bottom;
-pos = (268,0);
+pos = (269,0);
 },
 {
 name = top;
-pos = (420,714);
+pos = (416,714);
 }
 );
 background = {
@@ -362,11 +362,11 @@ width = 650;
 anchors = (
 {
 name = bottom;
-pos = (312,0);
+pos = (311,0);
 },
 {
 name = top;
-pos = (464,714);
+pos = (457,714);
 }
 );
 background = {
@@ -519,7 +519,7 @@ pos = (295,0);
 },
 {
 name = top;
-pos = (447,714);
+pos = (441,714);
 }
 );
 layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
