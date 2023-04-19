@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 9;
 glyphname = "Abreve-cy";
 kernLeft = "A-cy";
 kernRight = "A-cy";
