@@ -1,10 +1,24 @@
 {
-color = 3;
+color = 4;
 glyphname = "yeru-cy";
 kernLeft = cyr_en;
 kernRight = cyr_en;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (370,0);
+},
+{
+name = center;
+pos = (370,268);
+},
+{
+name = top;
+pos = (370,536);
+}
+);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
@@ -43,6 +57,20 @@ ref = "softsign-cy";
 width = 740;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (443,0);
+},
+{
+name = center;
+pos = (443,268);
+},
+{
+name = top;
+pos = (443,536);
+}
+);
 layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
 shapes = (
 {
@@ -81,6 +109,20 @@ ref = "softsign-cy";
 width = 876;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (330,0);
+},
+{
+name = center;
+pos = (330,268);
+},
+{
+name = top;
+pos = (330,536);
+}
+);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
@@ -119,6 +161,20 @@ ref = "softsign-cy";
 width = 657;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (483,0);
+},
+{
+name = center;
+pos = (483,268);
+},
+{
+name = top;
+pos = (483,536);
+}
+);
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
@@ -157,6 +213,20 @@ ref = "softsign-cy";
 width = 945;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (282,0);
+},
+{
+name = center;
+pos = (282,268);
+},
+{
+name = top;
+pos = (282,536);
+}
+);
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
@@ -195,6 +265,20 @@ ref = "softsign-cy";
 width = 563;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (410,0);
+},
+{
+name = center;
+pos = (410,268);
+},
+{
+name = top;
+pos = (410,536);
+}
+);
 layerId = UUID0;
 shapes = (
 {
@@ -202,26 +286,26 @@ closed = 1;
 nodes = (
 (780,0,l),
 (780,42,l),
-(777,42,l),
+(777,42,ls),
 (736,42,o),
 (695,50,o),
 (695,112,cs),
 (695,424,ls),
 (695,486,o),
 (736,494,o),
-(777,494,c),
+(777,494,cs),
 (780,494,l),
 (780,536,l),
 (516,536,l),
 (516,494,l),
-(519,494,l),
+(519,494,ls),
 (563,494,o),
 (601,485,o),
 (601,424,cs),
 (601,112,ls),
 (601,50,o),
 (563,42,o),
-(519,42,c),
+(519,42,cs),
 (516,42,l),
 (516,0,l)
 );
@@ -233,6 +317,20 @@ ref = "softsign-cy";
 width = 820;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (370,0);
+},
+{
+name = center;
+pos = (370,268);
+},
+{
+name = top;
+pos = (370,536);
+}
+);
 layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
 shapes = (
 {
@@ -271,6 +369,20 @@ ref = "softsign-cy";
 width = 745;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (399,0);
+},
+{
+name = center;
+pos = (399,268);
+},
+{
+name = top;
+pos = (399,536);
+}
+);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {

@@ -1,10 +1,24 @@
 {
-color = 3;
+color = 4;
 glyphname = "Sha-cy";
 kernLeft = cyr_En;
 kernRight = cyr_En;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (512,0);
+},
+{
+name = center;
+pos = (512,357);
+},
+{
+name = top;
+pos = (512,714);
+}
+);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
@@ -68,6 +82,20 @@ nodes = (
 width = 1024;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (570,0);
+},
+{
+name = center;
+pos = (570,357);
+},
+{
+name = top;
+pos = (570,714);
+}
+);
 layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
 shapes = (
 {
@@ -131,6 +159,20 @@ nodes = (
 width = 1140;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (428,0);
+},
+{
+name = center;
+pos = (428,357);
+},
+{
+name = top;
+pos = (428,714);
+}
+);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
@@ -194,6 +236,20 @@ nodes = (
 width = 855;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (575,0);
+},
+{
+name = center;
+pos = (575,357);
+},
+{
+name = top;
+pos = (575,714);
+}
+);
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
@@ -257,6 +313,20 @@ nodes = (
 width = 1150;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (392,0);
+},
+{
+name = center;
+pos = (392,357);
+},
+{
+name = top;
+pos = (392,714);
+}
+);
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
@@ -320,6 +390,20 @@ nodes = (
 width = 784;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (537,0);
+},
+{
+name = center;
+pos = (537,357);
+},
+{
+name = top;
+pos = (537,714);
+}
+);
 layerId = UUID0;
 shapes = (
 {
@@ -383,6 +467,20 @@ nodes = (
 width = 1073;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (463,0);
+},
+{
+name = center;
+pos = (463,357);
+},
+{
+name = top;
+pos = (463,714);
+}
+);
 layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
 shapes = (
 {
@@ -446,6 +544,20 @@ nodes = (
 width = 925;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (485,0);
+},
+{
+name = center;
+pos = (485,357);
+},
+{
+name = top;
+pos = (485,714);
+}
+);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {

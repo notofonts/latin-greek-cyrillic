@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = "Iigrave-cy";
 kernLeft = cyr_En;
 kernRight = cyr_En;
@@ -11,8 +11,8 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (241,165);
-ref = gravecomb.loclCYR;
+pos = (241,0);
+ref = gravecomb.loclCYR.cap;
 }
 );
 width = 766;
@@ -24,8 +24,8 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (179,165);
-ref = gravecomb.loclCYR;
+pos = (179,0);
+ref = gravecomb.loclCYR.cap;
 }
 );
 width = 825;
@@ -37,8 +37,8 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (151,165);
-ref = gravecomb.loclCYR;
+pos = (151,0);
+ref = gravecomb.loclCYR.cap;
 }
 );
 width = 642;
@@ -50,8 +50,8 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (167,165);
-ref = gravecomb.loclCYR;
+pos = (167,0);
+ref = gravecomb.loclCYR.cap;
 }
 );
 width = 834;
@@ -63,8 +63,8 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (164,165);
-ref = gravecomb.loclCYR;
+pos = (164,0);
+ref = gravecomb.loclCYR.cap;
 }
 );
 width = 584;
@@ -76,8 +76,8 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (205,165);
-ref = gravecomb.loclCYR;
+pos = (205,0);
+ref = gravecomb.loclCYR.cap;
 }
 );
 width = 807;
@@ -89,8 +89,8 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (136,165);
-ref = gravecomb.loclCYR;
+pos = (136,0);
+ref = gravecomb.loclCYR.cap;
 }
 );
 width = 676;
@@ -102,8 +102,8 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (131,165);
-ref = gravecomb.loclCYR;
+pos = (131,0);
+ref = gravecomb.loclCYR.cap;
 }
 );
 width = 702;

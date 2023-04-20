@@ -1,10 +1,24 @@
 {
-color = 3;
+color = 4;
 glyphname = "Nje-cy";
 kernLeft = cyr_En;
 kernRight = cyr_Softsign;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (366,0);
+},
+{
+name = center;
+pos = (366,357);
+},
+{
+name = top;
+pos = (366,714);
+}
+);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
@@ -165,6 +179,20 @@ nodes = (
 width = 971;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (399,0);
+},
+{
+name = center;
+pos = (399,357);
+},
+{
+name = top;
+pos = (399,714);
+}
+);
 layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
 shapes = (
 {
@@ -244,6 +272,20 @@ nodes = (
 width = 1033;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (307,0);
+},
+{
+name = center;
+pos = (307,357);
+},
+{
+name = top;
+pos = (307,714);
+}
+);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
@@ -323,6 +365,20 @@ nodes = (
 width = 802;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (402,0);
+},
+{
+name = center;
+pos = (402,357);
+},
+{
+name = top;
+pos = (402,714);
+}
+);
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
@@ -402,6 +458,20 @@ nodes = (
 width = 1079;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (276,0);
+},
+{
+name = center;
+pos = (276,357);
+},
+{
+name = top;
+pos = (276,714);
+}
+);
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
@@ -481,6 +551,20 @@ nodes = (
 width = 733;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (386,0);
+},
+{
+name = center;
+pos = (386,357);
+},
+{
+name = top;
+pos = (386,714);
+}
+);
 layerId = UUID0;
 shapes = (
 {
@@ -560,6 +644,20 @@ nodes = (
 width = 1018;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (325,0);
+},
+{
+name = center;
+pos = (325,357);
+},
+{
+name = top;
+pos = (325,714);
+}
+);
 layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
 shapes = (
 {
@@ -639,6 +737,20 @@ nodes = (
 width = 843;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (348,0);
+},
+{
+name = center;
+pos = (348,357);
+},
+{
+name = top;
+pos = (348,714);
+}
+);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {

@@ -1,10 +1,24 @@
 {
-color = 3;
+color = 4;
 glyphname = "em-cy";
 kernLeft = cyr_en;
 kernRight = cyr_en;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (393,0);
+},
+{
+name = center;
+pos = (394,268);
+},
+{
+name = top;
+pos = (394,536);
+}
+);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
@@ -62,6 +76,20 @@ nodes = (
 width = 785;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (386,0);
+},
+{
+name = center;
+pos = (433,268);
+},
+{
+name = top;
+pos = (433,536);
+}
+);
 layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
 shapes = (
 {
@@ -119,6 +147,20 @@ nodes = (
 width = 852;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (301,0);
+},
+{
+name = center;
+pos = (319,268);
+},
+{
+name = top;
+pos = (319,536);
+}
+);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
@@ -176,6 +218,20 @@ nodes = (
 width = 630;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (369,0);
+},
+{
+name = center;
+pos = (435,268);
+},
+{
+name = top;
+pos = (435,536);
+}
+);
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
@@ -233,6 +289,20 @@ nodes = (
 width = 857;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (288,0);
+},
+{
+name = center;
+pos = (290,268);
+},
+{
+name = top;
+pos = (290,536);
+}
+);
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
@@ -290,6 +360,20 @@ nodes = (
 width = 579;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (394,0);
+},
+{
+name = center;
+pos = (417,268);
+},
+{
+name = top;
+pos = (417,536);
+}
+);
 layerId = UUID0;
 shapes = (
 {
@@ -347,6 +431,20 @@ nodes = (
 width = 825;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (303,0);
+},
+{
+name = center;
+pos = (339,268);
+},
+{
+name = top;
+pos = (339,536);
+}
+);
 layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
 shapes = (
 {
@@ -404,6 +502,20 @@ nodes = (
 width = 675;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (308,0);
+},
+{
+name = center;
+pos = (360,268);
+},
+{
+name = top;
+pos = (360,536);
+}
+);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {

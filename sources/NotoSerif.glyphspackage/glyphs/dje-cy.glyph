@@ -1,10 +1,24 @@
 {
-color = 3;
+color = 4;
 glyphname = "dje-cy";
 kernLeft = cyr_dje;
 kernRight = cyr_dje;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (331,-240);
+},
+{
+name = center;
+pos = (331,260);
+},
+{
+name = top;
+pos = (311,760);
+}
+);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
@@ -71,6 +85,20 @@ nodes = (
 width = 571;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (340,-240);
+},
+{
+name = center;
+pos = (340,260);
+},
+{
+name = top;
+pos = (350,760);
+}
+);
 layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
 shapes = (
 {
@@ -137,6 +165,20 @@ nodes = (
 width = 624;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (258,-240);
+},
+{
+name = center;
+pos = (258,260);
+},
+{
+name = top;
+pos = (258,760);
+}
+);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
@@ -203,6 +245,20 @@ nodes = (
 width = 479;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (346,-220);
+},
+{
+name = center;
+pos = (346,260);
+},
+{
+name = top;
+pos = (364,760);
+}
+);
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
@@ -269,6 +325,20 @@ nodes = (
 width = 650;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (248,-240);
+},
+{
+name = center;
+pos = (248,260);
+},
+{
+name = top;
+pos = (238,760);
+}
+);
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
@@ -335,6 +405,20 @@ nodes = (
 width = 433;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (349,-240);
+},
+{
+name = center;
+pos = (349,260);
+},
+{
+name = top;
+pos = (329,760);
+}
+);
 layerId = UUID0;
 shapes = (
 {
@@ -401,6 +485,20 @@ nodes = (
 width = 604;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (278,-240);
+},
+{
+name = center;
+pos = (278,260);
+},
+{
+name = top;
+pos = (288,760);
+}
+);
 layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
 shapes = (
 {
@@ -467,6 +565,20 @@ nodes = (
 width = 525;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (291,-240);
+},
+{
+name = center;
+pos = (291,260);
+},
+{
+name = top;
+pos = (305,760);
+}
+);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
