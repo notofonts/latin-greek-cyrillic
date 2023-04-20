@@ -9,7 +9,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-pos = (275,0);
+pos = (593,0);
 ref = slashlongcomb;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-pos = (276,0);
+pos = (581,0);
 ref = slashlongcomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-pos = (276,0);
+pos = (582,0);
 ref = slashlongcomb;
 }
 );
@@ -48,7 +48,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-pos = (276,0);
+pos = (580,0);
 ref = slashlongcomb;
 }
 );
@@ -61,7 +61,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-pos = (275,0);
+pos = (504,0);
 ref = slashlongcomb;
 }
 );
@@ -75,7 +75,7 @@ pos = (-1,0);
 ref = reflexsuperset;
 },
 {
-pos = (233,0);
+pos = (500,0);
 ref = slashlongcomb;
 }
 );
@@ -88,7 +88,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-pos = (231,0);
+pos = (492,0);
 ref = slashlongcomb;
 }
 );
@@ -101,7 +101,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-pos = (230,0);
+pos = (481,0);
 ref = slashlongcomb;
 }
 );
