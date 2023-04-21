@@ -10,11 +10,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-<<<<<<< HEAD
-pos = (580,0);
-=======
 pos = (593,0);
->>>>>>> 756a82aa (Fix more cursed component alignment issues)
 ref = slashlongcomb;
 }
 );
@@ -27,11 +23,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-<<<<<<< HEAD
-pos = (580,0);
-=======
 pos = (581,0);
->>>>>>> 756a82aa (Fix more cursed component alignment issues)
 ref = slashlongcomb;
 }
 );
@@ -44,11 +36,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-<<<<<<< HEAD
-pos = (580,0);
-=======
 pos = (582,0);
->>>>>>> 756a82aa (Fix more cursed component alignment issues)
 ref = slashlongcomb;
 }
 );
@@ -61,11 +49,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-<<<<<<< HEAD
 pos = (570,0);
-=======
-pos = (580,0);
->>>>>>> 756a82aa (Fix more cursed component alignment issues)
 ref = slashlongcomb;
 }
 );
@@ -78,11 +62,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-<<<<<<< HEAD
 pos = (490,0);
-=======
-pos = (504,0);
->>>>>>> 756a82aa (Fix more cursed component alignment issues)
 ref = slashlongcomb;
 }
 );
@@ -96,11 +76,7 @@ pos = (-1,0);
 ref = reflexsuperset;
 },
 {
-<<<<<<< HEAD
 pos = (490,0);
-=======
-pos = (500,0);
->>>>>>> 756a82aa (Fix more cursed component alignment issues)
 ref = slashlongcomb;
 }
 );
@@ -113,11 +89,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-<<<<<<< HEAD
 pos = (490,0);
-=======
-pos = (492,0);
->>>>>>> 756a82aa (Fix more cursed component alignment issues)
 ref = slashlongcomb;
 }
 );
@@ -130,11 +102,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-<<<<<<< HEAD
 pos = (454,0);
-=======
-pos = (481,0);
->>>>>>> 756a82aa (Fix more cursed component alignment issues)
 ref = slashlongcomb;
 }
 );
