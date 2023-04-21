@@ -10,7 +10,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-pos = (593,0);
+pos = (580,0);
 ref = slashlongcomb;
 }
 );
@@ -49,7 +49,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-pos = (570,0);
+pos = (580,0);
 ref = slashlongcomb;
 }
 );
@@ -62,7 +62,7 @@ shapes = (
 ref = reflexsuperset;
 },
 {
-pos = (490,0);
+pos = (504,0);
 ref = slashlongcomb;
 }
 );
