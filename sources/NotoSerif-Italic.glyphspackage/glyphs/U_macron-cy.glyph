@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 3;
+color = 4;
 glyphname = "Umacron-cy";
 kernLeft = "U-cy";
 kernRight = "U-cy";
@@ -9,7 +9,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (264,0);
+pos = (231,0);
 },
 {
 name = top;
@@ -63,7 +63,7 @@ pos = (290,0);
 },
 {
 name = top;
-pos = (471,850);
+pos = (484,850);
 }
 );
 layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
@@ -88,7 +88,7 @@ pos = (299,0);
 },
 {
 name = top;
-pos = (481,855);
+pos = (514,855);
 }
 );
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
@@ -109,11 +109,11 @@ width = 710;
 anchors = (
 {
 name = bottom;
-pos = (196,0);
+pos = (181,0);
 },
 {
 name = top;
-pos = (373,832);
+pos = (359,826);
 }
 );
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
@@ -163,7 +163,7 @@ pos = (226,0);
 },
 {
 name = top;
-pos = (406,847);
+pos = (426,847);
 }
 );
 layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
@@ -188,7 +188,7 @@ pos = (235,0);
 },
 {
 name = top;
-pos = (416,852);
+pos = (456,852);
 }
 );
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";

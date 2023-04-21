@@ -1,89 +1,159 @@
 {
 category = Letter;
-color = 3;
+color = 4;
 glyphname = "Io-cy";
 kernLeft = "En-cy";
 kernRight = "Ie-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (241,0);
+},
+{
+name = top;
+pos = (428,907);
+}
+);
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
 ref = "Ie-cy";
 },
 {
-pos = (238,0);
+pos = (190,0);
 ref = dieresiscomb.loclCYR.cap;
 }
 );
 width = 582;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (247,0);
+},
+{
+name = top;
+pos = (429,910);
+}
+);
 layerId = UUID0;
 shapes = (
 {
 ref = "Ie-cy";
 },
 {
-pos = (134,0);
+pos = (148,0);
 ref = dieresiscomb.loclCYR.cap;
 }
 );
 width = 628;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (244,0);
+},
+{
+name = top;
+pos = (432,920);
+}
+);
 layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
 shapes = (
 {
 ref = "Ie-cy";
 },
 {
-pos = (144,0);
+pos = (124,0);
 ref = dieresiscomb.loclCYR.cap;
 }
 );
 width = 653;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (240,0);
+},
+{
+name = top;
+pos = (432,927);
+}
+);
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
 ref = "Ie-cy";
 },
 {
-pos = (112,0);
+pos = (107,0);
 ref = dieresiscomb.loclCYR.cap;
 }
 );
 width = 648;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (148,0);
+},
+{
+name = top;
+pos = (332,901);
+}
+);
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
 ref = "Ie-cy";
 },
 {
-pos = (114,0);
+pos = (109,0);
 ref = dieresiscomb.loclCYR.cap;
 }
 );
 width = 444;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (174,0);
+},
+{
+name = top;
+pos = (362,909);
+}
+);
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
 ref = "Ie-cy";
 },
 {
-pos = (79,0);
+pos = (106,0);
 ref = dieresiscomb.loclCYR.cap;
 }
 );
 width = 499;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (190,0);
+},
+{
+name = top;
+pos = (378,917);
+}
+);
 layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
 shapes = (
 {
@@ -92,20 +162,30 @@ ref = "Ie-cy";
 },
 {
 alignment = -1;
-pos = (93,0);
+pos = (100,0);
 ref = dieresiscomb.loclCYR.cap;
 }
 );
 width = 537;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (205,0);
+},
+{
+name = top;
+pos = (393,923);
+}
+);
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
 ref = "Ie-cy";
 },
 {
-pos = (103,0);
+pos = (100,0);
 ref = dieresiscomb.loclCYR.cap;
 }
 );

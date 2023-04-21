@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 3;
+color = 4;
 glyphname = "te-cy.loclSRB";
 kernLeft = "ii-cy";
 kernRight = "a-cy";
@@ -8,12 +8,12 @@ layers = (
 {
 anchors = (
 {
-name = _top;
-pos = (471,536);
+name = bottom;
+pos = (357,0);
 },
 {
 name = top;
-pos = (491,641);
+pos = (490,663);
 }
 );
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -37,8 +37,8 @@ width = 850;
 {
 anchors = (
 {
-name = _top;
-pos = (495,536);
+name = bottom;
+pos = (382,0);
 },
 {
 name = top;
@@ -66,8 +66,8 @@ width = 889;
 {
 anchors = (
 {
-name = _top;
-pos = (522,536);
+name = bottom;
+pos = (412,0);
 },
 {
 name = top;
@@ -95,8 +95,8 @@ width = 951;
 {
 anchors = (
 {
-name = _top;
-pos = (544,536);
+name = bottom;
+pos = (434,0);
 },
 {
 name = top;
@@ -124,8 +124,8 @@ width = 1000;
 {
 anchors = (
 {
-name = _top;
-pos = (357,536);
+name = bottom;
+pos = (242,0);
 },
 {
 name = top;
@@ -153,8 +153,8 @@ width = 618;
 {
 anchors = (
 {
-name = _top;
-pos = (412,536);
+name = bottom;
+pos = (297,0);
 },
 {
 name = top;
@@ -182,8 +182,8 @@ width = 725;
 {
 anchors = (
 {
-name = _top;
-pos = (435,536);
+name = bottom;
+pos = (319,0);
 },
 {
 name = top;
@@ -211,8 +211,8 @@ width = 775;
 {
 anchors = (
 {
-name = _top;
-pos = (456,536);
+name = bottom;
+pos = (340,0);
 },
 {
 name = top;

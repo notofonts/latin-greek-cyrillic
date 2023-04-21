@@ -1,11 +1,21 @@
 {
 category = Letter;
-color = 3;
+color = 4;
 glyphname = "iigrave-cy";
 kernLeft = "ii-cy";
 kernRight = "a-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (213,0);
+},
+{
+name = top;
+pos = (310,766);
+}
+);
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
@@ -21,6 +31,16 @@ ref = "ii-cy";
 width = 560;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (234,0);
+},
+{
+name = top;
+pos = (340,766);
+}
+);
 layerId = UUID0;
 shapes = (
 {
@@ -34,6 +54,16 @@ ref = "ii-cy";
 width = 593;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (260,0);
+},
+{
+name = top;
+pos = (359,766);
+}
+);
 layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
 shapes = (
 {
@@ -49,6 +79,16 @@ ref = "ii-cy";
 width = 647;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (276,0);
+},
+{
+name = top;
+pos = (372,766);
+}
+);
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
@@ -62,6 +102,16 @@ ref = "ii-cy";
 width = 685;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (151,0);
+},
+{
+name = top;
+pos = (265,766);
+}
+);
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
@@ -75,6 +125,16 @@ ref = "ii-cy";
 width = 435;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (178,0);
+},
+{
+name = top;
+pos = (273,766);
+}
+);
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
@@ -88,6 +148,16 @@ ref = "ii-cy";
 width = 485;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (196,0);
+},
+{
+name = top;
+pos = (311,766);
+}
+);
 layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
 shapes = (
 {
@@ -103,6 +173,16 @@ ref = "ii-cy";
 width = 530;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (216,0);
+},
+{
+name = top;
+pos = (331,766);
+}
+);
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
@@ -116,6 +196,7 @@ ref = "ii-cy";
 width = 572;
 }
 );
+metricWidth = "ii-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1117;

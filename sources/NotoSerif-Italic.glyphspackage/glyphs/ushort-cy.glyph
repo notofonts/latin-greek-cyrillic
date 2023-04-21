@@ -1,11 +1,21 @@
 {
 category = Letter;
-color = 3;
+color = 4;
 glyphname = "ushort-cy";
 kernLeft = "u-cy";
 kernRight = "u-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (28,-240);
+},
+{
+name = top;
+pos = (331,721);
+}
+);
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
@@ -16,9 +26,19 @@ ref = cyrillicbreve;
 ref = "u-cy";
 }
 );
-width = 525;
+width = 528;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (46,-240);
+},
+{
+name = top;
+pos = (356,745);
+}
+);
 guides = (
 {
 angle = 78;
@@ -35,9 +55,19 @@ ref = cyrillicbreve;
 ref = "u-cy";
 }
 );
-width = 535;
+width = 543;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (55,-240);
+},
+{
+name = top;
+pos = (384,765);
+}
+);
 layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
 shapes = (
 {
@@ -50,9 +80,19 @@ alignment = -1;
 ref = "u-cy";
 }
 );
-width = 567;
+width = 580;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (67,-240);
+},
+{
+name = top;
+pos = (403,780);
+}
+);
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
@@ -63,9 +103,19 @@ ref = cyrillicbreve;
 ref = "u-cy";
 }
 );
-width = 590;
+width = 610;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (35,-240);
+},
+{
+name = top;
+pos = (255,717);
+}
+);
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
@@ -76,9 +126,19 @@ ref = cyrillicbreve;
 ref = "u-cy";
 }
 );
-width = 410;
+width = 416;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (12,-240);
+},
+{
+name = top;
+pos = (303,737);
+}
+);
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
@@ -89,9 +149,19 @@ ref = cyrillicbreve;
 ref = "u-cy";
 }
 );
-width = 460;
+width = 465;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (30,-240);
+},
+{
+name = top;
+pos = (332,759);
+}
+);
 layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
 shapes = (
 {
@@ -107,6 +177,16 @@ ref = "u-cy";
 width = 480;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (43,-240);
+},
+{
+name = top;
+pos = (348,774);
+}
+);
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
@@ -117,9 +197,10 @@ ref = cyrillicbreve;
 ref = "u-cy";
 }
 );
-width = 497;
+width = 517;
 }
 );
+metricWidth = "u-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1118;

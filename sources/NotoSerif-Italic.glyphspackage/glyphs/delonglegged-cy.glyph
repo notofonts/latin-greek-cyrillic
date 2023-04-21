@@ -1,6 +1,6 @@
 {
 category = "";
-color = 3;
+color = 4;
 glyphname = "delonglegged-cy";
 kernLeft = "o-cy";
 kernRight = "de-cy";
