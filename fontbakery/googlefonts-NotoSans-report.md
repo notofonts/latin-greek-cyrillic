@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.11
+Fontbakery version: 0.8.12a0
 
 <details><summary><b>[3] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
@@ -32,7 +32,7 @@ Fontbakery version: 0.8.11
 	* iivowelcandrabindu2deva
 	* iivowelcandrabindu3deva
 	* iivowelcandrabindudeva
-	* oeopen and 7 more.
+	* ivowelsigncandrabindu01deva and 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -65,29 +65,19 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
+	- psilioxia_macronmod
 
-	- ddhaaltdeva
+	- psilivaria_macronmod
 
-	- llaaltdeva
+	- uni03C5030803060301
 
-	- llvocalicvowelsignleftdeva
+	- uni1FD8.salt 
 
-	- llvocalicvowelsignlowdeva
-
-	- llvocalicvowelsignnuktaleftdeva
-
-	- lvocalicvowelsignleftdeva 
-
-	- 24 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	- uni1FD9.salt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -267,27 +257,27 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
-
-	- ddhaaltdeva
-
 	- iogonek.loclNAV
 
-	- llaaltdeva
+	- psilioxia_macronmod
 
-	- llvocalicvowelsignleftdeva
+	- psilivaria_macronmod
 
-	- llvocalicvowelsignlowdeva
+	- tonos.case
 
-	- llvocalicvowelsignnuktaleftdeva 
+	- uni03B1030403130300
 
-	- 74 more.
+	- uni03B1030403130301
+
+	- uni03B1030403140300
+
+	- uni03B1030403140301 
+
+	- 48 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -423,7 +413,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* iivowelcandrabindu2deva
 	* iivowelcandrabindu3deva
 	* iivowelcandrabindudeva
-	* oeopen and 7 more.
+	* ivowelsigncandrabindu01deva and 12 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -456,29 +446,19 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
+	- psilioxia_macronmod
 
-	- ddhaaltdeva
+	- psilivaria_macronmod
 
-	- llaaltdeva
+	- uni03C5030803060301
 
-	- llvocalicvowelsignleftdeva
+	- uni1FD8.salt 
 
-	- llvocalicvowelsignlowdeva
-
-	- llvocalicvowelsignnuktaleftdeva
-
-	- lvocalicvowelsignleftdeva 
-
-	- 24 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	- uni1FD9.salt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -660,27 +640,27 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
-
-	- ddhaaltdeva
-
 	- iogonek.loclNAV
 
-	- llaaltdeva
+	- psilioxia_macronmod
 
-	- llvocalicvowelsignleftdeva
+	- psilivaria_macronmod
 
-	- llvocalicvowelsignlowdeva
+	- tonos.case
 
-	- llvocalicvowelsignnuktaleftdeva 
+	- uni03B1030403130300
 
-	- 74 more.
+	- uni03B1030403130301
+
+	- uni03B1030403140300
+
+	- uni03B1030403140301 
+
+	- 48 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -816,7 +796,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* iivowelcandrabindu2deva
 	* iivowelcandrabindu3deva
 	* iivowelcandrabindudeva
-	* oeopen and 7 more.
+	* ivowelsigncandrabindu01deva and 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -849,29 +829,19 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
+	- psilioxia_macronmod
 
-	- ddhaaltdeva
+	- psilivaria_macronmod
 
-	- llaaltdeva
+	- uni03C5030803060301
 
-	- llvocalicvowelsignleftdeva
+	- uni1FD8.salt 
 
-	- llvocalicvowelsignlowdeva
-
-	- llvocalicvowelsignnuktaleftdeva
-
-	- lvocalicvowelsignleftdeva 
-
-	- 24 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	- uni1FD9.salt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1053,27 +1023,27 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
-
-	- ddhaaltdeva
-
 	- iogonek.loclNAV
 
-	- llaaltdeva
+	- psilioxia_macronmod
 
-	- llvocalicvowelsignleftdeva
+	- psilivaria_macronmod
 
-	- llvocalicvowelsignlowdeva
+	- tonos.case
 
-	- llvocalicvowelsignnuktaleftdeva 
+	- uni03B1030403130300
 
-	- 74 more.
+	- uni03B1030403130301
+
+	- uni03B1030403140300
+
+	- uni03B1030403140301 
+
+	- 48 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1229,29 +1199,19 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
+	- psilioxia_macronmod
 
-	- ddhaaltdeva
+	- psilivaria_macronmod
 
-	- llaaltdeva
+	- uni03C5030803060301
 
-	- llvocalicvowelsignleftdeva
+	- uni1FD8.salt 
 
-	- llvocalicvowelsignlowdeva
-
-	- llvocalicvowelsignnuktaleftdeva
-
-	- lvocalicvowelsignleftdeva 
-
-	- 24 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	- uni1FD9.salt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1421,27 +1381,27 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
-
-	- ddhaaltdeva
-
 	- iogonek.loclNAV
 
-	- llaaltdeva
+	- psilioxia_macronmod
 
-	- llvocalicvowelsignleftdeva
+	- psilivaria_macronmod
 
-	- llvocalicvowelsignlowdeva
+	- tonos.case
 
-	- llvocalicvowelsignnuktaleftdeva 
+	- uni03B1030403130300
 
-	- 74 more.
+	- uni03B1030403130301
+
+	- uni03B1030403140300
+
+	- uni03B1030403140301 
+
+	- 48 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1603,27 +1563,27 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
-
-	- ddhaaltdeva
-
 	- iogonek.loclNAV
 
-	- llaaltdeva
+	- psilioxia_macronmod
 
-	- llvocalicvowelsignleftdeva
+	- psilivaria_macronmod
 
-	- llvocalicvowelsignlowdeva
+	- tonos.case
 
-	- llvocalicvowelsignnuktaleftdeva 
+	- uni03B1030403130300
 
-	- 74 more.
+	- uni03B1030403130301
+
+	- uni03B1030403140300
+
+	- uni03B1030403140301 
+
+	- 48 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1785,29 +1745,19 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
+	- psilioxia_macronmod
 
-	- ddhaaltdeva
+	- psilivaria_macronmod
 
-	- llaaltdeva
+	- uni03C5030803060301
 
-	- llvocalicvowelsignleftdeva
+	- uni1FD8.salt 
 
-	- llvocalicvowelsignlowdeva
-
-	- llvocalicvowelsignnuktaleftdeva
-
-	- lvocalicvowelsignleftdeva 
-
-	- 24 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	- uni1FD9.salt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1961,27 +1911,27 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
-
-	- ddhaaltdeva
-
 	- iogonek.loclNAV
 
-	- llaaltdeva
+	- psilioxia_macronmod
 
-	- llvocalicvowelsignleftdeva
+	- psilivaria_macronmod
 
-	- llvocalicvowelsignlowdeva
+	- tonos.case
 
-	- llvocalicvowelsignnuktaleftdeva 
+	- uni03B1030403130300
 
-	- 74 more.
+	- uni03B1030403130301
+
+	- uni03B1030403140300
+
+	- uni03B1030403140301 
+
+	- 48 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2146,29 +2096,19 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
+	- psilioxia_macronmod
 
-	- ddhaaltdeva
+	- psilivaria_macronmod
 
-	- llaaltdeva
+	- uni03C5030803060301
 
-	- llvocalicvowelsignleftdeva
+	- uni1FD8.salt 
 
-	- llvocalicvowelsignlowdeva
-
-	- llvocalicvowelsignnuktaleftdeva
-
-	- lvocalicvowelsignleftdeva 
-
-	- 24 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	- uni1FD9.salt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2322,27 +2262,27 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
-
-	- ddhaaltdeva
-
 	- iogonek.loclNAV
 
-	- llaaltdeva
+	- psilioxia_macronmod
 
-	- llvocalicvowelsignleftdeva
+	- psilivaria_macronmod
 
-	- llvocalicvowelsignlowdeva
+	- tonos.case
 
-	- llvocalicvowelsignnuktaleftdeva 
+	- uni03B1030403130300
 
-	- 74 more.
+	- uni03B1030403130301
+
+	- uni03B1030403140300
+
+	- uni03B1030403140301 
+
+	- 48 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2506,29 +2446,19 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
+	- psilioxia_macronmod
 
-	- ddhaaltdeva
+	- psilivaria_macronmod
 
-	- llaaltdeva
+	- uni03C5030803060301
 
-	- llvocalicvowelsignleftdeva
+	- uni1FD8.salt 
 
-	- llvocalicvowelsignlowdeva
-
-	- llvocalicvowelsignnuktaleftdeva
-
-	- lvocalicvowelsignleftdeva 
-
-	- 24 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	- uni1FD9.salt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2677,29 +2607,19 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
+	- psilioxia_macronmod
 
-	- ddhaaltdeva
+	- psilivaria_macronmod
 
-	- llaaltdeva
+	- uni03C5030803060301
 
-	- llvocalicvowelsignleftdeva
+	- uni1FD8.salt 
 
-	- llvocalicvowelsignlowdeva
-
-	- llvocalicvowelsignnuktaleftdeva
-
-	- lvocalicvowelsignleftdeva 
-
-	- 24 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	- uni1FD9.salt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2863,27 +2783,27 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
-
-	- ddhaaltdeva
-
 	- iogonek.loclNAV
 
-	- llaaltdeva
+	- psilioxia_macronmod
 
-	- llvocalicvowelsignleftdeva
+	- psilivaria_macronmod
 
-	- llvocalicvowelsignlowdeva
+	- tonos.case
 
-	- llvocalicvowelsignnuktaleftdeva 
+	- uni03B1030403130300
 
-	- 74 more.
+	- uni03B1030403130301
+
+	- uni03B1030403140300
+
+	- uni03B1030403140301 
+
+	- 48 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -3037,29 +2957,19 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
+	- psilioxia_macronmod
 
-	- ddhaaltdeva
+	- psilivaria_macronmod
 
-	- llaaltdeva
+	- uni03C5030803060301
 
-	- llvocalicvowelsignleftdeva
+	- uni1FD8.salt 
 
-	- llvocalicvowelsignlowdeva
-
-	- llvocalicvowelsignnuktaleftdeva
-
-	- lvocalicvowelsignleftdeva 
-
-	- 24 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	- uni1FD9.salt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -3240,27 +3150,27 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
-
-	- ddhaaltdeva
-
 	- iogonek.loclNAV
 
-	- llaaltdeva
+	- psilioxia_macronmod
 
-	- llvocalicvowelsignleftdeva
+	- psilivaria_macronmod
 
-	- llvocalicvowelsignlowdeva
+	- tonos.case
 
-	- llvocalicvowelsignnuktaleftdeva 
+	- uni03B1030403130300
 
-	- 74 more.
+	- uni03B1030403130301
+
+	- uni03B1030403140300
+
+	- uni03B1030403140301 
+
+	- 48 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -3375,7 +3285,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* xi (U+03BE): B<<258.0,719.0>-<287.0,731.0>-<313.0,737.0>>/B<<313.0,737.0>-<296.0,736.0>-<287.0,735.5>> = 9.628156128486747 
 
 	* zecombcy (U+2DE5): B<<159.5,750.0>-<144.0,736.0>-<120.0,732.0>>/L<<120.0,732.0>--<120.0,732.0>> = 9.462322208025613 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[16] NotoSans-Italic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] NotoSans-Italic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -3391,6 +3305,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking with ots-sanitize. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ots">com.google.fonts/check/ots</a>)</summary><div>
+
+
+* 🔥 **FAIL** ots-sanitize returned an error code (1). Output follows:
+
+ERROR: GPOS: Bad mark anchor offset 0 for mark table 33
+ERROR: GPOS: Failed to parse mark array
+ERROR: Layout: Failed to parse lookup subtable 4
+ERROR: Layout: Failed to parse subtable 0
+ERROR: Layout: Failed to parse lookup 33
+ERROR: GPOS: Failed to parse lookup list table
+ERROR: GPOS: Failed to parse table
+Failed to sanitize file!
+ [code: ots-sanitize-error]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
 
 
@@ -3451,27 +3379,27 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
-
-	- ddhaaltdeva
-
 	- iogonek.loclNAV
 
-	- llaaltdeva
+	- psilioxia_macronmod
 
-	- llvocalicvowelsignleftdeva
+	- psilivaria_macronmod
 
-	- llvocalicvowelsignlowdeva
+	- tonos.case
 
-	- llvocalicvowelsignnuktaleftdeva 
+	- uni03B1030403130300
 
-	- 74 more.
+	- uni03B1030403130301
+
+	- uni03B1030403140300
+
+	- uni03B1030403140301 
+
+	- 48 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -3482,23 +3410,23 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb9d52410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb214ad50>
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 2 start point differs in glyph 'zero.slash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42c1b9ff10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42bf7d2550>
 
-	- Contour 0 start point differs in glyph 'theta' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb9d52410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb214a5d0>
+	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42c1b9ff10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42bf7d2550>
 
-	- Contour 1 start point differs in glyph 'omegaroundcy' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb9d52410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb214ad50>
+	- Contour 0 start point differs in glyph 'uni1DBF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42c1b9ff10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42bf7d3150>
 
-	- Contour 0 start point differs in glyph 'uni1DBF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb9d52410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb214a5d0>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42c1b9ff10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42c1b9e910>
 
-	- Contour 2 start point differs in glyph 'zero.slash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb9d52410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb214ad50>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42c1b9ff10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42bf7d3610>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb9d52410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb7fa2350>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42c1b9ff10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42bf7d1f50>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb9d52410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb21489d0>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42c1b9ff10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42bf7d2550>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb9d52410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb214b7d0> 
+	- Contour 0 start point differs in glyph 'theta' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42c1b9ff10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42bf7d3150> 
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb9d52410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fcbb214ad50> [code: interpolation-issues]
+	- Contour 1 start point differs in glyph 'omegaroundcy' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42c1b9ff10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f42bf7d2550> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -3523,7 +3451,11 @@ minus
 
 * ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
 	 U+0903 [code: non-mark-chars]
-</div></details><br></div></details><details><summary><b>[15] NotoSans[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[17] NotoSans[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -3539,6 +3471,20 @@ minus
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking with ots-sanitize. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ots">com.google.fonts/check/ots</a>)</summary><div>
+
+
+* 🔥 **FAIL** ots-sanitize returned an error code (1). Output follows:
+
+ERROR: GPOS: Bad mark anchor offset 0 for mark table 63
+ERROR: GPOS: Failed to parse mark array
+ERROR: Layout: Failed to parse lookup subtable 4
+ERROR: Layout: Failed to parse subtable 0
+ERROR: Layout: Failed to parse lookup 33
+ERROR: GPOS: Failed to parse lookup list table
+ERROR: GPOS: Failed to parse table
+Failed to sanitize file!
+ [code: ots-sanitize-error]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
 
 
@@ -3556,7 +3502,7 @@ minus
 	* Ukmonographcy
 	* Ustroke
 	* Wanglicana
-	* aanuktadeva and 230 more.
+	* aanuktadeva and 275 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -3589,29 +3535,19 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chaaltdeva
-
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
 
-	- ddaaltdeva
+	- psilioxia_macronmod
 
-	- ddhaaltdeva
+	- psilivaria_macronmod
 
-	- llaaltdeva
+	- uni03C5030803060301
 
-	- llvocalicvowelsignleftdeva
+	- uni1FD8.salt 
 
-	- llvocalicvowelsignlowdeva
-
-	- llvocalicvowelsignnuktaleftdeva
-
-	- lvocalicvowelsignleftdeva 
-
-	- 24 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	- uni1FD9.salt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -3647,8 +3583,8 @@ minus
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 6 | 23 | 265 | 2168 | 143 | 1931 | 0 |
-| 0% | 1% | 6% | 48% | 3% | 43% | 0% |
+| 8 | 25 | 265 | 2198 | 143 | 1938 | 0 |
+| 0% | 1% | 6% | 48% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

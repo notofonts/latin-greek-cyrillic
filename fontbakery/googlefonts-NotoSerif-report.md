@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.11
+Fontbakery version: 0.8.12a0
 
 <details><summary><b>[4] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
@@ -364,15 +364,15 @@ minus
 
 	* u10788 (U+10788): L<<739.0,404.0>--<709.0,287.0>> -> L<<709.0,287.0>--<706.0,274.0>>
 
-	* u1079F (U+1079F): L<<244.0,534.0>--<186.0,293.0>> -> L<<186.0,293.0>--<181.0,273.0>>
-
 	* uni03BC (U+03BC): L<<-54.0,-221.0>--<41.0,225.0>> -> L<<41.0,225.0>--<102.0,536.0>>
 
 	* uni03FC (U+03FC): L<<-49.0,-82.0>--<-20.0,53.0>> -> L<<-20.0,53.0>--<24.0,263.0>>
 
-	* uni1D0B (U+1D0B): L<<342.0,445.0>--<314.0,327.0>> -> L<<314.0,327.0>--<307.0,300.0>> 
+	* uni1D0B (U+1D0B): L<<342.0,445.0>--<314.0,327.0>> -> L<<314.0,327.0>--<307.0,300.0>>
 
-	* 12 more.
+	* uni1D27 (U+1D27): L<<328.0,99.0>--<328.0,126.0>> -> L<<328.0,126.0>--<316.0,366.0>> 
+
+	* 9 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -630,7 +630,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 	* Phi
 	* Psi
 	* Udieresis
-	* Upsilondieresis and 438 more.
+	* Upsilondieresis and 439 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -766,7 +766,7 @@ minus
 
 	* uni1D66 (U+1D66): L<<-83.0,-240.0>--<-31.0,-20.0>> -> L<<-31.0,-20.0>--<19.0,220.0>> 
 
-	* 5 more.
+	* 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1128,7 +1128,7 @@ minus
 
 	* uni1D5D (U+1D5D): L<<19.0,150.0>--<67.0,354.0>> -> L<<67.0,354.0>--<118.0,592.0>> 
 
-	* 10 more.
+	* 9 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1529,7 +1529,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* beta
 	* chi
 	* copyright
-	* dieresistonos and 357 more.
+	* dieresistonos and 358 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1817,17 +1817,17 @@ minus
 
 	* u10788 (U+10788): L<<558.0,378.0>--<554.0,287.0>> -> L<<554.0,287.0>--<554.0,239.0>>
 
-	* u1079F (U+1079F): L<<7.0,307.0>--<35.0,307.0>> -> L<<35.0,307.0>--<35.0,307.0>>
-
 	* uni0290 (U+0290): L<<431.0,151.0>--<426.0,0.0>> -> L<<426.0,0.0>--<426.0,-68.0>>
 
 	* uni03BC (U+03BC): L<<64.0,-240.0>--<66.0,131.0>> -> L<<66.0,131.0>--<63.0,536.0>>
 
 	* uni03FC (U+03FC): L<<49.0,-85.0>--<50.0,83.0>> -> L<<50.0,83.0>--<50.0,273.0>>
 
-	* uni04B1 (U+04B1): L<<312.0,0.0>--<312.0,0.0>> -> L<<312.0,0.0>--<438.0,0.0>> 
+	* uni04B1 (U+04B1): L<<312.0,0.0>--<312.0,0.0>> -> L<<312.0,0.0>--<438.0,0.0>>
 
-	* 10 more.
+	* uni1D5D (U+1D5D): L<<41.0,143.0>--<42.0,360.0>> -> L<<42.0,360.0>--<42.0,619.0>> 
+
+	* 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -3296,7 +3296,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSerif-Italic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] NotoSerif-Italic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -3308,6 +3312,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+
+
+* 🔥 **FAIL** Version number 2.0110015869140625 is equal to version on Google Fonts GitHub repo.
 </div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -3333,7 +3341,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* Alpha
 	* Alphatonos
 	* Amacron
-	* Aogonek and 478 more.
+	* Aogonek and 479 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -3402,9 +3410,9 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2ec5ea50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2c605bd0> 
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe87eb7110> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe835d70d0> 
 
-	- Contour 2 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2ec5ea50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2c605bd0> [code: interpolation-issues]
+	- Contour 2 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe87eb7110> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe835d70d0> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -3419,7 +3427,11 @@ minus
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
 	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
-</div></details><br></div></details><details><summary><b>[14] NotoSerif[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] NotoSerif[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -3515,27 +3527,27 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0247' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2ba0f9d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e34fe7890>
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0247' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7e81fd10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7ea825d0>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2ba0f9d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2ba0ee50>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7e81fd10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7e81fbd0>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2ba0f9d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e34fe6f10>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7e81fd10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7ea82d50>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2ba0f9d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e34fe7250>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7e81fd10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7ea82690>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2ba0f9d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e34fe6a10>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7e81fd10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7ea82990>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2ba0f9d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e34fe51d0>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7e81fd10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7ea821d0>
 
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2ba0f9d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e34fe4710>
+	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7e81fd10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7ea82010>
 
-	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2ba0f9d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e34fe51d0>
+	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7e81fd10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7ea821d0>
 
-	- Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2ba0f9d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e34fe51d0>
+	- Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7e81fd10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7ea821d0>
 
-	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2ba0f9d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e34fe4710> 
+	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7e81fd10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7ea82010> 
 
-	- Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e2ba0f9d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e34fe4710> [code: interpolation-issues]
+	- Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7e81fd10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe7ea82010> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -3556,8 +3568,8 @@ minus
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 6 | 43 | 195 | 2234 | 143 | 1915 | 0 |
-| 0% | 1% | 4% | 49% | 3% | 42% | 0% |
+| 8 | 44 | 195 | 2267 | 143 | 1920 | 0 |
+| 0% | 1% | 4% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
