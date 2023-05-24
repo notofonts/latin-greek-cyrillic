@@ -38,7 +38,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* Agrave
 	* Alpha
 	* Alphatonos
-	* Amacron and 529 more.
+	* Amacron and 558 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -185,7 +185,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* Dcroat
 	* Desoftcy
 	* Dmiddlestroke
-	* Dtail and 432 more.
+	* Dtail and 459 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -338,7 +338,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* Desoftcy
 	* Dmiddlestroke
 	* Dtail
-	* Elsoftcy and 460 more.
+	* Elsoftcy and 487 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -498,14 +498,15 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* Bbarredsmall
 	* dkshade
 	* eng
+	* u10780
+	* u10784
 	* uni0452
 	* uni0518
 	* uni0529
-	* uni233C
-	* uniA657
-	* uniA684
-	* uniA772
-	* uniAB3C and uniAB3E
+	* uni1DF00
+	* uni1DF04 and 11 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -652,8 +653,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* dkshade
 	* eng
 	* omegaroundcy
-	* uni00B5
-	* uni019D and 41 more.
+	* u10780
+	* u10784 and 55 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -804,7 +805,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* Dtail
 	* Elsoftcy
 	* Eng
-	* Eng.alt2 and 312 more.
+	* Eng.alt2 and 328 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -950,7 +951,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* Omegaroundcy
 	* Oslash
 	* Oslashacute
-	* Smiddlestroke and 197 more.
+	* Smiddlestroke and 212 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1087,7 +1088,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* Dmiddlestroke
 	* Dtail
 	* Elsoftcy
-	* Eng and 380 more.
+	* Eng and 403 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1241,7 +1242,11 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* dkshade
+	* u10780
 	* uni0518
+	* uni1DF04
+	* uni1DF08
+	* uni1DF09
 	* uni233C and uniAB3E
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
@@ -1414,7 +1419,11 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni02ED
+	* u10780
+	* u10784
+	* u107A7
+	* uni1DF08
+	* uni1DF09 and uni1DF0F
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1426,7 +1435,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'Bbarredmod' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6554b6cd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f654b04d250> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'Bbarredmod' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9a372821d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9a2f5add90> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
