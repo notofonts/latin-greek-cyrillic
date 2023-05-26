@@ -4162,7 +4162,8 @@ code = "feature ccmp;
     sub Eng by Eng.alt1;
     sub Eng by Eng.alt2;
     sub Eng by Eng.alt3;
-    sub betaSymbol by betaSymbol.alt;";
+    sub betaSymbol by betaSymbol.alt;
+    sub Fstroke by Fstroke.hist;";
 tag = aalt;
 },
 {
