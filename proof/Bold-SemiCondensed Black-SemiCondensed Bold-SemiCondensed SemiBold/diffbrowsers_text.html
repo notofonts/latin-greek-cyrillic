@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>GFR - Text</title>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <style type="text/css">
     
         html{
@@ -144,14 +145,6 @@
 
 	  
 	    @font-face{
-    src: url(NotoSerif-SemiCondensedBoldItalic.ttf);
-    font-family: "Noto Serif";
-    font-weight: 700;
-    
-    font-style: italic;
-}
-	  
-	    @font-face{
     src: url(NotoSerif-SemiCondensedBold.ttf);
     font-family: "Noto Serif";
     font-weight: 700;
@@ -160,105 +153,17 @@
 }
 	  
 	    @font-face{
+    src: url(NotoSerif-SemiCondensedBlackItalic.ttf);
+    font-family: "Noto Serif";
+    font-weight: 900;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
     src: url(NotoSerif-Bold.ttf);
     font-family: "Noto Serif";
     font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-SemiCondensedBold.ttf);
-    font-family: "Noto Sans";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-BoldItalic.ttf);
-    font-family: "Noto Sans";
-    font-weight: 700;
-    
-    font-style: italic;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-SemiCondensedSemiBoldItalic.ttf);
-    font-family: "Noto Sans";
-    font-weight: 600;
-    
-    font-style: italic;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-SemiCondensedSemiBold.ttf);
-    font-family: "Noto Sans";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-SemiCondensedBlackItalic.ttf);
-    font-family: "Noto Sans";
-    font-weight: 900;
-    
-    font-style: italic;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-SemiCondensedBoldItalic.ttf);
-    font-family: "Noto Sans";
-    font-weight: 700;
-    
-    font-style: italic;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-SemiCondensedBlack.ttf);
-    font-family: "Noto Sans";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-Bold.ttf);
-    font-family: "Noto Sans";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansMono-Bold.ttf);
-    font-family: "Noto Sans Mono";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansMono-SemiCondensedBlack.ttf);
-    font-family: "Noto Sans Mono";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansMono-SemiCondensedBold.ttf);
-    font-family: "Noto Sans Mono";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansMono-SemiCondensedSemiBold.ttf);
-    font-family: "Noto Sans Mono";
-    font-weight: 600;
     
     font-style: normal;
 }
@@ -296,11 +201,107 @@
 }
 	  
 	    @font-face{
-    src: url(NotoSerif-SemiCondensedBlackItalic.ttf);
+    src: url(NotoSerif-SemiCondensedBoldItalic.ttf);
     font-family: "Noto Serif";
+    font-weight: 700;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-SemiCondensedBlackItalic.ttf);
+    font-family: "Noto Sans";
     font-weight: 900;
     
     font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-SemiCondensedSemiBold.ttf);
+    font-family: "Noto Sans";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-BoldItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 700;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-SemiCondensedSemiBoldItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 600;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-SemiCondensedBold.ttf);
+    font-family: "Noto Sans";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-SemiCondensedBoldItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 700;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-Bold.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-SemiCondensedBlack.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-SemiCondensedBold.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-SemiCondensedSemiBold.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-SemiCondensedBlack.ttf);
+    font-family: "Noto Sans";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-Bold.ttf);
+    font-family: "Noto Sans";
+    font-weight: 700;
+    
+    font-style: normal;
 }
 	  
 
@@ -619,17 +620,37 @@
 		fontToggle.addEventListener("click", switchFonts);
 	}
 
-    const divs = document.querySelectorAll('.node');
-    divs.forEach(el => el.addEventListener('click', event => {
-    var children = event.target.querySelectorAll(".node");
-    children.forEach(function(e) {
-        if (e.style.display === "none") {
-            e.style.display = "block";
-        } else {
-            e.style.display = "none";
-        }
-    })
-    }));
+	function render(node, toplevel) {
+		var wrapper = $("<div> </div>");
+		if (!node) { return wrapper }
+		if (Array.isArray(node)) {
+			var before = $("<span/>");
+			before.addClass("attr-before");
+			before.html(" " + node[0] + " ");
+			var after = $("<span/>");
+			after.addClass("attr-after");
+			after.append(node[1]);
+			wrapper.append(before);
+			wrapper.append(after);
+			return wrapper
+		}
+		for (const [key, value] of Object.entries(node)) {
+			var display = $("<div/>");
+			display.addClass("node")
+			if (!toplevel && ! key.match(/^\d+$/)) {
+				display.hide()
+			}
+			display.append(key);
+			display.append(render(value, false).children());
+			wrapper.append(display)
+		}
+		return wrapper
+
+	}
+	$(function() {
+		$("#difftable").append(render(fontdiff, true).children())
+		$(".node").on("click", function(event){ $(this).children().toggle(); event.stopPropagation() })
+	});
     
 	// break text so that no reflow happens
 async function breakText() {

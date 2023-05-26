@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>GFR - Proofer</title>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <style type="text/css">
     
 
@@ -145,112 +146,8 @@
 
 	  
 	    @font-face{
-    src: url(NotoSans-SemiCondensedBold.ttf);
-    font-family: "Noto Sans";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-SemiCondensedBoldItalic.ttf);
-    font-family: "Noto Sans";
-    font-weight: 700;
-    
-    font-style: italic;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-SemiCondensedSemiBoldItalic.ttf);
-    font-family: "Noto Sans";
-    font-weight: 600;
-    
-    font-style: italic;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-SemiCondensedLightItalic.ttf);
-    font-family: "Noto Sans";
-    font-weight: 300;
-    
-    font-style: italic;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-SemiCondensedExtraBold.ttf);
-    font-family: "Noto Sans";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-SemiCondensedExtraBoldItalic.ttf);
-    font-family: "Noto Sans";
-    font-weight: 800;
-    
-    font-style: italic;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-ExtraCondensedSemiBoldItalic.ttf);
-    font-family: "Noto Sans";
-    font-weight: 600;
-    
-    font-style: italic;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-SemiCondensed.ttf);
-    font-family: "Noto Sans";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-SemiCondensedSemiBold.ttf);
-    font-family: "Noto Sans";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-SemiCondensedMedium.ttf);
-    font-family: "Noto Sans";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSerif-SemiCondensedSemiBold.ttf);
-    font-family: "Noto Serif";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSerif-ExtraCondensedBoldItalic.ttf);
-    font-family: "Noto Serif";
-    font-weight: 700;
-    
-    font-style: italic;
-}
-	  
-	    @font-face{
-    src: url(NotoSerif-SemiCondensedExtraBold.ttf);
-    font-family: "Noto Serif";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSans-SemiCondensedBlack.ttf);
-    font-family: "Noto Sans";
+    src: url(NotoSansMono-SemiCondensedBlack.ttf);
+    font-family: "Noto Sans Mono";
     font-weight: 900;
     
     font-style: normal;
@@ -265,43 +162,99 @@
 }
 	  
 	    @font-face{
-    src: url(NotoSerif-SemiCondensedExtraLightItalic.ttf);
-    font-family: "Noto Serif";
-    font-weight: 200;
+    src: url(NotoSansMono-SemiCondensedBold.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 700;
     
-    font-style: italic;
+    font-style: normal;
 }
 	  
 	    @font-face{
-    src: url(NotoSerif-SemiCondensedThin.ttf);
-    font-family: "Noto Serif";
+    src: url(NotoSansMono-SemiCondensedSemiBold.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-SemiCondensedExtraBold.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-ExtraCondensedBold.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-SemiCondensedExtraLight.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-SemiCondensedThin.ttf);
+    font-family: "Noto Sans Mono";
     font-weight: 100;
     
     font-style: normal;
 }
 	  
 	    @font-face{
-    src: url(NotoSerif-SemiCondensedItalic.ttf);
-    font-family: "Noto Serif";
+    src: url(NotoSansMono-SemiCondensedLight.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-SemiCondensed.ttf);
+    font-family: "Noto Sans Mono";
     font-weight: 400;
     
-    font-style: italic;
+    font-style: normal;
 }
 	  
 	    @font-face{
-    src: url(NotoSerif-SemiCondensedBlackItalic.ttf);
+    src: url(NotoSerif-SemiCondensedBoldItalic.ttf);
     font-family: "Noto Serif";
-    font-weight: 900;
+    font-weight: 700;
     
     font-style: italic;
 }
 	  
 	    @font-face{
-    src: url(NotoSerif-SemiCondensedThinItalic.ttf);
+    src: url(NotoSerif-SemiCondensedMedium.ttf);
     font-family: "Noto Serif";
-    font-weight: 100;
+    font-weight: 500;
     
-    font-style: italic;
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-SemiCondensedBold.ttf);
+    font-family: "Noto Serif";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-SemiCondensedLight.ttf);
+    font-family: "Noto Serif";
+    font-weight: 300;
+    
+    font-style: normal;
 }
 	  
 	    @font-face{
@@ -385,9 +338,65 @@
 }
 	  
 	    @font-face{
-    src: url(NotoSans-SemiCondensedItalic.ttf);
+    src: url(NotoSans-SemiCondensed.ttf);
     font-family: "Noto Sans";
     font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-SemiCondensedLightItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 300;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-SemiCondensedExtraBold.ttf);
+    font-family: "Noto Sans";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedBlackItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 900;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-SemiCondensedSemiBoldItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 600;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-SemiCondensedBold.ttf);
+    font-family: "Noto Sans";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-SemiCondensedBoldItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 700;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-SemiCondensedExtraLightItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 200;
     
     font-style: italic;
 }
@@ -401,11 +410,19 @@
 }
 	  
 	    @font-face{
-    src: url(NotoSans-SemiCondensedExtraLightItalic.ttf);
+    src: url(NotoSans-SemiCondensedSemiBold.ttf);
     font-family: "Noto Sans";
-    font-weight: 200;
+    font-weight: 600;
     
-    font-style: italic;
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-SemiCondensedMedium.ttf);
+    font-family: "Noto Sans";
+    font-weight: 500;
+    
+    font-style: normal;
 }
 	  
 	    @font-face{
@@ -449,9 +466,17 @@
 }
 	  
 	    @font-face{
-    src: url(NotoSans-ExtraCondensedBlackItalic.ttf);
+    src: url(NotoSans-SemiCondensedExtraBoldItalic.ttf);
     font-family: "Noto Sans";
-    font-weight: 900;
+    font-weight: 800;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedSemiBoldItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 600;
     
     font-style: italic;
 }
@@ -465,73 +490,9 @@
 }
 	  
 	    @font-face{
-    src: url(NotoSansMono-SemiCondensedBlack.ttf);
-    font-family: "Noto Sans Mono";
+    src: url(NotoSans-SemiCondensedBlack.ttf);
+    font-family: "Noto Sans";
     font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansMono-SemiCondensedBold.ttf);
-    font-family: "Noto Sans Mono";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansMono-SemiCondensedSemiBold.ttf);
-    font-family: "Noto Sans Mono";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansMono-SemiCondensedExtraBold.ttf);
-    font-family: "Noto Sans Mono";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansMono-ExtraCondensedBold.ttf);
-    font-family: "Noto Sans Mono";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansMono-SemiCondensedExtraLight.ttf);
-    font-family: "Noto Sans Mono";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansMono-SemiCondensedThin.ttf);
-    font-family: "Noto Sans Mono";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansMono-SemiCondensedLight.ttf);
-    font-family: "Noto Sans Mono";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansMono-SemiCondensed.ttf);
-    font-family: "Noto Sans Mono";
-    font-weight: 400;
     
     font-style: normal;
 }
@@ -545,7 +506,15 @@
 }
 	  
 	    @font-face{
-    src: url(NotoSerif-SemiCondensedBoldItalic.ttf);
+    src: url(NotoSerif-SemiCondensedSemiBold.ttf);
+    font-family: "Noto Serif";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedBoldItalic.ttf);
     font-family: "Noto Serif";
     font-weight: 700;
     
@@ -553,27 +522,59 @@
 }
 	  
 	    @font-face{
-    src: url(NotoSerif-SemiCondensedMedium.ttf);
+    src: url(NotoSerif-SemiCondensedExtraBold.ttf);
     font-family: "Noto Serif";
-    font-weight: 500;
+    font-weight: 800;
     
     font-style: normal;
 }
 	  
 	    @font-face{
-    src: url(NotoSerif-SemiCondensedBold.ttf);
+    src: url(NotoSerif-SemiCondensedExtraLightItalic.ttf);
     font-family: "Noto Serif";
-    font-weight: 700;
+    font-weight: 200;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-SemiCondensedThin.ttf);
+    font-family: "Noto Serif";
+    font-weight: 100;
     
     font-style: normal;
 }
 	  
 	    @font-face{
-    src: url(NotoSerif-SemiCondensedLight.ttf);
+    src: url(NotoSerif-SemiCondensedItalic.ttf);
     font-family: "Noto Serif";
-    font-weight: 300;
+    font-weight: 400;
     
-    font-style: normal;
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-SemiCondensedBlackItalic.ttf);
+    font-family: "Noto Serif";
+    font-weight: 900;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-SemiCondensedThinItalic.ttf);
+    font-family: "Noto Serif";
+    font-weight: 100;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-SemiCondensedItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 400;
+    
+    font-style: italic;
 }
 	  
 
@@ -14070,17 +14071,37 @@
 		fontToggle.addEventListener("click", switchFonts);
 	}
 
-    const divs = document.querySelectorAll('.node');
-    divs.forEach(el => el.addEventListener('click', event => {
-    var children = event.target.querySelectorAll(".node");
-    children.forEach(function(e) {
-        if (e.style.display === "none") {
-            e.style.display = "block";
-        } else {
-            e.style.display = "none";
-        }
-    })
-    }));
+	function render(node, toplevel) {
+		var wrapper = $("<div> </div>");
+		if (!node) { return wrapper }
+		if (Array.isArray(node)) {
+			var before = $("<span/>");
+			before.addClass("attr-before");
+			before.html(" " + node[0] + " ");
+			var after = $("<span/>");
+			after.addClass("attr-after");
+			after.append(node[1]);
+			wrapper.append(before);
+			wrapper.append(after);
+			return wrapper
+		}
+		for (const [key, value] of Object.entries(node)) {
+			var display = $("<div/>");
+			display.addClass("node")
+			if (!toplevel && ! key.match(/^\d+$/)) {
+				display.hide()
+			}
+			display.append(key);
+			display.append(render(value, false).children());
+			wrapper.append(display)
+		}
+		return wrapper
+
+	}
+	$(function() {
+		$("#difftable").append(render(fontdiff, true).children())
+		$(".node").on("click", function(event){ $(this).children().toggle(); event.stopPropagation() })
+	});
     
     
 state = "line-by-line"

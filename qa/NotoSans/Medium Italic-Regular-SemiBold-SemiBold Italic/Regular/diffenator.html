@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>GFR - Glyphs</title>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <style type="text/css">
     
 
@@ -229,41 +230,7 @@
   
     <div class="box">
     <div class="box-title">Tables</div>
-     
-<div class="node" >
-head
-  <div class="node" style="display:none">
-  modified
-    <span class="attrib-before">3767786342</span> <span class="attrib-after">3767786283</span>
-  </div>
-  <div class="node" style="display:none">
-  checkSumAdjustment
-    <span class="attrib-before">2756058277</span> <span class="attrib-after">2756058395</span>
-  </div>
-</div>
-<div class="node" >
-gvar
-  <div class="node" style="display:none">
-  variations
-    <div class="node" style="display:none">
-    data
-      <div class="node" style="display:none">
-      error
-        <span class="attrib-before">There are 3633 changes, check manually!</span> <span class="attrib-after"></span>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="node" >
-glyf
-  <div class="node" style="display:none">
-  glyphs
-    <div class="node" style="display:none">
-    error
-      <span class="attrib-before">There are 3842 changes, check manually!</span> <span class="attrib-after"></span>
-    </div>
-  </div>
-</div>
+     <script>var fontdiff = {"gvar": {"variations": {"data": {"error": ["There are 3633 changes, check manually!", ""]}}}, "head": {"checkSumAdjustment": [2756058277, 2939922245], "modified": [3767786342, 3767933846]}, "name": {"319/3/1/1033": ["Roman", null], "325/3/1/1033": ["SemiBold", null], "305/1/0/0": [null, "Medium"], "270/3/1/1033": [null, "Black"], "322/1/0/0": ["Light", null], "305/3/1/1033": [null, "Medium"], "266/3/1/1033": [null, "Medium"], "306/3/1/1033": [null, "SemiBold"], "268/3/1/1033": [null, "Bold"], "321/1/0/0": ["ExtraLight", null], "288/3/1/1033": ["ExtraBold", null], "301/1/0/0": [null, "Thin"], "262/3/1/1033": [null, "Thin"], "300/3/1/1033": [null, "Roman"], "282/3/1/1033": ["ExtraLight", null], "327/3/1/1033": ["ExtraBold", null], "286/3/1/1033": ["SemiBold", null], "321/3/1/1033": ["ExtraLight", null], "325/1/0/0": ["SemiBold", null], "309/1/0/0": [null, "Black"], "279/3/1/1033": ["Weight", null], "304/3/1/1033": [null, "Regular"], "280/3/1/1033": ["Width", null], "285/3/1/1033": ["Medium", null], "287/3/1/1033": ["Bold", null], "320/3/1/1033": ["Thin", null], "283/3/1/1033": ["Light", "Condensed"], "324/3/1/1033": ["Medium", null], "326/3/1/1033": ["Bold", null], "324/1/0/0": ["Medium", null], "269/3/1/1033": [null, "ExtraBold"], "328/1/0/0": ["Black", null], "299/3/1/1033": [null, "Italic"], "326/1/0/0": ["Bold", null], "311/3/1/1033": ["ExtraCondensed", null], "289/3/1/1033": ["Black", null], "306/1/0/0": [null, "SemiBold"], "260/3/1/1033": ["Regular", "Weight"], "318/3/1/1033": ["Italic", null], "309/3/1/1033": [null, "Black"], "303/1/0/0": [null, "Light"], "307/3/1/1033": [null, "Bold"], "292/3/1/1033": [null, "ExtraCondensed"], "281/3/1/1033": ["Thin", null], "327/1/0/0": ["ExtraBold", null], "301/3/1/1033": [null, "Thin"], "298/3/1/1033": [null, "Normal"], "274/3/1/1033": [null, "SemiCondensed"], "323/1/0/0": ["Regular", null], "304/1/0/0": [null, "Regular"], "322/3/1/1033": ["Light", null], "263/3/1/1033": [null, "ExtraLight"], "302/1/0/0": [null, "ExtraLight"], "267/3/1/1033": [null, "SemiBold"], "328/3/1/1033": ["Black", null], "320/1/0/0": ["Thin", null], "302/3/1/1033": ["Condensed", "ExtraLight"], "264/3/1/1033": [null, "Light"], "308/3/1/1033": [null, "ExtraBold"], "308/1/0/0": [null, "ExtraBold"], "323/3/1/1033": ["Regular", null], "303/3/1/1033": [null, "Light"], "317/3/1/1033": ["Normal", null], "261/3/1/1033": [null, "Width"], "293/3/1/1033": ["SemiCondensed", null], "307/1/0/0": [null, "Bold"]}, "glyf": {"glyphs": {"error": ["There are 3842 changes, check manually!", ""]}}};</script><div id="difftable"></div>
     </div>
     
     
@@ -351,17 +318,37 @@ glyf
 		fontToggle.addEventListener("click", switchFonts);
 	}
 
-    const divs = document.querySelectorAll('.node');
-    divs.forEach(el => el.addEventListener('click', event => {
-    var children = event.target.querySelectorAll(".node");
-    children.forEach(function(e) {
-        if (e.style.display === "none") {
-            e.style.display = "block";
-        } else {
-            e.style.display = "none";
-        }
-    })
-    }));
+	function render(node, toplevel) {
+		var wrapper = $("<div> </div>");
+		if (!node) { return wrapper }
+		if (Array.isArray(node)) {
+			var before = $("<span/>");
+			before.addClass("attr-before");
+			before.html(" " + node[0] + " ");
+			var after = $("<span/>");
+			after.addClass("attr-after");
+			after.append(node[1]);
+			wrapper.append(before);
+			wrapper.append(after);
+			return wrapper
+		}
+		for (const [key, value] of Object.entries(node)) {
+			var display = $("<div/>");
+			display.addClass("node")
+			if (!toplevel && ! key.match(/^\d+$/)) {
+				display.hide()
+			}
+			display.append(key);
+			display.append(render(value, false).children());
+			wrapper.append(display)
+		}
+		return wrapper
+
+	}
+	$(function() {
+		$("#difftable").append(render(fontdiff, true).children())
+		$(".node").on("click", function(event){ $(this).children().toggle(); event.stopPropagation() })
+	});
     
 
 function wordBreaks() {

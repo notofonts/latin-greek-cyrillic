@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>GFR - Glyphs</title>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <style type="text/css">
     
 
@@ -229,41 +230,7 @@
   
     <div class="box">
     <div class="box-title">Tables</div>
-     
-<div class="node" >
-head
-  <div class="node" style="display:none">
-  checkSumAdjustment
-    <span class="attrib-before">461742673</span> <span class="attrib-after">461742791</span>
-  </div>
-  <div class="node" style="display:none">
-  modified
-    <span class="attrib-before">3767786352</span> <span class="attrib-after">3767786293</span>
-  </div>
-</div>
-<div class="node" >
-glyf
-  <div class="node" style="display:none">
-  glyphs
-    <div class="node" style="display:none">
-    error
-      <span class="attrib-before">There are 3855 changes, check manually!</span> <span class="attrib-after"></span>
-    </div>
-  </div>
-</div>
-<div class="node" >
-gvar
-  <div class="node" style="display:none">
-  variations
-    <div class="node" style="display:none">
-    data
-      <div class="node" style="display:none">
-      error
-        <span class="attrib-before">There are 3830 changes, check manually!</span> <span class="attrib-after"></span>
-      </div>
-    </div>
-  </div>
-</div>
+     <script>var fontdiff = {"glyf": {"glyphs": {"error": ["There are 3855 changes, check manually!", ""]}}, "head": {"checkSumAdjustment": [461742673, 461447663], "modified": [3767786352, 3767933857]}, "gvar": {"variations": {"data": {"error": ["There are 3830 changes, check manually!", ""]}}}};</script><div id="difftable"></div>
     </div>
     
     
@@ -351,17 +318,37 @@ gvar
 		fontToggle.addEventListener("click", switchFonts);
 	}
 
-    const divs = document.querySelectorAll('.node');
-    divs.forEach(el => el.addEventListener('click', event => {
-    var children = event.target.querySelectorAll(".node");
-    children.forEach(function(e) {
-        if (e.style.display === "none") {
-            e.style.display = "block";
-        } else {
-            e.style.display = "none";
-        }
-    })
-    }));
+	function render(node, toplevel) {
+		var wrapper = $("<div> </div>");
+		if (!node) { return wrapper }
+		if (Array.isArray(node)) {
+			var before = $("<span/>");
+			before.addClass("attr-before");
+			before.html(" " + node[0] + " ");
+			var after = $("<span/>");
+			after.addClass("attr-after");
+			after.append(node[1]);
+			wrapper.append(before);
+			wrapper.append(after);
+			return wrapper
+		}
+		for (const [key, value] of Object.entries(node)) {
+			var display = $("<div/>");
+			display.addClass("node")
+			if (!toplevel && ! key.match(/^\d+$/)) {
+				display.hide()
+			}
+			display.append(key);
+			display.append(render(value, false).children());
+			wrapper.append(display)
+		}
+		return wrapper
+
+	}
+	$(function() {
+		$("#difftable").append(render(fontdiff, true).children())
+		$(".node").on("click", function(event){ $(this).children().toggle(); event.stopPropagation() })
+	});
     
 
 function wordBreaks() {
