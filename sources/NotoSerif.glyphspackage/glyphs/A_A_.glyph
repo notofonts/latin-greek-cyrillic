@@ -5,8 +5,20 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (987,0);
+},
+{
 name = center;
 pos = (537,357);
+},
+{
+name = top;
+pos = (537,714);
+},
+{
+name = topright;
+pos = (959,714);
 }
 );
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
@@ -105,8 +117,20 @@ width = 1079;
 {
 anchors = (
 {
+name = bottom;
+pos = (1021,0);
+},
+{
 name = center;
 pos = (572,357);
+},
+{
+name = top;
+pos = (572,714);
+},
+{
+name = topright;
+pos = (994,714);
 }
 );
 layerId = UUID0;
@@ -205,8 +229,20 @@ width = 1144;
 {
 anchors = (
 {
+name = bottom;
+pos = (1039,0);
+},
+{
 name = center;
 pos = (601,357);
+},
+{
+name = top;
+pos = (601,714);
+},
+{
+name = topright;
+pos = (1049,714);
 }
 );
 layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
@@ -305,8 +341,20 @@ width = 1199;
 {
 anchors = (
 {
+name = bottom;
+pos = (1061,0);
+},
+{
 name = center;
 pos = (623,357);
+},
+{
+name = top;
+pos = (623,714);
+},
+{
+name = topright;
+pos = (1119,714);
 }
 );
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
@@ -405,8 +453,20 @@ width = 1240;
 {
 anchors = (
 {
+name = bottom;
+pos = (778,0);
+},
+{
 name = center;
 pos = (423,357);
+},
+{
+name = top;
+pos = (423,714);
+},
+{
+name = topright;
+pos = (749,714);
 }
 );
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
@@ -505,8 +565,20 @@ width = 849;
 {
 anchors = (
 {
+name = bottom;
+pos = (814,0);
+},
+{
 name = center;
 pos = (460,357);
+},
+{
+name = top;
+pos = (460,714);
+},
+{
+name = topright;
+pos = (808,714);
 }
 );
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
@@ -605,8 +677,20 @@ width = 918;
 {
 anchors = (
 {
+name = bottom;
+pos = (858,0);
+},
+{
 name = center;
 pos = (493,357);
+},
+{
+name = top;
+pos = (493,714);
+},
+{
+name = topright;
+pos = (873,714);
 }
 );
 layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
@@ -705,8 +789,20 @@ width = 983;
 {
 anchors = (
 {
+name = bottom;
+pos = (891,0);
+},
+{
 name = center;
 pos = (519,357);
+},
+{
+name = top;
+pos = (519,714);
+},
+{
+name = topright;
+pos = (923,714);
 }
 );
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

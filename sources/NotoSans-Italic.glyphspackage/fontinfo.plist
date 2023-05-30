@@ -20628,5 +20628,5 @@ GSDimensionPlugin.Dimensions = {
 GSDontShowVersionAlert = 1;
 };
 versionMajor = 2;
-versionMinor = 11;
+versionMinor = 12;
 }

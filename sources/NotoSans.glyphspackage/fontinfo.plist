@@ -3895,91 +3895,6 @@ languagesystem cyrl SRB;
 languagesystem cyrl MKD;
 languagesystem dev2 dflt; # At least when the subset is added";
 name = Languagesystems;
-},
-{
-code = "";
-name = STAT;
-},
-{
-code = "table STAT {
-    ElidedFallbackName { 
-name \"Regular\";
-};
-    DesignAxis wght 0 { 
-name \"Weight\";
-};
-    DesignAxis wdth 1 { 
-name \"Width\";
-};
-    DesignAxis CTGR 2 { 
-name \"Contrast (Grotesque)\";
-};
-    AxisValue {
-location wght 100;
-name \"Thin\";
-};
-    AxisValue {
-location wght 200;
-name \"ExtraLight\";
-};
-    AxisValue {
-location wght 300;
-name \"Light\";
-};
-    AxisValue {
-location wght 400;
-name \"Regular\";
-flag ElidableAxisValueName;
-};
-    AxisValue {
-location wght 500;
-name \"Medium\";
-};
-    AxisValue {
-location wght 600;
-name \"SemiBold\";
-};
-    AxisValue {
-location wght 700;
-name \"Bold\";
-};
-    AxisValue {
-location wght 800;
-name \"ExtraBold\";
-};
-    AxisValue {
-location wght 900;
-name \"Black\";
-};
-    AxisValue {
-location wdth 62.5;
-name \"Condensed\";
-};
-    AxisValue {
-location wdth 75;
-name \"Condensed\";
-};
-    AxisValue {
-location wdth 87.5;
-name \"SemiCondensed\";
-};
-    AxisValue {
-location wdth 100;
-name \"Normal\";
-flag ElidableAxisValueName;
-};
-    AxisValue {
-location CTGR 0;
-name \"Text\";
-flag ElidableAxisValueName;
-};
-    AxisValue {
-location CTGR 100;
-name \"Display\";
-};
-} STAT;
-";
-name = "<anonymous>";
 }
 );
 features = (
@@ -20736,5 +20651,5 @@ UUID0 = {
 GSDontShowVersionAlert = 1;
 };
 versionMajor = 2;
-versionMinor = 11;
+versionMinor = 12;
 }

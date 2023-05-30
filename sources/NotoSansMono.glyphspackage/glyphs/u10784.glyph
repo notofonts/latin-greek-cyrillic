@@ -7,7 +7,7 @@ layerId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
 shapes = (
 {
 pos = (88,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
@@ -18,7 +18,7 @@ layerId = UUID0;
 shapes = (
 {
 pos = (91,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
@@ -29,7 +29,7 @@ layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
 shapes = (
 {
 pos = (91,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
@@ -40,7 +40,7 @@ layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
 shapes = (
 {
 pos = (93,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
@@ -51,7 +51,7 @@ layerId = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
 shapes = (
 {
 pos = (73,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
@@ -62,7 +62,7 @@ layerId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
 shapes = (
 {
 pos = (82,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
@@ -73,7 +73,7 @@ layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
 shapes = (
 {
 pos = (80,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
@@ -84,7 +84,7 @@ layerId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
 shapes = (
 {
 pos = (81,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
@@ -97,7 +97,7 @@ name = "Display Regular";
 shapes = (
 {
 pos = (0,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
@@ -110,7 +110,7 @@ name = "Display Light";
 shapes = (
 {
 pos = (0,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
@@ -123,7 +123,7 @@ name = "Display SemiBold";
 shapes = (
 {
 pos = (0,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
@@ -136,7 +136,7 @@ name = "Display Bold";
 shapes = (
 {
 pos = (0,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
@@ -149,7 +149,7 @@ name = "Display Light Condensed";
 shapes = (
 {
 pos = (0,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
@@ -162,7 +162,7 @@ name = "Display Condensed";
 shapes = (
 {
 pos = (0,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
@@ -175,7 +175,7 @@ name = "Display SemiBold Condensed";
 shapes = (
 {
 pos = (0,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
@@ -188,7 +188,7 @@ name = "Display Bold Condensed";
 shapes = (
 {
 pos = (0,287);
-ref = B;
+ref = Bsmall;
 scale = (0.65,0.6);
 }
 );
