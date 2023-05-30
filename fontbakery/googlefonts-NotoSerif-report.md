@@ -41,21 +41,7 @@ These were the version values found:
 * fonts/NotoSerif/googlefonts/variable-ttf/NotoSerif-Italic[wdth,wght].ttf: 2.0110015869140625
 * fonts/NotoSerif/googlefonts/variable-ttf/NotoSerif[wdth,wght].ttf: 2.011993408203125
  [code: mismatch]
-</div></details><br></div></details><details><summary><b>[13] NotoSerif-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSerif-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -88,6 +74,8 @@ These were the version values found:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- acutecomb.loclCYR.cap
+
 	- beta.alt1
 
 	- dasiaoxia_macronmod
@@ -104,11 +92,9 @@ These were the version values found:
 
 	- uni03B1030403140300
 
-	- uni03B1030403140301
+	- uni03B1030403140301 
 
-	- uni03B1030603130300 
-
-	- 31 more.
+	- 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -214,7 +200,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni03F0 (U+03F0): B<<273.5,223.5>-<256.0,186.0>-<241.0,162.0>>/L<<241.0,162.0>--<532.0,536.0>> = 5.880204881078469 
 
-	* 33 more.
+	* 30 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -245,21 +231,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* 59 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSerif-BlackItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerif-BlackItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -410,8 +382,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* Ereversedopen (U+A7AB): B<<533.5,403.5>-<488.0,379.0>-<431.0,372.0>>/B<<431.0,372.0>-<463.0,369.0>-<498.5,351.5>> = 12.357092600350505
 
-	* kacombcy (U+2DE6): B<<118.0,745.5>-<110.0,739.0>-<101.0,738.0>>/B<<101.0,738.0>-<128.0,738.0>-<145.5,728.0>> = 6.340191745909908
-
 	* uni0246 (U+0246): L<<335.0,339.0>--<295.0,151.0>>/L<<295.0,151.0>--<379.0,339.0>> = 12.064019868713396
 
 	* uni024A (U+024A): L<<556.0,29.0>--<587.0,135.0>>/B<<587.0,135.0>-<568.0,101.0>-<528.5,68.0>> = 12.89577770175709
@@ -422,30 +392,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni03F0 (U+03F0): B<<554.0,344.0>-<568.0,374.0>-<577.0,393.0>>/L<<577.0,393.0>--<282.0,0.0>> = 11.54704110819093
 
-	* uni0417 (U+0417): B<<533.5,403.5>-<488.0,379.0>-<431.0,372.0>>/B<<431.0,372.0>-<463.0,369.0>-<498.5,351.5>> = 12.357092600350505
+	* uni046E (U+046E): B<<516.5,403.5>-<471.0,379.0>-<414.0,372.0>>/B<<414.0,372.0>-<446.0,369.0>-<481.5,351.5>> = 12.357092600350505
 
-	* uni0432 (U+0432): B<<512.5,321.5>-<468.0,275.0>-<385.0,258.0>>/B<<385.0,258.0>-<418.0,258.0>-<448.0,243.0>> = 11.575188817396182
+	* uni0498 (U+0498): B<<533.5,403.5>-<488.0,379.0>-<431.0,372.0>>/B<<431.0,372.0>-<463.0,369.0>-<498.5,351.5>> = 12.357092600350505
 
-	* uni043A (U+043A): B<<366.5,314.0>-<348.0,299.0>-<328.0,294.0>>/B<<328.0,294.0>-<389.0,296.0>-<428.0,270.0>> = 12.158366020641097 
+	* uni049B (U+049B): B<<354.5,311.0>-<337.0,299.0>-<317.0,294.0>>/B<<317.0,294.0>-<378.0,296.0>-<417.0,270.0>> = 12.158366020641097
 
-	* 25 more.
+	* uni049D (U+049D): B<<320.0,203.0>-<317.0,210.0>-<319.0,214.0>>/L<<319.0,214.0>--<302.0,137.0>> = 14.115054669271364 
+
+	* 17 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSerif-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerif-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -466,7 +424,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* beta
 	* chi
 	* copyright
-	* degree and 380 more.
+	* degree and 442 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -494,6 +452,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- acutecomb.loclCYR.cap
+
 	- beta.alt1
 
 	- dasiaoxia_macronmod
@@ -510,11 +470,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	- uni03B1030403140300
 
-	- uni03B1030403140301
+	- uni03B1030403140301 
 
-	- uni03B1030603130300 
-
-	- 31 more.
+	- 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -618,9 +576,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni03F0 (U+03F0): B<<233.5,219.0>-<220.0,180.0>-<208.0,155.0>>/L<<208.0,155.0>--<481.0,536.0>> = 9.981933481390366
 
-	* uni0443 (U+0443): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127 
+	* uni0478 (U+0478): B<<1047.0,162.0>-<1053.0,138.0>-<1055.0,118.0>>/B<<1055.0,118.0>-<1057.0,139.0>-<1065.5,165.0>> = 11.150925168505127 
 
-	* 22 more.
+	* 19 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -651,21 +609,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* 48 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerif-BoldItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSerif-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -686,7 +630,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 	* Phi
 	* Psi
 	* Udieresis
-	* Upsilondieresis and 439 more.
+	* Upsilondieresis and 485 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -836,38 +780,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni03F0 (U+03F0): B<<282.5,231.5>-<262.0,182.0>-<240.0,135.0>>/L<<240.0,135.0>--<555.0,536.0>> = 13.067321778305404
 
-	* uni0417 (U+0417): B<<508.0,402.0>-<462.0,377.0>-<405.0,370.0>>/B<<405.0,370.0>-<437.0,367.0>-<472.5,349.5>> = 12.357092600350505
-
 	* uni046E (U+046E): B<<498.0,402.0>-<452.0,377.0>-<395.0,370.0>>/B<<395.0,370.0>-<427.0,367.0>-<462.5,349.5>> = 12.357092600350505
 
 	* uni0498 (U+0498): B<<508.0,402.0>-<462.0,377.0>-<405.0,370.0>>/B<<405.0,370.0>-<437.0,367.0>-<472.5,349.5>> = 12.357092600350505
-
-	* uni04DE (U+04DE): B<<508.0,402.0>-<462.0,377.0>-<405.0,370.0>>/B<<405.0,370.0>-<437.0,367.0>-<472.5,349.5>> = 12.357092600350505
 
 	* uni0506 (U+0506): B<<476.0,402.0>-<430.0,377.0>-<373.0,370.0>>/B<<373.0,370.0>-<394.0,368.0>-<419.0,362.5>> = 12.4415995885008
 
 	* uni1D95 (U+1D95): L<<449.0,-39.0>--<496.0,217.0>>/B<<496.0,217.0>-<474.0,159.0>-<431.5,107.0>> = 10.368961953607531
 
-	* uni210A (U+210A): B<<93.5,165.0>-<104.0,193.0>-<117.0,209.0>>/L<<117.0,209.0>--<52.0,145.0>> = 6.350285546882426 
+	* uni210A (U+210A): B<<93.5,165.0>-<104.0,193.0>-<117.0,209.0>>/L<<117.0,209.0>--<52.0,145.0>> = 6.350285546882426
 
-	* 6 more.
+	* uni210B (U+210B): B<<466.5,433.0>-<506.0,504.0>-<569.0,581.0>>/B<<569.0,581.0>-<545.0,559.0>-<515.5,535.0>> = 8.200146059498772
+
+	* uni2133 (U+2133): B<<1101.5,668.0>-<1119.0,688.0>-<1125.0,694.0>>/B<<1125.0,694.0>-<1109.0,683.0>-<1066.5,648.5>> = 10.491477012331565 
+
+	* 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSerif-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSerif-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -900,6 +830,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- acutecomb.loclCYR.cap
+
 	- beta.alt1
 
 	- dasiaoxia_macronmod
@@ -916,11 +848,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	- uni03B1030403140300
 
-	- uni03B1030403140301
+	- uni03B1030403140301 
 
-	- uni03B1030603130300 
-
-	- 31 more.
+	- 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1016,17 +946,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni0233 (U+0233): B<<329.0,175.5>-<335.0,150.0>-<337.0,131.0>>/B<<337.0,131.0>-<339.0,153.0>-<345.0,173.0>> = 11.203434865229296
 
-	* uni0247 (U+0247): L<<215.0,2.0>--<170.0,-129.0>>/L<<170.0,-129.0>--<201.0,7.0>> = 6.11750439301343
-
-	* uni0247 (U+0247): L<<348.0,547.0>--<404.0,714.0>>/L<<404.0,714.0>--<367.0,544.0>> = 6.259048295683005
-
 	* uni024F (U+024F): B<<329.0,175.5>-<335.0,150.0>-<337.0,131.0>>/B<<337.0,131.0>-<339.0,153.0>-<345.0,173.0>> = 11.203434865229296
 
 	* uni028E (U+028E): B<<254.0,360.5>-<248.0,386.0>-<246.0,405.0>>/B<<246.0,405.0>-<244.0,383.0>-<238.0,363.0>> = 11.203434865229296
 
-	* uni02B8 (U+02B8): B<<214.0,392.5>-<218.0,377.0>-<219.0,366.0>>/B<<219.0,366.0>-<220.0,379.0>-<224.0,391.0>> = 9.593134262730318 
+	* uni02B8 (U+02B8): B<<214.0,392.5>-<218.0,377.0>-<219.0,366.0>>/B<<219.0,366.0>-<220.0,379.0>-<224.0,391.0>> = 9.593134262730318
 
-	* 27 more.
+	* uni0377 (U+0377): B<<443.5,261.5>-<460.0,318.0>-<487.0,376.0>>/L<<487.0,376.0>--<199.0,0.0>> = 12.487788400929684
+
+	* uni03F0 (U+03F0): B<<255.0,221.5>-<239.0,183.0>-<226.0,159.0>>/L<<226.0,159.0>--<509.0,536.0>> = 8.451277793680566 
+
+	* 22 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1057,21 +987,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* 51 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSerif-ExtraBoldItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerif-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -1226,38 +1142,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni03F0 (U+03F0): B<<317.5,231.0>-<297.0,181.0>-<276.0,136.0>>/L<<276.0,136.0>--<577.0,536.0>> = 11.944567460972712
 
-	* uni0417 (U+0417): B<<521.5,402.5>-<476.0,378.0>-<419.0,371.0>>/B<<419.0,371.0>-<451.0,368.0>-<486.5,350.5>> = 12.357092600350505
-
 	* uni046E (U+046E): B<<507.5,402.5>-<462.0,378.0>-<405.0,371.0>>/B<<405.0,371.0>-<437.0,368.0>-<473.0,350.5>> = 12.357092600350505
 
 	* uni0498 (U+0498): B<<521.5,402.5>-<476.0,378.0>-<419.0,371.0>>/B<<419.0,371.0>-<451.0,368.0>-<486.5,350.5>> = 12.357092600350505
-
-	* uni04DE (U+04DE): B<<521.5,402.5>-<476.0,378.0>-<419.0,371.0>>/B<<419.0,371.0>-<451.0,368.0>-<486.5,350.5>> = 12.357092600350505
 
 	* uni0506 (U+0506): B<<490.5,402.5>-<445.0,378.0>-<388.0,371.0>>/B<<388.0,371.0>-<409.0,369.0>-<434.0,364.0>> = 12.4415995885008
 
 	* uni1D95 (U+1D95): L<<479.0,-35.0>--<522.0,215.0>>/B<<522.0,215.0>-<499.0,157.0>-<454.0,105.5>> = 11.871505568848043
 
-	* uni210A (U+210A): B<<93.5,165.0>-<104.0,193.0>-<117.0,209.0>>/L<<117.0,209.0>--<52.0,145.0>> = 6.350285546882426 
+	* uni210A (U+210A): B<<93.5,165.0>-<104.0,193.0>-<117.0,209.0>>/L<<117.0,209.0>--<52.0,145.0>> = 6.350285546882426
 
-	* 8 more.
+	* uni210B (U+210B): B<<466.5,433.0>-<506.0,504.0>-<569.0,581.0>>/B<<569.0,581.0>-<545.0,559.0>-<515.5,535.0>> = 8.200146059498772
+
+	* uni211F (U+211F): L<<388.0,651.0>--<338.0,433.0>>/L<<338.0,433.0>--<436.0,651.0>> = 11.288072200562377 
+
+	* 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSerif-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerif-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -1297,6 +1199,8 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- acutecomb.loclCYR.cap
+
 	- beta.alt1
 
 	- dasiaoxia_macronmod
@@ -1313,11 +1217,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- uni03B1030403140300
 
-	- uni03B1030403140301
+	- uni03B1030403140301 
 
-	- uni03B1030603130300 
-
-	- 31 more.
+	- 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1395,7 +1297,7 @@ minus
 
 	* uni03BC (U+03BC): L<<59.0,-240.0>--<61.0,134.0>> -> L<<61.0,134.0>--<59.0,536.0>> 
 
-	* 11 more.
+	* 13 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1411,9 +1313,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni1D95 (U+1D95): L<<435.0,-87.0>--<435.0,229.0>>/B<<435.0,229.0>-<428.0,109.0>-<377.0,49.5>> = 3.338470543764357
 
-	* uni210A (U+210A): B<<93.5,165.0>-<104.0,193.0>-<117.0,209.0>>/L<<117.0,209.0>--<52.0,145.0>> = 6.350285546882426 
+	* uni210A (U+210A): B<<93.5,165.0>-<104.0,193.0>-<117.0,209.0>>/L<<117.0,209.0>--<52.0,145.0>> = 6.350285546882426
 
-	* uni2133 (U+2133): B<<1101.5,668.0>-<1119.0,688.0>-<1125.0,694.0>>/B<<1125.0,694.0>-<1109.0,683.0>-<1066.5,648.5>> = 10.491477012331565 [code: found-jaggy-segments]
+	* uni2133 (U+2133): B<<1101.5,668.0>-<1119.0,688.0>-<1125.0,694.0>>/B<<1125.0,694.0>-<1109.0,683.0>-<1066.5,648.5>> = 10.491477012331565 
+
+	* vecombcy (U+2DE1): B<<68.0,739.5>-<57.0,734.0>-<46.0,732.0>>/L<<46.0,732.0>--<46.0,732.0>> = 10.304846468766044 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1439,24 +1343,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* iotadieresis (U+03CA): L<<61.0,139.0>--<59.0,536.0>> 
 
-	* 136 more.
+	* 133 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSerif-ExtraLightItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerif-ExtraLightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -1620,21 +1510,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uniA737 (U+A737): B<<334.0,119.5>-<336.0,132.0>-<339.0,145.0>>/B<<339.0,145.0>-<301.0,70.0>-<252.0,30.0>> = 13.87519629558255 
 
 	* uniA7A0 (U+A7A0): L<<650.0,354.0>--<492.0,319.0>>/L<<492.0,319.0>--<645.0,319.0>> = 12.49040571790919 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSerif-Italic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSerif-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -1655,7 +1531,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* beta
 	* chi
 	* copyright
-	* dieresistonos and 358 more.
+	* dieresistonos and 402 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1803,13 +1679,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni03D0 (U+03D0): B<<316.0,703.0>-<273.0,681.0>-<238.0,624.0>>/L<<238.0,624.0>--<240.0,627.0>> = 2.1386825776662226
 
-	* uni0417 (U+0417): B<<473.5,399.0>-<427.0,374.0>-<370.0,367.0>>/B<<370.0,367.0>-<402.0,364.0>-<437.5,347.0>> = 12.357092600350505
-
 	* uni046E (U+046E): B<<473.5,399.0>-<427.0,374.0>-<370.0,367.0>>/B<<370.0,367.0>-<402.0,364.0>-<437.5,347.0>> = 12.357092600350505
 
 	* uni0498 (U+0498): B<<473.5,399.0>-<427.0,374.0>-<370.0,367.0>>/B<<370.0,367.0>-<402.0,364.0>-<437.5,347.0>> = 12.357092600350505
-
-	* uni04DE (U+04DE): B<<473.5,399.0>-<427.0,374.0>-<370.0,367.0>>/B<<370.0,367.0>-<402.0,364.0>-<437.5,347.0>> = 12.357092600350505
 
 	* uni0504 (U+0504): B<<438.5,399.0>-<392.0,374.0>-<335.0,367.0>>/B<<335.0,367.0>-<357.0,365.0>-<382.5,358.0>> = 12.19569646523012
 
@@ -1817,26 +1689,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni1D95 (U+1D95): L<<374.0,-49.0>--<431.0,223.0>>/B<<431.0,223.0>-<412.0,163.0>-<374.5,110.0>> = 5.735691697844572
 
-	* uni210A (U+210A): B<<93.5,165.0>-<104.0,193.0>-<117.0,209.0>>/L<<117.0,209.0>--<52.0,145.0>> = 6.350285546882426 
+	* uni210A (U+210A): B<<93.5,165.0>-<104.0,193.0>-<117.0,209.0>>/L<<117.0,209.0>--<52.0,145.0>> = 6.350285546882426
 
-	* 4 more.
+	* uni210B (U+210B): B<<466.5,433.0>-<506.0,504.0>-<569.0,581.0>>/B<<569.0,581.0>-<545.0,559.0>-<515.5,535.0>> = 8.200146059498772
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSerif-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+	* uni211F (U+211F): L<<242.0,315.0>--<203.0,134.0>>/L<<203.0,134.0>--<284.0,315.0>> = 11.949579509065014
 
+	* uni2133 (U+2133): B<<1101.5,668.0>-<1119.0,688.0>-<1125.0,694.0>>/B<<1125.0,694.0>-<1109.0,683.0>-<1066.5,648.5>> = 10.491477012331565 
 
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+	* uniA7A0 (U+A7A0): L<<694.0,372.0>--<503.0,330.0>>/L<<503.0,330.0>--<698.0,330.0>> = 12.40169581672131 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[12] NotoSerif-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -1869,6 +1731,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- acutecomb.loclCYR.cap
+
 	- beta.alt1
 
 	- dasiaoxia_macronmod
@@ -1885,11 +1749,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	- uni03B1030403140300
 
-	- uni03B1030403140301
+	- uni03B1030403140301 
 
-	- uni03B1030603130300 
-
-	- 31 more.
+	- 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2009,24 +1871,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* iotatonos (U+03AF): L<<65.0,141.0>--<63.0,536.0>> 
 
-	* 89 more.
+	* 88 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSerif-LightItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerif-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -2186,21 +2034,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni2133 (U+2133): B<<1101.5,668.0>-<1119.0,688.0>-<1125.0,694.0>>/B<<1125.0,694.0>-<1109.0,683.0>-<1066.5,648.5>> = 10.491477012331565 
 
 	* uniA7A0 (U+A7A0): L<<669.0,362.0>--<497.0,324.0>>/L<<497.0,324.0>--<668.0,324.0>> = 12.458246440004897 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSerif-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSerif-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -2233,6 +2067,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- acutecomb.loclCYR.cap
+
 	- beta.alt1
 
 	- dasiaoxia_macronmod
@@ -2249,11 +2085,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	- uni03B1030403140300
 
-	- uni03B1030403140301
+	- uni03B1030403140301 
 
-	- uni03B1030603130300 
-
-	- 31 more.
+	- 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2343,10 +2177,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* threequarters (U+00BE): B<<636.5,319.5>-<638.0,338.0>-<640.0,356.0>>/B<<640.0,356.0>-<637.0,348.0>-<632.5,339.5>> = 14.21585347367354
 
-	* uni0247 (U+0247): L<<230.0,-4.0>--<158.0,-196.0>>/L<<158.0,-196.0>--<197.0,6.0>> = 9.628443063611087
-
-	* uni0247 (U+0247): L<<316.0,545.0>--<380.0,714.0>>/L<<380.0,714.0>--<346.0,540.0>> = 9.685174918189212
-
 	* uni03D7 (U+03D7): B<<550.0,28.0>-<548.0,26.0>-<546.0,25.0>>/L<<546.0,25.0>--<555.0,28.0>> = 8.13010235415587
 
 	* uni1D95 (U+1D95): L<<490.0,-46.0>--<490.0,221.0>>/B<<490.0,221.0>-<479.0,106.0>-<420.5,48.0>> = 5.463842813236589
@@ -2357,11 +2187,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni210A (U+210A): B<<93.5,165.0>-<104.0,193.0>-<117.0,209.0>>/L<<117.0,209.0>--<52.0,145.0>> = 6.350285546882426
 
-	* uni2133 (U+2133): B<<1101.5,668.0>-<1119.0,688.0>-<1125.0,694.0>>/B<<1125.0,694.0>-<1109.0,683.0>-<1066.5,648.5>> = 10.491477012331565 
+	* uni2133 (U+2133): B<<1101.5,668.0>-<1119.0,688.0>-<1125.0,694.0>>/B<<1125.0,694.0>-<1109.0,683.0>-<1066.5,648.5>> = 10.491477012331565
 
-	* 3 more.
+	* uni2158 (U+2158): B<<198.5,606.5>-<200.0,625.0>-<202.0,643.0>>/B<<202.0,643.0>-<199.0,635.0>-<194.5,626.5>> = 14.21585347367354
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
+	* uni2C66 (U+2C66): L<<205.0,476.0>--<205.0,282.0>>/L<<205.0,282.0>--<252.0,476.0>> = 13.618541661441057 
+
+	* uniA7A0 (U+A7A0): L<<708.0,377.0>--<506.0,332.0>>/L<<506.0,332.0>--<708.0,332.0>> = 12.558836940947579 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -2390,21 +2222,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* 56 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSerif-MediumItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerif-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -2559,38 +2377,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* threequarters (U+00BE): B<<687.5,318.5>-<693.0,337.0>-<698.0,356.0>>/B<<698.0,356.0>-<693.0,347.0>-<682.5,334.0>> = 14.311041262606366
 
-	* uni0417 (U+0417): B<<482.5,400.0>-<436.0,375.0>-<380.0,368.0>>/B<<380.0,368.0>-<412.0,364.0>-<447.5,347.5>> = 14.250032697803546
-
 	* uni046E (U+046E): B<<479.5,400.0>-<433.0,375.0>-<377.0,368.0>>/B<<377.0,368.0>-<409.0,364.0>-<444.5,347.5>> = 14.250032697803546
 
 	* uni0498 (U+0498): B<<482.5,400.0>-<436.0,375.0>-<380.0,368.0>>/B<<380.0,368.0>-<412.0,364.0>-<447.5,347.5>> = 14.250032697803546
-
-	* uni04DE (U+04DE): B<<482.5,400.0>-<436.0,375.0>-<380.0,368.0>>/B<<380.0,368.0>-<412.0,364.0>-<447.5,347.5>> = 14.250032697803546
 
 	* uni0504 (U+0504): B<<448.5,400.0>-<402.0,375.0>-<345.0,368.0>>/B<<345.0,368.0>-<377.0,364.0>-<411.5,350.5>> = 14.126283906397104
 
 	* uni0506 (U+0506): B<<448.5,400.0>-<402.0,375.0>-<345.0,368.0>>/B<<345.0,368.0>-<367.0,366.0>-<392.5,359.5>> = 12.19569646523012
 
-	* uni1D95 (U+1D95): L<<395.0,-46.0>--<449.0,221.0>>/B<<449.0,221.0>-<429.0,162.0>-<390.0,109.0>> = 7.292106579845833 
+	* uni1D95 (U+1D95): L<<395.0,-46.0>--<449.0,221.0>>/B<<449.0,221.0>-<429.0,162.0>-<390.0,109.0>> = 7.292106579845833
 
-	* 9 more.
+	* uni1DEC (U+1DEC): L<<79.0,799.0>--<79.0,799.0>>/B<<79.0,799.0>-<75.0,800.0>-<71.0,801.5>> = 14.036243467926484
+
+	* uni2074 (U+2074): B<<276.5,705.5>-<282.0,724.0>-<287.0,743.0>>/B<<287.0,743.0>-<282.0,734.0>-<271.5,721.0>> = 14.311041262606366 
+
+	* 7 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSerif-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerif-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -2611,7 +2415,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* alphatonos
 	* beta
 	* chi
-	* copyright and 368 more.
+	* copyright and 416 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -2639,6 +2443,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- acutecomb.loclCYR.cap
+
 	- beta.alt1
 
 	- dasiaoxia_macronmod
@@ -2655,11 +2461,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	- uni03B1030403140300
 
-	- uni03B1030403140301
+	- uni03B1030403140301 
 
-	- uni03B1030603130300 
-
-	- 31 more.
+	- 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2733,11 +2537,11 @@ minus
 
 	* uni03FC (U+03FC): L<<54.0,-80.0>--<56.0,109.0>> -> L<<56.0,109.0>--<56.0,253.0>>
 
-	* uni1D5D (U+1D5D): L<<44.0,143.0>--<46.0,363.0>> -> L<<46.0,363.0>--<45.0,613.0>>
+	* uni051F (U+051F): L<<284.0,300.0>--<356.0,385.0>> -> L<<356.0,385.0>--<357.0,386.0>>
 
-	* uni1D66 (U+1D66): L<<44.0,-144.0>--<46.0,76.0>> -> L<<46.0,76.0>--<45.0,326.0>> 
+	* uni1D5D (U+1D5D): L<<44.0,143.0>--<46.0,363.0>> -> L<<46.0,363.0>--<45.0,613.0>> 
 
-	* 7 more.
+	* 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2786,21 +2590,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* 54 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerif-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSerif-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -2833,6 +2623,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- acutecomb.loclCYR.cap
+
 	- beta.alt1
 
 	- dasiaoxia_macronmod
@@ -2849,11 +2641,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 	- uni03B1030403140300
 
-	- uni03B1030403140301
+	- uni03B1030403140301 
 
-	- uni03B1030603130300 
-
-	- 31 more.
+	- 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2939,10 +2729,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* uni0247 (U+0247): L<<232.0,-3.0>--<186.0,-183.0>>/L<<186.0,-183.0>--<204.0,4.0>> = 8.837272694539108
-
-	* uni0247 (U+0247): L<<319.0,546.0>--<362.0,714.0>>/L<<362.0,714.0>--<345.0,543.0>> = 8.679359291411195
-
 	* uni03F0 (U+03F0): B<<228.0,261.0>-<212.0,203.0>-<195.0,164.0>>/L<<195.0,164.0>--<478.0,536.0>> = 13.709896766824125
 
 	* uni1D95 (U+1D95): L<<505.0,-43.0>--<505.0,219.0>>/B<<505.0,219.0>-<493.0,105.0>-<432.5,47.5>> = 6.009005957494474
@@ -2982,21 +2768,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* 77 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSerif-SemiBoldItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerif-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -3153,36 +2925,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni03F0 (U+03F0): B<<280.5,279.0>-<255.0,207.0>-<221.0,135.0>>/L<<221.0,135.0>--<547.0,536.0>> = 13.832270246884178
 
-	* uni0417 (U+0417): B<<494.5,401.0>-<448.0,376.0>-<392.0,369.0>>/B<<392.0,369.0>-<424.0,365.0>-<459.5,348.0>> = 14.250032697803546
-
 	* uni046E (U+046E): B<<488.0,401.0>-<442.0,376.0>-<386.0,369.0>>/B<<386.0,369.0>-<418.0,365.0>-<453.5,348.0>> = 14.250032697803546
 
 	* uni0498 (U+0498): B<<494.5,401.0>-<448.0,376.0>-<392.0,369.0>>/B<<392.0,369.0>-<424.0,365.0>-<459.5,348.0>> = 14.250032697803546
 
-	* uni04DE (U+04DE): B<<494.5,401.0>-<448.0,376.0>-<392.0,369.0>>/B<<392.0,369.0>-<424.0,365.0>-<459.5,348.0>> = 14.250032697803546
-
 	* uni0506 (U+0506): B<<461.5,401.0>-<415.0,376.0>-<359.0,369.0>>/B<<359.0,369.0>-<380.0,367.0>-<405.5,360.5>> = 12.565348379907268
 
-	* uni1D95 (U+1D95): L<<421.0,-43.0>--<471.0,219.0>>/B<<471.0,219.0>-<450.0,160.0>-<409.5,107.5>> = 8.78788729351228 
+	* uni1D95 (U+1D95): L<<421.0,-43.0>--<471.0,219.0>>/B<<471.0,219.0>-<450.0,160.0>-<409.5,107.5>> = 8.78788729351228
 
-	* 9 more.
+	* uni2074 (U+2074): B<<283.5,703.0>-<289.0,720.0>-<294.0,739.0>>/B<<294.0,739.0>-<289.0,730.0>-<280.5,719.5>> = 14.311041262606366
+
+	* uni2084 (U+2084): B<<193.5,218.0>-<199.0,235.0>-<204.0,254.0>>/B<<204.0,254.0>-<199.0,245.0>-<190.5,234.5>> = 14.311041262606366 
+
+	* 7 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSerif-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSerif-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -3215,6 +2973,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- acutecomb.loclCYR.cap
+
 	- beta.alt1
 
 	- dasiaoxia_macronmod
@@ -3231,11 +2991,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	- uni03B1030403140300
 
-	- uni03B1030403140301
+	- uni03B1030403140301 
 
-	- uni03B1030603130300 
-
-	- 31 more.
+	- 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -3331,9 +3089,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni1DD9 (U+1DD9): B<<64.0,800.0>-<76.0,792.0>-<84.0,780.0>>/B<<84.0,780.0>-<72.0,812.0>-<58.0,835.0>> = 13.134022306396327
 
-	* uni210A (U+210A): B<<93.5,165.0>-<104.0,193.0>-<117.0,209.0>>/L<<117.0,209.0>--<52.0,145.0>> = 6.350285546882426 
+	* uni210A (U+210A): B<<93.5,165.0>-<104.0,193.0>-<117.0,209.0>>/L<<117.0,209.0>--<52.0,145.0>> = 6.350285546882426
 
-	* uni2133 (U+2133): B<<1101.5,668.0>-<1119.0,688.0>-<1125.0,694.0>>/B<<1125.0,694.0>-<1109.0,683.0>-<1066.5,648.5>> = 10.491477012331565 [code: found-jaggy-segments]
+	* uni2133 (U+2133): B<<1101.5,668.0>-<1119.0,688.0>-<1125.0,694.0>>/B<<1125.0,694.0>-<1109.0,683.0>-<1066.5,648.5>> = 10.491477012331565
+
+	* vecombcy (U+2DE1): B<<67.0,739.5>-<56.0,734.0>-<46.0,732.0>>/L<<46.0,732.0>--<46.0,732.0>> = 11.309932474020195 
+
+	* zecombcy (U+2DE5): B<<68.5,749.5>-<55.0,736.0>-<37.0,732.0>>/L<<37.0,732.0>--<37.0,732.0>> = 12.528807709151492 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3359,24 +3121,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* exclamdbl (U+203C): L<<149.0,714.0>--<148.0,167.0>> 
 
-	* 182 more.
+	* 179 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSerif-ThinItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerif-ThinItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -3533,6 +3281,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni024A (U+024A): L<<431.0,-64.0>--<480.0,168.0>>/B<<480.0,168.0>-<439.0,80.0>-<379.5,33.5>> = 13.055247223796592
 
+	* uni040B (U+040B): L<<381.0,689.0>--<314.0,373.0>>/L<<314.0,373.0>--<314.0,375.0>> = 11.970874503545183
+
 	* uni04BF (U+04BF): B<<371.5,13.5>-<346.0,-3.0>-<310.0,-8.0>>/L<<310.0,-8.0>--<310.0,-8.0>> = 7.907162702958418
 
 	* uni04BF (U+04BF): L<<310.0,-8.0>--<310.0,-8.0>>/B<<310.0,-8.0>-<287.0,-12.0>-<273.0,-18.0>> = 9.865806943084365
@@ -3541,14 +3291,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni1D95 (U+1D95): L<<297.0,-29.0>--<355.0,216.0>>/B<<355.0,216.0>-<338.0,154.0>-<305.5,102.5>> = 2.0145810107512325
 
-	* uni20A5 (U+20A5): B<<334.0,84.0>-<339.0,126.0>-<348.0,169.0>>/L<<348.0,169.0>--<235.0,-96.0>> = 11.272643255936822
-
-	* uni210A (U+210A): B<<93.5,165.0>-<104.0,193.0>-<117.0,209.0>>/L<<117.0,209.0>--<52.0,145.0>> = 6.350285546882426 
+	* uni20A5 (U+20A5): B<<334.0,84.0>-<339.0,126.0>-<348.0,169.0>>/L<<348.0,169.0>--<235.0,-96.0>> = 11.272643255936822 
 
 	* 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[17] NotoSerif-Italic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] NotoSerif-Italic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -3556,20 +3304,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
-</div></details><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
 </div></details><details><summary>💔 <b>ERROR:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
 
 
@@ -3607,7 +3341,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* Alpha
 	* Alphatonos
 	* Amacron
-	* Aogonek and 479 more.
+	* Aogonek and 520 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -3673,12 +3407,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
-
-
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9912f8d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9670bdd0> 
-
-	- Contour 2 start point differs in glyph 'uni2E13' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9912f8d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9670bdd0> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -3693,7 +3421,7 @@ minus
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
 	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
-</div></details><br></div></details><details><summary><b>[16] NotoSerif[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSerif[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -3701,20 +3429,6 @@ minus
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
-</div></details><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
 </div></details><details><summary>💔 <b>ERROR:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
 
 
@@ -3748,7 +3462,7 @@ minus
 	* alpha
 	* alphatonos
 	* beta
-	* chi and 426 more.
+	* chi and 477 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -3776,6 +3490,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- acutecomb.loclCYR.cap
+
 	- beta.alt1
 
 	- dasiaoxia_macronmod
@@ -3792,11 +3508,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	- uni03B1030403140300
 
-	- uni03B1030403140301
+	- uni03B1030403140301 
 
-	- uni03B1030603130300 
-
-	- 31 more.
+	- 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -3804,30 +3518,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
-
-
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9a6a51d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9a600f50>
-
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9a6a51d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b91838410>
-
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9a6a51d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b91838110>
-
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9a6a51d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9183b250>
-
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9a6a51d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9183a710>
-
-	- Contour 0 start point differs in glyph 'uniAB42' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9a6a51d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b91839d50>
-
-	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9a6a51d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9183a710>
-
-	- Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9a6a51d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9183a710>
-
-	- Contour 1 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9a6a51d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b91839d50>
-
-	- Contour 2 start point differs in glyph 'uni2E53' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9a6a51d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b91839d50> 
-
-	- Contour 0 start point differs in glyph 'uni0247' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b9a6a51d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6b91838310> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -3848,8 +3538,8 @@ minus
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 28 | 44 | 195 | 2267 | 123 | 1920 | 0 |
-| 1% | 1% | 4% | 50% | 3% | 42% | 0% |
+| 8 | 44 | 193 | 2267 | 143 | 1922 | 0 |
+| 0% | 1% | 4% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
