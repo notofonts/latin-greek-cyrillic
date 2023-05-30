@@ -1101,7 +1101,6 @@ nodes = (
 width = 816;
 }
 );
-metricRight = "tse-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1175;

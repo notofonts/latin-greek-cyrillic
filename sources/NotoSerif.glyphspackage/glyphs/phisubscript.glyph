@@ -165,8 +165,6 @@ scale = (0.65,0.6);
 width = 449;
 }
 );
-metricLeft = "e-cy";
-metricRight = "e-cy";
 script = greek;
 subCategory = Modifier;
 unicode = 7529;

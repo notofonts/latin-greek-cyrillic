@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 4;
 glyphname = "tedescender-cy";
 layers = (
 {

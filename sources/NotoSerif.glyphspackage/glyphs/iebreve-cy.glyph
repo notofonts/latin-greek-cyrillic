@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 4;
 glyphname = "iebreve-cy";
 kernLeft = "abreve-cy";
 kernRight = "ie-cy";
@@ -12,7 +13,7 @@ pos = (245,0);
 },
 {
 name = top;
-pos = (245,715);
+pos = (251,715);
 }
 );
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
@@ -23,7 +24,7 @@ ref = e;
 },
 {
 alignment = -1;
-pos = (-34,0);
+pos = (123,0);
 ref = cyrillicbreve;
 }
 );
@@ -37,7 +38,7 @@ pos = (268,0);
 },
 {
 name = top;
-pos = (268,741);
+pos = (276,741);
 }
 );
 layerId = UUID0;
@@ -46,7 +47,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (-15,0);
+pos = (109,0);
 ref = cyrillicbreve;
 }
 );
@@ -60,7 +61,7 @@ pos = (286,0);
 },
 {
 name = top;
-pos = (286,762);
+pos = (297,762);
 }
 );
 layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
@@ -69,7 +70,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (7,0);
+pos = (112,0);
 ref = cyrillicbreve;
 }
 );
@@ -83,7 +84,7 @@ pos = (299,0);
 },
 {
 name = top;
-pos = (299,767);
+pos = (310,767);
 }
 );
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
@@ -92,7 +93,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (23,0);
+pos = (120,0);
 ref = cyrillicbreve;
 }
 );
@@ -106,7 +107,7 @@ pos = (190,0);
 },
 {
 name = top;
-pos = (190,719);
+pos = (191,719);
 }
 );
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
@@ -115,7 +116,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (-29,0);
+pos = (81,0);
 ref = cyrillicbreve;
 }
 );
@@ -129,7 +130,7 @@ pos = (216,0);
 },
 {
 name = top;
-pos = (216,736);
+pos = (220,736);
 }
 );
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
@@ -138,7 +139,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (-8,0);
+pos = (53,0);
 ref = cyrillicbreve;
 }
 );
@@ -152,7 +153,7 @@ pos = (235,0);
 },
 {
 name = top;
-pos = (235,749);
+pos = (240,749);
 }
 );
 layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
@@ -161,7 +162,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (7,0);
+pos = (5,0);
 ref = cyrillicbreve;
 }
 );
@@ -175,7 +176,7 @@ pos = (250,0);
 },
 {
 name = top;
-pos = (250,759);
+pos = (255,759);
 }
 );
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
@@ -184,7 +185,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (19,0);
+pos = (102,0);
 ref = cyrillicbreve;
 }
 );

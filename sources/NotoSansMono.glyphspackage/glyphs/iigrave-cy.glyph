@@ -1,6 +1,9 @@
 {
 category = Letter;
+color = 5;
 glyphname = "iigrave-cy";
+kernLeft = "ve-cy";
+kernRight = "ii-cy";
 layers = (
 {
 anchors = (
@@ -21,8 +24,8 @@ ref = "ii-cy";
 },
 {
 alignment = -1;
-pos = (302,0);
-ref = gravecomb;
+pos = (-34,0);
+ref = gravecomb.loclCYR;
 }
 );
 width = 600;
@@ -46,8 +49,8 @@ ref = "ii-cy";
 },
 {
 alignment = -1;
-pos = (303,0);
-ref = gravecomb;
+pos = (-33,0);
+ref = gravecomb.loclCYR;
 }
 );
 width = 600;
@@ -71,8 +74,8 @@ ref = "ii-cy";
 },
 {
 alignment = -1;
-pos = (297,0);
-ref = gravecomb;
+pos = (-2,0);
+ref = gravecomb.loclCYR;
 }
 );
 width = 600;
@@ -96,8 +99,8 @@ ref = "ii-cy";
 },
 {
 alignment = -1;
-pos = (304,0);
-ref = gravecomb;
+pos = (-63,0);
+ref = gravecomb.loclCYR;
 }
 );
 width = 600;
@@ -110,7 +113,7 @@ pos = (250,0);
 },
 {
 name = top;
-pos = (250,765);
+pos = (250,753);
 }
 );
 layerId = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
@@ -121,8 +124,8 @@ ref = "ii-cy";
 },
 {
 alignment = -1;
-pos = (250,0);
-ref = gravecomb;
+pos = (96,0);
+ref = gravecomb.loclCYR;
 }
 );
 width = 500;
@@ -135,10 +138,11 @@ pos = (250,0);
 },
 {
 name = top;
-pos = (250,766);
+pos = (250,752);
 }
 );
 layerId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+metricWidth = "=o";
 shapes = (
 {
 alignment = -1;
@@ -146,8 +150,8 @@ ref = "ii-cy";
 },
 {
 alignment = -1;
-pos = (252,0);
-ref = gravecomb;
+pos = (66,0);
+ref = gravecomb.loclCYR;
 }
 );
 width = 500;
@@ -164,6 +168,7 @@ pos = (250,766);
 }
 );
 layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+metricWidth = "=o";
 shapes = (
 {
 alignment = -1;
@@ -171,8 +176,8 @@ ref = "ii-cy";
 },
 {
 alignment = -1;
-pos = (249,0);
-ref = gravecomb;
+pos = (44,0);
+ref = gravecomb.loclCYR;
 }
 );
 width = 500;
@@ -185,10 +190,11 @@ pos = (250,0);
 },
 {
 name = top;
-pos = (250,766);
+pos = (250,757);
 }
 );
 layerId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
+metricWidth = "=o";
 shapes = (
 {
 alignment = -1;
@@ -196,8 +202,8 @@ ref = "ii-cy";
 },
 {
 alignment = -1;
-pos = (246,0);
-ref = gravecomb;
+pos = (40,0);
+ref = gravecomb.loclCYR;
 }
 );
 width = 500;

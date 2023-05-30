@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 4;
 glyphname = "Iebreve-cy";
 kernLeft = "I-cy";
 kernRight = "Ie-cy";
@@ -23,7 +24,7 @@ ref = E;
 },
 {
 alignment = -1;
-pos = (19,165);
+pos = (162,165);
 ref = cyrillicbreve;
 }
 );
@@ -46,7 +47,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (24,165);
+pos = (143,165);
 ref = cyrillicbreve;
 }
 );
@@ -69,7 +70,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (46,165);
+pos = (139,165);
 ref = cyrillicbreve;
 }
 );
@@ -92,7 +93,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (62,165);
+pos = (146,165);
 ref = cyrillicbreve;
 }
 );
@@ -115,7 +116,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (2,165);
+pos = (113,165);
 ref = cyrillicbreve;
 }
 );
@@ -138,7 +139,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (24,165);
+pos = (81,165);
 ref = cyrillicbreve;
 }
 );
@@ -161,7 +162,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (40,165);
+pos = (32,165);
 ref = cyrillicbreve;
 }
 );
@@ -184,7 +185,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (52,165);
+pos = (127,165);
 ref = cyrillicbreve;
 }
 );

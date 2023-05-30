@@ -1,18 +1,19 @@
 {
 category = Letter;
+color = 4;
 glyphname = "Imacron-cy";
-kernLeft = "I-cy";
-kernRight = "I-cy";
+kernLeft = "En-cy";
+kernRight = "En-cy";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (335,0);
+pos = (323,0);
 },
 {
 name = top;
-pos = (511,828);
+pos = (495,828);
 }
 );
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -27,17 +28,17 @@ pos = (228,165);
 ref = macronmod;
 }
 );
-width = 783;
+width = 766;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (345,0);
+pos = (344,0);
 },
 {
 name = top;
-pos = (522,830);
+pos = (509,830);
 }
 );
 layerId = UUID0;
@@ -52,7 +53,7 @@ pos = (245,165);
 ref = macronmod;
 }
 );
-width = 803;
+width = 807;
 },
 {
 anchors = (
@@ -62,7 +63,7 @@ pos = (353,0);
 },
 {
 name = top;
-pos = (534,850);
+pos = (524,850);
 }
 );
 layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
@@ -77,13 +78,13 @@ pos = (258,165);
 ref = macronmod;
 }
 );
-width = 819;
+width = 825;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (359,0);
+pos = (357,0);
 },
 {
 name = top;
@@ -102,17 +103,17 @@ pos = (268,165);
 ref = macronmod;
 }
 );
-width = 831;
+width = 834;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (252,0);
+pos = (232,0);
 },
 {
 name = top;
-pos = (423,802);
+pos = (410,796);
 }
 );
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
@@ -127,13 +128,13 @@ pos = (196,165);
 ref = macronmod;
 }
 );
-width = 612;
+width = 584;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (266,0);
+pos = (261,0);
 },
 {
 name = top;
@@ -152,13 +153,13 @@ pos = (209,165);
 ref = macronmod;
 }
 );
-width = 647;
+width = 642;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (276,0);
+pos = (278,0);
 },
 {
 name = top;
@@ -177,17 +178,17 @@ pos = (221,165);
 ref = macronmod;
 }
 );
-width = 666;
+width = 676;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (284,0);
+pos = (291,0);
 },
 {
 name = top;
-pos = (466,857);
+pos = (470,857);
 }
 );
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
@@ -202,9 +203,11 @@ pos = (230,165);
 ref = macronmod;
 }
 );
-width = 681;
+width = 702;
 }
 );
+metricLeft = "Ii-cy";
+metricWidth = "Ii-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1250;

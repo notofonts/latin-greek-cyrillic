@@ -1,25 +1,16 @@
 {
 category = Letter;
+color = 4;
 glyphname = "Yerudieresis-cy";
-kernLeft = "I-cy";
-kernRight = "I-cy";
+kernLeft = cyr_En;
+kernRight = cyr_En;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (403,0);
-},
-{
-name = top;
-pos = (403,903);
-}
-);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
 alignment = -1;
-pos = (109,165);
+pos = (130,165);
 ref = dieresis;
 },
 {
@@ -27,134 +18,74 @@ alignment = -1;
 ref = "Yeru-cy";
 }
 );
-width = 805;
+width = 841;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (454,0);
-},
-{
-name = top;
-pos = (454,909);
-}
-);
 layerId = UUID0;
 shapes = (
 {
-pos = (165,165);
+pos = (179,165);
 ref = dieresis;
 },
 {
 ref = "Yeru-cy";
 }
 );
-width = 907;
+width = 915;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (494,0);
-},
-{
-name = top;
-pos = (494,915);
-}
-);
 layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
 shapes = (
 {
-pos = (218,165);
+pos = (208,165);
 ref = dieresis;
 },
 {
 ref = "Yeru-cy";
 }
 );
-width = 988;
+width = 977;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (524,0);
-},
-{
-name = top;
-pos = (524,927);
-}
-);
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
-pos = (257,165);
+pos = (247,165);
 ref = dieresis;
 },
 {
 ref = "Yeru-cy";
 }
 );
-width = 1048;
+width = 1035;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (314,0);
-},
-{
-name = top;
-pos = (314,901);
-}
-);
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
-pos = (102,165);
+pos = (115,165);
 ref = dieresis;
 },
 {
 ref = "Yeru-cy";
 }
 );
-width = 627;
+width = 643;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (368,0);
-},
-{
-name = top;
-pos = (368,910);
-}
-);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
-pos = (142,165);
+pos = (147,165);
 ref = dieresis;
 },
 {
 ref = "Yeru-cy";
 }
 );
-width = 734;
+width = 739;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (407,0);
-},
-{
-name = top;
-pos = (407,917);
-}
-);
 layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
 shapes = (
 {
@@ -165,32 +96,24 @@ ref = dieresis;
 ref = "Yeru-cy";
 }
 );
-width = 813;
+width = 817;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (437,0);
-},
-{
-name = top;
-pos = (437,923);
-}
-);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
-pos = (215,165);
+pos = (210,165);
 ref = dieresis;
 },
 {
 ref = "Yeru-cy";
 }
 );
-width = 874;
+width = 885;
 }
 );
+metricLeft = "Yeru-cy";
+metricWidth = "Yeru-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1272;

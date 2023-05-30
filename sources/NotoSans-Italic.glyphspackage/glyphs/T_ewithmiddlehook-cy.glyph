@@ -443,7 +443,6 @@ nodes = (
 width = 567;
 }
 );
-metricRight = "Dje-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 42634;

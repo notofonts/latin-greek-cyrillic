@@ -1,18 +1,19 @@
 {
 category = Letter;
+color = 4;
 glyphname = "cheverticalstroke-cy";
 kernLeft = "che-cy";
-kernRight = "tse-cy";
+kernRight = "a-cy";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (220,0);
+pos = (178,0);
 },
 {
 name = top;
-pos = (334,536);
+pos = (292,536);
 }
 );
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -20,10 +21,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(244,63,l),
-(307,363,l),
-(278,363,l),
-(215,63,l)
+(201,63,l),
+(264,363,l),
+(235,363,l),
+(172,63,l)
 );
 },
 {
@@ -31,17 +32,17 @@ alignment = -1;
 ref = "che-cy";
 }
 );
-width = 552;
+width = 520;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (248,0);
+pos = (208,0);
 },
 {
 name = top;
-pos = (362,536);
+pos = (322,536);
 }
 );
 layerId = UUID0;
@@ -49,10 +50,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(278,89,l),
-(337,363,l),
-(282,363,l),
-(223,89,l)
+(252,89,l),
+(311,363,l),
+(256,363,l),
+(197,89,l)
 );
 },
 {
@@ -60,17 +61,17 @@ alignment = -1;
 ref = "che-cy";
 }
 );
-width = 609;
+width = 562;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (270,0);
+pos = (233,0);
 },
 {
 name = top;
-pos = (384,536);
+pos = (347,536);
 }
 );
 layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
@@ -78,10 +79,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(299,109,l),
-(353,363,l),
-(300,363,l),
-(246,109,l)
+(282,109,l),
+(336,363,l),
+(283,363,l),
+(229,109,l)
 );
 },
 {
@@ -89,17 +90,17 @@ alignment = -1;
 ref = "che-cy";
 }
 );
-width = 653;
+width = 614;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (286,0);
+pos = (243,0);
 },
 {
 name = top;
-pos = (400,536);
+pos = (357,536);
 }
 );
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
@@ -107,10 +108,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(315,124,l),
-(365,363,l),
-(313,363,l),
-(263,124,l)
+(295,124,l),
+(345,363,l),
+(293,363,l),
+(243,124,l)
 );
 },
 {
@@ -118,7 +119,65 @@ alignment = -1;
 ref = "che-cy";
 }
 );
-width = 685;
+width = 645;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (113,0);
+},
+{
+name = top;
+pos = (227,536);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(138,61,l),
+(201,360,l),
+(176,360,l),
+(113,61,l)
+);
+},
+{
+alignment = -1;
+ref = "che-cy";
+}
+);
+width = 390;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (153,0);
+},
+{
+name = top;
+pos = (267,536);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+closed = 1;
+nodes = (
+(192,86,l),
+(250,363,l),
+(206,363,l),
+(148,86,l)
+);
+},
+{
+alignment = -1;
+ref = "che-cy";
+}
+);
+width = 455;
 },
 {
 anchors = (
@@ -131,73 +190,15 @@ name = top;
 pos = (277,536);
 }
 );
-layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
-shapes = (
-{
-closed = 1;
-nodes = (
-(136,61,l),
-(199,360,l),
-(174,360,l),
-(111,61,l)
-);
-},
-{
-alignment = -1;
-ref = "che-cy";
-}
-);
-width = 382;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (192,0);
-},
-{
-name = top;
-pos = (306,536);
-}
-);
-layerId = "44BFC83C-08F8-422F-A73E-536514612562";
-shapes = (
-{
-closed = 1;
-nodes = (
-(231,86,l),
-(289,363,l),
-(245,363,l),
-(187,86,l)
-);
-},
-{
-alignment = -1;
-ref = "che-cy";
-}
-);
-width = 496;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (211,0);
-},
-{
-name = top;
-pos = (325,536);
-}
-);
 layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
 shapes = (
 {
 closed = 1;
 nodes = (
-(250,103,l),
-(304,363,l),
-(260,363,l),
-(207,103,l)
+(211,103,l),
+(265,363,l),
+(221,363,l),
+(168,103,l)
 );
 },
 {
@@ -205,17 +206,17 @@ alignment = -1;
 ref = "che-cy";
 }
 );
-width = 535;
+width = 490;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (226,0);
+pos = (183,0);
 },
 {
 name = top;
-pos = (340,536);
+pos = (297,536);
 }
 );
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
@@ -223,10 +224,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(265,116,l),
-(315,363,l),
-(272,363,l),
-(222,116,l)
+(233,116,l),
+(283,363,l),
+(240,363,l),
+(190,116,l)
 );
 },
 {
@@ -234,9 +235,11 @@ alignment = -1;
 ref = "che-cy";
 }
 );
-width = 565;
+width = 532;
 }
 );
+metricLeft = "che-cy";
+metricWidth = "che-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1209;

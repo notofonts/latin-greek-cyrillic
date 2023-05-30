@@ -1,5 +1,6 @@
 {
 category = Symbol;
+color = 4;
 glyphname = notcontains;
 layers = (
 {

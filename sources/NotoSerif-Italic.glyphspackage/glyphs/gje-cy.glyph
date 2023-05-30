@@ -1,18 +1,19 @@
 {
 category = Letter;
+color = 4;
 glyphname = "gje-cy";
-kernLeft = "a-cy";
+kernLeft = "ge-cy";
 kernRight = "ge-cy";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (160,0);
+pos = (174,0);
 },
 {
 name = top;
-pos = (323,766);
+pos = (332,766);
 }
 );
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -23,21 +24,27 @@ ref = "ge-cy";
 },
 {
 alignment = -1;
-pos = (140,0);
+pos = (153,0);
 ref = acute;
 }
 );
-width = 422;
+width = 415;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (192,0);
+pos = (200,0);
 },
 {
 name = top;
-pos = (355,766);
+pos = (359,766);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (267,438);
 }
 );
 layerId = UUID0;
@@ -48,21 +55,21 @@ ref = "ge-cy";
 },
 {
 alignment = -1;
-pos = (180,0);
+pos = (138,0);
 ref = acute;
 }
 );
-width = 498;
+width = 452;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (201,0);
+pos = (220,0);
 },
 {
 name = top;
-pos = (364,766);
+pos = (384,766);
 }
 );
 layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
@@ -73,21 +80,21 @@ ref = "ge-cy";
 },
 {
 alignment = -1;
-pos = (178,0);
+pos = (132,0);
 ref = acute;
 }
 );
-width = 516;
+width = 480;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (208,0);
+pos = (241,0);
 },
 {
 name = top;
-pos = (371,766);
+pos = (397,766);
 }
 );
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
@@ -98,21 +105,21 @@ ref = "ge-cy";
 },
 {
 alignment = -1;
-pos = (177,0);
+pos = (122,0);
 ref = acute;
 }
 );
-width = 537;
+width = 505;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (125,0);
+pos = (87,0);
 },
 {
 name = top;
-pos = (288,766);
+pos = (276,766);
 }
 );
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
@@ -123,21 +130,21 @@ ref = "ge-cy";
 },
 {
 alignment = -1;
-pos = (73,0);
+pos = (103,0);
 ref = acute;
 }
 );
-width = 333;
+width = 320;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (141,0);
+pos = (158,0);
 },
 {
 name = top;
-pos = (304,766);
+pos = (319,766);
 }
 );
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
@@ -148,21 +155,21 @@ ref = "ge-cy";
 },
 {
 alignment = -1;
-pos = (146,0);
+pos = (109,0);
 ref = acute;
 }
 );
-width = 396;
+width = 371;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (152,0);
+pos = (168,0);
 },
 {
 name = top;
-pos = (315,766);
+pos = (342,766);
 }
 );
 layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
@@ -173,21 +180,21 @@ ref = "ge-cy";
 },
 {
 alignment = -1;
-pos = (147,0);
+pos = (108,0);
 ref = acute;
 }
 );
-width = 422;
+width = 400;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (160,0);
+pos = (170,0);
 },
 {
 name = top;
-pos = (323,766);
+pos = (349,766);
 }
 );
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
@@ -198,11 +205,11 @@ ref = "ge-cy";
 },
 {
 alignment = -1;
-pos = (147,0);
+pos = (97,0);
 ref = acute;
 }
 );
-width = 441;
+width = 415;
 }
 );
 metricLeft = "ge-cy";

@@ -635,7 +635,6 @@ nodes = (
 width = 782;
 }
 );
-metricLeft = "pe-cy";
 script = latin;
 subCategory = Lowercase;
 unicode = 43872;

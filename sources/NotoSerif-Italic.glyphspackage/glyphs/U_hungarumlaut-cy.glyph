@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 4;
 glyphname = "Uhungarumlaut-cy";
 kernLeft = "U-cy";
 kernRight = "U-cy";
@@ -8,7 +9,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (264,0);
+pos = (231,0);
 },
 {
 name = top;
@@ -52,7 +53,7 @@ pos = (195,165);
 ref = hungarumlaut;
 }
 );
-width = 670;
+width = 650;
 },
 {
 anchors = (
@@ -62,7 +63,7 @@ pos = (290,0);
 },
 {
 name = top;
-pos = (488,931);
+pos = (518,931);
 }
 );
 layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
@@ -77,7 +78,7 @@ pos = (214,165);
 ref = hungarumlaut;
 }
 );
-width = 694;
+width = 700;
 },
 {
 anchors = (
@@ -87,7 +88,7 @@ pos = (299,0);
 },
 {
 name = top;
-pos = (497,931);
+pos = (543,931);
 }
 );
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
@@ -102,17 +103,17 @@ pos = (206,165);
 ref = hungarumlaut;
 }
 );
-width = 712;
+width = 710;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (196,0);
+pos = (181,0);
 },
 {
 name = top;
-pos = (394,931);
+pos = (391,931);
 }
 );
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
@@ -137,7 +138,7 @@ pos = (214,0);
 },
 {
 name = top;
-pos = (412,931);
+pos = (450,931);
 }
 );
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
@@ -152,7 +153,7 @@ pos = (172,165);
 ref = hungarumlaut;
 }
 );
-width = 541;
+width = 528;
 },
 {
 anchors = (
@@ -162,7 +163,7 @@ pos = (226,0);
 },
 {
 name = top;
-pos = (424,931);
+pos = (468,931);
 }
 );
 layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
@@ -177,7 +178,7 @@ pos = (177,165);
 ref = hungarumlaut;
 }
 );
-width = 565;
+width = 572;
 },
 {
 anchors = (
@@ -187,7 +188,7 @@ pos = (235,0);
 },
 {
 name = top;
-pos = (433,931);
+pos = (483,931);
 }
 );
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
@@ -202,9 +203,11 @@ pos = (182,165);
 ref = hungarumlaut;
 }
 );
-width = 584;
+width = 600;
 }
 );
+metricLeft = "U-cy";
+metricWidth = "U-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1266;

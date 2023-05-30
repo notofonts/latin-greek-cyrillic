@@ -551,8 +551,6 @@ nodes = (
 width = 540;
 }
 );
-metricLeft = "de-cy";
-metricRight = "de-cy";
 script = "";
 subCategory = "";
 unicode = 7297;

@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 4;
 glyphname = "iecomb-cy";
 layers = (
 {
@@ -18,7 +19,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-112,620);
-ref = "ie-cy";
+ref = e;
 scale = (0.45,0.4);
 }
 );
@@ -40,7 +41,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-117,620);
-ref = "ie-cy";
+ref = e;
 scale = (0.45,0.4);
 }
 );
@@ -62,7 +63,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-123,620);
-ref = "ie-cy";
+ref = e;
 scale = (0.45,0.4);
 }
 );
@@ -84,7 +85,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-129,620);
-ref = "ie-cy";
+ref = e;
 scale = (0.45,0.4);
 }
 );
@@ -106,7 +107,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-76,620);
-ref = "ie-cy";
+ref = e;
 scale = (0.45,0.4);
 }
 );
@@ -128,7 +129,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-84,620);
-ref = "ie-cy";
+ref = e;
 scale = (0.45,0.4);
 }
 );
@@ -150,7 +151,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-93,620);
-ref = "ie-cy";
+ref = e;
 scale = (0.45,0.4);
 }
 );
@@ -172,7 +173,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-98,620);
-ref = "ie-cy";
+ref = e;
 scale = (0.45,0.4);
 }
 );

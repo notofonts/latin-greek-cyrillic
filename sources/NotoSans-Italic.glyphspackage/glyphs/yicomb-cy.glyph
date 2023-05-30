@@ -18,7 +18,13 @@ shapes = (
 {
 alignment = -1;
 pos = (52,620);
-ref = "yi-cy";
+ref = idotless;
+scale = (0.45,0.4);
+},
+{
+alignment = -1;
+pos = (-33,620);
+ref = dieresis;
 scale = (0.45,0.4);
 }
 );
@@ -40,7 +46,13 @@ shapes = (
 {
 alignment = -1;
 pos = (40,620);
-ref = "yi-cy";
+ref = idotless;
+scale = (0.45,0.4);
+},
+{
+alignment = -1;
+pos = (-25,620);
+ref = dieresis;
 scale = (0.45,0.4);
 }
 );
@@ -62,7 +74,13 @@ shapes = (
 {
 alignment = -1;
 pos = (30,620);
-ref = "yi-cy";
+ref = idotless;
+scale = (0.45,0.4);
+},
+{
+alignment = -1;
+pos = (-30,620);
+ref = dieresis;
 scale = (0.45,0.4);
 }
 );
@@ -84,7 +102,13 @@ shapes = (
 {
 alignment = -1;
 pos = (23,620);
-ref = "yi-cy";
+ref = idotless;
+scale = (0.45,0.4);
+},
+{
+alignment = -1;
+pos = (-35,620);
+ref = dieresis;
 scale = (0.45,0.4);
 }
 );
@@ -106,7 +130,13 @@ shapes = (
 {
 alignment = -1;
 pos = (64,620);
-ref = "yi-cy";
+ref = idotless;
+scale = (0.45,0.4);
+},
+{
+alignment = -1;
+pos = (14,620);
+ref = dieresis;
 scale = (0.45,0.4);
 }
 );
@@ -128,7 +158,13 @@ shapes = (
 {
 alignment = -1;
 pos = (55,620);
-ref = "yi-cy";
+ref = idotless;
+scale = (0.45,0.4);
+},
+{
+alignment = -1;
+pos = (2,620);
+ref = dieresis;
 scale = (0.45,0.4);
 }
 );
@@ -150,7 +186,13 @@ shapes = (
 {
 alignment = -1;
 pos = (47,620);
-ref = "yi-cy";
+ref = idotless;
+scale = (0.45,0.4);
+},
+{
+alignment = -1;
+pos = (-1,620);
+ref = dieresis;
 scale = (0.45,0.4);
 }
 );
@@ -172,7 +214,13 @@ shapes = (
 {
 alignment = -1;
 pos = (39,620);
-ref = "yi-cy";
+ref = idotless;
+scale = (0.45,0.4);
+},
+{
+alignment = -1;
+pos = (-3,620);
+ref = dieresis;
 scale = (0.45,0.4);
 }
 );

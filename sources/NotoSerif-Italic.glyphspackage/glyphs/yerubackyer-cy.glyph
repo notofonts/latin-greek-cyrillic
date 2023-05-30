@@ -787,7 +787,6 @@ nodes = (
 width = 867;
 }
 );
-metricLeft = "hardsign-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 42577;

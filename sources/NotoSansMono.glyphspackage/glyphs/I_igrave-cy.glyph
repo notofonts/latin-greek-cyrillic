@@ -1,6 +1,9 @@
 {
 category = Letter;
+color = 5;
 glyphname = "Iigrave-cy";
+kernLeft = "Nje-cy";
+kernRight = "Dzhe-cy";
 layers = (
 {
 anchors = (
@@ -21,8 +24,8 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (300,186);
-ref = gravecomb;
+pos = (-31,186);
+ref = gravecomb.loclCYR;
 }
 );
 width = 600;
@@ -46,8 +49,8 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (300,178);
-ref = gravecomb;
+pos = (-23,178);
+ref = gravecomb.loclCYR;
 }
 );
 width = 600;
@@ -71,8 +74,8 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (300,168);
-ref = gravecomb;
+pos = (-17,168);
+ref = gravecomb.loclCYR;
 }
 );
 width = 600;
@@ -96,8 +99,8 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (290,161);
-ref = gravecomb;
+pos = (-60,161);
+ref = gravecomb.loclCYR;
 }
 );
 width = 600;
@@ -110,7 +113,7 @@ pos = (250,0);
 },
 {
 name = top;
-pos = (250,951);
+pos = (250,919);
 }
 );
 layerId = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
@@ -121,8 +124,8 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (250,186);
-ref = gravecomb;
+pos = (97,166);
+ref = gravecomb.loclCYR;
 }
 );
 width = 500;
@@ -135,7 +138,7 @@ pos = (250,0);
 },
 {
 name = top;
-pos = (250,944);
+pos = (250,916);
 }
 );
 layerId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
@@ -146,8 +149,8 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (250,178);
-ref = gravecomb;
+pos = (71,164);
+ref = gravecomb.loclCYR;
 }
 );
 width = 500;
@@ -160,7 +163,7 @@ pos = (250,0);
 },
 {
 name = top;
-pos = (250,934);
+pos = (250,928);
 }
 );
 layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
@@ -171,8 +174,8 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (250,168);
-ref = gravecomb;
+pos = (53,162);
+ref = gravecomb.loclCYR;
 }
 );
 width = 500;
@@ -185,7 +188,7 @@ pos = (250,0);
 },
 {
 name = top;
-pos = (250,927);
+pos = (250,918);
 }
 );
 layerId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
@@ -196,13 +199,14 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (250,161);
-ref = gravecomb;
+pos = (40,161);
+ref = gravecomb.loclCYR;
 }
 );
 width = 500;
 }
 );
+metricWidth = "=E";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1037;

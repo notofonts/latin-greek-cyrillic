@@ -1139,7 +1139,6 @@ nodes = (
 width = 1095;
 }
 );
-metricRight = "ka-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1323;

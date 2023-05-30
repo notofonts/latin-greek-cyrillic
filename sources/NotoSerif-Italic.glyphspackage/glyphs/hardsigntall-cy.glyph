@@ -563,7 +563,6 @@ nodes = (
 width = 506;
 }
 );
-metricRight = "hardsign-cy";
 script = "";
 subCategory = "";
 unicode = 7302;

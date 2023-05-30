@@ -1,21 +1,22 @@
 {
 category = Letter;
+color = 5;
 glyphname = "iegrave-cy";
-kernLeft = "a-cy";
+kernLeft = "o-cy";
 kernRight = "ie-cy";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (190,0);
+pos = (210,0);
 },
 {
 name = top;
-pos = (353,766);
+pos = (350,766);
 }
 );
-layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+background = {
 shapes = (
 {
 alignment = -1;
@@ -27,45 +28,31 @@ pos = (109,0);
 ref = grave;
 }
 );
-width = 491;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (225,0);
-},
-{
-name = top;
-pos = (363,766);
-}
-);
-layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+};
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
-alignment = -1;
-ref = e;
+ref = "ie-cy";
 },
 {
-alignment = -1;
-pos = (76,0);
-ref = grave;
+pos = (107,0);
+ref = gravecomb.loclCYR;
 }
 );
-width = 499;
+width = 484;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (245,0);
+pos = (236,0);
 },
 {
 name = top;
-pos = (390,766);
+pos = (351,766);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+background = {
 shapes = (
 {
 alignment = -1;
@@ -77,20 +64,31 @@ pos = (86,0);
 ref = grave;
 }
 );
-width = 557;
+};
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+ref = "ie-cy";
+},
+{
+pos = (73,0);
+ref = gravecomb.loclCYR;
+}
+);
+width = 524;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (260,0);
+pos = (247,0);
 },
 {
 name = top;
-pos = (397,766);
+pos = (357,766);
 }
 );
-layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+background = {
 shapes = (
 {
 alignment = -1;
@@ -102,20 +100,31 @@ pos = (70,0);
 ref = grave;
 }
 );
-width = 579;
+};
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+ref = "ie-cy";
+},
+{
+pos = (55,0);
+ref = gravecomb.loclCYR;
+}
+);
+width = 544;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (107,0);
+pos = (135,0);
 },
 {
 name = top;
-pos = (269,763);
+pos = (237,766);
 }
 );
-layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+background = {
 shapes = (
 {
 alignment = -1;
@@ -127,20 +136,31 @@ pos = (17,0);
 ref = grave;
 }
 );
-width = 326;
+};
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+ref = "ie-cy";
+},
+{
+pos = (28,0);
+ref = gravecomb.loclCYR;
+}
+);
+width = 313;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (135,0);
+pos = (154,0);
 },
 {
 name = top;
-pos = (297,765);
+pos = (263,772);
 }
 );
-layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+background = {
 shapes = (
 {
 alignment = -1;
@@ -152,45 +172,31 @@ pos = (20,0);
 ref = grave;
 }
 );
-width = 382;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (155,0);
-},
-{
-name = top;
-pos = (317,766);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+};
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
-alignment = -1;
-ref = e;
+ref = "ie-cy";
 },
 {
-alignment = -1;
-pos = (31,0);
-ref = grave;
+pos = (23,7);
+ref = gravecomb.loclCYR;
 }
 );
-width = 422;
+width = 359;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (175,0);
+pos = (192,0);
 },
 {
 name = top;
-pos = (337,766);
+pos = (299,766);
 }
 );
-layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+background = {
 shapes = (
 {
 alignment = -1;
@@ -202,9 +208,93 @@ pos = (27,0);
 ref = grave;
 }
 );
-width = 461;
+};
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+ref = "ie-cy";
+},
+{
+pos = (13,0);
+ref = gravecomb.loclCYR;
 }
 );
+width = 448;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (221,0);
+},
+{
+name = top;
+pos = (333,766);
+}
+);
+background = {
+shapes = (
+{
+alignment = -1;
+ref = e;
+},
+{
+alignment = -1;
+pos = (76,0);
+ref = grave;
+}
+);
+};
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+ref = "ie-cy";
+},
+{
+pos = (84,0);
+ref = gravecomb.loclCYR;
+}
+);
+width = 491;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (176,0);
+},
+{
+name = top;
+pos = (277,766);
+}
+);
+background = {
+shapes = (
+{
+alignment = -1;
+ref = e;
+},
+{
+alignment = -1;
+pos = (24,0);
+ref = grave;
+}
+);
+};
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+ref = "ie-cy";
+},
+{
+pos = (12,0);
+ref = gravecomb.loclCYR;
+}
+);
+width = 413;
+}
+);
+metricWidth = "ie-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1104;
