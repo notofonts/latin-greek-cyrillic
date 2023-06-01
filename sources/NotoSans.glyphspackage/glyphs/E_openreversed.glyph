@@ -1,7 +1,7 @@
 {
 category = Letter;
 color = 9;
-glyphname = Ereversedopen;
+glyphname = Eopenreversed;
 layers = (
 {
 anchors = (

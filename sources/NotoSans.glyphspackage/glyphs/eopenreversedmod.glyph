@@ -1,6 +1,6 @@
 {
 category = Letter;
-glyphname = ereversedopenmod;
+glyphname = eopenreversedmod;
 layers = (
 {
 anchors = (
