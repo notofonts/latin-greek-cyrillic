@@ -1,7 +1,7 @@
 {
 category = Letter;
 color = 9;
-glyphname = Ereversedopen;
+glyphname = Eopenreversed;
 layers = (
 {
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
