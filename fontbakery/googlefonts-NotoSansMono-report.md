@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.12a0
+Fontbakery version: 0.8.13
 
 <details><summary><b>[2] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
@@ -22,7 +22,7 @@ Fontbakery version: 0.8.12a0
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3888 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3890 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.38%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -38,7 +38,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* Agrave
 	* Alpha
 	* Alphatonos
-	* Amacron and 584 more.
+	* Amacron and 585 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -84,7 +84,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni031A (U+031A), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -169,7 +169,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3888 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3890 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.38%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -185,7 +185,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* Dcroat
 	* Desoftcy
 	* Dmiddlestroke
-	* Dtail and 488 more.
+	* Dtail and 489 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -231,7 +231,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni031A (U+031A), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -322,7 +322,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3888 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3890 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.38%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -338,7 +338,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* Desoftcy
 	* Dmiddlestroke
 	* Dtail
-	* Elsoftcy and 510 more.
+	* Elsoftcy and 511 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -391,7 +391,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni031A (U+031A), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -488,7 +488,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3888 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3890 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.38%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -557,7 +557,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni031A (U+031A), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -644,7 +644,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3888 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3890 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.38%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -660,7 +660,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* omegaroundcy
 	* u10780
 	* u10784
-	* u1079C and 56 more.
+	* u1079C and 57 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -706,7 +706,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni031A (U+031A), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -766,6 +766,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni0182 (U+0182): L<<106.0,0.0>--<105.0,714.0>>
 
+	* uni028B (U+028B): L<<138.0,533.0>--<137.0,205.0>>
+
 	* uni040B (U+040B): L<<155.0,0.0>--<154.0,662.0>>
 
 	* uni0411 (U+0411): L<<106.0,0.0>--<105.0,714.0>>
@@ -778,11 +780,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni1D7A (U+1D7A): L<<287.0,482.0>--<286.0,182.0>>
 
-	* uni1DF11 (U+1DF11): L<<261.0,50.0>--<262.0,710.0>>
+	* uni1DB9 (U+1DB9): L<<195.0,607.0>--<194.0,410.0>> 
 
-	* uni211F (U+211F): L<<163.0,358.0>--<283.0,357.0>> 
-
-	* 8 more.
+	* 10 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[13] NotoSansMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
@@ -797,7 +797,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3888 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3890 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.38%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -813,7 +813,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* Dtail
 	* Elsoftcy
 	* Eng
-	* Eng.alt2 and 330 more.
+	* Eng.alt2 and 331 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -866,7 +866,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni031A (U+031A), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -922,6 +922,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni0182 (U+0182): L<<87.0,0.0>--<86.0,714.0>>
 
+	* uni028B (U+028B): L<<168.0,541.0>--<167.0,214.0>>
+
 	* uni0402 (U+0402): L<<138.0,0.0>--<137.0,624.0>>
 
 	* uni0402 (U+0402): L<<242.0,328.0>--<241.0,0.0>>
@@ -930,11 +932,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni0411 (U+0411): L<<87.0,0.0>--<86.0,714.0>>
 
-	* uni0469 (U+0469): L<<348.0,0.0>--<349.0,230.0>>
+	* uni0469 (U+0469): L<<348.0,0.0>--<349.0,230.0>> 
 
-	* uni0469 (U+0469): L<<424.0,230.0>--<426.0,0.0>> 
-
-	* 4 more.
+	* 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[12] NotoSansMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
@@ -949,7 +949,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3888 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3890 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.38%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -959,13 +959,13 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* Bbarredmod
 	* Bbarredsmall
 	* Dmiddlestroke
+	* Fstroke
 	* Hbar
 	* Lslash
 	* Ocrossedcy
 	* Omegaroundcy
 	* Oslash
-	* Oslashacute
-	* Smiddlestroke and 218 more.
+	* Oslashacute and 220 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1011,7 +1011,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni031A (U+031A), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1069,6 +1069,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni0182 (U+0182): L<<96.0,0.0>--<95.0,714.0>>
 
+	* uni028B (U+028B): L<<158.0,538.0>--<156.0,211.0>>
+
 	* uni0402 (U+0402): L<<151.0,0.0>--<150.0,634.0>>
 
 	* uni0402 (U+0402): L<<240.0,634.0>--<241.0,412.0>>
@@ -1098,7 +1100,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3888 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3890 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.38%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -1114,7 +1116,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* Dmiddlestroke
 	* Dtail
 	* Elsoftcy
-	* Eng and 407 more.
+	* Eng and 409 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1167,7 +1169,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni031A (U+031A), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1239,13 +1241,13 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni0182 (U+0182): L<<77.0,0.0>--<76.0,714.0>>
 
+	* uni028B (U+028B): L<<180.0,544.0>--<179.0,218.0>>
+
 	* uni0402 (U+0402): L<<124.0,0.0>--<123.0,612.0>>
 
-	* uni0402 (U+0402): L<<241.0,612.0>--<242.0,415.0>>
+	* uni0402 (U+0402): L<<241.0,612.0>--<242.0,415.0>> 
 
-	* uni040B (U+040B): L<<124.0,0.0>--<123.0,612.0>> 
-
-	* 28 more.
+	* 30 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[12] NotoSansMono-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
@@ -1260,7 +1262,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3888 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3890 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 248 glyphs (6.33%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -1317,7 +1319,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni031A (U+031A), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1434,7 +1436,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3888 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 3890 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 250 glyphs (6.38%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
@@ -1450,11 +1452,11 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	* u10780
 	* u10784
 	* u107A7
+	* uni01B2
 	* uni0278
 	* uni0402
 	* uni040B
-	* uni040C
-	* uni0416 and 38 more.
+	* uni040C and 40 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1468,12 +1470,12 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'Bbarredmod' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f622c6618d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6228be77d0> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'Bbarredmod' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f938adb71d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f9380b53110> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni031A (U+031A), uni0488 (U+0488), uni0489 (U+0489), uni1ABE (U+1ABE), uniA670 (U+A670), uniA671 (U+A671) and uniA672 (U+A672) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1484,7 +1486,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 4 | 32 | 92 | 1150 | 62 | 957 | 0 |
+| 4 | 32 | 92 | 1151 | 62 | 966 | 0 |
 | 0% | 1% | 4% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:

@@ -1,0 +1,5638 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Waterfall</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attrib-old{
+                color: red;
+                cursor: text;
+            }
+            .attrib-new{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+
+	  
+
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedSemiBold.ttf);
+    font-family: "Noto Serif";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-LightItalic.ttf);
+    font-family: "Noto Serif";
+    font-weight: 300;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensed.ttf);
+    font-family: "Noto Serif";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedMediumItalic.ttf);
+    font-family: "Noto Serif";
+    font-weight: 500;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedThinItalic.ttf);
+    font-family: "Noto Serif";
+    font-weight: 100;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedItalic.ttf);
+    font-family: "Noto Serif";
+    font-weight: 400;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedExtraBold.ttf);
+    font-family: "Noto Serif";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedSemiBoldItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 600;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedBoldItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 700;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedBlackItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 900;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedExtraLight.ttf);
+    font-family: "Noto Sans";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-LightItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 300;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedBlack.ttf);
+    font-family: "Noto Sans";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedExtraLightItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 200;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedThinItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 100;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-Light.ttf);
+    font-family: "Noto Sans";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedExtraBold.ttf);
+    font-family: "Noto Sans";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensed.ttf);
+    font-family: "Noto Sans";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedLight.ttf);
+    font-family: "Noto Sans";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 400;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedThin.ttf);
+    font-family: "Noto Sans";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedSemiBold.ttf);
+    font-family: "Noto Sans";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedBold.ttf);
+    font-family: "Noto Sans";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedLightItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 300;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedMedium.ttf);
+    font-family: "Noto Sans";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedMediumItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 500;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSans-ExtraCondensedExtraBoldItalic.ttf);
+    font-family: "Noto Sans";
+    font-weight: 800;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-ExtraCondensedBold.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-ExtraCondensedSemiBold.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-ExtraCondensedThin.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-Light.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-ExtraCondensedBlack.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-ExtraCondensed.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-ExtraCondensedExtraBold.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-ExtraCondensedLight.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-ExtraCondensedMedium.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSansMono-ExtraCondensedExtraLight.ttf);
+    font-family: "Noto Sans Mono";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedExtraLightItalic.ttf);
+    font-family: "Noto Serif";
+    font-weight: 200;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedExtraLight.ttf);
+    font-family: "Noto Serif";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedBlack.ttf);
+    font-family: "Noto Serif";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedThin.ttf);
+    font-family: "Noto Serif";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedBoldItalic.ttf);
+    font-family: "Noto Serif";
+    font-weight: 700;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedBlackItalic.ttf);
+    font-family: "Noto Serif";
+    font-weight: 900;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedSemiBoldItalic.ttf);
+    font-family: "Noto Serif";
+    font-weight: 600;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedBold.ttf);
+    font-family: "Noto Serif";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedLightItalic.ttf);
+    font-family: "Noto Serif";
+    font-weight: 300;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedExtraBoldItalic.ttf);
+    font-family: "Noto Serif";
+    font-weight: 800;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedLight.ttf);
+    font-family: "Noto Serif";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-ExtraCondensedMedium.ttf);
+    font-family: "Noto Serif";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(NotoSerif-Light.ttf);
+    font-family: "Noto Serif";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+
+	  
+	    .ExtraCondensed-Light-Italic{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 300;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 300;
+}
+	  
+	    .ExtraCondensed-Medium{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 500;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 500;
+}
+	  
+	    .ExtraCondensed-SemiBold-Italic{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 600;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 600;
+}
+	  
+	    .ExtraCondensed-Black-Italic{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 900;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 900;
+}
+	  
+	    .ExtraCondensed-Bold-Italic{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 700;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 700;
+}
+	  
+	    .ExtraCondensed-ExtraLight{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 200;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 200;
+}
+	  
+	    .Light-Italic{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 300;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 300;
+}
+	  
+	    .ExtraCondensed-Black{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 900;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 900;
+}
+	  
+	    .ExtraCondensed-ExtraLight-Italic{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 200;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 200;
+}
+	  
+	    .ExtraCondensed-Thin-Italic{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 100;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 100;
+}
+	  
+	    .Light{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 300;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 300;
+}
+	  
+	    .ExtraCondensed-ExtraBold{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 800;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 800;
+}
+	  
+	    .ExtraCondensed-Medium-Italic{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 500;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 500;
+}
+	  
+	    .ExtraCondensed{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+	    .ExtraCondensed-Light{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 300;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 300;
+}
+	  
+	    .ExtraCondensed-Italic{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 400;
+}
+	  
+	    .ExtraCondensed-Thin{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 100;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 100;
+}
+	  
+	    .ExtraCondensed-SemiBold{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 600;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 600;
+}
+	  
+	    .ExtraCondensed-Bold{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 700;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 700;
+}
+	  
+	    .ExtraCondensed-ExtraBold-Italic{
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 800;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 800;
+}
+	  
+	    .ExtraCondensed-Bold{
+    font-family: "Noto Sans Mono", "Adobe NotDef";
+    font-weight: 700;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 700;
+}
+	  
+	    .ExtraCondensed-SemiBold{
+    font-family: "Noto Sans Mono", "Adobe NotDef";
+    font-weight: 600;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 600;
+}
+	  
+	    .ExtraCondensed-Thin{
+    font-family: "Noto Sans Mono", "Adobe NotDef";
+    font-weight: 100;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 100;
+}
+	  
+	    .Light{
+    font-family: "Noto Sans Mono", "Adobe NotDef";
+    font-weight: 300;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 300;
+}
+	  
+	    .ExtraCondensed-Black{
+    font-family: "Noto Sans Mono", "Adobe NotDef";
+    font-weight: 900;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 900;
+}
+	  
+	    .ExtraCondensed{
+    font-family: "Noto Sans Mono", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+	    .ExtraCondensed-ExtraBold{
+    font-family: "Noto Sans Mono", "Adobe NotDef";
+    font-weight: 800;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 800;
+}
+	  
+	    .ExtraCondensed-Light{
+    font-family: "Noto Sans Mono", "Adobe NotDef";
+    font-weight: 300;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 300;
+}
+	  
+	    .ExtraCondensed-Medium{
+    font-family: "Noto Sans Mono", "Adobe NotDef";
+    font-weight: 500;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 500;
+}
+	  
+	    .ExtraCondensed-ExtraLight{
+    font-family: "Noto Sans Mono", "Adobe NotDef";
+    font-weight: 200;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 200;
+}
+	  
+	    .ExtraCondensed-Medium{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 500;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 500;
+}
+	  
+	    .ExtraCondensed-ExtraLight-Italic{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 200;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 200;
+}
+	  
+	    .ExtraCondensed-ExtraLight{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 200;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 200;
+}
+	  
+	    .ExtraCondensed-Black{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 900;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 900;
+}
+	  
+	    .ExtraCondensed-Thin{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 100;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 100;
+}
+	  
+	    .ExtraCondensed-Bold-Italic{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 700;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 700;
+}
+	  
+	    .ExtraCondensed-Black-Italic{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 900;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 900;
+}
+	  
+	    .ExtraCondensed-SemiBold-Italic{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 600;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 600;
+}
+	  
+	    .ExtraCondensed-Bold{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 700;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 700;
+}
+	  
+	    .ExtraCondensed-Light-Italic{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 300;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 300;
+}
+	  
+	    .ExtraCondensed-ExtraBold-Italic{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 800;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 800;
+}
+	  
+	    .ExtraCondensed-Light{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 300;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 300;
+}
+	  
+	    .Light{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 300;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 300;
+}
+	  
+	    .ExtraCondensed-SemiBold{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 600;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 600;
+}
+	  
+	    .Light-Italic{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 300;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 300;
+}
+	  
+	    .ExtraCondensed{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+	    .ExtraCondensed-Medium-Italic{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 500;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 500;
+}
+	  
+	    .ExtraCondensed-Thin-Italic{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 100;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 100;
+}
+	  
+	    .ExtraCondensed-Italic{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 400;
+}
+	  
+	    .ExtraCondensed-ExtraBold{
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 800;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 800;
+}
+	  
+	
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Waterfall</b>
+</h2>
+	
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 7pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 10pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 11pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 12pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 14pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 16pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 18pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 21pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 27pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 32pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 7pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 10pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 11pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 12pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 14pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 16pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 18pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 21pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 27pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 32pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 7pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 10pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 11pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 12pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 14pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 16pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 18pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 21pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 27pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 32pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 7pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 10pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 11pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 12pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 14pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 16pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 18pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 21pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 27pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 32pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 7pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 10pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 11pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 12pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 14pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 16pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 18pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 21pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 27pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 32pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 7pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 10pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 11pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 12pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 14pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 16pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 18pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 21pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 27pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 32pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 7pt</div>
+	<span class="Light-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 10pt</div>
+	<span class="Light-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 11pt</div>
+	<span class="Light-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 12pt</div>
+	<span class="Light-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 14pt</div>
+	<span class="Light-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 16pt</div>
+	<span class="Light-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 18pt</div>
+	<span class="Light-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 21pt</div>
+	<span class="Light-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 27pt</div>
+	<span class="Light-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 32pt</div>
+	<span class="Light-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 7pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 10pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 11pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 12pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 14pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 16pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 18pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 21pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 27pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 32pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 7pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 10pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 11pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 12pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 14pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 16pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 18pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 21pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 27pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 32pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 7pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 10pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 11pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 12pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 14pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 16pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 18pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 21pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 27pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 32pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">Light 7pt</div>
+	<span class="Light" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 10pt</div>
+	<span class="Light" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 11pt</div>
+	<span class="Light" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 12pt</div>
+	<span class="Light" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 14pt</div>
+	<span class="Light" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 16pt</div>
+	<span class="Light" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 18pt</div>
+	<span class="Light" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 21pt</div>
+	<span class="Light" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 27pt</div>
+	<span class="Light" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 32pt</div>
+	<span class="Light" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 7pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 10pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 11pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 12pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 14pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 16pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 18pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 21pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 27pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 32pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 7pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 10pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 11pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 12pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 14pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 16pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 18pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 21pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 27pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 32pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 7pt</div>
+	<span class="ExtraCondensed" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 10pt</div>
+	<span class="ExtraCondensed" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 11pt</div>
+	<span class="ExtraCondensed" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 12pt</div>
+	<span class="ExtraCondensed" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 14pt</div>
+	<span class="ExtraCondensed" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 16pt</div>
+	<span class="ExtraCondensed" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 18pt</div>
+	<span class="ExtraCondensed" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 21pt</div>
+	<span class="ExtraCondensed" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 27pt</div>
+	<span class="ExtraCondensed" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 32pt</div>
+	<span class="ExtraCondensed" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 7pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 10pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 11pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 12pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 14pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 16pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 18pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 21pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 27pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 32pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 7pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 10pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 11pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 12pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 14pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 16pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 18pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 21pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 27pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 32pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 7pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 10pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 11pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 12pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 14pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 16pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 18pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 21pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 27pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 32pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 7pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 10pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 11pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 12pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 14pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 16pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 18pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 21pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 27pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 32pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 7pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 10pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 11pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 12pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 14pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 16pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 18pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 21pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 27pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 32pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 7pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 10pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 11pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 12pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 14pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 16pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 18pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 21pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 27pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 32pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 7pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 10pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 11pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 12pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 14pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 16pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 18pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 21pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 27pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 32pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 7pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 10pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 11pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 12pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 14pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 16pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 18pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 21pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 27pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 32pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 7pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 10pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 11pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 12pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 14pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 16pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 18pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 21pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 27pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 32pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">Light 7pt</div>
+	<span class="Light" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 10pt</div>
+	<span class="Light" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 11pt</div>
+	<span class="Light" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 12pt</div>
+	<span class="Light" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 14pt</div>
+	<span class="Light" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 16pt</div>
+	<span class="Light" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 18pt</div>
+	<span class="Light" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 21pt</div>
+	<span class="Light" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 27pt</div>
+	<span class="Light" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 32pt</div>
+	<span class="Light" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 7pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 10pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 11pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 12pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 14pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 16pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 18pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 21pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 27pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 32pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 7pt</div>
+	<span class="ExtraCondensed" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 10pt</div>
+	<span class="ExtraCondensed" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 11pt</div>
+	<span class="ExtraCondensed" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 12pt</div>
+	<span class="ExtraCondensed" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 14pt</div>
+	<span class="ExtraCondensed" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 16pt</div>
+	<span class="ExtraCondensed" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 18pt</div>
+	<span class="ExtraCondensed" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 21pt</div>
+	<span class="ExtraCondensed" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 27pt</div>
+	<span class="ExtraCondensed" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 32pt</div>
+	<span class="ExtraCondensed" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 7pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 10pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 11pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 12pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 14pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 16pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 18pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 21pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 27pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 32pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 7pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 10pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 11pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 12pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 14pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 16pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 18pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 21pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 27pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 32pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 7pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 10pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 11pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 12pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 14pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 16pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 18pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 21pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 27pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 32pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 7pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 10pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 11pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 12pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 14pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 16pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 18pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 21pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 27pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 32pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 7pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 10pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 11pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 12pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 14pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 16pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 18pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 21pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 27pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium 32pt</div>
+	<span class="ExtraCondensed-Medium" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 7pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 10pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 11pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 12pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 14pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 16pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 18pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 21pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 27pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight-Italic 32pt</div>
+	<span class="ExtraCondensed-ExtraLight-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 7pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 10pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 11pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 12pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 14pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 16pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 18pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 21pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 27pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraLight 32pt</div>
+	<span class="ExtraCondensed-ExtraLight" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 7pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 10pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 11pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 12pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 14pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 16pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 18pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 21pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 27pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black 32pt</div>
+	<span class="ExtraCondensed-Black" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 7pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 10pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 11pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 12pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 14pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 16pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 18pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 21pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 27pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin 32pt</div>
+	<span class="ExtraCondensed-Thin" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 7pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 10pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 11pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 12pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 14pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 16pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 18pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 21pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 27pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold-Italic 32pt</div>
+	<span class="ExtraCondensed-Bold-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 7pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 10pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 11pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 12pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 14pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 16pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 18pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 21pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 27pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Black-Italic 32pt</div>
+	<span class="ExtraCondensed-Black-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 7pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 10pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 11pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 12pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 14pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 16pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 18pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 21pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 27pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold-Italic 32pt</div>
+	<span class="ExtraCondensed-SemiBold-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 7pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 10pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 11pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 12pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 14pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 16pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 18pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 21pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 27pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Bold 32pt</div>
+	<span class="ExtraCondensed-Bold" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 7pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 10pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 11pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 12pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 14pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 16pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 18pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 21pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 27pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light-Italic 32pt</div>
+	<span class="ExtraCondensed-Light-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 7pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 10pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 11pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 12pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 14pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 16pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 18pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 21pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 27pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold-Italic 32pt</div>
+	<span class="ExtraCondensed-ExtraBold-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 7pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 10pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 11pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 12pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 14pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 16pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 18pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 21pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 27pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Light 32pt</div>
+	<span class="ExtraCondensed-Light" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">Light 7pt</div>
+	<span class="Light" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 10pt</div>
+	<span class="Light" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 11pt</div>
+	<span class="Light" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 12pt</div>
+	<span class="Light" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 14pt</div>
+	<span class="Light" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 16pt</div>
+	<span class="Light" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 18pt</div>
+	<span class="Light" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 21pt</div>
+	<span class="Light" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 27pt</div>
+	<span class="Light" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light 32pt</div>
+	<span class="Light" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 7pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 10pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 11pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 12pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 14pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 16pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 18pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 21pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 27pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-SemiBold 32pt</div>
+	<span class="ExtraCondensed-SemiBold" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 7pt</div>
+	<span class="Light-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 10pt</div>
+	<span class="Light-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 11pt</div>
+	<span class="Light-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 12pt</div>
+	<span class="Light-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 14pt</div>
+	<span class="Light-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 16pt</div>
+	<span class="Light-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 18pt</div>
+	<span class="Light-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 21pt</div>
+	<span class="Light-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 27pt</div>
+	<span class="Light-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">Light-Italic 32pt</div>
+	<span class="Light-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 7pt</div>
+	<span class="ExtraCondensed" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 10pt</div>
+	<span class="ExtraCondensed" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 11pt</div>
+	<span class="ExtraCondensed" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 12pt</div>
+	<span class="ExtraCondensed" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 14pt</div>
+	<span class="ExtraCondensed" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 16pt</div>
+	<span class="ExtraCondensed" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 18pt</div>
+	<span class="ExtraCondensed" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 21pt</div>
+	<span class="ExtraCondensed" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 27pt</div>
+	<span class="ExtraCondensed" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed 32pt</div>
+	<span class="ExtraCondensed" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 7pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 10pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 11pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 12pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 14pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 16pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 18pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 21pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 27pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Medium-Italic 32pt</div>
+	<span class="ExtraCondensed-Medium-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 7pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 10pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 11pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 12pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 14pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 16pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 18pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 21pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 27pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Thin-Italic 32pt</div>
+	<span class="ExtraCondensed-Thin-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 7pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 10pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 11pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 12pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 14pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 16pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 18pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 21pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 27pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-Italic 32pt</div>
+	<span class="ExtraCondensed-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 7pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 10pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 11pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 12pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 14pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 16pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 18pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 21pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 27pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">ExtraCondensed-ExtraBold 32pt</div>
+	<span class="ExtraCondensed-ExtraBold" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+	function render(node, toplevel) {
+		var wrapper = $("<div> </div>");
+		if (!node) { return wrapper }
+		if (Array.isArray(node)) {
+			var before = $("<span/>");
+			before.addClass("attr-before");
+			before.html(" " + node[0] + " ");
+			var after = $("<span/>");
+			after.addClass("attr-after");
+			after.append(node[1]);
+			wrapper.append(before);
+			wrapper.append(after);
+			return wrapper
+		}
+		for (const [key, value] of Object.entries(node)) {
+			var display = $("<div/>");
+			display.addClass("node")
+			if (!toplevel && ! key.match(/^\d+$/)) {
+				display.hide()
+			}
+			display.append(key);
+			display.append(render(value, false).children());
+			wrapper.append(display)
+		}
+		return wrapper
+
+	}
+	$(function() {
+		$("#difftable").append(render(fontdiff, true).children())
+		$(".node").on("click", function(event){ $(this).children().toggle(); event.stopPropagation() })
+	});
+    
+	
+
+    </script>
+</html>

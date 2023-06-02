@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.12a0
+Fontbakery version: 0.8.13
 
 <details><summary><b>[3] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
@@ -52,15 +52,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* Desoftcy
+	* Fstroke
+	* Iotaserifed
 	* Tsereversedcy
 	* aivowelsigncandrabindudeva
 	* auvowelsigncandrabindudeva
 	* awvowelsigncandrabindudeva
 	* desoftcy
 	* eshortvowelsigncandrabindudeva
-	* evowelsigncandrabindudeva
-	* iivowelcandrabindu1deva
-	* iivowelcandrabindu2deva and 67 more.
+	* evowelsigncandrabindudeva and 71 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -160,7 +160,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
+	 uni031A (U+031A), uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -273,15 +273,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* Desoftcy
+	* Fstroke
+	* Iotaserifed
 	* solidusdotted
 	* uni0402
 	* uni0404
 	* uni0406
 	* uni0407
 	* uni040D
-	* uni040E
-	* uni040F
-	* uni0414 and 30 more.
+	* uni040E and 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -401,7 +401,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -500,15 +500,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* Desoftcy
+	* Fstroke
+	* Iotaserifed
 	* Tsereversedcy
 	* aivowelsigncandrabindudeva
 	* auvowelsigncandrabindudeva
 	* awvowelsigncandrabindudeva
 	* desoftcy
 	* eshortvowelsigncandrabindudeva
-	* evowelsigncandrabindudeva
-	* iivowelcandrabindu1deva
-	* iivowelcandrabindu2deva and 72 more.
+	* evowelsigncandrabindudeva and 76 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -608,7 +608,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
+	 uni031A (U+031A), uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -729,15 +729,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* Desoftcy
+	* Fstroke
+	* Iotaserifed
 	* solidusdotted
+	* uni028B
 	* uni0406
 	* uni0407
 	* uni040D
 	* uni040E
-	* uni040F
-	* uni0416
-	* uni0418
-	* uni0419 and 16 more.
+	* uni040F and 19 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -857,7 +857,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -956,15 +956,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* Desoftcy
+	* Fstroke
+	* Iotaserifed
 	* Tsereversedcy
 	* aivowelsigncandrabindudeva
 	* auvowelsigncandrabindudeva
 	* awvowelsigncandrabindudeva
 	* desoftcy
 	* eshortvowelsigncandrabindudeva
-	* evowelsigncandrabindudeva
-	* iivowelcandrabindu1deva
-	* iivowelcandrabindu2deva and 70 more.
+	* evowelsigncandrabindudeva and 74 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1064,7 +1064,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
+	 uni031A (U+031A), uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -1177,15 +1177,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* Desoftcy
+	* Fstroke
+	* Iotaserifed
 	* Yerubackyercy
 	* solidusdotted
+	* uni028B
 	* uni0402
 	* uni0406
 	* uni0407
-	* uni040D
-	* uni040E
-	* uni040F
-	* uni0414 and 26 more.
+	* uni040D and 29 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1305,7 +1305,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -1399,6 +1399,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Iotaserifed
 	* uni03FC
 	* uni0406
 	* uni0407
@@ -1501,7 +1502,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
+	 uni031A (U+031A), uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -1599,6 +1600,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Iotaserifed
 	* Odoublecy
 	* uni03FC
 	* uni0406
@@ -1721,7 +1723,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -1809,6 +1811,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Fstroke
+	* Iotaserifed
 	* emsoftcy
 	* solidusdotted
 	* uni0406
@@ -1816,10 +1820,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 	* uni040E
 	* uni0424
 	* uni043C
-	* uni043F
-	* uni0459
-	* uni04C1
-	* uni04C2 and uniA66E
+	* uni043F and 4 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1937,7 +1940,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -2035,6 +2038,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Iotaserifed
 	* oeopen
 	* uni0247
 	* uni03FC
@@ -2043,7 +2047,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 	* uni0416
 	* uni04DC
 	* uni20BE
-	* uni2C65 and uniA66E
+	* uni2C65
+	* uniA66E and uniAB65
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -2141,7 +2146,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
+	 uni031A (U+031A), uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -2235,6 +2240,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Iotaserifed
 	* Odoublecy
 	* uni03FC
 	* uni0406
@@ -2357,7 +2363,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -2451,6 +2457,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Fstroke
+	* Iotaserifed
 	* aivowelsigncandrabindudeva
 	* auvowelsigncandrabindudeva
 	* awvowelsigncandrabindudeva
@@ -2458,9 +2466,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 	* evowelsigncandrabindudeva
 	* iivowelcandrabindu1deva
 	* iivowelcandrabindu2deva
-	* iivowelcandrabindudeva
-	* oeopen
-	* oshortvowelsigncandrabindudeva and 23 more.
+	* iivowelcandrabindudeva and 27 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -2560,7 +2566,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
+	 uni031A (U+031A), uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -2662,6 +2668,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Fstroke
+	* Iotaserifed
 	* emsoftcy
 	* solidusdotted
 	* uni0406
@@ -2669,9 +2677,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 	* uni040E
 	* uni0439
 	* uni043C
-	* uni0459
-	* uni04C2
-	* uni04D0 and 4 more.
+	* uni0459 and 6 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -2791,7 +2797,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -2889,6 +2895,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Iotaserifed
 	* iivowelcandrabindu1deva
 	* iivowelcandrabindudeva
 	* oeopen
@@ -2897,8 +2904,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 	* uni0406
 	* uni0407
 	* uni0409
-	* uni040E
-	* uni0416 and 11 more.
+	* uni040E and 13 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -2998,7 +3004,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
+	 uni031A (U+031A), uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -3090,6 +3096,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Fstroke
+	* Iotaserifed
 	* aivowelsigncandrabindudeva
 	* auvowelsigncandrabindudeva
 	* awvowelsigncandrabindudeva
@@ -3097,9 +3105,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 	* eshortvowelsigncandrabindudeva
 	* evowelsigncandrabindudeva
 	* iivowelcandrabindu1deva
-	* iivowelcandrabindu2deva
-	* iivowelcandrabindu3deva
-	* iivowelcandrabindudeva and 41 more.
+	* iivowelcandrabindu2deva and 45 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -3199,7 +3205,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
+	 uni031A (U+031A), uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -3305,16 +3311,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Fstroke
+	* Iotaserifed
 	* solidusdotted
+	* uni028B
 	* uni0406
 	* uni0407
 	* uni040E
 	* uni0416
 	* uni0419
-	* uni0429
-	* uni0439
-	* uni045E
-	* uni04C2 and 6 more.
+	* uni0429 and 9 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -3434,7 +3440,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -3530,6 +3536,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Iotaserifed
 	* uni2C65 and uniA66E
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
@@ -3628,7 +3635,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
+	 uni031A (U+031A), uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -3710,7 +3717,7 @@ minus
 	* 41 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSans-ThinItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] NotoSans-ThinItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -3742,6 +3749,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 	- 14 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Iotaserifed
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -3859,7 +3871,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -3942,9 +3954,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 ERROR: GPOS: Bad mark anchor offset 0 for mark table 34
 ERROR: GPOS: Failed to parse mark array
-ERROR: Layout: Failed to parse lookup subtable 4
-ERROR: Layout: Failed to parse subtable 0
-ERROR: Layout: Failed to parse lookup 35
+ERROR: GPOS: Failed to parse subtable 0
+ERROR: GPOS: Failed to parse lookup 35
 ERROR: GPOS: Failed to parse lookup list table
 ERROR: GPOS: Failed to parse table
 Failed to sanitize file!
@@ -3988,13 +3999,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 	* Bbarredmod
 	* Bbarredsmall
 	* Desoftcy
+	* Iotaserifed
 	* Ocrossedcy
 	* Smiddlestroke
 	* Ukmonographcy
 	* Ustroke
 	* Wanglicana
-	* Yatiotifiedcy
-	* Yusiotifiedclosedlittlecy and 89 more.
+	* Yatiotifiedcy and 90 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -4068,23 +4079,23 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 2 start point differs in glyph 'zero.slash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4672fd13d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f466a0bdc50>
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f741c009cd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f741a9460d0>
 
-	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4672fd13d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f466a0bdc50>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f741c009cd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f7414f3a910>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4672fd13d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f466dd6a2d0>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f741c009cd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f7414f3bf10>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4672fd13d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f466a0bf050>
+	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f741c009cd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f7414f39e50>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4672fd13d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f466a0bd9d0>
+	- Contour 1 start point differs in glyph 'omegaroundcy' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f741c009cd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f7414f39e50>
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4672fd13d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f466a0bdc50>
+	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f741c009cd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f7414f39e50>
 
-	- Contour 0 start point differs in glyph 'theta' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4672fd13d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f466a0bd3d0>
+	- Contour 0 start point differs in glyph 'theta' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f741c009cd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f7414f39c10>
 
-	- Contour 1 start point differs in glyph 'omegaroundcy' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4672fd13d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f466a0bdc50> 
+	- Contour 2 start point differs in glyph 'zero.slash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f741c009cd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f7414f39e50> 
 
-	- Contour 0 start point differs in glyph 'uni1DBF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4672fd13d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f466a0bd3d0> [code: interpolation-issues]
+	- Contour 0 start point differs in glyph 'uni1DBF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f741c009cd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f7414f39c10> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -4103,7 +4114,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -4134,11 +4145,10 @@ minus
 
 * 🔥 **FAIL** ots-sanitize returned an error code (1). Output follows:
 
-ERROR: GPOS: Bad mark anchor offset 0 for mark table 64
+ERROR: GPOS: Bad mark anchor offset 0 for mark table 63
 ERROR: GPOS: Failed to parse mark array
-ERROR: Layout: Failed to parse lookup subtable 4
-ERROR: Layout: Failed to parse subtable 0
-ERROR: Layout: Failed to parse lookup 35
+ERROR: GPOS: Failed to parse subtable 0
+ERROR: GPOS: Failed to parse lookup 35
 ERROR: GPOS: Failed to parse lookup list table
 ERROR: GPOS: Failed to parse table
 Failed to sanitize file!
@@ -4183,12 +4193,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 	* Bbarredsmall
 	* Desoftcy
 	* Elsoftcy
+	* Iotaserifed
 	* Ocrossedcy
 	* Smiddlestroke
 	* Ukmonographcy
 	* Ustroke
-	* Wanglicana
-	* aanuktadeva and 299 more.
+	* Wanglicana and 301 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -4257,7 +4267,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
+	 uni031A (U+031A), uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -4269,7 +4279,7 @@ minus
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 8 | 45 | 265 | 2216 | 143 | 1900 | 0 |
+| 8 | 45 | 266 | 2218 | 143 | 1917 | 0 |
 | 0% | 1% | 6% | 48% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:

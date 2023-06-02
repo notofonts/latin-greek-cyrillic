@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.12a0
+Fontbakery version: 0.8.13
 
 <details><summary><b>[4] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
@@ -41,7 +41,7 @@ These were the version values found:
 * fonts/NotoSerif/googlefonts/variable-ttf/NotoSerif-Italic[wdth,wght].ttf: 2.0110015869140625
 * fonts/NotoSerif/googlefonts/variable-ttf/NotoSerif[wdth,wght].ttf: 2.011993408203125
  [code: mismatch]
-</div></details><br></div></details><details><summary><b>[12] NotoSerif-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerif-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -49,6 +49,22 @@ These were the version values found:
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Bbarredmod
+	* Bbarredsmall
+	* Dmiddlestroke
+	* Euro
+	* Fstroke
+	* Smiddlestroke
+	* Tsereversedcy
+	* Ustroke
+	* Wanglicana
+	* chi and 199 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -146,7 +162,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -231,7 +247,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* 59 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSerif-BlackItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSerif-BlackItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -239,6 +255,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* A
+	* Aacute
+	* Abreve
+	* Acircumflex
+	* Adieresis
+	* Aglottal
+	* Agrave
+	* Alpha
+	* Alphatonos
+	* Amacron and 383 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -346,7 +378,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -380,7 +412,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* Ereversedopen (U+A7AB): B<<533.5,403.5>-<488.0,379.0>-<431.0,372.0>>/B<<431.0,372.0>-<463.0,369.0>-<498.5,351.5>> = 12.357092600350505
+	* Eopenreversed (U+A7AB): B<<533.5,403.5>-<488.0,379.0>-<431.0,372.0>>/B<<431.0,372.0>-<463.0,369.0>-<498.5,351.5>> = 12.357092600350505
 
 	* uni0246 (U+0246): L<<335.0,339.0>--<295.0,151.0>>/L<<295.0,151.0>--<379.0,339.0>> = 12.064019868713396
 
@@ -415,16 +447,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* Aring
-	* Lambda
-	* Phi
-	* Sigma
-	* Xi
-	* alphatonos
-	* beta
+	* Bbarredmod
+	* Bbarredsmall
+	* Dmiddlestroke
+	* Euro
+	* Fstroke
+	* Smiddlestroke
+	* Ustroke
+	* Wanglicana
 	* chi
-	* copyright
-	* degree and 442 more.
+	* colonmonetary and 176 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -524,7 +556,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -621,16 +653,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* A
+	* Aacute
+	* Abreve
+	* Acircumflex
 	* Adieresis
-	* Edieresis
-	* Idieresis
-	* Iotadieresis
-	* Odieresis
-	* Omegatonos
-	* Phi
-	* Psi
-	* Udieresis
-	* Upsilondieresis and 485 more.
+	* Aglottal
+	* Agrave
+	* Alpha
+	* Alphatonos
+	* Amacron and 264 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -740,7 +772,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -774,7 +806,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* Ereversedopen (U+A7AB): B<<508.0,402.0>-<462.0,377.0>-<405.0,370.0>>/B<<405.0,370.0>-<437.0,367.0>-<472.5,349.5>> = 12.357092600350505
+	* Eopenreversed (U+A7AB): B<<508.0,402.0>-<462.0,377.0>-<405.0,370.0>>/B<<405.0,370.0>-<437.0,367.0>-<472.5,349.5>> = 12.357092600350505
 
 	* uni0246 (U+0246): L<<299.0,343.0>--<242.0,73.0>>/L<<242.0,73.0>--<364.0,343.0>> = 12.395181192130876
 
@@ -797,7 +829,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSerif-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerif-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -805,6 +837,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Bbarredmod
+	* Bbarredsmall
+	* Dmiddlestroke
+	* Euro
+	* Fstroke
+	* Smiddlestroke
+	* Ustroke
+	* Wanglicana
+	* chi
+	* colonmonetary and 186 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -902,7 +950,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -987,7 +1035,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* 51 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSerif-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSerif-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -995,6 +1043,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* A
+	* Aacute
+	* Abreve
+	* Acircumflex
+	* Adieresis
+	* Aglottal
+	* Agrave
+	* Alpha
+	* Alphatonos
+	* Amacron and 366 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1102,7 +1166,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1136,7 +1200,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* Ereversedopen (U+A7AB): B<<521.5,402.5>-<476.0,378.0>-<419.0,371.0>>/B<<419.0,371.0>-<451.0,368.0>-<486.5,350.5>> = 12.357092600350505
+	* Eopenreversed (U+A7AB): B<<521.5,402.5>-<476.0,378.0>-<419.0,371.0>>/B<<419.0,371.0>-<451.0,368.0>-<486.5,350.5>> = 12.357092600350505
 
 	* uni0246 (U+0246): L<<319.0,341.0>--<271.0,116.0>>/L<<271.0,116.0>--<372.0,341.0>> = 12.132206814749741
 
@@ -1159,7 +1223,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSerif-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSerif-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -1167,6 +1231,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Bbarredsmall
+	* u10780
+	* uni0405
+	* uni0409
+	* uni1DF05
+	* uni1DF09 and uni1DF0F
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1271,7 +1345,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1346,7 +1420,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* 133 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSerif-ExtraLightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSerif-ExtraLightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -1354,6 +1428,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* u10780
+	* u10784
+	* uni0409
+	* uni1DF0F
+	* uni20A5 and uniA7D3
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1461,7 +1544,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1522,16 +1605,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* Phi
-	* Psi
-	* Sigma
-	* Xi
-	* alpha
-	* alphatonos
-	* beta
-	* chi
-	* copyright
-	* dieresistonos and 402 more.
+	* Bbarredsmall
+	* Dmiddlestroke
+	* Euro
+	* Hbar
+	* Oslash
+	* Oslashacute
+	* Smiddlestroke
+	* Ustroke
+	* Wanglicana
+	* colonmonetary and 77 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1641,7 +1724,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1675,7 +1758,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* Ereversedopen (U+A7AB): B<<473.5,399.0>-<427.0,374.0>-<370.0,367.0>>/B<<370.0,367.0>-<402.0,364.0>-<437.5,347.0>> = 12.357092600350505
+	* Eopenreversed (U+A7AB): B<<473.5,399.0>-<427.0,374.0>-<370.0,367.0>>/B<<370.0,367.0>-<402.0,364.0>-<437.5,347.0>> = 12.357092600350505
 
 	* uni03D0 (U+03D0): B<<316.0,703.0>-<273.0,681.0>-<238.0,624.0>>/L<<238.0,624.0>--<240.0,627.0>> = 2.1386825776662226
 
@@ -1698,7 +1781,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni2133 (U+2133): B<<1101.5,668.0>-<1119.0,688.0>-<1125.0,694.0>>/B<<1125.0,694.0>-<1109.0,683.0>-<1066.5,648.5>> = 10.491477012331565 
 
 	* uniA7A0 (U+A7A0): L<<694.0,372.0>--<503.0,330.0>>/L<<503.0,330.0>--<698.0,330.0>> = 12.40169581672131 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSerif-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerif-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -1706,6 +1789,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Bbarredsmall
+	* Ustroke
+	* colonmonetary
+	* u10780
+	* u10784
+	* uni0409
+	* uni040A
+	* uni0414
+	* uni0416
+	* uni0424 and 22 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1803,7 +1902,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1874,7 +1973,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* 88 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSerif-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSerif-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -1882,6 +1981,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Bbarredsmall
+	* Ustroke
+	* u10780
+	* u10784
+	* uni023A
+	* uni023E
+	* uni0409
+	* uni0416
+	* uni0424
+	* uni0459 and 12 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1989,7 +2104,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2034,7 +2149,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni2133 (U+2133): B<<1101.5,668.0>-<1119.0,688.0>-<1125.0,694.0>>/B<<1125.0,694.0>-<1109.0,683.0>-<1066.5,648.5>> = 10.491477012331565 
 
 	* uniA7A0 (U+A7A0): L<<669.0,362.0>--<497.0,324.0>>/L<<497.0,324.0>--<668.0,324.0>> = 12.458246440004897 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSerif-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerif-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -2042,6 +2157,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Bbarredmod
+	* Bbarredsmall
+	* Dmiddlestroke
+	* Euro
+	* Fstroke
+	* Smiddlestroke
+	* Ustroke
+	* Wanglicana
+	* Yerubackyercy
+	* colonmonetary and 110 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -2139,7 +2270,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2222,7 +2353,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* 56 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSerif-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSerif-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -2230,6 +2361,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Bbarredmod
+	* Bbarredsmall
+	* Dmiddlestroke
+	* Euro
+	* Fstroke
+	* Hbar
+	* Oslash
+	* Oslashacute
+	* Smiddlestroke
+	* Ustroke and 100 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -2337,7 +2484,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2371,7 +2518,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* Ereversedopen (U+A7AB): B<<482.5,400.0>-<436.0,375.0>-<380.0,368.0>>/B<<380.0,368.0>-<412.0,364.0>-<447.5,347.5>> = 14.250032697803546
+	* Eopenreversed (U+A7AB): B<<482.5,400.0>-<436.0,375.0>-<380.0,368.0>>/B<<380.0,368.0>-<412.0,364.0>-<447.5,347.5>> = 14.250032697803546
 
 	* onequarter (U+00BC): B<<687.5,318.5>-<693.0,337.0>-<698.0,356.0>>/B<<698.0,356.0>-<693.0,347.0>-<682.5,334.0>> = 14.311041262606366
 
@@ -2406,16 +2553,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* .notdef
-	* Aring
-	* Phi
-	* Psi
-	* Sigma
-	* alpha
-	* alphatonos
-	* beta
-	* chi
-	* copyright and 416 more.
+	* Bbarredsmall
+	* Dmiddlestroke
+	* Euro
+	* Smiddlestroke
+	* Ustroke
+	* Wanglicana
+	* Yerubackyercy
+	* colonmonetary
+	* hbar.sc
+	* rmiddletildeturned and 94 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -2515,7 +2662,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2590,7 +2737,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* 54 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSerif-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerif-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -2598,6 +2745,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Bbarredmod
+	* Bbarredsmall
+	* Dmiddlestroke
+	* Euro
+	* Fstroke
+	* Smiddlestroke
+	* Ustroke
+	* Wanglicana
+	* Yerubackyercy
+	* chi and 142 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -2695,7 +2858,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2768,7 +2931,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* 77 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSerif-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSerif-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -2776,6 +2939,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Bbarredmod
+	* Bbarredsmall
+	* Dcroat
+	* Dmiddlestroke
+	* Dtail
+	* Eth
+	* Euro
+	* Fstroke
+	* Hbar
+	* Lslash and 163 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -2883,7 +3062,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2917,7 +3096,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* Ereversedopen (U+A7AB): B<<494.5,401.0>-<448.0,376.0>-<392.0,369.0>>/B<<392.0,369.0>-<424.0,365.0>-<459.5,348.0>> = 14.250032697803546
+	* Eopenreversed (U+A7AB): B<<494.5,401.0>-<448.0,376.0>-<392.0,369.0>>/B<<392.0,369.0>-<424.0,365.0>-<459.5,348.0>> = 14.250032697803546
 
 	* onequarter (U+00BC): B<<694.5,316.0>-<700.0,333.0>-<705.0,352.0>>/B<<705.0,352.0>-<700.0,343.0>-<691.5,332.5>> = 14.311041262606366
 
@@ -2940,7 +3119,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* 7 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSerif-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerif-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -2948,6 +3127,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* u10780
+	* uni0405
+	* uni1DF05 and uni1DF09
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -3045,7 +3231,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -3124,7 +3310,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* 179 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSerif-ThinItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSerif-ThinItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -3132,6 +3318,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1080, but got 1069 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* u10780 and uni1DF0F
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -3239,7 +3430,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -3315,6 +3506,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 </div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
 
 
+* 🔥 **FAIL** Version number 2.0110015869140625 is equal to version on Google Fonts.
 * 🔥 **FAIL** Version number 2.0110015869140625 is equal to version on Google Fonts GitHub repo.
 </div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
@@ -3332,16 +3524,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* A
-	* Aacute
-	* Abreve
-	* Acircumflex
-	* Adieresis
-	* Agrave
-	* Alpha
-	* Alphatonos
-	* Amacron
-	* Aogonek and 520 more.
+	* Yerubackyercy
+	* u10780
+	* u10784
+	* uni0182
+	* uni0409
+	* uni040A
+	* uni0411
+	* uni0414
+	* uni0416
+	* uni041B and 16 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -3420,7 +3612,7 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><br></div></details><details><summary><b>[14] NotoSerif[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
@@ -3453,16 +3645,16 @@ minus
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* .notdef
-	* Aring
-	* Euro
-	* Phi
-	* Psi
-	* Sigma
-	* alpha
-	* alphatonos
-	* beta
-	* chi and 477 more.
+	* Yerubackyercy
+	* u10780
+	* u10784
+	* uni0182
+	* uni0402
+	* uni0409
+	* uni040A
+	* uni040C
+	* uni0411
+	* uni0414 and 21 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -3531,15 +3723,15 @@ minus
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD) and tinsularcomb (U+1ACE) [code: mark-chars]
+	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 8 | 44 | 193 | 2267 | 143 | 1922 | 0 |
-| 0% | 1% | 4% | 50% | 3% | 42% | 0% |
+| 8 | 44 | 207 | 2255 | 143 | 1940 | 0 |
+| 0% | 1% | 5% | 49% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
