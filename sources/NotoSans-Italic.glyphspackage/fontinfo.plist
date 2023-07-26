@@ -3472,6 +3472,8 @@ featurePrefixes = (
 code = "languagesystem DFLT dflt;
 languagesystem cyrl dflt;
 languagesystem grek dflt;
+languagesystem grek IPPH;
+languagesystem grek APPH;
 languagesystem latn dflt;
 languagesystem latn CAT;
 languagesystem latn EWE;
@@ -3482,7 +3484,8 @@ languagesystem latn ROM;
 languagesystem latn IPPH;
 languagesystem latn APPH;
 languagesystem cyrl SRB;
-languagesystem cyrl MKD;";
+languagesystem cyrl MKD;
+";
 name = Languagesystems;
 }
 );
@@ -3820,6 +3823,17 @@ code = "script latn;
     sub pe-cy by pe-cy.loclSRB;
     sub te-cy by te-cy.loclSRB;
     sub gje-cy by gje-cy.loclMKD;
+script grek;
+    language IPPH;
+    sub Chi by Chi-latin;
+    sub chi by chi-latin;
+    sub Beta by Beta-latin;
+    sub beta by beta-latin;
+    language APPH;
+    sub Chi by Chi-latin;
+    sub chi by chi-latin;
+    sub Beta by Beta-latin;
+    sub beta by beta-latin;
 ";
 tag = locl;
 },

@@ -3915,6 +3915,8 @@ featurePrefixes = (
 code = "languagesystem DFLT dflt;
 languagesystem cyrl dflt;
 languagesystem grek dflt;
+languagesystem grek IPPH;
+languagesystem grek APPH;
 languagesystem latn dflt;
 languagesystem latn CAT;
 languagesystem latn MAH;
@@ -4262,7 +4264,18 @@ code = "script latn;
     language SRB;
     sub be-cy by be-cy.loclSRB;
     language MKD;
-    sub be-cy by be-cy.loclSRB;";
+    sub be-cy by be-cy.loclSRB;
+    script grek;
+    language IPPH;
+    sub Chi by Chi-latin;
+    sub chi by chi-latin;
+    sub Beta by Beta-latin;
+    sub beta by beta-latin;
+    language APPH;
+    sub Chi by Chi-latin;
+    sub chi by chi-latin;
+    sub Beta by Beta-latin;
+    sub beta by beta-latin;";
 tag = locl;
 },
 {
