@@ -4208,10 +4208,12 @@ code = "script latn;
     sub Beta by Beta-latin;
     sub beta by beta-latin;
     script cyrl;
+	sub brevecomb by cyrillicbreve;
     language SRB;
     sub be-cy by be-cy.loclSRB;
     language MKD;
-    sub be-cy by be-cy.loclSRB;";
+    sub be-cy by be-cy.loclSRB;
+";
 tag = locl;
 },
 {

@@ -3722,6 +3722,7 @@ code = "script latn;
     sub fi by f_i.ss02;
     sub fl by f_l.ss02;
     script cyrl;
+    sub brevecomb by cyrillicbreve;
     language SRB;
     sub be-cy by be-cy.loclSRB;
     sub ge-cy by ge-cy.loclSRB;
