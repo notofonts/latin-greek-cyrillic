@@ -4,9 +4,9 @@ googleFonts: true
 sources:
 - NotoSans.glyphspackage
 - NotoSans-Italic.glyphspackage
-layoutClosure: true
 includeSubsets:
 - from: Noto Sans Devanagari
+  layoutHandling: closure
   ranges:
     - start: 0x900
       end: 0x97F
