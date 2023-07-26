@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (58,559);
+pos = (32,439);
 },
 {
 name = top;
@@ -16,6 +16,7 @@ pos = (153,959);
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
+pos = (-37,635);
 ref = phiSymbol;
 scale = (0.45,0.4);
 }
@@ -26,7 +27,7 @@ width = 272;
 anchors = (
 {
 name = _top;
-pos = (58,559);
+pos = (32,439);
 },
 {
 name = top;
@@ -36,6 +37,7 @@ pos = (153,959);
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
+pos = (-48,643);
 ref = phiSymbol;
 scale = (0.45,0.4);
 }
@@ -46,7 +48,7 @@ width = 305;
 anchors = (
 {
 name = _top;
-pos = (58,569);
+pos = (32,449);
 },
 {
 name = top;
@@ -56,6 +58,7 @@ pos = (153,969);
 layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
 shapes = (
 {
+pos = (-74,643);
 ref = phiSymbol;
 scale = (0.45,0.4);
 }
@@ -66,7 +69,7 @@ width = 344;
 anchors = (
 {
 name = _top;
-pos = (58,579);
+pos = (32,459);
 },
 {
 name = top;
@@ -76,6 +79,7 @@ pos = (153,979);
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
+pos = (-86,663);
 ref = phiSymbol;
 scale = (0.45,0.4);
 }
@@ -86,7 +90,7 @@ width = 386;
 anchors = (
 {
 name = _top;
-pos = (61,569);
+pos = (35,449);
 },
 {
 name = top;
@@ -96,6 +100,7 @@ pos = (156,969);
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
+pos = (13,639);
 ref = phiSymbol;
 scale = (0.45,0.4);
 }
@@ -106,7 +111,7 @@ width = 185;
 anchors = (
 {
 name = _top;
-pos = (58,569);
+pos = (32,449);
 },
 {
 name = top;
@@ -116,6 +121,7 @@ pos = (153,969);
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
+pos = (-24,601);
 ref = phiSymbol;
 scale = (0.45,0.4);
 }
@@ -126,7 +132,7 @@ width = 232;
 anchors = (
 {
 name = _top;
-pos = (58,569);
+pos = (32,449);
 },
 {
 name = top;
@@ -136,6 +142,7 @@ pos = (153,969);
 layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
 shapes = (
 {
+pos = (-38,636);
 ref = phiSymbol;
 scale = (0.45,0.4);
 }
@@ -146,7 +153,7 @@ width = 276;
 anchors = (
 {
 name = _top;
-pos = (58,579);
+pos = (32,459);
 },
 {
 name = top;
@@ -156,6 +163,7 @@ pos = (153,979);
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
+pos = (-51,650);
 ref = phiSymbol;
 scale = (0.45,0.4);
 }
