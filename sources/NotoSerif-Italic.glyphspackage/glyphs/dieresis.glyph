@@ -3,6 +3,12 @@ category = Mark;
 glyphname = dieresis;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (348,745);
+}
+);
 layerId = UUID0;
 shapes = (
 {
@@ -43,6 +49,12 @@ nodes = (
 width = 577;
 },
 {
+anchors = (
+{
+name = top;
+pos = (348,763);
+}
+);
 layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
 shapes = (
 {
@@ -83,6 +95,12 @@ nodes = (
 width = 577;
 },
 {
+anchors = (
+{
+name = top;
+pos = (350,771);
+}
+);
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
@@ -123,6 +141,12 @@ nodes = (
 width = 577;
 },
 {
+anchors = (
+{
+name = top;
+pos = (309,753);
+}
+);
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
@@ -163,6 +187,12 @@ nodes = (
 width = 471;
 },
 {
+anchors = (
+{
+name = top;
+pos = (300,697);
+}
+);
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
@@ -203,6 +233,12 @@ nodes = (
 width = 453;
 },
 {
+anchors = (
+{
+name = top;
+pos = (359,738);
+}
+);
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
@@ -243,6 +279,12 @@ nodes = (
 width = 577;
 },
 {
+anchors = (
+{
+name = top;
+pos = (307,742);
+}
+);
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
@@ -283,6 +325,12 @@ nodes = (
 width = 462;
 },
 {
+anchors = (
+{
+name = top;
+pos = (308,748);
+}
+);
 layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
 shapes = (
 {
