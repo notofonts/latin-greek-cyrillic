@@ -4145,13 +4145,15 @@ code = "# zero.slash alternate
     lookup latnSoftDot;
     lookup latnLigatures;
     lookup latn_decomb;
-    lookup Other_comb {
-        lookupflag 0;
-        sub acutecomb brevecomb dieresiscomb by acutecomb_brevecomb_dieresiscomb;
-        sub acutecomb macroncomb dieresiscomb by acutecomb_macroncomb_dieresiscomb;
-        sub gravecomb brevecomb dieresiscomb by gravecomb_brevecomb_dieresiscomb;
-        sub gravecomb macroncomb dieresiscomb by gravecomb_macroncomb_dieresiscomb;
-    } Other_comb;
+
+# These composite glyphs seem upside-down! See #214
+#    lookup Other_comb {
+#        lookupflag 0;
+#        sub acutecomb brevecomb dieresiscomb by acutecomb_brevecomb_dieresiscomb;
+#        sub acutecomb macroncomb dieresiscomb by acutecomb_macroncomb_dieresiscomb;
+#        sub gravecomb brevecomb dieresiscomb by gravecomb_brevecomb_dieresiscomb;
+#        sub gravecomb macroncomb dieresiscomb by gravecomb_macroncomb_dieresiscomb;
+#    } Other_comb;
 
     lookup grek_comb {
         script grek;
