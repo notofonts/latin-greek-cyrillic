@@ -3,7 +3,7 @@ category = Punctuation;
 glyphname = stackedcommadbl;
 layers = (
 {
-layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+background = {
 shapes = (
 {
 closed = 1;
@@ -56,10 +56,22 @@ nodes = (
 );
 }
 );
+};
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+pos = (220,507);
+ref = comma;
+},
+{
+pos = (125,214);
+ref = comma;
+}
+);
 width = 359;
 },
 {
-layerId = UUID0;
+background = {
 shapes = (
 {
 closed = 1;
@@ -112,10 +124,22 @@ nodes = (
 );
 }
 );
+};
+layerId = UUID0;
+shapes = (
+{
+pos = (188,485);
+ref = comma;
+},
+{
+pos = (110,173);
+ref = comma;
+}
+);
 width = 371;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+background = {
 shapes = (
 {
 closed = 1;
@@ -168,10 +192,22 @@ nodes = (
 );
 }
 );
+};
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+pos = (154,461);
+ref = comma;
+},
+{
+pos = (70,151);
+ref = comma;
+}
+);
 width = 387;
 },
 {
-layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+background = {
 shapes = (
 {
 closed = 1;
@@ -224,10 +260,22 @@ nodes = (
 );
 }
 );
+};
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+pos = (130,449);
+ref = comma;
+},
+{
+pos = (33,113);
+ref = comma;
+}
+);
 width = 402;
 },
 {
-layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+background = {
 shapes = (
 {
 closed = 1;
@@ -280,10 +328,22 @@ nodes = (
 );
 }
 );
+};
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+pos = (220,507);
+ref = comma;
+},
+{
+pos = (125,214);
+ref = comma;
+}
+);
 width = 359;
 },
 {
-layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+background = {
 shapes = (
 {
 closed = 1;
@@ -336,10 +396,22 @@ nodes = (
 );
 }
 );
+};
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+pos = (188,485);
+ref = comma;
+},
+{
+pos = (110,173);
+ref = comma;
+}
+);
 width = 371;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+background = {
 shapes = (
 {
 closed = 1;
@@ -392,10 +464,22 @@ nodes = (
 );
 }
 );
+};
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+pos = (154,461);
+ref = comma;
+},
+{
+pos = (70,151);
+ref = comma;
+}
+);
 width = 376;
 },
 {
-layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+background = {
 shapes = (
 {
 closed = 1;
@@ -446,6 +530,18 @@ nodes = (
 (200,605,o),
 (161,574,c)
 );
+}
+);
+};
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+pos = (140,449);
+ref = comma;
+},
+{
+pos = (33,113);
+ref = comma;
 }
 );
 width = 392;
