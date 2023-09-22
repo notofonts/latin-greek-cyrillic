@@ -4081,7 +4081,18 @@ code = "# zero.slash alternate
         sub tonebarmidmod tonebarhighmod by tonebarmidmod_tonebarhighmod;
         sub tonebarmidmod tonebarlowmod by tonebarmidmod_tonebarlowmod;
     } latnLigatures;
-
+    lookup latinDecomposition {
+		sub edotbelow by e dotbelowcomb;
+		sub idotbelow by i dotbelowcomb;
+		sub odotbelow by o dotbelowcomb;
+		sub idotbelowdotless by idotless dotbelowcomb;
+		sub udotbelow by u dotbelowcomb;
+		sub mdotbelow by m dotbelowcomb;
+		sub sdotbelow by s dotbelowcomb;
+		sub ndotaccent by n dotaccentcomb;
+		sub macute by m acutecomb;
+		sub ngrave by n gravecomb;
+	} latinDecomposition;
     script latn;
     language dflt;
     lookup latnSoftDot;
