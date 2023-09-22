@@ -50,7 +50,7 @@ pos = (336,0);
 ref = minute;
 }
 );
-width = 724;
+width = 692;
 },
 {
 layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
@@ -100,7 +100,7 @@ pos = (428,0);
 ref = minute;
 }
 );
-width = 903;
+width = 902;
 },
 {
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
@@ -203,6 +203,7 @@ ref = minute;
 width = 774;
 }
 );
+metricRight = "=tripleprime";
 script = "";
 subCategory = Quote;
 unicode = 8279;
