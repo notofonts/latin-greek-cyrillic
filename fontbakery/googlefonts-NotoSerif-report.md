@@ -204,11 +204,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni0377 (U+0377): B<<436.0,258.5>-<451.0,311.0>-<483.0,367.0>>/L<<483.0,367.0>--<198.0,0.0>> = 8.086843940697037
 
-	* uni03D7 (U+03D7): B<<641.0,36.0>-<640.0,35.0>-<639.0,35.0>>/L<<639.0,35.0>--<646.0,36.0>> = 8.13010235415596
-
 	* uni03F0 (U+03F0): B<<273.5,223.5>-<256.0,186.0>-<241.0,162.0>>/L<<241.0,162.0>--<532.0,536.0>> = 5.880204881078469
 
-	* 31 more.
+	* uni03F0 (U+03F0): B<<429.0,254.5>-<444.0,303.0>-<476.0,359.0>>/L<<476.0,359.0>--<197.0,0.0>> = 8.107997502045466
+
+	* 30 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -2402,8 +2402,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* threequarters (U+00BE): B<<636.5,319.5>-<638.0,338.0>-<640.0,356.0>>/B<<640.0,356.0>-<637.0,348.0>-<632.5,339.5>> = 14.21585347367354
 
-	* uni03D7 (U+03D7): B<<550.0,28.0>-<548.0,26.0>-<546.0,25.0>>/L<<546.0,25.0>--<555.0,28.0>> = 8.13010235415587
-
 	* uni1D95 (U+1D95): L<<490.0,-46.0>--<490.0,221.0>>/B<<490.0,221.0>-<479.0,106.0>-<420.5,48.0>> = 5.463842813236589
 
 	* uni2074 (U+2074): B<<198.5,706.5>-<200.0,725.0>-<202.0,743.0>>/B<<202.0,743.0>-<199.0,735.0>-<194.5,726.5>> = 14.21585347367354
@@ -2805,8 +2803,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* uni03D0 (U+03D0): B<<264.0,703.5>-<224.0,682.0>-<197.0,625.0>>/L<<197.0,625.0>--<198.0,627.0>> = 1.2188752351310335
-
-	* uni03D7 (U+03D7): B<<531.0,29.0>-<527.0,26.0>-<524.0,24.0>>/L<<524.0,24.0>--<536.0,29.0>> = 11.070202577939344
 
 	* uni1D95 (U+1D95): L<<478.0,-49.0>--<478.0,223.0>>/B<<478.0,223.0>-<468.0,107.0>-<411.5,48.5>> = 4.927109947648964
 

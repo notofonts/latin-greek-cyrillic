@@ -157,9 +157,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The dot of soft dotted characters _should_ disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓
 
-Your font fully covers the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[13] NotoSansMono-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -321,9 +321,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The dot of soft dotted characters _should_ disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓
 
-Your font fully covers the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[14] NotoSansMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -498,9 +498,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The dot of soft dotted characters _should_ disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓
 
-Your font fully covers the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[14] NotoSansMono-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -665,9 +665,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The dot of soft dotted characters _should_ disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓
 
-Your font fully covers the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[13] NotoSansMono-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -829,9 +829,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The dot of soft dotted characters _should_ disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓
 
-Your font fully covers the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[14] NotoSansMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -992,9 +992,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The dot of soft dotted characters _should_ disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓
 
-Your font fully covers the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[13] NotoSansMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -1154,9 +1154,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The dot of soft dotted characters _should_ disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓
 
-Your font fully covers the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[14] NotoSansMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -1327,9 +1327,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The dot of soft dotted characters _should_ disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓
 
-Your font fully covers the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[13] NotoSansMono-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -1498,9 +1498,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The dot of soft dotted characters _should_ disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓
 
-Your font fully covers the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
