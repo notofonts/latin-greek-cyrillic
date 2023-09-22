@@ -141,6 +141,22 @@
 
 	  
 	    @font-face{
+    src: url(old-NotoSans-Italic[wdth,wght].ttf);
+    font-family: "old Noto Sans";
+    font-weight: 100 900;
+    font-stretch: 62% 100%;
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSans[wght].ttf);
+    font-family: "old Noto Sans";
+    font-weight: 400 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
     src: url(old-NotoSans[wdth,wght].ttf);
     font-family: "old Noto Sans";
     font-weight: 100 900;
@@ -149,28 +165,44 @@
 }
 	  
 	    @font-face{
-    src: url(old-NotoSans-Italic[wdth,wght].ttf);
+    src: url(old-NotoSans-Italic[wght].ttf);
     font-family: "old Noto Sans";
-    font-weight: 100 900;
-    font-stretch: 62% 100%;
+    font-weight: 400 700;
+    
     font-style: italic;
 }
 	  
 
 	  
 	    @font-face{
-    src: url(new-NotoSans-Italic[wdth,wght].ttf);
+    src: url(new-NotoSans-Bold.ttf);
     font-family: "new Noto Sans";
-    font-weight: 100 900;
-    font-stretch: 62% 100%;
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSans-BoldItalic.ttf);
+    font-family: "new Noto Sans";
+    font-weight: 700;
+    
     font-style: italic;
 }
 	  
 	    @font-face{
-    src: url(new-NotoSans[wdth,wght].ttf);
+    src: url(new-NotoSans-BlackItalic.ttf);
     font-family: "new Noto Sans";
-    font-weight: 100 900;
-    font-stretch: 62% 100%;
+    font-weight: 900;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSans-Black.ttf);
+    font-family: "new Noto Sans";
+    font-weight: 900;
+    
     font-style: normal;
 }
 	  
@@ -197,56 +229,64 @@
 	    .old-Bold{
     font-family: "old Noto Sans", "Adobe NotDef";
     font-weight: 700.0;
-    font-stretch: 100.0%;
+    
     font-style: normal;
-    font-variation-settings: "wght" 700.0, "wdth" 100.0;
+    font-variation-settings: "wght" 700.0;
 }
 	  
 	    .old-Bold-Italic{
     font-family: "old Noto Sans", "Adobe NotDef";
     font-weight: 700.0;
-    font-stretch: 100.0%;
+    
     font-style: italic;
-    font-variation-settings: "wght" 700.0, "wdth" 100.0;
+    font-variation-settings: "wght" 700.0;
 }
 	  
 
 	  
 	    .new-Black{
     font-family: "new Noto Sans", "Adobe NotDef";
-    font-weight: 900.0;
-    font-stretch: 100.0%;
+    font-weight: 900;
+    
     font-style: normal;
-    font-variation-settings: "wght" 900.0, "wdth" 100.0;
+    font-variation-settings: "wght" 900;
 }
 	  
 	    .new-Black-Italic{
     font-family: "new Noto Sans", "Adobe NotDef";
-    font-weight: 900.0;
-    font-stretch: 100.0%;
+    font-weight: 900;
+    
     font-style: italic;
-    font-variation-settings: "wght" 900.0, "wdth" 100.0;
+    font-variation-settings: "wght" 900;
 }
 	  
 	    .new-Bold{
     font-family: "new Noto Sans", "Adobe NotDef";
-    font-weight: 700.0;
-    font-stretch: 100.0%;
+    font-weight: 700;
+    
     font-style: normal;
-    font-variation-settings: "wght" 700.0, "wdth" 100.0;
+    font-variation-settings: "wght" 700;
 }
 	  
 	    .new-Bold-Italic{
     font-family: "new Noto Sans", "Adobe NotDef";
-    font-weight: 700.0;
-    font-stretch: 100.0%;
+    font-weight: 700;
+    
     font-style: italic;
-    font-variation-settings: "wght" 700.0, "wdth" 100.0;
+    font-variation-settings: "wght" 700;
 }
 	  
 
 	  
 	
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
     </style>
 </head>
 <body>
@@ -254,6 +294,9 @@
 		
 			<div class="nav-item" id="font-toggle">old</div>
 		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
 		
 	</div>
     <div id="content">
@@ -264,370 +307,370 @@
   
     
       <div class="box">
-	<div class="box-title">old-Black 7pt</div>
-	<span class="old-Black" style="font-size: 7pt">
+        <div class="box-title">old-Black 7pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 7pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black 10pt</div>
-	<span class="old-Black" style="font-size: 10pt">
+        <div class="box-title">old-Black 10pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 10pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black 11pt</div>
-	<span class="old-Black" style="font-size: 11pt">
+        <div class="box-title">old-Black 11pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 11pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black 12pt</div>
-	<span class="old-Black" style="font-size: 12pt">
+        <div class="box-title">old-Black 12pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 12pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black 14pt</div>
-	<span class="old-Black" style="font-size: 14pt">
+        <div class="box-title">old-Black 14pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 14pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black 16pt</div>
-	<span class="old-Black" style="font-size: 16pt">
+        <div class="box-title">old-Black 16pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 16pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black 18pt</div>
-	<span class="old-Black" style="font-size: 18pt">
+        <div class="box-title">old-Black 18pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 18pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black 21pt</div>
-	<span class="old-Black" style="font-size: 21pt">
+        <div class="box-title">old-Black 21pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 21pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black 27pt</div>
-	<span class="old-Black" style="font-size: 27pt">
+        <div class="box-title">old-Black 27pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 27pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black 32pt</div>
-	<span class="old-Black" style="font-size: 32pt">
+        <div class="box-title">old-Black 32pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black" style="font-size: 32pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
   
     
       <div class="box">
-	<div class="box-title">old-Black-Italic 7pt</div>
-	<span class="old-Black-Italic" style="font-size: 7pt">
+        <div class="box-title">old-Black-Italic 7pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black-Italic" style="font-size: 7pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black-Italic 10pt</div>
-	<span class="old-Black-Italic" style="font-size: 10pt">
+        <div class="box-title">old-Black-Italic 10pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black-Italic" style="font-size: 10pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black-Italic 11pt</div>
-	<span class="old-Black-Italic" style="font-size: 11pt">
+        <div class="box-title">old-Black-Italic 11pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black-Italic" style="font-size: 11pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black-Italic 12pt</div>
-	<span class="old-Black-Italic" style="font-size: 12pt">
+        <div class="box-title">old-Black-Italic 12pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black-Italic" style="font-size: 12pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black-Italic 14pt</div>
-	<span class="old-Black-Italic" style="font-size: 14pt">
+        <div class="box-title">old-Black-Italic 14pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black-Italic" style="font-size: 14pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black-Italic 16pt</div>
-	<span class="old-Black-Italic" style="font-size: 16pt">
+        <div class="box-title">old-Black-Italic 16pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black-Italic" style="font-size: 16pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black-Italic 18pt</div>
-	<span class="old-Black-Italic" style="font-size: 18pt">
+        <div class="box-title">old-Black-Italic 18pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black-Italic" style="font-size: 18pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black-Italic 21pt</div>
-	<span class="old-Black-Italic" style="font-size: 21pt">
+        <div class="box-title">old-Black-Italic 21pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black-Italic" style="font-size: 21pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black-Italic 27pt</div>
-	<span class="old-Black-Italic" style="font-size: 27pt">
+        <div class="box-title">old-Black-Italic 27pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black-Italic" style="font-size: 27pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Black-Italic 32pt</div>
-	<span class="old-Black-Italic" style="font-size: 32pt">
+        <div class="box-title">old-Black-Italic 32pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Black-Italic" style="font-size: 32pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
   
     
       <div class="box">
-	<div class="box-title">old-Bold 7pt</div>
-	<span class="old-Bold" style="font-size: 7pt">
+        <div class="box-title">old-Bold 7pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 7pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold 10pt</div>
-	<span class="old-Bold" style="font-size: 10pt">
+        <div class="box-title">old-Bold 10pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 10pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold 11pt</div>
-	<span class="old-Bold" style="font-size: 11pt">
+        <div class="box-title">old-Bold 11pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 11pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold 12pt</div>
-	<span class="old-Bold" style="font-size: 12pt">
+        <div class="box-title">old-Bold 12pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 12pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold 14pt</div>
-	<span class="old-Bold" style="font-size: 14pt">
+        <div class="box-title">old-Bold 14pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 14pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold 16pt</div>
-	<span class="old-Bold" style="font-size: 16pt">
+        <div class="box-title">old-Bold 16pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 16pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold 18pt</div>
-	<span class="old-Bold" style="font-size: 18pt">
+        <div class="box-title">old-Bold 18pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 18pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold 21pt</div>
-	<span class="old-Bold" style="font-size: 21pt">
+        <div class="box-title">old-Bold 21pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 21pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold 27pt</div>
-	<span class="old-Bold" style="font-size: 27pt">
+        <div class="box-title">old-Bold 27pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 27pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold 32pt</div>
-	<span class="old-Bold" style="font-size: 32pt">
+        <div class="box-title">old-Bold 32pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold" style="font-size: 32pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
   
     
       <div class="box">
-	<div class="box-title">old-Bold-Italic 7pt</div>
-	<span class="old-Bold-Italic" style="font-size: 7pt">
+        <div class="box-title">old-Bold-Italic 7pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold-Italic" style="font-size: 7pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold-Italic 10pt</div>
-	<span class="old-Bold-Italic" style="font-size: 10pt">
+        <div class="box-title">old-Bold-Italic 10pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold-Italic" style="font-size: 10pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold-Italic 11pt</div>
-	<span class="old-Bold-Italic" style="font-size: 11pt">
+        <div class="box-title">old-Bold-Italic 11pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold-Italic" style="font-size: 11pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold-Italic 12pt</div>
-	<span class="old-Bold-Italic" style="font-size: 12pt">
+        <div class="box-title">old-Bold-Italic 12pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold-Italic" style="font-size: 12pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold-Italic 14pt</div>
-	<span class="old-Bold-Italic" style="font-size: 14pt">
+        <div class="box-title">old-Bold-Italic 14pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold-Italic" style="font-size: 14pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold-Italic 16pt</div>
-	<span class="old-Bold-Italic" style="font-size: 16pt">
+        <div class="box-title">old-Bold-Italic 16pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold-Italic" style="font-size: 16pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold-Italic 18pt</div>
-	<span class="old-Bold-Italic" style="font-size: 18pt">
+        <div class="box-title">old-Bold-Italic 18pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold-Italic" style="font-size: 18pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold-Italic 21pt</div>
-	<span class="old-Bold-Italic" style="font-size: 21pt">
+        <div class="box-title">old-Bold-Italic 21pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold-Italic" style="font-size: 21pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold-Italic 27pt</div>
-	<span class="old-Bold-Italic" style="font-size: 27pt">
+        <div class="box-title">old-Bold-Italic 27pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold-Italic" style="font-size: 27pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
       <div class="box">
-	<div class="box-title">old-Bold-Italic 32pt</div>
-	<span class="old-Bold-Italic" style="font-size: 32pt">
+        <div class="box-title">old-Bold-Italic 32pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Bold-Italic" style="font-size: 32pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
-          </span>
-       </div>
+        </div>
+      </div>
     
   
 
@@ -666,37 +709,81 @@
 		fontToggle.addEventListener("click", switchFonts);
 	}
 
-	function render(node, toplevel) {
-		var wrapper = $("<div> </div>");
-		if (!node) { return wrapper }
-		if (Array.isArray(node)) {
-			var before = $("<span/>");
-			before.addClass("attr-before");
-			before.html(" " + node[0] + " ");
-			var after = $("<span/>");
-			after.addClass("attr-after");
-			after.append(node[1]);
-			wrapper.append(before);
-			wrapper.append(after);
-			return wrapper
-		}
-		for (const [key, value] of Object.entries(node)) {
-			var display = $("<div/>");
-			display.addClass("node")
-			if (!toplevel && ! key.match(/^\d+$/)) {
-				display.hide()
-			}
-			display.append(key);
-			display.append(render(value, false).children());
-			wrapper.append(display)
-		}
-		return wrapper
+// apply optional ot feats
 
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
 	}
-	$(function() {
-		$("#difftable").append(render(fontdiff, true).children())
-		$(".node").on("click", function(event){ $(this).children().toggle(); event.stopPropagation() })
-	});
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
     
 	
 
