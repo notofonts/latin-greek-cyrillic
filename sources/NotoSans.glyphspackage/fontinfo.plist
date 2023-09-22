@@ -5160,16 +5160,12 @@ tag = zero;
 },
 {
 automatic = 1;
-code = "featureNames {
-        name \"florin symbol\";
-        name 1 \"florin symbol\";
-    };
-
-    sub fhook by fhook.ss03;";
+code = "sub fhook by fhook.ss03;
+";
 labels = (
 {
 language = dflt;
-value = "";
+value = "florin symbol";
 }
 );
 notes = "Name: ";
@@ -5254,31 +5250,23 @@ code = "script latn;
 tag = salt;
 },
 {
-code = "featureNames {
-        name \"Titling Alternates I and J for titling and all cap settings\";
-        name 1 \"Titling Alternates I and J for titling and all cap settings\";
-    };
-
-    script latn;
+code = "    script latn;
     lookup TitlingAlternates;
     script grek;
     lookup TitlingAlternates;
     script cyrl;
-    lookup TitlingAlternates;";
+    lookup TitlingAlternates;
+";
 labels = (
 {
 language = dflt;
-value = "";
+value = "Titling Alternates I and J for titling and all cap settings";
 }
 );
 tag = ss04;
 },
 {
-code = "featureNames {
-        name \"Accented Greek SC\";
-        name 1 \"Accented Greek SC\";
-    };
-
+code = "
     sub alphaypogegrammeni.sc.ad by alphaypogegrammeni.sc.ad.ss06;
     sub alphavariaypogegrammeni.sc.ad by alphavariaypogegrammeni.sc.ad.ss06;
     sub alphaoxiaypogegrammeni.sc.ad by alphaoxiaypogegrammeni.sc.ad.ss06;
@@ -5446,15 +5434,18 @@ code = "featureNames {
     sub omegadasiaoxiaypogegrammeni.sc by omegadasiaoxiaypogegrammeni.sc.ss06;
     sub omegapsiliperispomeniypogegrammeni.sc by omegapsiliperispomeniypogegrammeni.sc.ss06;
     sub omegadasiaperispomeniypogegrammeni.sc by omegadasiaperispomeniypogegrammeni.sc.ss06;
-    sub omegaperispomeniypogegrammeni.sc by omegaperispomeniypogegrammeni.sc.ss06;";
+    sub omegaperispomeniypogegrammeni.sc by omegaperispomeniypogegrammeni.sc.ss06;
+";
+labels = (
+{
+language = dflt;
+value = "Accented Greek SC";
+}
+);
 tag = ss06;
 },
 {
-code = "featureNames {
-        name \"iota adscript\";
-        name 1 \"iota adscript\";
-    };
-
+code = "
     sub Alphaprosgegrammeni by Alphaprosgegrammeni.ad;
     sub Alphapsiliprosgegrammeni by Alphapsiliprosgegrammeni.ad;
     sub Alphadasiaprosgegrammeni by Alphadasiaprosgegrammeni.ad;
@@ -5553,7 +5544,14 @@ code = "featureNames {
     sub omegadasiaoxiaypogegrammeni.sc.ss06 by omegadasiaoxiaypogegrammeni.sc.ad.ss06;
     sub omegapsiliperispomeniypogegrammeni.sc.ss06 by omegapsiliperispomeniypogegrammeni.sc.ad.ss06;
     sub omegadasiaperispomeniypogegrammeni.sc.ss06 by omegadasiaperispomeniypogegrammeni.sc.ad.ss06;
-    sub omegaperispomeniypogegrammeni.sc.ss06 by omegaperispomeniypogegrammeni.sc.ad.ss06;";
+    sub omegaperispomeniypogegrammeni.sc.ss06 by omegaperispomeniypogegrammeni.sc.ad.ss06;
+";
+labels = (
+{
+language = dflt;
+value = "iota adscript";
+}
+);
 tag = ss07;
 }
 );
