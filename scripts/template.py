@@ -75,7 +75,7 @@ for family in glob("fonts/*"):
             })
     fontbakery = list(reversed(sorted(fontbakery, key=lambda l:l["name"])))
     diffenator = []
-    for result in glob(f"out/qa/{basename}/Diffenator/*/report.html"):
+    for result in glob(f"out/qa/{basename}/**/diffenator.html", recursive=True):
         diffenator.append({
             "name": "Diffenator report, " + Path(result).parent.stem,
             "path": result[4:],
