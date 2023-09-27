@@ -6832,7 +6832,7 @@ value = "https://scripts.sil.org/OFL";
 },
 {
 key = versionString;
-value = "Version 2.013";
+value = "Version 2.014";
 },
 {
 key = licenses;
@@ -6952,5 +6952,5 @@ tH = "75";
 GSDontShowVersionAlert = 1;
 };
 versionMajor = 2;
-versionMinor = 13;
+versionMinor = 14;
 }
