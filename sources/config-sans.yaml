@@ -7,6 +7,7 @@ sources:
 includeSubsets:
 - from: Noto Sans Devanagari
   layoutHandling: closure
+  force: true
   ranges:
     - start: 0x900
       end: 0x97F
