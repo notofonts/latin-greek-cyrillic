@@ -42,7 +42,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+02C3 MODIFIER LETTER RIGHT ARROWHEAD: not included in any glyphset definition
  * U+02C4 MODIFIER LETTER UP ARROWHEAD: not included in any glyphset definition
  * U+02C5 MODIFIER LETTER DOWN ARROWHEAD: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
@@ -97,13 +97,13 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+02FD MODIFIER LETTER SHELF: not included in any glyphset definition
  * U+02FE MODIFIER LETTER OPEN SHELF: not included in any glyphset definition
  * U+02FF MODIFIER LETTER LOW LEFT ARROW: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
- * U+0305 COMBINING OVERLINE: try adding one of: glagolitic, elbasan, coptic, math, gothic
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, coptic, canadian-aboriginal, math, tai-le, syriac, old-permic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee
+ * U+0305 COMBINING OVERLINE: try adding one of: glagolitic, math, coptic, gothic, elbasan
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, tifinagh, math, canadian-aboriginal, syriac, coptic, old-permic, tai-le
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
@@ -126,7 +126,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+0320 COMBINING MINUS SIGN BELOW: try adding syriac
  * U+0321 COMBINING PALATALIZED HOOK BELOW: not included in any glyphset definition
  * U+0322 COMBINING RETROFLEX HOOK BELOW: not included in any glyphset definition
- * U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac
+ * U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee
  * U+0325 COMBINING RING BELOW: try adding syriac
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -137,8 +137,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math
- * U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, caucasian-albanian, cherokee, syriac, gothic
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
+ * U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, cherokee, syriac, caucasian-albanian, gothic
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0333 COMBINING DOUBLE LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
@@ -492,11 +492,11 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+2007 FIGURE SPACE: not included in any glyphset definition
  * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
  * U+200A HAIR SPACE: not included in any glyphset definition
- * U+200C ZERO WIDTH NON-JOINER: try adding one of: tifinagh, duployan, new-tai-lue, warang-citi, khojki, tai-viet, hanunoo, tagalog, brahmi, syriac, tagbanwa, cham, psalter-pahlavi, grantha, mongolian, oriya, devanagari, limbu, balinese, sharada, sundanese, buginese, buhid, dogra, tai-le, chakma, telugu, thaana, mahajani, thai, tirhuta, avestan, kannada, yi, khudawadi, mandaic, gunjala-gondi, malayalam, meetei-mayek, pahawh-hmong, sinhala, bengali, kaithi, hatran, gujarati, syloti-nagri, kharoshthi, rejang, phags-pa, tibetan, batak, hanifi-rohingya, lepcha, nko, newa, saurashtra, gurmukhi, khmer, sogdian, tai-tham, javanese, tamil, kayah-li, modi, myanmar, takri, siddham, manichaean
- * U+200D ZERO WIDTH JOINER: try adding one of: tifinagh, duployan, new-tai-lue, warang-citi, khojki, tai-viet, hanunoo, tagalog, brahmi, syriac, tagbanwa, cham, psalter-pahlavi, grantha, mongolian, oriya, devanagari, limbu, balinese, sharada, sundanese, buginese, buhid, dogra, tai-le, chakma, telugu, thaana, mahajani, thai, old-hungarian, tirhuta, avestan, kannada, yi, khudawadi, mandaic, gunjala-gondi, malayalam, meetei-mayek, pahawh-hmong, sinhala, bengali, kaithi, syloti-nagri, gujarati, kharoshthi, rejang, phags-pa, tibetan, batak, hanifi-rohingya, lepcha, nko, newa, saurashtra, gurmukhi, tai-tham, javanese, tamil, kayah-li, modi, myanmar, takri, siddham, manichaean
- * U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, nko, syriac, thaana
- * U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, nko, syriac, thaana
- * U+2010 HYPHEN: try adding one of: sundanese, coptic, kaithi, kayah-li, lisu, syloti-nagri, kharoshthi, sora-sompeng, cham, yi
+ * U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, pahawh-hmong, manichaean, oriya, tagalog, myanmar, syloti-nagri, batak, psalter-pahlavi, gurmukhi, rejang, sogdian, limbu, avestan, balinese, buhid, lepcha, tirhuta, takri, khudawadi, thaana, buginese, duployan, javanese, kharoshthi, new-tai-lue, sharada, phags-pa, gujarati, khmer, khojki, tibetan, sinhala, bengali, yi, meetei-mayek, tai-le, malayalam, thai, saurashtra, nko, hanifi-rohingya, kaithi, gunjala-gondi, kannada, dogra, chakma, brahmi, mandaic, hatran, siddham, warang-citi, tifinagh, kayah-li, devanagari, tai-viet, cham, syriac, mongolian, mahajani, modi, tamil, telugu, newa, tai-tham, grantha, tagbanwa, hanunoo
+ * U+200D ZERO WIDTH JOINER: try adding one of: sundanese, pahawh-hmong, manichaean, oriya, tagalog, myanmar, syloti-nagri, batak, psalter-pahlavi, gurmukhi, rejang, tirhuta, limbu, avestan, balinese, buhid, lepcha, takri, khudawadi, thaana, buginese, duployan, javanese, kharoshthi, new-tai-lue, sharada, phags-pa, gujarati, tibetan, khojki, yi, sinhala, bengali, meetei-mayek, tai-le, malayalam, thai, saurashtra, nko, hanifi-rohingya, old-hungarian, kaithi, gunjala-gondi, kannada, dogra, chakma, brahmi, mandaic, siddham, warang-citi, tifinagh, kayah-li, devanagari, tai-viet, cham, syriac, mongolian, mahajani, modi, tamil, telugu, newa, tai-tham, grantha, tagbanwa, hanunoo
+ * U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, nko, phags-pa, thaana
+ * U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, nko, phags-pa, thaana
+ * U+2010 HYPHEN: try adding one of: sundanese, kayah-li, cham, syloti-nagri, sora-sompeng, kharoshthi, coptic, lisu, kaithi, yi
  * U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri
  * U+2012 FIGURE DASH: not included in any glyphset definition
  * U+2015 HORIZONTAL BAR: try adding adlam
@@ -516,7 +516,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+202C POP DIRECTIONAL FORMATTING: not included in any glyphset definition
  * U+202D LEFT-TO-RIGHT OVERRIDE: not included in any glyphset definition
  * U+202E RIGHT-TO-LEFT OVERRIDE: try adding tifinagh
- * U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi
+ * U+202F NARROW NO-BREAK SPACE: try adding one of: yi, mongolian
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2031 PER TEN THOUSAND SIGN: not included in any glyphset definition
  * U+2034 TRIPLE PRIME: try adding math
@@ -557,7 +557,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+205A TWO DOT PUNCTUATION: try adding one of: old-turkic, old-hungarian
  * U+205B FOUR DOT MARK: not included in any glyphset definition
  * U+205C DOTTED CROSS: not included in any glyphset definition
- * U+205D TRICOLON: try adding one of: meroitic, old-hungarian
+ * U+205D TRICOLON: try adding one of: old-hungarian, meroitic
  * U+205E VERTICAL FOUR DOTS: try adding old-hungarian
  * U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition
  * U+2060 WORD JOINER: not included in any glyphset definition
@@ -713,10 +713,10 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+2183 ROMAN NUMERAL REVERSED ONE HUNDRED: try adding symbols
  * U+2184 LATIN SMALL LETTER REVERSED C: not included in any glyphset definition
  * U+2189 VULGAR FRACTION ZERO THIRDS: not included in any glyphset definition
- * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
- * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
- * U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols
- * U+2195 UP DOWN ARROW: try adding one of: math, symbols
+ * U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
+ * U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
+ * U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math
+ * U+2195 UP DOWN ARROW: try adding one of: symbols, math
  * U+219C LEFTWARDS WAVE ARROW: try adding math
  * U+219D RIGHTWARDS WAVE ARROW: try adding math
  * U+219E LEFTWARDS TWO HEADED ARROW: try adding math
@@ -750,8 +750,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+220D SMALL CONTAINS AS MEMBER: try adding math
  * U+220E END OF PROOF: try adding math
  * U+2210 N-ARY COPRODUCT: try adding math
- * U+2218 RING OPERATOR: try adding one of: math, symbols
- * U+2219 BULLET OPERATOR: try adding one of: math, tai-tham, yi, symbols
+ * U+2218 RING OPERATOR: try adding one of: symbols, math
+ * U+2219 BULLET OPERATOR: try adding one of: yi, symbols, tai-tham, math
  * U+221A SQUARE ROOT: try adding math
  * U+221E INFINITY: try adding math
  * U+2220 ANGLE: try adding math
@@ -813,7 +813,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+2296 CIRCLED MINUS: try adding math
  * U+2297 CIRCLED TIMES: try adding math
  * U+2298 CIRCLED DIVISION SLASH: try adding math
- * U+2299 CIRCLED DOT OPERATOR: try adding one of: math, symbols
+ * U+2299 CIRCLED DOT OPERATOR: try adding one of: symbols, math
  * U+229A CIRCLED RING OPERATOR: try adding math
  * U+229B CIRCLED ASTERISK OPERATOR: try adding math
  * U+229C CIRCLED EQUALS: try adding math
@@ -826,8 +826,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+22B8 MULTIMAP: try adding math
  * U+22C2 N-ARY INTERSECTION: try adding math
  * U+22C3 N-ARY UNION: try adding math
- * U+22C4 DIAMOND OPERATOR: try adding one of: math, symbols
- * U+22C6 STAR OPERATOR: try adding one of: math, symbols
+ * U+22C4 DIAMOND OPERATOR: try adding one of: symbols, math
+ * U+22C6 STAR OPERATOR: try adding one of: symbols, math
  * U+22C8 BOWTIE: try adding math
  * U+22C9 LEFT NORMAL FACTOR SEMIDIRECT PRODUCT: try adding math
  * U+22CA RIGHT NORMAL FACTOR SEMIDIRECT PRODUCT: try adding math
@@ -837,10 +837,10 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+22D1 DOUBLE SUPERSET: try adding math
  * U+22E2 NOT SQUARE IMAGE OF OR EQUAL TO: try adding math
  * U+22E3 NOT SQUARE ORIGINAL OF OR EQUAL TO: try adding math
- * U+2308 LEFT CEILING: try adding one of: math, symbols
- * U+2309 RIGHT CEILING: try adding one of: math, symbols
- * U+230A LEFT FLOOR: try adding one of: math, symbols
- * U+230B RIGHT FLOOR: try adding one of: math, symbols
+ * U+2308 LEFT CEILING: try adding one of: symbols, math
+ * U+2309 RIGHT CEILING: try adding one of: symbols, math
+ * U+230A LEFT FLOOR: try adding one of: symbols, math
+ * U+230B RIGHT FLOOR: try adding one of: symbols, math
  * U+2310 REVERSED NOT SIGN: try adding math
  * U+2319 TURNED NOT SIGN: try adding math
  * U+2320 TOP HALF INTEGRAL: try adding math
@@ -955,8 +955,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+23DF BOTTOM CURLY BRACKET: try adding math
  * U+23E0 TOP TORTOISE SHELL BRACKET: try adding math
  * U+23E1 BOTTOM TORTOISE SHELL BRACKET: try adding math
- * U+2474 PARENTHESIZED DIGIT ONE: try adding one of: math, symbols
- * U+2475 PARENTHESIZED DIGIT TWO: try adding one of: math, symbols
+ * U+2474 PARENTHESIZED DIGIT ONE: try adding one of: symbols, math
+ * U+2475 PARENTHESIZED DIGIT TWO: try adding one of: symbols, math
  * U+2500 BOX DRAWINGS LIGHT HORIZONTAL: not included in any glyphset definition
  * U+2501 BOX DRAWINGS HEAVY HORIZONTAL: not included in any glyphset definition
  * U+2502 BOX DRAWINGS LIGHT VERTICAL: not included in any glyphset definition
@@ -1132,25 +1132,25 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+25AC BLACK RECTANGLE: try adding symbols
  * U+25AD WHITE RECTANGLE: try adding symbols
  * U+25AE BLACK VERTICAL RECTANGLE: try adding symbols
- * U+25AF WHITE VERTICAL RECTANGLE: try adding one of: math, symbols
+ * U+25AF WHITE VERTICAL RECTANGLE: try adding one of: symbols, math
  * U+25B0 BLACK PARALLELOGRAM: try adding symbols
  * U+25B1 WHITE PARALLELOGRAM: try adding symbols
  * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
- * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols
- * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25BA BLACK RIGHT-POINTING POINTER: try adding symbols
  * U+25BB WHITE RIGHT-POINTING POINTER: try adding symbols
  * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
- * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols
  * U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols
- * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C4 BLACK LEFT-POINTING POINTER: try adding symbols
@@ -1159,9 +1159,9 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+25C7 WHITE DIAMOND: try adding symbols
  * U+25C8 WHITE DIAMOND CONTAINING BLACK SMALL DIAMOND: try adding symbols
  * U+25C9 FISHEYE: try adding symbols
- * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CA LOZENGE: try adding one of: symbols, math
  * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: tifinagh, hanunoo, tagalog, cham, music, psalter-pahlavi, mongolian, mende-kikakui, sharada, sundanese, buginese, telugu, tirhuta, kaithi, kharoshthi, rejang, phags-pa, hanifi-rohingya, bhaiksuki, newa, gurmukhi, khmer, javanese, myanmar, manichaean, duployan, new-tai-lue, khojki, syriac, grantha, hebrew, limbu, bassa-vah, tai-le, thaana, kannada, yi, pahawh-hmong, gujarati, old-permic, batak, nko, lao, siddham, tagbanwa, balinese, caucasian-albanian, coptic, math, buhid, dogra, marchen, thai, wancho, khudawadi, gunjala-gondi, malayalam, lepcha, tamil, soyombo, elbasan, masaram-gondi, tai-viet, brahmi, zanabazar-square, oriya, devanagari, ahom, chakma, mahajani, mandaic, symbols, meetei-mayek, sinhala, bengali, syloti-nagri, adlam, tibetan, sogdian, kayah-li, osage, modi, takri, miao
+ * U+25CC DOTTED CIRCLE: try adding one of: soyombo, oriya, zanabazar-square, rejang, tirhuta, balinese, buhid, khudawadi, buginese, duployan, kharoshthi, gujarati, khojki, yi, bengali, tai-le, lao, chakma, mandaic, tifinagh, cham, miao, grantha, hebrew, pahawh-hmong, tagalog, old-permic, caucasian-albanian, lepcha, takri, mende-kikakui, sharada, masaram-gondi, new-tai-lue, phags-pa, thai, marchen, kaithi, kannada, tai-viet, ahom, telugu, tamil, hanunoo, manichaean, math, myanmar, batak, psalter-pahlavi, gurmukhi, elbasan, sogdian, thaana, javanese, tibetan, symbols, bhaiksuki, malayalam, nko, dogra, devanagari, syriac, music, newa, coptic, sundanese, syloti-nagri, limbu, wancho, khmer, sinhala, meetei-mayek, bassa-vah, hanifi-rohingya, osage, gunjala-gondi, brahmi, siddham, kayah-li, adlam, mongolian, mahajani, modi, tagbanwa
  * U+25CD CIRCLE WITH VERTICAL FILL: try adding symbols
  * U+25CE BULLSEYE: try adding symbols
  * U+25CF BLACK CIRCLE: try adding symbols
@@ -1208,14 +1208,14 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+25F8 UPPER LEFT TRIANGLE: try adding symbols
  * U+25F9 UPPER RIGHT TRIANGLE: try adding symbols
  * U+25FA LOWER LEFT TRIANGLE: try adding symbols
- * U+25FB WHITE MEDIUM SQUARE: try adding one of: math, symbols
+ * U+25FB WHITE MEDIUM SQUARE: try adding one of: symbols, math
  * U+25FC BLACK MEDIUM SQUARE: try adding symbols
  * U+25FD WHITE MEDIUM SMALL SQUARE: try adding symbols
  * U+25FE BLACK MEDIUM SMALL SQUARE: try adding symbols
  * U+25FF LOWER RIGHT TRIANGLE: try adding symbols
- * U+266D MUSIC FLAT SIGN: try adding one of: music, math, symbols
- * U+266E MUSIC NATURAL SIGN: try adding one of: music, math, symbols
- * U+266F MUSIC SHARP SIGN: try adding one of: music, math, symbols
+ * U+266D MUSIC FLAT SIGN: try adding one of: symbols, music, math
+ * U+266E MUSIC NATURAL SIGN: try adding one of: symbols, music, math
+ * U+266F MUSIC SHARP SIGN: try adding one of: symbols, music, math
  * U+2736 SIX POINTED BLACK STAR: try adding symbols
  * U+2758 LIGHT VERTICAL BAR: try adding symbols
  * U+2759 MEDIUM VERTICAL BAR: try adding symbols
@@ -1288,7 +1288,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+2E2E REVERSED QUESTION MARK: not included in any glyphset definition
  * U+2E2F VERTICAL TILDE: not included in any glyphset definition
  * U+2E30 RING POINT: try adding avestan
- * U+2E31 WORD SEPARATOR MIDDLE DOT: try adding one of: samaritan, old-hungarian, avestan
+ * U+2E31 WORD SEPARATOR MIDDLE DOT: try adding one of: old-hungarian, avestan, samaritan
  * U+2E32 TURNED COMMA: not included in any glyphset definition
  * U+2E33 RAISED DOT: try adding coptic
  * U+2E34 RAISED COMMA: try adding coptic
@@ -1426,7 +1426,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+AB69 MODIFIER LETTER SMALL TURNED W: not included in any glyphset definition
  * U+AB6A MODIFIER LETTER LEFT TACK: not included in any glyphset definition
  * U+AB6B MODIFIER LETTER RIGHT TACK: not included in any glyphset definition
- * U+FE00 VARIATION SELECTOR-1: try adding one of: phags-pa, manichaean, yi
+ * U+FE00 VARIATION SELECTOR-1: try adding one of: yi, phags-pa, manichaean
  * U+FE20 COMBINING LIGATURE LEFT HALF: try adding caucasian-albanian
  * U+FE21 COMBINING LIGATURE RIGHT HALF: try adding caucasian-albanian
  * U+FE22 COMBINING DOUBLE TILDE LEFT HALF: try adding caucasian-albanian
@@ -1441,8 +1441,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+FE2B COMBINING MACRON LEFT HALF BELOW: try adding caucasian-albanian
  * U+FE2C COMBINING MACRON RIGHT HALF BELOW: try adding caucasian-albanian
  * U+FE2D COMBINING CONJOINING MACRON BELOW: try adding caucasian-albanian
- * U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: japanese, math, chinese-simplified, yi
- * U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: japanese, math, chinese-simplified, yi
+ * U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: yi, chinese-simplified, japanese, math
+ * U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: yi, chinese-simplified, japanese, math
  * U+FFFC OBJECT REPLACEMENT CHARACTER: not included in any glyphset definition
  * U+10780 MODIFIER LETTER SMALL CAPITAL AA: not included in any glyphset definition
  * U+10781 MODIFIER LETTER SUPERSCRIPT TRIANGULAR COLON: not included in any glyphset definition
@@ -1605,7 +1605,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'Bbarredmod' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fbc0f027b50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fbc0f195ad0> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'Bbarredmod' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f525b117ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f525af32b10> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
 
@@ -1627,9 +1627,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The dot of soft dotted characters _should_ disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓
 
-Your font fully covers the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Lithuanian (Latn, 2,357,094 speakers), Dan (Latn, 1,099,244 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Kom (Latn, 360,685 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers), Ejagham (Latn, 120,000 speakers), Ma’di (Latn, 584,000 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Nateni (Latn, 100,000 speakers), Avokaya (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
