@@ -1,76 +1,1083 @@
 ## FontBakery report
 
-fontbakery version: 0.9.2
+fontbakery version: 0.10.4
 
-<details><summary><b>[16] NotoSans[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+<details><summary><b>[2] Experimental checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+
+
+* 🔥 **FAIL** GF_Latin_Core glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| lg_Latn (Ganda) | The locl feature did not affect Eng |
+| dyo_Latn (Jola-Fonyi) | The locl feature did not affect Eng |
+| ny_Latn (Nyanja) | The locl feature did not affect Eng |
+| wo_Latn (Wolof) | The locl feature did not affect Eng |
+
+ [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_African glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| abr_Latn (Abron) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| ada_Latn (Adangme) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| agq_Latn (Aghem) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǎ; both buffers returned uni01CE=0+561 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ǐ; both buffers returned uni01D0=0+258 |
+|  ^  | Requires Small-cap: ɨ; both buffers returned uni0268=0+258 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+605 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+|  ^  | Requires Small-cap: ǔ; both buffers returned uni01D4=0+618 |
+|  ^  | Requires Small-cap: ʉ; both buffers returned uni0289=0+618 |
+| ksf_Latn (Bafia) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǝ; both buffers returned uni01DD=0+564 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| bm_Latn (Bambara) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɲ; both buffers returned uni0272=0+618 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| bci_Latn (Baoulé) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| fuq_Latn (Central-Eastern Niger Fulfulde) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ƴ; both buffers returned uni01B4=0+542 |
+|  ^  | Requires Small-cap: ɓ; both buffers returned uni0253=0+615 |
+|  ^  | Requires Small-cap: ɗ; both buffers returned uni0257=0+615 |
+| dua_Latn (Duala) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɓ; both buffers returned uni0253=0+615 |
+|  ^  | Requires Small-cap: ɗ; both buffers returned uni0257=0+615 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| dyu_Latn (Dyula) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɲ; both buffers returned uni0272=0+618 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| ee_Latn (Ewe) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɖ; both buffers returned uni0256=0+615 |
+|  ^  | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+564 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ƒ; both buffers returned fhook=0+414 |
+|  ^  | Requires Small-cap: ɣ; both buffers returned uni0263=0+508 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+|  ^  | Requires Small-cap: ʋ; both buffers returned uni028B=0+605 |
+| ewo_Latn (Ewondo) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǎ; both buffers returned uni01CE=0+561 |
+|  ^  | Requires Small-cap: ə; both buffers returned uni0259=0+564 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ǐ; both buffers returned uni01D0=0+258 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+605 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+|  ^  | Requires Small-cap: ǔ; both buffers returned uni01D4=0+618 |
+| fon_Latn (Fon) | Requires Small-cap: ɖ; both buffers returned uni0256=0+615 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| gaa_Latn (Ga) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+|  ^  | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+564 |
+| ha_Latn (Hausa) | Requires Small-cap: ɓ; both buffers returned uni0253=0+615 |
+|  ^  | Requires Small-cap: ɗ; both buffers returned uni0257=0+615 |
+|  ^  | Requires Small-cap: ƙ; both buffers returned uni0199=0+534 |
+|  ^  | Requires Small-cap: ƴ; both buffers returned uni01B4=0+542 |
+| nmg_Latn (Kwasio) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǎ; both buffers returned uni01CE=0+561 |
+|  ^  | Requires Small-cap: ɓ; both buffers returned uni0253=0+615 |
+|  ^  | Requires Small-cap: ǝ; both buffers returned uni01DD=0+564 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ǐ; both buffers returned uni01D0=0+258 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+605 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+|  ^  | Requires Small-cap: ǔ; both buffers returned uni01D4=0+618 |
+| lag_Latn (Langi) | Requires Small-cap: ɨ; both buffers returned uni0268=0+258 |
+|  ^  | Requires Small-cap: ʉ; both buffers returned uni0289=0+618 |
+| ln_Latn (Lingala) | Requires Small-cap: ǎ; both buffers returned uni01CE=0+561 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ǐ; both buffers returned uni01D0=0+258 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+605 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| lu_Latn (Luba-Katanga) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| ffm_Latn (Maasina Fulfulde) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ƴ; both buffers returned uni01B4=0+542 |
+|  ^  | Requires Small-cap: ɓ; both buffers returned uni0253=0+615 |
+|  ^  | Requires Small-cap: ɗ; both buffers returned uni0257=0+615 |
+|  ^  | Requires Small-cap: ɲ; both buffers returned uni0272=0+618 |
+| mas_Latn (Masai) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɨ; both buffers returned uni0268=0+258 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+|  ^  | Requires Small-cap: ʉ; both buffers returned uni0289=0+618 |
+| men_Latn (Mende) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| mos_Latn (Mossi) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɩ; both buffers returned uni0269=0+332 |
+|  ^  | Requires Small-cap: ʋ; both buffers returned uni028B=0+605 |
+| mua_Latn (Mundang) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɓ; both buffers returned uni0253=0+615 |
+|  ^  | Requires Small-cap: ɗ; both buffers returned uni0257=0+615 |
+|  ^  | Requires Small-cap: ǝ; both buffers returned uni01DD=0+564 |
+|  ^  | Requires Small-cap: ṽ; both buffers returned uni1E7D=0+508 |
+| nnh_Latn (Ngiemboon) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǎ; both buffers returned uni01CE=0+561 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+605 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+|  ^  | Requires Small-cap: ǔ; both buffers returned uni01D4=0+618 |
+|  ^  | Requires Small-cap: ʉ; both buffers returned uni0289=0+618 |
+| jgo_Latn (Ngomba) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǎ; both buffers returned uni01CE=0+561 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ǐ; both buffers returned uni01D0=0+258 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+|  ^  | Requires Small-cap: ǔ; both buffers returned uni01D4=0+618 |
+|  ^  | Requires Small-cap: ʉ; both buffers returned uni0289=0+618 |
+|  ^  | Requires Small-cap: ꞌ; both buffers returned uniA78C=0+269 |
+| fuv_Latn (Nigerian Fulfulde) | Requires Small-cap: ɓ; both buffers returned uni0253=0+615 |
+|  ^  | Requires Small-cap: ɗ; both buffers returned uni0257=0+615 |
+| nus_Latn (Nuer) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɣ; both buffers returned uni0263=0+508 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| nym_Latn (Nyamwezi) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| nzi_Latn (Nzima) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| srr_Latn (Serer) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɓ; both buffers returned uni0253=0+615 |
+|  ^  | Requires Small-cap: ƈ; both buffers returned uni0188=0+503 |
+|  ^  | Requires Small-cap: ɗ; both buffers returned uni0257=0+615 |
+|  ^  | Requires Small-cap: ƥ; both buffers returned uni01A5=0+615 |
+|  ^  | Requires Small-cap: ƭ; both buffers returned uni01AD=0+361 |
+|  ^  | Requires Small-cap: ƴ; both buffers returned uni01B4=0+542 |
+| suk_Latn (Sukuma) | Requires Small-cap: ɪ; both buffers returned iotaserifed=0+320 |
+| sus_Latn (Susu) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɲ; both buffers returned uni0272=0+618 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| twq_Latn (Tasawaq) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+564 |
+|  ^  | Requires Small-cap: ɲ; both buffers returned uni0272=0+618 |
+| tem_Latn (Timne) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ʌ; both buffers returned uni028C=0+508 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ə; both buffers returned uni0259=0+564 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| umb_Latn (Umbundu) | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+564 |
+| ve_Latn (Venda) | Requires Small-cap: ḓ; both buffers returned uni1E13=0+615 |
+|  ^  | Requires Small-cap: ḽ; both buffers returned uni1E3D=0+258 |
+|  ^  | Requires Small-cap: ṋ; both buffers returned uni1E4B=0+618 |
+|  ^  | Requires Small-cap: ṱ; both buffers returned uni1E71=0+361 |
+| yav_Latn (Yangben) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǎ; both buffers returned uni01CE=0+561 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+605 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+|  ^  | Requires Small-cap: ǔ; both buffers returned uni01D4=0+618 |
+| dje_Latn (Zarma) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+564 |
+|  ^  | Requires Small-cap: ɲ; both buffers returned uni0272=0+618 |
+
+ [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Beyond glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| abr_Latn (Abron) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| ada_Latn (Adangme) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| bci_Latn (Baoulé) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| gaa_Latn (Ga) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+|  ^  | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+564 |
+| ln_Latn (Lingala) | Requires Small-cap: ǎ; both buffers returned uni01CE=0+561 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ǐ; both buffers returned uni01D0=0+258 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+605 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| lu_Latn (Luba-Katanga) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| mfv_Latn (Mandjak) | The locl feature did not affect Eng |
+| men_Latn (Mende) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| nus_Latn (Nuer) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɣ; both buffers returned uni0263=0+508 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| nym_Latn (Nyamwezi) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| nzi_Latn (Nzima) | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+| umb_Latn (Umbundu) | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+564 |
+| yav_Latn (Yangben) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǎ; both buffers returned uni01CE=0+561 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+483 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+605 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+480 |
+|  ^  | Requires Small-cap: ǔ; both buffers returned uni01D4=0+618 |
+
+ [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Vietnamese glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| umb_Latn (Umbundu) | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+564 |
+
+ [code: failed-language-shaping]
+* ⚠ **WARN** GF_Cyrillic_Plus glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| ku_Cyrl (Kurdish) | No exemplar glyphs were defined for language Kurdish |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Cyrillic_Pro glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| ku_Cyrl (Kurdish) | No exemplar glyphs were defined for language Kurdish |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Latin_African glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| gaa_Latn (Ga) | No variant glyphs were found for uni01B7 |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Latin_Beyond glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| gaa_Latn (Ga) | No variant glyphs were found for uni01B7 |
+
+ [code: warning-language-shaping]
+</div></details><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+
+
+* 🔥 **FAIL** GF_Latin_Core glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| lg_Latn (Ganda) | The locl feature did not affect Eng |
+| dyo_Latn (Jola-Fonyi) | The locl feature did not affect Eng |
+| ny_Latn (Nyanja) | The locl feature did not affect Eng |
+| wo_Latn (Wolof) | The locl feature did not affect Eng |
+
+ [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_African glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| abr_Latn (Abron) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| ada_Latn (Adangme) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| agq_Latn (Aghem) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǎ; both buffers returned uni01CE=0+568 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ǐ; both buffers returned uni01D0=0+258 |
+|  ^  | Requires Small-cap: ɨ; both buffers returned uni0268=0+258 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+563 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+|  ^  | Requires Small-cap: ǔ; both buffers returned uni01D4=0+579 |
+|  ^  | Requires Small-cap: ʉ; both buffers returned uni0289=0+579 |
+| ksf_Latn (Bafia) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǝ; both buffers returned uni01DD=0+493 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| bm_Latn (Bambara) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɲ; both buffers returned uni0272=0+579 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| bci_Latn (Baoulé) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| fuq_Latn (Central-Eastern Niger Fulfulde) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ƴ; both buffers returned uni01B4=0+502 |
+|  ^  | Requires Small-cap: ɓ; both buffers returned uni0253=0+579 |
+|  ^  | Requires Small-cap: ɗ; both buffers returned uni0257=0+579 |
+| dua_Latn (Duala) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɓ; both buffers returned uni0253=0+579 |
+|  ^  | Requires Small-cap: ɗ; both buffers returned uni0257=0+579 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| dyu_Latn (Dyula) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɲ; both buffers returned uni0272=0+579 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| ee_Latn (Ewe) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɖ; both buffers returned uni0256=0+579 |
+|  ^  | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+499 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ƒ; both buffers returned fhook=0+410 |
+|  ^  | Requires Small-cap: ɣ; both buffers returned uni0263=0+467 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+|  ^  | Requires Small-cap: ʋ; both buffers returned uni028B=0+563 |
+| ewo_Latn (Ewondo) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǎ; both buffers returned uni01CE=0+568 |
+|  ^  | Requires Small-cap: ə; both buffers returned uni0259=0+499 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ǐ; both buffers returned uni01D0=0+258 |
+|  ^  | Requires Small-cap: ǹ; both buffers returned uni01F9=0+579 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+563 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+|  ^  | Requires Small-cap: ǔ; both buffers returned uni01D4=0+579 |
+| fon_Latn (Fon) | Requires Small-cap: ɖ; both buffers returned uni0256=0+579 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| gaa_Latn (Ga) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+|  ^  | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+499 |
+| ha_Latn (Hausa) | Requires Small-cap: ɓ; both buffers returned uni0253=0+579 |
+|  ^  | Requires Small-cap: ɗ; both buffers returned uni0257=0+579 |
+|  ^  | Requires Small-cap: ƙ; both buffers returned uni0199=0+495 |
+|  ^  | Requires Small-cap: ƴ; both buffers returned uni01B4=0+502 |
+| nmg_Latn (Kwasio) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǎ; both buffers returned uni01CE=0+568 |
+|  ^  | Requires Small-cap: ɓ; both buffers returned uni0253=0+579 |
+|  ^  | Requires Small-cap: ǝ; both buffers returned uni01DD=0+493 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ǐ; both buffers returned uni01D0=0+258 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+563 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+|  ^  | Requires Small-cap: ǔ; both buffers returned uni01D4=0+579 |
+| lag_Latn (Langi) | Requires Small-cap: ɨ; both buffers returned uni0268=0+258 |
+|  ^  | Requires Small-cap: ʉ; both buffers returned uni0289=0+579 |
+| ln_Latn (Lingala) | Requires Small-cap: ǎ; both buffers returned uni01CE=0+568 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ǐ; both buffers returned uni01D0=0+258 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+563 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| lu_Latn (Luba-Katanga) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| ffm_Latn (Maasina Fulfulde) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ƴ; both buffers returned uni01B4=0+502 |
+|  ^  | Requires Small-cap: ɓ; both buffers returned uni0253=0+579 |
+|  ^  | Requires Small-cap: ɗ; both buffers returned uni0257=0+579 |
+|  ^  | Requires Small-cap: ɲ; both buffers returned uni0272=0+579 |
+| mas_Latn (Masai) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɨ; both buffers returned uni0268=0+258 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+|  ^  | Requires Small-cap: ʉ; both buffers returned uni0289=0+579 |
+| men_Latn (Mende) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| mos_Latn (Mossi) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɩ; both buffers returned uni0269=0+306 |
+|  ^  | Requires Small-cap: ʋ; both buffers returned uni028B=0+563 |
+| mua_Latn (Mundang) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɓ; both buffers returned uni0253=0+579 |
+|  ^  | Requires Small-cap: ɗ; both buffers returned uni0257=0+579 |
+|  ^  | Requires Small-cap: ǝ; both buffers returned uni01DD=0+493 |
+|  ^  | Requires Small-cap: ṽ; both buffers returned uni1E7D=0+467 |
+| nnh_Latn (Ngiemboon) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǎ; both buffers returned uni01CE=0+568 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ḿ; both buffers returned uni1E3F=0+875 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+563 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+|  ^  | Requires Small-cap: ǔ; both buffers returned uni01D4=0+579 |
+|  ^  | Requires Small-cap: ʉ; both buffers returned uni0289=0+579 |
+| jgo_Latn (Ngomba) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǎ; both buffers returned uni01CE=0+568 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ǐ; both buffers returned uni01D0=0+258 |
+|  ^  | Requires Small-cap: ḿ; both buffers returned uni1E3F=0+875 |
+|  ^  | Requires Small-cap: ǹ; both buffers returned uni01F9=0+579 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+|  ^  | Requires Small-cap: ǔ; both buffers returned uni01D4=0+579 |
+|  ^  | Requires Small-cap: ʉ; both buffers returned uni0289=0+579 |
+|  ^  | Requires Small-cap: ꞌ; both buffers returned uniA78C=0+260 |
+| fuv_Latn (Nigerian Fulfulde) | Requires Small-cap: ɓ; both buffers returned uni0253=0+579 |
+|  ^  | Requires Small-cap: ɗ; both buffers returned uni0257=0+579 |
+| nus_Latn (Nuer) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɣ; both buffers returned uni0263=0+467 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| nym_Latn (Nyamwezi) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| nzi_Latn (Nzima) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| srr_Latn (Serer) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɓ; both buffers returned uni0253=0+579 |
+|  ^  | Requires Small-cap: ƈ; both buffers returned uni0188=0+453 |
+|  ^  | Requires Small-cap: ɗ; both buffers returned uni0257=0+579 |
+|  ^  | Requires Small-cap: ƥ; both buffers returned uni01A5=0+579 |
+|  ^  | Requires Small-cap: ƭ; both buffers returned uni01AD=0+332 |
+|  ^  | Requires Small-cap: ƴ; both buffers returned uni01B4=0+502 |
+| suk_Latn (Sukuma) | Requires Small-cap: ɪ; both buffers returned iotaserifed=0+294 |
+| sus_Latn (Susu) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɲ; both buffers returned uni0272=0+579 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| twq_Latn (Tasawaq) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+499 |
+|  ^  | Requires Small-cap: ɲ; both buffers returned uni0272=0+579 |
+| tem_Latn (Timne) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ʌ; both buffers returned uni028C=0+467 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ə; both buffers returned uni0259=0+499 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| umb_Latn (Umbundu) | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+499 |
+| ve_Latn (Venda) | Requires Small-cap: ḓ; both buffers returned uni1E13=0+579 |
+|  ^  | Requires Small-cap: ḽ; both buffers returned uni1E3D=0+258 |
+|  ^  | Requires Small-cap: ṋ; both buffers returned uni1E4B=0+579 |
+|  ^  | Requires Small-cap: ṅ; both buffers returned uni1E45=0+579 |
+|  ^  | Requires Small-cap: ṱ; both buffers returned uni1E71=0+332 |
+| yav_Latn (Yangben) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǎ; both buffers returned uni01CE=0+568 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+563 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+|  ^  | Requires Small-cap: ǔ; both buffers returned uni01D4=0+579 |
+| dje_Latn (Zarma) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+499 |
+|  ^  | Requires Small-cap: ɲ; both buffers returned uni0272=0+579 |
+
+ [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Beyond glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| abr_Latn (Abron) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| ada_Latn (Adangme) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| bci_Latn (Baoulé) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| gaa_Latn (Ga) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+|  ^  | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+499 |
+| ln_Latn (Lingala) | Requires Small-cap: ǎ; both buffers returned uni01CE=0+568 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ǐ; both buffers returned uni01D0=0+258 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+563 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| lu_Latn (Luba-Katanga) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| mfv_Latn (Mandjak) | The locl feature did not affect Eng |
+| men_Latn (Mende) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| nus_Latn (Nuer) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɣ; both buffers returned uni0263=0+467 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| nym_Latn (Nyamwezi) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| nzi_Latn (Nzima) | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+| umb_Latn (Umbundu) | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+499 |
+| yav_Latn (Yangben) | The locl feature did not affect Eng |
+|  ^  | Requires Small-cap: ǎ; both buffers returned uni01CE=0+568 |
+|  ^  | Requires Small-cap: ɛ; both buffers returned uni025B=0+451 |
+|  ^  | Requires Small-cap: ǒ; both buffers returned uni01D2=0+563 |
+|  ^  | Requires Small-cap: ɔ; both buffers returned uni0254=0+453 |
+|  ^  | Requires Small-cap: ǔ; both buffers returned uni01D4=0+579 |
+
+ [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Vietnamese glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| bin_Latn (Bini) | Requires Small-cap: ẹ; both buffers returned uni1EB9=0+499 |
+|  ^  | Requires Small-cap: ọ; both buffers returned uni1ECD=0+563 |
+| umb_Latn (Umbundu) | Requires Small-cap: ẽ; both buffers returned uni1EBD=0+499 |
+
+ [code: failed-language-shaping]
+* ⚠ **WARN** GF_Cyrillic_Plus glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| ku_Cyrl (Kurdish) | No exemplar glyphs were defined for language Kurdish |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Cyrillic_Pro glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| ku_Cyrl (Kurdish) | No exemplar glyphs were defined for language Kurdish |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Latin_African glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| gaa_Latn (Ga) | No variant glyphs were found for uni01B7 |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Latin_Beyond glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| gaa_Latn (Ga) | No variant glyphs were found for uni01B7 |
+
+ [code: warning-language-shaping]
+</div></details><br></div></details><details><summary><b>[15] NotoSans[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with ots-sanitize. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ots">com.google.fonts/check/ots</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** ots-sanitize returned an error code (1). Output follows:
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 508, but got 395 instead [code: descent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
-ERROR: GPOS: Bad mark anchor offset 0 for mark table 63
-ERROR: GPOS: Failed to parse mark array
-ERROR: GPOS: Failed to parse subtable 0
-ERROR: GPOS: Failed to parse lookup 35
-ERROR: GPOS: Failed to parse lookup list table
-ERROR: GPOS: Failed to parse table
-Failed to sanitize file!
- [code: ots-sanitize-error]
+
+* 🔥 **FAIL** Glyph "Agrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Aacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Acircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Atilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Adieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Aring" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ccedilla" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Egrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Eacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ecircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Edieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Igrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Icircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Idieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ntilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ograve" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Oacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ocircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Otilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Odieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ugrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Uacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ucircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Udieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Yacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "agrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "aacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "acircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "atilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "adieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "aring" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ccedilla" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "egrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "eacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ecircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "edieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "igrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "iacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "icircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "idieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ntilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ograve" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "oacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ocircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "otilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "odieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ugrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ucircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "udieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "yacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ydieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Abreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "abreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Aogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "aogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Cacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "cacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ccircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ccircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Cdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "cdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ccaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ccaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Dcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ebreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ebreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Edotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "edotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Eogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ecaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ecaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Gcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Gbreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gbreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Gdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Hcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "hcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Itilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "itilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ibreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ibreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "iogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Idotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Jcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "jcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Lacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "lacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ldot" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ldot" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Nacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "nacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ncaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ncaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Obreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "obreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ohungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ohungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Racute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "racute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Rcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "rcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Sacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "sacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Scircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "scircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Scedilla" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "scedilla" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Scaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "scaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Tcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Utilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "utilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ubreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ubreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Uring" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uring" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Uhungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uhungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Wcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "wcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ycircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ycircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ydieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Zacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "zacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Zdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "zdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Zcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "zcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "AEacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "aeacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Oslashacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "oslashacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iotadieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Upsilondieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "iotadieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "upsilondieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Wgrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "wgrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Wacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "wacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Wdieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "wdieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ygrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ygrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01F0" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E3E" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E3F" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04D2" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04D3" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04DA" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04DB" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04DC" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04DD" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04DE" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04DF" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04E4" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04E5" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04E6" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04E7" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04EA" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04EB" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04EC" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04ED" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F0" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F1" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F2" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F3" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F4" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F5" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F8" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F9" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EAC" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EAD" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EB6" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EB7" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EBC" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EBD" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EC6" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EC7" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1ED8" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1ED9" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EDA" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EDB" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EDC" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EDD" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EE0" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EE1" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EE8" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EE9" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EEA" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EEB" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EEE" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EEF" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EF8" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EF9" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0162" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0163" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01C4" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01C5" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01C6" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01CD" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01CE" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01CF" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01D0" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01D1" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01D2" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01D3" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01D4" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Gcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01E8" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01E9" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01EA" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01EB" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01EC" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01ED" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01EE" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01EF" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01F4" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01F5" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01F8" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01F9" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni021E" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni021F" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0226" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0227" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0228" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0229" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni022E" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni022F" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "acutemod" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gravemod" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni02CE" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni02CF" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni02EC" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni02F4" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni02F6" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni02F7" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E02" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E03" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E08" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E08" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E09" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E09" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E0A" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E0B" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E12" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E13" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E18" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E19" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1A" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1B" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1C" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1C" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1D" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1D" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1E" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1F" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E22" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E23" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E26" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E27" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E28" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E29" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E2A" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E2B" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E2C" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E2D" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E30" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E31" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E3C" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E3D" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E40" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E41" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E44" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E45" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E4A" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E4B" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E54" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E55" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E56" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E57" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E58" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E59" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E60" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E61" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E68" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E69" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E6A" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E6B" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E70" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E71" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E72" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E73" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E74" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E75" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E76" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E77" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E7C" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E7D" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E86" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E87" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E8A" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E8B" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E8C" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E8D" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E8E" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E8F" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E90" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E91" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E97" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E98" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E99" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E9B" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni203E" has a legacy accent component (overscore). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uniA788" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni013B.loclMAH" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0145.loclMAH" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Aogonek.loclNAV" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Eogonek.loclNAV" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iogonek.loclNAV" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Uogonek.loclNAV" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iacute.salt" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ibreve.salt" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01CF.salt" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Icircumflex.salt" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Idieresis.salt" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Idotaccent.salt" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Igrave.salt" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iogonek.salt" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iogonek_loclNAV.salt" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Itilde.salt" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E2C.salt" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Jcircumflex.salt" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uniA73F" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni013C.loclMAH" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0146.loclMAH" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "eogonek.loclNAV" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "abreve.sc" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "acircumflex.sc" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "aogonek.sc" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "aring.sc" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "atilde.sc" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ccaron.sc" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ccedilla.sc" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ccircumflex.sc" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "dcaron.sc" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ebreve.sc" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ecaron.sc" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ecircumflex.sc" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "edotaccent.sc" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "eogonek.sc" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gbreve.sc" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gcircumflex.sc" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "hcircumflex.sc" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ibreve.sc" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "icircumflex.sc" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "i.loclTRK.sc" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "iogonek.sc" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "itilde.sc" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "jcircumflex.sc" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ldot.sc" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ncaron.sc" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ntilde.sc" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "obreve.sc" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ocircumflex.sc" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ohungarumlaut.sc" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "otilde.sc" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "rcaron.sc" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "scaron.sc" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "scedilla.sc" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "scircumflex.sc" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "tcaron.sc" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0163.sc" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ubreve.sc" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ucircumflex.sc" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uhungarumlaut.sc" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uring.sc" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "utilde.sc" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "wcircumflex.sc" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ycircumflex.sc" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "zcaron.sc" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "zdotaccent.sc" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0407.salt" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iotadieresis.salt" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni212B" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni2E1B" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni2E1A" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0308" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0307" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gravecomb" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "acutecomb" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni030B" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0302" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni030C" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0306" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni030A" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "tildecomb" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0316" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0317" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0324" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0325" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0327" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0328" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni032C" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni032D" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni032E" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0330" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0334" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0340" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0341" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1DCB" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0358" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1AB0" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1AB0" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "macron.sc" has a legacy accent component (overscore). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0342" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1DD3" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1DD3" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "iogonekdotless" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "itildebelowdotless" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F0E" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F0F" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FB8" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F8E" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F8F" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F2E" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F2F" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F9E" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F9F" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F3E" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F3F" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD8" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F5F" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE8" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F6E" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F6F" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FAE" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FAF" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F8E.ad" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F8F.ad" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F9E.ad" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F9F.ad" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FAE.ad" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FAF.ad" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni03D4" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F3E.salt" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F3F.salt" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD8.salt" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F07" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FB6" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FB0" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F86" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F87" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FB7" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F26" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F27" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC6" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F96" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F97" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC7" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F36" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F37" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD6" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD0" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD7" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD7" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F56" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F57" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE6" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE0" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE7" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE7" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F66" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F67" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FF6" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FA6" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FA7" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FF7" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni037C" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni037D" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F06.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F07.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FB6.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F86.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F87.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FB7.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F26.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F27.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC6.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F96.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F97.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC7.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F36.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F37.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD6.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD7.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD7.sc.ss06" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F56.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F57.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE6.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE7.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE7.sc.ss06" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F66.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F67.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FF6.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FA6.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FA7.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FF7.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F86.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F87.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FB7.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F96.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F97.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC7.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FA6.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FA7.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FF7.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FCF" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FCF.case" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FDF" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FDF.case" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC1" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC1" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC1.case" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC1.case" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC0" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC0.case" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FCF.sc" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FDF.sc" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC1.sc" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC1.sc" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC0.sc" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1ACB" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1ACB" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1ACB" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- ayvowelsigndeva
-
-	- binducandradeva
-
-	- candralongevowelsigndeva
-
-	- oevowelsigndeva
-
-	- uevowelsigndeva
-
-	- uni0901
-
-	- uni0902
-
-	- uni093C
-
-	- uni0941
-
-	- uni0942
-
-	- uni0943
-
-	- uni0944
-
-	- uni0945
-
-	- uni0946
-
-	- uni0947
-
-	- uni0948
-
-	- uni094D
-
-	- uni0951
-
-	- uni0952
-
-	- uni0953
-
-	- uni0954
-
-	- uni0962
-
-	- uni0963
-
-	- uuevowelsigndeva [code: unattached-dotted-circle-marks]
+	- uni093C [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -100,7 +1107,7 @@ Failed to sanitize file!
  * U+02C3 MODIFIER LETTER RIGHT ARROWHEAD: not included in any glyphset definition
  * U+02C4 MODIFIER LETTER UP ARROWHEAD: not included in any glyphset definition
  * U+02C5 MODIFIER LETTER DOWN ARROWHEAD: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
@@ -117,9 +1124,9 @@ Failed to sanitize file!
  * U+02D5 MODIFIER LETTER DOWN TACK: not included in any glyphset definition
  * U+02D6 MODIFIER LETTER PLUS SIGN: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02DE MODIFIER LETTER RHOTIC HOOK: not included in any glyphset definition
  * U+02DF MODIFIER LETTER CROSS ACCENT: not included in any glyphset definition
@@ -155,10 +1162,10 @@ Failed to sanitize file!
  * U+02FD MODIFIER LETTER SHELF: not included in any glyphset definition
  * U+02FE MODIFIER LETTER OPEN SHELF: not included in any glyphset definition
  * U+02FF MODIFIER LETTER LOW LEFT ARROW: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee
- * U+0305 COMBINING OVERLINE: try adding one of: coptic, gothic, glagolitic, elbasan, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tai-le, old-permic, math, canadian-aboriginal, tifinagh, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0305 COMBINING OVERLINE: try adding one of: glagolitic, math, gothic, elbasan, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, math, syriac, old-permic, coptic, tifinagh, tai-le, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -184,7 +1191,7 @@ Failed to sanitize file!
  * U+0320 COMBINING MINUS SIGN BELOW: try adding syriac
  * U+0321 COMBINING PALATALIZED HOOK BELOW: not included in any glyphset definition
  * U+0322 COMBINING RETROFLEX HOOK BELOW: not included in any glyphset definition
- * U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee
+ * U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac
  * U+0325 COMBINING RING BELOW: try adding syriac
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -195,8 +1202,8 @@ Failed to sanitize file!
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
- * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, cherokee, syriac, caucasian-albanian
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, syriac, gothic, caucasian-albanian, tifinagh
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0333 COMBINING DOUBLE LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
@@ -550,9 +1557,9 @@ Failed to sanitize file!
  * U+2007 FIGURE SPACE: not included in any glyphset definition
  * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
  * U+200A HAIR SPACE: not included in any glyphset definition
- * U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, thaana, syriac, nko
- * U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, thaana, syriac, nko
- * U+2010 HYPHEN: try adding one of: coptic, cham, syloti-nagri, lisu, kayah-li, sundanese, kharoshthi, kaithi, yi, sora-sompeng
+ * U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, nko, thaana, phags-pa
+ * U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, nko, thaana, phags-pa
+ * U+2010 HYPHEN: try adding one of: kaithi, syloti-nagri, yi, cham, kharoshthi, coptic, sundanese, lisu, sora-sompeng, kayah-li
  * U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, yi
  * U+2012 FIGURE DASH: not included in any glyphset definition
  * U+2015 HORIZONTAL BAR: try adding adlam
@@ -613,7 +1620,7 @@ Failed to sanitize file!
  * U+205A TWO DOT PUNCTUATION: try adding one of: old-hungarian, old-turkic
  * U+205B FOUR DOT MARK: not included in any glyphset definition
  * U+205C DOTTED CROSS: not included in any glyphset definition
- * U+205D TRICOLON: try adding one of: meroitic, old-hungarian
+ * U+205D TRICOLON: try adding one of: old-hungarian, meroitic
  * U+205E VERTICAL FOUR DOTS: try adding old-hungarian
  * U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition
  * U+2060 WORD JOINER: not included in any glyphset definition
@@ -818,7 +1825,7 @@ Failed to sanitize file!
  * U+2E2E REVERSED QUESTION MARK: not included in any glyphset definition
  * U+2E2F VERTICAL TILDE: not included in any glyphset definition
  * U+2E30 RING POINT: try adding avestan
- * U+2E31 WORD SEPARATOR MIDDLE DOT: try adding one of: avestan, old-hungarian, samaritan
+ * U+2E31 WORD SEPARATOR MIDDLE DOT: try adding one of: old-hungarian, samaritan, avestan
  * U+2E32 TURNED COMMA: not included in any glyphset definition
  * U+2E33 RAISED DOT: try adding coptic
  * U+2E34 RAISED COMMA: try adding coptic
@@ -963,7 +1970,7 @@ Failed to sanitize file!
  * U+FB04 LATIN SMALL LIGATURE FFL: not included in any glyphset definition
  * U+FB05 LATIN SMALL LIGATURE LONG S T: not included in any glyphset definition
  * U+FB06 LATIN SMALL LIGATURE ST: not included in any glyphset definition
- * U+FE00 VARIATION SELECTOR-1: try adding one of: manichaean, phags-pa, yi
+ * U+FE00 VARIATION SELECTOR-1: try adding one of: manichaean, yi, phags-pa
  * U+FE20 COMBINING LIGATURE LEFT HALF: try adding caucasian-albanian
  * U+FE21 COMBINING LIGATURE RIGHT HALF: try adding caucasian-albanian
  * U+FE22 COMBINING DOUBLE TILDE LEFT HALF: try adding caucasian-albanian
@@ -1072,7 +2079,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
 
 
-* ⚠ **WARN** Font file is 2.4Mb; ideally it should be less than 1.0Mb [code: large-font]
+* ⚠ **WARN** Font file is 2.3Mb; ideally it should be less than 1.0Mb [code: large-font]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -1087,208 +2094,15 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* Ukmonographcy
 	* Ustroke
 	* Wanglicana
-	* aanuktadeva
-	* acandraanusvaradeva
-	* acandradeva
-	* acandranuktaanusvaradeva
-	* acandranuktadeva
-	* anuktadeva
-	* ashortanusvaradeva
-	* ashortdeva
-	* ashortnuktaanusvaradeva
-	* ashortnuktadeva
-	* auanusvaradeva
-	* aunuktaanusvaradeva
-	* aunuktadeva
-	* awanusvaradeva
-	* awdeva
-	* babardeva
-	* badhadeva
-	* banuktaradeva
-	* banuktaraprehalfdeva
-	* baradeva
-	* baraprehalfdeva
-	* canuktaradeva
-	* canuktaraprehalfdeva
-	* caradeva
-	* caraprehalfdeva
-	* chaaltdeva
-	* chanuktaaltdeva
-	* chayadeva
-	* dabadeva
-	* dadayadeva
-	* dadhayadeva
-	* daghadeva
-	* danuktaradeva
-	* danuktarvocalicdeva
-	* danuktaudeva
-	* danuktauudeva
-	* daradeva
-	* dararvocalicdeva
-	* daraudeva
-	* darauudeva
-	* darvocalicdeva
-	* daudeva
-	* dauudeva
-	* davayadeva
-	* dayadeva
-	* ddhaddhadeva
-	* ddhayadeva
 	* desoftcy
-	* dhanuktaradeva
-	* dhanuktaraprehalfdeva
-	* dharadeva
-	* dharaprehalfdeva
-	* ecandravowelrephcandrabindudeva
 	* elsoftcy
 	* emsoftcy
-	* ghanuktadeva
-	* ghanuktaprehalfdeva
-	* ghanuktaradeva
-	* ghanuktaraprehalfdeva
-	* ghaprehalfdeva
-	* gharadeva
-	* gharaprehalfdeva
-	* haladeva
-	* hannadeva
-	* haraudeva
-	* harauuUIdeva
-	* harauudeva
-	* heavyyaradeva
-	* heavyyaraprehalfdeva
-	* iianusvaradeva
-	* iinuktaanusvaradeva
-	* iinuktadeva
-	* iivowelcandrabindu1deva
-	* iivowelcandrabindudeva
-	* iivowelsignreph2deva
-	* iivowelsignreph3deva
-	* iivowelsignrephanusvara2deva
-	* iivowelsignrephanusvara3deva
-	* iivowelsignrephcandrabindu2deva
-	* iivowelsignrephcandrabindu3deva
-	* inuktadeva
-	* ivowelsignreph01deva
-	* ivowelsignreph02deva
-	* ivowelsignreph03deva
-	* ivowelsignreph04deva
-	* ivowelsignrephanusvara01deva
-	* ivowelsignrephanusvara02deva
-	* ivowelsignrephanusvara03deva
-	* ivowelsignrephanusvara04deva
-	* ivowelsignrephanusvara05deva
-	* ivowelsignrephcandrabindu01deva
-	* ivowelsignrephcandrabindu02deva
-	* ivowelsignrephcandrabindu03deva
-	* ivowelsignrephcandrabindu04deva
-	* ivowelsignrephcandrabindu05deva
-	* ivowelsignrephcandrabindu06deva
-	* ivowelsignrephcandrabindu07deva
-	* ivowelsignrephcandrabindu08deva
-	* ivowelsignrephcandrabindu09deva
-	* ivowelsignrephcandrabindu10deva
-	* jaddadeva
-	* jajadeva
-	* janyadeva
-	* janyaradeva
-	* jhanuktadeva
-	* jhanuktaprehalfdeva
-	* jhanuktaradeva
-	* jhanuktaraprehalfdeva
-	* jhaprehalfdeva
-	* jharadeva
-	* jharaprehalfdeva
-	* kanuktaradeva
-	* kanuktaraprehalfdeva
-	* karadeva
-	* karaprehalfdeva
-	* kashadeva
-	* kassadeva
-	* kassaprehalfdeva
-	* kassaradeva
-	* kassaraprehalfdeva
-	* khanuktaradeva
-	* kharadeva
-	* khashadeva
-	* laddadeva
-	* laddaradeva
-	* lanuktaradeva
-	* laradeva
-	* llaaltdeva
-	* llanuktaradeva
-	* llaradeva
-	* lllaaltdeva
-	* llvocalicnuktadeva
-	* lvocalicnuktadeva
-	* mabhadeva
-	* maparadeva
-	* marwariddaddadeva
-	* marwariddaddhadeva
-	* marwariddaradeva
-	* marwariddayadeva
-	* naddadeva
-	* naddaradeva
-	* nadharadeva
-	* natharadeva
-	* ngayadeva
-	* nyajadeva
-	* nyanuktadeva
-	* nyanuktaradeva
-	* nyaradeva
-	* oanusvaradeva
-	* ocandraanusvaradeva
-	* ocandranuktaanusvaradeva
-	* ocandranuktadeva
-	* ocandravowelrephcandrabindudeva
-	* oeanusvaradeva
-	* oedeva
+	* marwariddadeva
 	* oeopen
-	* onuktaanusvaradeva
-	* onuktadeva
-	* ooeanusvaradeva
-	* ooedeva
-	* oshortanusvaradeva
-	* oshortnuktaanusvaradeva
-	* oshortnuktadeva
-	* panadeva
-	* panuktaradeva
-	* panuktaraprehalfdeva
-	* paradeva
 	* paragraphus
-	* paraprehalfdeva
-	* phanuktaradeva
-	* phanuktaraprehalfdeva
-	* pharadeva
-	* pharaprehalfdeva
-	* ranuktauudeva
-	* rauudeva
-	* rrvocalicnuktadeva
-	* sanuktadeva
-	* sanuktaradeva
-	* sapadeva
-	* sapaprehalfdeva
-	* saparadeva
-	* saphadeva
-	* saradeva
-	* sathadeva
-	* sathaprehalfdeva
-	* shadevaMAR
-	* shanuktadevaMAR
-	* shanuktaprehalfdevaMAR
-	* shaprehalfdevaMAR
 	* smiddlestroke
 	* solidusdotted
-	* ssanuktaradeva
-	* ssaradeva
-	* ssattayadeva
-	* ssatthadeva
-	* ssattharadeva
-	* ssatthayadeva
 	* stackedcommadbl
-	* thanuktaradeva
-	* tharadeva
-	* tthayadeva
-	* uedeva
 	* uni0224
 	* uni023A
 	* uni023B
@@ -1379,16 +2193,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* uniAB4F
 	* uniAB5A
 	* uniAB65
-	* unuktadeva
-	* uo
-	* uuedeva
-	* uunuktadeva
-	* vanuktaradeva
-	* vanuktaraprehalfdeva
-	* varadeva
-	* varaprehalfdeva
-	* wanglicana
-	* yanuktaradeva and yaradeva
+	* uo and wanglicana
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1418,6 +2223,14 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- _Comp_candraBindudeva.02
+
+	- _Comp_nga_Shortdeva
+
+	- _Comp_nukta_rakar_matradeva
+
+	- _Comp_rakar_matradeva
 
 	- dasiaoxia_macronmod
 
@@ -1453,90 +2266,547 @@ minus
 * ⚠ **WARN** Lcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 * ⚠ **WARN** lcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 * ⚠ **WARN** tcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
-</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
-
-
-* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 uni0903 (U+0903) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
 	 uni031A (U+031A), uni1ACC (U+1ACC), uni1ACD (U+1ACD) and uni1ACE (U+1ACE) [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[17] NotoSans-Italic[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
 
 
-* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+0903 [code: non-mark-chars]
-</div></details><br></div></details><details><summary><b>[17] NotoSans-Italic[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+* 🔥 **FAIL** Version number 2.01300048828125 is equal to version on Google Fonts GitHub repo.
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with ots-sanitize. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ots">com.google.fonts/check/ots</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** ots-sanitize returned an error code (1). Output follows:
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 508, but got 395 instead [code: descent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
-ERROR: GPOS: Bad mark anchor offset 0 for mark table 34
-ERROR: GPOS: Failed to parse mark array
-ERROR: GPOS: Failed to parse subtable 0
-ERROR: GPOS: Failed to parse lookup 35
-ERROR: GPOS: Failed to parse lookup list table
-ERROR: GPOS: Failed to parse table
-Failed to sanitize file!
- [code: ots-sanitize-error]
+
+* 🔥 **FAIL** Glyph "Agrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Aacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Acircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Atilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Adieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Aring" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ccedilla" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Egrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Eacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ecircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Edieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Igrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Icircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Idieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ntilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ograve" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Oacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ocircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Otilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Odieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ugrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Uacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ucircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Udieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Yacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "agrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "aacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "acircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "atilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "adieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "aring" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ccedilla" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "egrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "eacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ecircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "edieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "igrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "iacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "icircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "idieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ntilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ograve" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "oacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ocircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "otilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "odieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ugrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ucircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "udieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "yacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ydieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Abreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "abreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Aogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "aogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Cacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "cacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ccircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ccircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Cdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "cdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ccaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ccaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Dcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ebreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ebreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Edotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "edotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Eogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ecaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ecaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Gcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Gbreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gbreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Gdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Hcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "hcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Itilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "itilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ibreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ibreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "iogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Idotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Jcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "jcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Lacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "lacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ldot" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ldot" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Nacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "nacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ncaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ncaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Obreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "obreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ohungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ohungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Racute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "racute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Rcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "rcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Sacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "sacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Scircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "scircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Scedilla" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "scedilla" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Scaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "scaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Tcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Utilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "utilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ubreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ubreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Uring" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uring" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Uhungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uhungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Uogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Wcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "wcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ycircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ycircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ydieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Zacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "zacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Zdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "zdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Zcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "zcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "AEacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "aeacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Oslashacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "oslashacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iotadieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Upsilondieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "iotadieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "upsilondieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Wgrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "wgrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Wacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "wacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Wdieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "wdieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ygrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ygrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01F0" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E3E" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E3F" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04D2" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04D3" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04DA" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04DB" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04DC" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04DD" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04DE" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04DF" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04E4" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04E5" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04E6" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04E7" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04EA" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04EB" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04EC" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04ED" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F0" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F1" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F2" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F3" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F4" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F5" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F8" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni04F9" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EAC" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EAD" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EB6" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EB7" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EBC" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EBD" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EC6" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EC7" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1ED8" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1ED9" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EDA" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EDB" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EDC" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EDD" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EE0" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EE1" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EE8" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EE9" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EEA" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EEB" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EEE" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EEF" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EF8" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1EF9" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0162" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0163" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01C4" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01C5" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01C6" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01CD" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01CE" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01CF" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01D0" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01D1" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01D2" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01D3" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01D4" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Gcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01E8" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01E9" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01EA" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01EB" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01EC" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01ED" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01EE" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01EF" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01F4" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01F5" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01F8" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01F9" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni021E" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni021F" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0226" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0227" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0228" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0229" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni022E" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni022F" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "acutemod" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gravemod" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni02CE" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni02CF" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni02EC" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni02F4" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni02F6" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni02F7" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni037C" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni037D" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni03D4" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E02" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E03" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E08" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E08" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E09" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E09" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E0A" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E0B" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E12" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E13" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E18" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E19" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1A" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1B" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1C" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1C" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1D" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1D" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1E" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E1F" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E22" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E23" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E26" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E27" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E28" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E29" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E2A" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E2B" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E2C" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E2D" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E30" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E31" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E3C" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E3D" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E40" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E41" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E44" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E45" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E4A" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E4B" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E54" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E55" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E56" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E57" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E58" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E59" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E60" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E61" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E68" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E69" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E6A" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E6B" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E70" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E71" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E72" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E73" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E74" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E75" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E76" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E77" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E7C" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E7D" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E86" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E87" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E8A" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E8B" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E8C" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E8D" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E8E" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E8F" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E90" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E91" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E97" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E98" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E99" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E9B" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F07" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F0E" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F0F" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F26" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F27" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F2E" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F2F" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F36" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F37" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F3E" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F3F" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F56" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F57" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F5F" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F66" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F67" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F6E" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F6F" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F86" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F87" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F8E" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F8F" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F96" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F97" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F9E" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F9F" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FA6" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FA7" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FAE" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FAF" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FB0" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FB6" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FB7" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FB8" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC0" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC1" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC1" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC6" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC7" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FCF" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD0" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD6" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD7" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD7" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD8" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FDF" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE0" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE6" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE7" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE7" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE8" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FF6" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FF7" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni203E" has a legacy accent component (overscore). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uniA788" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni013B.loclMAH" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0145.loclMAH" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Aogonek.loclNAV" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Eogonek.loclNAV" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iogonek.loclNAV" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Uogonek.loclNAV" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iacute.salt" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ibreve.salt" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01CF.salt" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Icircumflex.salt" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Idieresis.salt" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Idotaccent.salt" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Igrave.salt" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iogonek.salt" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iogonek_loclNAV.salt" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Itilde.salt" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1E2C.salt" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Jcircumflex.salt" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uniA73F" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni013C.loclMAH" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0146.loclMAH" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "eogonek.loclNAV" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "iogonek_sc.salt" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "aogonek.sc" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ccedilla.sc" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "eogonek.sc" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "iogonek.sc" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ldot.sc" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "scedilla.sc" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0163.sc" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uogonek.sc" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0407.salt" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0453.loclMKD" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iotadieresis.salt" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F3E.salt" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F3F.salt" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD8.salt" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni212B" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni2E1B" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni2E1A" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0308" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0307" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gravecomb" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "acutecomb" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni030B" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0302" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni030C" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0306" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni030A" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "tildecomb" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0316" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0317" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0324" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0325" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0327" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0328" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni032C" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni032D" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni032E" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0330" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0334" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0340" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0341" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1DCB" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0358" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1DCC" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1AB0" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1AB0" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "kavykaaboverightcmb" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "kavykaaboveleftcmb" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "dotaboveleftcmb" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0328.sc" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "macron.sc" has a legacy accent component (overscore). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0342" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1DD3" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1DD3" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "iogonekdotless" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "itildebelowdotless" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F8E.ad" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F8F.ad" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F9E.ad" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F9F.ad" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FAE.ad" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FAF.ad" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F06.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F07.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FB6.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F86.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F87.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FB7.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F26.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F27.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC6.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F96.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F97.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC7.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F36.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F37.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD6.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD7.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FD7.sc.ss06" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F56.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F57.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE6.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE7.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FE7.sc.ss06" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F66.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F67.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FF6.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FA6.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FA7.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FF7.sc.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F86.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F87.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FB7.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F96.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1F97.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC7.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FA6.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FA7.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FF7.sc.ad.ss06" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FCF.case" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FDF.case" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC1.case" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC1.case" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC0.case" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FCF.sc" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FDF.sc" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC1.sc" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC1.sc" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1FC0.sc" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1ACB" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1ACB" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni1ACB" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- ayvowelsigndeva
-
-	- binducandradeva
-
-	- candralongevowelsigndeva
-
-	- oevowelsigndeva
-
-	- uevowelsigndeva
-
-	- uni0901
-
-	- uni0902
-
-	- uni093C
-
-	- uni0941
-
-	- uni0942
-
-	- uni0943
-
-	- uni0944
-
-	- uni0945
-
-	- uni0946
-
-	- uni0947
-
-	- uni0948
-
-	- uni094D
-
-	- uni0951
-
-	- uni0952
-
-	- uni0953
-
-	- uni0954
-
-	- uni0962
-
-	- uni0963
-
-	- uuevowelsigndeva [code: unattached-dotted-circle-marks]
+	- uni093C [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -1566,7 +2836,7 @@ Failed to sanitize file!
  * U+02C3 MODIFIER LETTER RIGHT ARROWHEAD: not included in any glyphset definition
  * U+02C4 MODIFIER LETTER UP ARROWHEAD: not included in any glyphset definition
  * U+02C5 MODIFIER LETTER DOWN ARROWHEAD: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
@@ -1583,9 +2853,9 @@ Failed to sanitize file!
  * U+02D5 MODIFIER LETTER DOWN TACK: not included in any glyphset definition
  * U+02D6 MODIFIER LETTER PLUS SIGN: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02DE MODIFIER LETTER RHOTIC HOOK: not included in any glyphset definition
  * U+02DF MODIFIER LETTER CROSS ACCENT: not included in any glyphset definition
@@ -1621,10 +2891,10 @@ Failed to sanitize file!
  * U+02FD MODIFIER LETTER SHELF: not included in any glyphset definition
  * U+02FE MODIFIER LETTER OPEN SHELF: not included in any glyphset definition
  * U+02FF MODIFIER LETTER LOW LEFT ARROW: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee
- * U+0305 COMBINING OVERLINE: try adding one of: coptic, gothic, glagolitic, elbasan, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tai-le, old-permic, math, canadian-aboriginal, tifinagh, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0305 COMBINING OVERLINE: try adding one of: glagolitic, math, gothic, elbasan, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, math, syriac, old-permic, coptic, tifinagh, tai-le, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -1650,7 +2920,7 @@ Failed to sanitize file!
  * U+0320 COMBINING MINUS SIGN BELOW: try adding syriac
  * U+0321 COMBINING PALATALIZED HOOK BELOW: not included in any glyphset definition
  * U+0322 COMBINING RETROFLEX HOOK BELOW: not included in any glyphset definition
- * U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee
+ * U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac
  * U+0325 COMBINING RING BELOW: try adding syriac
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -1661,8 +2931,8 @@ Failed to sanitize file!
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
- * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, cherokee, syriac, caucasian-albanian
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, syriac, gothic, caucasian-albanian, tifinagh
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0333 COMBINING DOUBLE LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
@@ -2015,9 +3285,9 @@ Failed to sanitize file!
  * U+2007 FIGURE SPACE: not included in any glyphset definition
  * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
  * U+200A HAIR SPACE: not included in any glyphset definition
- * U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, thaana, syriac, nko
- * U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, thaana, syriac, nko
- * U+2010 HYPHEN: try adding one of: coptic, cham, syloti-nagri, lisu, kayah-li, sundanese, kharoshthi, kaithi, yi, sora-sompeng
+ * U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, nko, thaana, phags-pa
+ * U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, nko, thaana, phags-pa
+ * U+2010 HYPHEN: try adding one of: kaithi, syloti-nagri, yi, cham, kharoshthi, coptic, sundanese, lisu, sora-sompeng, kayah-li
  * U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, yi
  * U+2012 FIGURE DASH: not included in any glyphset definition
  * U+2015 HORIZONTAL BAR: try adding adlam
@@ -2078,7 +3348,7 @@ Failed to sanitize file!
  * U+205A TWO DOT PUNCTUATION: try adding one of: old-hungarian, old-turkic
  * U+205B FOUR DOT MARK: not included in any glyphset definition
  * U+205C DOTTED CROSS: not included in any glyphset definition
- * U+205D TRICOLON: try adding one of: meroitic, old-hungarian
+ * U+205D TRICOLON: try adding one of: old-hungarian, meroitic
  * U+205E VERTICAL FOUR DOTS: try adding old-hungarian
  * U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition
  * U+2060 WORD JOINER: not included in any glyphset definition
@@ -2282,7 +3552,7 @@ Failed to sanitize file!
  * U+2E2E REVERSED QUESTION MARK: not included in any glyphset definition
  * U+2E2F VERTICAL TILDE: not included in any glyphset definition
  * U+2E30 RING POINT: try adding avestan
- * U+2E31 WORD SEPARATOR MIDDLE DOT: try adding one of: avestan, old-hungarian, samaritan
+ * U+2E31 WORD SEPARATOR MIDDLE DOT: try adding one of: old-hungarian, samaritan, avestan
  * U+2E32 TURNED COMMA: not included in any glyphset definition
  * U+2E33 RAISED DOT: try adding coptic
  * U+2E34 RAISED COMMA: try adding coptic
@@ -2427,7 +3697,7 @@ Failed to sanitize file!
  * U+FB04 LATIN SMALL LIGATURE FFL: not included in any glyphset definition
  * U+FB05 LATIN SMALL LIGATURE LONG S T: not included in any glyphset definition
  * U+FB06 LATIN SMALL LIGATURE ST: not included in any glyphset definition
- * U+FE00 VARIATION SELECTOR-1: try adding one of: manichaean, phags-pa, yi
+ * U+FE00 VARIATION SELECTOR-1: try adding one of: manichaean, yi, phags-pa
  * U+FE20 COMBINING LIGATURE LEFT HALF: try adding caucasian-albanian
  * U+FE21 COMBINING LIGATURE RIGHT HALF: try adding caucasian-albanian
  * U+FE22 COMBINING DOUBLE TILDE LEFT HALF: try adding caucasian-albanian
@@ -2538,7 +3808,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
 
 
-* ⚠ **WARN** Font file is 2.6Mb; ideally it should be less than 1.0Mb [code: large-font]
+* ⚠ **WARN** Font file is 2.5Mb; ideally it should be less than 1.0Mb [code: large-font]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -2684,6 +3954,14 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- _Comp_candraBindudeva.02
+
+	- _Comp_nga_Shortdeva
+
+	- _Comp_nukta_rakar_matradeva
+
+	- _Comp_rakar_matradeva
+
 	- dasiaoxia_macronmod
 
 	- dasiavaria_macronmod
@@ -2807,23 +4085,21 @@ kavykawithkavykaaboveinvertedlow [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee9328fa90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee9328fd50>
+* ⚠ **WARN** Interpolation issues were found in the font:
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee9328fa90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee938fcd90>
+	- Contour 0 start point differs in glyph 'theta' between location wght=900,wdth=100 and location wght=100,wdth=62
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee9328fa90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee938fcf50>
+	- Contour 0 start point differs in glyph 'uni1DBF' between location wght=900,wdth=100 and location wght=100,wdth=62
 
-	- Contour 1 start point differs in glyph 'uni213A' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee9328fa90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee938fd1d0>
+	- Contour 1 start point differs in glyph 'onarrowcy' between location wght=400,wdth=62 and location wght=100,wdth=100
 
-	- Contour 1 start point differs in glyph 'omegaroundcy' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee9328fa90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee938fd1d0>
+	- Contour 1 start point differs in glyph 'omegaroundcy' between location wght=704,wdth=62 and location wght=900,wdth=62
 
-	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee9328fa90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee938fd1d0>
+	- Contour 1 start point differs in glyph 'uni213A' between location wght=400,wdth=100 and location wght=400,wdth=62
 
-	- Contour 0 start point differs in glyph 'uni1DBF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee9328fa90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee938fcc90>
+	- Contour 1 start point differs in glyph 'uni213A' between location wght=400,wdth=62 and location wght=100,wdth=100
 
-	- Contour 0 start point differs in glyph 'theta' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee9328fa90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee938fcc90>
-
-	- Contour 2 start point differs in glyph 'zero.slash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee9328fa90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fee938fd1d0> [code: interpolation-issues]
+	- Contour 1 start point differs in glyph 'uni213A' between location wght=900,wdth=100 and location wght=100,wdth=62 [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -2840,29 +4116,19 @@ minus
 * ⚠ **WARN** Lcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 * ⚠ **WARN** lcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 * ⚠ **WARN** tcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
-</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
-
-
-* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 uni0903 (U+0903) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
 	 ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A (U+031A) [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+0903 [code: non-mark-chars]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 6 | 27 | 183 | 17 | 248 | 0 |
-| 0% | 1% | 6% | 38% | 4% | 52% | 0% |
+| 0 | 11 | 23 | 188 | 17 | 253 | 0 |
+| 0% | 2% | 5% | 38% | 3% | 51% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
