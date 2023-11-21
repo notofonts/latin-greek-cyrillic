@@ -3895,7 +3895,7 @@ languagesystem latn IPPH;
 languagesystem latn APPH;
 languagesystem cyrl SRB;
 languagesystem cyrl MKD;
-languagesystem dev2 dflt; # At least when the subset is added";
+";
 name = Languagesystems;
 }
 );
