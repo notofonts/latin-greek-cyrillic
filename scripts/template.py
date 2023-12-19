@@ -80,11 +80,18 @@ for family in glob("fonts/*"):
             "name": "Diffenator report, " + Path(result).parent.stem,
             "path": result[4:],
         })
+    proof = []
+    for result in glob(f"out/proof/{basename}/*/*.html"):
+        proof.append({
+            "name": Path(result).parent.stem + ", " + Path(result).stem.replace("diffbrowsers_", ""),
+            "path": result[4:],
+        })
 
     families.append({
         "name": fname,
         "fonttree": fonttree,
         "fontbakery": fontbakery,
+        "proof": proof,
         "diffenator": diffenator
     })
 
