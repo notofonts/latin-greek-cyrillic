@@ -1,5 +1,6 @@
 {
 category = "";
+color = 10;
 export = 0;
 glyphname = caroncommaaccent;
 layers = (
@@ -67,7 +68,34 @@ nodes = (
 width = 500;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(330.74,760,l),
+(191.28,760,l),
+(186.28,717,o),
+(172.5,651.83,o),
+(161.33,613.22,c),
+(161.33,600,l),
+(249.59,600,l),
+(283.86,653.15,o),
+(310.15,705.85,o),
+(330.74,749.78,c)
+);
+}
+);
+};
+layerId = "a1262fbb-2a0a-4722-8309-b6a9b50486f9";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -107,27 +135,6 @@ nodes = (
 }
 );
 width = 459;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-closed = 1;
-nodes = (
-(278,760,l),
-(151,760,l),
-(149,723,o),
-(137,642,o),
-(131,613,c),
-(131,600,l),
-(215,600,l),
-(240,641,o),
-(265,700,o),
-(278,749,c)
-);
-}
-);
-width = 398;
 },
 {
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";

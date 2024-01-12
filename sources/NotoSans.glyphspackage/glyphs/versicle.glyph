@@ -1,5 +1,6 @@
 {
 category = Symbol;
+color = 10;
 glyphname = versicle;
 layers = (
 {
@@ -66,7 +67,30 @@ ref = V;
 width = 606;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(95.36,-145.61,l),
+(158.9,-145.61,l),
+(437.13,790.29,l),
+(163.64,876.66,l),
+(142.76,815.9,l),
+(359.54,751.8,l)
+);
+}
+);
+};
+layerId = "28d8e815-0ed5-4ba3-8fa2-84dbd3851177";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -106,27 +130,6 @@ ref = V;
 }
 );
 width = 441;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-closed = 1;
-nodes = (
-(66,-145,l),
-(128,-145,l),
-(353,805,l),
-(126,863,l),
-(110,802,l),
-(280,763,l)
-);
-},
-{
-alignment = -1;
-ref = V;
-}
-);
-width = 513;
 },
 {
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";

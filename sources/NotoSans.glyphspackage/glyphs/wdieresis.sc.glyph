@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = wdieresis.sc;
 kernLeft = w.sc;
 kernRight = w.sc;
@@ -90,7 +91,15 @@ name = top;
 pos = (420,772);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "eb1c18ba-b7cd-49e2-9bab-4d4803643410";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -128,31 +137,6 @@ ref = dieresiscomb.sc;
 }
 );
 width = 572;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (338,0);
-},
-{
-name = top;
-pos = (338,796);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-ref = w.sc;
-},
-{
-alignment = -1;
-pos = (110.993,0);
-ref = dieresiscomb.sc;
-}
-);
-width = 676;
 },
 {
 anchors = (

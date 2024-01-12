@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 10;
 glyphname = Omegapsilivariaprosgegrammeni;
 kernLeft = GRK_Omega;
 kernRight = GRK_Omega;
@@ -41,25 +41,6 @@ ref = ypogegrammeni;
 }
 );
 width = 1022;
-},
-{
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
-shapes = (
-{
-alignment = -1;
-pos = (398,0);
-ref = Omega;
-},
-{
-pos = (-21,0);
-ref = psilivaria.case;
-},
-{
-pos = (636,0);
-ref = ypogegrammeni;
-}
-);
-width = 1158;
 },
 {
 layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
@@ -119,7 +100,15 @@ ref = ypogegrammeni;
 width = 791;
 },
 {
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+associatedMasterId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "2f38aadd-c125-4e20-9b16-a64ac5674bc4";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 alignment = -1;

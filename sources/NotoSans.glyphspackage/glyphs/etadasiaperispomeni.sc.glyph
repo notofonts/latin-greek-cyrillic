@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = etadasiaperispomeni.sc;
 kernLeft = GRK_epsilon.sc;
 kernRight = GRK_eta.sc;
@@ -23,7 +23,15 @@ ref = h.sc;
 width = 599;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "4d1c0e6e-4d73-44b4-8f87-433a7b0ca4e4";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = h.sc;
@@ -57,15 +65,6 @@ ref = h.sc;
 }
 );
 width = 430;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-ref = h.sc;
-}
-);
-width = 482;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";

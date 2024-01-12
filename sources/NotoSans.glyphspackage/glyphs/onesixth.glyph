@@ -1,5 +1,6 @@
 {
 category = Number;
+color = 10;
 glyphname = onesixth;
 layers = (
 {
@@ -37,7 +38,15 @@ ref = six.dnom;
 width = 769;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "ade321c6-b8ce-4463-be30-af663ea0df45";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = one.numr;
@@ -105,7 +114,15 @@ ref = six.dnom;
 width = 749;
 },
 {
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+associatedMasterId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "b6019ed0-8137-47f8-a8a6-873212ee3744";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 ref = one.numr;

@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = tilderingabove;
 layers = (
 {
@@ -48,7 +49,15 @@ ref = ring;
 width = 572;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "22a6408a-bc06-48e2-b2bd-7d073cd906c6";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -76,21 +85,6 @@ ref = ring;
 }
 );
 width = 430;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-ref = asciitilde;
-},
-{
-alignment = -1;
-pos = (95,-151);
-ref = ring;
-}
-);
-width = 473;
 },
 {
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";

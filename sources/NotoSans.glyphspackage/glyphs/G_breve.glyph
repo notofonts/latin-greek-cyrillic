@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Gbreve;
 kernLeft = O.right;
 layers = (
@@ -86,7 +87,15 @@ name = top;
 pos = (400,939);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "49ba64bb-ccb3-41f1-9cbe-3f2a0da96974";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -122,30 +131,6 @@ ref = brevecomb;
 }
 );
 width = 545;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (319,0);
-},
-{
-name = top;
-pos = (321,936);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-ref = G;
-},
-{
-pos = (320,167);
-ref = brevecomb;
-}
-);
-width = 574;
 },
 {
 anchors = (

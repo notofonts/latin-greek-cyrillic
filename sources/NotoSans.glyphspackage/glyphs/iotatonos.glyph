@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = iotatonos;
 kernLeft = GRK_iota;
 kernRight = GRK_iota;
@@ -31,7 +31,15 @@ ref = tonos;
 width = 332;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "305d7e42-0421-473b-8ed7-5b1aba6ce312";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = iota;
@@ -81,19 +89,6 @@ ref = tonos;
 }
 );
 width = 238;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-ref = iota;
-},
-{
-pos = (37,0);
-ref = tonos;
-}
-);
-width = 288;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";

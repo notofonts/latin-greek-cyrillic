@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 5;
+color = 10;
 glyphname = dasiaoxia;
 layers = (
 {
@@ -64,25 +64,6 @@ width = 431;
 anchors = (
 {
 name = _top;
-pos = (245,546);
-}
-);
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
-shapes = (
-{
-ref = dasia;
-},
-{
-pos = (215,0);
-ref = oxia;
-}
-);
-width = 509;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (213,537);
 }
 );
@@ -105,7 +86,15 @@ name = _top;
 pos = (240,547);
 }
 );
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+associatedMasterId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "8975bfb7-7ffa-4515-b68b-3309201d2e58";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 alignment = -1;

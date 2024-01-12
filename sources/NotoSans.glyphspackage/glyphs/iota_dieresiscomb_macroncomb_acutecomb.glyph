@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 0;
+color = 10;
 glyphname = iota_dieresiscomb_macroncomb_acutecomb;
 kernLeft = GRK_iota;
 kernRight = GRK_iota;
@@ -45,7 +45,15 @@ ref = acutecomb_macroncomb_dieresiscomb;
 width = 332;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "01e8baa2-4875-4162-8c7c-1abea14a9084";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = iota;
@@ -69,19 +77,6 @@ ref = acutecomb_macroncomb_dieresiscomb;
 }
 );
 width = 238;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-ref = iota;
-},
-{
-pos = (-53,0);
-ref = acutecomb_macroncomb_dieresiscomb;
-}
-);
-width = 288;
 },
 {
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";

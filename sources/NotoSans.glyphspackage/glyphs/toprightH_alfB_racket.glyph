@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = toprightHalfBracket;
 layers = (
 {
@@ -37,7 +38,30 @@ nodes = (
 width = 333;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(260.32,267.29,l),
+(260.32,714,l),
+(25,714,l),
+(25,629.16,l),
+(164.6,629.16,l),
+(164.6,267.29,l)
+);
+}
+);
+};
+layerId = "1c138407-f409-44fe-b309-e32e6706d0f0";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -103,23 +127,6 @@ nodes = (
 }
 );
 width = 312;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-closed = 1;
-nodes = (
-(253,282,l),
-(253,728,l),
-(22,728,l),
-(22,626,l),
-(131,626,l),
-(131,282,l)
-);
-}
-);
-width = 306;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
