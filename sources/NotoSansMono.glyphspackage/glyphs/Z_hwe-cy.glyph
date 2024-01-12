@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "Zhwe-cy";
 layers = (
 {
@@ -52,7 +52,28 @@ ref = "Ka-cy";
 width = 1200;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(708.95,312.95,l),
+(708.95,429.66,l),
+(353.35,429.66,l),
+(353.35,312.95,l)
+);
+}
+);
+};
+layerId = "779fd71b-2285-4541-ba5a-2223f1ba0394";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -148,7 +169,28 @@ ref = "Ka-cy";
 width = 1000;
 },
 {
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(572.85,316.7,l),
+(572.85,425.25,l),
+(303.35,425.25,l),
+(303.35,316.7,l)
+);
+}
+);
+};
+layerId = "a47102a5-7eec-4e9a-8ac7-0323d65fc956";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 closed = 1;

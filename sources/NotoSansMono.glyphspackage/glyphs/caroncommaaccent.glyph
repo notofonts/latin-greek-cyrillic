@@ -1,5 +1,6 @@
 {
 category = "";
+color = 10;
 export = 0;
 glyphname = caroncommaaccent;
 layers = (
@@ -46,27 +47,6 @@ nodes = (
 width = 500;
 },
 {
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(180,600,l),
-(258,600,l),
-(282,640,o),
-(308,704,o),
-(320,752,c),
-(320,760,l),
-(200,760,l),
-(199,724,o),
-(186,636,o),
-(180,608,c)
-);
-}
-);
-width = 500;
-},
-{
 layerId = UUID0;
 shapes = (
 {
@@ -88,7 +68,34 @@ nodes = (
 width = 600;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(219.26,582.06,l),
+(300.81,582.06,l),
+(334.47,633.99,o),
+(361.98,689.52,o),
+(380.74,732.23,c),
+(380.74,742.06,l),
+(249.82,742.06,l),
+(244.82,699.06,o),
+(230.43,630.23,o),
+(219.26,591.62,c)
+);
+}
+);
+};
+layerId = "090e011c-7843-47ce-9980-350ffd6f3b07";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;

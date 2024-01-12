@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = "Ertick-cy";
 layers = (
 {
@@ -71,7 +72,28 @@ name = top;
 pos = (300,714);
 }
 );
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(539.54,222.82,l),
+(349.14,492.74,l),
+(274.01,437.93,l),
+(465.97,168.23,l)
+);
+}
+);
+};
+layerId = "ce0602b8-a39c-453e-b2e7-ce7d5a288a14";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -167,35 +189,6 @@ nodes = (
 (282,465,l),
 (233,439,l),
 (370,198,l)
-);
-},
-{
-alignment = -1;
-ref = P;
-}
-);
-width = 500;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (250,0);
-},
-{
-name = top;
-pos = (250,714);
-}
-);
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(402,196,l),
-(285,481,l),
-(214,454,l),
-(332,168,l)
 );
 },
 {

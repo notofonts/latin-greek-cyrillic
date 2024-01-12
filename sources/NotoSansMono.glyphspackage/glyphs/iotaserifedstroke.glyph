@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = iotaserifedstroke;
 layers = (
 {
@@ -41,7 +42,28 @@ ref = iotaserifed;
 width = 600;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(471.64,231.07,l),
+(471.64,336.9,l),
+(127.75,336.9,l),
+(127.75,231.07,l)
+);
+}
+);
+};
+layerId = "a11a628a-99e2-40a3-b239-e5366786436d";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -117,7 +139,28 @@ ref = iotaserifed;
 width = 500;
 },
 {
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(441.69,231.8,l),
+(441.69,326.74,l),
+(58.92,326.74,l),
+(58.92,231.8,l)
+);
+}
+);
+};
+layerId = "e952a156-cab5-417a-9a3b-b5e041c79ffd";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 closed = 1;

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = eshpalatalhook;
 layers = (
 {
@@ -45,31 +46,6 @@ ref = esh;
 {
 alignment = -1;
 pos = (160,0);
-ref = cyrillicbighooklc;
-}
-);
-width = 600;
-},
-{
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
-shapes = (
-{
-closed = 1;
-nodes = (
-(423,0,l),
-(423,114,l),
-(268,114,l),
-(268,0,l)
-);
-},
-{
-alignment = -1;
-pos = (-87,0);
-ref = esh;
-},
-{
-alignment = -1;
-pos = (126,0);
 ref = cyrillicbighooklc;
 }
 );
@@ -152,7 +128,28 @@ ref = cyrillicbighooklc;
 width = 500;
 },
 {
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(375.36,0,l),
+(375.36,110.43,l),
+(229.29,110.43,l),
+(229.29,0,l)
+);
+}
+);
+};
+layerId = "c7bbb658-f2f5-4302-b8b8-5a0def3a163b";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 closed = 1;

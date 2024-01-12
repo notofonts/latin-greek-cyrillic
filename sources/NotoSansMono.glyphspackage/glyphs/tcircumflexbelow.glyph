@@ -56,31 +56,6 @@ width = 600;
 anchors = (
 {
 name = bottom;
-pos = (367,-229);
-},
-{
-name = top;
-pos = (269,682);
-}
-);
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
-shapes = (
-{
-alignment = -1;
-ref = t;
-},
-{
-alignment = -1;
-pos = (366,0);
-ref = circumflexbelowcomb;
-}
-);
-width = 600;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (356,-229);
 },
 {
@@ -147,31 +122,6 @@ ref = t;
 {
 alignment = -1;
 pos = (323,0);
-ref = circumflexbelowcomb;
-}
-);
-width = 500;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (306,-229);
-},
-{
-name = top;
-pos = (229,682);
-}
-);
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-alignment = -1;
-ref = t;
-},
-{
-alignment = -1;
-pos = (308,0);
 ref = circumflexbelowcomb;
 }
 );

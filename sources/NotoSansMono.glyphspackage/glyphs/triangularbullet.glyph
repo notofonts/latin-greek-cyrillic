@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = triangularbullet;
 layers = (
 {
@@ -31,7 +32,27 @@ nodes = (
 width = 600;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(469.22,373,l),
+(130.17,572.49,l),
+(130.17,172.51,l)
+);
+}
+);
+};
+layerId = "5cac7a82-9aa1-40f5-8a66-a9075918f96c";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -87,7 +108,27 @@ nodes = (
 width = 500;
 },
 {
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(416.5,373,l),
+(83.11,570.43,l),
+(83.11,174.57,l)
+);
+}
+);
+};
+layerId = "cd743989-77ef-4ae1-b942-5b59b6609b96";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 closed = 1;

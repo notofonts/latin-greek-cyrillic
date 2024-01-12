@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = upsilonstroke;
 layers = (
 {
@@ -43,7 +44,28 @@ ref = "upsilon-latin";
 width = 600;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(600,223.07,l),
+(600,319.91,l),
+(0,319.91,l),
+(0,223.07,l)
+);
+}
+);
+};
+layerId = "4450abe4-8ba6-4463-824e-c6674388d713";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -115,26 +137,6 @@ nodes = (
 },
 {
 alignment = -1;
-ref = "upsilon-latin";
-}
-);
-width = 500;
-},
-{
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(500,228,l),
-(500,319,l),
-(-1,319,l),
-(-1,228,l)
-);
-},
-{
-alignment = -1;
-pos = (-2,0);
 ref = "upsilon-latin";
 }
 );
