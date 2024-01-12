@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = kaiSymbol.sc;
 kernLeft = GRK_epsilon.sc;
 kernRight = GRK_kappa.sc;
@@ -64,7 +65,40 @@ ref = k.sc;
 width = 586;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(355.24,-249.28,o),
+(526.82,-125.28,o),
+(585.96,0,c),
+(540.58,-0.42,l),
+(455.78,-130.88,o),
+(335.5,-183.96,o),
+(239.02,-183.96,cs),
+(133.6,-183.96,o),
+(113.98,-103.68,o),
+(110.92,-40.9,c),
+(49.44,-40.9,o),
+(18.86,-77.32,o),
+(12.86,-119.22,cs),
+(2.28,-194.38,o),
+(66.06,-249.28,o),
+(176.7,-249.28,cs)
+);
+}
+);
+};
+layerId = "05ce88ab-a473-4af8-88b4-0610c8247905";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -185,7 +219,40 @@ ref = k.sc;
 width = 483;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(337,-244.16,o),
+(453.44,-116.9,o),
+(489.62,0,c),
+(440.08,0.42,l),
+(386.4,-136.32,o),
+(291.38,-179.3,o),
+(191.42,-179.3,cs),
+(93.9,-179.3,o),
+(76.96,-105.9,o),
+(76.92,-47.3,c),
+(15.78,-48.46,o),
+(-15.12,-80.52,o),
+(-21.28,-124.32,cs),
+(-30.54,-189.62,o),
+(14.54,-244.16,o),
+(146.88,-244.16,cs)
+);
+}
+);
+};
+layerId = "4b1df574-1880-43ec-8f15-13300cd69122";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 closed = 1;

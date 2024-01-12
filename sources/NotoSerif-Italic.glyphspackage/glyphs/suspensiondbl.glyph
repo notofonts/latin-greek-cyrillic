@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = suspensiondbl;
 layers = (
 {
@@ -49,30 +50,6 @@ nodes = (
 }
 );
 width = 314;
-},
-{
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-closed = 1;
-nodes = (
-(433,649,l),
-(340,771,l),
-(106,580,l),
-(143,527,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(308,59,l),
-(215,181,l),
-(-19,-10,l),
-(18,-63,l)
-);
-}
-);
-width = 392;
 },
 {
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
@@ -147,7 +124,37 @@ nodes = (
 width = 307;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(407.3,670.16,l),
+(325,771.22,l),
+(105.78,574.7,l),
+(140.22,530.94,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(280.1,72.78,l),
+(197.8,173.84,l),
+(-21.42,-22.68,l),
+(13.02,-66.44,l)
+);
+}
+);
+};
+layerId = "7b3aff74-0e1b-4741-9c58-228f9f926d45";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 closed = 1;

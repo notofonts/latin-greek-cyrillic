@@ -54,28 +54,6 @@ pos = (60,536);
 },
 {
 name = top;
-pos = (124,838);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-alignment = -1;
-pos = (-18,620);
-ref = "ge-cy";
-scale = (0.45,0.4);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (60,536);
-},
-{
-name = top;
 pos = (124,839);
 }
 );
@@ -128,28 +106,6 @@ shapes = (
 {
 alignment = -1;
 pos = (9,620);
-ref = "ge-cy";
-scale = (0.45,0.4);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (64,536);
-},
-{
-name = top;
-pos = (128,838);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-pos = (3,620);
 ref = "ge-cy";
 scale = (0.45,0.4);
 }

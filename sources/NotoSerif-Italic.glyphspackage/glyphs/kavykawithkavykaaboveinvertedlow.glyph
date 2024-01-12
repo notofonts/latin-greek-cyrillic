@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = kavykawithkavykaaboveinvertedlow;
 layers = (
 {
@@ -33,7 +34,15 @@ ref = kavykainvertedlow;
 width = 389;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "68e5dfe0-a2f1-40c3-8c4c-68c39ecc5236";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 pos = (-22,-100);
@@ -93,7 +102,15 @@ ref = kavykainvertedlow;
 width = 325;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "0e35b91e-a1e4-491a-8720-da0b4be2c31c";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 pos = (-18,-100);

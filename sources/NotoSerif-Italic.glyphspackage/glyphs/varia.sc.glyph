@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = varia.sc;
 layers = (
 {
@@ -22,7 +23,15 @@ ref = varia;
 width = 259;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "7f915f52-3987-40d2-aa14-f5eccbd90cbc";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = 1;
@@ -60,16 +69,6 @@ ref = varia;
 }
 );
 width = 244;
-},
-{
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = 1;
-ref = varia;
-}
-);
-width = 261;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";

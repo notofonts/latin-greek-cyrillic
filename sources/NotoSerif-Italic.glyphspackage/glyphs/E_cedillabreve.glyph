@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Ecedillabreve;
 layers = (
 {
@@ -63,7 +64,15 @@ name = top;
 pos = (457,928);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "b3003d3a-9801-4d92-93ba-888f57e79442";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -151,31 +160,6 @@ ref = breve;
 }
 );
 width = 505;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (155,-240);
-},
-{
-name = top;
-pos = (402,922);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = Ecedilla;
-},
-{
-alignment = -1;
-pos = (132,165);
-ref = breve;
-}
-);
-width = 526;
 },
 {
 anchors = (

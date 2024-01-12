@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 10;
 glyphname = ypogegrammenicomb;
 layers = (
 {
@@ -16,21 +17,6 @@ ref = ypogegrammeni;
 }
 );
 width = 274;
-},
-{
-anchors = (
-{
-name = _bottom;
-pos = (112,0);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-ref = ypogegrammeni;
-}
-);
-width = 305;
 },
 {
 anchors = (
@@ -114,7 +100,15 @@ name = _bottom;
 pos = (112,0);
 }
 );
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "a4e167d9-e0e1-4338-8e5d-cac3957db994";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = ypogegrammeni;

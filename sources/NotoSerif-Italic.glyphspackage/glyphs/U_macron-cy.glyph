@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "Umacron-cy";
 kernLeft = "U-cy";
 kernRight = "U-cy";
@@ -66,7 +66,15 @@ name = top;
 pos = (484,850);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "fcd3327c-7280-490a-b35d-3332224ba923";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -154,31 +162,6 @@ ref = macronmod;
 }
 );
 width = 528;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (226,0);
-},
-{
-name = top;
-pos = (426,847);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = "U-cy";
-},
-{
-alignment = -1;
-pos = (188,168);
-ref = macronmod;
-}
-);
-width = 572;
 },
 {
 anchors = (

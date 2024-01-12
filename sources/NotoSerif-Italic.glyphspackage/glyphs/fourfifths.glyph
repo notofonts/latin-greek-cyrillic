@@ -1,5 +1,6 @@
 {
 category = Number;
+color = 10;
 glyphname = fourfifths;
 layers = (
 {
@@ -43,7 +44,15 @@ ref = five.dnom;
 width = 922;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "871d8a9d-1855-48e6-adb0-4c891ca79548";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -121,26 +130,6 @@ ref = five.dnom;
 }
 );
 width = 750;
-},
-{
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = four.numr;
-},
-{
-alignment = -1;
-pos = (403,0);
-ref = fraction;
-},
-{
-alignment = -1;
-pos = (454,0);
-ref = five.dnom;
-}
-);
-width = 777;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Edotbelow;
 kernLeft = B;
 kernRight = E;
@@ -65,7 +66,15 @@ name = top;
 pos = (412,714);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "fb7596d1-5fab-4057-8f2f-a25a473b5b7c";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -153,31 +162,6 @@ ref = dotbelowcomb;
 }
 );
 width = 505;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (163,-203);
-},
-{
-name = top;
-pos = (358,714);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = E;
-},
-{
-alignment = -1;
-pos = (507,0);
-ref = dotbelowcomb;
-}
-);
-width = 526;
 },
 {
 anchors = (

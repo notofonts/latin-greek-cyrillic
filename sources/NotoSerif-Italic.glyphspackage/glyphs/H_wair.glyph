@@ -46,26 +46,6 @@ width = 1039;
 anchors = (
 {
 name = bottom;
-pos = (513,0);
-},
-{
-name = top;
-pos = (665,714);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-alignment = -1;
-ref = "Kominje-cy";
-}
-);
-width = 1139;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (550,0);
 },
 {
@@ -121,26 +101,6 @@ ref = "Kominje-cy";
 }
 );
 width = 853;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (412,0);
-},
-{
-name = top;
-pos = (564,714);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = "Kominje-cy";
-}
-);
-width = 938;
 },
 {
 anchors = (
