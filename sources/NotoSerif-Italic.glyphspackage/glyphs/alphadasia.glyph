@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = alphadasia;
 kernLeft = GRK_omicron;
 kernRight = GRK_alpha;
@@ -30,7 +31,15 @@ ref = dasia;
 width = 638;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "b3f64db1-cc82-4104-915c-cf7d9649d20d";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = alpha;
@@ -82,7 +91,15 @@ ref = dasia;
 width = 543;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "5b8f1247-cc20-4bc3-940e-8ca854126b78";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = alpha;

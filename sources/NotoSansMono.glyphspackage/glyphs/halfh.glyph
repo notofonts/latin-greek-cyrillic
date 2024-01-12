@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = halfh;
 layers = (
 {
@@ -71,7 +72,32 @@ name = top;
 pos = (340,546);
 }
 );
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(287.53,0,l),
+(287.53,223.75,l),
+(512.54,223.75,l),
+(512.54,332.52,l),
+(287.53,332.52,l),
+(287.53,546.37,l),
+(147.07,546.37,l),
+(147.07,0,l)
+);
+}
+);
+};
+layerId = "c040c44a-1287-415c-ae94-d3bca20e0527";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -171,35 +197,6 @@ nodes = (
 (236,537,l),
 (155,537,l),
 (155,0,l)
-);
-}
-);
-width = 500;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (271,0);
-},
-{
-name = top;
-pos = (271,546);
-}
-);
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(263,0,l),
-(263,226,l),
-(406,226,l),
-(406,337,l),
-(263,337,l),
-(263,547,l),
-(133,547,l),
-(133,0,l)
 );
 }
 );

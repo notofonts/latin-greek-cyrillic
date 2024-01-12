@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 5;
+color = 10;
 glyphname = psilioxia_macronmod;
 layers = (
 {
@@ -44,27 +44,6 @@ ref = psilioxia;
 }
 );
 width = 409;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (296,546);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-pos = (36,0);
-ref = macronmod;
-},
-{
-alignment = -1;
-pos = (28,133);
-ref = psilioxia;
-}
-);
-width = 498;
 },
 {
 anchors = (
@@ -136,7 +115,15 @@ name = _top;
 pos = (296,545);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "485916b4-1684-43e2-85a6-5c25fb5af21a";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 pos = (54,0);

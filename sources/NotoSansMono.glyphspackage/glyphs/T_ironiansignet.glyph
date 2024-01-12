@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = Tironiansignet;
 layers = (
 {
@@ -38,7 +39,31 @@ nodes = (
 width = 600;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(305.24,0,l),
+(553.88,621.41,l),
+(553.88,714,l),
+(70.91,714,l),
+(70.91,610.22,l),
+(431.34,610.22,l),
+(180.19,0,l)
+);
+}
+);
+};
+layerId = "6450b807-be03-46c2-bcc5-430925c82200";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -110,7 +135,31 @@ nodes = (
 width = 500;
 },
 {
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(251.94,0,l),
+(454.32,634.82,l),
+(454.32,714,l),
+(62.07,714,l),
+(62.07,611.18,l),
+(325.96,611.18,l),
+(118.92,0,l)
+);
+}
+);
+};
+layerId = "7d4c744c-b504-4c03-815d-0e936250f76f";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 closed = 1;

@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = aa.pcap;
 layers = (
 {
@@ -28,7 +29,15 @@ ref = Asmall;
 width = 881;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "f39eb387-54b1-4a3e-aad0-e7e1f7d4ceb0";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = Asmall;
@@ -80,7 +89,15 @@ ref = Asmall;
 width = 623;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "355ab796-366d-43ed-b886-428040a30ca9";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = Asmall;

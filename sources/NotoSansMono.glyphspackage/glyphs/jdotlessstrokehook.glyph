@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = jdotlessstrokehook;
 layers = (
 {
@@ -71,7 +72,28 @@ name = top;
 pos = (364,760);
 }
 );
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(503.13,240.07,l),
+(503.13,355.6,l),
+(94.26,355.6,l),
+(94.26,240.07,l)
+);
+}
+);
+};
+layerId = "13168b49-6ea4-4de3-b7a3-13770f454bde";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -167,35 +189,6 @@ nodes = (
 (404,323,l),
 (89,323,l),
 (89,261,l)
-);
-},
-{
-alignment = -1;
-ref = esh;
-}
-);
-width = 500;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (189,-240);
-},
-{
-name = top;
-pos = (324,767);
-}
-);
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(455,244,l),
-(455,339,l),
-(56,339,l),
-(56,244,l)
 );
 },
 {

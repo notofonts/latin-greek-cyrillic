@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = upsilondasiaoxia;
 kernLeft = GRK_upsilon;
 kernRight = GRK_upsilon;
@@ -31,7 +31,15 @@ ref = dasiaoxia;
 width = 572;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "236ae4bd-ce4f-496d-82d5-fc0b341208d8";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = upsilon;
@@ -83,7 +91,15 @@ ref = dasiaoxia;
 width = 399;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "16309034-0341-40a7-b067-ffa97985c0e5";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = upsilon;

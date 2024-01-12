@@ -1,5 +1,6 @@
 {
 category = Symbol;
+color = 10;
 glyphname = lowdownarrowheadmod;
 layers = (
 {
@@ -39,7 +40,31 @@ nodes = (
 width = 413;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(108.75,-240,l),
+(286.99,-18,l),
+(210.48,-18,l),
+(99.19,-152,l),
+(46.68,-18,l),
+(-22.22,-18,l),
+(63.41,-240,l)
+);
+}
+);
+};
+layerId = "dffdad9e-1e5b-466d-b61c-ddb2096c2628";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -109,24 +134,6 @@ nodes = (
 }
 );
 width = 299;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-closed = 1;
-nodes = (
-(75,-229,l),
-(224,-24,l),
-(166,-24,l),
-(70,-158,l),
-(30,-24,l),
-(-23,-24,l),
-(41,-229,l)
-);
-}
-);
-width = 327;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";

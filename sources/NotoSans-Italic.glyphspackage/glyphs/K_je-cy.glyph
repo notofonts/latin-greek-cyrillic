@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 10;
 glyphname = "Kje-cy";
 kernLeft = "En-cy";
 kernRight = "Zhe-cy";
@@ -40,6 +40,13 @@ name = top;
 pos = (509,934);
 }
 );
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
 background = {
 shapes = (
 {
@@ -52,7 +59,8 @@ ref = acute;
 }
 );
 };
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+layerId = "43335fa8-348c-4d21-8690-8e73d4099c66";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -196,30 +204,6 @@ ref = acutecomb.loclCYR;
 }
 );
 width = 563;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (203,0);
-},
-{
-name = top;
-pos = (459,934);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-ref = "Ka-cy";
-},
-{
-pos = (201,168);
-ref = acutecomb.loclCYR;
-}
-);
-width = 492.39;
 }
 );
 metricLeft = "Ka-cy";

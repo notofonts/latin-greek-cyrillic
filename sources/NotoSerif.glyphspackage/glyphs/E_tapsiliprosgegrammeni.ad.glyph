@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = Etapsiliprosgegrammeni.ad;
 kernLeft = GRK_Epsilontonos;
 kernRight = GRK_iota;
@@ -40,7 +41,15 @@ ref = prosgegrammeni;
 width = 1204;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "49d0557c-7fbe-47d8-a392-050c56964611";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (140,0);
@@ -112,7 +121,15 @@ ref = prosgegrammeni;
 width = 1044;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "65725f25-6809-4065-bbd0-b60b950b6cb1";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 pos = (128,0);

@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "Elhook-cy";
 kernLeft = cyr_El;
 layers = (
@@ -151,6 +151,13 @@ ref = "El-cy";
 width = 730;
 },
 {
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
 background = {
 shapes = (
 {
@@ -210,7 +217,8 @@ ref = cyrillicbighookUC;
 }
 );
 };
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+layerId = "b127b07f-564f-4749-a3f2-e914d29559cc";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (517,0);
@@ -439,6 +447,13 @@ ref = "El-cy";
 width = 606;
 },
 {
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
 background = {
 shapes = (
 {
@@ -498,7 +513,8 @@ ref = cyrillicbighookUC;
 }
 );
 };
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+layerId = "37322001-b73b-475e-a1c6-38f5877c345e";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 pos = (440,0);

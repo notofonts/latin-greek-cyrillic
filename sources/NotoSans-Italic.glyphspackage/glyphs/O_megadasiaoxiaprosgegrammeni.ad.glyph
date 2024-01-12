@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 10;
 glyphname = Omegadasiaoxiaprosgegrammeni.ad;
 kernLeft = GRK_Omega;
 kernRight = GRK_iota;
@@ -47,7 +47,15 @@ ref = prosgegrammeni;
 width = 1329;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "cf943a55-f61e-4155-b124-46ba48dc2404";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -131,7 +139,15 @@ ref = prosgegrammeni;
 width = 1061;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "91c3478a-e8da-4eaf-9184-8f4e2dd61c22";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

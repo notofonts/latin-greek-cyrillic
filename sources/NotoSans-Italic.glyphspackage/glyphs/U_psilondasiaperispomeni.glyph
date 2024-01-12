@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 10;
 glyphname = Upsilondasiaperispomeni;
 kernLeft = GRK_Upsilon;
 kernRight = GRK_Upsilon;
@@ -37,7 +37,15 @@ ref = dasiaperispomeni.case;
 width = 929;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "889f1cb2-5c7b-4498-830d-94a06dedfe9b";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -99,22 +107,6 @@ ref = dasiaperispomeni.case;
 }
 );
 width = 700;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-pos = (395,0);
-ref = Upsilon;
-},
-{
-alignment = -1;
-pos = (-30,0);
-ref = dasiaperispomeni.case;
-}
-);
-width = 820;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";

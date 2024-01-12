@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = "Hadescender-cy";
 layers = (
 {
@@ -75,7 +76,30 @@ name = top;
 pos = (300,714);
 }
 );
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(587.37,-208.74,l),
+(587.37,127.58,l),
+(441.96,127.58,l),
+(452.33,0,l),
+(463.55,0,l),
+(463.55,-208.74,l)
+);
+}
+);
+};
+layerId = "5c936e24-67f9-4a54-87ca-32a19757ee2f";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -179,37 +203,6 @@ nodes = (
 (398,0,l),
 (411,0,l),
 (411,-193,l)
-);
-},
-{
-alignment = -1;
-ref = X;
-}
-);
-width = 500;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (250,-209);
-},
-{
-name = top;
-pos = (250,714);
-}
-);
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(497,-211,l),
-(497,119,l),
-(364,119,l),
-(364,0,l),
-(376,0,l),
-(376,-211,l)
 );
 },
 {

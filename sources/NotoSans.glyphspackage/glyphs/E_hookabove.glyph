@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Ehookabove;
 kernRight = E.left;
 layers = (
@@ -62,7 +63,15 @@ name = top;
 pos = (301,995);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "96f0821b-6799-4886-8adb-262b1b9661c4";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -146,30 +155,6 @@ ref = hookabovecomb;
 }
 );
 width = 402;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (228,0);
-},
-{
-name = top;
-pos = (224,996);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-ref = E;
-},
-{
-pos = (491,167);
-ref = hookabovecomb;
-}
-);
-width = 427;
 },
 {
 anchors = (

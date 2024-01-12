@@ -126,66 +126,6 @@ width = 0;
 anchors = (
 {
 name = _top;
-pos = (0,546);
-}
-);
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
-shapes = (
-{
-alignment = -1;
-pos = (-422,-187);
-ref = X;
-scale = (0.296,0.296);
-},
-{
-alignment = -1;
-pos = (219,-187);
-ref = X;
-scale = (0.296,0.296);
-},
-{
-alignment = -1;
-pos = (-563,175);
-ref = X;
-scale = (0.296,0.296);
-},
-{
-alignment = -1;
-pos = (-96,-297);
-ref = X;
-scale = (0.296,0.296);
-},
-{
-alignment = -1;
-pos = (364,175);
-ref = X;
-scale = (0.296,0.296);
-},
-{
-alignment = -1;
-pos = (-422,527);
-ref = X;
-scale = (0.296,0.296);
-},
-{
-alignment = -1;
-pos = (219,527);
-ref = X;
-scale = (0.296,0.296);
-},
-{
-alignment = -1;
-pos = (-96,625);
-ref = X;
-scale = (0.296,0.296);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (0,553);
 }
 );
@@ -356,66 +296,6 @@ scale = (0.296,0.296);
 {
 alignment = -1;
 pos = (-55,625);
-ref = X;
-scale = (0.296,0.296);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (0,547);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-pos = (-347,-187);
-ref = X;
-scale = (0.296,0.296);
-},
-{
-alignment = -1;
-pos = (202,-187);
-ref = X;
-scale = (0.296,0.296);
-},
-{
-alignment = -1;
-pos = (-494,175);
-ref = X;
-scale = (0.296,0.296);
-},
-{
-alignment = -1;
-pos = (-67,-297);
-ref = X;
-scale = (0.296,0.296);
-},
-{
-alignment = -1;
-pos = (353,175);
-ref = X;
-scale = (0.296,0.296);
-},
-{
-alignment = -1;
-pos = (-347,527);
-ref = X;
-scale = (0.296,0.296);
-},
-{
-alignment = -1;
-pos = (202,527);
-ref = X;
-scale = (0.296,0.296);
-},
-{
-alignment = -1;
-pos = (-67,625);
 ref = X;
 scale = (0.296,0.296);
 }

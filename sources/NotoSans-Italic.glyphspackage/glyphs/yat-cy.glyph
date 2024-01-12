@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = "yat-cy";
 kernRight = "hardsign-cy";
 layers = (
@@ -40,25 +41,6 @@ ref = sakhayat;
 }
 );
 width = 835;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (244,0);
-},
-{
-name = top;
-pos = (381,644);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-ref = sakhayat;
-}
-);
-width = 853;
 },
 {
 anchors = (
@@ -128,7 +110,15 @@ name = top;
 pos = (303,644);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "1b53a89e-39b6-4d86-b26e-01ea7ef8167a";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = sakhayat;

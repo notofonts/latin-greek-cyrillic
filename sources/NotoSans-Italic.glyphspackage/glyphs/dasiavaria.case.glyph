@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 10;
 glyphname = dasiavaria.case;
 layers = (
 {
@@ -45,28 +45,6 @@ ref = dasiavaria;
 }
 );
 width = 467;
-},
-{
-anchors = (
-{
-name = _topleft;
-pos = (599,714);
-}
-);
-guides = (
-{
-angle = 78;
-pos = (570,577);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-pos = (-13,-62);
-ref = dasiavaria;
-}
-);
-width = 545;
 },
 {
 anchors = (
@@ -141,13 +119,21 @@ name = _topleft;
 pos = (565,714);
 }
 );
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
 guides = (
 {
 angle = 78;
 pos = (536,577);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+layerId = "4ff25d00-d1dc-446c-b948-d38322e06547";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 pos = (-13,-62);

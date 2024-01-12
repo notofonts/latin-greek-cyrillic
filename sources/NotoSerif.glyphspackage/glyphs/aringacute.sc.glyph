@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = aringacute.sc;
 kernLeft = a.sc;
 kernRight = a.sc;
@@ -61,7 +62,15 @@ name = top;
 pos = (333,899);
 }
 );
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "4ea9a2e7-6172-40d9-aca8-f69902d2283d";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = aring.sc;
@@ -164,29 +173,6 @@ ref = acutecomb.sc;
 }
 );
 width = 484;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (271,0);
-},
-{
-name = top;
-pos = (271,891);
-}
-);
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = aring.sc;
-},
-{
-pos = (62,125);
-ref = acutecomb.sc;
-}
-);
-width = 542;
 }
 );
 metricWidth = a.sc;

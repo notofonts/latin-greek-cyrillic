@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = iotatonos;
 kernLeft = GRK_iota;
 kernRight = GRK_iota;
@@ -18,7 +19,15 @@ ref = tonos;
 width = 281;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "1c3f3c0d-0dd5-46dc-9552-7e87951191e7";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = iota;
@@ -96,7 +105,15 @@ ref = tonos;
 width = 281;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "f382d946-9b8d-415b-b9ed-0635da2b8a4d";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = iota;

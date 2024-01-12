@@ -1,5 +1,6 @@
 {
 category = Symbol;
+color = 10;
 glyphname = daletsymbol;
 layers = (
 {
@@ -60,7 +61,32 @@ nodes = (
 width = 458;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(403.53,0,l),
+(403.53,485.84,l),
+(480.53,485.84,l),
+(480.53,583.44,l),
+(2,583.44,l),
+(2,485.84,l),
+(290,485.84,l),
+(290,0,l)
+);
+}
+);
+};
+layerId = "abc89a7f-9803-402f-a3d3-00172ae79477";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -96,25 +122,6 @@ nodes = (
 }
 );
 width = 399;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-closed = 1;
-nodes = (
-(364,0,l),
-(364,484,l),
-(430,484,l),
-(430,584,l),
-(2,584,l),
-(2,484,l),
-(247,484,l),
-(247,0,l)
-);
-}
-);
-width = 432;
 },
 {
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";

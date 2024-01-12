@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Ecircumflexgrave;
 kernLeft = B;
 kernRight = E;
@@ -65,7 +66,15 @@ name = top;
 pos = (468,977);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "461a2eec-6dfe-414e-8f00-dc81e37464c9";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -153,31 +162,6 @@ ref = circumflexgravecomb;
 }
 );
 width = 505;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (206,0);
-},
-{
-name = top;
-pos = (414,977);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = E;
-},
-{
-alignment = -1;
-pos = (545,165);
-ref = circumflexgravecomb;
-}
-);
-width = 526;
 },
 {
 anchors = (

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = otilde.sc;
 kernLeft = c.sc;
 kernRight = d.sc;
@@ -58,31 +59,6 @@ width = 575;
 anchors = (
 {
 name = bottom;
-pos = (250,0);
-},
-{
-name = top;
-pos = (419,793);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-ref = o.sc;
-},
-{
-alignment = -1;
-pos = (68,-1);
-ref = tildecomb.sc;
-}
-);
-width = 623;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (180,0);
 },
 {
@@ -90,7 +66,15 @@ name = top;
 pos = (341,760);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "5856ef99-19cc-41f5-903d-c27724b1cfd7";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

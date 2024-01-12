@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 10;
 glyphname = primemod;
 layers = (
 {
@@ -24,7 +25,15 @@ ref = quoteright;
 width = 174;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "681e2533-67f4-4848-b598-1d2aa02c8cef";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -64,7 +73,15 @@ ref = quoteright;
 width = 172;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "36ebb85d-f6c5-4fb4-8558-90a57ea5ba72";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

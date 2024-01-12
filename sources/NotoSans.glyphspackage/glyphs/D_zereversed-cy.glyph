@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = "Dzereversed-cy";
 layers = (
 {
@@ -27,7 +28,15 @@ scale = (-1,1);
 width = 547;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "1466a895-4a43-4df7-9aa8-82a06b5bf958";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -73,18 +82,6 @@ scale = (-1,1);
 }
 );
 width = 413;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-pos = (438,0);
-ref = S;
-scale = (-1,1);
-}
-);
-width = 438;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";

@@ -1,5 +1,6 @@
 {
 category = Number;
+color = 10;
 glyphname = twofifths;
 layers = (
 {
@@ -37,7 +38,15 @@ ref = five.dnom;
 width = 878;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "684991a7-a046-498e-b1e0-3508609814f0";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = two.numr;
@@ -105,7 +114,15 @@ ref = five.dnom;
 width = 691;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "d68e7912-9d4a-4e17-83a8-b18086bc68b2";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 ref = two.numr;

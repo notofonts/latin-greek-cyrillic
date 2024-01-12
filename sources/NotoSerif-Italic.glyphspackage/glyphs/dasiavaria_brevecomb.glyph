@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 10;
 glyphname = dasiavaria_brevecomb;
 layers = (
 {
@@ -35,13 +36,21 @@ ref = dasiavaria;
 width = 404;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "3ec84eda-9373-4342-921e-3157b7779351";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
 pos = (30,100);
 ref = breve;
-scale = (1,0.8318);
+scale = (1,0.832);
 },
 {
 alignment = -1;
@@ -58,7 +67,7 @@ shapes = (
 alignment = -1;
 pos = (87,132);
 ref = breve;
-scale = (1,0.7749);
+scale = (1,0.775);
 },
 {
 alignment = -1;
@@ -91,7 +100,7 @@ shapes = (
 alignment = -1;
 pos = (28,69);
 ref = breve;
-scale = (1,0.8766);
+scale = (1,0.877);
 },
 {
 alignment = -1;
@@ -102,13 +111,21 @@ ref = dasiavaria;
 width = 349;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "ba346ded-6555-412d-85e7-aec1838b5020";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
 pos = (37,121);
 ref = breve;
-scale = (1,0.8075);
+scale = (1,0.807);
 },
 {
 alignment = -1;
@@ -125,7 +142,7 @@ shapes = (
 alignment = -1;
 pos = (39,121);
 ref = breve;
-scale = (1,0.8077);
+scale = (1,0.808);
 },
 {
 alignment = -1;

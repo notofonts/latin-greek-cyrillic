@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = alphamacron;
 kernLeft = GRK_omicron;
 kernRight = GRK_alpha;
@@ -30,7 +31,15 @@ ref = macroncomb;
 width = 639;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "edf797e7-348a-4d7a-96cc-4834edb357e5";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = alpha;
@@ -82,7 +91,15 @@ ref = macroncomb;
 width = 544;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "2916d831-892a-4726-b75f-f4469794659a";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 ref = alpha;

@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "tsereversed-cy";
 layers = (
 {
@@ -27,7 +27,15 @@ scale = (-1,1);
 width = 660;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "3a7a9516-7fbf-4859-8ef2-31513898076f";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (669,0);
@@ -69,17 +77,6 @@ scale = (-1,1);
 }
 );
 width = 508;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-pos = (555,0);
-ref = "tse-cy";
-scale = (-1,1);
-}
-);
-width = 555;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

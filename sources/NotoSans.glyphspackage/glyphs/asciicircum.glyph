@@ -1,5 +1,6 @@
 {
 category = Symbol;
+color = 10;
 glyphname = asciicircum;
 layers = (
 {
@@ -57,7 +58,31 @@ nodes = (
 width = 572;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(125.76,253.58,l),
+(261.97,565.61,l),
+(418.18,253.58,l),
+(536.44,253.58,l),
+(293.9,717.78,l),
+(223.77,717.78,l),
+(9.94,253.58,l)
+);
+}
+);
+};
+layerId = "a950a835-10a7-40c7-b779-c84c226b50b4";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -91,24 +116,6 @@ nodes = (
 }
 );
 width = 442;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-closed = 1;
-nodes = (
-(129,277,l),
-(251,540,l),
-(373,277,l),
-(493,277,l),
-(285,714,l),
-(216,714,l),
-(9,277,l)
-);
-}
-);
-width = 502;
 },
 {
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";

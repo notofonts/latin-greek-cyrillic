@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Lcircumflexbelow;
 layers = (
 {
@@ -63,7 +64,15 @@ name = top;
 pos = (281,714);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "b868b86b-1862-4c4a-85bc-2dc72b8ca613";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -151,31 +160,6 @@ ref = circumflexbelowcomb;
 }
 );
 width = 337;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (86,-200);
-},
-{
-name = top;
-pos = (280,714);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-ref = L;
-},
-{
-alignment = -1;
-pos = (208,0);
-ref = circumflexbelowcomb;
-}
-);
-width = 370;
 },
 {
 anchors = (

@@ -31,19 +31,6 @@ ref = cedilla;
 width = 645;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-ref = n;
-},
-{
-pos = (166,0);
-ref = cedilla;
-}
-);
-width = 667;
-},
-{
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
@@ -94,19 +81,6 @@ ref = cedilla;
 }
 );
 width = 515;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = n;
-},
-{
-pos = (145,0);
-ref = cedilla;
-}
-);
-width = 546;
 }
 );
 metricWidth = n;

@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 10;
 glyphname = zigzagabovecomb;
 layers = (
 {
@@ -100,7 +101,32 @@ name = top;
 pos = (2,783);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(-32.27,714.78,l),
+(-11.22,793.37,l),
+(-71.37,793.37,l),
+(-110.86,652.63,l),
+(32.88,652.63,l),
+(11.83,574.04,l),
+(71.98,574.04,l),
+(111.47,714.78,l)
+);
+}
+);
+};
+layerId = "a8999493-10ac-42e4-a90d-f5400bc7270a";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -142,35 +168,6 @@ nodes = (
 (12,592,l),
 (58,592,l),
 (83,710,l)
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (0,547);
-},
-{
-name = top;
-pos = (2,792);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-closed = 1;
-nodes = (
-(-29,713,l),
-(-12,792,l),
-(-66,792,l),
-(-95,661,l),
-(29,661,l),
-(12,581,l),
-(65,581,l),
-(95,713,l)
 );
 }
 );

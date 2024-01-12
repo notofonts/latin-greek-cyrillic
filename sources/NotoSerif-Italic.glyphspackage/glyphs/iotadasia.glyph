@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = iotadasia;
 kernLeft = GRK_iota;
 kernRight = GRK_iota;
@@ -30,7 +31,15 @@ ref = dasia;
 width = 281;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "41d1a162-3352-4c52-b305-6c870019f50e";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = iota;
@@ -82,7 +91,15 @@ ref = dasia;
 width = 281;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "f1331015-663e-4e72-bd61-bf93fd8d0410";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = iota;

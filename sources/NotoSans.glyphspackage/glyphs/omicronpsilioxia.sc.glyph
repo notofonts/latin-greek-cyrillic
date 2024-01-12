@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = omicronpsilioxia.sc;
 kernLeft = GRK_omicron.sc;
 kernRight = GRK_omicron.sc;
@@ -33,12 +33,20 @@ ref = omicron.sc;
 width = 632;
 },
 {
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
 guides = (
 {
 pos = (945,657);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+layerId = "aedc2cf6-5c6f-49c8-843e-5e0545d1ce8c";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = omicron.sc;
@@ -87,20 +95,6 @@ ref = omicron.sc;
 }
 );
 width = 453;
-},
-{
-guides = (
-{
-pos = (947,672);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-ref = omicron.sc;
-}
-);
-width = 504;
 },
 {
 guides = (

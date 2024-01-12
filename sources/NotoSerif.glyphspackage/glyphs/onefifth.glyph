@@ -37,23 +37,6 @@ ref = five.dnom;
 width = 868;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-ref = one.numr;
-},
-{
-pos = (422,0);
-ref = fraction;
-},
-{
-pos = (490,0);
-ref = five.dnom;
-}
-);
-width = 890;
-},
-{
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
@@ -103,23 +86,6 @@ ref = five.dnom;
 }
 );
 width = 685;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = one.numr;
-},
-{
-pos = (345,0);
-ref = fraction;
-},
-{
-pos = (391,0);
-ref = five.dnom;
-}
-);
-width = 717;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

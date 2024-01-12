@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = omegadasiavariaypogegrammeni.sc.ad;
 kernLeft = GRK_omega.sc;
 kernRight = GRK_eta.sc;
@@ -30,7 +31,15 @@ ref = iota.sc;
 width = 934;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "7d27f708-059d-4080-897e-26cbc55e427a";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = omega.sc;
@@ -80,19 +89,6 @@ ref = iota.sc;
 }
 );
 width = 778;
-},
-{
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-ref = omega.sc;
-},
-{
-pos = (607,0);
-ref = iota.sc;
-}
-);
-width = 895;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";

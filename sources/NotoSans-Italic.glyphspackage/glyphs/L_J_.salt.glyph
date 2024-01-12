@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = LJ.salt;
 layers = (
 {
@@ -29,7 +30,15 @@ ref = J.salt;
 width = 872;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "a057a36d-7222-4ef6-8aa9-f53151c485cd";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = L;
@@ -79,19 +88,6 @@ ref = J.salt;
 }
 );
 width = 624;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-ref = L;
-},
-{
-pos = (370,0);
-ref = J.salt;
-}
-);
-width = 715;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";

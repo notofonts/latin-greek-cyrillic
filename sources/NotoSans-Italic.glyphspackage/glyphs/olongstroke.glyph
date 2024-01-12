@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = olongstroke;
 layers = (
 {
@@ -41,7 +42,28 @@ ref = o;
 width = 563;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(579.96,226.92,l),
+(601.28,327.08,l),
+(9.71,327.08,l),
+(-11.61,226.92,l)
+);
+}
+);
+};
+layerId = "d2a7f9e2-7ef5-4f48-8739-123ebb821aa1";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -116,25 +138,6 @@ ref = o;
 }
 );
 width = 407;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-closed = 1;
-nodes = (
-(437,234,l),
-(456,323,l),
-(12,323,l),
-(-7,234,l)
-);
-},
-{
-alignment = -1;
-ref = o;
-}
-);
-width = 444;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";

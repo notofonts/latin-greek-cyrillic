@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 10;
 glyphname = "Iegrave-cy";
 kernLeft = cyr_En;
 kernRight = cyr_Ie;
@@ -38,7 +38,15 @@ name = top;
 pos = (321,931);
 }
 );
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "d2e80cb5-c9d7-4a51-832a-97d47b5ff379";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (108,0);
@@ -141,29 +149,6 @@ ref = "Ie-cy";
 }
 );
 width = 628;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (264,0);
-},
-{
-name = top;
-pos = (278,931);
-}
-);
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-pos = (88,0);
-ref = gravecomb.loclCYR.cap;
-},
-{
-ref = "Ie-cy";
-}
-);
-width = 537;
 },
 {
 anchors = (

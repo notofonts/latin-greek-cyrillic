@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = omegapsiliypogegrammeni.sc.ss06;
 kernLeft = GRK_omega.sc;
 kernRight = GRK_omega.sc;
@@ -38,7 +39,15 @@ ref = ypogegrammeni;
 width = 624;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "a001fe7d-777e-4144-99e3-8aa3f011c0a1";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = omega.sc;
@@ -106,7 +115,15 @@ ref = ypogegrammeni;
 width = 522;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "55070b4c-f407-4cf9-a448-90f6e39c1436";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = omega.sc;

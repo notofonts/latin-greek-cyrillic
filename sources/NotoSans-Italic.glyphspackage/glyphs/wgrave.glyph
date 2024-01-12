@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = wgrave;
 kernLeft = v.right;
 kernRight = v.left;
@@ -65,7 +66,15 @@ name = top;
 pos = (489,766);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "552779b6-17f4-4474-b6a2-75b290a86e43";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -90,7 +99,15 @@ name = top;
 pos = (413,766);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "f68bb2e6-3203-48c3-ad3c-150841eeccd6";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

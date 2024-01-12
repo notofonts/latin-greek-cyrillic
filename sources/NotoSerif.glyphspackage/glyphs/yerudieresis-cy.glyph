@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "yerudieresis-cy";
 kernLeft = cyr_en;
 kernRight = cyr_en;
@@ -64,7 +64,15 @@ name = top;
 pos = (453,750);
 }
 );
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "1bcb9d08-6cb6-4f7e-b5ea-a8e032197f7c";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (172,0);
@@ -156,7 +164,15 @@ name = top;
 pos = (373,752);
 }
 );
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "29f33489-5521-487e-871c-e3f4d3acf2a8";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 pos = (145,0);

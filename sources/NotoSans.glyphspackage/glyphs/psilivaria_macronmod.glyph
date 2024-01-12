@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 0;
+color = 10;
 glyphname = psilivaria_macronmod;
 layers = (
 {
@@ -49,21 +49,6 @@ ref = psilivaria;
 width = 407;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
-shapes = (
-{
-alignment = -1;
-pos = (50,0);
-ref = macronmod;
-},
-{
-pos = (0,133);
-ref = psilivaria;
-}
-);
-width = 479;
-},
-{
 layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
 shapes = (
 {
@@ -79,7 +64,15 @@ ref = psilivaria;
 width = 383;
 },
 {
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+associatedMasterId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "848c629a-461c-4b16-8631-35d864ce9ec9";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 alignment = -1;

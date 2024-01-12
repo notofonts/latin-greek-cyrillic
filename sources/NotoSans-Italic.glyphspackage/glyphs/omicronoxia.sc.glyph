@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = omicronoxia.sc;
 kernLeft = GRK_omicron.sc;
 kernRight = GRK_omicron.sc;
@@ -33,21 +33,6 @@ ref = omicron.sc;
 }
 );
 width = 593;
-},
-{
-guides = (
-{
-pos = (945,657);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-ref = omicron.sc;
-}
-);
-width = 623;
 },
 {
 guides = (
@@ -95,12 +80,20 @@ ref = omicron.sc;
 width = 434;
 },
 {
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
 guides = (
 {
 pos = (947,672);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+layerId = "5d5815e0-4ed3-4a41-925d-b57871d77bba";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

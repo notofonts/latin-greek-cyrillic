@@ -1,5 +1,6 @@
 {
 category = Symbol;
+color = 10;
 glyphname = tugrik;
 layers = (
 {
@@ -59,7 +60,37 @@ ref = T;
 width = 600;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(499.1,474.6,l),
+(457,535.53,l),
+(90.9,295.48,l),
+(133,234.55,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(498.49,295.38,l),
+(456.39,356.92,l),
+(90.9,117.48,l),
+(132.39,56.55,l)
+);
+}
+);
+};
+layerId = "e39b5774-94cf-4ab3-b251-a83ddef407fe";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -161,34 +192,6 @@ nodes = (
 (384,362,l),
 (77,149,l),
 (107,105,l)
-);
-},
-{
-alignment = -1;
-ref = T;
-}
-);
-width = 500;
-},
-{
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(442,461,l),
-(407,519,l),
-(55,302,l),
-(90,245,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(442,297,l),
-(407,355,l),
-(58,139,l),
-(93,81,l)
 );
 },
 {

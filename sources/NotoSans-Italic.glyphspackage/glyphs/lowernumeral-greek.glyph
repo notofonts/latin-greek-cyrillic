@@ -1,6 +1,6 @@
 {
 category = Symbol;
-color = 5;
+color = 10;
 glyphname = "lowernumeral-greek";
 layers = (
 {
@@ -38,7 +38,30 @@ nodes = (
 width = 206;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(82.92,-160,l),
+(176.85,16.78,l),
+(179.46,30,l),
+(78.98,30,l),
+(-83.91,-150,l),
+(-85.91,-160,l)
+);
+}
+);
+};
+layerId = "64276903-adf8-4a02-86e6-8247b5404ad6";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -104,23 +127,6 @@ nodes = (
 }
 );
 width = 208;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-closed = 1;
-nodes = (
-(74,-160,l),
-(156,17,l),
-(159,30,l),
-(66,30,l),
-(-73,-151,l),
-(-75,-160,l)
-);
-}
-);
-width = 217;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";

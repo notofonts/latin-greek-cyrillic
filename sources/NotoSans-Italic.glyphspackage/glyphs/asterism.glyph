@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = asterism;
 layers = (
 {
@@ -48,7 +49,15 @@ ref = asterisk;
 width = 1042;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "738d5b9d-51ea-4ce8-b42c-f2bce9bb67f8";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -67,30 +76,6 @@ ref = asterisk;
 }
 );
 width = 1153;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-pos = (424,-334);
-ref = asterisk;
-scale = (0.865,0.865);
-},
-{
-alignment = -1;
-pos = (214,55);
-ref = asterisk;
-scale = (0.865,0.865);
-},
-{
-alignment = -1;
-pos = (-36,-334);
-ref = asterisk;
-scale = (0.865,0.865);
-}
-);
-width = 868;
 },
 {
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";

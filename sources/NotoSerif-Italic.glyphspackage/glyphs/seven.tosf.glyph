@@ -14,17 +14,6 @@ ref = seven.osf;
 width = 579;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-alignment = -1;
-pos = (2,0);
-ref = seven.osf;
-}
-);
-width = 588;
-},
-{
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
@@ -78,17 +67,6 @@ ref = seven.osf;
 }
 );
 width = 469;
-},
-{
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-pos = (11,0);
-ref = seven.osf;
-}
-);
-width = 487;
 }
 );
 script = "";

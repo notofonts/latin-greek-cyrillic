@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 10;
 glyphname = psiliperispomeni.case;
 layers = (
 {
@@ -41,7 +41,15 @@ name = _topleft;
 pos = (464,714);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "e5c0f3d9-b516-47b1-ba23-aa48d6993e69";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (0,-244);
@@ -97,22 +105,6 @@ ref = psiliperispomeni;
 }
 );
 width = 376;
-},
-{
-anchors = (
-{
-name = _topleft;
-pos = (387,714);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-pos = (0,-242);
-ref = psiliperispomeni;
-}
-);
-width = 407;
 },
 {
 anchors = (

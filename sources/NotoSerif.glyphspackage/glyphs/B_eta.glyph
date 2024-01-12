@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Beta;
 kernLeft = GRK_Beta;
 kernRight = GRK_Beta;
@@ -23,7 +24,15 @@ ref = B;
 width = 654;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "b95579f4-238e-4e8f-b0d4-bf7cdb859e8f";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = B;
@@ -66,15 +75,6 @@ ref = B;
 }
 );
 width = 529;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = B;
-}
-);
-width = 569;
 }
 );
 script = greek;

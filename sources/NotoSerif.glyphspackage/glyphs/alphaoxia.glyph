@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = alphaoxia;
 kernLeft = GRK_omicron;
 kernRight = GRK_alpha;
@@ -30,7 +31,15 @@ ref = oxia;
 width = 639;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "e7c043b1-18fe-4b96-83d9-3037b39ff0c1";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = alpha;
@@ -82,7 +91,15 @@ ref = oxia;
 width = 544;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "f6a3e44f-2dc9-4d89-aa01-e10f9a9f90d3";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 ref = alpha;

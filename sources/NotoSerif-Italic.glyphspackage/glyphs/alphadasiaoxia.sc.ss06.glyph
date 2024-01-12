@@ -30,19 +30,6 @@ ref = dasiaoxia.sc;
 width = 592;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-ref = alpha.sc;
-},
-{
-pos = (135,35);
-ref = dasiaoxia.sc;
-}
-);
-width = 649;
-},
-{
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
@@ -80,19 +67,6 @@ ref = dasiaoxia.sc;
 }
 );
 width = 489;
-},
-{
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-ref = alpha.sc;
-},
-{
-pos = (152,35);
-ref = dasiaoxia.sc;
-}
-);
-width = 535;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";

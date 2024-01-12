@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 10;
 glyphname = dialytikavaria.case;
 layers = (
 {
@@ -21,7 +21,15 @@ ref = dialytikavaria;
 width = 633;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "b81de276-1569-40a7-8bf7-e34987a5af49";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = dialytikavaria;
@@ -57,7 +65,15 @@ ref = dialytikavaria;
 width = 570;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "b7a3711f-9c12-4c5c-a5c3-cec296726dc5";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = dialytikavaria;

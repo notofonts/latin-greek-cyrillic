@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 5;
+color = 10;
 glyphname = dialytikaperispomeni;
 layers = (
 {
@@ -44,27 +44,6 @@ ref = dieresis;
 }
 );
 width = 417;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (296,546);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-pos = (37,175);
-ref = tilde;
-},
-{
-alignment = -1;
-pos = (-52,0);
-ref = dieresis;
-}
-);
-width = 457;
 },
 {
 anchors = (
@@ -136,7 +115,15 @@ name = _top;
 pos = (264,545);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "72f0015d-fd54-468e-9243-967f7fb243a2";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 pos = (36,172);

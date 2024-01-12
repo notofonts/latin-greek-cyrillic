@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = caretSign;
 layers = (
 {
@@ -39,7 +40,31 @@ nodes = (
 width = 399;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(5.28,-240,l),
+(138.63,-24.67,l),
+(188.16,-240,l),
+(265.51,-240,l),
+(178.78,84.05,l),
+(130.24,84.05,l),
+(-78.85,-240,l)
+);
+}
+);
+};
+layerId = "9130657d-1bc6-4c45-9cdb-0b7b2743b963";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -109,24 +134,6 @@ nodes = (
 }
 );
 width = 388;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-closed = 1;
-nodes = (
-(0,-239,l),
-(158,16,l),
-(212,-239,l),
-(320,-239,l),
-(227,188,l),
-(156,188,l),
-(-114,-239,l)
-);
-}
-);
-width = 428;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";

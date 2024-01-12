@@ -1,5 +1,6 @@
 {
 category = Number;
+color = 10;
 glyphname = fraction;
 layers = (
 {
@@ -48,7 +49,28 @@ nodes = (
 width = 130;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(190.71,714,l),
+(-203.81,0,l),
+(-84.89,0,l),
+(309.63,714,l)
+);
+}
+);
+};
+layerId = "5ee52522-ca68-4cf7-b01f-74b571dc2fa7";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -76,21 +98,6 @@ nodes = (
 }
 );
 width = 116;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-closed = 1;
-nodes = (
-(172,714,l),
-(-182,0,l),
-(-77,0,l),
-(276,714,l)
-);
-}
-);
-width = 95;
 },
 {
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";

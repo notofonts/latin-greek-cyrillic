@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 10;
 glyphname = Iotapsilioxia;
 kernLeft = GRK_Epsilon;
 kernRight = GRK_Eta;
@@ -35,7 +35,15 @@ ref = psilioxia.case;
 width = 684;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "6e5cd00c-50da-4e1e-98ea-37cddae5fad0";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -95,7 +103,15 @@ ref = psilioxia.case;
 width = 620;
 },
 {
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+associatedMasterId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "ddca4a38-23b2-4920-8e51-58359f14894b";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 alignment = -1;

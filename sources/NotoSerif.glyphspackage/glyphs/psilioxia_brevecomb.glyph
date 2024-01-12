@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 10;
 glyphname = psilioxia_brevecomb;
 layers = (
 {
@@ -8,7 +9,7 @@ shapes = (
 {
 alignment = 1;
 ref = breve;
-scale = (1,1.0021);
+scale = (1,1.002);
 },
 {
 alignment = -1;
@@ -24,7 +25,7 @@ shapes = (
 {
 alignment = 1;
 ref = breve;
-scale = (1,0.9943);
+scale = (1,0.994);
 },
 {
 alignment = -1;
@@ -35,12 +36,20 @@ ref = psilioxia;
 width = 382;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "64505447-a6d3-41f9-9740-0772f84df37b";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = 1;
 ref = breve;
-scale = (1,0.8302);
+scale = (1,0.83);
 },
 {
 alignment = -1;
@@ -57,7 +66,7 @@ shapes = (
 alignment = -1;
 pos = (16,132);
 ref = breve;
-scale = (1,0.7753);
+scale = (1,0.775);
 },
 {
 alignment = -1;
@@ -74,7 +83,7 @@ shapes = (
 alignment = -1;
 pos = (-20,23);
 ref = breve;
-scale = (1,1.0091);
+scale = (1,1.009);
 },
 {
 alignment = -1;
@@ -91,7 +100,7 @@ shapes = (
 alignment = -1;
 pos = (-8,93);
 ref = breve;
-scale = (1,0.8699);
+scale = (1,0.87);
 },
 {
 alignment = -1;
@@ -102,13 +111,21 @@ ref = psilioxia;
 width = 360;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "910bc634-ea8a-476e-8833-4a2270fcf171";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 alignment = -1;
 pos = (0,121);
 ref = breve;
-scale = (1,0.8067);
+scale = (1,0.807);
 },
 {
 alignment = -1;
@@ -125,7 +142,7 @@ shapes = (
 alignment = -1;
 pos = (7,121);
 ref = breve;
-scale = (1,0.8067);
+scale = (1,0.807);
 },
 {
 alignment = -1;

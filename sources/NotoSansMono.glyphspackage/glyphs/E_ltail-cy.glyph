@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "Eltail-cy";
 layers = (
 {
@@ -76,7 +76,30 @@ name = top;
 pos = (300,714);
 }
 );
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(531.49,-208.74,l),
+(602.27,109.43,l),
+(471,109.43,l),
+(444.16,0,l),
+(468.4,0,l),
+(400.18,-208.74,l)
+);
+}
+);
+};
+layerId = "5f49b657-b2a8-4a86-8c80-049bc23b266b";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -180,37 +203,6 @@ nodes = (
 (406,0,l),
 (427,0,l),
 (370,-193,l)
-);
-},
-{
-alignment = -1;
-ref = "El-cy";
-}
-);
-width = 500;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (280,-240);
-},
-{
-name = top;
-pos = (250,714);
-}
-);
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(449,-211,l),
-(506,109,l),
-(360,109,l),
-(360,0,l),
-(382,0,l),
-(326,-211,l)
 );
 },
 {

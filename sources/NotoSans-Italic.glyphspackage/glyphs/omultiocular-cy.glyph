@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = "omultiocular-cy";
 layers = (
 {
@@ -99,7 +100,15 @@ scale = (0.444,0.444);
 width = 881;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "8d9bcd50-d1ad-4856-be7c-a92e4794aa50";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -289,54 +298,6 @@ scale = (0.43,0.43);
 }
 );
 width = 510;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-pos = (307,138);
-ref = "Omonocular-cy";
-scale = (0.456,0.456);
-},
-{
-alignment = -1;
-pos = (-4,138);
-ref = "Omonocular-cy";
-scale = (0.456,0.456);
-},
-{
-alignment = -1;
-pos = (282,397);
-ref = "Omonocular-cy";
-scale = (0.456,0.456);
-},
-{
-alignment = -1;
-pos = (150,138);
-ref = "Omonocular-cy";
-scale = (0.456,0.456);
-},
-{
-alignment = -1;
-pos = (127,397);
-ref = "Omonocular-cy";
-scale = (0.456,0.456);
-},
-{
-alignment = -1;
-pos = (176,-124);
-ref = "Omonocular-cy";
-scale = (0.456,0.456);
-},
-{
-alignment = -1;
-pos = (22,-124);
-ref = "Omonocular-cy";
-scale = (0.456,0.456);
-}
-);
-width = 557;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";

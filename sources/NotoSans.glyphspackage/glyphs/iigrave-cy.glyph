@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "iigrave-cy";
 kernLeft = "en-cy";
 kernRight = "en-cy";
@@ -64,7 +64,15 @@ name = top;
 pos = (381,766);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "4393726b-34e6-4837-8dcd-55c4a7d6b693";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = "ii-cy";
@@ -148,30 +156,6 @@ ref = gravecomb.loclCYR;
 }
 );
 width = 458;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (253,0);
-},
-{
-name = top;
-pos = (253,766);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-ref = "ii-cy";
-},
-{
-alignment = -1;
-pos = (254,0);
-ref = gravecomb.loclCYR;
-}
-);
-width = 507;
 },
 {
 anchors = (

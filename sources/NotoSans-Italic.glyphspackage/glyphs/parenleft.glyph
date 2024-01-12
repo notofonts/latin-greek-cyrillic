@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = parenleft;
 kernRight = paren.left;
 layers = (
@@ -54,7 +55,38 @@ nodes = (
 width = 242;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(222.7,-158,l),
+(186.7,-69.9,o),
+(166.09,42.4,o),
+(166.09,144.37,cs),
+(166.09,382.69,o),
+(270.14,571.03,o),
+(412.14,726.2,c),
+(284.17,726.2,l),
+(124.12,561.15,o),
+(35.73,380.15,o),
+(35.73,148.86,cs),
+(35.73,42.52,o),
+(62.34,-75.78,o),
+(108.95,-158,c)
+);
+}
+);
+};
+layerId = "57625776-e124-46ba-8ccf-01deaed79640";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -77,31 +109,6 @@ nodes = (
 }
 );
 width = 339;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-closed = 1;
-nodes = (
-(158,-158,l),
-(134,-85,o),
-(126,0,o),
-(126,88,cs),
-(126,312,o),
-(221,561,o),
-(346,727,c),
-(244,727,l),
-(105,573,o),
-(15,302,o),
-(15,85,cs),
-(15,5,o),
-(28,-100,o),
-(56,-158,c)
-);
-}
-);
-width = 270;
 },
 {
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";

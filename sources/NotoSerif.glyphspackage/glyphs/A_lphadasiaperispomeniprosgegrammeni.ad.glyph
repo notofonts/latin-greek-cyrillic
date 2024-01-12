@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = Alphadasiaperispomeniprosgegrammeni.ad;
 kernLeft = GRK_Alphatonos;
 kernRight = GRK_iota;
@@ -38,7 +39,15 @@ ref = prosgegrammeni;
 width = 997;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "0259ed18-0f33-4da6-8532-0645d3b64b3e";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = Alpha;
@@ -104,23 +113,6 @@ ref = prosgegrammeni;
 }
 );
 width = 856;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = Alpha;
-},
-{
-pos = (-232,0);
-ref = dasiaperispomeni.case;
-},
-{
-pos = (618,0);
-ref = prosgegrammeni;
-}
-);
-width = 953;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

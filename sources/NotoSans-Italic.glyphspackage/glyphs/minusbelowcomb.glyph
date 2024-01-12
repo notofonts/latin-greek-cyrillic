@@ -52,48 +52,6 @@ pos = (-58,0);
 },
 {
 name = bottom;
-pos = (-103,-216);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-pos = (-230,-430);
-ref = minusmod;
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _bottom;
-pos = (-59,0);
-},
-{
-name = bottom;
-pos = (-105,-223);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-pos = (-211,-427);
-ref = minusmod;
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _bottom;
-pos = (-58,0);
-},
-{
-name = bottom;
 pos = (-107,-233);
 }
 );

@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "Aleutka-cy";
 layers = (
 {
@@ -72,7 +72,28 @@ name = top;
 pos = (300,714);
 }
 );
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(586.15,497.73,l),
+(288.57,684.9,l),
+(230.42,596.46,l),
+(527.17,409.68,l)
+);
+}
+);
+};
+layerId = "32c2f85b-210d-49fb-8ef6-e050b8efd314";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -188,7 +209,28 @@ name = top;
 pos = (250,714);
 }
 );
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(485.25,545.06,l),
+(245.56,665.93,l),
+(205.07,576.38,l),
+(444.76,455.51,l)
+);
+}
+);
+};
+layerId = "946f28dc-2824-488a-a921-296f96ba84ad";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 closed = 1;

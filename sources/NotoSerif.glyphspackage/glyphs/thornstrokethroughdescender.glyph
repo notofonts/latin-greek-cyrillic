@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = thornstrokethroughdescender;
 layers = (
 {
@@ -40,7 +41,28 @@ ref = thorn;
 width = 614;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(370.86,-114.94,l),
+(370.86,-58.08,l),
+(12.78,-58.08,l),
+(12.78,-114.94,l)
+);
+}
+);
+};
+layerId = "6b5c0e4b-284c-41ca-b379-71b3d8189c5e";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -110,24 +132,6 @@ ref = thorn;
 }
 );
 width = 493;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-closed = 1;
-nodes = (
-(305,-115,l),
-(305,-63,l),
-(10,-63,l),
-(10,-115,l)
-);
-},
-{
-ref = thorn;
-}
-);
-width = 529;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

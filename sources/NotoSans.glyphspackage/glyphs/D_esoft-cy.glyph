@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "Desoft-cy";
 kernLeft = "De-cy";
 layers = (
@@ -45,7 +45,30 @@ ref = "De-cy";
 width = 959;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(520.53,714,l),
+(520.53,0,l),
+(671.75,0,l),
+(671.75,588.81,l),
+(966.5,588.81,l),
+(966.5,714,l)
+);
+}
+);
+};
+layerId = "7928b7fb-7490-46c3-a91c-b3334dba6d33";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -123,26 +146,6 @@ ref = "De-cy";
 }
 );
 width = 696;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-closed = 1;
-nodes = (
-(412,714,l),
-(412,0,l),
-(549,0,l),
-(549,595,l),
-(748,595,l),
-(748,714,l)
-);
-},
-{
-ref = "De-cy";
-}
-);
-width = 779;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";

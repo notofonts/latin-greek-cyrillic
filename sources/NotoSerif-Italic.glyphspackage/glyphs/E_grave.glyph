@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Egrave;
 kernLeft = B;
 kernRight = E;
@@ -40,7 +41,15 @@ name = top;
 pos = (458,931);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "e349c72a-1c4f-4fe6-bf0a-0a3d8db61e2c";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -178,31 +187,6 @@ ref = grave;
 }
 );
 width = 505;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (206,0);
-},
-{
-name = top;
-pos = (404,931);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = E;
-},
-{
-alignment = -1;
-pos = (102,165);
-ref = grave;
-}
-);
-width = 526;
 }
 );
 script = latin;

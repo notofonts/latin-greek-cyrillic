@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 10;
 glyphname = leftangleabovecomb.nonspacing;
 layers = (
 {
@@ -32,7 +33,30 @@ name = _topright;
 pos = (221,592);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(213.24,669.48,l),
+(268.62,932.8,l),
+(15.4,932.8,l),
+(-0.82,857.18,l),
+(174.3,857.18,l),
+(134.56,669.48,l)
+);
+}
+);
+};
+layerId = "75eb3241-69e0-4536-bd50-71b6501e2086";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -158,29 +182,6 @@ nodes = (
 (40,805,l),
 (185,805,l),
 (154,658,l)
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _topright;
-pos = (185,596);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-closed = 1;
-nodes = (
-(192,656,l),
-(242,890,l),
-(16,890,l),
-(0,821,l),
-(158,821,l),
-(125,656,l)
 );
 }
 );

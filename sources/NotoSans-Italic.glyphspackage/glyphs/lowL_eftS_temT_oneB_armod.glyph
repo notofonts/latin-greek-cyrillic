@@ -25,17 +25,6 @@ ref = tonebarhighmod;
 width = 418;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-angle = 180;
-pos = (418,688);
-ref = tonebarhighmod;
-}
-);
-width = 418;
-},
-{
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
@@ -63,17 +52,6 @@ shapes = (
 {
 angle = 180;
 pos = (419,688);
-ref = tonebarhighmod;
-}
-);
-width = 418;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-angle = 180;
-pos = (418,688);
 ref = tonebarhighmod;
 }
 );

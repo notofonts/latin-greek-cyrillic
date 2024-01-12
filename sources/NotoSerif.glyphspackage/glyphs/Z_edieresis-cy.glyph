@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "Zedieresis-cy";
 kernLeft = cyr_Ze;
 kernRight = cyr_Ve;
@@ -31,19 +31,6 @@ ref = dieresis;
 }
 );
 width = 595;
-},
-{
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-ref = "Ze-cy";
-},
-{
-pos = (18,165);
-ref = dieresis;
-}
-);
-width = 621;
 },
 {
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
@@ -85,7 +72,15 @@ ref = dieresis;
 width = 485;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "b3098dc1-a5b1-4723-88d7-f513fd5cb707";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 ref = "Ze-cy";

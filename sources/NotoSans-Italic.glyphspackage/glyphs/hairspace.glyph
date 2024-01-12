@@ -11,10 +11,6 @@ layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 width = 100;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-width = 100;
-},
-{
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 width = 100;
 },
@@ -24,10 +20,6 @@ width = 100;
 },
 {
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
-width = 100;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
 width = 100;
 },
 {

@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "Udieresis-cy";
 kernLeft = "U-cy";
 kernRight = "U-cy";
@@ -64,7 +64,15 @@ name = top;
 pos = (327,920);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "48b27d85-cbb5-4ce6-a86f-c1ecb403abc9";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = "U-cy";
@@ -148,30 +156,6 @@ ref = dieresis;
 }
 );
 width = 399;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (251,0);
-},
-{
-name = top;
-pos = (251,913);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-ref = "U-cy";
-},
-{
-alignment = -1;
-pos = (8,165);
-ref = dieresis;
-}
-);
-width = 490;
 },
 {
 anchors = (

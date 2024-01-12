@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = jstroke;
 layers = (
 {
@@ -70,7 +71,28 @@ name = top;
 pos = (173,770);
 }
 );
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(340.46,235.48,l),
+(340.46,293.5,l),
+(4.78,293.5,l),
+(4.78,235.48,l)
+);
+}
+);
+};
+layerId = "5f2a9b4d-9894-4011-ab6f-a753676b901a";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -170,34 +192,6 @@ ref = j;
 }
 );
 width = 257;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (101,-240);
-},
-{
-name = top;
-pos = (146,764);
-}
-);
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-closed = 1;
-nodes = (
-(285,239,l),
-(285,292,l),
-(8,292,l),
-(8,239,l)
-);
-},
-{
-ref = j;
-}
-);
-width = 290;
 },
 {
 anchors = (

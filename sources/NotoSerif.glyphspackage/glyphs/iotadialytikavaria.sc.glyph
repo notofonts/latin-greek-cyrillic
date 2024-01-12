@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = iotadialytikavaria.sc;
 kernLeft = GRK_epsilon.sc;
 kernRight = GRK_eta.sc;
@@ -22,7 +23,15 @@ ref = idieresis.sc;
 width = 330;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "313985ac-d5ff-4b67-999c-99b2dda29ea5";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = idieresis.sc;
@@ -56,15 +65,6 @@ ref = idieresis.sc;
 }
 );
 width = 270;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = idieresis.sc;
-}
-);
-width = 300;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

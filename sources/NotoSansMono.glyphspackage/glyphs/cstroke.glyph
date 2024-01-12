@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = cstroke;
 layers = (
 {
@@ -71,7 +72,28 @@ name = top;
 pos = (320,760);
 }
 );
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(181.1,-208,l),
+(548.72,760,l),
+(459.79,760,l),
+(91.56,-208,l)
+);
+}
+);
+};
+layerId = "4ae6155a-90a9-4b98-8be4-695dabd44c3f";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -187,7 +209,28 @@ name = top;
 pos = (280,760);
 }
 );
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(217.74,-208,l),
+(447.12,760,l),
+(376.11,760,l),
+(146.73,-208,l)
+);
+}
+);
+};
+layerId = "eafd6fb1-df96-4edd-b178-7fe313108291";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 closed = 1;

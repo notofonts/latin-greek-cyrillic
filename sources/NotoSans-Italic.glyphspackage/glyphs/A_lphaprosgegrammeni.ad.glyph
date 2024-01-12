@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = Alphaprosgegrammeni.ad;
 kernLeft = GRK_Alpha;
 kernRight = GRK_iota;
@@ -33,21 +33,6 @@ ref = prosgegrammeni;
 }
 );
 width = 866;
-},
-{
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-ref = Alpha;
-},
-{
-alignment = -1;
-pos = (628,0);
-ref = prosgegrammeni;
-}
-);
-width = 992;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
@@ -95,7 +80,15 @@ ref = prosgegrammeni;
 width = 630;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "9c4c979b-ac81-4694-83a4-caa291ac5a49";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

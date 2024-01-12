@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = omegapsilivaria;
 kernLeft = GRK_omicron;
 kernRight = GRK_omicron;
@@ -31,7 +31,15 @@ ref = psilivaria;
 width = 779;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "9ad5b89b-b675-4f53-8d7a-f702be4f17e9";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = omega;
@@ -83,7 +91,15 @@ ref = psilivaria;
 width = 551;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "4064dab4-9688-4ea4-baca-88f52459448b";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = omega;

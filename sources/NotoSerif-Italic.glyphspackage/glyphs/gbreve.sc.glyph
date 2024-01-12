@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = gbreve.sc;
 kernLeft = c.sc;
 kernRight = g.sc;
@@ -40,7 +41,15 @@ name = top;
 pos = (479,812);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "c5661ec9-2720-47ad-ae73-4f81261aefa4";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -178,31 +187,6 @@ ref = brevecomb.sc;
 }
 );
 width = 507;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (254,0);
-},
-{
-name = top;
-pos = (430,805);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = g.sc;
-},
-{
-alignment = -1;
-pos = (169,48);
-ref = brevecomb.sc;
-}
-);
-width = 578;
 }
 );
 script = latin;

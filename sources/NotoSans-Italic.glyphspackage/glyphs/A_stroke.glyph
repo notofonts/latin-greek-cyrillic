@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Astroke;
 layers = (
 {
@@ -72,7 +73,28 @@ name = top;
 pos = (408,714);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(169.75,-74.61,l),
+(580.65,759.61,l),
+(501.48,759.61,l),
+(89.19,-74.61,l)
+);
+}
+);
+};
+layerId = "313ecf62-a394-4f7e-993a-c1b24b303774";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -188,7 +210,28 @@ name = top;
 pos = (326,716);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(162.57,-75.39,l),
+(477,760.39,l),
+(405.7,760.39,l),
+(90.66,-75.39,l)
+);
+}
+);
+};
+layerId = "ff7e83d4-3957-49c4-8885-425d80f733d4";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 closed = 1;

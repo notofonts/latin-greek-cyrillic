@@ -34,19 +34,6 @@ ref = "Yeru-cy";
 width = 915;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-pos = (208,165);
-ref = dieresis;
-},
-{
-ref = "Yeru-cy";
-}
-);
-width = 977;
-},
-{
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
@@ -84,19 +71,6 @@ ref = "Yeru-cy";
 }
 );
 width = 739;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-pos = (183,165);
-ref = dieresis;
-},
-{
-ref = "Yeru-cy";
-}
-);
-width = 817;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

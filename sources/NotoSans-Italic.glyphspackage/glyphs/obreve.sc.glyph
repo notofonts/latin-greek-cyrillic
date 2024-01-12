@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = obreve.sc;
 kernLeft = c.sc;
 kernRight = d.sc;
@@ -58,31 +59,6 @@ width = 575;
 anchors = (
 {
 name = bottom;
-pos = (250,0);
-},
-{
-name = top;
-pos = (422,807);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-ref = o.sc;
-},
-{
-alignment = -1;
-pos = (53,-1);
-ref = brevecomb.sc;
-}
-);
-width = 623;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (180,0);
 },
 {
@@ -90,7 +66,15 @@ name = top;
 pos = (343,770);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "75ae2437-48a3-483d-8775-9e274fed05f8";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

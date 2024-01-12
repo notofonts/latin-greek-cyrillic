@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Iogonek.loclNAV;
 layers = (
 {
@@ -38,7 +39,15 @@ name = top;
 pos = (195,714);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "70a3aca4-be73-4dfa-bd6c-4c767959ee48";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -101,31 +110,6 @@ ref = ogonek;
 }
 );
 width = 283;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (163,-234);
-},
-{
-name = top;
-pos = (163,714);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-ref = I;
-},
-{
-alignment = -1;
-pos = (33,0);
-ref = ogonek;
-}
-);
-width = 326;
 },
 {
 anchors = (

@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = questiondown;
 layers = (
 {
@@ -25,7 +26,15 @@ ref = question;
 width = 474;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "75d58d53-7a83-442b-9cf1-9089418f15d0";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 angle = 180;
@@ -79,17 +88,6 @@ ref = question;
 }
 );
 width = 412;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-angle = 180;
-pos = (456,533);
-ref = question;
-}
-);
-width = 456;
 }
 );
 script = "";

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = UpsilonhookSymbol;
 kernLeft = GRK_Upsilon;
 kernRight = GRK_Upsilon;
@@ -41,7 +42,15 @@ name = topleft;
 pos = (169,714);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "8dec9519-7bcc-4f67-b2d1-6ff29aad7377";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = Yhook;
@@ -93,21 +102,6 @@ ref = Yhook;
 }
 );
 width = 530;
-},
-{
-anchors = (
-{
-name = topleft;
-pos = (117,714);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-ref = Yhook;
-}
-);
-width = 601;
 },
 {
 anchors = (

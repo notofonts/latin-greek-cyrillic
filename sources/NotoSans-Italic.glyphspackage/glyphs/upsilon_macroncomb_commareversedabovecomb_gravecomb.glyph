@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 0;
+color = 10;
 glyphname = upsilon_macroncomb_commareversedabovecomb_gravecomb;
 kernLeft = GRK_upsilon;
 kernRight = GRK_upsilon;
@@ -32,7 +32,15 @@ ref = dasiavaria_macronmod;
 width = 572;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "aa09912d-badc-4721-8d92-229c241ad25d";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = upsilon;
@@ -83,7 +91,15 @@ ref = dasiavaria_macronmod;
 width = 399;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "c9a728f7-582b-4c6b-b4b9-00af5b6edaa8";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = upsilon;

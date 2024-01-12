@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = Epsilondasia;
 kernLeft = GRK_Epsilontonos;
 kernRight = GRK_Epsilon;
@@ -30,7 +31,15 @@ ref = dasia.case;
 width = 623;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "1b7df2b4-fea9-485f-b521-67c8d8cb4aa8";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = Epsilon;
@@ -80,19 +89,6 @@ ref = dasia.case;
 }
 );
 width = 505;
-},
-{
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-ref = Epsilon;
-},
-{
-pos = (-117,0);
-ref = dasia.case;
-}
-);
-width = 526;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";

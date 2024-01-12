@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = "chi-latin";
 layers = (
 {
@@ -23,7 +24,15 @@ ref = chi;
 width = 551;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "e215bbe8-ff39-4860-a69f-2a51e1b00a30";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -61,16 +70,6 @@ ref = chi;
 }
 );
 width = 388;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-ref = chi;
-}
-);
-width = 459;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";

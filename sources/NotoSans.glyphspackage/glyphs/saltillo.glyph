@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = saltillo;
 layers = (
 {
@@ -51,7 +52,28 @@ name = center;
 pos = (135,542);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(192.89,373.55,l),
+(217.28,714,l),
+(64.53,714,l),
+(88.92,373.55,l)
+);
+}
+);
+};
+layerId = "96fa44e6-156b-4721-a877-59612f45792c";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -127,27 +149,6 @@ nodes = (
 }
 );
 width = 215;
-},
-{
-anchors = (
-{
-name = center;
-pos = (124,546);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-closed = 1;
-nodes = (
-(179,379,l),
-(200,714,l),
-(48,714,l),
-(70,379,l)
-);
-}
-);
-width = 248;
 },
 {
 anchors = (

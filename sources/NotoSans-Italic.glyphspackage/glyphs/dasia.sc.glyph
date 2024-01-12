@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 10;
 glyphname = dasia.sc;
 layers = (
 {
@@ -19,15 +19,6 @@ ref = dasia;
 }
 );
 width = 246;
-},
-{
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-ref = dasia;
-}
-);
-width = 272;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
@@ -57,7 +48,15 @@ ref = dasia;
 width = 217;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "2330766b-621e-4a14-b3c2-8041e9cfdae9";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = dasia;

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = IJ;
 layers = (
 {
@@ -63,7 +64,15 @@ name = top;
 pos = (645,714);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "4767a778-62ef-402b-bc8b-3f322e66f5be";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -88,7 +97,15 @@ name = top;
 pos = (537,714);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "ca0bda66-24ff-44f3-8a96-bc781599f6d6";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = Gamma;
 kernLeft = GRK_Epsilon;
 kernRight = GRK_Gamma;
@@ -55,33 +55,33 @@ width = 467;
 anchors = (
 {
 name = center;
-pos = (300,357);
+pos = (222,357);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
 shapes = (
 {
 closed = 1;
 nodes = (
-(173,0,l),
-(298,590,l),
-(548,590,l),
-(574,714,l),
-(177,714,l),
-(26,0,l)
+(130.02,0,l),
+(256.48,597.69,l),
+(431.02,597.69,l),
+(455.17,714,l),
+(147.95,714,l),
+(-3.05,0,l)
 );
 }
 );
-width = 531;
-},
-{
-anchors = (
-{
-name = center;
-pos = (222,357);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+};
+layerId = "8f35bd20-4880-47a5-938d-c9757dae8eb3";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 closed = 1;

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Igrave;
 layers = (
 {
@@ -85,7 +86,15 @@ name = top;
 pos = (195,934);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "e2b7d9d6-f7df-46da-9e7a-273df33921a5";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -121,30 +130,6 @@ ref = gravecomb;
 }
 );
 width = 283;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (163,0);
-},
-{
-name = top;
-pos = (163,928);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-ref = I;
-},
-{
-pos = (431,167);
-ref = gravecomb;
-}
-);
-width = 326;
 },
 {
 anchors = (

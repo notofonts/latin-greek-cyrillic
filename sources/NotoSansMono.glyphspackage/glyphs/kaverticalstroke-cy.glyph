@@ -69,35 +69,6 @@ pos = (300,0);
 },
 {
 name = top;
-pos = (300,546);
-}
-);
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
-shapes = (
-{
-closed = 1;
-nodes = (
-(325,44,l),
-(325,495,l),
-(255,495,l),
-(255,44,l)
-);
-},
-{
-alignment = -1;
-ref = "ka-cy";
-}
-);
-width = 600;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (300,0);
-},
-{
-name = top;
 pos = (300,553);
 }
 );
@@ -168,35 +139,6 @@ nodes = (
 (251,502,l),
 (208,502,l),
 (208,27,l)
-);
-},
-{
-alignment = -1;
-ref = "ka-cy";
-}
-);
-width = 500;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (250,0);
-},
-{
-name = top;
-pos = (250,546);
-}
-);
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(267,24,l),
-(267,518,l),
-(219,518,l),
-(219,24,l)
 );
 },
 {

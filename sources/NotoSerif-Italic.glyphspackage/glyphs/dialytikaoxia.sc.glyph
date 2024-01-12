@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = dialytikaoxia.sc;
 layers = (
 {
@@ -22,7 +23,15 @@ ref = dieresistonos.sc;
 width = 671;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "c92bacfd-88fc-4ab1-bd32-9feb16962d31";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = 1;
@@ -62,7 +71,15 @@ ref = dieresistonos.sc;
 width = 547;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "baa8e31b-fe19-4a5a-abde-2b0298ace52f";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = 1;

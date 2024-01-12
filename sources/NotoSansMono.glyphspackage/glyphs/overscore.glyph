@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 10;
 glyphname = overscore;
 layers = (
 {
@@ -18,7 +19,28 @@ nodes = (
 width = 600;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(465.44,601.61,l),
+(465.44,703.05,l),
+(148.15,703.05,l),
+(148.15,601.61,l)
+);
+}
+);
+};
+layerId = "df4dc697-7f48-4031-a4f8-485586a96693";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -93,7 +115,28 @@ nodes = (
 width = 500;
 },
 {
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(377.1,637.05,l),
+(377.1,723.45,l),
+(109.7,723.45,l),
+(109.7,637.05,l)
+);
+}
+);
+};
+layerId = "47fa3665-614c-4a3d-86a8-cacae7c2bf4b";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 closed = 1;

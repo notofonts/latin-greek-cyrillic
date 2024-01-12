@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 10;
 glyphname = psili.sc;
 layers = (
 {
@@ -21,16 +21,6 @@ ref = psili;
 }
 );
 width = 287;
-},
-{
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-pos = (26,0);
-ref = psili;
-}
-);
-width = 313;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
@@ -63,7 +53,15 @@ ref = psili;
 width = 231;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "fac4e7dd-8115-479b-8d48-ae1534725aa4";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 pos = (2,0);

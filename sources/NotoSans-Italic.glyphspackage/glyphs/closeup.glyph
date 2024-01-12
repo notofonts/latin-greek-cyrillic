@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = closeup;
 layers = (
 {
@@ -33,7 +34,15 @@ ref = charactertie;
 width = 523;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "e1b87149-af09-4ce6-892c-786c33e8cafe";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -45,20 +54,6 @@ ref = charactertie;
 }
 );
 width = 536;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-ref = undertie;
-},
-{
-alignment = -1;
-ref = charactertie;
-}
-);
-width = 526;
 },
 {
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";

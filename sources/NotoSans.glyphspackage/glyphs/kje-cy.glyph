@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "kje-cy";
 kernLeft = "en-cy";
 kernRight = "zhe-cy";
@@ -64,7 +64,15 @@ name = top;
 pos = (310,766);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "9116bb99-60e8-4e7a-971b-ebf52c5357c3";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = "ka-cy";
@@ -206,7 +214,15 @@ name = top;
 pos = (229,766);
 }
 );
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+associatedMasterId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "bc5ebf2d-9051-432d-9efe-6cc00b384d33";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 ref = "ka-cy";

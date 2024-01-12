@@ -1,5 +1,6 @@
 {
 category = Symbol;
+color = 10;
 glyphname = daletsymbol;
 layers = (
 {
@@ -41,7 +42,32 @@ nodes = (
 width = 600;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(470.98,0,l),
+(470.98,485.95,l),
+(531.88,485.95,l),
+(531.88,583.61,l),
+(67.51,583.61,l),
+(67.51,485.95,l),
+(357.71,485.95,l),
+(357.71,0,l)
+);
+}
+);
+};
+layerId = "5b951f5a-9078-4e9d-b6c2-2d5af21a748d";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -117,7 +143,32 @@ nodes = (
 width = 500;
 },
 {
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(377.88,0,l),
+(377.88,483.89,l),
+(470.98,483.89,l),
+(470.98,583.83,l),
+(28.02,583.83,l),
+(28.02,483.89,l),
+(261.62,483.89,l),
+(261.62,0,l)
+);
+}
+);
+};
+layerId = "af693380-68a5-45e3-b71a-f79fd66df939";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 closed = 1;

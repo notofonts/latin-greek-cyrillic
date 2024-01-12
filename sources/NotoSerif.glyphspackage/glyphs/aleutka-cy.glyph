@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "aleutka-cy";
 kernLeft = cyr_en;
 layers = (
@@ -42,7 +42,28 @@ ref = "ka-cy";
 width = 592;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(519.36,347.42,l),
+(330.1,465.78,l),
+(301.42,420.52,l),
+(491.1,302.16,l)
+);
+}
+);
+};
+layerId = "4c8cf3c3-50c8-42d7-8850-f0c919905786";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -114,7 +135,28 @@ ref = "ka-cy";
 width = 474;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(456.34,366.48,l),
+(278.52,464.26,l),
+(252.78,419.56,l),
+(430.6,321.78,l)
+);
+}
+);
+};
+layerId = "23ed76cb-4af5-49ce-86da-9b6c21403e62";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 closed = 1;

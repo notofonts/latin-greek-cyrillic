@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Pstrokethroughdescender;
 layers = (
 {
@@ -41,7 +42,28 @@ ref = P;
 width = 600;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(326.65,82.84,l),
+(326.65,188.34,l),
+(0,188.34,l),
+(0,82.84,l)
+);
+}
+);
+};
+layerId = "ce399724-bfed-4444-b5cb-b47e6ea37023";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -107,25 +129,6 @@ nodes = (
 (275,186,l),
 (0,186,l),
 (0,122,l)
-);
-},
-{
-alignment = -1;
-ref = P;
-}
-);
-width = 500;
-},
-{
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(313,88,l),
-(313,184,l),
-(0,184,l),
-(0,88,l)
 );
 },
 {

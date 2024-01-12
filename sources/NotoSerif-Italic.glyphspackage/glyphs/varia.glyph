@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 10;
 glyphname = varia;
 layers = (
 {
@@ -57,7 +58,31 @@ name = _top;
 pos = (270,536);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(320.86,619,l),
+(270.58,774,ls),
+(249.62,829,o),
+(198.52,818,o),
+(148,774,c),
+(148.58,762,l),
+(272.02,603,l)
+);
+}
+);
+};
+layerId = "161d980d-04cf-4e75-8e2d-003859a6cf58";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -153,7 +178,31 @@ name = _top;
 pos = (265,536);
 }
 );
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(294.66,621.74,l),
+(280.9,773.68,ls),
+(276.12,844.82,o),
+(194.92,825.08,o),
+(148.58,777.74,c),
+(148,765.74,l),
+(243.2,602.52,l)
+);
+}
+);
+};
+layerId = "b6834d83-04f1-4379-a692-839539dfcaeb";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 closed = 1;

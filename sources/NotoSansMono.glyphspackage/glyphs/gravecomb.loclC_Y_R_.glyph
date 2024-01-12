@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 4;
+color = 10;
 glyphname = gravecomb.loclCYR;
 layers = (
 {
@@ -40,7 +40,30 @@ nodes = (
 width = 0;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(418.83,616.95,l),
+(418.83,630.34,l),
+(318.46,776.95,l),
+(156.63,776.95,l),
+(156.63,767.56,l),
+(320.27,616.95,l)
+);
+}
+);
+};
+layerId = "4828fc07-16c4-47ac-9c17-726dd6c4bebf";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -125,7 +148,30 @@ nodes = (
 width = 0;
 },
 {
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(271.14,595.05,l),
+(271.14,607.88,l),
+(189.24,755.05,l),
+(41.56,755.05,l),
+(41.56,745.44,l),
+(178.66,595.05,l)
+);
+}
+);
+};
+layerId = "e142b400-682d-4147-b6f2-6e1ee6d0428f";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 closed = 1;

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Kcommaaccent;
 kernLeft = B;
 kernRight = K;
@@ -61,7 +62,15 @@ name = top;
 pos = (367,714);
 }
 );
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "1445bbc7-9154-4a60-9a15-a6ca1d8b5342";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = K;
@@ -166,29 +175,6 @@ ref = commaaccentcomb;
 }
 );
 width = 568;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (301,-221);
-},
-{
-name = top;
-pos = (301,714);
-}
-);
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = K;
-},
-{
-pos = (321,0);
-ref = commaaccentcomb;
-}
-);
-width = 616;
 }
 );
 metricRight = K;

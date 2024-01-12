@@ -1,5 +1,6 @@
 {
 category = Symbol;
+color = 10;
 glyphname = mill;
 layers = (
 {
@@ -40,7 +41,28 @@ ref = m;
 width = 945;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(364.08,-121.02,l),
+(698.26,666,l),
+(628.6,666,l),
+(291.52,-121.02,l)
+);
+}
+);
+};
+layerId = "a9b545da-3d77-4db7-a24e-0964ed2d19cc";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -110,24 +132,6 @@ ref = m;
 }
 );
 width = 755;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-closed = 1;
-nodes = (
-(303,-120,l),
-(579,666,l),
-(520,666,l),
-(242,-120,l)
-);
-},
-{
-ref = m;
-}
-);
-width = 807;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

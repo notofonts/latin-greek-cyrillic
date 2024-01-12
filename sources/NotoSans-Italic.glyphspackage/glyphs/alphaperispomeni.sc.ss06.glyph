@@ -31,19 +31,6 @@ ref = perispomeni.sc;
 width = 528;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-ref = alpha.sc;
-},
-{
-pos = (54,36);
-ref = perispomeni.sc;
-}
-);
-width = 594;
-},
-{
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
@@ -81,19 +68,6 @@ ref = perispomeni.sc;
 }
 );
 width = 395;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-ref = alpha.sc;
-},
-{
-pos = (31,35);
-ref = perispomeni.sc;
-}
-);
-width = 474;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Schwa;
 layers = (
 {
@@ -53,7 +54,15 @@ name = top;
 pos = (424,714);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "3c2eaa5e-e5c2-4cda-adb6-bbf1236246a0";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -121,26 +130,6 @@ ref = "Schwa-cy";
 }
 );
 width = 481;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (200,0);
-},
-{
-name = top;
-pos = (351,714);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-ref = "Schwa-cy";
-}
-);
-width = 512;
 },
 {
 anchors = (

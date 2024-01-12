@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = h.sc;
 layers = (
 {
@@ -103,7 +104,36 @@ name = topright;
 pos = (580,582);
 }
 );
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(209.59,0,l),
+(209.59,244.17,l),
+(383.78,244.17,l),
+(383.78,0,l),
+(527.25,0,l),
+(527.25,582,l),
+(383.78,582,l),
+(383.78,359.66,l),
+(209.59,359.66,l),
+(209.59,582,l),
+(66.9,582,l),
+(66.9,0,l)
+);
+}
+);
+};
+layerId = "13017caa-334f-420f-8fa1-1f593a758e69";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -267,7 +297,36 @@ name = topright;
 pos = (480,582);
 }
 );
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(174.06,0,l),
+(174.06,247.97,l),
+(330.57,247.97,l),
+(330.57,0,l),
+(452,0,l),
+(452,583.59,l),
+(330.57,583.59,l),
+(330.57,354.74,l),
+(174.06,354.74,l),
+(174.06,583.59,l),
+(52.85,583.59,l),
+(52.85,0,l)
+);
+}
+);
+};
+layerId = "4e57ab6a-a877-4a00-8cab-d4c85d7e0e06";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 closed = 1;

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = iota_dieresiscomb_brevecomb_acutecomb;
 kernLeft = GRK_iota;
 kernRight = GRK_iota;
@@ -31,7 +32,15 @@ ref = acutecomb_brevecomb_dieresiscomb;
 width = 281;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "f692b82d-f71f-488f-96a2-76006658db6c";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = iota;
@@ -83,7 +92,15 @@ ref = acutecomb_brevecomb_dieresiscomb;
 width = 281;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "ff99fdc7-714b-426e-8d2d-9db849aa5c3e";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = iota;

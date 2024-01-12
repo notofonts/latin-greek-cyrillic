@@ -31,19 +31,6 @@ ref = tonos;
 width = 798;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-ref = omega;
-},
-{
-pos = (330,0);
-ref = tonos;
-}
-);
-width = 827;
-},
-{
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
@@ -94,19 +81,6 @@ ref = tonos;
 }
 );
 width = 670;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = omega;
-},
-{
-pos = (279,0);
-ref = tonos;
-}
-);
-width = 709;
 }
 );
 script = greek;

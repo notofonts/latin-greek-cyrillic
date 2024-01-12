@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 10;
 glyphname = Rho;
 kernLeft = GRK_Epsilon;
 kernRight = GRK_Rho;
@@ -41,28 +41,21 @@ name = topleft;
 pos = (96,714);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "783ee96a-f52a-421c-b696-351173285bfc";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = P;
 }
 );
 width = 610;
-},
-{
-anchors = (
-{
-name = topleft;
-pos = (96,714);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-ref = P;
-}
-);
-width = 444;
 },
 {
 anchors = (

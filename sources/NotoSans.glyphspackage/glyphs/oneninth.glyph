@@ -1,5 +1,6 @@
 {
 category = Number;
+color = 10;
 glyphname = oneninth;
 layers = (
 {
@@ -37,7 +38,15 @@ ref = nine.dnom;
 width = 789;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "293615b0-05d0-4bb6-9af0-ea8b431dabcf";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = one.numr;
@@ -103,23 +112,6 @@ ref = nine.dnom;
 }
 );
 width = 750;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-ref = one.numr;
-},
-{
-pos = (347,0);
-ref = fraction;
-},
-{
-pos = (483,0);
-ref = nine.dnom;
-}
-);
-width = 814;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";

@@ -1,5 +1,6 @@
 {
 category = Number;
+color = 10;
 glyphname = seven.osf;
 layers = (
 {
@@ -23,7 +24,15 @@ ref = seven;
 width = 514;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "3d7b0d65-70a5-495e-8a23-d71bab15a20b";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (1,-159);
@@ -72,16 +81,6 @@ ref = seven;
 }
 );
 width = 404;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-pos = (-16,-163);
-ref = seven;
-}
-);
-width = 422;
 }
 );
 script = "";

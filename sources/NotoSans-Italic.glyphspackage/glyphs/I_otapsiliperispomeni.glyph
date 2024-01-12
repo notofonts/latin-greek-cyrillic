@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 10;
 glyphname = Iotapsiliperispomeni;
 kernLeft = GRK_Epsilon;
 kernRight = GRK_Eta;
@@ -37,7 +37,15 @@ ref = psiliperispomeni.case;
 width = 678;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "8c479f31-995a-49f5-adae-b6d02c405c9a";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -101,7 +109,15 @@ ref = psiliperispomeni.case;
 width = 559;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "aae39e05-07c4-40e4-9b64-f1121ec20026";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

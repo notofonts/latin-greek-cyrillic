@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 10;
 glyphname = Sho;
 layers = (
 {
@@ -31,7 +31,15 @@ ref = Thorn;
 width = 605;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "5acdfce3-21e4-447d-bb02-248b78cf96ef";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = Thorn;
@@ -47,15 +55,6 @@ ref = Thorn;
 }
 );
 width = 436;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-ref = Thorn;
-}
-);
-width = 475;
 },
 {
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";

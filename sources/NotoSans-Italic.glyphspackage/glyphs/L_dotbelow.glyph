@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Ldotbelow;
 layers = (
 {
@@ -63,7 +64,15 @@ name = top;
 pos = (281,714);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "5d433803-d0c6-4055-9e5e-418eaa25ef9b";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -151,31 +160,6 @@ ref = dotbelowcomb;
 }
 );
 width = 337;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (85,-206);
-},
-{
-name = top;
-pos = (280,714);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-ref = L;
-},
-{
-alignment = -1;
-pos = (439,0);
-ref = dotbelowcomb;
-}
-);
-width = 370;
 },
 {
 anchors = (

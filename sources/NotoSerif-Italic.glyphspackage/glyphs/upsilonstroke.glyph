@@ -41,25 +41,6 @@ ref = "upsilon-latin";
 width = 574;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-closed = 1;
-nodes = (
-(623,261,l),
-(636,319,l),
-(5,319,l),
-(-8,261,l)
-);
-},
-{
-alignment = -1;
-ref = "upsilon-latin";
-}
-);
-width = 618;
-},
-{
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
@@ -115,25 +96,6 @@ ref = "upsilon-latin";
 }
 );
 width = 469;
-},
-{
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-closed = 1;
-nodes = (
-(532,257,l),
-(545,315,l),
-(4,315,l),
-(-9,257,l)
-);
-},
-{
-alignment = -1;
-ref = "upsilon-latin";
-}
-);
-width = 507;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";

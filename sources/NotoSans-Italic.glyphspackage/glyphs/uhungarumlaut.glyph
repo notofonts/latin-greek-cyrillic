@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = uhungarumlaut;
 kernLeft = n.right;
 kernRight = u;
@@ -58,31 +59,6 @@ width = 553;
 anchors = (
 {
 name = bottom;
-pos = (236,0);
-},
-{
-name = top;
-pos = (407,766);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-ref = u;
-},
-{
-alignment = -1;
-pos = (104,0);
-ref = hungarumlaut;
-}
-);
-width = 604;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (171,0);
 },
 {
@@ -90,7 +66,15 @@ name = top;
 pos = (333,766);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "59dfc465-af2d-4649-a2cd-8cfe2deb4877";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

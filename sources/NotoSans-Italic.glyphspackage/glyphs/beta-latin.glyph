@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = "beta-latin";
 layers = (
 {
@@ -41,26 +42,6 @@ ref = beta;
 }
 );
 width = 581;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (201,-240);
-},
-{
-name = top;
-pos = (415,765);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-ref = beta;
-}
-);
-width = 620;
 },
 {
 anchors = (
@@ -133,7 +114,15 @@ name = top;
 pos = (338,765);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "9f48301c-50e3-45d6-9c77-c92272dc3c7b";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

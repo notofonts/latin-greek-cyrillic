@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = etaoxia.sc;
 kernLeft = GRK_epsilon.sc;
 kernRight = GRK_eta.sc;
@@ -25,7 +25,15 @@ ref = h.sc;
 width = 563;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "2a495691-35ea-4978-830b-9ca8a637569f";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -65,7 +73,15 @@ ref = h.sc;
 width = 416;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "6f86a582-ca7a-4522-997e-5fac97be7395";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

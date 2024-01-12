@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = etapsilivariaypogegrammeni.sc.ad.ss06;
 kernLeft = GRK_epsilon.sc;
 kernRight = GRK_eta.sc;
@@ -38,7 +39,15 @@ ref = iota.sc;
 width = 1010;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "ec131ba1-fb64-41e2-8d2e-6bf8d66dea4c";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = eta.sc;
@@ -104,23 +113,6 @@ ref = iota.sc;
 }
 );
 width = 820;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = eta.sc;
-},
-{
-pos = (110,35);
-ref = psilivaria.sc;
-},
-{
-pos = (590,0);
-ref = iota.sc;
-}
-);
-width = 890;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

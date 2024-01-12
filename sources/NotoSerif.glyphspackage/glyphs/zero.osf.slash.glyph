@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = zero.osf.slash;
 layers = (
 {
@@ -39,7 +40,28 @@ nodes = (
 width = 580;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(497.12,423.5,l),
+(454,467.04,l),
+(115.68,129.3,l),
+(158.8,85.76,l)
+);
+}
+);
+};
+layerId = "229cfe05-d718-48e2-8386-2d34f2cc49e0";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = zero.osf;
@@ -109,24 +131,6 @@ nodes = (
 }
 );
 width = 464;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = zero.osf;
-},
-{
-closed = 1;
-nodes = (
-(417,424,l),
-(369,464,l),
-(86,127,l),
-(134,87,l)
-);
-}
-);
-width = 503;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

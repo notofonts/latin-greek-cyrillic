@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Etilde;
 kernLeft = B;
 kernRight = E;
@@ -65,7 +66,15 @@ name = top;
 pos = (458,929);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "ed99b7b2-1c21-4014-abce-ee71a7e412aa";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -153,31 +162,6 @@ ref = tilde;
 }
 );
 width = 505;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (206,0);
-},
-{
-name = top;
-pos = (401,914);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = E;
-},
-{
-alignment = -1;
-pos = (113,165);
-ref = tilde;
-}
-);
-width = 526;
 },
 {
 anchors = (

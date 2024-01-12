@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 10;
 glyphname = ThetaSymbol;
 layers = (
 {
@@ -22,7 +22,15 @@ ref = "Fita-cy";
 width = 721;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "1882ae19-1d7b-40a4-a635-faceba820aa8";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = "Fita-cy";
@@ -58,7 +66,15 @@ ref = "Fita-cy";
 width = 501;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "8481ddb2-c170-49a6-bd84-02351080dcfd";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = "Fita-cy";

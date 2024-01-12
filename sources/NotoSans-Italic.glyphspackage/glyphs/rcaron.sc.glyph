@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = rcaron.sc;
 kernLeft = b.sc;
 kernRight = r.sc;
@@ -58,31 +59,6 @@ width = 449;
 anchors = (
 {
 name = bottom;
-pos = (244,0);
-},
-{
-name = top;
-pos = (382,802);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-ref = r.sc;
-},
-{
-alignment = -1;
-pos = (30,-1);
-ref = caroncomb.sc;
-}
-);
-width = 541;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (146,0);
 },
 {
@@ -90,7 +66,15 @@ name = top;
 pos = (309,762);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "b27bec4a-d9a6-41c2-bfb0-acc048256669";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

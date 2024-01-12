@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Aogonek;
 kernLeft = A.right;
 kernRight = A.left;
@@ -65,7 +66,15 @@ name = top;
 pos = (408,714);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "e8337c41-a0fe-495c-b749-c2bf60f651f5";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -90,7 +99,15 @@ name = top;
 pos = (326,716);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "20ccf135-fb7b-4a58-ac12-da15251e53a8";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

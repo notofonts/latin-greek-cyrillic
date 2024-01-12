@@ -1,5 +1,6 @@
 {
 category = Symbol;
+color = 10;
 glyphname = ampersandturned;
 layers = (
 {
@@ -39,7 +40,15 @@ ref = ampersand;
 width = 732;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "ae723cff-b8ac-4dec-a3e2-2f4a781f9f55";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -61,18 +70,6 @@ ref = ampersand;
 }
 );
 width = 477;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-angle = 180;
-pos = (578,713);
-ref = ampersand;
-}
-);
-width = 578;
 },
 {
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";

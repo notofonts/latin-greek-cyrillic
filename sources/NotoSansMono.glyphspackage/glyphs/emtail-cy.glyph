@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "emtail-cy";
 layers = (
 {
@@ -76,7 +76,30 @@ name = top;
 pos = (300,546);
 }
 );
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(540.66,-195.98,l),
+(611.59,103.89,l),
+(464.53,103.89,l),
+(463.36,0,l),
+(484.21,0,l),
+(421.38,-195.98,l)
+);
+}
+);
+};
+layerId = "6fca9463-b180-49dd-a5c5-bc541f716df3";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -180,37 +203,6 @@ nodes = (
 (411,0,l),
 (429,0,l),
 (373,-187,l)
-);
-},
-{
-alignment = -1;
-ref = "em-cy";
-}
-);
-width = 500;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (250,-240);
-},
-{
-name = top;
-pos = (250,546);
-}
-);
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(457,-197,l),
-(515,102,l),
-(390,102,l),
-(383,0,l),
-(396,0,l),
-(341,-197,l)
 );
 },
 {

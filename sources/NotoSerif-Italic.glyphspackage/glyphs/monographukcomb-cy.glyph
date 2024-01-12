@@ -50,28 +50,6 @@ width = 0;
 anchors = (
 {
 name = _top;
-pos = (73,536);
-},
-{
-name = top;
-pos = (152,910);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-alignment = -1;
-pos = (-29,620);
-ref = "ukmonograph-cy";
-scale = (0.45,0.4);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (71,536);
 },
 {
@@ -128,28 +106,6 @@ shapes = (
 {
 alignment = -1;
 pos = (-4,620);
-ref = "ukmonograph-cy";
-scale = (0.45,0.4);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (74,536);
-},
-{
-name = top;
-pos = (154,910);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-pos = (-5,620);
 ref = "ukmonograph-cy";
 scale = (0.45,0.4);
 }

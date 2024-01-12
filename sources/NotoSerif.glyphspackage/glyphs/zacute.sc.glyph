@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = zacute.sc;
 kernLeft = z.sc;
 kernRight = z.sc;
@@ -61,7 +62,15 @@ name = top;
 pos = (297,815);
 }
 );
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "f7a55ab8-a0b4-4cb7-89ce-48ec8b8dc77e";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = z.sc;
@@ -166,29 +175,6 @@ ref = acutecomb.sc;
 }
 );
 width = 428;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (250,0);
-},
-{
-name = top;
-pos = (250,814);
-}
-);
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = z.sc;
-},
-{
-pos = (15,35);
-ref = acutecomb.sc;
-}
-);
-width = 499;
 }
 );
 metricWidth = z.sc;

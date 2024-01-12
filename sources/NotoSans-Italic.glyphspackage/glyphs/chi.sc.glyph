@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 10;
 glyphname = chi.sc;
 kernLeft = GRK_chi.sc;
 kernRight = GRK_chi.sc;
@@ -25,7 +25,15 @@ ref = x.sc;
 width = 452;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "133ce761-33b2-4bea-8008-192de88c8668";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -65,7 +73,15 @@ ref = x.sc;
 width = 311;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "65f4cda7-86d5-4331-8013-63991baaeab2";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = oslashsideways;
 layers = (
 {
@@ -57,7 +58,15 @@ name = top;
 pos = (328,546);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "55fc7dc4-af39-4e4f-9992-562fa652bae6";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -133,28 +142,6 @@ ref = oslash;
 }
 );
 width = 617;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (314,0);
-},
-{
-name = top;
-pos = (314,547);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-angle = -90;
-pos = (39,518);
-ref = oslash;
-}
-);
-width = 627;
 },
 {
 anchors = (

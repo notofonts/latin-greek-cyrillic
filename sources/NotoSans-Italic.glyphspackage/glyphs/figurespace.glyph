@@ -1,5 +1,6 @@
 {
 category = Separator;
+color = 10;
 glyphname = figurespace;
 layers = (
 {
@@ -11,7 +12,15 @@ layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 width = 551;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "f9331570-e377-42f5-a737-af5debc63910";
+name = "SemiBold Italic (intermediate)";
 width = 551;
 },
 {
@@ -25,10 +34,6 @@ width = 343;
 {
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 width = 391;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-width = 434;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";

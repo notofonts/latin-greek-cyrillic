@@ -37,23 +37,6 @@ ref = seven.dnom;
 width = 891;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-ref = one.numr;
-},
-{
-pos = (422,0);
-ref = fraction;
-},
-{
-pos = (516,0);
-ref = seven.dnom;
-}
-);
-width = 916;
-},
-{
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
@@ -103,23 +86,6 @@ ref = seven.dnom;
 }
 );
 width = 708;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = one.numr;
-},
-{
-pos = (345,0);
-ref = fraction;
-},
-{
-pos = (418,0);
-ref = seven.dnom;
-}
-);
-width = 744;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 10;
 glyphname = dasiavaria_brevecomb;
 layers = (
 {
@@ -35,13 +36,21 @@ ref = dasiavaria;
 width = 401;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "b3f24776-8bf1-48e9-9fb9-deba165f273c";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
 pos = (60,0);
 ref = breve;
-scale = (1,0.8318);
+scale = (1,0.832);
 },
 {
 alignment = -1;
@@ -58,7 +67,7 @@ shapes = (
 alignment = -1;
 pos = (49,132);
 ref = breve;
-scale = (1,0.7749);
+scale = (1,0.775);
 },
 {
 alignment = -1;
@@ -91,7 +100,7 @@ shapes = (
 alignment = -1;
 pos = (40,89);
 ref = breve;
-scale = (1,0.8766);
+scale = (1,0.877);
 },
 {
 alignment = -1;
@@ -102,13 +111,21 @@ ref = dasiavaria;
 width = 363;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "a3403bb0-ab77-4452-b08c-77dd5e154457";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 alignment = -1;
 pos = (51,121);
 ref = breve;
-scale = (1,0.8075);
+scale = (1,0.807);
 },
 {
 alignment = -1;
@@ -125,7 +142,7 @@ shapes = (
 alignment = -1;
 pos = (61,121);
 ref = breve;
-scale = (1,0.8077);
+scale = (1,0.808);
 },
 {
 alignment = -1;

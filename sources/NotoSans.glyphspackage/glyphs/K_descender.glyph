@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Kdescender;
 layers = (
 {
@@ -73,7 +74,29 @@ name = top;
 pos = (350,714);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(555.86,130.02,l),
+(528.04,18.3,l),
+(528.04,-208.13,l),
+(674.43,-208.13,l),
+(674.43,130.02,l)
+);
+}
+);
+};
+layerId = "4c1b02da-73a4-41cc-be5a-636dcd2fc59f";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -181,36 +204,6 @@ ref = K;
 }
 );
 width = 447;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (280,-211);
-},
-{
-name = top;
-pos = (282,714);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-closed = 1;
-nodes = (
-(443,119,l),
-(397,17,l),
-(397,-211,l),
-(529,-211,l),
-(529,119,l)
-);
-},
-{
-alignment = -1;
-ref = K;
-}
-);
-width = 511;
 },
 {
 anchors = (

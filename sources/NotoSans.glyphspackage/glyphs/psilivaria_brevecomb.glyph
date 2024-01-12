@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 0;
+color = 10;
 export = 0;
 glyphname = psilivaria_brevecomb;
 layers = (
@@ -10,7 +10,7 @@ shapes = (
 {
 pos = (31,138);
 ref = breve;
-scale = (1,0.7723);
+scale = (1,0.772);
 },
 {
 pos = (0,170);
@@ -25,7 +25,7 @@ shapes = (
 {
 pos = (53,94);
 ref = breve;
-scale = (1,0.8049);
+scale = (1,0.805);
 },
 {
 pos = (0,153);
@@ -49,27 +49,12 @@ ref = psilivaria;
 width = 403;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
-shapes = (
-{
-pos = (23,101);
-ref = breve;
-scale = (1,0.8331);
-},
-{
-pos = (0,168);
-ref = psilivaria;
-}
-);
-width = 487;
-},
-{
 layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
 shapes = (
 {
 pos = (38,53);
 ref = breve;
-scale = (1,0.8782);
+scale = (1,0.878);
 },
 {
 pos = (0,121);
@@ -79,12 +64,20 @@ ref = psilivaria;
 width = 383;
 },
 {
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+associatedMasterId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "966b76c3-cb9b-46cb-9c12-452c55770dca";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 pos = (43,88);
 ref = breve;
-scale = (1,0.8049);
+scale = (1,0.805);
 },
 {
 pos = (0,130);

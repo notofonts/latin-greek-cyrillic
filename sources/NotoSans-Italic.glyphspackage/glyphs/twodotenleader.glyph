@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = twodotenleader;
 layers = (
 {
@@ -34,7 +35,15 @@ ref = period;
 width = 441;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "fda5affe-9887-4fd0-9291-4188291dcdcb";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -49,7 +58,15 @@ ref = period;
 width = 575;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "a17d1c68-deb1-47f5-9bae-f41693881a46";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

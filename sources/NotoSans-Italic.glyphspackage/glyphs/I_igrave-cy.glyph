@@ -38,30 +38,6 @@ pos = (293,0);
 },
 {
 name = top;
-pos = (466,934);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-ref = "Ii-cy";
-},
-{
-pos = (187,168);
-ref = gravecomb.loclCYR;
-}
-);
-width = 700;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (293,0);
-},
-{
-name = top;
 pos = (446,927);
 }
 );
@@ -173,30 +149,6 @@ ref = gravecomb.loclCYR;
 }
 );
 width = 687;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (215,0);
-},
-{
-name = top;
-pos = (367,934);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-ref = "Ii-cy";
-},
-{
-pos = (105,168);
-ref = gravecomb.loclCYR;
-}
-);
-width = 548;
 }
 );
 metricWidth = "Ii-cy";

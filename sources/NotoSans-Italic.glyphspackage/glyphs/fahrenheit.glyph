@@ -1,5 +1,6 @@
 {
 category = Symbol;
+color = 10;
 glyphname = fahrenheit;
 layers = (
 {
@@ -34,7 +35,15 @@ ref = F;
 width = 810;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "71c16211-3139-40e9-a5e1-e5bf1f374304";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -49,7 +58,15 @@ ref = F;
 width = 864;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "9feb33a8-782a-4c95-a3f6-8183cdda17de";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

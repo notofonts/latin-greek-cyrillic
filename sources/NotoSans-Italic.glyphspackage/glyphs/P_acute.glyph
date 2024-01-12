@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Pacute;
 layers = (
 {
@@ -63,7 +64,15 @@ name = top;
 pos = (432,934);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "4994b1c4-8e34-421b-ae3f-0f0bd556efa0";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -151,31 +160,6 @@ ref = acute;
 }
 );
 width = 404;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (166,0);
-},
-{
-name = top;
-pos = (366,944);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-ref = P;
-},
-{
-alignment = -1;
-pos = (128,178);
-ref = acute;
-}
-);
-width = 444;
 },
 {
 anchors = (

@@ -15,16 +15,6 @@ ref = periodcentered;
 width = 286;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-pos = (23,105);
-ref = periodcentered;
-}
-);
-width = 304;
-},
-{
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
@@ -73,16 +63,6 @@ ref = periodcentered;
 }
 );
 width = 233;
-},
-{
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-pos = (23,109);
-ref = periodcentered;
-}
-);
-width = 249;
 }
 );
 metricLeft = "=periodcentered";

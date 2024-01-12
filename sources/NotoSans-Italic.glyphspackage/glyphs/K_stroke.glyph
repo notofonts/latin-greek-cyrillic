@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Kstroke;
 layers = (
 {
@@ -71,7 +72,28 @@ name = top;
 pos = (422,714);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(356.63,546.37,l),
+(375.58,641.83,l),
+(94.22,641.83,l),
+(75.27,546.37,l)
+);
+}
+);
+};
+layerId = "1a6663dc-54d8-413f-a3a7-c54666da97ee";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -187,7 +209,28 @@ name = top;
 pos = (326,714);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(294.5,574.53,l),
+(312.6,660.81,l),
+(87.27,660.81,l),
+(69.17,574.53,l)
+);
+}
+);
+};
+layerId = "647bb4a4-20f9-419c-8a05-8a94cf316b58";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 closed = 1;

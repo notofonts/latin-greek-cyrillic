@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = i_sc.salt;
 layers = (
 {
@@ -87,7 +88,28 @@ name = topright;
 pos = (350,582);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(162.9,0,l),
+(291.39,583.2,l),
+(140.95,583.2,l),
+(12.46,0,l)
+);
+}
+);
+};
+layerId = "5fa17a7e-81e8-4b58-bd31-bdaeb69729d7";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -199,39 +221,6 @@ nodes = (
 }
 );
 width = 194;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (54,0);
-},
-{
-name = center;
-pos = (121,290);
-},
-{
-name = top;
-pos = (178,580);
-},
-{
-name = topright;
-pos = (274,580);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-closed = 1;
-nodes = (
-(118,0,l),
-(244,580,l),
-(123,580,l),
-(-2,0,l)
-);
-}
-);
-width = 229;
 },
 {
 anchors = (

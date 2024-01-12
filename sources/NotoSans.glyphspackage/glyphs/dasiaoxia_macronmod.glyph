@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 0;
+color = 10;
 glyphname = dasiaoxia_macronmod;
 layers = (
 {
@@ -46,7 +46,15 @@ ref = dasiaoxia;
 width = 444;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "797af77c-0192-4a9c-a798-4278f1600d30";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (28,0);
@@ -74,7 +82,15 @@ ref = dasiaoxia;
 width = 399;
 },
 {
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+associatedMasterId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "baa5369e-6a57-4cb1-b897-caa92b46d460";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 pos = (39,0);

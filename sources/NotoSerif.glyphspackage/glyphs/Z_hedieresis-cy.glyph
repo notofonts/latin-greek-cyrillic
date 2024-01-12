@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "Zhedieresis-cy";
 kernLeft = cyr_Zhe;
 kernRight = cyr_Zhe;
@@ -33,7 +33,15 @@ ref = "Zhe-cy";
 width = 980;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "5f6f8cb1-4551-4aef-965d-c3145b4ffbf6";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (230,165);
@@ -83,19 +91,6 @@ ref = "Zhe-cy";
 }
 );
 width = 817;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-pos = (205,165);
-ref = dieresis;
-},
-{
-ref = "Zhe-cy";
-}
-);
-width = 880;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

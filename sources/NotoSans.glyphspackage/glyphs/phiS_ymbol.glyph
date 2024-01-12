@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 8;
+color = 10;
 glyphname = phiSymbol;
 kernLeft = GRK_omicron;
 kernRight = GRK_omicron;
@@ -33,7 +33,15 @@ ref = phi;
 width = 725;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "f2b03b5f-4010-4159-9ff2-edd502756f96";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = phi;
@@ -49,15 +57,6 @@ ref = phi;
 }
 );
 width = 554;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-ref = phi;
-}
-);
-width = 641;
 },
 {
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";

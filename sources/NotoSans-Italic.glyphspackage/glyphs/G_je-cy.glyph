@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 10;
 glyphname = "Gje-cy";
 kernLeft = "Nje-cy";
 kernRight = "Te-cy";
@@ -39,7 +39,15 @@ name = top;
 pos = (460,934);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "ef69dd65-a32b-4a9e-ad42-f748ae872b21";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = "Ge-cy";
@@ -167,30 +175,6 @@ ref = acutecomb.loclCYR;
 }
 );
 width = 472;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (155,0);
-},
-{
-name = top;
-pos = (375,934);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-ref = "Ge-cy";
-},
-{
-pos = (137,168);
-ref = acutecomb.loclCYR;
-}
-);
-width = 377.9;
 }
 );
 metricLeft = "Ge-cy";

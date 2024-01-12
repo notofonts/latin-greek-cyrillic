@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = astroke;
 layers = (
 {
@@ -71,7 +72,28 @@ name = top;
 pos = (290,760);
 }
 );
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(201.32,-208,l),
+(568.94,760,l),
+(480.01,760,l),
+(111.78,-208,l)
+);
+}
+);
+};
+layerId = "0e76dfad-f6d0-4fb3-a90d-fa18e3d4f663";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -187,7 +209,28 @@ name = top;
 pos = (250,760);
 }
 );
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(190.05,-208,l),
+(419.43,760,l),
+(348.42,760,l),
+(119.04,-208,l)
+);
+}
+);
+};
+layerId = "1376facc-ee84-4db3-8702-104d9b461c96";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 closed = 1;

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Idotaccent;
 layers = (
 {
@@ -85,7 +86,15 @@ name = top;
 pos = (195,928);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "c023917e-a332-4270-a9df-f2eb0032a6fa";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -121,30 +130,6 @@ ref = dotaccentcomb;
 }
 );
 width = 283;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (163,0);
-},
-{
-name = top;
-pos = (163,923);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-ref = I;
-},
-{
-pos = (163,167);
-ref = dotaccentcomb;
-}
-);
-width = 326;
 },
 {
 anchors = (
