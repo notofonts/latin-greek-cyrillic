@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "Umacron-cy";
 kernLeft = cyr_U;
 kernRight = cyr_U;
@@ -33,7 +33,15 @@ ref = macronmod;
 width = 650;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "46c5ec93-2277-4801-b0bc-886d53f0675b";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = "U-cy";
@@ -83,19 +91,6 @@ ref = macronmod;
 }
 );
 width = 528;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = "U-cy";
-},
-{
-pos = (134,165);
-ref = macronmod;
-}
-);
-width = 572;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

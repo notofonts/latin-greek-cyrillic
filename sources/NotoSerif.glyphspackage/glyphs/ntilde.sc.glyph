@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = ntilde.sc;
 kernLeft = b.sc;
 kernRight = n.sc;
@@ -61,7 +62,15 @@ name = top;
 pos = (339,813);
 }
 );
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "e436e702-e841-4e95-a9b5-c38c3f7fcd9f";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = n.sc;
@@ -166,29 +175,6 @@ ref = tildecomb.sc;
 }
 );
 width = 529;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (283,0);
-},
-{
-name = top;
-pos = (283,802);
-}
-);
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = n.sc;
-},
-{
-pos = (48,35);
-ref = tildecomb.sc;
-}
-);
-width = 566;
 }
 );
 metricWidth = n.sc;

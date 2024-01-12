@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = uhorngrave;
 kernLeft = u;
 kernRight = uhorn;
@@ -63,7 +64,15 @@ name = top;
 pos = (389,766);
 }
 );
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "82959175-773b-42c2-83da-359179782b70";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (83,0);
@@ -143,29 +152,6 @@ ref = uhorn;
 }
 );
 width = 547;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (324,0);
-},
-{
-name = top;
-pos = (324,766);
-}
-);
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-pos = (58,0);
-ref = grave;
-},
-{
-ref = uhorn;
-}
-);
-width = 617;
 },
 {
 anchors = (

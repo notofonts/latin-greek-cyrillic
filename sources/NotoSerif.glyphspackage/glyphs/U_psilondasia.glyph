@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = Upsilondasia;
 kernLeft = GRK_Upsilontonos;
 kernRight = GRK_Upsilon;
@@ -32,7 +33,15 @@ ref = dasia.case;
 width = 771;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "15af1bb9-3826-425a-a037-f37135de3612";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (173,0);
@@ -88,7 +97,15 @@ ref = dasia.case;
 width = 652;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "008b14a5-c7f5-4c1b-a42e-840d66b5066f";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 pos = (153,0);

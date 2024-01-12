@@ -1,5 +1,6 @@
 {
 category = "";
+color = 10;
 glyphname = "Ot-cy";
 kernLeft = "E-cy";
 kernRight = "O-cy";
@@ -51,7 +52,15 @@ name = top;
 pos = (492,877);
 }
 );
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "1ee05293-27b2-4b9d-bc33-a268e2ad9980";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = "Omega-cy";
@@ -119,25 +128,6 @@ ref = cyrillic_otmark;
 }
 );
 width = 765;
-},
-{
-anchors = (
-{
-name = top;
-pos = (386,877);
-}
-);
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = "Omega-cy";
-},
-{
-pos = (242,172);
-ref = cyrillic_otmark;
-}
-);
-width = 815;
 },
 {
 anchors = (

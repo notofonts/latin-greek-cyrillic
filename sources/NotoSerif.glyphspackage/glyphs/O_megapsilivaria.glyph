@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = Omegapsilivaria;
 kernLeft = GRK_Omicrontonos;
 kernRight = GRK_Omega;
@@ -32,7 +33,15 @@ ref = psilivaria.case;
 width = 992;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "00da694b-a1cb-48e5-af65-2957e0f0046b";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (280,0);
@@ -88,7 +97,15 @@ ref = psilivaria.case;
 width = 825;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "0c88740e-3747-4fe2-9a90-58862e485657";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 pos = (245,0);

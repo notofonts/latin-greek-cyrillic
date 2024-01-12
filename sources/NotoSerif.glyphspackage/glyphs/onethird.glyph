@@ -37,23 +37,6 @@ ref = three.dnom;
 width = 862;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-ref = one.numr;
-},
-{
-pos = (400,0);
-ref = fraction;
-},
-{
-pos = (462,0);
-ref = three.dnom;
-}
-);
-width = 862;
-},
-{
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
@@ -123,23 +106,6 @@ ref = three.dnom;
 }
 );
 width = 679;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = one.numr;
-},
-{
-pos = (336,0);
-ref = fraction;
-},
-{
-pos = (386,0);
-ref = three.dnom;
-}
-);
-width = 712;
 }
 );
 metricLeft = one.numr;
