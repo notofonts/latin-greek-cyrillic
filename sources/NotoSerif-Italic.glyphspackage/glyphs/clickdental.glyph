@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = clickdental;
 layers = (
 {
@@ -75,7 +76,28 @@ name = top;
 pos = (297,760);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(249.3,0,l),
+(410.3,760,l),
+(317.82,760,l),
+(156.82,0,l)
+);
+}
+);
+};
+layerId = "33ae1ab7-e981-4a7c-9ab8-7e6e990d7f5d";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -191,7 +213,28 @@ name = top;
 pos = (330,760);
 }
 );
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(146.96,0,l),
+(308.38,760,l),
+(230.56,760,l),
+(69.14,0,l)
+);
+}
+);
+};
+layerId = "090bd70d-7344-48a3-ab2f-2ef07dd557a1";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 closed = 1;

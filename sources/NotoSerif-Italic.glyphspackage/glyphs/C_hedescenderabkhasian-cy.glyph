@@ -80,42 +80,6 @@ width = 798;
 anchors = (
 {
 name = bottom;
-pos = (309,-210);
-},
-{
-name = top;
-pos = (506,714);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-closed = 1;
-nodes = (
-(458,-210,l),
-(487,-75,o),
-(514,-34,o),
-(614,11,c),
-(313,29,l),
-(384,-9,o),
-(406,-48,o),
-(406,-105,cs),
-(406,-137,o),
-(399,-176,o),
-(392,-210,c)
-);
-},
-{
-alignment = -1;
-ref = "Cheabkhasian-cy";
-}
-);
-width = 821;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (317,-210);
 },
 {
@@ -219,42 +183,6 @@ ref = "Cheabkhasian-cy";
 }
 );
 width = 643;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (232,-210);
-},
-{
-name = top;
-pos = (429,714);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-closed = 1;
-nodes = (
-(370,-210,l),
-(400,-74,o),
-(411,-24,o),
-(508,18,c),
-(260,30,l),
-(313,-5,o),
-(330,-39,o),
-(330,-95,cs),
-(330,-133,o),
-(321,-171,o),
-(313,-210,c)
-);
-},
-{
-alignment = -1;
-ref = "Cheabkhasian-cy";
-}
-);
-width = 669;
 },
 {
 anchors = (

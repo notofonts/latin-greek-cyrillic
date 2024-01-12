@@ -42,24 +42,6 @@ width = 623;
 {
 guides = (
 {
-pos = (945,657);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-ref = omicron.sc;
-},
-{
-pos = (256,35);
-ref = tonos.sc;
-}
-);
-width = 682;
-},
-{
-guides = (
-{
 pos = (1032,645);
 }
 );
@@ -110,24 +92,6 @@ ref = tonos.sc;
 }
 );
 width = 514;
-},
-{
-guides = (
-{
-pos = (947,672);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-ref = omicron.sc;
-},
-{
-pos = (202,35);
-ref = tonos.sc;
-}
-);
-width = 564;
 },
 {
 guides = (

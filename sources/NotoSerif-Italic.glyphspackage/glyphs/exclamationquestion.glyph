@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = exclamationquestion;
 layers = (
 {
@@ -18,7 +19,15 @@ ref = question;
 width = 780;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "ed1655a0-6312-4817-a155-db9110ca816c";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -106,21 +115,6 @@ ref = question;
 }
 );
 width = 647;
-},
-{
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = exclam;
-},
-{
-alignment = -1;
-pos = (278,0);
-ref = question;
-}
-);
-width = 716;
 }
 );
 metricLeft = exclam;

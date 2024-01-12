@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = iotapsili;
 kernLeft = GRK_iota;
 kernRight = GRK_iota;
@@ -30,7 +31,15 @@ ref = psili;
 width = 281;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "daf89c57-1b98-412b-8658-842569609416";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = iota;
@@ -82,7 +91,15 @@ ref = psili;
 width = 281;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "7cae55fe-6122-494e-a73f-60bff3db2450";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = iota;

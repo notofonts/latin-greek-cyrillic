@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "Io-cy";
 kernLeft = "En-cy";
 kernRight = "Ie-cy";
@@ -62,7 +62,15 @@ name = top;
 pos = (432,920);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "2986eb26-b3b7-4fd7-9e2e-8ebe992396d8";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = "Ie-cy";
@@ -142,31 +150,6 @@ ref = dieresiscomb.loclCYR.cap;
 }
 );
 width = 499;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (190,0);
-},
-{
-name = top;
-pos = (378,917);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = "Ie-cy";
-},
-{
-alignment = -1;
-pos = (100,0);
-ref = dieresiscomb.loclCYR.cap;
-}
-);
-width = 537;
 },
 {
 anchors = (

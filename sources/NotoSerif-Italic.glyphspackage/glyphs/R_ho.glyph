@@ -26,21 +26,6 @@ name = topleft;
 pos = (95,714);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-ref = P;
-}
-);
-width = 663;
-},
-{
-anchors = (
-{
-name = topleft;
-pos = (95,714);
-}
-);
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
@@ -108,21 +93,6 @@ ref = P;
 }
 );
 width = 506;
-},
-{
-anchors = (
-{
-name = topleft;
-pos = (95,714);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-ref = P;
-}
-);
-width = 544;
 }
 );
 script = greek;

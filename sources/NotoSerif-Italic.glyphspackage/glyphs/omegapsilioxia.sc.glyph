@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = omegapsilioxia.sc;
 kernLeft = GRK_omega.sc;
 kernRight = GRK_omega.sc;
@@ -22,7 +23,15 @@ ref = omega.sc;
 width = 624;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "b1be78da-409f-4060-a1c2-707c0a8b127e";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = omega.sc;
@@ -58,7 +67,15 @@ ref = omega.sc;
 width = 522;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "780500a6-3cc7-4856-8055-a0395ad3ad32";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = omega.sc;

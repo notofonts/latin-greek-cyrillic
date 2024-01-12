@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = upsilonmod;
 layers = (
 {
@@ -57,7 +58,15 @@ name = top;
 pos = (286,609);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "0a4348ce-cfbb-43b0-bb5f-0f6b588a7365";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -145,7 +154,15 @@ name = top;
 pos = (247,609);
 }
 );
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "37085c2d-0fac-4ee1-8f37-5281b3e3f1d2";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

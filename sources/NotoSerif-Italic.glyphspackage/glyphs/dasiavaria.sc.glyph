@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = dasiavaria.sc;
 layers = (
 {
@@ -24,7 +25,15 @@ ref = dasiavaria;
 width = 390;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "d6a5214b-583f-416c-ae07-78b88ce624d3";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -68,7 +77,15 @@ ref = dasiavaria;
 width = 350;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "38846724-0235-48ba-8737-3d27f4e3a985";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

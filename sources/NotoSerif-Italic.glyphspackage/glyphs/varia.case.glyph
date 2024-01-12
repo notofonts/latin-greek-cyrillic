@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = varia.case;
 layers = (
 {
@@ -62,6 +63,13 @@ name = _topleft;
 pos = (334,714);
 }
 );
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
 guides = (
 {
 angle = 90;
@@ -72,7 +80,8 @@ angle = 78;
 pos = (302,563);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+layerId = "29da7386-9927-4c9c-84d2-554a5c810e74";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -162,33 +171,6 @@ ref = varia;
 }
 );
 width = 244;
-},
-{
-anchors = (
-{
-name = _topleft;
-pos = (314,714);
-}
-);
-guides = (
-{
-angle = 90;
-pos = (237,593);
-},
-{
-angle = 78;
-pos = (282,563);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-pos = (-19,-86);
-ref = varia;
-}
-);
-width = 261;
 },
 {
 anchors = (

@@ -1,5 +1,6 @@
 {
 category = Number;
+color = 10;
 glyphname = onefraction;
 layers = (
 {
@@ -33,7 +34,15 @@ ref = fraction;
 width = 482;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "82699496-98f5-4b38-9210-4c3d9e8a5111";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -91,21 +100,6 @@ ref = fraction;
 }
 );
 width = 400;
-},
-{
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = one.numr;
-},
-{
-alignment = -1;
-pos = (363,0);
-ref = fraction;
-}
-);
-width = 414;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";

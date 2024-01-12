@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 10;
 glyphname = psilivaria_macronmod;
 layers = (
 {
@@ -33,7 +34,15 @@ ref = psilivaria;
 width = 394;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "9f6328a5-0482-414c-8e7a-035ce1c9f496";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -95,7 +104,15 @@ ref = psilivaria;
 width = 382;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "dd87bff1-9ea1-4939-a52b-ab2452f647a3";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

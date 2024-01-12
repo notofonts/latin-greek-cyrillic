@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Ecircumflextilde;
 kernLeft = B;
 kernRight = E;
@@ -65,7 +66,15 @@ name = top;
 pos = (485,1058);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "cfd8aa09-66f7-4b87-8b97-b6d3cf833d3a";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -153,31 +162,6 @@ ref = circumflextildecomb;
 }
 );
 width = 505;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (206,0);
-},
-{
-name = top;
-pos = (431,1057);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = E;
-},
-{
-alignment = -1;
-pos = (622,165);
-ref = circumflextildecomb;
-}
-);
-width = 526;
 },
 {
 anchors = (

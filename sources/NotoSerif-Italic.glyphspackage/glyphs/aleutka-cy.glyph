@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "aleutka-cy";
 kernLeft = "en-cy";
 kernRight = "ha-cy";
@@ -62,35 +62,6 @@ ref = "ka-cy";
 }
 );
 width = 580;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (294,0);
-},
-{
-name = top;
-pos = (346,536);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-closed = 1;
-nodes = (
-(521,311,l),
-(335,473,l),
-(300,432,l),
-(486,270,l)
-);
-},
-{
-alignment = -1;
-ref = "ka-cy";
-}
-);
-width = 613;
 },
 {
 anchors = (
@@ -190,7 +161,28 @@ name = top;
 pos = (299,536);
 }
 );
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(447.46,322.46,l),
+(294.9,468.14,l),
+(264.22,433.02,l),
+(416.78,288.18,l)
+);
+}
+);
+};
+layerId = "693176f8-14da-463c-a95a-b975192cb1a4";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 closed = 1;

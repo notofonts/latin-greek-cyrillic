@@ -33,21 +33,6 @@ ref = macronmod;
 width = 304;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-alignment = -1;
-ref = idotless;
-},
-{
-alignment = -1;
-pos = (-51,0);
-ref = macronmod;
-}
-);
-width = 354;
-},
-{
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
@@ -91,21 +76,6 @@ ref = macronmod;
 }
 );
 width = 254;
-},
-{
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = idotless;
-},
-{
-alignment = -1;
-pos = (-22,0);
-ref = macronmod;
-}
-);
-width = 295;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";

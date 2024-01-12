@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 10;
 glyphname = psilivaria;
 layers = (
 {
@@ -63,13 +64,21 @@ name = _top;
 pos = (312,536);
 }
 );
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
 guides = (
 {
 angle = 78;
 pos = (289,429);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+layerId = "a19862ec-ef04-45bf-bd3f-c2ac5a66efba";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -175,13 +184,21 @@ name = _top;
 pos = (288,536);
 }
 );
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
 guides = (
 {
 angle = 78;
 pos = (265,429);
 }
 );
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+layerId = "734400dc-694d-4846-99a4-d7205672ee90";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

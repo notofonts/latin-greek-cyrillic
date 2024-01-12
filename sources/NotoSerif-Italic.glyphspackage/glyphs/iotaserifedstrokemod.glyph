@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = iotaserifedstrokemod;
 layers = (
 {
@@ -57,7 +58,15 @@ name = top;
 pos = (211,609);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "b87ccbf1-4a4c-4d0c-8928-52a135113352";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -145,7 +154,15 @@ name = top;
 pos = (189,609);
 }
 );
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "9bf25e0e-1373-4d0e-9b55-19fe77d1b6ca";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

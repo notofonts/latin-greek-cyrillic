@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 10;
 glyphname = koronis;
 layers = (
 {
@@ -23,7 +24,15 @@ ref = psili;
 width = 213;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "23107daa-b2d2-40cd-b5ea-9330552defce";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = 1;
@@ -63,7 +72,15 @@ ref = psili;
 width = 195;
 },
 {
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "d2c58eb7-0c77-45a0-9980-bab203f13aac";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = 1;

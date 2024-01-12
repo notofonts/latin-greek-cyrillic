@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = Btopbar;
 kernLeft = "En-cy";
 layers = (
@@ -56,7 +56,15 @@ name = top;
 pos = (385,714);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "0584447f-51c0-4fc4-9d0e-ac24ef66e6fd";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -128,27 +136,6 @@ ref = "Be-cy";
 }
 );
 width = 502;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (189,0);
-},
-{
-name = top;
-pos = (341,714);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-pos = (17,0);
-ref = "Be-cy";
-}
-);
-width = 549;
 },
 {
 anchors = (

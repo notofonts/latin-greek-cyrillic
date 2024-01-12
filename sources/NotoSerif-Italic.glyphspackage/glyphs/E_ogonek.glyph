@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Eogonek;
 kernLeft = B;
 kernRight = E;
@@ -40,7 +41,15 @@ name = top;
 pos = (412,714);
 }
 );
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "d550b088-e283-4532-b8b9-59869bb012c0";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -178,31 +187,6 @@ ref = ogonek;
 }
 );
 width = 505;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (155,-240);
-},
-{
-name = top;
-pos = (358,714);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = E;
-},
-{
-alignment = -1;
-pos = (272,0);
-ref = ogonek;
-}
-);
-width = 526;
 }
 );
 script = latin;

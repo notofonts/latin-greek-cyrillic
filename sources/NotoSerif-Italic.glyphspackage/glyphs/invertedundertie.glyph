@@ -15,18 +15,6 @@ ref = doublebrevebelowcomb;
 width = 0;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-alignment = -1;
-angle = 180;
-pos = (44,-233);
-ref = doublebrevebelowcomb;
-}
-);
-width = 0;
-},
-{
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
@@ -81,18 +69,6 @@ shapes = (
 alignment = -1;
 angle = 180;
 pos = (66,-233);
-ref = doublebrevebelowcomb;
-}
-);
-width = 0;
-},
-{
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-angle = 180;
-pos = (16,-233);
 ref = doublebrevebelowcomb;
 }
 );
