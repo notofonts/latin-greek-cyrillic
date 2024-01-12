@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = dmiddlestroke;
 kernLeft = o.right;
 kernRight = d;
@@ -40,7 +41,28 @@ ref = d;
 width = 615;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(480,234.95,l),
+(480,312.15,l),
+(146.7,312.15,l),
+(146.7,234.95,l)
+);
+}
+);
+};
+layerId = "5f8d1fc0-7bc2-4dfd-9413-e5be7520f059";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -110,24 +132,6 @@ ref = d;
 }
 );
 width = 462;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-closed = 1;
-nodes = (
-(390,233,l),
-(390,318,l),
-(104,318,l),
-(104,233,l)
-);
-},
-{
-ref = d;
-}
-);
-width = 500;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";

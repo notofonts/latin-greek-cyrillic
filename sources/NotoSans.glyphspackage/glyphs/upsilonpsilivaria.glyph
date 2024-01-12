@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = upsilonpsilivaria;
 kernLeft = GRK_upsilon;
 kernRight = GRK_upsilon;
@@ -31,7 +31,15 @@ ref = psilivaria;
 width = 598;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "edb49c81-ae7f-424a-9dc9-ccf17e902da1";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = upsilon;
@@ -81,19 +89,6 @@ ref = psilivaria;
 }
 );
 width = 434;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-ref = upsilon;
-},
-{
-pos = (4,0);
-ref = psilivaria;
-}
-);
-width = 492;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";

@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 10;
 glyphname = dasiaperispomeni.sc;
 layers = (
 {
@@ -23,7 +23,15 @@ ref = dasiaperispomeni;
 width = 447;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "bac8a30d-35a5-4519-8941-397f47c0fb88";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = 1;
@@ -61,16 +69,6 @@ ref = dasiaperispomeni;
 }
 );
 width = 376;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = 1;
-ref = dasiaperispomeni;
-}
-);
-width = 407;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Usmallmod;
 layers = (
 {
@@ -57,7 +58,15 @@ name = top;
 pos = (212,615);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "0c51ef2a-f762-4e99-a861-04ea68c65d8b";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -133,28 +142,6 @@ scale = (0.65,0.6);
 }
 );
 width = 307;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (171,281);
-},
-{
-name = top;
-pos = (171,615);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-pos = (0,287);
-ref = Usmall;
-scale = (0.65,0.6);
-}
-);
-width = 341;
 },
 {
 anchors = (

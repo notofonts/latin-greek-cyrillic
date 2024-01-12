@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Hcaron;
 layers = (
 {
@@ -61,7 +62,15 @@ name = top;
 pos = (383,934);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "8ebd6e5a-31af-480b-a978-166561c3a790";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -145,30 +154,6 @@ ref = caroncomb;
 }
 );
 width = 533;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (289,0);
-},
-{
-name = top;
-pos = (290,933);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-ref = H;
-},
-{
-pos = (290,167);
-ref = caroncomb;
-}
-);
-width = 579;
 },
 {
 anchors = (

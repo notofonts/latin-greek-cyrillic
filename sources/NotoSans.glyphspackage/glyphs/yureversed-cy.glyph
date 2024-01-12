@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "yureversed-cy";
 kernLeft = "o-cy";
 kernRight = "en-cy";
@@ -73,7 +73,15 @@ scale = (-1,1);
 width = 806;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "3d3dbd83-7f3a-49bb-a175-567a7e7799f7";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (853,0);
@@ -117,7 +125,15 @@ scale = (-1,1);
 width = 588;
 },
 {
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+associatedMasterId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "08ef3360-ca1d-4546-9e0d-c5eda0f8405c";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 pos = (664,0);

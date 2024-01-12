@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = asterism;
 layers = (
 {
@@ -69,7 +70,15 @@ ref = asterisk;
 width = 1118;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "ccbbacd0-3bca-4774-81c8-501f6b6008fc";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -112,30 +121,6 @@ scale = (0.941,0.941);
 }
 );
 width = 843;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-pos = (248,63);
-ref = asterisk;
-scale = (0.855,0.855);
-},
-{
-alignment = -1;
-pos = (18,-323);
-ref = asterisk;
-scale = (0.855,0.855);
-},
-{
-alignment = -1;
-pos = (478,-323);
-ref = asterisk;
-scale = (0.855,0.855);
-}
-);
-width = 873;
 },
 {
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";

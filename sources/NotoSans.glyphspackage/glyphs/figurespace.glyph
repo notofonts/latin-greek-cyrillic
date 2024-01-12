@@ -1,5 +1,6 @@
 {
 category = Separator;
+color = 10;
 glyphname = figurespace;
 layers = (
 {
@@ -11,7 +12,15 @@ layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
 width = 572;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "e6855d63-d7ef-4b1c-8cf7-f536e20f1318";
+name = "SemiBold (intermediate)";
 width = 572;
 },
 {
@@ -25,10 +34,6 @@ width = 394;
 {
 layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
 width = 429;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-width = 469;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";

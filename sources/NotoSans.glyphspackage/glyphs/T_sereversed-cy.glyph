@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = "Tsereversed-cy";
 layers = (
 {
@@ -68,6 +68,13 @@ scale = (-1,1);
 width = 740;
 },
 {
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
 background = {
 shapes = (
 {
@@ -89,7 +96,8 @@ nodes = (
 }
 );
 };
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+layerId = "cf443d46-daaa-4cb8-bdb8-f94803bca253";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (776,0);
@@ -194,38 +202,6 @@ scale = (-1,1);
 }
 );
 width = 530;
-},
-{
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(34,-211,l),
-(34,0,l),
-(435,0,l),
-(435,714,l),
-(298,714,l),
-(298,119,l),
-(121,119,l),
-(121,714,l),
-(-16,714,l),
-(-16,119,l),
-(-98,119,l),
-(-98,-211,l)
-);
-}
-);
-};
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-pos = (586,0);
-ref = "Tse-cy";
-scale = (-1,1);
-}
-);
-width = 586;
 },
 {
 background = {

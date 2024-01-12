@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = ezhcaron;
 layers = (
 {
@@ -63,7 +64,15 @@ name = top;
 pos = (291,766);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "461b2e54-b666-4ef3-84d9-d29857af392a";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -151,31 +160,6 @@ ref = caron;
 }
 );
 width = 371;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (216,-240);
-},
-{
-name = top;
-pos = (216,766);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-ref = "dzeabkhasian-cy";
-},
-{
-alignment = -1;
-pos = (10,0);
-ref = caron;
-}
-);
-width = 432;
 },
 {
 anchors = (

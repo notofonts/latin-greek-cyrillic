@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = omacron.sc;
 kernLeft = c.sc;
 kernRight = d.sc;
@@ -90,7 +91,15 @@ name = top;
 pos = (335,757);
 }
 );
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "ced23873-9c90-4b63-a2ce-f3fbf2cba4f7";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -128,31 +137,6 @@ ref = macronmod;
 }
 );
 width = 453;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (252,0);
-},
-{
-name = top;
-pos = (252,748);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-ref = o.sc;
-},
-{
-alignment = -1;
-pos = (75,35);
-ref = macronmod;
-}
-);
-width = 504;
 },
 {
 anchors = (
