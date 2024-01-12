@@ -1,5 +1,6 @@
 {
 category = Symbol;
+color = 10;
 glyphname = mill;
 layers = (
 {
@@ -42,7 +43,28 @@ ref = m;
 width = 875;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(244.81,-110,l),
+(722.53,666,l),
+(627.33,666,l),
+(149,-110,l)
+);
+}
+);
+};
+layerId = "5d8e4c73-1cb3-4d1a-9aea-4be6b35a4c49";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -118,7 +140,28 @@ ref = m;
 width = 613;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(157.26,-110,l),
+(557.85,666,l),
+(498.21,666,l),
+(97.23,-110,l)
+);
+}
+);
+};
+layerId = "d7c8818f-bdd8-4cd4-aa36-eb9069989939";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 closed = 1;

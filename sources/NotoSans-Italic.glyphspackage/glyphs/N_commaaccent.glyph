@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Ncommaaccent;
 layers = (
 {
@@ -56,31 +57,6 @@ width = 674;
 anchors = (
 {
 name = bottom;
-pos = (264,-221);
-},
-{
-name = top;
-pos = (477,714);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-ref = N;
-},
-{
-alignment = -1;
-pos = (122,0);
-ref = commaaccentcomb;
-}
-);
-width = 755;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (178,-221);
 },
 {
@@ -88,7 +64,15 @@ name = top;
 pos = (376,714);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "91c6b98e-f9ad-4d51-a258-17c0eb19cc23";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

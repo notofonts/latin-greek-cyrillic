@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = kelvin;
 layers = (
 {
@@ -23,17 +24,15 @@ ref = K;
 width = 543;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-ref = K;
-}
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
 );
-width = 613;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+};
+layerId = "333f2689-1b2b-4897-94ff-e7dc0285f9f7";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

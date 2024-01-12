@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Icircumflex;
 layers = (
 {
@@ -63,7 +64,15 @@ name = top;
 pos = (326,934);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "4a951346-4e05-4db4-9758-8ff13c59c16c";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -88,7 +97,15 @@ name = top;
 pos = (302,951);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "6d748766-8c99-4e4e-b89b-e192494582f3";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

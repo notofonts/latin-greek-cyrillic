@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = iotadialytikaperispomeni.sc.ss06;
 kernLeft = GRK_epsilon.sc;
 kernRight = GRK_eta.sc;
@@ -31,7 +31,15 @@ ref = dialytikaperispomeni.sc;
 width = 281;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "be5f159b-d607-41a3-bf5b-de2b0cb2837e";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = iota.sc;
@@ -83,7 +91,15 @@ ref = dialytikaperispomeni.sc;
 width = 235;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "c65e022d-be3c-49f2-875c-5acb59e01712";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = iota.sc;

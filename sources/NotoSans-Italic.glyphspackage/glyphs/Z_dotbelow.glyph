@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Zdotbelow;
 layers = (
 {
@@ -63,7 +64,15 @@ name = top;
 pos = (363,714);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "0617d8d1-a9b5-4387-83b7-96df9211ac34";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -163,7 +172,15 @@ name = top;
 pos = (290,714);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "02989a8d-b288-41ca-9dc9-502d82f957fd";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

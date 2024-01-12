@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 10;
 glyphname = "Yerudieresis-cy";
 kernLeft = "En-cy";
 kernRight = "En-cy";
@@ -64,7 +64,15 @@ name = top;
 pos = (555,920);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "1eebc24d-11e9-47ca-96c9-fdd635a98afc";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = "Yeru-cy";
@@ -148,30 +156,6 @@ ref = dieresis;
 }
 );
 width = 610;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (289,0);
-},
-{
-name = top;
-pos = (461,915);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-ref = "Yeru-cy";
-},
-{
-alignment = -1;
-pos = (164,165);
-ref = dieresis;
-}
-);
-width = 694;
 },
 {
 anchors = (

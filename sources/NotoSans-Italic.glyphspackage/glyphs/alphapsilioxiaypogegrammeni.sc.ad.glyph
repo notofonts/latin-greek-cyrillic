@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = alphapsilioxiaypogegrammeni.sc.ad;
 kernLeft = GRK_alpha.sc;
 kernRight = GRK_eta.sc;
@@ -31,7 +31,15 @@ ref = iota.sc;
 width = 903;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "42720e7e-3a5f-4918-a2af-cd686653376a";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = alpha.sc;
@@ -83,7 +91,15 @@ ref = iota.sc;
 width = 686;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "7d3e7674-24ba-404e-be9a-980a124af3fa";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = alpha.sc;

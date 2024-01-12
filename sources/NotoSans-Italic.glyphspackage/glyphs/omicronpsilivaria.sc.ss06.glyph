@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = omicronpsilivaria.sc.ss06;
 kernLeft = GRK_omicron.sc;
 kernRight = GRK_omicron.sc;
@@ -29,19 +29,6 @@ ref = psilivaria.sc;
 }
 );
 width = 593;
-},
-{
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-ref = omicron.sc;
-},
-{
-pos = (21,36);
-ref = psilivaria.sc;
-}
-);
-width = 623;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
@@ -83,7 +70,15 @@ ref = psilivaria.sc;
 width = 434;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "c8ec8afd-1c9c-4bd9-b4af-f8a9c0b5f342";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = omicron.sc;

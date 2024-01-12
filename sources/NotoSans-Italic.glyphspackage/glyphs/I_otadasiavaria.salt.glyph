@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 6;
+color = 10;
 glyphname = Iotadasiavaria.salt;
 kernLeft = I.salt;
 kernRight = I.salt;
@@ -36,22 +36,6 @@ ref = dasiavaria.case;
 }
 );
 width = 647;
-},
-{
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-pos = (452,0);
-ref = Iota.salt;
-},
-{
-alignment = -1;
-pos = (-51,0);
-ref = dasiavaria.case;
-}
-);
-width = 772;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
@@ -102,7 +86,15 @@ ref = dasiavaria.case;
 width = 576;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "e278fc42-782f-4dc6-bc8e-ff219ef60e1c";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

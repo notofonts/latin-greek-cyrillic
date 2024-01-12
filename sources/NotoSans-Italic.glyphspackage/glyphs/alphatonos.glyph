@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = alphatonos;
 kernLeft = GRK_omicron;
 kernRight = GRK_alpha;
@@ -31,20 +31,15 @@ ref = tonos;
 width = 593;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-ref = alpha;
-},
-{
-pos = (160,0);
-ref = tonos;
-}
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
 );
-width = 611;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+};
+layerId = "32237d74-f837-4b82-be39-c5eda3dc294e";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = alpha;

@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = omegaperispomeni;
 kernLeft = GRK_omicron;
 kernRight = GRK_omicron;
@@ -31,7 +31,15 @@ ref = perispomeni;
 width = 779;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "8d65c725-f9d0-44b1-9c47-f176f9ffc3b0";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = omega;
@@ -83,7 +91,15 @@ ref = perispomeni;
 width = 551;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "66fd1b99-ac77-4930-b3f8-01c9b95660e4";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = omega;

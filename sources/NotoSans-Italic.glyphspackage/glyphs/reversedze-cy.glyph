@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = "reversedze-cy";
 kernLeft = "a-cy";
 kernRight = "e-cy";
@@ -43,26 +44,6 @@ ref = epsilon;
 }
 );
 width = 451;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (199,0);
-},
-{
-name = top;
-pos = (335,546);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-ref = epsilon;
-}
-);
-width = 513;
 },
 {
 anchors = (
@@ -135,7 +116,15 @@ name = top;
 pos = (242,530);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "941860c5-bcf4-4ace-b85a-e47b249620ce";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 5;
+color = 10;
 glyphname = psilioxia_brevecomb;
 layers = (
 {
@@ -15,7 +15,7 @@ shapes = (
 {
 pos = (15,-2);
 ref = breve;
-scale = (1,1.0021);
+scale = (1,1.002);
 },
 {
 alignment = -1;
@@ -37,7 +37,7 @@ shapes = (
 {
 pos = (8,4);
 ref = breve;
-scale = (1,0.9943);
+scale = (1,0.994);
 },
 {
 alignment = -1;
@@ -51,28 +51,6 @@ width = 409;
 anchors = (
 {
 name = _top;
-pos = (294,546);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-pos = (8,103);
-ref = breve;
-scale = (1,0.8302);
-},
-{
-alignment = -1;
-pos = (35,168);
-ref = psilioxia;
-}
-);
-width = 498;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (325,553);
 }
 );
@@ -81,7 +59,7 @@ shapes = (
 {
 pos = (9,136);
 ref = breve;
-scale = (1,0.7753);
+scale = (1,0.775);
 },
 {
 alignment = -1;
@@ -103,7 +81,7 @@ shapes = (
 {
 pos = (25,-6);
 ref = breve;
-scale = (1,1.0091);
+scale = (1,1.009);
 },
 {
 alignment = -1;
@@ -125,7 +103,7 @@ shapes = (
 {
 pos = (23,59);
 ref = breve;
-scale = (1,0.8699);
+scale = (1,0.87);
 },
 {
 alignment = -1;
@@ -142,12 +120,20 @@ name = _top;
 pos = (284,545);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "0330f840-0303-428f-957b-e646eba60f9e";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 pos = (41,87);
 ref = breve;
-scale = (1,0.8067);
+scale = (1,0.807);
 },
 {
 alignment = -1;
@@ -169,7 +155,7 @@ shapes = (
 {
 pos = (45,93);
 ref = breve;
-scale = (1,0.8067);
+scale = (1,0.807);
 },
 {
 alignment = -1;

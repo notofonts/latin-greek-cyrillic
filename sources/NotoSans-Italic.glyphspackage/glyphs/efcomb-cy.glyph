@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 10;
 glyphname = "efcomb-cy";
 layers = (
 {
@@ -43,27 +44,6 @@ scale = (0.45,0.4);
 }
 );
 width = 305;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (32,449);
-},
-{
-name = top;
-pos = (153,969);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-pos = (-74,643);
-ref = phiSymbol;
-scale = (0.45,0.4);
-}
-);
-width = 344;
 },
 {
 anchors = (
@@ -139,7 +119,15 @@ name = top;
 pos = (153,969);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "a5e1eb42-12e3-4656-a78e-af9a44d5d3ee";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 pos = (-38,636);

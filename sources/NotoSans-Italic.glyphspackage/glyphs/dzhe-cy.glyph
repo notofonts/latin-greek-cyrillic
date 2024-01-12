@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 10;
 glyphname = "dzhe-cy";
 kernLeft = "ii-cy";
 kernRight = "en-cy";
@@ -59,14 +59,29 @@ name = top;
 pos = (354,546);
 }
 );
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
 background = {
 shapes = (
 {
-ref = "ii-cy";
+closed = 1;
+nodes = (
+(270.28,-224.4,l),
+(304.45,-30.34,l),
+(280.57,-30.34,l),
+(173.8,-64.71,l),
+(131.82,-224.4,l)
+);
 }
 );
 };
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+layerId = "9e4172d8-a8f2-4242-915c-705f7802c835";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -304,36 +319,6 @@ ref = "ii-cy";
 }
 );
 width = 569;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (124,-218);
-},
-{
-name = top;
-pos = (283,545);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-closed = 1;
-nodes = (
-(185,-218,l),
-(228,-31,l),
-(209,-31,l),
-(99,-63,l),
-(62,-218,l)
-);
-},
-{
-alignment = -1;
-ref = "ii-cy";
-}
-);
-width = 457.46;
 }
 );
 script = cyrillic;

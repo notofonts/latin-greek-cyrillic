@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 10;
 glyphname = Omegapsilioxia;
 kernLeft = GRK_Omega;
 kernRight = GRK_Omega;
@@ -35,22 +35,6 @@ ref = psilioxia.case;
 }
 );
 width = 998;
-},
-{
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-pos = (421,0);
-ref = Omega;
-},
-{
-alignment = -1;
-pos = (-25,0);
-ref = psilioxia.case;
-}
-);
-width = 1153;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
@@ -101,7 +85,15 @@ ref = psilioxia.case;
 width = 843;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "4c8fe5c3-cc6e-46fb-895a-2ad7bca35ee7";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

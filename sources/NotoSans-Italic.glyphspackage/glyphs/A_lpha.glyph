@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 10;
 glyphname = Alpha;
 kernLeft = GRK_Alpha;
 kernRight = GRK_Alpha;
@@ -42,7 +42,15 @@ name = topleft;
 pos = (180,714);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "bcec0aee-9b10-4617-a73c-00dbde049942";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = A;
@@ -57,7 +65,15 @@ name = topleft;
 pos = (130,714);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "a3bf7cf9-c7eb-4038-bfc6-1fc9c8bb3b12";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = A;

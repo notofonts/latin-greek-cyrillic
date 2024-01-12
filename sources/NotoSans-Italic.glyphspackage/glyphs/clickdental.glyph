@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = clickdental;
 layers = (
 {
@@ -75,7 +76,28 @@ name = top;
 pos = (249,760);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(160.74,0,l),
+(321.52,760,l),
+(214.24,760,l),
+(53.46,0,l)
+);
+}
+);
+};
+layerId = "82c55af9-0938-44b7-91be-6e2622a5adfc";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -175,35 +197,6 @@ nodes = (
 }
 );
 width = 274;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (90,0);
-},
-{
-name = center;
-pos = (171,383);
-},
-{
-name = top;
-pos = (253,767);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-closed = 1;
-nodes = (
-(143,0,l),
-(306,767,l),
-(200,767,l),
-(37,0,l)
-);
-}
-);
-width = 296;
 },
 {
 anchors = (

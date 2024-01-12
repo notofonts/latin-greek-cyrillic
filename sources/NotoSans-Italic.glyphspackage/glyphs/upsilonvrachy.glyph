@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = upsilonvrachy;
 kernLeft = GRK_upsilon;
 kernRight = GRK_upsilon;
@@ -31,7 +31,15 @@ ref = brevecomb;
 width = 572;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "347ba3b0-6316-4323-931c-fab180fdd6ce";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = upsilon;
@@ -83,7 +91,15 @@ ref = brevecomb;
 width = 399;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "26c736f1-21df-4e3a-96a7-3c109b2ee823";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = upsilon;

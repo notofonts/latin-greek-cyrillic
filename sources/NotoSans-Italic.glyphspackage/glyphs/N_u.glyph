@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 10;
 glyphname = Nu;
 kernLeft = GRK_Epsilon;
 kernRight = GRK_Eta;
@@ -24,16 +24,15 @@ ref = N;
 width = 674;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-ref = N;
-}
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
 );
-width = 755;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+};
+layerId = "32bf556e-675a-473b-bf9c-c8a16318449b";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = N;

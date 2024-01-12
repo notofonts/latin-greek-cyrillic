@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Itilde;
 layers = (
 {
@@ -63,7 +64,15 @@ name = top;
 pos = (324,925);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "43f4da9d-0c55-4b43-bcb7-616db100946f";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -88,7 +97,15 @@ name = top;
 pos = (300,939);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "e618de99-984c-4daa-95b1-0e89932d6139";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

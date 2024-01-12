@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 10;
 glyphname = "Zedieresis-cy";
 kernLeft = "Ze-cy";
 kernRight = "Ve-cy";
@@ -64,7 +64,15 @@ name = top;
 pos = (386,917);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "296592af-5fc4-4ff3-9020-cf39391b45bc";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -148,30 +156,6 @@ ref = "Ze-cy";
 }
 );
 width = 401;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (152,0);
-},
-{
-name = top;
-pos = (297,915);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-pos = (0,165);
-ref = dieresis;
-},
-{
-ref = "Ze-cy";
-}
-);
-width = 447;
 },
 {
 anchors = (

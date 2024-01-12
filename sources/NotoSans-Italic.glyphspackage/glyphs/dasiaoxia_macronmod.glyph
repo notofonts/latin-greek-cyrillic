@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 5;
+color = 10;
 glyphname = dasiaoxia_macronmod;
 layers = (
 {
@@ -44,27 +44,6 @@ ref = dasiaoxia;
 }
 );
 width = 431;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (315,546);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-pos = (57,0);
-ref = macronmod;
-},
-{
-alignment = -1;
-pos = (29,134);
-ref = dasiaoxia;
-}
-);
-width = 510;
 },
 {
 anchors = (
@@ -136,7 +115,15 @@ name = _top;
 pos = (283,545);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "4d0365a0-de8e-4cbc-b0bb-1488cf2bcde9";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 pos = (46,0);

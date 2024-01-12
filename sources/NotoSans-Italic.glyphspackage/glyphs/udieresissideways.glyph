@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = udieresissideways;
 layers = (
 {
@@ -57,7 +58,15 @@ name = top;
 pos = (477,546);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "39a4d4dd-3ffa-4c81-ac3e-802c11b18d46";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -133,28 +142,6 @@ ref = udieresis;
 }
 );
 width = 822;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (355,0);
-},
-{
-name = top;
-pos = (467,530);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-angle = 90;
-pos = (790,49);
-ref = udieresis;
-}
-);
-width = 843;
 },
 {
 anchors = (

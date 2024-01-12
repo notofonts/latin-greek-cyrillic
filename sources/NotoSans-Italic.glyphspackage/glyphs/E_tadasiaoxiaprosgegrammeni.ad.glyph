@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 10;
 glyphname = Etadasiaoxiaprosgegrammeni.ad;
 kernLeft = GRK_Epsilon;
 kernRight = GRK_iota;
@@ -45,27 +45,6 @@ ref = prosgegrammeni;
 }
 );
 width = 1318;
-},
-{
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-pos = (414,0);
-ref = Eta;
-},
-{
-alignment = -1;
-pos = (-51,0);
-ref = dasiaoxia.case;
-},
-{
-alignment = -1;
-pos = (1114,0);
-ref = prosgegrammeni;
-}
-);
-width = 1478;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
@@ -131,7 +110,15 @@ ref = prosgegrammeni;
 width = 1039;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "98552109-b4f9-49ee-9fbb-670f1bf1a4f3";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

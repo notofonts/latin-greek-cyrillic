@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = iotavaria;
 kernLeft = GRK_iota;
 kernRight = GRK_iota;
@@ -31,7 +31,15 @@ ref = varia;
 width = 306;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "abf174d0-6b5b-4bca-a233-274ea0ed956c";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = iota;
@@ -81,19 +89,6 @@ ref = varia;
 }
 );
 width = 210;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-ref = iota;
-},
-{
-pos = (-121,0);
-ref = varia;
-}
-);
-width = 255;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";

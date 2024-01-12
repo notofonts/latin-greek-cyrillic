@@ -1,5 +1,6 @@
 {
 category = Number;
+color = 10;
 glyphname = seveneighths;
 layers = (
 {
@@ -45,7 +46,15 @@ ref = sevensuperior;
 width = 658;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "bbbf6d1b-fdb1-4816-a2d5-9a6e5fc52cc2";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -64,27 +73,6 @@ ref = sevensuperior;
 }
 );
 width = 857;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-pos = (286,0);
-ref = fraction;
-},
-{
-alignment = -1;
-pos = (325,-419);
-ref = eightsuperior;
-},
-{
-alignment = -1;
-pos = (-23,-130);
-ref = sevensuperior;
-}
-);
-width = 717;
 },
 {
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";

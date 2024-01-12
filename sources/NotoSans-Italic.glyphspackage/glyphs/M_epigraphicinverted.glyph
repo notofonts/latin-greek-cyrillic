@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Mepigraphicinverted;
 layers = (
 {
@@ -53,32 +54,6 @@ ref = M;
 }
 );
 width = 841;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (381.972,0);
-},
-{
-name = top;
-pos = (534,714);
-},
-{
-name = topright;
-pos = (884,714);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-angle = 180;
-pos = (909,714);
-ref = M;
-}
-);
-width = 880;
 },
 {
 anchors = (
@@ -173,7 +148,15 @@ name = topright;
 pos = (727,714);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "3c6b0963-66bc-4bc8-9982-34b547b4588a";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

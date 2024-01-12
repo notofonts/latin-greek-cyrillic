@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = triangularbullet;
 layers = (
 {
@@ -31,7 +32,27 @@ nodes = (
 width = 368;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(406.46,345.34,l),
+(131.15,564.88,l),
+(49.32,180.12,l)
+);
+}
+);
+};
+layerId = "9ab0e451-3799-40f4-a676-559cfc691b38";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -87,7 +108,27 @@ nodes = (
 width = 399;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(428.71,373,l),
+(125.61,579.8,l),
+(37.26,165.2,l)
+);
+}
+);
+};
+layerId = "647978eb-4787-43ca-ab61-bbd98096fc29";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 closed = 1;

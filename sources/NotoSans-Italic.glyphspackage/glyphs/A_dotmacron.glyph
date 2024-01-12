@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Adotmacron;
 layers = (
 {
@@ -63,7 +64,15 @@ name = top;
 pos = (473,1020);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "2370bbd9-d6bd-4d1b-8b58-c200905ea51a";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -163,7 +172,15 @@ name = top;
 pos = (390,1015);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "4806677d-6fc4-4d76-b933-743c505ad173";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Finsular;
 layers = (
 {
@@ -42,7 +43,28 @@ ref = Sinsular;
 width = 447;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(395.22,232.99,l),
+(421.59,357.01,l),
+(168,357.01,l),
+(141.63,232.99,l)
+);
+}
+);
+};
+layerId = "42ea40b3-5b62-42c5-a58f-21776c7d3eb0";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -116,25 +138,6 @@ ref = Sinsular;
 }
 );
 width = 309;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-closed = 1;
-nodes = (
-(319,247,l),
-(339,342,l),
-(174,342,l),
-(154,247,l)
-);
-},
-{
-alignment = -1;
-ref = Sinsular;
-}
-);
-width = 348;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";

@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 4;
+color = 10;
 glyphname = acutecomb.loclCYR;
 layers = (
 {
@@ -56,7 +56,30 @@ name = _top;
 pos = (181,546);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(113.17,606,l),
+(219.41,606,l),
+(410.57,757.83,l),
+(410.57,766,l),
+(241.03,766,l),
+(113.17,617.78,l)
+);
+}
+);
+};
+layerId = "cefb8114-496b-4c40-b34c-9f3ff54fba9c";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -163,29 +186,6 @@ nodes = (
 }
 );
 width = 263;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (169,546);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-closed = 1;
-nodes = (
-(113,606,l),
-(204,606,l),
-(362,758,l),
-(363,766,l),
-(218,766,l),
-(113,616,l)
-);
-}
-);
-width = 298.97;
 }
 );
 script = "";

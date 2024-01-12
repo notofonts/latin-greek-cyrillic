@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Iacute;
 layers = (
 {
@@ -63,7 +64,15 @@ name = top;
 pos = (326,934);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "5e34e949-36fe-4e84-acdb-1d76792b35d4";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -88,7 +97,15 @@ name = top;
 pos = (302,951);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "8afc9cee-80c4-4598-aac2-e4edee7b2937";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

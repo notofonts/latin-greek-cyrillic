@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = ohornhookabove;
 kernLeft = o.right;
 kernRight = o.hornleft;
@@ -53,31 +54,6 @@ ref = hook;
 }
 );
 width = 568;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (264,0);
-},
-{
-name = top;
-pos = (440,830);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-ref = ohorn;
-},
-{
-alignment = -1;
-pos = (573,0);
-ref = hook;
-}
-);
-width = 643;
 },
 {
 anchors = (
@@ -165,7 +141,15 @@ name = top;
 pos = (362,830);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "28f58934-baee-4f01-b9a8-fa14beaf45a9";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

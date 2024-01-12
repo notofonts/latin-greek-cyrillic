@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = kcommaaccent.sc;
 kernLeft = b.sc;
 layers = (
@@ -64,7 +65,15 @@ name = top;
 pos = (341,582);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "afb7f3f8-4424-4360-928a-a4546852c875";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -89,7 +98,15 @@ name = top;
 pos = (269,580);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "9deeab39-d31f-45e0-a737-b9ba298644e7";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
