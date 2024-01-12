@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = gobliquestroke;
 layers = (
 {
@@ -40,7 +41,28 @@ ref = g;
 width = 538;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(546.02,384.26,l),
+(546.02,440.86,l),
+(-7.4,344.86,l),
+(-7.4,288.26,l)
+);
+}
+);
+};
+layerId = "e0c3e13c-ad38-40b8-8259-01fae6c21bbe";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -110,24 +132,6 @@ ref = g;
 }
 );
 width = 430;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-closed = 1;
-nodes = (
-(451,384,l),
-(451,439,l),
-(-9,345,l),
-(-9,290,l)
-);
-},
-{
-ref = g;
-}
-);
-width = 458;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

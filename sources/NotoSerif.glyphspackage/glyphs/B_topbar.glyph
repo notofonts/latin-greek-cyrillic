@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 10;
 glyphname = Btopbar;
 layers = (
 {
@@ -22,7 +22,15 @@ ref = "Be-cy";
 width = 630;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "202a46cf-55fb-489c-aa60-2a4412abeed4";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = "Be-cy";
@@ -56,15 +64,6 @@ ref = "Be-cy";
 }
 );
 width = 502;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = "Be-cy";
-}
-);
-width = 549;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

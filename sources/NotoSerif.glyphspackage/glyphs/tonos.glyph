@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 10;
 glyphname = tonos;
 kernLeft = GRK_Alpha;
 kernRight = GRK_Alpha;
@@ -51,30 +52,6 @@ nodes = (
 }
 );
 width = 226;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (80,536);
-}
-);
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-closed = 1;
-nodes = (
-(203,762,l),
-(203,774,l),
-(149,818,o),
-(96,829,o),
-(81,774,cs),
-(40,619,l),
-(90,603,l)
-);
-}
-);
-width = 243;
 },
 {
 anchors = (
@@ -179,7 +156,31 @@ name = _top;
 pos = (75,536);
 }
 );
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(195.94,765.74,l),
+(195.94,777.74,l),
+(153.08,825.08,o),
+(73.04,844.82,o),
+(63.04,773.68,cs),
+(40,621.74,l),
+(90.3,602.52,l)
+);
+}
+);
+};
+layerId = "5c4f1616-a441-42a6-b2c7-80e59bc39c20";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 closed = 1;

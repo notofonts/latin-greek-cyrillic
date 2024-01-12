@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = "odoublemonocular-cy";
 layers = (
 {
@@ -29,7 +30,15 @@ ref = "omonocular-cy";
 width = 1028;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "7fd89c6b-979a-4960-a535-e93214e18a5e";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (366,0);
@@ -79,19 +88,6 @@ ref = "omonocular-cy";
 }
 );
 width = 813;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-pos = (323,0);
-ref = "omonocular-cy";
-},
-{
-ref = "omonocular-cy";
-}
-);
-width = 853;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

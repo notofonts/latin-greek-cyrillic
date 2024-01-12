@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = upsilon_brevecomb_commaabovecomb_gravecomb;
 kernLeft = GRK_upsilon;
 kernRight = GRK_upsilon;
@@ -29,19 +30,6 @@ ref = psilivaria_brevecomb;
 }
 );
 width = 541;
-},
-{
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-ref = upsilon;
-},
-{
-pos = (89,-10);
-ref = psilivaria_brevecomb;
-}
-);
-width = 595;
 },
 {
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
@@ -83,7 +71,15 @@ ref = psilivaria_brevecomb;
 width = 487;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "0d95211d-860a-44e0-bef2-9046edddbf8a";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 ref = upsilon;

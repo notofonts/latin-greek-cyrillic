@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = Etadasiaperispomeni;
 kernLeft = GRK_Epsilontonos;
 kernRight = GRK_Eta;
@@ -32,7 +33,15 @@ ref = dasiaperispomeni.case;
 width = 1148;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "2cc6f510-afbf-437f-8996-983cb07fa902";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (395,0);
@@ -86,20 +95,6 @@ ref = dasiaperispomeni.case;
 }
 );
 width = 933;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-pos = (337,0);
-ref = Eta;
-},
-{
-pos = (-50,0);
-ref = dasiaperispomeni.case;
-}
-);
-width = 1007;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

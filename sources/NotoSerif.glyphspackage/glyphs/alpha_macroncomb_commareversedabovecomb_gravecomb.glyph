@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = alpha_macroncomb_commareversedabovecomb_gravecomb;
 kernLeft = GRK_omicron;
 kernRight = GRK_alpha;
@@ -31,7 +32,15 @@ ref = dasiavaria_macronmod;
 width = 639;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "9b45759a-0d92-4816-b9f3-8cdcd1dd3dcf";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = alpha;
@@ -83,7 +92,15 @@ ref = dasiavaria_macronmod;
 width = 544;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "d22393f7-7600-40f9-a9d6-939fb7986e39";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 ref = alpha;

@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = omegavariaypogegrammeni.sc.ad;
 kernLeft = GRK_omega.sc;
 kernRight = GRK_eta.sc;
@@ -28,19 +29,6 @@ ref = iota.sc;
 }
 );
 width = 977;
-},
-{
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-ref = omega.sc;
-},
-{
-pos = (726,0);
-ref = iota.sc;
-}
-);
-width = 1078;
 },
 {
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
@@ -82,7 +70,15 @@ ref = iota.sc;
 width = 805;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "3e990b87-993e-4de0-8e73-08b6cf8efce0";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 ref = omega.sc;

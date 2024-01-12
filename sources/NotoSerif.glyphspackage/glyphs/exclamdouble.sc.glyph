@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = exclamdouble.sc;
 layers = (
 {
@@ -31,7 +32,15 @@ ref = exclam.sc;
 width = 530;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "06dd1a48-3946-4670-8a7b-7cf7848edade";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (230,0);
@@ -84,20 +93,6 @@ ref = exclam.sc;
 }
 );
 width = 425;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-pos = (197,0);
-ref = exclam.sc;
-},
-{
-pos = (-22,0);
-ref = exclam.sc;
-}
-);
-width = 468;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

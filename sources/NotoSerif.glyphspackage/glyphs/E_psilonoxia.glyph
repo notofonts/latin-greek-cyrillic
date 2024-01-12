@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = Epsilonoxia;
 kernLeft = GRK_Epsilontonos;
 kernRight = GRK_Epsilon;
@@ -32,7 +33,15 @@ ref = oxia.case;
 width = 768;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "cbce1223-a72b-4d69-991d-3ed4e3193c6d";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (163,0);
@@ -88,7 +97,15 @@ ref = oxia.case;
 width = 640;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "c889db91-1926-4afb-8fd2-1caf6e1a7494";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 pos = (158,0);

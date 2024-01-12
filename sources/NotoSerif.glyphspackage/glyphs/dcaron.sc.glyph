@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = dcaron.sc;
 kernLeft = b.sc;
 kernRight = d.sc;
@@ -61,7 +62,15 @@ name = top;
 pos = (335,815);
 }
 );
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "57a98073-35a6-42a8-a602-e50ea16720b8";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = d.sc;
@@ -166,29 +175,6 @@ ref = caroncomb.sc;
 }
 );
 width = 513;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (282,0);
-},
-{
-name = top;
-pos = (282,814);
-}
-);
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = d.sc;
-},
-{
-pos = (46,35);
-ref = caroncomb.sc;
-}
-);
-width = 564;
 }
 );
 script = latin;

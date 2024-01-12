@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = ldot.sc;
 kernLeft = b.sc;
 layers = (
@@ -60,7 +61,15 @@ name = top;
 pos = (280,571);
 }
 );
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "f1f75764-6ff1-48de-9b38-d36431559755";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 ref = l.sc;
@@ -164,29 +173,6 @@ ref = dotaccent;
 }
 );
 width = 432;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (236,0);
-},
-{
-name = top;
-pos = (236,571);
-}
-);
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = l.sc;
-},
-{
-pos = (277,-344);
-ref = dotaccent;
-}
-);
-width = 473;
 }
 );
 metricLeft = h.sc;

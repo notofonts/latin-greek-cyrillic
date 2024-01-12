@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = Omicronpsili;
 kernLeft = GRK_Omicrontonos;
 kernRight = GRK_Omicron;
@@ -32,7 +33,15 @@ ref = psili.case;
 width = 795;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "2b55a031-c37b-4751-92c2-78d5904f41d5";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (76,0);
@@ -88,7 +97,15 @@ ref = psili.case;
 width = 656;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "91705fd1-8468-4f10-acc0-6e1b8b359b66";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 pos = (63,0);

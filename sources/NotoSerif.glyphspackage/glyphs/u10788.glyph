@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 10;
 glyphname = u10788;
 layers = (
 {
@@ -25,7 +25,15 @@ scale = (0.65,0.6);
 width = 709;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "cc06b948-1aef-4fd6-9e01-854c119368aa";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 pos = (0,287);
@@ -69,7 +77,15 @@ scale = (0.65,0.6);
 width = 618;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "56948f16-5220-458e-a36f-1a45685cb31a";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 pos = (0,287);

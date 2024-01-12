@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = dasiaoxia.sc;
 layers = (
 {
@@ -22,7 +23,15 @@ ref = dasiaoxia;
 width = 397;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "5548a6b7-09a1-440e-ab04-4dac971e55b1";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -62,7 +71,15 @@ ref = dasiaoxia;
 width = 365;
 },
 {
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "af9baf51-1384-4285-b89a-834c6c5727c1";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 alignment = -1;
