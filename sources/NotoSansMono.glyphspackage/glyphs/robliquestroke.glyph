@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = robliquestroke;
 layers = (
 {
@@ -41,7 +42,28 @@ ref = r;
 width = 600;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(600,273.21,l),
+(600,363.05,l),
+(0,261.06,l),
+(0,170.61,l)
+);
+}
+);
+};
+layerId = "c18607ed-1013-4b0d-8b74-3995dbbe5bef";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -107,25 +129,6 @@ nodes = (
 (500,378,l),
 (0,251,l),
 (0,186,l)
-);
-},
-{
-alignment = -1;
-ref = r;
-}
-);
-width = 500;
-},
-{
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(500,277,l),
-(500,373,l),
-(0,251,l),
-(0,155,l)
 );
 },
 {

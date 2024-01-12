@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = "dzelo-cy";
 layers = (
 {
@@ -41,7 +42,28 @@ ref = "zemlya-cy";
 width = 600;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(497.23,228.07,l),
+(497.23,320.13,l),
+(98.77,320.13,l),
+(98.77,228.07,l)
+);
+}
+);
+};
+layerId = "4c279292-3902-465f-bc26-a9ac0880f336";
+name = "SemiBold (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -108,25 +130,6 @@ nodes = (
 (386,310,l),
 (113,310,l),
 (113,246,l)
-);
-},
-{
-alignment = -1;
-ref = "zemlya-cy";
-}
-);
-width = 500;
-},
-{
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(403,230,l),
-(403,326,l),
-(92,326,l),
-(92,230,l)
 );
 },
 {

@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = Ustroke;
 layers = (
 {
@@ -29,24 +30,6 @@ nodes = (
 (561,746,l),
 (12,9,l),
 (69,-35,l)
-);
-},
-{
-ref = U;
-}
-);
-width = 600;
-},
-{
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
-shapes = (
-{
-closed = 1;
-nodes = (
-(601,697,l),
-(525,752,l),
-(1,9,l),
-(78,-48,l)
 );
 },
 {
@@ -110,7 +93,28 @@ ref = U;
 width = 500;
 },
 {
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(522.28,717.85,l),
+(455.81,755.22,l),
+(20.21,-19.51,l),
+(87.07,-56.1,l)
+);
+}
+);
+};
+layerId = "3d87a399-128c-49cd-9c38-4321caf3a286";
+name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
 closed = 1;

@@ -35,22 +35,6 @@ ref = O;
 width = 1200;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
-shapes = (
-{
-alignment = -1;
-pos = (101,0);
-ref = O;
-},
-{
-alignment = -1;
-pos = (499,0);
-ref = O;
-}
-);
-width = 1200;
-},
-{
 layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
 shapes = (
 {
@@ -93,22 +77,6 @@ ref = O;
 {
 alignment = -1;
 pos = (434,0);
-ref = O;
-}
-);
-width = 1000;
-},
-{
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-alignment = -1;
-pos = (83,0);
-ref = O;
-},
-{
-alignment = -1;
-pos = (417,0);
 ref = O;
 }
 );

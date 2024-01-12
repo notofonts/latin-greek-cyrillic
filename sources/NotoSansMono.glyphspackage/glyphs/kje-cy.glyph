@@ -59,30 +59,6 @@ pos = (300,0);
 },
 {
 name = top;
-pos = (310,766);
-}
-);
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
-shapes = (
-{
-alignment = -1;
-ref = "ka-cy";
-},
-{
-pos = (189,0);
-ref = acutecomb.loclCYR;
-}
-);
-width = 600;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (300,0);
-},
-{
-name = top;
 pos = (315,766);
 }
 );
@@ -142,30 +118,6 @@ ref = "ka-cy";
 },
 {
 pos = (139,0);
-ref = acutecomb.loclCYR;
-}
-);
-width = 500;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (250,0);
-},
-{
-name = top;
-pos = (293,768);
-}
-);
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-alignment = -1;
-ref = "ka-cy";
-},
-{
-pos = (127,0);
 ref = acutecomb.loclCYR;
 }
 );

@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3227";
 .formatVersion = 3;
 axes = (
 {
@@ -4824,7 +4824,6 @@ pos = -240;
 over = -11;
 },
 {
-over = -11;
 },
 {
 over = 11;
@@ -4921,7 +4920,6 @@ over = 10;
 pos = 572;
 },
 {
-over = -11;
 },
 {
 }
@@ -4935,98 +4933,6 @@ userData = {
 GSOffsetHorizontal = -26;
 GSOffsetVertical = -26;
 };
-},
-{
-axesValues = (
-151,
-100
-);
-customParameters = (
-{
-name = typoAscender;
-value = 1069;
-},
-{
-name = typoDescender;
-value = -293;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 1229;
-},
-{
-name = winDescent;
-value = 389;
-},
-{
-name = hheaAscender;
-value = 1069;
-},
-{
-name = hheaDescender;
-value = -293;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = panose;
-value = (
-2,
-11,
-8,
-9,
-4,
-5,
-4,
-2,
-2,
-4
-);
-}
-);
-iconName = SemiBold;
-id = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
-metricValues = (
-{
-over = 6;
-pos = 760;
-},
-{
-over = 13;
-pos = 714;
-},
-{
-over = 11;
-pos = 546;
-},
-{
-over = -11;
-},
-{
-over = -6;
-pos = -240;
-},
-{
-over = 10;
-pos = 582;
-},
-{
-over = -11;
-},
-{
-}
-);
-name = SemiBold;
-stemValues = (
-125,
-147
-);
 },
 {
 axesValues = (
@@ -5109,7 +5015,6 @@ over = 7;
 pos = 591;
 },
 {
-over = -11;
 },
 {
 }
@@ -5205,7 +5110,6 @@ over = 8;
 pos = 559;
 },
 {
-over = -11;
 },
 {
 }
@@ -5301,7 +5205,6 @@ over = 10;
 pos = 572;
 },
 {
-over = -11;
 },
 {
 }
@@ -5310,102 +5213,6 @@ name = Condensed;
 stemValues = (
 75,
 86
-);
-userData = {
-GSOffsetHorizontal = -5;
-GSOffsetVertical = -5;
-};
-},
-{
-axesValues = (
-151,
-70
-);
-customParameters = (
-{
-name = typoAscender;
-value = 1069;
-},
-{
-name = typoDescender;
-value = -293;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 1229;
-},
-{
-name = winDescent;
-value = 389;
-},
-{
-name = hheaAscender;
-value = 1069;
-},
-{
-name = hheaDescender;
-value = -293;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = panose;
-value = (
-2,
-11,
-8,
-9,
-4,
-5,
-4,
-2,
-2,
-4
-);
-}
-);
-iconName = SemiBold_Condensed;
-id = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-metricValues = (
-{
-over = 6;
-pos = 760;
-},
-{
-over = 13;
-pos = 714;
-},
-{
-over = 12;
-pos = 546;
-},
-{
-over = -9;
-},
-{
-over = -6;
-pos = -240;
-},
-{
-over = 8;
-pos = 582;
-},
-{
-over = -9;
-},
-{
-}
-);
-name = "SemiBold Condensed";
-stemValues = (
-117,
-132
 );
 userData = {
 GSOffsetHorizontal = -5;
@@ -5493,7 +5300,6 @@ over = 8;
 pos = 591;
 },
 {
-over = -8;
 },
 {
 }
@@ -5570,7 +5376,7 @@ value = "536";
 );
 instanceInterpolations = {
 "02EF4DD5-EF93-4764-9336-ED93C6797AC3" = 0.79688;
-UUID0 = 0.20312;
+UUID0 = 0.20313;
 };
 name = ExtraLight;
 weightClass = 200;
@@ -5666,8 +5472,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.29508;
-UUID0 = 0.70492;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.18;
+UUID0 = 0.82;
 };
 name = Medium;
 weightClass = 500;
@@ -5699,8 +5505,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.62295;
-UUID0 = 0.37705;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.38;
+UUID0 = 0.62;
 };
 name = SemiBold;
 weightClass = 600;
@@ -5732,7 +5538,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 1;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.61;
+UUID0 = 0.39;
 };
 isBold = 1;
 name = Bold;
@@ -5765,8 +5572,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.46154;
-"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.53846;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.79;
+UUID0 = 0.21;
 };
 name = ExtraBold;
 weightClass = 800;
@@ -5969,10 +5776,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.1082;
-"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.18689;
-"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.25847;
-UUID0 = 0.44645;
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.066;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.114;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.30067;
+UUID0 = 0.51933;
 };
 name = "SemiCondensed Medium";
 weightClass = 500;
@@ -6005,10 +5812,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.22842;
-"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.39454;
-"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.13825;
-UUID0 = 0.2388;
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.13933;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.24067;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.22733;
+UUID0 = 0.39267;
 };
 name = "SemiCondensed SemiBold";
 weightClass = 600;
@@ -6041,8 +5848,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.36667;
-"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.63333;
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.22367;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.38633;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.143;
+UUID0 = 0.247;
 };
 isBold = 1;
 linkStyle = SemiCondensed;
@@ -6077,10 +5886,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.19744;
-"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.16923;
-"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.29231;
-"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.34103;
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.28967;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.50033;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.077;
+UUID0 = 0.133;
 };
 name = "SemiCondensed ExtraBold";
 weightClass = 800;
@@ -6286,10 +6095,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.20656;
-"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.08852;
-"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.49344;
-UUID0 = 0.21148;
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.126;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.054;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.574;
+UUID0 = 0.246;
 };
 name = "Condensed Medium";
 weightClass = 500;
@@ -6322,10 +6131,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.43607;
-"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.18689;
-"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.26393;
-UUID0 = 0.11311;
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.266;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.114;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.434;
+UUID0 = 0.186;
 };
 name = "Condensed SemiBold";
 weightClass = 600;
@@ -6358,8 +6167,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.7;
-"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.3;
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.427;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.183;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.273;
+UUID0 = 0.117;
 };
 isBold = 1;
 linkStyle = Condensed;
@@ -6394,10 +6205,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.37692;
-"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.32308;
-"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.13846;
-"A3018D0F-8B4B-4295-AE04-84912D9BB11D" = 0.16154;
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.553;
+"963C7F4A-CFE2-43FC-8D10-B7434095D111" = 0.237;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.147;
+UUID0 = 0.063;
 };
 name = "Condensed ExtraBold";
 weightClass = 800;
@@ -6498,7 +6309,7 @@ value = "536";
 );
 instanceInterpolations = {
 "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9" = 0.79688;
-"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.20312;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.20313;
 };
 name = "ExtraCondensed ExtraLight";
 weightClass = 200;
@@ -6597,8 +6408,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.29508;
-"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.70492;
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.18;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.82;
 };
 name = "ExtraCondensed Medium";
 weightClass = 500;
@@ -6631,8 +6442,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.62295;
-"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.37705;
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.38;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.62;
 };
 name = "ExtraCondensed SemiBold";
 weightClass = 600;
@@ -6665,7 +6476,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 1;
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.61;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.39;
 };
 isBold = 1;
 linkStyle = ExtraCondensed;
@@ -6700,8 +6512,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"28AE7390-0F8D-4D03-A566-30BDF518EAE7" = 0.53846;
-"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.46154;
+"35DC4C3B-953E-41FE-A906-9781CEBB9B49" = 0.79;
+"C5665599-2906-40DA-AF7F-7DBC0844951A" = 0.21;
 };
 name = "ExtraCondensed ExtraBold";
 weightClass = 800;
@@ -6779,6 +6591,15 @@ value = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/l
 );
 },
 {
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Designed by Monotype design team.";
+}
+);
+},
+{
 key = designers;
 values = (
 {
@@ -6790,6 +6611,19 @@ value = "Monotype Design Team";
 {
 key = designerURL;
 value = "http://www.monotype.com/studio";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
 },
 {
 key = manufacturers;
@@ -6805,15 +6639,6 @@ key = manufacturerURL;
 value = "http://www.google.com/get/noto/";
 },
 {
-key = descriptions;
-values = (
-{
-language = dflt;
-value = "Designed by Monotype design team.";
-}
-);
-},
-{
 key = trademarks;
 values = (
 {
@@ -6827,21 +6652,8 @@ key = vendorID;
 value = GOOG;
 },
 {
-key = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
-{
 key = versionString;
 value = "Version 2.014";
-},
-{
-key = licenses;
-values = (
-{
-language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-}
-);
 }
 );
 settings = {

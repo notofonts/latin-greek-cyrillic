@@ -66,31 +66,6 @@ name = top;
 pos = (300,766);
 }
 );
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
-shapes = (
-{
-alignment = -1;
-ref = "ii-cy";
-},
-{
-alignment = -1;
-pos = (-2,0);
-ref = gravecomb.loclCYR;
-}
-);
-width = 600;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (300,0);
-},
-{
-name = top;
-pos = (300,766);
-}
-);
 layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
 shapes = (
 {
@@ -151,32 +126,6 @@ ref = "ii-cy";
 {
 alignment = -1;
 pos = (66,0);
-ref = gravecomb.loclCYR;
-}
-);
-width = 500;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (250,0);
-},
-{
-name = top;
-pos = (250,766);
-}
-);
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-metricWidth = "=o";
-shapes = (
-{
-alignment = -1;
-ref = "ii-cy";
-},
-{
-alignment = -1;
-pos = (44,0);
 ref = gravecomb.loclCYR;
 }
 );

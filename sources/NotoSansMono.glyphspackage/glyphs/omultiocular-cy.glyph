@@ -99,54 +99,6 @@ scale = (0.444,0.444);
 width = 600;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
-shapes = (
-{
-alignment = -1;
-pos = (399,155);
-ref = "Omonocular-cy";
-scale = (0.444,0.444);
-},
-{
-alignment = -1;
-pos = (-65,155);
-ref = "Omonocular-cy";
-scale = (0.444,0.444);
-},
-{
-alignment = -1;
-pos = (285,402);
-ref = "Omonocular-cy";
-scale = (0.444,0.444);
-},
-{
-alignment = -1;
-pos = (167,155);
-ref = "Omonocular-cy";
-scale = (0.444,0.444);
-},
-{
-alignment = -1;
-pos = (54,402);
-ref = "Omonocular-cy";
-scale = (0.444,0.444);
-},
-{
-alignment = -1;
-pos = (285,-92);
-ref = "Omonocular-cy";
-scale = (0.444,0.444);
-},
-{
-alignment = -1;
-pos = (54,-92);
-ref = "Omonocular-cy";
-scale = (0.444,0.444);
-}
-);
-width = 600;
-},
-{
 layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
 shapes = (
 {
@@ -286,54 +238,6 @@ alignment = -1;
 pos = (55,-144);
 ref = "Omonocular-cy";
 scale = (0.449,0.449);
-}
-);
-width = 500;
-},
-{
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-alignment = -1;
-pos = (307,130);
-ref = "Omonocular-cy";
-scale = (0.457,0.457);
-},
-{
-alignment = -1;
-pos = (-37,130);
-ref = "Omonocular-cy";
-scale = (0.457,0.457);
-},
-{
-alignment = -1;
-pos = (222,393);
-ref = "Omonocular-cy";
-scale = (0.457,0.457);
-},
-{
-alignment = -1;
-pos = (136,130);
-ref = "Omonocular-cy";
-scale = (0.457,0.457);
-},
-{
-alignment = -1;
-pos = (52,393);
-ref = "Omonocular-cy";
-scale = (0.457,0.457);
-},
-{
-alignment = -1;
-pos = (222,-132);
-ref = "Omonocular-cy";
-scale = (0.457,0.457);
-},
-{
-alignment = -1;
-pos = (52,-133);
-ref = "Omonocular-cy";
-scale = (0.457,0.457);
 }
 );
 width = 500;
