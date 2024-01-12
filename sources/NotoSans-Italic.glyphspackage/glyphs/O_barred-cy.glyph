@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = "Obarred-cy";
 kernLeft = "E-cy";
 kernRight = "O-cy";
@@ -55,7 +56,15 @@ name = top;
 pos = (459,714);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "8800b26d-65b0-4a06-9e45-a5a9b0ad2731";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -135,7 +144,15 @@ name = top;
 pos = (369,714);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "cb503cf8-ad84-4abc-a2ba-c30c37f5fb5f";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

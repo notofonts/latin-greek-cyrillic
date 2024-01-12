@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = cacute.sc;
 kernLeft = c.sc;
 kernRight = c.sc;
@@ -58,31 +59,6 @@ width = 455;
 anchors = (
 {
 name = bottom;
-pos = (252,0);
-},
-{
-name = top;
-pos = (406,803);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-ref = c.sc;
-},
-{
-alignment = -1;
-pos = (48,0);
-ref = acutecomb.sc;
-}
-);
-width = 526;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (131,0);
 },
 {
@@ -90,7 +66,15 @@ name = top;
 pos = (294,762);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "3c3bd989-a6e5-4665-b1da-09ee96489833";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

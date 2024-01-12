@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 0;
+color = 10;
 glyphname = alpha_macroncomb_commaabovecomb_acutecomb;
 kernLeft = GRK_omicorn;
 kernRight = GRK_alpha;
@@ -30,19 +30,6 @@ ref = psilioxia_macronmod;
 }
 );
 width = 563;
-},
-{
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-ref = alpha;
-},
-{
-pos = (3,0);
-ref = psilioxia_macronmod;
-}
-);
-width = 611;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
@@ -84,7 +71,15 @@ ref = psilioxia_macronmod;
 width = 435;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "a14f7764-e29a-465c-8c08-8949ebdf965e";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = alpha;

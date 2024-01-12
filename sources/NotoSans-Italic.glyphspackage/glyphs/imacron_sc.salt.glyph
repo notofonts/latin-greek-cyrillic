@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = imacron_sc.salt;
 layers = (
 {
@@ -31,7 +32,15 @@ ref = macroncomb.sc;
 width = 240;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "fd6a9d56-a6e0-4f4b-ad21-fe195e6fa5f5";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = i_sc.salt;
@@ -83,20 +92,6 @@ ref = macroncomb.sc;
 }
 );
 width = 194;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-ref = i_sc.salt;
-},
-{
-pos = (-108,39);
-ref = macroncomb.sc;
-}
-);
-width = 229;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";

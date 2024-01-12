@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = omegadasiavariaypogegrammeni;
 kernLeft = GRK_omicron;
 kernRight = GRK_omicron;
@@ -39,7 +39,15 @@ ref = ypogegrammeni;
 width = 779;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "58f7c6c6-9d0a-4c4e-b0f4-da593ee2860f";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = omega;
@@ -107,7 +115,15 @@ ref = ypogegrammeni;
 width = 551;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "a1c5daae-b507-4796-9d4a-c4038f98b4fb";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = omega;

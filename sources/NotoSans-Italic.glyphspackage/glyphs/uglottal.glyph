@@ -1,4 +1,5 @@
 {
+color = 10;
 glyphname = uglottal;
 layers = (
 {
@@ -26,19 +27,6 @@ ref = A7newcommashape;
 }
 );
 width = 904;
-},
-{
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-ref = u;
-},
-{
-pos = (604,0);
-ref = A7newcommashape;
-}
-);
-width = 932;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
@@ -80,7 +68,15 @@ ref = A7newcommashape;
 width = 738;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "5ed2e343-9be0-4db9-938f-bdde0b07ee65";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = u;

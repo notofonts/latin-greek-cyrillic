@@ -1,5 +1,6 @@
 {
 category = Number;
+color = 10;
 glyphname = threequarters;
 layers = (
 {
@@ -45,7 +46,15 @@ ref = foursuperior;
 width = 687;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "74197d38-324d-40ff-b452-7732e715463b";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -66,7 +75,15 @@ ref = foursuperior;
 width = 863;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "05206ee0-d6ab-427c-925d-3c5460c330bd";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

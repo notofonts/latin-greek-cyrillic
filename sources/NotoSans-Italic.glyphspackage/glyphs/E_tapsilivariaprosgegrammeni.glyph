@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 10;
 glyphname = Etapsilivariaprosgegrammeni;
 kernLeft = GRK_Epsilon;
 kernRight = GRK_Eta;
@@ -47,7 +47,15 @@ ref = ypogegrammeni;
 width = 1039;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "ceeb1691-4f34-4ccb-8232-754f6a402c6e";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -129,27 +137,6 @@ ref = ypogegrammeni;
 }
 );
 width = 831;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-pos = (431,0);
-ref = Eta;
-},
-{
-alignment = -1;
-pos = (-25,0);
-ref = psilivaria.case;
-},
-{
-alignment = -1;
-pos = (582,0);
-ref = ypogegrammeni;
-}
-);
-width = 956;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";

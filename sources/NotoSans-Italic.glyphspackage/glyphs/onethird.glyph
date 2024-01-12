@@ -1,5 +1,6 @@
 {
 category = Number;
+color = 10;
 glyphname = onethird;
 layers = (
 {
@@ -45,28 +46,15 @@ ref = threesuperior;
 width = 726;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-pos = (372,0);
-ref = fraction;
-},
-{
-alignment = -1;
-pos = (-20,-130);
-ref = onesuperior;
-},
-{
-alignment = -1;
-pos = (431,-416);
-ref = threesuperior;
-}
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
 );
-width = 890;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+};
+layerId = "5f38ac24-0a09-4a79-bca1-74fb42f6b770";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

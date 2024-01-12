@@ -1,5 +1,6 @@
 {
 category = Punctuation;
+color = 10;
 glyphname = dblverticalbar;
 layers = (
 {
@@ -35,7 +36,15 @@ ref = bar;
 width = 551;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "7bc53821-f970-4a03-818b-828aadfde986";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -99,7 +108,15 @@ ref = bar;
 width = 461;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "4128d4da-f38d-481f-bc69-4aa617aff035";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = deltaturned;
 layers = (
 {
@@ -57,7 +58,15 @@ name = top;
 pos = (354,546);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "07c04005-a7e6-44a7-a262-e1c3a986b49e";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -133,28 +142,6 @@ ref = delta;
 }
 );
 width = 418;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (122,-211);
-},
-{
-name = top;
-pos = (280,530);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-angle = 180;
-pos = (445,546);
-ref = delta;
-}
-);
-width = 445;
 },
 {
 anchors = (

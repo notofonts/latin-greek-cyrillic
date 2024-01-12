@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 5;
+color = 10;
 glyphname = dasiaoxia_brevecomb;
 layers = (
 {
@@ -15,7 +15,6 @@ shapes = (
 {
 pos = (33,-1);
 ref = breve;
-scale = (1,1.0013);
 },
 {
 alignment = -1;
@@ -50,28 +49,6 @@ width = 431;
 anchors = (
 {
 name = _top;
-pos = (297,546);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-pos = (15,102);
-ref = breve;
-scale = (1,0.8317);
-},
-{
-alignment = -1;
-pos = (39,168);
-ref = dasiaoxia;
-}
-);
-width = 513;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (320,553);
 }
 );
@@ -80,7 +57,7 @@ shapes = (
 {
 pos = (7,133);
 ref = breve;
-scale = (1,0.7783);
+scale = (1,0.778);
 },
 {
 alignment = -1;
@@ -102,7 +79,7 @@ shapes = (
 {
 pos = (16,2);
 ref = breve;
-scale = (1,0.9971);
+scale = (1,0.997);
 },
 {
 alignment = -1;
@@ -124,7 +101,7 @@ shapes = (
 {
 pos = (49,56);
 ref = breve;
-scale = (1,0.8738);
+scale = (1,0.874);
 },
 {
 alignment = -1;
@@ -141,12 +118,20 @@ name = _top;
 pos = (295,545);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "f0092900-f460-4638-a9d3-2cdae19b515a";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 pos = (55,85);
 ref = breve;
-scale = (1,0.8087);
+scale = (1,0.809);
 },
 {
 alignment = -1;
@@ -168,7 +153,7 @@ shapes = (
 {
 pos = (56,91);
 ref = breve;
-scale = (1,0.8087);
+scale = (1,0.809);
 },
 {
 alignment = -1;

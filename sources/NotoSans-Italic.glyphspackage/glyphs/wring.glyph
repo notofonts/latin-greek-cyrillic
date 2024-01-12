@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = wring;
 layers = (
 {
@@ -63,7 +64,15 @@ name = top;
 pos = (504,837);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "e53aceed-10b5-4aea-b975-3288dbfab118";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -163,7 +172,15 @@ name = top;
 pos = (427,829);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "12ae06ab-3d31-4999-968a-5732f2b70d8d";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

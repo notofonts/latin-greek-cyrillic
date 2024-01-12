@@ -1,6 +1,6 @@
 {
 category = Symbol;
-color = 5;
+color = 10;
 glyphname = turnediota;
 layers = (
 {
@@ -28,7 +28,15 @@ ref = iota;
 width = 265;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "a21e2331-43d8-4b8e-95ea-95d2efa9095f";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -38,18 +46,6 @@ ref = iota;
 }
 );
 width = 376;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-angle = 180;
-pos = (255,545);
-ref = iota;
-}
-);
-width = 255;
 },
 {
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";

@@ -1,5 +1,6 @@
 {
 category = "";
+color = 10;
 glyphname = "ot-cy";
 kernLeft = "omega-cy";
 kernRight = "omega-cy";
@@ -45,27 +46,6 @@ ref = cyrillic_otmark;
 }
 );
 width = 789;
-},
-{
-anchors = (
-{
-name = top;
-pos = (508,738);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-ref = "omega-cy";
-},
-{
-alignment = -1;
-pos = (127,0);
-ref = cyrillic_otmark;
-}
-);
-width = 808;
 },
 {
 anchors = (
@@ -137,7 +117,15 @@ name = top;
 pos = (383,734);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "adfb4831-8b96-4825-a379-9bfd8ff7e001";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

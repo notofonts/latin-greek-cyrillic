@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = ij_sc.salt;
 layers = (
 {
@@ -29,7 +30,15 @@ ref = j_sc.salt;
 width = 583;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "4a40d3fb-fae1-4ae5-9a09-d9116576b72d";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = i_sc.salt;
@@ -81,7 +90,15 @@ ref = j_sc.salt;
 width = 450;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "7b84b6a6-957e-4ec9-8eb9-692e5cfe447a";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = i_sc.salt;

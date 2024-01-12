@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 10;
 glyphname = colontriangularhalfmod;
 layers = (
 {
@@ -31,7 +32,27 @@ nodes = (
 width = 296;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(279.46,536,l),
+(102.46,536,l),
+(160.46,397,l)
+);
+}
+);
+};
+layerId = "0f4f6d11-96c7-45d4-8910-454d84835051";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -81,20 +102,6 @@ nodes = (
 (232,536,l),
 (106,536,l),
 (142,412,l)
-);
-}
-);
-width = 227;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-closed = 1;
-nodes = (
-(238,545,l),
-(103,545,l),
-(142,413,l)
 );
 }
 );

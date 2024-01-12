@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 5;
+color = 10;
 glyphname = dialytikaoxia;
 layers = (
 {
@@ -22,7 +22,15 @@ ref = dieresistonos;
 width = 630;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "038b7151-dff5-4efa-b1a4-8581f165a567";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = dieresistonos;
@@ -58,7 +66,15 @@ ref = dieresistonos;
 width = 566;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "bf53ea83-b6b8-4bc7-9395-59c3939513d7";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = dieresistonos;

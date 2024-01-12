@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = Vtilde;
 layers = (
 {
@@ -63,7 +64,15 @@ name = top;
 pos = (428,925);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "2a8ac9e1-2aef-43c3-bba6-66979a09e7b5";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -163,7 +172,15 @@ name = top;
 pos = (373,932);
 }
 );
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "2196c698-2a66-4c32-ac7c-6c61663e9920";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

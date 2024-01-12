@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = upsilonpsili.sc.ss06;
 kernLeft = GRK_upsilon.sc;
 kernRight = GRK_upsilon.sc;
@@ -31,7 +31,15 @@ ref = psili.sc;
 width = 432;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "275656fa-190f-4e7a-b2db-6697f8041001";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = upsilon.sc;
@@ -83,7 +91,15 @@ ref = psili.sc;
 width = 304;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "84a7e676-5696-4a31-b6b4-8dc756ee5e49";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = upsilon.sc;

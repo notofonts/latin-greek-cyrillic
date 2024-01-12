@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = iotaserifedmod;
 layers = (
 {
@@ -57,7 +58,15 @@ name = top;
 pos = (186,615);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "d2dc2b63-19bc-4945-9f3e-f87d2a3fa2df";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -133,28 +142,6 @@ scale = (0.65,0.6);
 }
 );
 width = 156;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (100,287);
-},
-{
-name = top;
-pos = (170,614);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-pos = (53,287);
-ref = iotaserifed;
-scale = (0.65,0.6);
-}
-);
-width = 193;
 },
 {
 anchors = (

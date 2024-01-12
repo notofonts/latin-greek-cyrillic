@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = "ertick-cy";
 kernLeft = "ve-cy";
 kernRight = "o-cy";
@@ -73,7 +74,28 @@ name = top;
 pos = (356,546);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(487.68,-21.13,l),
+(323.4,245.05,l),
+(243.88,196.41,l),
+(409.16,-69.77,l)
+);
+}
+);
+};
+layerId = "02350e79-02f5-4bc9-a6bf-570d655e4648";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -177,35 +199,6 @@ ref = p;
 }
 );
 width = 417;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (121,-236);
-},
-{
-name = top;
-pos = (283,530);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-closed = 1;
-nodes = (
-(340,-66,l),
-(249,230,l),
-(189,212,l),
-(281,-84,l)
-);
-},
-{
-alignment = -1;
-ref = p;
-}
-);
-width = 453;
 },
 {
 anchors = (

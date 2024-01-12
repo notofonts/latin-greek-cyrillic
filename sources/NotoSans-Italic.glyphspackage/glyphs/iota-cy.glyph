@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = "iota-cy";
 layers = (
 {
@@ -23,7 +24,15 @@ ref = iota;
 width = 311;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "f5a3e4a5-2486-46a0-9a1a-0f8acd496780";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 alignment = -1;
@@ -63,7 +72,15 @@ ref = iota;
 width = 228;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "1a5c1f7b-d2e1-4721-a518-7d11e053336f";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 alignment = -1;

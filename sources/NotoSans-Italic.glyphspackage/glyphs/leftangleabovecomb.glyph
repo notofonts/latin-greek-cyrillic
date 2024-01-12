@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = leftangleabovecomb;
 layers = (
 {
@@ -37,7 +38,30 @@ nodes = (
 width = 247;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(315.58,505.98,l),
+(371.14,760,l),
+(112.22,760,l),
+(99.44,700.32,l),
+(292.68,700.32,l),
+(251.29,505.98,l)
+);
+}
+);
+};
+layerId = "f78b4cea-ae6a-4a25-89f7-c7e25d5dba59";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 closed = 1;
@@ -54,7 +78,30 @@ nodes = (
 width = 314;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(283.64,552.12,l),
+(329.64,765,l),
+(110.56,765,l),
+(99.34,711.68,l),
+(265.1,711.68,l),
+(229.93,552.12,l)
+);
+}
+);
+};
+layerId = "73efd746-0bf2-4eb2-b8e5-b9707db934a5";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 closed = 1;

@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 10;
 glyphname = epsilonvaria;
 kernLeft = GRK_epsilon;
 kernRight = GRK_epsilon;
@@ -31,7 +31,15 @@ ref = varia;
 width = 423;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "12fcfd1b-ad40-4e1a-84d4-44cac498b325";
+name = "SemiBold Italic (intermediate)";
 shapes = (
 {
 ref = epsilon;
@@ -83,7 +91,15 @@ ref = varia;
 width = 296;
 },
 {
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "caaa99ee-1c15-4bbe-87ac-171f236ab1d4";
+name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 ref = epsilon;
