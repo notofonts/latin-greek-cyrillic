@@ -1,5 +1,5 @@
 {
-.appVersion = "3241";
+.appVersion = "3108";
 .formatVersion = 3;
 axes = (
 {
@@ -6639,7 +6639,7 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"9FF96064-8718-4A86-A5C8-73C592101F67" = 0.20313;
+"9FF96064-8718-4A86-A5C8-73C592101F67" = 0.20312;
 "AB666A95-3AF9-4DE8-B258-097FFCFE8A59" = 0.79688;
 };
 name = ExtraLight;
@@ -7569,7 +7569,7 @@ value = "536";
 );
 instanceInterpolations = {
 "029FEF0C-5FA4-4A3E-AC23-838A1147A554" = 0.79688;
-"36F3C8CB-53EE-4548-BFDE-2C03212BACAA" = 0.20313;
+"36F3C8CB-53EE-4548-BFDE-2C03212BACAA" = 0.20312;
 };
 name = "ExtraCondensed ExtraLight";
 weightClass = 200;
