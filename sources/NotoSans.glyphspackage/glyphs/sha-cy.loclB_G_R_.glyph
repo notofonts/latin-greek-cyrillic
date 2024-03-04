@@ -1,26 +1,8 @@
 {
-color = 3;
+color = 4;
 glyphname = "sha-cy.loclBGR";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (425,0);
-},
-{
-name = bottomleft;
-pos = (19,0);
-},
-{
-name = center;
-pos = (421,259);
-},
-{
-name = top;
-pos = (421,528);
-}
-);
 background = {
 shapes = (
 {
@@ -115,24 +97,6 @@ nodes = (
 width = 852;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (450,0);
-},
-{
-name = bottomleft;
-pos = (44,0);
-},
-{
-name = center;
-pos = (460,263);
-},
-{
-name = top;
-pos = (458,536);
-}
-);
 background = {
 shapes = (
 {
@@ -231,24 +195,6 @@ layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
 width = 982;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (480,0);
-},
-{
-name = bottomleft;
-pos = (34,0);
-},
-{
-name = center;
-pos = (499,272);
-},
-{
-name = top;
-pos = (496,553);
-}
-);
 background = {
 anchors = (
 {
@@ -361,24 +307,6 @@ nodes = (
 width = 999;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (304,0);
-},
-{
-name = bottomleft;
-pos = (20,0);
-},
-{
-name = center;
-pos = (303,259);
-},
-{
-name = top;
-pos = (302,527);
-}
-);
 layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
 shapes = (
 {
@@ -427,24 +355,6 @@ nodes = (
 width = 608;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (327,0);
-},
-{
-name = bottomleft;
-pos = (36,0);
-},
-{
-name = center;
-pos = (338,264);
-},
-{
-name = top;
-pos = (338,537);
-}
-);
 layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
 shapes = (
 {
@@ -497,24 +407,6 @@ layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
 width = 748;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (376,0);
-},
-{
-name = bottomleft;
-pos = (28,0);
-},
-{
-name = center;
-pos = (393,272);
-},
-{
-name = top;
-pos = (392,553);
-}
-);
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
 shapes = (
 {
