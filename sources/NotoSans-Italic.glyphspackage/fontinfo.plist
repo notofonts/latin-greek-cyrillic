@@ -1,5 +1,5 @@
 {
-.appVersion = "3205";
+.appVersion = "3243";
 .formatVersion = 3;
 axes = (
 {
@@ -5879,7 +5879,7 @@ value = "536";
 );
 instanceInterpolations = {
 "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A" = 0.79688;
-"9733853B-DD8E-49B4-939D-1F0D465E8B6E" = 0.20312;
+"9733853B-DD8E-49B4-939D-1F0D465E8B6E" = 0.20313;
 };
 isItalic = 1;
 linkStyle = ExtraLight;
@@ -6859,7 +6859,7 @@ value = "536";
 );
 instanceInterpolations = {
 "891911EE-97A3-4583-AC34-B57874F49FBA" = 0.79688;
-"A849C433-1DA2-4174-AEA9-F403839AA1E5" = 0.20312;
+"A849C433-1DA2-4174-AEA9-F403839AA1E5" = 0.20313;
 };
 isItalic = 1;
 linkStyle = "ExtraCondensed ExtraLight";
@@ -20566,6 +20566,15 @@ value = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/l
 );
 },
 {
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Designed by Monotype design team.";
+}
+);
+},
+{
 key = designers;
 values = (
 {
@@ -20577,6 +20586,19 @@ value = "Monotype Design Team";
 {
 key = designerURL;
 value = "http://www.monotype.com/studio";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
 },
 {
 key = manufacturers;
@@ -20592,15 +20614,6 @@ key = manufacturerURL;
 value = "http://www.google.com/get/noto/";
 },
 {
-key = descriptions;
-values = (
-{
-language = dflt;
-value = "Designed by Monotype design team.";
-}
-);
-},
-{
 key = trademarks;
 values = (
 {
@@ -20612,19 +20625,6 @@ value = "Noto is a trademark of Google LLC.";
 {
 key = vendorID;
 value = GOOG;
-},
-{
-key = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
-{
-key = licenses;
-values = (
-{
-language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-}
-);
 }
 );
 settings = {
