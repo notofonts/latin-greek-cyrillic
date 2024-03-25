@@ -1,0 +1,105 @@
+{
+category = Punctuation;
+glyphname = tripleprimeReversed;
+layers = (
+{
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+alignment = -1;
+pos = (852,0);
+ref = tripleprime;
+scale = (-1,1);
+}
+);
+width = 852;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+pos = (564,0);
+ref = tripleprime;
+scale = (-1,1);
+}
+);
+width = 564;
+},
+{
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+alignment = -1;
+pos = (730,0);
+ref = tripleprime;
+scale = (-1,1);
+}
+);
+width = 730;
+},
+{
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+alignment = -1;
+pos = (688,0);
+ref = tripleprime;
+scale = (-1,1);
+}
+);
+width = 688;
+},
+{
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+alignment = -1;
+pos = (337,0);
+ref = tripleprime;
+scale = (-1,1);
+}
+);
+width = 337;
+},
+{
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+pos = (382,0);
+ref = tripleprime;
+scale = (-1,1);
+}
+);
+width = 382;
+},
+{
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+alignment = -1;
+pos = (463,0);
+ref = tripleprime;
+scale = (-1,1);
+}
+);
+width = 463;
+},
+{
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+alignment = -1;
+pos = (591,0);
+ref = tripleprime;
+scale = (-1,1);
+}
+);
+width = 591;
+}
+);
+script = "";
+subCategory = Quote;
+unicode = 8247;
+}

@@ -1,0 +1,211 @@
+{
+category = Letter;
+glyphname = aringacute.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (235,0);
+},
+{
+name = top;
+pos = (435,851);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = aring.sc;
+},
+{
+alignment = -1;
+pos = (101,85);
+ref = acutecomb.sc;
+}
+);
+width = 592;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (264,0);
+},
+{
+name = top;
+pos = (466,853);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+ref = aring.sc;
+},
+{
+alignment = -1;
+pos = (111,87);
+ref = acutecomb.sc;
+}
+);
+width = 649;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (281,0);
+},
+{
+name = top;
+pos = (488,863);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+ref = aring.sc;
+},
+{
+alignment = -1;
+pos = (113,97);
+ref = acutecomb.sc;
+}
+);
+width = 684;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (225,0);
+},
+{
+name = top;
+pos = (451,918);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+ref = aring.sc;
+},
+{
+alignment = -1;
+pos = (112,82);
+ref = acutecomb.sc;
+}
+);
+width = 571;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (149,0);
+},
+{
+name = top;
+pos = (340,895);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+ref = aring.sc;
+},
+{
+alignment = -1;
+pos = (41,119);
+ref = acutecomb.sc;
+}
+);
+width = 419;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (205,0);
+},
+{
+name = top;
+pos = (401,871);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+ref = aring.sc;
+},
+{
+alignment = -1;
+pos = (87,125);
+ref = acutecomb.sc;
+}
+);
+width = 532;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (191,0);
+},
+{
+name = top;
+pos = (406,906);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+ref = aring.sc;
+},
+{
+alignment = -1;
+pos = (88,92);
+ref = acutecomb.sc;
+}
+);
+width = 489;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (210,0);
+},
+{
+name = top;
+pos = (432,913);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+ref = aring.sc;
+},
+{
+alignment = -1;
+pos = (102,86);
+ref = acutecomb.sc;
+}
+);
+width = 535;
+}
+);
+metricWidth = a.sc;
+script = latin;
+subCategory = Smallcaps;
+}

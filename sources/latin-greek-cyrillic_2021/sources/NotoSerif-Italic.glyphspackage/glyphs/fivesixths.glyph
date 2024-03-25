@@ -1,0 +1,171 @@
+{
+category = Number;
+glyphname = fivesixths;
+layers = (
+{
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+ref = five.numr;
+},
+{
+alignment = -1;
+pos = (460,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (542,0);
+ref = six.dnom;
+}
+);
+width = 922;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = five.numr;
+},
+{
+alignment = -1;
+pos = (450,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (512,0);
+ref = six.dnom;
+}
+);
+width = 912;
+},
+{
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+ref = five.numr;
+},
+{
+alignment = -1;
+pos = (440,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (492,0);
+ref = six.dnom;
+}
+);
+width = 892;
+},
+{
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+ref = five.numr;
+},
+{
+alignment = -1;
+pos = (431,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (493,0);
+ref = six.dnom;
+}
+);
+width = 893;
+},
+{
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+ref = five.numr;
+},
+{
+alignment = -1;
+pos = (325,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (375,0);
+ref = six.dnom;
+}
+);
+width = 690;
+},
+{
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+ref = five.numr;
+},
+{
+alignment = -1;
+pos = (350,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (400,0);
+ref = six.dnom;
+}
+);
+width = 720;
+},
+{
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+ref = five.numr;
+},
+{
+alignment = -1;
+pos = (373,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (424,0);
+ref = six.dnom;
+}
+);
+width = 747;
+},
+{
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+ref = five.numr;
+},
+{
+alignment = -1;
+pos = (386,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (437,0);
+ref = six.dnom;
+}
+);
+width = 763;
+}
+);
+metricLeft = five.numr;
+metricRight = six.dnom;
+script = "";
+subCategory = Fraction;
+unicode = 8538;
+}

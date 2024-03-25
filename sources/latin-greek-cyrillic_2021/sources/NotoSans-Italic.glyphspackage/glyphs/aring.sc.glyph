@@ -1,0 +1,202 @@
+{
+category = Letter;
+glyphname = aring.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (72,0);
+},
+{
+name = top;
+pos = (231,755);
+}
+);
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+alignment = -1;
+ref = a.sc;
+},
+{
+pos = (-63,0);
+ref = ringcomb.sc;
+}
+);
+width = 262;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (145,0);
+},
+{
+name = top;
+pos = (323,834);
+}
+);
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+alignment = -1;
+ref = a.sc;
+},
+{
+pos = (-4,31);
+ref = ringcomb.sc;
+}
+);
+width = 402;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (218,0);
+},
+{
+name = top;
+pos = (404,873);
+}
+);
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+alignment = -1;
+ref = a.sc;
+},
+{
+pos = (17,0);
+ref = ringcomb.sc;
+}
+);
+width = 559;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (146,0);
+},
+{
+name = top;
+pos = (328,861);
+}
+);
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+alignment = -1;
+ref = a.sc;
+},
+{
+pos = (-15,39);
+ref = ringcomb.sc;
+}
+);
+width = 414;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (178,0);
+},
+{
+name = top;
+pos = (357,837);
+}
+);
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+alignment = -1;
+ref = a.sc;
+},
+{
+pos = (-62,0);
+ref = ringcomb.sc;
+}
+);
+width = 478;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (113,0);
+},
+{
+name = top;
+pos = (286,809);
+}
+);
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+alignment = -1;
+ref = a.sc;
+},
+{
+pos = (-36,18);
+ref = ringcomb.sc;
+}
+);
+width = 348;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (176,0);
+},
+{
+name = top;
+pos = (370,909);
+}
+);
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+alignment = -1;
+ref = a.sc;
+},
+{
+pos = (5,59);
+ref = ringcomb.sc;
+}
+);
+width = 477;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (245,0);
+},
+{
+name = top;
+pos = (434,887);
+}
+);
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+alignment = -1;
+ref = a.sc;
+},
+{
+pos = (26,0);
+ref = ringcomb.sc;
+}
+);
+width = 616;
+}
+);
+script = latin;
+subCategory = Smallcaps;
+}

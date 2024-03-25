@@ -1,0 +1,199 @@
+{
+category = Letter;
+glyphname = "chedieresis-cy";
+kernLeft = "che-cy";
+kernRight = "ii-cy";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (301,0);
+},
+{
+name = top;
+pos = (301,738);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+pos = (11,0);
+ref = dieresis;
+},
+{
+alignment = -1;
+pos = (-1,0);
+ref = "che-cy";
+}
+);
+width = 601;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (320,0);
+},
+{
+name = top;
+pos = (320,744);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+pos = (32,0);
+ref = dieresis;
+},
+{
+ref = "che-cy";
+}
+);
+width = 640;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (341,0);
+},
+{
+name = top;
+pos = (341,750);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+pos = (47,0);
+ref = dieresis;
+},
+{
+ref = "che-cy";
+}
+);
+width = 681;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (339,0);
+},
+{
+name = top;
+pos = (339,762);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+pos = (58,0);
+ref = dieresis;
+},
+{
+ref = "che-cy";
+}
+);
+width = 677;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (232,0);
+},
+{
+name = top;
+pos = (232,736);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+pos = (3,0);
+ref = dieresis;
+},
+{
+ref = "che-cy";
+}
+);
+width = 463;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (254,0);
+},
+{
+name = top;
+pos = (254,745);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+pos = (29,0);
+ref = dieresis;
+},
+{
+ref = "che-cy";
+}
+);
+width = 507;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (270,0);
+},
+{
+name = top;
+pos = (270,752);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+pos = (40,0);
+ref = dieresis;
+},
+{
+ref = "che-cy";
+}
+);
+width = 539;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (282,0);
+},
+{
+name = top;
+pos = (282,758);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+pos = (49,0);
+ref = dieresis;
+},
+{
+ref = "che-cy";
+}
+);
+width = 564;
+}
+);
+metricWidth = "che-cy";
+script = cyrillic;
+subCategory = Lowercase;
+unicode = 1269;
+}

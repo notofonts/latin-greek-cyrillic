@@ -1,0 +1,90 @@
+{
+category = Punctuation;
+glyphname = stenographicfullstop;
+layers = (
+{
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+pos = (108,230);
+ref = xbelowcomb;
+}
+);
+width = 216;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (125,230);
+ref = xbelowcomb;
+}
+);
+width = 250;
+},
+{
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+pos = (125,230);
+ref = xbelowcomb;
+}
+);
+width = 250;
+},
+{
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+pos = (125,230);
+ref = xbelowcomb;
+}
+);
+width = 250;
+},
+{
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+pos = (94,230);
+ref = xbelowcomb;
+}
+);
+width = 190;
+},
+{
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+pos = (98,230);
+ref = xbelowcomb;
+}
+);
+width = 198;
+},
+{
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+pos = (101,230);
+ref = xbelowcomb;
+}
+);
+width = 204;
+},
+{
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+pos = (104,230);
+ref = xbelowcomb;
+}
+);
+width = 208;
+}
+);
+script = "";
+subCategory = Other;
+unicode = 11836;
+}

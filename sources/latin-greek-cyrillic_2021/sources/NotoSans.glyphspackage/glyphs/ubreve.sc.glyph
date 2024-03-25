@@ -1,0 +1,203 @@
+{
+category = Letter;
+glyphname = ubreve.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (321,0);
+},
+{
+name = top;
+pos = (321,825);
+}
+);
+layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+pos = (320,38);
+ref = brevecomb;
+}
+);
+width = 641;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (255,0);
+},
+{
+name = top;
+pos = (255,823);
+}
+);
+layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+pos = (256,36);
+ref = brevecomb;
+}
+);
+width = 510;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (298,0);
+},
+{
+name = top;
+pos = (298,776);
+}
+);
+layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+pos = (298,36);
+ref = brevecomb;
+}
+);
+width = 596;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (318,0);
+},
+{
+name = top;
+pos = (318,807);
+}
+);
+layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+pos = (316,36);
+ref = brevecomb;
+}
+);
+width = 636;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (214,0);
+},
+{
+name = top;
+pos = (214,775);
+}
+);
+layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+pos = (215,34);
+ref = brevecomb;
+}
+);
+width = 428;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (239,0);
+},
+{
+name = top;
+pos = (239,804);
+}
+);
+layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+pos = (239,35);
+ref = brevecomb;
+}
+);
+width = 478;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (285,0);
+},
+{
+name = top;
+pos = (285,749);
+}
+);
+layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+pos = (286,31);
+ref = brevecomb;
+}
+);
+width = 569;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (186,0);
+},
+{
+name = top;
+pos = (186,744);
+}
+);
+layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+pos = (187,32);
+ref = brevecomb;
+}
+);
+width = 372;
+}
+);
+metricWidth = "=u.sc";
+script = latin;
+subCategory = Smallcaps;
+}

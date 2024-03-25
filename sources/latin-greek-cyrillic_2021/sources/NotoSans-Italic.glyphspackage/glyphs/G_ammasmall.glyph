@@ -1,0 +1,193 @@
+{
+category = Letter;
+glyphname = Gammasmall;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (208,264);
+}
+);
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(37,0,l),
+(144,503,l),
+(400,503,l),
+(405,528,l),
+(123,528,l),
+(11,0,l)
+);
+}
+);
+width = 348;
+},
+{
+anchors = (
+{
+name = center;
+pos = (238,268);
+}
+);
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(119,0,l),
+(217,463,l),
+(433,463,l),
+(448,536,l),
+(142,536,l),
+(29,0,l)
+);
+}
+);
+width = 411;
+},
+{
+anchors = (
+{
+name = center;
+pos = (234,273);
+}
+);
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+closed = 1;
+nodes = (
+(134,0,l),
+(229,453,l),
+(427,453,l),
+(446,546,l),
+(139,546,l),
+(23,0,l)
+);
+}
+);
+width = 403;
+},
+{
+anchors = (
+{
+name = center;
+pos = (251,276);
+}
+);
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+closed = 1;
+nodes = (
+(169,0,l),
+(261,426,l),
+(461,426,l),
+(486,553,l),
+(133,553,l),
+(16,0,l)
+);
+}
+);
+width = 461;
+},
+{
+anchors = (
+{
+name = center;
+pos = (130,262);
+}
+);
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(26,0,l),
+(132,500,l),
+(255,500,l),
+(260,525,l),
+(112,525,l),
+(0,0,l)
+);
+}
+);
+width = 204;
+},
+{
+anchors = (
+{
+name = center;
+pos = (159,269);
+}
+);
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(76,0,l),
+(178,471,l),
+(306,471,l),
+(320,538,l),
+(115,538,l),
+(-1,0,l)
+);
+}
+);
+width = 279;
+},
+{
+anchors = (
+{
+name = center;
+pos = (182,274);
+}
+);
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+closed = 1;
+nodes = (
+(114,0,l),
+(211,448,l),
+(350,448,l),
+(371,549,l),
+(112,549,l),
+(-6,0,l)
+);
+}
+);
+width = 322;
+},
+{
+anchors = (
+{
+name = center;
+pos = (203,280);
+}
+);
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(149,0,l),
+(242,426,l),
+(391,426,l),
+(418,560,l),
+(110,560,l),
+(-11,0,l)
+);
+}
+);
+width = 364;
+}
+);
+script = greek;
+subCategory = Lowercase;
+unicode = 7462;
+}

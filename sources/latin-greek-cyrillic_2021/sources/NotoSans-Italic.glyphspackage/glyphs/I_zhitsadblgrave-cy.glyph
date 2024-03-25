@@ -1,0 +1,211 @@
+{
+category = Letter;
+glyphname = "Izhitsadblgrave-cy";
+kernLeft = "Izhitsa-cy";
+kernRight = "U-cy";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (203,0);
+},
+{
+name = top;
+pos = (406,952);
+}
+);
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (601,186);
+ref = dblgravecomb;
+}
+);
+width = 518;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (227,0);
+},
+{
+name = top;
+pos = (428,944);
+}
+);
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (624,178);
+ref = dblgravecomb;
+}
+);
+width = 567;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (267,0);
+},
+{
+name = top;
+pos = (466,934);
+}
+);
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (581,168);
+ref = dblgravecomb;
+}
+);
+width = 650;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (279,0);
+},
+{
+name = top;
+pos = (476,927);
+}
+);
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (541,161);
+ref = dblgravecomb;
+}
+);
+width = 676;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (125,0);
+},
+{
+name = top;
+pos = (327,951);
+}
+);
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (504,188);
+ref = dblgravecomb;
+}
+);
+width = 362;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (160,0);
+},
+{
+name = top;
+pos = (357,930);
+}
+);
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (508,165);
+ref = dblgravecomb;
+}
+);
+width = 431;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (189,0);
+},
+{
+name = top;
+pos = (386,931);
+}
+);
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (510,165);
+ref = dblgravecomb;
+}
+);
+width = 489;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (216,0);
+},
+{
+name = top;
+pos = (413,931);
+}
+);
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+alignment = -1;
+ref = "Izhitsa-cy";
+},
+{
+alignment = -1;
+pos = (512,165);
+ref = dblgravecomb;
+}
+);
+width = 543;
+}
+);
+script = cyrillic;
+subCategory = Uppercase;
+unicode = 1142;
+}

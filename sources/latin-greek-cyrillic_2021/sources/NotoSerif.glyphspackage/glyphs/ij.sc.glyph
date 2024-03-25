@@ -1,0 +1,197 @@
+{
+category = Letter;
+glyphname = ij.sc;
+kernLeft = b.sc;
+kernRight = j.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (577,-192);
+},
+{
+name = top;
+pos = (411,571);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (388,0);
+ref = j.sc;
+}
+);
+width = 777;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (407,-192);
+},
+{
+name = top;
+pos = (321,571);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (330,0);
+ref = j.sc;
+}
+);
+width = 660;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (485,-199);
+},
+{
+name = top;
+pos = (356,571);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (352,0);
+ref = j.sc;
+}
+);
+width = 705;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (480,-192);
+},
+{
+name = top;
+pos = (342,571);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (324,0);
+ref = j.sc;
+}
+);
+width = 650;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (300,-192);
+},
+{
+name = top;
+pos = (233,571);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (233,0);
+ref = j.sc;
+}
+);
+width = 466;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (316,-192);
+},
+{
+name = top;
+pos = (269,571);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = i.sc;
+},
+{
+alignment = -1;
+pos = (255,0);
+ref = j.sc;
+}
+);
+width = 537;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (356,-192);
+},
+{
+name = top;
+pos = (270,571);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (270,0);
+ref = j.sc;
+}
+);
+width = 541;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (426,-192);
+},
+{
+name = top;
+pos = (311,571);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (300,0);
+ref = j.sc;
+}
+);
+width = 602;
+}
+);
+metricRight = j.sc;
+script = latin;
+subCategory = Smallcaps;
+}

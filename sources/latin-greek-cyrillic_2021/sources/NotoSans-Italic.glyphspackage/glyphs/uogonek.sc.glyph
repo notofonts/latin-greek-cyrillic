@@ -1,0 +1,211 @@
+{
+category = Letter;
+glyphname = uogonek.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (63,-215);
+},
+{
+name = top;
+pos = (227,559);
+}
+);
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+alignment = -1;
+pos = (60,0);
+ref = ogonekcomb.sc;
+}
+);
+width = 335;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (163,-217);
+},
+{
+name = top;
+pos = (327,559);
+}
+);
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+alignment = -1;
+pos = (190,0);
+ref = ogonekcomb.sc;
+}
+);
+width = 536;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (186,-240);
+},
+{
+name = top;
+pos = (361,582);
+}
+);
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+alignment = -1;
+pos = (193,0);
+ref = ogonekcomb.sc;
+}
+);
+width = 597;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (113,-232);
+},
+{
+name = top;
+pos = (286,580);
+}
+);
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+alignment = -1;
+pos = (147.991,0);
+ref = ogonekcomb.sc;
+}
+);
+width = 448;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (173,-217);
+},
+{
+name = top;
+pos = (341,571);
+}
+);
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+alignment = -1;
+pos = (205,0);
+ref = ogonekcomb.sc;
+}
+);
+width = 559;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (94,-224);
+},
+{
+name = top;
+pos = (264,571);
+}
+);
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+alignment = -1;
+pos = (108,0);
+ref = ogonekcomb.sc;
+}
+);
+width = 405;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (131,-240);
+},
+{
+name = top;
+pos = (308,589);
+}
+);
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+alignment = -1;
+pos = (185,0);
+ref = ogonekcomb.sc;
+}
+);
+width = 490;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (191,-256);
+},
+{
+name = top;
+pos = (371,591);
+}
+);
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+alignment = -1;
+ref = u.sc;
+},
+{
+alignment = -1;
+pos = (185,0);
+ref = ogonekcomb.sc;
+}
+);
+width = 616;
+}
+);
+metricWidth = u.sc;
+script = latin;
+subCategory = Smallcaps;
+}

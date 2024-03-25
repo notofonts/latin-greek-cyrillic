@@ -1,0 +1,197 @@
+{
+category = Letter;
+glyphname = ygrave;
+kernLeft = y;
+kernRight = y;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (295,-221);
+},
+{
+name = top;
+pos = (295,766);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (58,0);
+ref = grave;
+}
+);
+width = 589;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (283,-240);
+},
+{
+name = top;
+pos = (283,766);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = y;
+},
+{
+pos = (101,0);
+ref = grave;
+}
+);
+width = 565;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (290,-240);
+},
+{
+name = top;
+pos = (290,766);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (76,0);
+ref = grave;
+}
+);
+width = 579;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (246,-225);
+},
+{
+name = top;
+pos = (246,766);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (42,0);
+ref = grave;
+}
+);
+width = 491;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (209,-240);
+},
+{
+name = top;
+pos = (209,766);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (86,0);
+ref = grave;
+}
+);
+width = 417;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (274,-240);
+},
+{
+name = top;
+pos = (274,766);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+alignment = -1;
+pos = (133,0);
+ref = grave;
+}
+);
+width = 547;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (225,-236);
+},
+{
+name = top;
+pos = (225,766);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (67,0);
+ref = grave;
+}
+);
+width = 449;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (237,-230);
+},
+{
+name = top;
+pos = (237,766);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (53,0);
+ref = grave;
+}
+);
+width = 473;
+}
+);
+script = latin;
+subCategory = Lowercase;
+unicode = 7923;
+}

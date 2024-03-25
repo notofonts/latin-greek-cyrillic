@@ -1,0 +1,185 @@
+{
+category = Letter;
+glyphname = jcrossedtailmod;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (64,143);
+},
+{
+name = top;
+pos = (190,732);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = jcrossedtail;
+scale = (0.65,0.6);
+}
+);
+width = 182;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (75,143);
+},
+{
+name = top;
+pos = (203,744);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = jcrossedtail;
+scale = (0.65,0.6);
+}
+);
+width = 203;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (83,143);
+},
+{
+name = top;
+pos = (212,749);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = jcrossedtail;
+scale = (0.65,0.6);
+}
+);
+width = 220;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (89,143);
+},
+{
+name = top;
+pos = (219,753);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = jcrossedtail;
+scale = (0.65,0.6);
+}
+);
+width = 232;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (34,143);
+},
+{
+name = top;
+pos = (160,733);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = jcrossedtail;
+scale = (0.65,0.6);
+}
+);
+width = 121;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (56,143);
+},
+{
+name = top;
+pos = (183,741);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = jcrossedtail;
+scale = (0.65,0.6);
+}
+);
+width = 166;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (64,143);
+},
+{
+name = top;
+pos = (193,747);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = jcrossedtail;
+scale = (0.65,0.6);
+}
+);
+width = 181;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (69,143);
+},
+{
+name = top;
+pos = (199,751);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = jcrossedtail;
+scale = (0.65,0.6);
+}
+);
+width = 192;
+}
+);
+script = "";
+subCategory = Modifier;
+unicode = 7592;
+}

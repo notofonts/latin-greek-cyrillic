@@ -1,0 +1,196 @@
+{
+category = Letter;
+glyphname = gcommaaccent.sc;
+kernLeft = c.sc;
+kernRight = g.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (396,-221);
+},
+{
+name = top;
+pos = (396,579);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = g.sc;
+},
+{
+pos = (394,0);
+ref = commaaccentcomb;
+}
+);
+width = 732;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (332,-221);
+},
+{
+name = top;
+pos = (332,581);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = g.sc;
+},
+{
+pos = (333,0);
+ref = commaaccentcomb;
+}
+);
+width = 603;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (367,-221);
+},
+{
+name = top;
+pos = (367,581);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = g.sc;
+},
+{
+pos = (366,0);
+ref = commaaccentcomb;
+}
+);
+width = 673;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (325,-221);
+},
+{
+name = top;
+pos = (325,579);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = g.sc;
+},
+{
+pos = (324,0);
+ref = commaaccentcomb;
+}
+);
+width = 610;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (242,-221);
+},
+{
+name = top;
+pos = (242,583);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = g.sc;
+},
+{
+pos = (249,0);
+ref = commaaccentcomb;
+}
+);
+width = 423;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (297,-221);
+},
+{
+name = top;
+pos = (307,581);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = g.sc;
+},
+{
+alignment = -1;
+pos = (299,0);
+ref = commaaccentcomb;
+}
+);
+width = 553;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (276,-221);
+},
+{
+name = top;
+pos = (276,580);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = g.sc;
+},
+{
+pos = (277,0);
+ref = commaaccentcomb;
+}
+);
+width = 497;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (304,-221);
+},
+{
+name = top;
+pos = (304,580);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = g.sc;
+},
+{
+pos = (304,0);
+ref = commaaccentcomb;
+}
+);
+width = 561;
+}
+);
+script = latin;
+subCategory = Smallcaps;
+}

@@ -1,0 +1,179 @@
+{
+category = Number;
+glyphname = threequarters;
+layers = (
+{
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+alignment = -1;
+pos = (-26,-130);
+ref = threesuperior;
+},
+{
+alignment = -1;
+pos = (231,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (222,-416);
+ref = foursuperior;
+}
+);
+width = 572;
+},
+{
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+alignment = -1;
+pos = (-38,-132);
+ref = threesuperior;
+},
+{
+alignment = -1;
+pos = (329,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (295,-414);
+ref = foursuperior;
+}
+);
+width = 687;
+},
+{
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+alignment = -1;
+pos = (-25,-129);
+ref = threesuperior;
+},
+{
+alignment = -1;
+pos = (396,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (404,-415);
+ref = foursuperior;
+}
+);
+width = 863;
+},
+{
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+alignment = -1;
+pos = (-23,-130);
+ref = threesuperior;
+},
+{
+alignment = -1;
+pos = (326,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (344,-416);
+ref = foursuperior;
+}
+);
+width = 735;
+},
+{
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+alignment = -1;
+pos = (-26,-130);
+ref = threesuperior;
+},
+{
+alignment = -1;
+pos = (390,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (364,-416);
+ref = foursuperior;
+}
+);
+width = 793;
+},
+{
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+alignment = -1;
+pos = (-21,-130);
+ref = threesuperior;
+},
+{
+alignment = -1;
+pos = (286,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (294,-416);
+ref = foursuperior;
+}
+);
+width = 653;
+},
+{
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+alignment = -1;
+pos = (-27,-130);
+ref = threesuperior;
+},
+{
+alignment = -1;
+pos = (360,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (388,-416);
+ref = foursuperior;
+}
+);
+width = 803;
+},
+{
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+alignment = -1;
+pos = (-25,-130);
+ref = threesuperior;
+},
+{
+alignment = -1;
+pos = (451,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (453,-416);
+ref = foursuperior;
+}
+);
+width = 954;
+}
+);
+metricLeft = three.numr;
+metricRight = four.dnom;
+script = "";
+subCategory = Fraction;
+unicode = 190;
+}

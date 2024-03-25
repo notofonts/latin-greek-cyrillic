@@ -1,0 +1,191 @@
+{
+glyphname = psilivaria.case;
+layers = (
+{
+anchors = (
+{
+name = _topleft;
+pos = (390,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (354,635);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+pos = (-17,-79);
+ref = psilivaria;
+}
+);
+width = 316;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (460,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (434,635);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+pos = (-17,-83);
+ref = psilivaria;
+}
+);
+width = 395;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (525,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (499,635);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+pos = (-18,-85);
+ref = psilivaria;
+}
+);
+width = 462;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (579,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (553,635);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+pos = (-22,-101);
+ref = psilivaria;
+}
+);
+width = 514;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (363,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (337,635);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+pos = (-17,-79);
+ref = psilivaria;
+}
+);
+width = 300;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (446,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (420,635);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+pos = (-17,-83);
+ref = psilivaria;
+}
+);
+width = 382;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (484,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (458,635);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+pos = (-18,-86);
+ref = psilivaria;
+}
+);
+width = 421;
+},
+{
+anchors = (
+{
+name = _topleft;
+pos = (540,714);
+}
+);
+guides = (
+{
+angle = 78;
+pos = (514,635);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+pos = (-22,-102);
+ref = psilivaria;
+}
+);
+width = 476;
+}
+);
+metricLeft = "=psilivaria";
+metricRight = "=psilivaria";
+}

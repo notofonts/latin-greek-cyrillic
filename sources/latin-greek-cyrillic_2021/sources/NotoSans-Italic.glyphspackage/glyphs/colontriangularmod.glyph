@@ -1,0 +1,187 @@
+{
+category = Mark;
+glyphname = colontriangularmod;
+layers = (
+{
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(319,536,l),
+(142,536,l),
+(200,397,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(205,0,l),
+(146,139,l),
+(28,0,l)
+);
+}
+);
+width = 336;
+},
+{
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(288,536,l),
+(111,536,l),
+(169,397,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(174,0,l),
+(115,139,l),
+(-3,0,l)
+);
+}
+);
+width = 296;
+},
+{
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+closed = 1;
+nodes = (
+(288,536,l),
+(111,536,l),
+(169,397,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(174,0,l),
+(115,139,l),
+(-3,0,l)
+);
+}
+);
+width = 286;
+},
+{
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+closed = 1;
+nodes = (
+(274,536,l),
+(97,536,l),
+(155,397,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(160,0,l),
+(101,139,l),
+(-17,0,l)
+);
+}
+);
+width = 263;
+},
+{
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(223,526,l),
+(108,526,l),
+(141,410,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(124,0,l),
+(91,115,l),
+(10,0,l)
+);
+}
+);
+width = 236;
+},
+{
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(232,536,l),
+(106,536,l),
+(142,412,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(134,0,l),
+(97,124,l),
+(9,0,l)
+);
+}
+);
+width = 243;
+},
+{
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+closed = 1;
+nodes = (
+(238,545,l),
+(103,545,l),
+(142,413,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(141,0,l),
+(101,132,l),
+(6,0,l)
+);
+}
+);
+width = 246;
+},
+{
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(245,553,l),
+(102,553,l),
+(144,414,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(149,0,l),
+(106,139,l),
+(6,0,l)
+);
+}
+);
+width = 251;
+}
+);
+metricLeft = colon;
+metricRight = colon;
+script = "";
+subCategory = Modifier;
+unicode = 720;
+}

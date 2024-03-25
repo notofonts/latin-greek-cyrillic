@@ -1,0 +1,97 @@
+{
+category = Punctuation;
+glyphname = exclamdown;
+layers = (
+{
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+angle = 180;
+pos = (379,534);
+ref = exclam;
+}
+);
+width = 379;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+angle = 180;
+pos = (332,534);
+ref = exclam;
+}
+);
+width = 332;
+},
+{
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+angle = 180;
+pos = (382,534);
+ref = exclam;
+}
+);
+width = 382;
+},
+{
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+angle = 180;
+pos = (349,534);
+ref = exclam;
+}
+);
+width = 349;
+},
+{
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+angle = 180;
+pos = (216,538);
+ref = exclam;
+}
+);
+width = 216;
+},
+{
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+angle = 180;
+pos = (272,537);
+ref = exclam;
+}
+);
+width = 272;
+},
+{
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+angle = 180;
+pos = (273,534);
+ref = exclam;
+}
+);
+width = 274;
+},
+{
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+angle = 180;
+pos = (316,534);
+ref = exclam;
+}
+);
+width = 316;
+}
+);
+script = "";
+subCategory = Other;
+unicode = 161;
+}

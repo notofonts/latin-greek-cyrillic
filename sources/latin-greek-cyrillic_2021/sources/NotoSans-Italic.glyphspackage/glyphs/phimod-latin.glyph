@@ -1,0 +1,185 @@
+{
+category = Letter;
+glyphname = "phimod-latin";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (168,143);
+},
+{
+name = top;
+pos = (296,743);
+}
+);
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 388;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (192,143);
+},
+{
+name = top;
+pos = (320,743);
+}
+);
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 437;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (220,143);
+},
+{
+name = top;
+pos = (348,743);
+}
+);
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 496;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (247,143);
+},
+{
+name = top;
+pos = (374,743);
+}
+);
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 549;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (101,143);
+},
+{
+name = top;
+pos = (229,743);
+}
+);
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 254;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (138,143);
+},
+{
+name = top;
+pos = (266,743);
+}
+);
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 330;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (169,143);
+},
+{
+name = top;
+pos = (297,743);
+}
+);
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 394;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (199,143);
+},
+{
+name = top;
+pos = (326,743);
+}
+);
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+alignment = -1;
+pos = (53,287);
+ref = "phi-latin";
+scale = (0.65,0.6);
+}
+);
+width = 453;
+}
+);
+script = "";
+subCategory = Modifier;
+unicode = 7602;
+}

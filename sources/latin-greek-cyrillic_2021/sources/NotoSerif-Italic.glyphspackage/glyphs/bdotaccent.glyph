@@ -1,0 +1,209 @@
+{
+category = Letter;
+glyphname = bdotaccent;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (192,0);
+},
+{
+name = top;
+pos = (354,760);
+}
+);
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+ref = b;
+},
+{
+alignment = -1;
+pos = (190,0);
+ref = dotaccent;
+}
+);
+width = 483;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (224,0);
+},
+{
+name = top;
+pos = (386,760);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = b;
+},
+{
+alignment = -1;
+pos = (215,0);
+ref = dotaccent;
+}
+);
+width = 562;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (255,0);
+},
+{
+name = top;
+pos = (417,760);
+}
+);
+layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
+shapes = (
+{
+alignment = -1;
+ref = b;
+},
+{
+alignment = -1;
+pos = (271,0);
+ref = dotaccent;
+}
+);
+width = 623;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (277,0);
+},
+{
+name = top;
+pos = (444,784);
+}
+);
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+ref = b;
+},
+{
+alignment = -1;
+pos = (313,0);
+ref = dotaccent;
+}
+);
+width = 668;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (135,0);
+},
+{
+name = top;
+pos = (297,760);
+}
+);
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+ref = b;
+},
+{
+alignment = -1;
+pos = (116,0);
+ref = dotaccent;
+}
+);
+width = 386;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (174,0);
+},
+{
+name = top;
+pos = (337,765);
+}
+);
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+ref = b;
+},
+{
+alignment = -1;
+pos = (183,0);
+ref = dotaccent;
+}
+);
+width = 464;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (201,0);
+},
+{
+name = top;
+pos = (365,772);
+}
+);
+layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
+shapes = (
+{
+alignment = -1;
+ref = b;
+},
+{
+alignment = -1;
+pos = (225,0);
+ref = dotaccent;
+}
+);
+width = 518;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (221,0);
+},
+{
+name = top;
+pos = (387,778);
+}
+);
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+ref = b;
+},
+{
+alignment = -1;
+pos = (258,0);
+ref = dotaccent;
+}
+);
+width = 560;
+}
+);
+script = latin;
+subCategory = Lowercase;
+unicode = 7683;
+}

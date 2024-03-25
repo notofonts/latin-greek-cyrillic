@@ -1,0 +1,195 @@
+{
+category = Letter;
+glyphname = AEmacron;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (447,0);
+},
+{
+name = top;
+pos = (447,828);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = AE;
+},
+{
+alignment = -1;
+pos = (396,165);
+ref = macronmod;
+}
+);
+width = 893;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (476,0);
+},
+{
+name = top;
+pos = (476,850);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = AE;
+},
+{
+pos = (330,175);
+ref = macronmod;
+}
+);
+width = 951;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (497,0);
+},
+{
+name = top;
+pos = (497,850);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = AE;
+},
+{
+pos = (450,165);
+ref = macronmod;
+}
+);
+width = 993;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (512,0);
+},
+{
+name = top;
+pos = (512,850);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = AE;
+},
+{
+pos = (538,158);
+ref = macronmod;
+}
+);
+width = 1024;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (344,0);
+},
+{
+name = top;
+pos = (344,846);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = AE;
+},
+{
+pos = (233,186);
+ref = macronmod;
+}
+);
+width = 687;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (380,0);
+},
+{
+name = top;
+pos = (380,850);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = AE;
+},
+{
+pos = (278,176);
+ref = macronmod;
+}
+);
+width = 760;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (407,0);
+},
+{
+name = top;
+pos = (407,850);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = AE;
+},
+{
+pos = (371,169);
+ref = macronmod;
+}
+);
+width = 813;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (427,0);
+},
+{
+name = top;
+pos = (427,850);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = AE;
+},
+{
+pos = (443,163);
+ref = macronmod;
+}
+);
+width = 854;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 482;
+}

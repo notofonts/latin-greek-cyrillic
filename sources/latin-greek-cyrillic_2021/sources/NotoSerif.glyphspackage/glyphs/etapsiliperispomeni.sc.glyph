@@ -1,0 +1,79 @@
+{
+glyphname = etapsiliperispomeni.sc;
+kernLeft = GRK_epsilon.sc;
+kernRight = GRK_eta.sc;
+layers = (
+{
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+ref = h.sc;
+}
+);
+width = 648;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = h.sc;
+}
+);
+width = 680;
+},
+{
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = h.sc;
+}
+);
+width = 710;
+},
+{
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = h.sc;
+}
+);
+width = 744;
+},
+{
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = h.sc;
+}
+);
+width = 502;
+},
+{
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = h.sc;
+}
+);
+width = 550;
+},
+{
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = h.sc;
+}
+);
+width = 590;
+},
+{
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = h.sc;
+}
+);
+width = 621;
+}
+);
+}

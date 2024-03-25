@@ -1,0 +1,187 @@
+{
+category = Mark;
+color = 5;
+glyphname = psilioxia_brevecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (233,528);
+}
+);
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+pos = (15,-2);
+ref = breve;
+scale = (1,1.0021);
+},
+{
+alignment = -1;
+pos = (28,132);
+ref = psilioxia;
+}
+);
+width = 330;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (262,536);
+}
+);
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+pos = (8,4);
+ref = breve;
+scale = (1,0.9943);
+},
+{
+alignment = -1;
+pos = (33,157);
+ref = psilioxia;
+}
+);
+width = 409;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (294,546);
+}
+);
+layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
+shapes = (
+{
+pos = (8,103);
+ref = breve;
+scale = (1,0.8302);
+},
+{
+alignment = -1;
+pos = (35,168);
+ref = psilioxia;
+}
+);
+width = 498;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (325,553);
+}
+);
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+pos = (9,136);
+ref = breve;
+scale = (1,0.7753);
+},
+{
+alignment = -1;
+pos = (36,172);
+ref = psilioxia;
+}
+);
+width = 546;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (225,526);
+}
+);
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+pos = (25,-6);
+ref = breve;
+scale = (1,1.0091);
+},
+{
+alignment = -1;
+pos = (28,128);
+ref = psilioxia;
+}
+);
+width = 315;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (254,536);
+}
+);
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+pos = (23,59);
+ref = breve;
+scale = (1,0.8699);
+},
+{
+alignment = -1;
+pos = (25,120);
+ref = psilioxia;
+}
+);
+width = 412;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (284,545);
+}
+);
+layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
+shapes = (
+{
+pos = (41,87);
+ref = breve;
+scale = (1,0.8067);
+},
+{
+alignment = -1;
+pos = (28,132);
+ref = psilioxia;
+}
+);
+width = 486;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (318,553);
+}
+);
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+pos = (45,93);
+ref = breve;
+scale = (1,0.8067);
+},
+{
+alignment = -1;
+pos = (32,154);
+ref = psilioxia;
+}
+);
+width = 516;
+}
+);
+metricLeft = "=psilioxia";
+metricRight = "=psilioxia";
+script = greek;
+subCategory = Spacing;
+}

@@ -1,0 +1,178 @@
+{
+category = Letter;
+glyphname = glottalstopinverted;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (223,0);
+},
+{
+name = top;
+pos = (223,751);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+pos = (0,751);
+ref = glottalstop;
+scale = (1,-1);
+}
+);
+width = 445;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (243,0);
+},
+{
+name = top;
+pos = (243,751);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+pos = (0,751);
+ref = glottalstop;
+scale = (1,-1);
+}
+);
+width = 485;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (275,0);
+},
+{
+name = top;
+pos = (275,752);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+pos = (0,752);
+ref = glottalstop;
+scale = (1,-1);
+}
+);
+width = 550;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (277,0);
+},
+{
+name = top;
+pos = (277,755);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+pos = (0,755);
+ref = glottalstop;
+scale = (1,-1);
+}
+);
+width = 554;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (165,0);
+},
+{
+name = top;
+pos = (165,751);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+pos = (8,751);
+ref = glottalstop;
+scale = (1,-1);
+}
+);
+width = 329;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (196,0);
+},
+{
+name = top;
+pos = (196,753);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+pos = (4,753);
+ref = glottalstop;
+scale = (1,-1);
+}
+);
+width = 391;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (219,0);
+},
+{
+name = top;
+pos = (219,755);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+pos = (2,755);
+ref = glottalstop;
+scale = (1,-1);
+}
+);
+width = 436;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (236,0);
+},
+{
+name = top;
+pos = (236,757);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+pos = (0,757);
+ref = glottalstop;
+scale = (1,-1);
+}
+);
+width = 471;
+}
+);
+script = latin;
+subCategory = Lowercase;
+unicode = 662;
+}

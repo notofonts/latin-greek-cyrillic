@@ -1,0 +1,197 @@
+{
+category = Letter;
+glyphname = atilde.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (352,0);
+},
+{
+name = top;
+pos = (352,845);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (64,0);
+ref = tildecomb.sc;
+}
+);
+width = 703;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (296,0);
+},
+{
+name = top;
+pos = (296,769);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (8,0);
+ref = tildecomb.sc;
+}
+);
+width = 592;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (333,0);
+},
+{
+name = top;
+pos = (333,813);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (45,0);
+ref = tildecomb.sc;
+}
+);
+width = 665;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (294,0);
+},
+{
+name = top;
+pos = (294,826);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (54,35);
+ref = tildecomb.sc;
+}
+);
+width = 587;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (204,0);
+},
+{
+name = top;
+pos = (204,729);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (-15,35);
+ref = tildecomb.sc;
+}
+);
+width = 408;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (261,0);
+},
+{
+name = top;
+pos = (261,735);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+ref = a.sc;
+},
+{
+alignment = -1;
+pos = (-29,35);
+ref = tildecomb.sc;
+}
+);
+width = 521;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (242,0);
+},
+{
+name = top;
+pos = (242,771);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (14,35);
+ref = tildecomb.sc;
+}
+);
+width = 484;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (271,0);
+},
+{
+name = top;
+pos = (271,802);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (36,35);
+ref = tildecomb.sc;
+}
+);
+width = 542;
+}
+);
+metricWidth = a.sc;
+script = latin;
+subCategory = Smallcaps;
+}

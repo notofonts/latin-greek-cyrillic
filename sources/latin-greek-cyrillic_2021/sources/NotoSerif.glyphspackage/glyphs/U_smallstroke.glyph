@@ -1,0 +1,208 @@
+{
+category = Letter;
+glyphname = Usmallstroke;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (299,263);
+}
+);
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+closed = 1;
+nodes = (
+(562,275,l),
+(562,300,l),
+(50,300,l),
+(50,275,l)
+);
+},
+{
+pos = (16,0);
+ref = Usmall;
+}
+);
+width = 612;
+},
+{
+anchors = (
+{
+name = center;
+pos = (282,264);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,261,l),
+(554,308,l),
+(10,308,l),
+(10,261,l)
+);
+},
+{
+ref = Usmall;
+}
+);
+width = 564;
+},
+{
+anchors = (
+{
+name = center;
+pos = (307,264);
+}
+);
+layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+shapes = (
+{
+closed = 1;
+nodes = (
+(607,258,l),
+(607,316,l),
+(7,316,l),
+(7,258,l)
+);
+},
+{
+pos = (5,0);
+ref = Usmall;
+}
+);
+width = 617;
+},
+{
+anchors = (
+{
+name = center;
+pos = (324,263);
+}
+);
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(646,261,l),
+(646,327,l),
+(5,327,l),
+(5,261,l)
+);
+},
+{
+pos = (5,0);
+ref = Usmall;
+}
+);
+width = 656;
+},
+{
+anchors = (
+{
+name = center;
+pos = (217,263);
+}
+);
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+closed = 1;
+nodes = (
+(413,271,l),
+(413,296,l),
+(26,296,l),
+(26,271,l)
+);
+},
+{
+pos = (20,0);
+ref = Usmall;
+}
+);
+width = 437;
+},
+{
+anchors = (
+{
+name = center;
+pos = (240,263);
+}
+);
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(468,265,l),
+(468,309,l),
+(16,309,l),
+(16,265,l)
+);
+},
+{
+pos = (20,0);
+ref = Usmall;
+}
+);
+width = 485;
+},
+{
+anchors = (
+{
+name = center;
+pos = (257,263);
+}
+);
+layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(508,263,l),
+(508,316,l),
+(9,316,l),
+(9,263,l)
+);
+},
+{
+pos = (10,0);
+ref = Usmall;
+}
+);
+width = 520;
+},
+{
+anchors = (
+{
+name = center;
+pos = (271,263);
+}
+);
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(539,262,l),
+(539,322,l),
+(4,322,l),
+(4,262,l)
+);
+},
+{
+pos = (10,0);
+ref = Usmall;
+}
+);
+width = 547;
+}
+);
+script = latin;
+subCategory = Lowercase;
+unicode = 7550;
+}
