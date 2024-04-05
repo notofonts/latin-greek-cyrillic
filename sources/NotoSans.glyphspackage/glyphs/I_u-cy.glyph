@@ -109,7 +109,7 @@ nodes = (
 );
 }
 );
-width = 1017;
+width = 1019;
 },
 {
 anchors = (
@@ -208,7 +208,7 @@ nodes = (
 );
 }
 );
-width = 786;
+width = 789;
 },
 {
 anchors = (
@@ -314,7 +314,7 @@ nodes = (
 );
 }
 );
-width = 947;
+width = 948;
 },
 {
 anchors = (
@@ -420,7 +420,7 @@ nodes = (
 );
 }
 );
-width = 999;
+width = 1000;
 },
 {
 anchors = (
@@ -519,7 +519,7 @@ nodes = (
 );
 }
 );
-width = 1066;
+width = 1071;
 },
 {
 anchors = (
@@ -732,7 +732,7 @@ nodes = (
 );
 }
 );
-width = 700;
+width = 699;
 },
 {
 anchors = (
@@ -831,10 +831,10 @@ nodes = (
 );
 }
 );
-width = 849;
+width = 853;
 }
 );
-metricRight = "O-cy";
+metricRight = O;
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1070;

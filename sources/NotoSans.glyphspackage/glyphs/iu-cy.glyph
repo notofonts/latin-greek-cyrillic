@@ -113,7 +113,7 @@ nodes = (
 );
 }
 );
-width = 851;
+width = 853;
 },
 {
 anchors = (
@@ -330,7 +330,7 @@ nodes = (
 );
 }
 );
-width = 747;
+width = 755;
 },
 {
 anchors = (
@@ -431,7 +431,7 @@ nodes = (
 );
 }
 );
-width = 799;
+width = 805;
 },
 {
 anchors = (
@@ -532,7 +532,7 @@ nodes = (
 );
 }
 );
-width = 876;
+width = 881;
 },
 {
 anchors = (
@@ -633,7 +633,7 @@ nodes = (
 );
 }
 );
-width = 501;
+width = 505;
 },
 {
 anchors = (
@@ -743,7 +743,7 @@ nodes = (
 );
 }
 );
-width = 584;
+width = 588;
 },
 {
 anchors = (
@@ -853,11 +853,11 @@ nodes = (
 );
 }
 );
-width = 728;
+width = 731;
 }
 );
 metricLeft = "en-cy";
-metricRight = "o-cy";
+metricRight = o;
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1102;

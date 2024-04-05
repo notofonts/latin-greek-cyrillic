@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 6;
 glyphname = "je-cy";
 kernLeft = "je-cy";
 kernRight = "je-cy";
@@ -20,7 +20,6 @@ layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
 shapes = (
 {
 alignment = -1;
-pos = (2,0);
 ref = j;
 }
 );
@@ -167,6 +166,8 @@ ref = j;
 width = 265;
 }
 );
+metricLeft = j;
+metricRight = j;
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1112;
