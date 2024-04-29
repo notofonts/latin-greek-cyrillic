@@ -9,46 +9,6 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (155,0);
-},
-{
-name = top;
-pos = (153,760);
-}
-);
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
-shapes = (
-{
-alignment = -1;
-ref = i;
-}
-);
-width = 305;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (124,0);
-},
-{
-name = top;
-pos = (122,762);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-alignment = -1;
-ref = i;
-}
-);
-width = 244;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (104,0);
 },
 {

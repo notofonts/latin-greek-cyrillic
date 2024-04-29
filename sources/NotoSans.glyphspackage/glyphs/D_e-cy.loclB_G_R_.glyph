@@ -112,10 +112,6 @@ nodes = (
 width = 714;
 },
 {
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
-width = 600;
-},
-{
 background = {
 shapes = (
 {
@@ -260,10 +256,6 @@ nodes = (
 }
 );
 width = 538;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-width = 600;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";

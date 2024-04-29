@@ -6,30 +6,6 @@ kernLeft = "En-cy";
 kernRight = "Zhe-cy";
 layers = (
 {
-guides = (
-{
-angle = 90;
-pos = (311,239);
-}
-);
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
-shapes = (
-{
-ref = K;
-}
-);
-width = 664;
-},
-{
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-ref = K;
-}
-);
-width = 511;
-},
-{
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {

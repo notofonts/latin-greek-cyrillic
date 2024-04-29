@@ -35,20 +35,6 @@ width = 632;
 {
 guides = (
 {
-pos = (945,657);
-}
-);
-layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
-shapes = (
-{
-ref = omicron.sc;
-}
-);
-width = 670;
-},
-{
-guides = (
-{
 pos = (1032,645);
 }
 );
@@ -87,20 +73,6 @@ ref = omicron.sc;
 }
 );
 width = 453;
-},
-{
-guides = (
-{
-pos = (947,672);
-}
-);
-layerId = "43B45EC1-5522-4B1A-B0C7-88628E50A583";
-shapes = (
-{
-ref = omicron.sc;
-}
-);
-width = 504;
 },
 {
 guides = (
