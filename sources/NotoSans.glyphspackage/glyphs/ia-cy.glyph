@@ -100,7 +100,7 @@ nodes = (
 );
 }
 );
-width = 608;
+width = 606;
 },
 {
 anchors = (
@@ -382,7 +382,7 @@ nodes = (
 );
 }
 );
-width = 577;
+width = 578;
 },
 {
 anchors = (
@@ -758,6 +758,7 @@ nodes = (
 width = 489;
 }
 );
+metricRight = "en-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1103;

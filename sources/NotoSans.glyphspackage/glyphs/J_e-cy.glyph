@@ -1,9 +1,6 @@
 {
 category = Letter;
-color = 0;
 glyphname = "Je-cy";
-kernLeft = "Je-cy";
-kernRight = "Je-cy";
 layers = (
 {
 anchors = (
@@ -166,6 +163,8 @@ ref = J;
 width = 290;
 }
 );
+metricLeft = J;
+metricRight = J;
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1032;
