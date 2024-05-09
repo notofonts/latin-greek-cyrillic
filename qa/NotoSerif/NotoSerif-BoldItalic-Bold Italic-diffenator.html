@@ -1,0 +1,3465 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attr-before{
+                color: red;
+                cursor: text;
+            }
+            .attr-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url("old-NotoSerif-Italic[wght].ttf");
+    font-family: "old font";
+    font-weight: 400 700;
+    
+    font-style: italic;
+}
+	  
+
+	  
+	    @font-face{
+    src: url("new-NotoSerif-BoldItalic.ttf");
+    font-family: "new font";
+    font-weight: 700;
+    
+    font-style: italic;
+}
+	  
+
+	  
+
+	  
+	    .old-Bold-Italic{
+    font-family: "old font", "Adobe NotDef";
+    font-weight: 700.0;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 700.0;
+}
+	  
+
+	  
+	    .new-Bold-Italic{
+    font-family: "new font", "Adobe NotDef";
+    font-weight: 700;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 700;
+}
+	  
+
+	  
+	
+.cell{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 50pt;
+  line-height: 48.0px;
+}
+.cell-word{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+      <div data-path="root" data-open="0" id="difftable"></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+      <div class="box">
+        <div class="box-title">Modified encoded Glyphs</div>
+        <div class="box-text old-Bold-Italic" style="font-size: 32pt">
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ϗ<br>
+        <span class="tooltiptext">
+            name: GREEK CAPITAL KAI SYMBOL<br>
+            unicode: U+03CF<br>
+            changed pixels: 9.95%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꟙ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER SIGMOID S<br>
+            unicode: U+A7D9<br>
+            changed pixels: 9.00%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᵩ<br>
+        <span class="tooltiptext">
+            name: GREEK SUBSCRIPT SMALL LETTER PHI<br>
+            unicode: U+1D69<br>
+            changed pixels: 8.16%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⹐<br>
+        <span class="tooltiptext">
+            name: CROSS PATTY WITH RIGHT CROSSBAR<br>
+            unicode: U+2E50<br>
+            changed pixels: 2.65%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ©<br>
+        <span class="tooltiptext">
+            name: COPYRIGHT SIGN<br>
+            unicode: U+00A9<br>
+            changed pixels: 2.61%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ð<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER ETH<br>
+            unicode: U+00F0<br>
+            changed pixels: 2.23%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ℗<br>
+        <span class="tooltiptext">
+            name: SOUND RECORDING COPYRIGHT<br>
+            unicode: U+2117<br>
+            changed pixels: 2.17%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ®<br>
+        <span class="tooltiptext">
+            name: REGISTERED SIGN<br>
+            unicode: U+00AE<br>
+            changed pixels: 2.13%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⹑<br>
+        <span class="tooltiptext">
+            name: CROSS PATTY WITH LEFT CROSSBAR<br>
+            unicode: U+2E51<br>
+            changed pixels: 2.11%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꜣ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER EGYPTOLOGICAL ALEF<br>
+            unicode: U+A722<br>
+            changed pixels: 1.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ︧<br>
+        <span class="tooltiptext">
+            name: COMBINING LIGATURE LEFT HALF BELOW<br>
+            unicode: U+FE27<br>
+            changed pixels: 1.89%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ϡ<br>
+        <span class="tooltiptext">
+            name: GREEK LETTER SAMPI<br>
+            unicode: U+03E0<br>
+            changed pixels: 1.81%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ︨<br>
+        <span class="tooltiptext">
+            name: COMBINING LIGATURE RIGHT HALF BELOW<br>
+            unicode: U+FE28<br>
+            changed pixels: 1.70%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᴤ<br>
+        <span class="tooltiptext">
+            name: LATIN LETTER VOICED LARYNGEAL SPIRANT<br>
+            unicode: U+1D24<br>
+            changed pixels: 1.69%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꝫ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER ET<br>
+            unicode: U+A76B<br>
+            changed pixels: 1.59%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ℓ<br>
+        <span class="tooltiptext">
+            name: SCRIPT SMALL L<br>
+            unicode: U+2113<br>
+            changed pixels: 1.56%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ϱ<br>
+        <span class="tooltiptext">
+            name: GREEK RHO SYMBOL<br>
+            unicode: U+03F1<br>
+            changed pixels: 1.56%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ₑ<br>
+        <span class="tooltiptext">
+            name: LATIN SUBSCRIPT SMALL LETTER E<br>
+            unicode: U+2091<br>
+            changed pixels: 1.55%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꟃ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER ANGLICANA W<br>
+            unicode: U+A7C3<br>
+            changed pixels: 1.54%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ɞ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER CLOSED REVERSED OPEN E<br>
+            unicode: U+025E<br>
+            changed pixels: 1.54%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ў<br>
+        <span class="tooltiptext">
+            name: CYRILLIC SMALL LETTER SHORT U<br>
+            unicode: U+045E<br>
+            changed pixels: 1.53%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        у<br>
+        <span class="tooltiptext">
+            name: CYRILLIC SMALL LETTER U<br>
+            unicode: U+0443<br>
+            changed pixels: 1.53%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᴃ<br>
+        <span class="tooltiptext">
+            name: LATIN LETTER SMALL CAPITAL BARRED B<br>
+            unicode: U+1D03<br>
+            changed pixels: 1.49%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꟁ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER OLD POLISH O<br>
+            unicode: U+A7C0<br>
+            changed pixels: 1.49%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ℔<br>
+        <span class="tooltiptext">
+            name: L B BAR SYMBOL<br>
+            unicode: U+2114<br>
+            changed pixels: 1.47%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ů<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH RING ABOVE<br>
+            unicode: U+016E<br>
+            changed pixels: 1.44%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꟁ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER OLD POLISH O<br>
+            unicode: U+A7C1<br>
+            changed pixels: 1.44%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𐞳<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER GLOTTAL STOP WITH STROKE<br>
+            unicode: U+107B3<br>
+            changed pixels: 1.43%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𐞥<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL Q<br>
+            unicode: U+107A5<br>
+            changed pixels: 1.43%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        9<br>
+        <span class="tooltiptext">
+            name: DIGIT NINE<br>
+            unicode: U+0039<br>
+            changed pixels: 1.42%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᵊ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL SCHWA<br>
+            unicode: U+1D4A<br>
+            changed pixels: 1.37%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ҩ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC SMALL LETTER ABKHASIAN HA<br>
+            unicode: U+04A9<br>
+            changed pixels: 1.36%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ƿ<br>
+        <span class="tooltiptext">
+            name: LATIN LETTER WYNN<br>
+            unicode: U+01BF<br>
+            changed pixels: 1.35%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⱦ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER T WITH DIAGONAL STROKE<br>
+            unicode: U+2C66<br>
+            changed pixels: 1.33%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        θ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER THETA<br>
+            unicode: U+03B8<br>
+            changed pixels: 1.32%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        φ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER PHI<br>
+            unicode: U+03C6<br>
+            changed pixels: 1.31%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        „<br>
+        <span class="tooltiptext">
+            name: DOUBLE LOW-9 QUOTATION MARK<br>
+            unicode: U+201E<br>
+            changed pixels: 1.29%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ₆<br>
+        <span class="tooltiptext">
+            name: SUBSCRIPT SIX<br>
+            unicode: U+2086<br>
+            changed pixels: 1.29%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꝝ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER RUM ROTUNDA<br>
+            unicode: U+A75C<br>
+            changed pixels: 1.27%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ʙ<br>
+        <span class="tooltiptext">
+            name: LATIN LETTER SMALL CAPITAL B<br>
+            unicode: U+0299<br>
+            changed pixels: 1.25%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ℺<br>
+        <span class="tooltiptext">
+            name: ROTATED CAPITAL Q<br>
+            unicode: U+213A<br>
+            changed pixels: 1.25%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ₺<br>
+        <span class="tooltiptext">
+            name: TURKISH LIRA SIGN<br>
+            unicode: U+20BA<br>
+            changed pixels: 1.25%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ︠<br>
+        <span class="tooltiptext">
+            name: COMBINING LIGATURE LEFT HALF<br>
+            unicode: U+FE20<br>
+            changed pixels: 1.24%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꝣ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER VISIGOTHIC Z<br>
+            unicode: U+A762<br>
+            changed pixels: 1.24%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ɉ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER J WITH STROKE<br>
+            unicode: U+0248<br>
+            changed pixels: 1.23%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        в<br>
+        <span class="tooltiptext">
+            name: CYRILLIC SMALL LETTER VE<br>
+            unicode: U+0432<br>
+            changed pixels: 1.23%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ₄<br>
+        <span class="tooltiptext">
+            name: SUBSCRIPT FOUR<br>
+            unicode: U+2084<br>
+            changed pixels: 1.23%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ϟ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER KOPPA<br>
+            unicode: U+03DF<br>
+            changed pixels: 1.22%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꙫ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC CAPITAL LETTER BINOCULAR O<br>
+            unicode: U+A66A<br>
+            changed pixels: 1.19%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ͽ<br>
+        <span class="tooltiptext">
+            name: GREEK CAPITAL REVERSED DOTTED LUNATE SIGMA SYMBOL<br>
+            unicode: U+03FF<br>
+            changed pixels: 1.18%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꜿ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER REVERSED C WITH DOT<br>
+            unicode: U+A73E<br>
+            changed pixels: 1.18%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꞹ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH STROKE<br>
+            unicode: U+A7B8<br>
+            changed pixels: 1.17%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꟑ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER CLOSED INSULAR G<br>
+            unicode: U+A7D0<br>
+            changed pixels: 1.17%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ϕ<br>
+        <span class="tooltiptext">
+            name: GREEK PHI SYMBOL<br>
+            unicode: U+03D5<br>
+            changed pixels: 1.17%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ₵<br>
+        <span class="tooltiptext">
+            name: CEDI SIGN<br>
+            unicode: U+20B5<br>
+            changed pixels: 1.17%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ɸ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER PHI<br>
+            unicode: U+0278<br>
+            changed pixels: 1.17%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ɔ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER OPEN O<br>
+            unicode: U+0186<br>
+            changed pixels: 1.16%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⹉<br>
+        <span class="tooltiptext">
+            name: DOUBLE STACKED COMMA<br>
+            unicode: U+2E49<br>
+            changed pixels: 1.16%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ͻ<br>
+        <span class="tooltiptext">
+            name: GREEK CAPITAL REVERSED LUNATE SIGMA SYMBOL<br>
+            unicode: U+03FD<br>
+            changed pixels: 1.16%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ȼ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER C WITH STROKE<br>
+            unicode: U+023B<br>
+            changed pixels: 1.16%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꞷ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER OMEGA<br>
+            unicode: U+A7B7<br>
+            changed pixels: 1.16%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ӡ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC SMALL LETTER ABKHASIAN DZE<br>
+            unicode: U+04E1<br>
+            changed pixels: 1.15%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ʒ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER EZH<br>
+            unicode: U+0292<br>
+            changed pixels: 1.15%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ǯ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER EZH WITH CARON<br>
+            unicode: U+01EF<br>
+            changed pixels: 1.15%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⷭ<br>
+        <span class="tooltiptext">
+            name: COMBINING CYRILLIC LETTER ES<br>
+            unicode: U+2DED<br>
+            changed pixels: 1.14%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᴕ<br>
+        <span class="tooltiptext">
+            name: LATIN LETTER SMALL CAPITAL OU<br>
+            unicode: U+1D15<br>
+            changed pixels: 1.14%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ,<br>
+        <span class="tooltiptext">
+            name: COMMA<br>
+            unicode: U+002C<br>
+            changed pixels: 1.14%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ø<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER O WITH STROKE<br>
+            unicode: U+00F8<br>
+            changed pixels: 1.13%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ƺ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER EZH WITH TAIL<br>
+            unicode: U+01BA<br>
+            changed pixels: 1.13%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᶔ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER REVERSED OPEN E WITH RETROFLEX HOOK<br>
+            unicode: U+1D94<br>
+            changed pixels: 1.13%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ѽ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC SMALL LETTER OMEGA WITH TITLO<br>
+            unicode: U+047D<br>
+            changed pixels: 1.13%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꙍ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC SMALL LETTER BROAD OMEGA<br>
+            unicode: U+A64D<br>
+            changed pixels: 1.12%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⷹ<br>
+        <span class="tooltiptext">
+            name: COMBINING CYRILLIC LETTER MONOGRAPH UK<br>
+            unicode: U+2DF9<br>
+            changed pixels: 1.12%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꝗ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER Q WITH STROKE THROUGH DESCENDER<br>
+            unicode: U+A756<br>
+            changed pixels: 1.11%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᵟ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL DELTA<br>
+            unicode: U+1D5F<br>
+            changed pixels: 1.10%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ἄ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA<br>
+            unicode: U+1F04<br>
+            changed pixels: 1.10%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᾅ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI<br>
+            unicode: U+1F85<br>
+            changed pixels: 1.10%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᾄ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI<br>
+            unicode: U+1F84<br>
+            changed pixels: 1.10%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ₻<br>
+        <span class="tooltiptext">
+            name: NORDIC MARK SIGN<br>
+            unicode: U+20BB<br>
+            changed pixels: 1.10%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ὰ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH VARIA<br>
+            unicode: U+1F70<br>
+            changed pixels: 1.10%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᾲ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH VARIA AND YPOGEGRAMMENI<br>
+            unicode: U+1FB2<br>
+            changed pixels: 1.10%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᾰ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH VRACHY<br>
+            unicode: U+1FB0<br>
+            changed pixels: 1.10%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ἅ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA<br>
+            unicode: U+1F05<br>
+            changed pixels: 1.10%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᾴ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI<br>
+            unicode: U+1FB4<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᾶ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH PERISPOMENI<br>
+            unicode: U+1FB6<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        α<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA<br>
+            unicode: U+03B1<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ἇ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI<br>
+            unicode: U+1F07<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᾱ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH MACRON<br>
+            unicode: U+1FB1<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ἀ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH PSILI<br>
+            unicode: U+1F00<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ἂ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA<br>
+            unicode: U+1F02<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⁶<br>
+        <span class="tooltiptext">
+            name: SUPERSCRIPT SIX<br>
+            unicode: U+2076<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᾁ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH DASIA AND YPOGEGRAMMENI<br>
+            unicode: U+1F81<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ά<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH OXIA<br>
+            unicode: U+1F71<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ἃ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA<br>
+            unicode: U+1F03<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ἆ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI<br>
+            unicode: U+1F06<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᾷ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH PERISPOMENI AND YPOGEGRAMMENI<br>
+            unicode: U+1FB7<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᾂ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA AND YPOGEGRAMMENI<br>
+            unicode: U+1F82<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᾳ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI<br>
+            unicode: U+1FB3<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᾃ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA AND YPOGEGRAMMENI<br>
+            unicode: U+1F83<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᾆ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI<br>
+            unicode: U+1F86<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᾇ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI<br>
+            unicode: U+1F87<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ά<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH TONOS<br>
+            unicode: U+03AC<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ἁ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH DASIA<br>
+            unicode: U+1F01<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᾀ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER ALPHA WITH PSILI AND YPOGEGRAMMENI<br>
+            unicode: U+1F80<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꭄ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER TURNED O OPEN-O WITH STROKE<br>
+            unicode: U+AB44<br>
+            changed pixels: 1.08%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꜫ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER TRESILLO<br>
+            unicode: U+A72A<br>
+            changed pixels: 1.08%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᶾ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL EZH<br>
+            unicode: U+1DBE<br>
+            changed pixels: 1.08%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ͗<br>
+        <span class="tooltiptext">
+            name: COMBINING RIGHT HALF RING ABOVE<br>
+            unicode: U+0357<br>
+            changed pixels: 1.07%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        д<br>
+        <span class="tooltiptext">
+            name: CYRILLIC SMALL LETTER DE<br>
+            unicode: U+0434<br>
+            changed pixels: 1.06%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᲁ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC SMALL LETTER LONG-LEGGED DE<br>
+            unicode: U+1C81<br>
+            changed pixels: 1.06%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ¿<br>
+        <span class="tooltiptext">
+            name: INVERTED QUESTION MARK<br>
+            unicode: U+00BF<br>
+            changed pixels: 1.05%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ɇ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER E WITH STROKE<br>
+            unicode: U+0247<br>
+            changed pixels: 1.05%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        8<br>
+        <span class="tooltiptext">
+            name: DIGIT EIGHT<br>
+            unicode: U+0038<br>
+            changed pixels: 1.05%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ǿ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER O WITH STROKE AND ACUTE<br>
+            unicode: U+01FF<br>
+            changed pixels: 1.04%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ӄ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC CAPITAL LETTER KA WITH HOOK<br>
+            unicode: U+04C3<br>
+            changed pixels: 1.04%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ȸ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER DB DIGRAPH<br>
+            unicode: U+0238<br>
+            changed pixels: 1.03%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꝰ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER US<br>
+            unicode: U+A770<br>
+            changed pixels: 1.03%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ҩ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC CAPITAL LETTER ABKHASIAN HA<br>
+            unicode: U+04A8<br>
+            changed pixels: 1.03%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꞧ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER R WITH OBLIQUE STROKE<br>
+            unicode: U+A7A6<br>
+            changed pixels: 1.03%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꞛ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER VOLAPUK AE<br>
+            unicode: U+A79B<br>
+            changed pixels: 1.03%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ṭ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER T WITH DOT BELOW<br>
+            unicode: U+1E6D<br>
+            changed pixels: 1.02%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ;<br>
+        <span class="tooltiptext">
+            name: GREEK QUESTION MARK<br>
+            unicode: U+037E<br>
+            changed pixels: 1.02%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꟙ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER SIGMOID S<br>
+            unicode: U+A7D8<br>
+            changed pixels: 1.02%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ;<br>
+        <span class="tooltiptext">
+            name: SEMICOLON<br>
+            unicode: U+003B<br>
+            changed pixels: 1.02%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ѽ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC CAPITAL LETTER OMEGA WITH TITLO<br>
+            unicode: U+047C<br>
+            changed pixels: 1.01%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        δ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER DELTA<br>
+            unicode: U+03B4<br>
+            changed pixels: 1.01%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ẟ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER DELTA<br>
+            unicode: U+1E9F<br>
+            changed pixels: 1.01%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𐞄<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL CAPITAL B<br>
+            unicode: U+10784<br>
+            changed pixels: 1.00%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ӭ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC CAPITAL LETTER E WITH DIAERESIS<br>
+            unicode: U+04EC<br>
+            changed pixels: 1.00%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Э<br>
+        <span class="tooltiptext">
+            name: CYRILLIC CAPITAL LETTER E<br>
+            unicode: U+042D<br>
+            changed pixels: 1.00%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꭁ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER TURNED OE WITH STROKE<br>
+            unicode: U+AB41<br>
+            changed pixels: 0.99%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Q<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER Q<br>
+            unicode: U+0051<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ʂ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER S WITH HOOK<br>
+            unicode: U+A7C5<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꚉ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC CAPITAL LETTER DZZE<br>
+            unicode: U+A688<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𝼚<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER I WITH STROKE AND RETROFLEX HOOK<br>
+            unicode: U+1DF1A<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᵄ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL TURNED A<br>
+            unicode: U+1D44<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ԛ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC CAPITAL LETTER QA<br>
+            unicode: U+051A<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᴒ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER SIDEWAYS OPEN O<br>
+            unicode: U+1D12<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        σ<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER SIGMA<br>
+            unicode: U+03C3<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᷗ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER C CEDILLA<br>
+            unicode: U+1DD7<br>
+            changed pixels: 0.97%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꞗ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER B WITH FLOURISH<br>
+            unicode: U+A796<br>
+            changed pixels: 0.96%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ¤<br>
+        <span class="tooltiptext">
+            name: CURRENCY SIGN<br>
+            unicode: U+00A4<br>
+            changed pixels: 0.96%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᶲ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL PHI<br>
+            unicode: U+1DB2<br>
+            changed pixels: 0.95%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𐞜<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL CAPITAL L WITH BELT<br>
+            unicode: U+1079C<br>
+            changed pixels: 0.95%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ƀ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER B WITH STROKE<br>
+            unicode: U+0180<br>
+            changed pixels: 0.95%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᶏ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER A WITH RETROFLEX HOOK<br>
+            unicode: U+1D8F<br>
+            changed pixels: 0.95%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ɜ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER REVERSED OPEN E<br>
+            unicode: U+025C<br>
+            changed pixels: 0.94%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ṳ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH DIAERESIS BELOW<br>
+            unicode: U+1E72<br>
+            changed pixels: 0.94%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ŭ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH BREVE<br>
+            unicode: U+016C<br>
+            changed pixels: 0.94%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᶡ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL DOTLESS J WITH STROKE<br>
+            unicode: U+1DA1<br>
+            changed pixels: 0.94%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ₔ<br>
+        <span class="tooltiptext">
+            name: LATIN SUBSCRIPT SMALL LETTER SCHWA<br>
+            unicode: U+2094<br>
+            changed pixels: 0.94%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ʉ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U BAR<br>
+            unicode: U+0244<br>
+            changed pixels: 0.94%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ų<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH OGONEK<br>
+            unicode: U+0172<br>
+            changed pixels: 0.93%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⷶ<br>
+        <span class="tooltiptext">
+            name: COMBINING CYRILLIC LETTER A<br>
+            unicode: U+2DF6<br>
+            changed pixels: 0.93%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ủ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH HOOK ABOVE<br>
+            unicode: U+1EE6<br>
+            changed pixels: 0.93%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Û<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH CIRCUMFLEX<br>
+            unicode: U+00DB<br>
+            changed pixels: 0.93%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꙅ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC CAPITAL LETTER REVERSED DZE<br>
+            unicode: U+A644<br>
+            changed pixels: 0.93%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ӛ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC CAPITAL LETTER SCHWA WITH DIAERESIS<br>
+            unicode: U+04DA<br>
+            changed pixels: 0.93%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ƨ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER TONE TWO<br>
+            unicode: U+01A7<br>
+            changed pixels: 0.93%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ù<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH GRAVE<br>
+            unicode: U+00D9<br>
+            changed pixels: 0.93%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ә<br>
+        <span class="tooltiptext">
+            name: CYRILLIC CAPITAL LETTER SCHWA<br>
+            unicode: U+04D8<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ǖ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH DIAERESIS AND MACRON<br>
+            unicode: U+01D5<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ṻ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH MACRON AND DIAERESIS<br>
+            unicode: U+1E7A<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ȕ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH DOUBLE GRAVE<br>
+            unicode: U+0214<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ú<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH ACUTE<br>
+            unicode: U+00DA<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ə<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER SCHWA<br>
+            unicode: U+018F<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ṷ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH CIRCUMFLEX BELOW<br>
+            unicode: U+1E76<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ṵ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH TILDE BELOW<br>
+            unicode: U+1E74<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        U<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U<br>
+            unicode: U+0055<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ụ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH DOT BELOW<br>
+            unicode: U+1EE4<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ü<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH DIAERESIS<br>
+            unicode: U+00DC<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ɂ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER GLOTTAL STOP<br>
+            unicode: U+0241<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ǘ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH DIAERESIS AND ACUTE<br>
+            unicode: U+01D7<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꙫ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC SMALL LETTER BINOCULAR O<br>
+            unicode: U+A66B<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ũ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH TILDE<br>
+            unicode: U+0168<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꜆<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER CHINESE TONE YIN RU<br>
+            unicode: U+A706<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ǜ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH DIAERESIS AND GRAVE<br>
+            unicode: U+01DB<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ɓ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER B WITH HOOK<br>
+            unicode: U+0181<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ȗ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH INVERTED BREVE<br>
+            unicode: U+0216<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꜇<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER CHINESE TONE YANG RU<br>
+            unicode: U+A707<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        β<br>
+        <span class="tooltiptext">
+            name: GREEK SMALL LETTER BETA<br>
+            unicode: U+03B2<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ű<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH DOUBLE ACUTE<br>
+            unicode: U+0170<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ǚ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH DIAERESIS AND CARON<br>
+            unicode: U+01D9<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꞝ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER VOLAPUK OE<br>
+            unicode: U+A79D<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𐞝<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL L WITH RETROFLEX HOOK AND BELT<br>
+            unicode: U+1079D<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ū<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH MACRON<br>
+            unicode: U+016A<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𐞛<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL L WITH BELT<br>
+            unicode: U+1079B<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ǔ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH CARON<br>
+            unicode: U+01D3<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ṹ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH TILDE AND ACUTE<br>
+            unicode: U+1E78<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ԍ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC CAPITAL LETTER KOMI SJE<br>
+            unicode: U+050C<br>
+            changed pixels: 0.91%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ꙍ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC CAPITAL LETTER BROAD OMEGA<br>
+            unicode: U+A64C<br>
+            changed pixels: 0.91%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᵹ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER INSULAR G<br>
+            unicode: U+1D79<br>
+            changed pixels: 0.90%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ƽ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER TONE FIVE<br>
+            unicode: U+01BC<br>
+            changed pixels: 0.90%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ƍ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER TURNED DELTA<br>
+            unicode: U+018D<br>
+            changed pixels: 0.90%
+        </span>
+    </div>
+</div>
+            </div>
+          
+          </div>
+      </div>
+    
+
+    
+      <div class="box">
+        <div class="box-title">Misshapen Common words</div>
+        <div class="box-text old-Bold-Italic" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Latin words</div>
+        <div class="box-text old-Bold-Italic" style="font-size: 32pt">
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Ꜣ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1948, pos=(0, 0, 407, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1992, pos=(0, 0, 407, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.92%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ₑ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1843, pos=(0, 0, 348, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1843, pos=(0, 0, 348, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.55%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᴃ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1250, pos=(0, 0, 571, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1250, pos=(0, 0, 571, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.49%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᶔ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1394, pos=(0, 0, 544, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1394, pos=(0, 0, 544, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.13%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ƺ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=906, pos=(0, 0, 557, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=906, pos=(0, 0, 557, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.13%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᶾ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1436, pos=(0, 0, 363, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1436, pos=(0, 0, 363, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.08%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᵄ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1315, pos=(0, 0, 389, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1315, pos=(0, 0, 389, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.98%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᶲ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1424, pos=(0, 0, 483, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1424, pos=(0, 0, 483, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.95%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Bỏ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=37, pos=(0, 0, 672, 0)<br>gid=809, pos=(0, 0, 618, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=37, pos=(0, 0, 672, 0)<br>gid=809, pos=(0, 0, 618, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.95%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ₔ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1846, pos=(0, 0, 365, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1846, pos=(0, 0, 365, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.94%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᶡ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1407, pos=(0, 0, 220, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1407, pos=(0, 0, 220, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.94%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Ƨ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=889, pos=(0, 0, 586, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=889, pos=(0, 0, 586, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.93%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Ǘ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=935, pos=(0, 0, 747, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=935, pos=(0, 0, 747, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.92%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Ǜ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=939, pos=(0, 0, 747, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=939, pos=(0, 0, 747, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.92%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Ǖ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=933, pos=(0, 0, 747, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=933, pos=(0, 0, 747, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.92%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Ǚ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=937, pos=(0, 0, 747, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=937, pos=(0, 0, 747, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.92%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᵹ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1367, pos=(0, 0, 592, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1367, pos=(0, 0, 592, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.90%
+        </div>
+        </span>
+    </div>
+</div>
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Greek words</div>
+        <div class="box-text old-Bold-Italic" style="font-size: 32pt">
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        δέ͵<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=384, pos=(0, 0, 586, 0)<br>gid=377, pos=(0, 0, 525, 0)<br>gid=1206, pos=(0, 0, 175, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=384, pos=(0, 0, 586, 0)<br>gid=377, pos=(0, 0, 525, 0)<br>gid=1206, pos=(0, 0, 175, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.12%
+        </div>
+        </span>
+    </div>
+</div>
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Cyrillic words</div>
+        <div class="box-text old-Bold-Italic" style="font-size: 32pt">
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ѿиде<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=620, pos=(0, 0, 821, 0)<br>gid=465, pos=(0, 0, 647, 0)<br>gid=461, pos=(0, 0, 600, 0)<br>gid=462, pos=(0, 0, 532, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=620, pos=(0, 0, 821, 0)<br>gid=465, pos=(0, 0, 647, 0)<br>gid=461, pos=(0, 0, 600, 0)<br>gid=462, pos=(0, 0, 532, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.91%
+        </div>
+        </span>
+    </div>
+</div>
+          
+        </div>
+      </div>
+    
+    
+    <div class="box">
+      <div class="box-title">Misshapen user strings</div>
+      <div class="box-text old-Bold-Italic" style="font-size: 32pt">
+        
+      </div>
+    </div>
+    
+
+    
+
+    </div>
+  
+<script>var fontdiff = {"OS/2": {"fsSelection": [385, 417], "panose": {"bWeight": [5, 8]}, "usWeightClass": [400, 700], "xAvgCharWidth": [585, 630]}, "hmtx": {"metrics": {"error": ["There are 4709 changes, check manually!", ""]}}, "maxp": {"numGlyphs": [3791, 3836], "maxCompositePoints": [147, 138]}, "cmap": {"error": ["There are 254 changes, check manually!", ""]}, "avar": {"tableTag": ["avar", null], "segments": {"wght": {"-1.0": [-1.0, null], "0.0": [0.0, null], "0.3333740234375": [0.27581787109375, null], "0.666748046875": [0.62066650390625, null], "1.0": [1.0, null]}}, "table": {"Version": [65536, null], "Reserved": [0, null], "AxisCount": [1, null], "AxisSegmentMap": {"0": {"PositionMapCount": [5, null], "AxisValueMap": {"0": {"FromCoordinate": [-1.0, null], "ToCoordinate": [-1.0, null]}, "1": {"FromCoordinate": [0.0, null], "ToCoordinate": [0.0, null]}, "2": {"FromCoordinate": [0.3333740234375, null], "ToCoordinate": [0.27581787109375, null]}, "3": {"FromCoordinate": [0.666748046875, null], "ToCoordinate": [0.62066650390625, null]}, "4": {"FromCoordinate": [1.0, null], "ToCoordinate": [1.0, null]}}}}}, "majorVersion": [1, null], "minorVersion": [0, null]}, "prep": {"tableTag": ["prep", null]}, "post": {"extraNames": {"error": ["There are 3601 changes, check manually!", ""]}, "formatType": [3.0, 2.0]}, "HVAR": {"tableTag": ["HVAR", null], "table": {"Version": [65536, null], "VarStore": {"Format": [1, null], "VarRegionList": {"RegionAxisCount": [1, null], "RegionCount": [1, null], "Region": {"0": {"VarRegionAxis": {"0": {"StartCoord": [0.0, null], "PeakCoord": [1.0, null], "EndCoord": [1.0, null]}}}}}, "VarDataCount": [2, null], "VarData": {"0": {"ItemCount": [147, null], "NumShorts": [0, null], "VarRegionCount": [1, null], "VarRegionIndex": {"0": [0, null]}, "Item": {"0": {"0": [-100, null]}, "1": {"0": [-58, null]}, "2": {"0": [-39, null]}, "3": {"0": [-32, null]}, "4": {"0": [-29, null]}, "5": {"0": [-27, null]}, "6": {"0": [-26, null]}, "7": {"0": [-21, null]}, "8": {"0": [-20, null]}, "9": {"0": [-19, null]}, "10": {"0": [-18, null]}, "11": {"0": [-17, null]}, "12": {"0": [-16, null]}, "13": {"0": [-14, null]}, "14": {"0": [-13, null]}, "15": {"0": [-12, null]}, "16": {"0": [-10, null]}, "17": {"0": [-9, null]}, "18": {"0": [-6, null]}, "19": {"0": [-5, null]}, "20": {"0": [-4, null]}, "21": {"0": [-3, null]}, "22": {"0": [-2, null]}, "23": {"0": [-1, null]}, "24": {"0": [0, null]}, "25": {"0": [1, null]}, "26": {"0": [2, null]}, "27": {"0": [4, null]}, "28": {"0": [5, null]}, "29": {"0": [6, null]}, "30": {"0": [7, null]}, "31": {"0": [8, null]}, "32": {"0": [9, null]}, "33": {"0": [10, null]}, "34": {"0": [11, null]}, "35": {"0": [12, null]}, "36": {"0": [13, null]}, "37": {"0": [14, null]}, "38": {"0": [15, null]}, "39": {"0": [16, null]}, "40": {"0": [17, null]}, "41": {"0": [18, null]}, "42": {"0": [19, null]}, "43": {"0": [20, null]}, "44": {"0": [21, null]}, "45": {"0": [22, null]}, "46": {"0": [23, null]}, "47": {"0": [24, null]}, "48": {"0": [25, null]}, "49": {"0": [26, null]}, "50": {"0": [27, null]}, "51": {"0": [28, null]}, "52": {"0": [29, null]}, "53": {"0": [30, null]}, "54": {"0": [31, null]}, "55": {"0": [32, null]}, "56": {"0": [33, null]}, "57": {"0": [34, null]}, "58": {"0": [35, null]}, "59": {"0": [36, null]}, "60": {"0": [37, null]}, "61": {"0": [38, null]}, "62": {"0": [39, null]}, "63": {"0": [40, null]}, "64": {"0": [41, null]}, "65": {"0": [42, null]}, "66": {"0": [43, null]}, "67": {"0": [44, null]}, "68": {"0": [45, null]}, "69": {"0": [46, null]}, "70": {"0": [47, null]}, "71": {"0": [48, null]}, "72": {"0": [49, null]}, "73": {"0": [50, null]}, "74": {"0": [51, null]}, "75": {"0": [52, null]}, "76": {"0": [53, null]}, "77": {"0": [54, null]}, "78": {"0": [55, null]}, "79": {"0": [56, null]}, "80": {"0": [57, null]}, "81": {"0": [58, null]}, "82": {"0": [59, null]}, "83": {"0": [60, null]}, "84": {"0": [61, null]}, "85": {"0": [62, null]}, "86": {"0": [63, null]}, "87": {"0": [64, null]}, "88": {"0": [65, null]}, "89": {"0": [66, null]}, "90": {"0": [67, null]}, "91": {"0": [68, null]}, "92": {"0": [69, null]}, "93": {"0": [70, null]}, "94": {"0": [71, null]}, "95": {"0": [72, null]}, "96": {"0": [73, null]}, "97": {"0": [74, null]}, "98": {"0": [75, null]}, "99": {"0": [76, null]}, "100": {"0": [77, null]}, "101": {"0": [78, null]}, "102": {"0": [79, null]}, "103": {"0": [80, null]}, "104": {"0": [81, null]}, "105": {"0": [82, null]}, "106": {"0": [83, null]}, "107": {"0": [84, null]}, "108": {"0": [85, null]}, "109": {"0": [86, null]}, "110": {"0": [87, null]}, "111": {"0": [88, null]}, "112": {"0": [89, null]}, "113": {"0": [90, null]}, "114": {"0": [91, null]}, "115": {"0": [92, null]}, "116": {"0": [93, null]}, "117": {"0": [94, null]}, "118": {"0": [95, null]}, "119": {"0": [96, null]}, "120": {"0": [97, null]}, "121": {"0": [98, null]}, "122": {"0": [99, null]}, "123": {"0": [100, null]}, "124": {"0": [101, null]}, "125": {"0": [102, null]}, "126": {"0": [103, null]}, "127": {"0": [104, null]}, "128": {"0": [105, null]}, "129": {"0": [106, null]}, "130": {"0": [107, null]}, "131": {"0": [108, null]}, "132": {"0": [109, null]}, "133": {"0": [110, null]}, "134": {"0": [111, null]}, "135": {"0": [112, null]}, "136": {"0": [113, null]}, "137": {"0": [114, null]}, "138": {"0": [115, null]}, "139": {"0": [116, null]}, "140": {"0": [117, null]}, "141": {"0": [118, null]}, "142": {"0": [119, null]}, "143": {"0": [120, null]}, "144": {"0": [121, null]}, "145": {"0": [125, null]}, "146": {"0": [127, null]}}}, "1": {"ItemCount": [27, null], "NumShorts": [1, null], "VarRegionCount": [1, null], "VarRegionIndex": {"0": [0, null]}, "Item": {"0": {"0": [128, null]}, "1": {"0": [129, null]}, "2": {"0": [130, null]}, "3": {"0": [131, null]}, "4": {"0": [132, null]}, "5": {"0": [133, null]}, "6": {"0": [134, null]}, "7": {"0": [136, null]}, "8": {"0": [137, null]}, "9": {"0": [138, null]}, "10": {"0": [139, null]}, "11": {"0": [140, null]}, "12": {"0": [141, null]}, "13": {"0": [142, null]}, "14": {"0": [143, null]}, "15": {"0": [145, null]}, "16": {"0": [146, null]}, "17": {"0": [148, null]}, "18": {"0": [150, null]}, "19": {"0": [151, null]}, "20": {"0": [152, null]}, "21": {"0": [153, null]}, "22": {"0": [162, null]}, "23": {"0": [167, null]}, "24": {"0": [175, null]}, "25": {"0": [183, null]}, "26": {"0": [189, null]}}}}}, "AdvWidthMap": {"mapping": {"error": ["There are 3791 changes, check manually!", ""]}}}}, "name": {"4/3/1/1033": ["Noto Serif Italic", "Noto Serif Bold Italic"], "268/3/1/1033": ["SemiBold Italic", null], "270/3/1/1033": ["Regular", null], "266/3/1/1033": ["Italic", null], "267/3/1/1033": ["Medium Italic", null], "3/3/1/1033": ["2.013;GOOG;NotoSerif-Italic", "2.013;GOOG;NotoSerif-BoldItalic"], "2/3/1/1033": ["Italic", "Bold Italic"], "271/3/1/1033": ["Medium", null], "261/3/1/1033": ["Weight", null], "25/3/1/1033": ["NotoSerifItalic", null], "6/3/1/1033": ["NotoSerif-Italic", "NotoSerif-BoldItalic"], "273/3/1/1033": ["Bold", null], "269/3/1/1033": ["Bold Italic", null], "272/3/1/1033": ["SemiBold", null]}, "STAT": {"axis values": {"Regular": {"format": [3, null], "AxisIndex": [0, null], "Flags": [2, null], "Value": [400.0, null]}, "Medium": {"format": [1, null], "AxisIndex": [0, null], "Flags": [0, null], "Value": [500.0, null]}, "SemiBold": {"format": [1, null], "AxisIndex": [0, null], "Flags": [0, null], "Value": [600.0, null]}, "Bold": {"format": [1, null], "AxisIndex": [0, null], "Flags": [0, null], "Value": [700.0, null]}, "Italic": {"format": [1, null], "AxisIndex": [1, null], "Flags": [0, null], "Value": [1.0, null]}}, "design axis records": {"wght": {"order": [0, null], "AxisName": ["Weight", null]}, "ital": {"order": [1, null], "AxisName": ["Italic", null]}}}, "gasp": {"tableTag": ["gasp", null], "version": [1, null], "gaspRange": {"65535": [15, null]}}, "head": {"macStyle": [2, 3], "modified": [3778914384, 3798097252], "xMin": [-731, -697], "checkSumAdjustment": [502180237, 863205466], "yMax": [1048, 1058]}, "GDEF": {"table": {"LigCaretList": {"Coverage": {"glyphs": {"0": ["uniFB00", "f_f"], "1": ["uniFB01", "fi"], "2": ["uniFB02", "fl"], "3": ["uniFB03", "f_f_i"], "4": ["uniFB04", "f_f_l"], "5": ["glyph02116", "f_f.ss02"], "6": ["glyph02117", "f_f_i.ss02"], "7": ["glyph02118", "f_f_l.ss02"], "8": ["glyph02119", "f_i.ss02"], "9": ["glyph02120", "f_l.ss02"]}}, "LigGlyph": {"0": {"CaretValue": {"0": {"DeviceTable": {"StartSize": [0, null], "EndSize": [110, null], "DeltaFormat": [32768, null]}, "Coordinate": [239, 299], "Format": [3, 1]}}}, "1": {"CaretValue": {"0": {"DeviceTable": {"StartSize": [0, null], "EndSize": [106, null], "DeltaFormat": [32768, null]}, "Coordinate": [247, 303], "Format": [3, 1]}}}, "2": {"CaretValue": {"0": {"DeviceTable": {"StartSize": [0, null], "EndSize": [108, null], "DeltaFormat": [32768, null]}, "Coordinate": [247, 305], "Format": [3, 1]}}}, "3": {"CaretValue": {"0": {"DeviceTable": {"StartSize": [0, null], "EndSize": [100, null], "DeltaFormat": [32768, null]}, "Coordinate": [237, 287], "Format": [3, 1]}, "1": {"DeviceTable": {"StartSize": [0, null], "EndSize": [140, null], "DeltaFormat": [32768, null]}, "Coordinate": [544, 635], "Format": [3, 1]}}}, "4": {"CaretValue": {"0": {"DeviceTable": {"StartSize": [0, null], "EndSize": [88, null], "DeltaFormat": [32768, null]}, "Coordinate": [247, 285], "Format": [3, 1]}, "1": {"DeviceTable": {"StartSize": [0, null], "EndSize": [135, null], "DeltaFormat": [32768, null]}, "Coordinate": [553, 638], "Format": [3, 1]}}}, "5": {"CaretValue": {"0": {"DeviceTable": {"StartSize": [0, null], "EndSize": [111, null], "DeltaFormat": [32768, null]}, "Coordinate": [229, 290], "Format": [3, 1]}}}, "6": {"CaretValue": {"0": {"DeviceTable": {"StartSize": [0, null], "EndSize": [110, null], "DeltaFormat": [32768, null]}, "Coordinate": [239, 299], "Format": [3, 1]}, "1": {"DeviceTable": {"StartSize": [0, null], "EndSize": [110, null], "DeltaFormat": [32768, null]}, "Coordinate": [561, 621], "Format": [3, 1]}}}, "7": {"CaretValue": {"0": {"DeviceTable": {"StartSize": [0, null], "EndSize": [110, null], "DeltaFormat": [32768, null]}, "Coordinate": [229, 289], "Format": [3, 1]}, "1": {"DeviceTable": {"StartSize": [0, null], "EndSize": [110, null], "DeltaFormat": [32768, null]}, "Coordinate": [587, 647], "Format": [3, 1]}}}, "8": {"CaretValue": {"0": {"DeviceTable": {"StartSize": [0, null], "EndSize": [90, null], "DeltaFormat": [32768, null]}, "Coordinate": [269, 309], "Format": [3, 1]}}}, "9": {"CaretValue": {"0": {"DeviceTable": {"StartSize": [0, null], "EndSize": [110, null], "DeltaFormat": [32768, null]}, "Coordinate": [302, 362], "Format": [3, 1]}}}}}, "MarkGlyphSetsDef": {"Coverage": {"0": {"glyphs": {"85": ["uni1DF6", "kavykaaboverightcmb"], "86": ["uni1DF7", "kavykaaboveleftcmb"], "87": ["uni1DF8", "dotaboveleftcmb"], "88": ["uni1DFB", "deletionmarkcmb"], "89": ["uni2DE0", "becombcy"], "90": ["uni2DE1", "vecombcy"], "91": ["uni2DE2", "ghecombcy"], "92": ["uni2DE3", "decombcy"], "93": ["uni2DE4", "zhecombcy"], "94": ["uni2DE5", "zecombcy"], "95": ["uni2DE6", "kacombcy"], "96": ["uni2DE7", "elcombcy"], "97": ["uni2DE8", "emcombcy"], "98": ["uni2DE9", "encombcy"], "99": ["uni2DEA", "ocombcy"], "100": ["uni2DEB", "pecombcy"], "101": ["uni2DEC", "ercombcy"], "102": ["uni2DED", "escombcy"], "103": ["uni2DEE", "tecombcy"], "104": ["uni2DEF", "hacombcy"], "105": ["uni2DF0", "tsecombcy"], "106": ["uni2DF1", "checombcy"], "107": ["uni2DF2", "shacombcy"], "108": ["uni2DF3", "shchacombcy"], "109": ["uni2DF4", "fitacombcy"], "110": ["uni2DF5", "estecombcy"], "111": ["uni2DF6", "acombcy"], "112": ["uni2DF7", "iecombcy"], "113": ["uni2DF8", "djervcombcy"], "114": ["uni2DF9", "monographukcombcy"], "115": ["uni2DFA", "yatcombcy"], "116": ["uni2DFB", "yucombcy"], "117": ["uni2DFC", "iotifiedacombcy"], "118": ["uni2DFD", "littleyuscombcy"], "119": ["uni2DFE", "bigyuscombcy"], "120": ["uni2DFF", "iotifiedbigyuscombcy"], "187": ["uni1ACC", "ginsularcomb"], "188": ["uni1ACD", "rinsularcomb"], "189": ["uni1ACE", "tinsularcomb"]}}, "1": {"glyphs": {"69": ["uni1DF9", "wideinvertedbridgebelowcmb"], "72": ["uni2DE0", "becombcy"], "73": ["uni2DE1", "vecombcy"], "74": ["uni2DE2", "ghecombcy"], "75": ["uni2DE3", "decombcy"], "76": ["uni2DE4", "zhecombcy"], "77": ["uni2DE5", "zecombcy"], "78": ["uni2DE6", "kacombcy"], "79": ["uni2DE7", "elcombcy"], "80": ["uni2DE8", "emcombcy"], "81": ["uni2DE9", "encombcy"], "82": ["uni2DEA", "ocombcy"], "83": ["uni2DEB", "pecombcy"], "84": ["uni2DEC", "ercombcy"], "85": ["uni2DED", "escombcy"], "86": ["uni2DEE", "tecombcy"], "87": ["uni2DEF", "hacombcy"], "88": ["uni2DF0", "tsecombcy"], "89": ["uni2DF1", "checombcy"], "90": ["uni2DF2", "shacombcy"], "91": ["uni2DF3", "shchacombcy"], "92": ["uni2DF4", "fitacombcy"], "93": ["uni2DF6", "acombcy"], "94": ["uni2DF7", "iecombcy"], "95": ["uni2DF8", "djervcombcy"], "96": ["uni2DF9", "monographukcombcy"], "97": ["uni2DFA", "yatcombcy"], "98": ["uni2DFB", "yucombcy"], "99": ["uni2DFC", "iotifiedacombcy"], "100": ["uni2DFD", "littleyuscombcy"], "101": ["uni2DFE", "bigyuscombcy"], "102": ["uni2DFF", "iotifiedbigyuscombcy"], "111": ["glyph03115", "uni0328.sc"], "155": ["uni1ABF", "wbelowcomb"], "156": ["uni1AC0", "wturnedbelowcomb"]}}, "2": {"glyphs": {"20": ["uni2DE0", "becombcy"], "21": ["uni2DE1", "vecombcy"], "22": ["uni2DE2", "ghecombcy"], "23": ["uni2DE3", "decombcy"], "24": ["uni2DE4", "zhecombcy"], "25": ["uni2DE5", "zecombcy"], "26": ["uni2DE6", "kacombcy"], "27": ["uni2DE7", "elcombcy"], "28": ["uni2DE8", "emcombcy"], "29": ["uni2DE9", "encombcy"], "30": ["uni2DF1", "checombcy"], "31": ["uni2DF2", "shacombcy"], "32": ["uni2DF4", "fitacombcy"], "33": ["uni2DF8", "djervcombcy"], "34": ["uni2DF9", "monographukcombcy"], "35": ["uni2DFA", "yatcombcy"], "36": ["uni2DFB", "yucombcy"], "37": ["uni2DFC", "iotifiedacombcy"], "38": ["uni2DFD", "littleyuscombcy"], "39": ["uni2DFE", "bigyuscombcy"], "40": ["uni2DFF", "iotifiedbigyuscombcy"]}}, "3": {"glyphs": {"error": ["There are 200 changes, check manually!", ""]}}, "4": {"glyphs": {"13": ["uni2DFA", "yatcombcy"], "37": ["glyph03666", "uni031A.nonspacing"]}}}}, "GlyphClassDef": {"classDefs": {"error": ["There are 1646 changes, check manually!", ""]}}, "Version": [65539, 65538], "VarStore": {"Format": [1, null], "VarRegionList": {"RegionAxisCount": [1, null], "RegionCount": [1, null], "Region": {"0": {"VarRegionAxis": {"0": {"StartCoord": [0.0, null], "PeakCoord": [1.0, null], "EndCoord": [1.0, null]}}}}}, "VarDataCount": [2, null], "VarData": {"0": {"ItemCount": [154, null], "NumShorts": [0, null], "VarRegionCount": [1, null], "VarRegionIndex": {"0": [0, null]}, "Item": {"0": {"0": [-95, null]}, "1": {"0": [-90, null]}, "2": {"0": [-87, null]}, "3": {"0": [-80, null]}, "4": {"0": [-79, null]}, "5": {"0": [-78, null]}, "6": {"0": [-72, null]}, "7": {"0": [-67, null]}, "8": {"0": [-58, null]}, "9": {"0": [-57, null]}, "10": {"0": [-55, null]}, "11": {"0": [-51, null]}, "12": {"0": [-48, null]}, "13": {"0": [-47, null]}, "14": {"0": [-45, null]}, "15": {"0": [-42, null]}, "16": {"0": [-40, null]}, "17": {"0": [-39, null]}, "18": {"0": [-36, null]}, "19": {"0": [-34, null]}, "20": {"0": [-32, null]}, "21": {"0": [-31, null]}, "22": {"0": [-30, null]}, "23": {"0": [-29, null]}, "24": {"0": [-28, null]}, "25": {"0": [-26, null]}, "26": {"0": [-25, null]}, "27": {"0": [-24, null]}, "28": {"0": [-23, null]}, "29": {"0": [-22, null]}, "30": {"0": [-21, null]}, "31": {"0": [-20, null]}, "32": {"0": [-19, null]}, "33": {"0": [-18, null]}, "34": {"0": [-17, null]}, "35": {"0": [-16, null]}, "36": {"0": [-15, null]}, "37": {"0": [-14, null]}, "38": {"0": [-13, null]}, "39": {"0": [-12, null]}, "40": {"0": [-11, null]}, "41": {"0": [-10, null]}, "42": {"0": [-9, null]}, "43": {"0": [-8, null]}, "44": {"0": [-7, null]}, "45": {"0": [-6, null]}, "46": {"0": [-5, null]}, "47": {"0": [-4, null]}, "48": {"0": [-3, null]}, "49": {"0": [-2, null]}, "50": {"0": [-1, null]}, "51": {"0": [1, null]}, "52": {"0": [2, null]}, "53": {"0": [3, null]}, "54": {"0": [4, null]}, "55": {"0": [5, null]}, "56": {"0": [6, null]}, "57": {"0": [7, null]}, "58": {"0": [8, null]}, "59": {"0": [9, null]}, "60": {"0": [10, null]}, "61": {"0": [11, null]}, "62": {"0": [12, null]}, "63": {"0": [13, null]}, "64": {"0": [14, null]}, "65": {"0": [15, null]}, "66": {"0": [16, null]}, "67": {"0": [17, null]}, "68": {"0": [18, null]}, "69": {"0": [19, null]}, "70": {"0": [20, null]}, "71": {"0": [21, null]}, "72": {"0": [22, null]}, "73": {"0": [23, null]}, "74": {"0": [24, null]}, "75": {"0": [25, null]}, "76": {"0": [26, null]}, "77": {"0": [27, null]}, "78": {"0": [28, null]}, "79": {"0": [29, null]}, "80": {"0": [30, null]}, "81": {"0": [31, null]}, "82": {"0": [32, null]}, "83": {"0": [33, null]}, "84": {"0": [34, null]}, "85": {"0": [35, null]}, "86": {"0": [36, null]}, "87": {"0": [37, null]}, "88": {"0": [38, null]}, "89": {"0": [39, null]}, "90": {"0": [40, null]}, "91": {"0": [41, null]}, "92": {"0": [42, null]}, "93": {"0": [43, null]}, "94": {"0": [44, null]}, "95": {"0": [45, null]}, "96": {"0": [46, null]}, "97": {"0": [47, null]}, "98": {"0": [48, null]}, "99": {"0": [49, null]}, "100": {"0": [50, null]}, "101": {"0": [51, null]}, "102": {"0": [52, null]}, "103": {"0": [53, null]}, "104": {"0": [54, null]}, "105": {"0": [55, null]}, "106": {"0": [56, null]}, "107": {"0": [57, null]}, "108": {"0": [58, null]}, "109": {"0": [59, null]}, "110": {"0": [60, null]}, "111": {"0": [61, null]}, "112": {"0": [62, null]}, "113": {"0": [63, null]}, "114": {"0": [64, null]}, "115": {"0": [65, null]}, "116": {"0": [66, null]}, "117": {"0": [67, null]}, "118": {"0": [68, null]}, "119": {"0": [69, null]}, "120": {"0": [70, null]}, "121": {"0": [71, null]}, "122": {"0": [72, null]}, "123": {"0": [73, null]}, "124": {"0": [74, null]}, "125": {"0": [75, null]}, "126": {"0": [76, null]}, "127": {"0": [77, null]}, "128": {"0": [78, null]}, "129": {"0": [79, null]}, "130": {"0": [80, null]}, "131": {"0": [81, null]}, "132": {"0": [82, null]}, "133": {"0": [83, null]}, "134": {"0": [84, null]}, "135": {"0": [85, null]}, "136": {"0": [86, null]}, "137": {"0": [87, null]}, "138": {"0": [89, null]}, "139": {"0": [90, null]}, "140": {"0": [91, null]}, "141": {"0": [93, null]}, "142": {"0": [94, null]}, "143": {"0": [95, null]}, "144": {"0": [96, null]}, "145": {"0": [98, null]}, "146": {"0": [99, null]}, "147": {"0": [100, null]}, "148": {"0": [101, null]}, "149": {"0": [108, null]}, "150": {"0": [109, null]}, "151": {"0": [110, null]}, "152": {"0": [114, null]}, "153": {"0": [120, null]}}}, "1": {"ItemCount": [1, null], "NumShorts": [1, null], "VarRegionCount": [1, null], "VarRegionIndex": {"0": [0, null]}, "Item": {"0": {"0": [142, null]}}}}}}}, "hhea": {"minLeftSideBearing": [-731, -697], "numberOfHMetrics": [3791, 3836]}, "fvar": {"axes": {"wght": {"minValue": [400.0, null], "maxValue": [700.0, null], "defaultValue": [400.0, null], "axisName": ["Weight", null]}}, "instances": {"Italic": {"coordinates": {"wght": [400.0, null]}, "flags": [0, null]}, "Medium Italic": {"coordinates": {"wght": [500.0, null]}, "flags": [0, null]}, "SemiBold Italic": {"coordinates": {"wght": [600.0, null]}, "flags": [0, null]}, "Bold Italic": {"coordinates": {"wght": [700.0, null]}, "flags": [0, null]}}}, "gvar": {"tableTag": ["gvar", null], "version": [1, null], "reserved": [0, null], "axisCount": [1, null], "sharedTupleCount": [1, null], "offsetToSharedTuples": [15188, null], "glyphCount": [3791, null], "flags": [1, null], "offsetToGlyphVariationData": [15190, null]}, "glyf": {"axisTags": {"0": ["wght", null]}, "_reverseGlyphOrder": {"error": ["There are 3067 changes, check manually!", ""]}, "glyphs": {"error": ["There are 4661 changes, check manually!", ""]}, "glyphOrder": {"error": ["There are 1987 changes, check manually!", ""]}}};</script>
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+  class Table {
+      constructor(data) {
+          this.data = {"root": data}
+          this.open("root")
+      }
+
+      createNode(key, label) {
+          let childElem = document.createElement("div")
+          let childKey = key
+          childElem.dataset.path = childKey
+          childElem.dataset.open = "0"
+          childElem.innerHTML = label
+          childElem.classList.add("node")
+          return childElem
+      }
+
+      close(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          let label = htmlParent.childNodes[0].nodeValue
+          htmlParent.replaceChildren()
+          htmlParent.textContent = label
+          htmlParent.dataset.open = "0"
+      }
+
+      open(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          htmlParent.dataset.open = "1"
+
+          // traverse to correct data level based on data-path
+          let path = key.split(".")
+          let data = this.data
+          for (var i=0; i<path.length; i++) {
+              data = data[path[i]];
+
+          }
+
+          // arrays containing two values are used as leaf nodes.
+          // The first item is the before value and the second
+          // is for after value.
+          if (Array.isArray(data)) {
+              let childElem = this.createNode("", "")
+              let before = document.createElement("span")
+              before.classList.add("attr-before")
+              before.textContent = String(data[0]) + " "
+              let after = document.createElement("span")
+              after.classList.add("attr-after")
+              after.textContent = String(data[1])
+              childElem.appendChild(before)
+              childElem.appendChild(after)
+              htmlParent.appendChild(childElem)
+              return
+          }
+          // Create next child nodes
+          for (var i in data) {
+              let childKey = key + "." + i
+              let childElem = this.createNode(childKey, i)
+              htmlParent.appendChild(childElem);
+              var that = this
+
+              // Toggle whether to open or close a node
+              childElem.addEventListener("click", function() {
+                  if (this.dataset.open === "0") {
+                      that.open(childKey)
+                      event.stopPropagation()
+                  } else {
+                      that.close(childKey)
+                      event.stopPropagation()
+                  }
+              })
+          }
+      }
+  }
+
+  let t = new Table(fontdiff, document.getElementById("difftable"))
+
+
+function wordBreaks() {
+  words = document.getElementsByClassName("cell-word")
+  res = []
+  prevTop = 0
+  for (i=0; i<words.length; i++) {
+      var word = words[i]
+      currentTop = word.getBoundingClientRect().top
+      if (currentTop > prevTop) {
+          res.push(i)
+      }
+      prevTop = currentTop
+  }
+  return res
+}
+
+async function insertBreaks() {
+  switchFonts()
+  await sleep(1)
+  breaksBefore = wordBreaks()
+  switchFonts()
+  await sleep(1)
+  breaksAfter = wordBreaks()
+
+
+  console.log(breaksBefore.length, breaksAfter.length)
+
+  if (breaksBefore.length >= breaksAfter.length) {
+    breaks = breaksBefore
+  } else {
+    breaks = breaksAfter
+  }
+
+  words = document.getElementsByClassName("cell-word")
+  breaks.forEach(function(i) {
+    if (i != 0) {
+      i = i
+    }
+    word = words[i]
+    spacer = document.createElement("div")
+    spacer.className = "spacer"
+    word.parentNode.insertBefore(spacer, word)
+  })
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+  
+insertBreaks()
+
+
+    </script>
+</html>

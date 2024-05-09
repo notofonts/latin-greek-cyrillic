@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attr-before{
+                color: red;
+                cursor: text;
+            }
+            .attr-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url("old-NotoSerif-CondensedThin.ttf");
+    font-family: "old font";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url("new-NotoSerif-CondensedThin.ttf");
+    font-family: "new font";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-wght-400{
+    font-family: "old font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+
+	  
+	    .new-wght-400{
+    font-family: "new font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+
+	  
+	
+.cell{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 50pt;
+  line-height: 48.0px;
+}
+.cell-word{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+      <div data-path="root" data-open="0" id="difftable"></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+      <div class="box">
+        <div class="box-title">Modified encoded Glyphs</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᷨ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER B<br>
+            unicode: U+1DE8<br>
+            changed pixels: 2.71%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᷙ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER ETH<br>
+            unicode: U+1DD9<br>
+            changed pixels: 2.36%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꚞ<br>
+        <span class="tooltiptext">
+            name: COMBINING CYRILLIC LETTER EF<br>
+            unicode: U+A69E<br>
+            changed pixels: 2.23%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ₛ<br>
+        <span class="tooltiptext">
+            name: LATIN SUBSCRIPT SMALL LETTER S<br>
+            unicode: U+209B<br>
+            changed pixels: 2.14%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⷷ<br>
+        <span class="tooltiptext">
+            name: COMBINING CYRILLIC LETTER IE<br>
+            unicode: U+2DF7<br>
+            changed pixels: 2.11%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᶞ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL ETH<br>
+            unicode: U+1D9E<br>
+            changed pixels: 1.83%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𐞺<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL S WITH CURL<br>
+            unicode: U+107BA<br>
+            changed pixels: 1.74%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᶳ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL S WITH HOOK<br>
+            unicode: U+1DB3<br>
+            changed pixels: 1.61%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⷡ<br>
+        <span class="tooltiptext">
+            name: COMBINING CYRILLIC LETTER VE<br>
+            unicode: U+2DE1<br>
+            changed pixels: 1.57%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⷻ<br>
+        <span class="tooltiptext">
+            name: COMBINING CYRILLIC LETTER YU<br>
+            unicode: U+2DFB<br>
+            changed pixels: 1.50%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᵨ<br>
+        <span class="tooltiptext">
+            name: GREEK SUBSCRIPT SMALL LETTER RHO<br>
+            unicode: U+1D68<br>
+            changed pixels: 1.43%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꚜ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER CYRILLIC HARD SIGN<br>
+            unicode: U+A69C<br>
+            changed pixels: 1.40%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᫌ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER INSULAR G<br>
+            unicode: U+1ACC<br>
+            changed pixels: 1.37%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᶝ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL C WITH CURL<br>
+            unicode: U+1D9D<br>
+            changed pixels: 1.29%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᷠ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER N<br>
+            unicode: U+1DE0<br>
+            changed pixels: 1.29%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᶜ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL C<br>
+            unicode: U+1D9C<br>
+            changed pixels: 1.29%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꟴ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER CAPITAL Q<br>
+            unicode: U+A7F4<br>
+            changed pixels: 1.22%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⷴ<br>
+        <span class="tooltiptext">
+            name: COMBINING CYRILLIC LETTER FITA<br>
+            unicode: U+2DF4<br>
+            changed pixels: 1.21%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꙴ<br>
+        <span class="tooltiptext">
+            name: COMBINING CYRILLIC LETTER UKRAINIAN IE<br>
+            unicode: U+A674<br>
+            changed pixels: 1.21%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᷳ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER O WITH DIAERESIS<br>
+            unicode: U+1DF3<br>
+            changed pixels: 1.21%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ͦ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER O<br>
+            unicode: U+0366<br>
+            changed pixels: 1.18%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𐞒<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL CAPITAL G<br>
+            unicode: U+10792<br>
+            changed pixels: 1.12%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᷕ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER AO<br>
+            unicode: U+1DD5<br>
+            changed pixels: 1.10%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ˢ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL S<br>
+            unicode: U+02E2<br>
+            changed pixels: 1.07%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᵟ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL DELTA<br>
+            unicode: U+1D5F<br>
+            changed pixels: 1.07%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᷧ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER ALPHA<br>
+            unicode: U+1DE7<br>
+            changed pixels: 1.06%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᵇ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL B<br>
+            unicode: U+1D47<br>
+            changed pixels: 1.05%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𐞅<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL B WITH HOOK<br>
+            unicode: U+10785<br>
+            changed pixels: 1.05%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᵍ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL G<br>
+            unicode: U+1D4D<br>
+            changed pixels: 1.05%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᵎ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL TURNED I<br>
+            unicode: U+1D4E<br>
+            changed pixels: 1.04%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𐞔<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL CAPITAL G WITH HOOK<br>
+            unicode: U+10794<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᶬ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL M WITH HOOK<br>
+            unicode: U+1DAC<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᷭ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER O WITH LIGHT CENTRALIZATION STROKE<br>
+            unicode: U+1DED<br>
+            changed pixels: 0.94%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𐞤<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL CLOSED OMEGA<br>
+            unicode: U+107A4<br>
+            changed pixels: 0.91%
+        </span>
+    </div>
+</div>
+            </div>
+          
+          </div>
+      </div>
+    
+
+    
+      <div class="box">
+        <div class="box-title">Misshapen Common words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Latin words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᶞ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1405, pos=(0, 0, 290, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1405, pos=(0, 0, 290, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.83%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᶳ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1426, pos=(0, 0, 222, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1426, pos=(0, 0, 222, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.61%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᶜ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1403, pos=(0, 0, 246, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1403, pos=(0, 0, 246, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.29%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᶝ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1404, pos=(0, 0, 248, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1404, pos=(0, 0, 248, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.29%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᵍ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1324, pos=(0, 0, 277, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1324, pos=(0, 0, 277, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.05%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᵇ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1318, pos=(0, 0, 311, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1318, pos=(0, 0, 311, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.05%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᵎ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1325, pos=(0, 0, 151, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1325, pos=(0, 0, 151, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.04%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᶬ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1419, pos=(0, 0, 474, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1419, pos=(0, 0, 474, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.98%
+        </div>
+        </span>
+    </div>
+</div>
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Greek words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Cyrillic words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Уёном<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=444, pos=(0, 0, 524, 0)<br>gid=489, pos=(0, 0, 409, 0)<br>gid=470, pos=(0, 0, 523, 0)<br>gid=471, pos=(0, 0, 453, 0)<br>gid=469, pos=(0, 0, 641, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=444, pos=(0, 0, 523, 0)<br>gid=489, pos=(0, 0, 409, 0)<br>gid=470, pos=(0, 0, 523, 0)<br>gid=471, pos=(0, 0, 453, 0)<br>gid=469, pos=(0, 0, 641, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.37%
+        </div>
+        </span>
+    </div>
+</div>
+          
+        </div>
+      </div>
+    
+    
+    <div class="box">
+      <div class="box-title">Misshapen user strings</div>
+      <div class="box-text old-wght-400" style="font-size: 32pt">
+        
+      </div>
+    </div>
+    
+
+    
+
+    </div>
+  
+<script>var fontdiff = {"hmtx": {"metrics": {"uni019E": {"0": [null, 516], "1": [null, 31]}, "uni1F41": {"1": [52, 51]}, "uni0189": {"0": [null, 569], "1": [null, 32]}, "uniA7AB": {"0": [null, 463], "1": [null, 46]}, "Dtail": {"0": [569, null], "1": [32, null]}, "uni1F44": {"1": [52, 51]}, "uniFE2E": {"1": [-127, -126]}, "omicron": {"1": [52, 51]}, "uni1F40": {"1": [52, 51]}, "uni1D7E": {"0": [500, 490], "1": [13, 33]}, "Usmallstroke": {"0": [490, null], "1": [33, null]}, "uni1F45": {"1": [52, 51]}, "uni0194": {"0": [null, 539], "1": [null, 0]}, "uni01B1": {"0": [null, 577], "1": [null, 44]}, "Upsilonlatin": {"0": [577, null], "1": [44, null]}, "uni1D7E.1": {"0": [null, 500], "1": [null, 13]}, "uni1F79": {"1": [52, 51]}, "nlongrightleg": {"0": [516, null], "1": [31, null]}, "Eopenreversed": {"0": [463, null], "1": [46, null]}, "uni0196": {"0": [null, 274], "1": [null, 40]}, "Iotalatin": {"0": [274, null], "1": [40, null]}, "tsereversedcy": {"1": [30, 29]}, "uniA68B": {"1": [13, 12]}, "Gammalatin": {"0": [539, null], "1": [0, null]}}}, "cmap": {"0xA7B9": ["uni1D7E", "uni1D7E.1"], "0x0194": ["Gammalatin", "uni0194"], "0xA7AB": ["Eopenreversed", "uniA7AB"], "0x019E": ["nlongrightleg", "uni019E"], "0x0189": ["Dtail", "uni0189"], "0x0196": ["Iotalatin", "uni0196"], "0x1D7E": ["Usmallstroke", "uni1D7E"], "0x01B1": ["Upsilonlatin", "uni01B1"]}, "post": {"extraNames": {"631": ["Dtail", "uni0189"], "641": ["Gammalatin", "uni0194"], "643": ["Iotalatin", "uni0196"], "651": ["nlongrightleg", "uni019E"], "666": ["Upsilonlatin", "uni01B1"], "1142": ["Usmallstroke", "uni1D7E"], "1809": ["Eopenreversed", "uniA7AB"], "3002": ["uni1D7E", "uni1D7E.1"]}}, "hhea": {"caretSlopeRise": [1, 1000]}, "head": {"modified": [3778914698, 3798096980], "checkSumAdjustment": [3655730372, 3713929787]}, "GDEF": {"table": {"GlyphClassDef": {"classDefs": {"uni019E": [null, 1], "uni0189": [null, 1], "Dtail": [1, null], "Usmallstroke": [1, null], "uni0194": [null, 1], "uni01B1": [null, 1], "Upsilonlatin": [1, null], "uni1D7E.1": [null, 1], "nlongrightleg": [1, null], "uni0196": [null, 1], "Iotalatin": [1, null], "Gammalatin": [1, null]}}}}, "maxp": {"maxPoints": [252, 263]}, "glyf": {"_reverseGlyphOrder": {"uni019E": [null, 882], "uni0189": [null, 862], "uniA7AB": [null, 2040], "Dtail": [862, null], "uni1D7E": [3236, 1373], "Usmallstroke": [1373, null], "uni0194": [null, 872], "uni01B1": [null, 897], "Upsilonlatin": [897, null], "uni1D7E.1": [null, 3236], "nlongrightleg": [882, null], "Eopenreversed": [2040, null], "uni0196": [null, 874], "Iotalatin": [874, null], "Gammalatin": [872, null]}, "glyphs": {"error": ["There are 647 changes, check manually!", ""]}, "glyphOrder": {"862": ["Dtail", "uni0189"], "872": ["Gammalatin", "uni0194"], "874": ["Iotalatin", "uni0196"], "882": ["nlongrightleg", "uni019E"], "897": ["Upsilonlatin", "uni01B1"], "1373": ["Usmallstroke", "uni1D7E"], "2040": ["Eopenreversed", "uniA7AB"], "3236": ["uni1D7E", "uni1D7E.1"]}}};</script>
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+  class Table {
+      constructor(data) {
+          this.data = {"root": data}
+          this.open("root")
+      }
+
+      createNode(key, label) {
+          let childElem = document.createElement("div")
+          let childKey = key
+          childElem.dataset.path = childKey
+          childElem.dataset.open = "0"
+          childElem.innerHTML = label
+          childElem.classList.add("node")
+          return childElem
+      }
+
+      close(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          let label = htmlParent.childNodes[0].nodeValue
+          htmlParent.replaceChildren()
+          htmlParent.textContent = label
+          htmlParent.dataset.open = "0"
+      }
+
+      open(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          htmlParent.dataset.open = "1"
+
+          // traverse to correct data level based on data-path
+          let path = key.split(".")
+          let data = this.data
+          for (var i=0; i<path.length; i++) {
+              data = data[path[i]];
+
+          }
+
+          // arrays containing two values are used as leaf nodes.
+          // The first item is the before value and the second
+          // is for after value.
+          if (Array.isArray(data)) {
+              let childElem = this.createNode("", "")
+              let before = document.createElement("span")
+              before.classList.add("attr-before")
+              before.textContent = String(data[0]) + " "
+              let after = document.createElement("span")
+              after.classList.add("attr-after")
+              after.textContent = String(data[1])
+              childElem.appendChild(before)
+              childElem.appendChild(after)
+              htmlParent.appendChild(childElem)
+              return
+          }
+          // Create next child nodes
+          for (var i in data) {
+              let childKey = key + "." + i
+              let childElem = this.createNode(childKey, i)
+              htmlParent.appendChild(childElem);
+              var that = this
+
+              // Toggle whether to open or close a node
+              childElem.addEventListener("click", function() {
+                  if (this.dataset.open === "0") {
+                      that.open(childKey)
+                      event.stopPropagation()
+                  } else {
+                      that.close(childKey)
+                      event.stopPropagation()
+                  }
+              })
+          }
+      }
+  }
+
+  let t = new Table(fontdiff, document.getElementById("difftable"))
+
+
+function wordBreaks() {
+  words = document.getElementsByClassName("cell-word")
+  res = []
+  prevTop = 0
+  for (i=0; i<words.length; i++) {
+      var word = words[i]
+      currentTop = word.getBoundingClientRect().top
+      if (currentTop > prevTop) {
+          res.push(i)
+      }
+      prevTop = currentTop
+  }
+  return res
+}
+
+async function insertBreaks() {
+  switchFonts()
+  await sleep(1)
+  breaksBefore = wordBreaks()
+  switchFonts()
+  await sleep(1)
+  breaksAfter = wordBreaks()
+
+
+  console.log(breaksBefore.length, breaksAfter.length)
+
+  if (breaksBefore.length >= breaksAfter.length) {
+    breaks = breaksBefore
+  } else {
+    breaks = breaksAfter
+  }
+
+  words = document.getElementsByClassName("cell-word")
+  breaks.forEach(function(i) {
+    if (i != 0) {
+      i = i
+    }
+    word = words[i]
+    spacer = document.createElement("div")
+    spacer.className = "spacer"
+    word.parentNode.insertBefore(spacer, word)
+  })
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+  
+insertBreaks()
+
+
+    </script>
+</html>

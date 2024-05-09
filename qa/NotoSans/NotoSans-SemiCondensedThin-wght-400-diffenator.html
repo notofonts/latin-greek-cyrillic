@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attr-before{
+                color: red;
+                cursor: text;
+            }
+            .attr-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url("old-NotoSans-SemiCondensedThin.ttf");
+    font-family: "old font";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url("new-NotoSans-SemiCondensedThin.ttf");
+    font-family: "new font";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-wght-400{
+    font-family: "old font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+
+	  
+	    .new-wght-400{
+    font-family: "new font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+
+	  
+	
+.cell{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 50pt;
+  line-height: 48.0px;
+}
+.cell-word{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+      <div data-path="root" data-open="0" id="difftable"></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+      <div class="box">
+        <div class="box-title">Modified encoded Glyphs</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꙮ<br>
+        <span class="tooltiptext">
+            name: CYRILLIC LETTER MULTIOCULAR O<br>
+            unicode: U+A66E<br>
+            changed pixels: 3.24%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𐞵<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER BILABIAL CLICK<br>
+            unicode: U+107B5<br>
+            changed pixels: 2.23%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᴼ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER CAPITAL O<br>
+            unicode: U+1D3C<br>
+            changed pixels: 2.23%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᷨ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER B<br>
+            unicode: U+1DE8<br>
+            changed pixels: 2.20%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᵞ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL GREEK GAMMA<br>
+            unicode: U+1D5E<br>
+            changed pixels: 1.71%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꟴ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER CAPITAL Q<br>
+            unicode: U+A7F4<br>
+            changed pixels: 1.68%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ͩ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER D<br>
+            unicode: U+0369<br>
+            changed pixels: 1.68%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ʴ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL TURNED R<br>
+            unicode: U+02B4<br>
+            changed pixels: 1.61%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ₑ<br>
+        <span class="tooltiptext">
+            name: LATIN SUBSCRIPT SMALL LETTER E<br>
+            unicode: U+2091<br>
+            changed pixels: 1.48%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꙻ<br>
+        <span class="tooltiptext">
+            name: COMBINING CYRILLIC LETTER OMEGA<br>
+            unicode: U+A67B<br>
+            changed pixels: 1.43%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𐞒<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL CAPITAL G<br>
+            unicode: U+10792<br>
+            changed pixels: 1.31%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𐞔<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL CAPITAL G WITH HOOK<br>
+            unicode: U+10794<br>
+            changed pixels: 1.14%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ₔ<br>
+        <span class="tooltiptext">
+            name: LATIN SUBSCRIPT SMALL LETTER SCHWA<br>
+            unicode: U+2094<br>
+            changed pixels: 1.12%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ͣ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER A<br>
+            unicode: U+0363<br>
+            changed pixels: 1.11%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᷲ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER A WITH DIAERESIS<br>
+            unicode: U+1DF2<br>
+            changed pixels: 1.11%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⷶ<br>
+        <span class="tooltiptext">
+            name: COMBINING CYRILLIC LETTER A<br>
+            unicode: U+2DF6<br>
+            changed pixels: 1.11%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᷙ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER ETH<br>
+            unicode: U+1DD9<br>
+            changed pixels: 1.11%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ʶ<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL CAPITAL INVERTED R<br>
+            unicode: U+02B6<br>
+            changed pixels: 1.10%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᷚ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER G<br>
+            unicode: U+1DDA<br>
+            changed pixels: 1.07%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ͧ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER U<br>
+            unicode: U+0367<br>
+            changed pixels: 1.04%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᷴ<br>
+        <span class="tooltiptext">
+            name: COMBINING LATIN SMALL LETTER U WITH DIAERESIS<br>
+            unicode: U+1DF4<br>
+            changed pixels: 1.04%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        𐞄<br>
+        <span class="tooltiptext">
+            name: MODIFIER LETTER SMALL CAPITAL B<br>
+            unicode: U+10784<br>
+            changed pixels: 1.02%
+        </span>
+    </div>
+</div>
+            </div>
+          
+          </div>
+      </div>
+    
+
+    
+      <div class="box">
+        <div class="box-title">Misshapen Common words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Latin words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ᴼ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1260, pos=(0, 0, 432, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1260, pos=(0, 0, 432, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 2.23%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Jasƅl<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=45, pos=(0, 0, 215, 0)<br>gid=68, pos=(0, 0, 458, 0)<br>gid=86, pos=(0, 0, 404, 0)<br>gid=854, pos=(0, 0, 516, 0)<br>gid=79, pos=(0, 0, 192, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=45, pos=(0, 0, 214, 0)<br>gid=68, pos=(0, 0, 458, 0)<br>gid=86, pos=(0, 0, 404, 0)<br>gid=854, pos=(0, 0, 516, 0)<br>gid=79, pos=(0, 0, 192, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.72%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ʴ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1136, pos=(0, 0, 217, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1136, pos=(0, 0, 217, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.61%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ₑ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1557, pos=(0, 0, 313, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1557, pos=(0, 0, 313, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.48%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        DJÄVLAR<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=39, pos=(0, 0, 611, 0)<br>gid=45, pos=(0, 0, 215, 0)<br>gid=134, pos=(0, 0, 477, 0)<br>gid=57, pos=(0, 0, 491, 0)<br>gid=47, pos=(0, 0, 446, 0)<br>gid=36, pos=(0, 0, 504, 0)<br>gid=53, pos=(0, 0, 514, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=39, pos=(0, 0, 611, 0)<br>gid=45, pos=(0, 0, 214, 0)<br>gid=134, pos=(0, 0, 477, 0)<br>gid=57, pos=(0, 0, 491, 0)<br>gid=47, pos=(0, 0, 446, 0)<br>gid=36, pos=(0, 0, 504, 0)<br>gid=53, pos=(0, 0, 514, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.41%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        JÅJ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=45, pos=(0, 0, 215, 0)<br>gid=135, pos=(0, 0, 547, 0)<br>gid=45, pos=(0, 0, 215, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=45, pos=(0, 0, 214, 0)<br>gid=135, pos=(0, 0, 547, 0)<br>gid=45, pos=(0, 0, 214, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.40%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ÂĈÊĜĤÎĴÔŜÛŴŶâĉêĝĥîĵôŝûŵŷ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=132, pos=(0, 0, 491, 0)<br>gid=202, pos=(0, 0, 541, 0)<br>gid=140, pos=(0, 0, 488, 0)<br>gid=222, pos=(0, 0, 647, 0)<br>gid=230, pos=(0, 0, 625, 0)<br>gid=144, pos=(0, 0, 260, 0)<br>gid=245, pos=(0, 0, 215, 0)<br>gid=150, pos=(0, 0, 665, 0)<br>gid=285, pos=(0, 0, 487, 0)<br>gid=157, pos=(0, 0, 629, 0)<br>gid=309, pos=(0, 0, 788, 0)<br>gid=311, pos=(0, 0, 392, 0)<br>gid=164, pos=(0, 0, 458, 0)<br>gid=203, pos=(0, 0, 414, 0)<br>gid=172, pos=(0, 0, 481, 0)<br>gid=223, pos=(0, 0, 524, 0)<br>gid=231, pos=(0, 0, 513, 0)<br>gid=176, pos=(0, 0, 192, 0)<br>gid=246, pos=(0, 0, 196, 0)<br>gid=182, pos=(0, 0, 512, 0)<br>gid=286, pos=(0, 0, 404, 0)<br>gid=189, pos=(0, 0, 513, 0)<br>gid=310, pos=(0, 0, 622, 0)<br>gid=312, pos=(0, 0, 387, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=132, pos=(0, 0, 491, 0)<br>gid=202, pos=(0, 0, 541, 0)<br>gid=140, pos=(0, 0, 488, 0)<br>gid=222, pos=(0, 0, 647, 0)<br>gid=230, pos=(0, 0, 625, 0)<br>gid=144, pos=(0, 0, 260, 0)<br>gid=245, pos=(0, 0, 214, 0)<br>gid=150, pos=(0, 0, 665, 0)<br>gid=285, pos=(0, 0, 487, 0)<br>gid=157, pos=(0, 0, 629, 0)<br>gid=309, pos=(0, 0, 788, 0)<br>gid=311, pos=(0, 0, 392, 0)<br>gid=164, pos=(0, 0, 458, 0)<br>gid=203, pos=(0, 0, 414, 0)<br>gid=172, pos=(0, 0, 481, 0)<br>gid=223, pos=(0, 0, 524, 0)<br>gid=231, pos=(0, 0, 513, 0)<br>gid=176, pos=(0, 0, 192, 0)<br>gid=246, pos=(0, 0, 196, 0)<br>gid=182, pos=(0, 0, 512, 0)<br>gid=286, pos=(0, 0, 404, 0)<br>gid=189, pos=(0, 0, 513, 0)<br>gid=310, pos=(0, 0, 622, 0)<br>gid=312, pos=(0, 0, 387, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.27%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        BAJKAŁEM<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=37, pos=(0, 0, 546, 0)<br>gid=36, pos=(0, 0, 547, 0)<br>gid=45, pos=(0, 0, 215, 0)<br>gid=46, pos=(0, 0, 492, 0)<br>gid=36, pos=(0, 0, 504, 0)<br>gid=258, pos=(0, 0, 446, 0)<br>gid=40, pos=(0, 0, 488, 0)<br>gid=48, pos=(0, 0, 769, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=37, pos=(0, 0, 546, 0)<br>gid=36, pos=(0, 0, 547, 0)<br>gid=45, pos=(0, 0, 214, 0)<br>gid=46, pos=(0, 0, 492, 0)<br>gid=36, pos=(0, 0, 504, 0)<br>gid=258, pos=(0, 0, 446, 0)<br>gid=40, pos=(0, 0, 488, 0)<br>gid=48, pos=(0, 0, 769, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.21%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ₔ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1560, pos=(0, 0, 313, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1560, pos=(0, 0, 313, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.12%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ʶ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1138, pos=(0, 0, 265, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1138, pos=(0, 0, 265, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.10%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ACEGHIJOSUWYaceghijosuwy<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=36, pos=(0, 0, 491, 0)<br>gid=38, pos=(0, 0, 541, 0)<br>gid=40, pos=(0, 0, 488, 0)<br>gid=42, pos=(0, 0, 647, 0)<br>gid=43, pos=(0, 0, 625, 0)<br>gid=44, pos=(0, 0, 260, 0)<br>gid=45, pos=(0, 0, 215, 0)<br>gid=50, pos=(0, 0, 665, 0)<br>gid=54, pos=(0, 0, 487, 0)<br>gid=56, pos=(0, 0, 629, 0)<br>gid=58, pos=(0, 0, 788, 0)<br>gid=60, pos=(0, 0, 392, 0)<br>gid=68, pos=(0, 0, 458, 0)<br>gid=70, pos=(0, 0, 414, 0)<br>gid=72, pos=(0, 0, 481, 0)<br>gid=74, pos=(0, 0, 524, 0)<br>gid=75, pos=(0, 0, 513, 0)<br>gid=76, pos=(0, 0, 196, 0)<br>gid=77, pos=(0, 0, 196, 0)<br>gid=82, pos=(0, 0, 512, 0)<br>gid=86, pos=(0, 0, 404, 0)<br>gid=88, pos=(0, 0, 513, 0)<br>gid=90, pos=(0, 0, 622, 0)<br>gid=92, pos=(0, 0, 387, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=36, pos=(0, 0, 491, 0)<br>gid=38, pos=(0, 0, 541, 0)<br>gid=40, pos=(0, 0, 488, 0)<br>gid=42, pos=(0, 0, 647, 0)<br>gid=43, pos=(0, 0, 625, 0)<br>gid=44, pos=(0, 0, 260, 0)<br>gid=45, pos=(0, 0, 214, 0)<br>gid=50, pos=(0, 0, 665, 0)<br>gid=54, pos=(0, 0, 487, 0)<br>gid=56, pos=(0, 0, 629, 0)<br>gid=58, pos=(0, 0, 788, 0)<br>gid=60, pos=(0, 0, 392, 0)<br>gid=68, pos=(0, 0, 458, 0)<br>gid=70, pos=(0, 0, 414, 0)<br>gid=72, pos=(0, 0, 481, 0)<br>gid=74, pos=(0, 0, 524, 0)<br>gid=75, pos=(0, 0, 513, 0)<br>gid=76, pos=(0, 0, 196, 0)<br>gid=77, pos=(0, 0, 196, 0)<br>gid=82, pos=(0, 0, 512, 0)<br>gid=86, pos=(0, 0, 404, 0)<br>gid=88, pos=(0, 0, 513, 0)<br>gid=90, pos=(0, 0, 622, 0)<br>gid=92, pos=(0, 0, 387, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        AJƐYA<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=36, pos=(0, 0, 547, 0)<br>gid=45, pos=(0, 0, 215, 0)<br>gid=865, pos=(0, 0, 479, 0)<br>gid=60, pos=(0, 0, 391, 0)<br>gid=36, pos=(0, 0, 504, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=36, pos=(0, 0, 547, 0)<br>gid=45, pos=(0, 0, 214, 0)<br>gid=865, pos=(0, 0, 479, 0)<br>gid=60, pos=(0, 0, 391, 0)<br>gid=36, pos=(0, 0, 504, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        NJARÐVÍK<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=49, pos=(0, 0, 627, 0)<br>gid=45, pos=(0, 0, 215, 0)<br>gid=36, pos=(0, 0, 504, 0)<br>gid=53, pos=(0, 0, 514, 0)<br>gid=146, pos=(0, 0, 607, 0)<br>gid=57, pos=(0, 0, 491, 0)<br>gid=143, pos=(0, 0, 260, 0)<br>gid=46, pos=(0, 0, 492, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=49, pos=(0, 0, 627, 0)<br>gid=45, pos=(0, 0, 214, 0)<br>gid=36, pos=(0, 0, 504, 0)<br>gid=53, pos=(0, 0, 514, 0)<br>gid=146, pos=(0, 0, 607, 0)<br>gid=57, pos=(0, 0, 491, 0)<br>gid=143, pos=(0, 0, 260, 0)<br>gid=46, pos=(0, 0, 492, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.93%
+        </div>
+        </span>
+    </div>
+</div>
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Greek words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Cyrillic words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Јүксәк<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=417, pos=(0, 0, 215, 0)<br>gid=657, pos=(0, 0, 379, 0)<br>gid=466, pos=(0, 0, 392, 0)<br>gid=473, pos=(0, 0, 426, 0)<br>gid=699, pos=(0, 0, 481, 0)<br>gid=466, pos=(0, 0, 411, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=417, pos=(0, 0, 214, 0)<br>gid=657, pos=(0, 0, 379, 0)<br>gid=466, pos=(0, 0, 392, 0)<br>gid=473, pos=(0, 0, 426, 0)<br>gid=699, pos=(0, 0, 481, 0)<br>gid=466, pos=(0, 0, 411, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.51%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Јурчевић<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=417, pos=(0, 0, 215, 0)<br>gid=475, pos=(0, 0, 394, 0)<br>gid=472, pos=(0, 0, 512, 0)<br>gid=479, pos=(0, 0, 485, 0)<br>gid=461, pos=(0, 0, 469, 0)<br>gid=458, pos=(0, 0, 470, 0)<br>gid=464, pos=(0, 0, 516, 0)<br>gid=498, pos=(0, 0, 518, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=417, pos=(0, 0, 214, 0)<br>gid=475, pos=(0, 0, 394, 0)<br>gid=472, pos=(0, 0, 512, 0)<br>gid=479, pos=(0, 0, 484, 0)<br>gid=461, pos=(0, 0, 469, 0)<br>gid=458, pos=(0, 0, 470, 0)<br>gid=464, pos=(0, 0, 516, 0)<br>gid=498, pos=(0, 0, 518, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.50%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        АЈРАПЕТЈАН<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=424, pos=(0, 0, 547, 0)<br>gid=417, pos=(0, 0, 215, 0)<br>gid=440, pos=(0, 0, 470, 0)<br>gid=424, pos=(0, 0, 504, 0)<br>gid=439, pos=(0, 0, 617, 0)<br>gid=429, pos=(0, 0, 485, 0)<br>gid=442, pos=(0, 0, 443, 0)<br>gid=417, pos=(0, 0, 215, 0)<br>gid=424, pos=(0, 0, 504, 0)<br>gid=437, pos=(0, 0, 625, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=424, pos=(0, 0, 547, 0)<br>gid=417, pos=(0, 0, 214, 0)<br>gid=440, pos=(0, 0, 470, 0)<br>gid=424, pos=(0, 0, 504, 0)<br>gid=439, pos=(0, 0, 617, 0)<br>gid=429, pos=(0, 0, 485, 0)<br>gid=442, pos=(0, 0, 443, 0)<br>gid=417, pos=(0, 0, 214, 0)<br>gid=424, pos=(0, 0, 504, 0)<br>gid=437, pos=(0, 0, 625, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.29%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Галимҗан<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=427, pos=(0, 0, 414, 0)<br>gid=456, pos=(0, 0, 457, 0)<br>gid=467, pos=(0, 0, 490, 0)<br>gid=464, pos=(0, 0, 516, 0)<br>gid=468, pos=(0, 0, 638, 0)<br>gid=633, pos=(0, 0, 542, 0)<br>gid=456, pos=(0, 0, 457, 0)<br>gid=469, pos=(0, 0, 509, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=427, pos=(0, 0, 413, 0)<br>gid=456, pos=(0, 0, 457, 0)<br>gid=467, pos=(0, 0, 490, 0)<br>gid=464, pos=(0, 0, 516, 0)<br>gid=468, pos=(0, 0, 638, 0)<br>gid=633, pos=(0, 0, 542, 0)<br>gid=456, pos=(0, 0, 457, 0)<br>gid=469, pos=(0, 0, 509, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.23%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Гәдиров<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=427, pos=(0, 0, 447, 0)<br>gid=699, pos=(0, 0, 473, 0)<br>gid=460, pos=(0, 0, 513, 0)<br>gid=464, pos=(0, 0, 516, 0)<br>gid=472, pos=(0, 0, 521, 0)<br>gid=470, pos=(0, 0, 496, 0)<br>gid=458, pos=(0, 0, 470, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=427, pos=(0, 0, 446, 0)<br>gid=699, pos=(0, 0, 473, 0)<br>gid=460, pos=(0, 0, 513, 0)<br>gid=464, pos=(0, 0, 516, 0)<br>gid=472, pos=(0, 0, 521, 0)<br>gid=470, pos=(0, 0, 496, 0)<br>gid=458, pos=(0, 0, 470, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.22%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ЃП<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=412, pos=(0, 0, 447, 0)<br>gid=439, pos=(0, 0, 617, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=412, pos=(0, 0, 446, 0)<br>gid=439, pos=(0, 0, 617, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.21%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ВятГГУ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=426, pos=(0, 0, 538, 0)<br>gid=487, pos=(0, 0, 465, 0)<br>gid=474, pos=(0, 0, 365, 0)<br>gid=427, pos=(0, 0, 447, 0)<br>gid=427, pos=(0, 0, 447, 0)<br>gid=443, pos=(0, 0, 477, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=426, pos=(0, 0, 538, 0)<br>gid=487, pos=(0, 0, 465, 0)<br>gid=474, pos=(0, 0, 365, 0)<br>gid=427, pos=(0, 0, 446, 0)<br>gid=427, pos=(0, 0, 446, 0)<br>gid=443, pos=(0, 0, 477, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.12%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Зчіпка<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=431, pos=(0, 0, 471, 0)<br>gid=479, pos=(0, 0, 485, 0)<br>gid=493, pos=(0, 0, 196, 0)<br>gid=471, pos=(0, 0, 502, 0)<br>gid=466, pos=(0, 0, 395, 0)<br>gid=456, pos=(0, 0, 457, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=431, pos=(0, 0, 471, 0)<br>gid=479, pos=(0, 0, 484, 0)<br>gid=493, pos=(0, 0, 196, 0)<br>gid=471, pos=(0, 0, 502, 0)<br>gid=466, pos=(0, 0, 395, 0)<br>gid=456, pos=(0, 0, 457, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.10%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ГлавУпДК<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=427, pos=(0, 0, 417, 0)<br>gid=467, pos=(0, 0, 490, 0)<br>gid=456, pos=(0, 0, 457, 0)<br>gid=458, pos=(0, 0, 460, 0)<br>gid=443, pos=(0, 0, 467, 0)<br>gid=471, pos=(0, 0, 502, 0)<br>gid=428, pos=(0, 0, 629, 0)<br>gid=434, pos=(0, 0, 493, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=427, pos=(0, 0, 416, 0)<br>gid=467, pos=(0, 0, 490, 0)<br>gid=456, pos=(0, 0, 457, 0)<br>gid=458, pos=(0, 0, 460, 0)<br>gid=443, pos=(0, 0, 467, 0)<br>gid=471, pos=(0, 0, 502, 0)<br>gid=428, pos=(0, 0, 629, 0)<br>gid=434, pos=(0, 0, 493, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.07%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ӵук<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=727, pos=(0, 0, 485, 0)<br>gid=475, pos=(0, 0, 394, 0)<br>gid=466, pos=(0, 0, 411, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=727, pos=(0, 0, 484, 0)<br>gid=475, pos=(0, 0, 394, 0)<br>gid=466, pos=(0, 0, 411, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.01%
+        </div>
+        </span>
+    </div>
+</div>
+          
+        </div>
+      </div>
+    
+    
+    <div class="box">
+      <div class="box-title">Misshapen user strings</div>
+      <div class="box-text old-wght-400" style="font-size: 32pt">
+        
+      </div>
+    </div>
+    
+
+    
+
+    </div>
+  
+<script>var fontdiff = {"hhea": {"caretSlopeRise": [1, 1000]}, "GDEF": {"table": {"GlyphClassDef": {"classDefs": {"uniA7AB": [null, 1], "uni019E": [null, 1], "Eopenreversed": [1, null], "uni1D7E.1": [null, 1], "nlongrightleg": [1, null], "uni0194": [null, 1], "Iotalatin": [1, null], "Gammalatin": [1, null], "Upsilonlatin": [1, null], "uni0189": [null, 1], "uni0196": [null, 1], "uni01B1": [null, 1], "Usmallstroke": [1, null], "Dtail": [1, null]}}, "LigCaretList": {"LigGlyph": {"4": {"CaretValue": {"0": {"Coordinate": [238, 237]}}}}}}}, "cmap": {"0x019E": ["nlongrightleg", "uni019E"], "0xA7AB": ["Eopenreversed", "uniA7AB"], "0x01B1": ["Upsilonlatin", "uni01B1"], "0x1D7E": ["Usmallstroke", "uni1D7E"], "0xA7B9": ["uni1D7E", "uni1D7E.1"], "0x0196": ["Iotalatin", "uni0196"], "0x0189": ["Dtail", "uni0189"], "0x0194": ["Gammalatin", "uni0194"]}, "post": {"extraNames": {"627": ["Dtail", "uni0189"], "637": ["Gammalatin", "uni0194"], "639": ["Iotalatin", "uni0196"], "647": ["nlongrightleg", "uni019E"], "662": ["Upsilonlatin", "uni01B1"], "1088": ["Usmallstroke", "uni1D7E"], "1488": ["Eopenreversed", "uniA7AB"], "2697": ["uni1D7E", "uni1D7E.1"]}}, "glyf": {"_reverseGlyphOrder": {"uniA7AB": [null, 1721], "uni019E": [null, 878], "Eopenreversed": [1721, null], "uni1D7E.1": [null, 2931], "nlongrightleg": [878, null], "uni0194": [null, 868], "Iotalatin": [870, null], "Gammalatin": [868, null], "uni1D7E": [2931, 1319], "Upsilonlatin": [893, null], "uni0189": [null, 858], "uni0196": [null, 870], "uni01B1": [null, 893], "Usmallstroke": [1319, null], "Dtail": [858, null]}, "glyphs": {"error": ["There are 385 changes, check manually!", ""]}, "glyphOrder": {"858": ["Dtail", "uni0189"], "868": ["Gammalatin", "uni0194"], "870": ["Iotalatin", "uni0196"], "878": ["nlongrightleg", "uni019E"], "893": ["Upsilonlatin", "uni01B1"], "1319": ["Usmallstroke", "uni1D7E"], "1721": ["Eopenreversed", "uniA7AB"], "2931": ["uni1D7E", "uni1D7E.1"]}}, "hmtx": {"metrics": {"uni0413": {"0": [447, 446]}, "uniA7AB": {"0": [null, 479], "1": [null, 36]}, "uni1F5F": {"0": [817, 816]}, "uni019E": {"0": [null, 513], "1": [null, 83]}, "uni2C75": {"0": [428, 427]}, "Halfhturned": {"0": [428, 427]}, "zhecombcy": {"1": [-108, -107]}, "uni045A": {"0": [745, 744]}, "Eopenreversed": {"0": [479, null], "1": [36, null]}, "uglottal": {"0": [482, 481]}, "uni1D7E.1": {"0": [null, 513], "1": [null, 27]}, "uni0408": {"0": [215, 214]}, "udieresissideways": {"1": [31, 32]}, "one.osf": {"1": [4, 5]}, "nlongrightleg": {"0": [513, null], "1": [83, null]}, "uni0194": {"0": [null, 523], "1": [null, -2]}, "uniA7D0": {"0": [508, 509]}, "uni02FF": {"0": [421, 420]}, "Iotalatin": {"0": [260, null], "1": [85, null]}, "Gammalatin": {"0": [523, null], "1": [-2, null]}, "uni1D7E": {"0": [513, 528], "1": [27, 7]}, "hbar.sc": {"0": [496, 495]}, "uni2E0B": {"0": [495, 494]}, "Upsilonlatin": {"0": [680, null], "1": [38, null]}, "exclamdbl": {"0": [412, 411]}, "uni1F9F": {"0": [957, 956]}, "J": {"0": [215, 214]}, "uni037F": {"0": [215, 214]}, "u10790": {"0": [484, 483]}, "uni0403": {"0": [447, 446]}, "uni0189": {"0": [null, 614], "1": [null, 22]}, "uni0196": {"0": [null, 260], "1": [null, 85]}, "uni0447": {"0": [485, 484]}, "uni03B9030603140300": {"1": [-38, -39]}, "uni01B1": {"0": [null, 680], "1": [null, 38]}, "uni2129": {"1": [22, 23]}, "uni1F2F": {"0": [957, 956]}, "nine": {"1": [50, 49]}, "Usmallstroke": {"0": [528, null], "1": [7, null]}, "Jcircumflex": {"0": [215, 214]}, "aeturnedmod": {"1": [35, 34]}, "uni04F5": {"0": [485, 484]}, "one.tosf": {"1": [82, 83]}, "Dtail": {"0": [614, null], "1": [22, null]}}}, "maxp": {"maxPoints": [301, 307]}, "head": {"modified": [3778911464, 3798094985], "checkSumAdjustment": [1829741177, 4070742356]}};</script>
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+  class Table {
+      constructor(data) {
+          this.data = {"root": data}
+          this.open("root")
+      }
+
+      createNode(key, label) {
+          let childElem = document.createElement("div")
+          let childKey = key
+          childElem.dataset.path = childKey
+          childElem.dataset.open = "0"
+          childElem.innerHTML = label
+          childElem.classList.add("node")
+          return childElem
+      }
+
+      close(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          let label = htmlParent.childNodes[0].nodeValue
+          htmlParent.replaceChildren()
+          htmlParent.textContent = label
+          htmlParent.dataset.open = "0"
+      }
+
+      open(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          htmlParent.dataset.open = "1"
+
+          // traverse to correct data level based on data-path
+          let path = key.split(".")
+          let data = this.data
+          for (var i=0; i<path.length; i++) {
+              data = data[path[i]];
+
+          }
+
+          // arrays containing two values are used as leaf nodes.
+          // The first item is the before value and the second
+          // is for after value.
+          if (Array.isArray(data)) {
+              let childElem = this.createNode("", "")
+              let before = document.createElement("span")
+              before.classList.add("attr-before")
+              before.textContent = String(data[0]) + " "
+              let after = document.createElement("span")
+              after.classList.add("attr-after")
+              after.textContent = String(data[1])
+              childElem.appendChild(before)
+              childElem.appendChild(after)
+              htmlParent.appendChild(childElem)
+              return
+          }
+          // Create next child nodes
+          for (var i in data) {
+              let childKey = key + "." + i
+              let childElem = this.createNode(childKey, i)
+              htmlParent.appendChild(childElem);
+              var that = this
+
+              // Toggle whether to open or close a node
+              childElem.addEventListener("click", function() {
+                  if (this.dataset.open === "0") {
+                      that.open(childKey)
+                      event.stopPropagation()
+                  } else {
+                      that.close(childKey)
+                      event.stopPropagation()
+                  }
+              })
+          }
+      }
+  }
+
+  let t = new Table(fontdiff, document.getElementById("difftable"))
+
+
+function wordBreaks() {
+  words = document.getElementsByClassName("cell-word")
+  res = []
+  prevTop = 0
+  for (i=0; i<words.length; i++) {
+      var word = words[i]
+      currentTop = word.getBoundingClientRect().top
+      if (currentTop > prevTop) {
+          res.push(i)
+      }
+      prevTop = currentTop
+  }
+  return res
+}
+
+async function insertBreaks() {
+  switchFonts()
+  await sleep(1)
+  breaksBefore = wordBreaks()
+  switchFonts()
+  await sleep(1)
+  breaksAfter = wordBreaks()
+
+
+  console.log(breaksBefore.length, breaksAfter.length)
+
+  if (breaksBefore.length >= breaksAfter.length) {
+    breaks = breaksBefore
+  } else {
+    breaks = breaksAfter
+  }
+
+  words = document.getElementsByClassName("cell-word")
+  breaks.forEach(function(i) {
+    if (i != 0) {
+      i = i
+    }
+    word = words[i]
+    spacer = document.createElement("div")
+    spacer.className = "spacer"
+    word.parentNode.insertBefore(spacer, word)
+  })
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+  
+insertBreaks()
+
+
+    </script>
+</html>
