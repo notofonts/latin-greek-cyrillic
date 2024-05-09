@@ -5814,6 +5814,8 @@ instanceInterpolations = {
 "E17BEC9D-CAAD-449F-91D9-03766E30097E" = 0.58;
 UUID0 = 0.42;
 };
+isBold = 1;
+linkStyle = Regular;
 name = Bold;
 weightClass = 700;
 },
