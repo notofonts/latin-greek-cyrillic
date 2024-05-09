@@ -6015,6 +6015,8 @@ value = "536";
 instanceInterpolations = {
 "58AAA307-6DE9-4107-B80A-C255AE991657" = 1;
 };
+isBold = 1;
+linkStyle = Regular;
 name = Bold;
 weightClass = 700;
 },
