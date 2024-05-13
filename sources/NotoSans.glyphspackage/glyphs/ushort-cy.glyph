@@ -16,6 +16,29 @@ name = top;
 pos = (215,734);
 }
 );
+background = {
+anchors = (
+{
+name = bottom;
+pos = (50,-243);
+},
+{
+name = top;
+pos = (215,734);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+alignment = -1;
+pos = (51,0);
+ref = cyrillicbreve;
+}
+);
+};
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {
@@ -41,6 +64,29 @@ name = top;
 pos = (255,758);
 }
 );
+background = {
+anchors = (
+{
+name = bottom;
+pos = (94,-240);
+},
+{
+name = top;
+pos = (255,758);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+alignment = -1;
+pos = (67,0);
+ref = cyrillicbreve;
+}
+);
+};
 layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
 shapes = (
 {
@@ -66,6 +112,29 @@ name = top;
 pos = (306,792);
 }
 );
+background = {
+anchors = (
+{
+name = bottom;
+pos = (138,-240);
+},
+{
+name = top;
+pos = (306,792);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+alignment = -1;
+pos = (65,0);
+ref = cyrillicbreve;
+}
+);
+};
 layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
 shapes = (
 {
@@ -91,6 +160,29 @@ name = top;
 pos = (158,736);
 }
 );
+background = {
+anchors = (
+{
+name = bottom;
+pos = (44,-242);
+},
+{
+name = top;
+pos = (158,736);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+alignment = -1;
+pos = (16,0);
+ref = cyrillicbreve;
+}
+);
+};
 layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
 shapes = (
 {
@@ -116,6 +208,29 @@ name = top;
 pos = (185,755);
 }
 );
+background = {
+anchors = (
+{
+name = bottom;
+pos = (74,-240);
+},
+{
+name = top;
+pos = (185,755);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+alignment = -1;
+pos = (26,0);
+ref = cyrillicbreve;
+}
+);
+};
 layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
 shapes = (
 {
@@ -141,6 +256,29 @@ name = top;
 pos = (247,782);
 }
 );
+background = {
+anchors = (
+{
+name = bottom;
+pos = (131,-240);
+},
+{
+name = top;
+pos = (247,782);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+alignment = -1;
+pos = (41,0);
+ref = cyrillicbreve;
+}
+);
+};
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
 shapes = (
 {
