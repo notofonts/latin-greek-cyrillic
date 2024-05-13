@@ -230,7 +230,7 @@ nodes = (
 );
 }
 );
-width = 522;
+width = 521;
 },
 {
 anchors = (
@@ -270,6 +270,8 @@ nodes = (
 width = 599;
 }
 );
+metricLeft = H;
+metricRight = H;
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1039;

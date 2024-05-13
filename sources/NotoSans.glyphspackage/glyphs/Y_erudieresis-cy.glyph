@@ -27,7 +27,7 @@ pos = (90,186);
 ref = dieresis;
 }
 );
-width = 753;
+width = 782;
 },
 {
 anchors = (
@@ -51,7 +51,7 @@ pos = (135,178);
 ref = dieresis;
 }
 );
-width = 849;
+width = 858;
 },
 {
 anchors = (
@@ -75,7 +75,7 @@ pos = (152,161);
 ref = dieresis;
 }
 );
-width = 924;
+width = 939;
 },
 {
 anchors = (
@@ -99,7 +99,7 @@ pos = (20,165);
 ref = dieresis;
 }
 );
-width = 566;
+width = 567;
 },
 {
 anchors = (
@@ -123,7 +123,7 @@ pos = (74,165);
 ref = dieresis;
 }
 );
-width = 670;
+width = 667;
 },
 {
 anchors = (
@@ -147,7 +147,7 @@ pos = (161,165);
 ref = dieresis;
 }
 );
-width = 782;
+width = 776;
 }
 );
 metricLeft = "Yeru-cy";

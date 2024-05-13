@@ -22,7 +22,7 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (167,-5);
+pos = (124,-5);
 ref = cyrillicbreve.cap;
 }
 );
@@ -45,7 +45,7 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (168,0);
+pos = (129,0);
 ref = cyrillicbreve.cap;
 }
 );
@@ -69,7 +69,7 @@ alignment = -1;
 ref = "U-cy";
 },
 {
-pos = (136,-5);
+pos = (100,-5);
 ref = cyrillicbreve.cap;
 }
 );
@@ -93,7 +93,7 @@ alignment = -1;
 ref = "U-cy";
 },
 {
-pos = (73,-5);
+pos = (28,-5);
 ref = cyrillicbreve.cap;
 }
 );
@@ -117,7 +117,7 @@ alignment = -1;
 ref = "U-cy";
 },
 {
-pos = (78,-5);
+pos = (44,-5);
 ref = cyrillicbreve.cap;
 }
 );
@@ -141,7 +141,7 @@ alignment = -1;
 ref = "U-cy";
 },
 {
-pos = (101,-5);
+pos = (63,-5);
 ref = cyrillicbreve.cap;
 }
 );

@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 8;
 glyphname = "zhebreve-cy";
 kernLeft = "zhe-cy";
 kernRight = "zhe-cy";
@@ -22,7 +22,7 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (222,0);
+pos = (180,0);
 ref = cyrillicbreve;
 }
 );
@@ -45,7 +45,7 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (226,0);
+pos = (192,0);
 ref = cyrillicbreve;
 }
 );
@@ -59,7 +59,7 @@ pos = (472,0);
 },
 {
 name = top;
-pos = (472,787);
+pos = (471,787);
 }
 );
 layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
@@ -68,7 +68,7 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (264,0);
+pos = (230,0);
 ref = cyrillicbreve;
 }
 );
@@ -82,7 +82,7 @@ pos = (222,0);
 },
 {
 name = top;
-pos = (223,716);
+pos = (222,714);
 }
 );
 layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
@@ -91,7 +91,7 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (124,8);
+pos = (80,8);
 ref = cyrillicbreve;
 }
 );
@@ -114,7 +114,7 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (148,0);
+pos = (115,0);
 ref = cyrillicbreve;
 }
 );
@@ -137,7 +137,7 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (202,-3);
+pos = (167,-3);
 ref = cyrillicbreve;
 }
 );

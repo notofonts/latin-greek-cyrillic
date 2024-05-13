@@ -75,7 +75,7 @@ pos = (124,0);
 ref = dieresis;
 }
 );
-width = 868;
+width = 878;
 },
 {
 anchors = (
@@ -147,7 +147,7 @@ pos = (127,0);
 ref = dieresis;
 }
 );
-width = 713;
+width = 718;
 }
 );
 metricLeft = "yeru-cy";

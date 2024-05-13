@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 8;
 glyphname = "Zhedieresis-cy";
 kernLeft = "Zhe-cy";
 kernRight = "Zhe-cy";
@@ -13,7 +13,7 @@ pos = (409,0);
 },
 {
 name = top;
-pos = (411,895);
+pos = (410,895);
 }
 );
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
@@ -23,7 +23,7 @@ ref = "Zhe-cy";
 },
 {
 alignment = -1;
-pos = (124,186);
+pos = (123,186);
 ref = dieresis;
 }
 );
@@ -37,7 +37,7 @@ pos = (452,0);
 },
 {
 name = top;
-pos = (452,908);
+pos = (460,908);
 }
 );
 layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
@@ -47,11 +47,11 @@ ref = "Zhe-cy";
 },
 {
 alignment = -1;
-pos = (162,178);
+pos = (170,178);
 ref = dieresis;
 }
 );
-width = 905;
+width = 919;
 },
 {
 anchors = (
@@ -85,7 +85,7 @@ pos = (275,0);
 },
 {
 name = top;
-pos = (275,861);
+pos = (274,861);
 }
 );
 layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
@@ -95,7 +95,7 @@ ref = "Zhe-cy";
 },
 {
 alignment = -1;
-pos = (11,165);
+pos = (10,165);
 ref = dieresis;
 }
 );
@@ -151,7 +151,7 @@ width = 810;
 }
 );
 metricLeft = "Zhe-cy";
-metricWidth = "Zhe-cy";
+metricRight = "Zhe-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1244;

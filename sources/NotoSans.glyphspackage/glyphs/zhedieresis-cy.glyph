@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 8;
 glyphname = "zhedieresis-cy";
 kernLeft = "zhe-cy";
 kernRight = "zhe-cy";
@@ -85,7 +85,7 @@ pos = (222,0);
 },
 {
 name = top;
-pos = (223,696);
+pos = (222,696);
 }
 );
 layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
@@ -95,7 +95,7 @@ ref = "zhe-cy";
 },
 {
 alignment = -1;
-pos = (-41,0);
+pos = (-42,0);
 ref = dieresis;
 }
 );
@@ -151,7 +151,7 @@ width = 745;
 }
 );
 metricLeft = "zhe-cy";
-metricWidth = "zhe-cy";
+metricRight = "zhe-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1245;

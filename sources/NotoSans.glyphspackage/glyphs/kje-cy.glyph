@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 8;
 glyphname = "kje-cy";
 kernLeft = "en-cy";
 kernRight = "zhe-cy";
@@ -23,8 +23,8 @@ ref = "ka-cy";
 },
 {
 alignment = -1;
-pos = (263,0);
-ref = acutecomb.loclCYR;
+pos = (191,0);
+ref = acute;
 }
 );
 width = 462;
@@ -47,8 +47,8 @@ ref = "ka-cy";
 },
 {
 alignment = -1;
-pos = (296,0);
-ref = acutecomb.loclCYR;
+pos = (209,0);
+ref = acute;
 }
 );
 width = 531;
@@ -71,8 +71,8 @@ ref = "ka-cy";
 },
 {
 alignment = -1;
-pos = (342,0);
-ref = acutecomb.loclCYR;
+pos = (226,0);
+ref = acute;
 }
 );
 width = 654;
@@ -141,8 +141,8 @@ ref = "ka-cy";
 },
 {
 alignment = -1;
-pos = (190,0);
-ref = acutecomb.loclCYR;
+pos = (126,0);
+ref = acute;
 }
 );
 width = 324;
@@ -165,8 +165,8 @@ ref = "ka-cy";
 },
 {
 alignment = -1;
-pos = (225,0);
-ref = acutecomb.loclCYR;
+pos = (151,0);
+ref = acute;
 }
 );
 width = 396;
@@ -235,14 +235,15 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-pos = (282,0);
-ref = acutecomb.loclCYR;
+pos = (178,0);
+ref = acute;
 }
 );
 width = 519;
 }
 );
 metricLeft = "ka-cy";
+metricRight = "ka-cy";
 metricWidth = "ka-cy";
 script = cyrillic;
 subCategory = Lowercase;

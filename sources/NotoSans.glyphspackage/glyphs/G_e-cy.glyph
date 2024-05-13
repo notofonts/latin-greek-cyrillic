@@ -298,6 +298,7 @@ nodes = (
 width = 418;
 }
 );
+metricLeft = H;
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1043;

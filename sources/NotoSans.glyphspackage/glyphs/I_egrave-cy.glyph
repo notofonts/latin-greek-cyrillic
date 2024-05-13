@@ -156,7 +156,8 @@ ref = grave;
 width = 443;
 }
 );
-metricWidth = "=E";
+metricLeft = E;
+metricRight = E;
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1024;

@@ -28,7 +28,7 @@ pos = (193,186);
 ref = grave;
 }
 );
-width = 693;
+width = 714;
 },
 {
 anchors = (
@@ -53,7 +53,7 @@ pos = (190,178);
 ref = grave;
 }
 );
-width = 768;
+width = 755;
 },
 {
 anchors = (
@@ -78,7 +78,7 @@ pos = (114,161);
 ref = grave;
 }
 );
-width = 845;
+width = 800;
 },
 {
 anchors = (
@@ -103,7 +103,7 @@ pos = (104,187);
 ref = grave;
 }
 );
-width = 500;
+width = 516;
 },
 {
 anchors = (
@@ -128,7 +128,7 @@ pos = (107,177);
 ref = grave;
 }
 );
-width = 573;
+width = 549;
 },
 {
 anchors = (
@@ -153,9 +153,11 @@ pos = (111,161);
 ref = grave;
 }
 );
-width = 669;
+width = 632;
 }
 );
+metricLeft = H;
+metricRight = H;
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1037;

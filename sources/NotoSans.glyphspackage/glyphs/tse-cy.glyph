@@ -73,7 +73,7 @@ width = 570;
 anchors = (
 {
 name = bottom;
-pos = (301,-140);
+pos = (301,-136);
 },
 {
 name = center;
@@ -131,7 +131,7 @@ width = 608;
 anchors = (
 {
 name = bottom;
-pos = (327,-140);
+pos = (327,-132);
 },
 {
 name = center;
@@ -189,7 +189,7 @@ width = 674;
 anchors = (
 {
 name = bottom;
-pos = (198,-134);
+pos = (198,-130);
 },
 {
 name = center;
@@ -226,7 +226,7 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(386,-129,l),
+(386,-130,l),
 (386,25,l),
 (324,25,l),
 (324,527,l),
@@ -237,7 +237,7 @@ nodes = (
 (71,527,l),
 (71,0,l),
 (360,0,l),
-(360,-129,l)
+(360,-130,l)
 );
 }
 );

@@ -27,7 +27,7 @@ pos = (-77,0);
 ref = dieresis;
 }
 );
-width = 442;
+width = 474;
 },
 {
 anchors = (
@@ -51,7 +51,7 @@ pos = (-56,0);
 ref = dieresis;
 }
 );
-width = 488;
+width = 496;
 },
 {
 anchors = (
@@ -75,7 +75,7 @@ pos = (-48,0);
 ref = dieresis;
 }
 );
-width = 533;
+width = 551;
 },
 {
 anchors = (
@@ -99,7 +99,7 @@ pos = (-141,0);
 ref = dieresis;
 }
 );
-width = 297;
+width = 319;
 },
 {
 anchors = (
@@ -123,7 +123,7 @@ pos = (-103,0);
 ref = dieresis;
 }
 );
-width = 357;
+width = 381;
 },
 {
 anchors = (
@@ -147,7 +147,7 @@ pos = (-29,0);
 ref = dieresis;
 }
 );
-width = 426;
+width = 446;
 }
 );
 metricLeft = "ze-cy";
