@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 8;
+color = 1;
 glyphname = "Hardsign-cy";
 kernLeft = "Te-cy";
 kernRight = "Hardsign-cy";
@@ -433,7 +433,7 @@ nodes = (
 );
 }
 );
-width = 510;
+width = 518;
 },
 {
 anchors = (
@@ -519,7 +519,7 @@ nodes = (
 );
 }
 );
-width = 590;
+width = 595;
 },
 {
 anchors = (

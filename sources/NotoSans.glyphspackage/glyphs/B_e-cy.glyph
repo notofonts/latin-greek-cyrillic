@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 8;
+color = 1;
 glyphname = "Be-cy";
 kernLeft = "En-cy";
 kernRight = "Be-cy";
@@ -55,7 +55,7 @@ nodes = (
 );
 }
 );
-width = 583;
+width = 585;
 },
 {
 anchors = (
@@ -179,18 +179,18 @@ nodes = (
 closed = 1;
 nodes = (
 (271,305,l),
-(325,305,ls),
-(386,305,o),
+(328,305,ls),
+(389,305,o),
 (412,275,o),
 (412,233,cs),
 (412,177,o),
-(369,155,o),
-(317,155,cs),
+(372,155,o),
+(320,155,cs),
 (271,155,l)
 );
 }
 );
-width = 649;
+width = 644;
 },
 {
 anchors = (
@@ -276,7 +276,7 @@ nodes = (
 );
 }
 );
-width = 410;
+width = 414;
 },
 {
 anchors = (
