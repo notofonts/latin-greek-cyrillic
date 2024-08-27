@@ -31,32 +31,6 @@ ref = dieresiscomb;
 width = 516;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-ref = upsilon;
-},
-{
-pos = (285,0);
-ref = dieresiscomb;
-}
-);
-width = 607;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-ref = upsilon;
-},
-{
-pos = (201,15);
-ref = dieresiscomb;
-}
-);
-width = 440;
-},
-{
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {

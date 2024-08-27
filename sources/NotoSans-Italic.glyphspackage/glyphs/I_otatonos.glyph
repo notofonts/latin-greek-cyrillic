@@ -37,38 +37,6 @@ ref = tonos.case;
 width = 391;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-pos = (242,0);
-ref = Iota;
-},
-{
-alignment = -1;
-pos = (-30,0);
-ref = tonos.case;
-}
-);
-width = 625;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-pos = (224,0);
-ref = Iota;
-},
-{
-alignment = -1;
-pos = (-30,0);
-ref = tonos.case;
-}
-);
-width = 541;
-},
-{
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {

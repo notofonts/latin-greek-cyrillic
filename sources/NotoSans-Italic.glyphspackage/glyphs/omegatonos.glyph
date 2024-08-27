@@ -31,32 +31,6 @@ ref = tonos;
 width = 732;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-ref = omega;
-},
-{
-pos = (345,0);
-ref = tonos;
-}
-);
-width = 840;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-ref = omega;
-},
-{
-pos = (248,-2);
-ref = tonos;
-}
-);
-width = 672;
-},
-{
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
