@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 0;
+color = 6;
 glyphname = "gje-cy";
 kernLeft = "ze-cy";
 kernRight = "ie-cy";
@@ -32,46 +32,6 @@ ref = acutecomb.loclCYR;
 }
 );
 width = 419;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (173,0);
-},
-{
-name = center;
-pos = (231,273);
-},
-{
-name = top;
-pos = (354,766);
-}
-);
-background = {
-shapes = (
-{
-alignment = -1;
-ref = "ge-cy";
-},
-{
-pos = (113,0);
-ref = acute;
-}
-);
-};
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-ref = "ge-cy";
-},
-{
-pos = (113,0);
-ref = acutecomb.loclCYR;
-}
-);
-width = 463;
 },
 {
 anchors = (
@@ -224,39 +184,11 @@ pos = (124,0);
 ref = acutecomb.loclCYR;
 }
 );
-width = 459;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (130,0);
-},
-{
-name = center;
-pos = (188,272);
-},
-{
-name = top;
-pos = (303,766);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-ref = "ge-cy";
-},
-{
-pos = (65,0);
-ref = acutecomb.loclCYR;
-}
-);
-width = 372.29;
+width = 430;
 }
 );
 metricLeft = "ge-cy";
-metricWidth = "ge-cy";
+metricRight = "ge-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1107;

@@ -49,28 +49,6 @@ width = 431;
 anchors = (
 {
 name = _top;
-pos = (349,546);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-pos = (58,101);
-ref = breve;
-scale = (1,0.8331);
-},
-{
-alignment = -1;
-pos = (35,168);
-ref = psilivaria;
-}
-);
-width = 515;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (381,553);
 }
 );
@@ -131,28 +109,6 @@ ref = psilivaria;
 }
 );
 width = 418;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (306,545);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-pos = (70,88);
-ref = breve;
-scale = (1,0.8049);
-},
-{
-alignment = -1;
-pos = (27,130);
-ref = psilivaria;
-}
-);
-width = 497;
 },
 {
 anchors = (

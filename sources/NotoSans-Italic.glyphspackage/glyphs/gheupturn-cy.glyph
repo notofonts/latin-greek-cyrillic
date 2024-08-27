@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 0;
 glyphname = "gheupturn-cy";
 kernLeft = "ve-cy";
 kernRight = "ge-cy";
@@ -69,39 +70,6 @@ nodes = (
 }
 );
 width = 390;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (174,0);
-},
-{
-name = center;
-pos = (272,347);
-},
-{
-name = top;
-pos = (322,695);
-}
-);
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-closed = 1;
-nodes = (
-(165,0,l),
-(255,425,l),
-(469,425,l),
-(526,695,l),
-(390,695,l),
-(359,546,l),
-(134,546,l),
-(18,0,l)
-);
-}
-);
-width = 463;
 },
 {
 anchors = (
@@ -201,39 +169,6 @@ nodes = (
 }
 );
 width = 288;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (108,0);
-},
-{
-name = center;
-pos = (197,347);
-},
-{
-name = top;
-pos = (255,694);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-closed = 1;
-nodes = (
-(111,0,l),
-(205,442,l),
-(349,442,l),
-(403,694,l),
-(287,694,l),
-(255,545,l),
-(107,545,l),
-(-9,0,l)
-);
-}
-);
-width = 329;
 },
 {
 anchors = (

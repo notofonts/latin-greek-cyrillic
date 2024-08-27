@@ -33,36 +33,6 @@ ref = primeReversed;
 width = 292;
 },
 {
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-alignment = -1;
-pos = (230,0);
-ref = primeReversed;
-},
-{
-alignment = -1;
-ref = primeReversed;
-}
-);
-width = 513;
-},
-{
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-alignment = -1;
-pos = (191,0);
-ref = primeReversed;
-},
-{
-alignment = -1;
-ref = primeReversed;
-}
-);
-width = 516;
-},
-{
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {

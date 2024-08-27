@@ -41,36 +41,6 @@ name = topleft;
 pos = (53,714);
 }
 );
-layerId = "FAB9F01D-70CE-4F71-A270-EC67BDAC6531";
-shapes = (
-{
-ref = Y;
-}
-);
-width = 564;
-},
-{
-anchors = (
-{
-name = topleft;
-pos = (53,714);
-}
-);
-layerId = "E7382CC2-7CD9-4594-B524-5D480E09B385";
-shapes = (
-{
-ref = Y;
-}
-);
-width = 425;
-},
-{
-anchors = (
-{
-name = topleft;
-pos = (53,714);
-}
-);
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
