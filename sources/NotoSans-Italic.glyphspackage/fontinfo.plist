@@ -1,5 +1,5 @@
 {
-.appVersion = "3315";
+.appVersion = "3260";
 .formatVersion = 3;
 axes = (
 {
@@ -17041,12 +17041,12 @@ Master: Black
          ca. 53-55 to the left (lc)
 
 Uppercase:
-- narrowing (H): ca. -xx, vert stem: xx
+- narrowing (H): ca. -60, vert stem: 191
 - narrowing (O): ca. -xx, vert stem: xx
 
 Lowercase:
-- narrowing (n): ca. 50, vert stem: 189
-- narrowing (o): ca. 45, vert stem: 193";
+- narrowing (n): ca. -50, vert stem: 189
+- narrowing (o): ca. -45, vert stem: 193";
 properties = (
 {
 key = copyrights;

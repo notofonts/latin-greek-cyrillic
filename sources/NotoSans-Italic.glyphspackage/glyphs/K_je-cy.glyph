@@ -33,6 +33,7 @@ width = 538;
 background = {
 shapes = (
 {
+pos = (-4,0);
 ref = Kacute;
 }
 );
@@ -43,6 +44,7 @@ shapes = (
 ref = "Ka-cy";
 },
 {
+pos = (582,161);
 ref = acutecomb;
 }
 );
