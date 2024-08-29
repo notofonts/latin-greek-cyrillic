@@ -17033,7 +17033,20 @@ Uppercase:
 
 Lowercase:
 - narrowing (n): ca. 18, vert stem: 26
-- narrowing (o): ca. 22, vert stem: 27";
+- narrowing (o): ca. 22, vert stem: 27
+
+
+Master: Black
+- shift: ca. xx-xx to the left (uc)
+         ca. 53-55 to the left (lc)
+
+Uppercase:
+- narrowing (H): ca. -xx, vert stem: xx
+- narrowing (O): ca. -xx, vert stem: xx
+
+Lowercase:
+- narrowing (n): ca. 50, vert stem: 189
+- narrowing (o): ca. 45, vert stem: 193";
 properties = (
 {
 key = copyrights;

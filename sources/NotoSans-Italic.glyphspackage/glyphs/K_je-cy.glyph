@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 0;
+color = 6;
 glyphname = "Kje-cy";
 kernLeft = "En-cy";
 kernRight = "Zhe-cy";
@@ -9,12 +9,11 @@ layers = (
 background = {
 shapes = (
 {
-alignment = -1;
 ref = "Ka-cy";
 },
 {
-pos = (265,186);
-ref = acutecomb.loclCYR;
+pos = (636,186);
+ref = acutecomb;
 }
 );
 };
@@ -28,7 +27,7 @@ pos = (636,186);
 ref = acutecomb;
 }
 );
-width = 533;
+width = 538;
 },
 {
 background = {
