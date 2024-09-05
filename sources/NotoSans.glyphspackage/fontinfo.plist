@@ -5659,12 +5659,6 @@ GSOffsetHorizontal = 2;
 GSOffsetKeepCompatible = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 2;
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {
@@ -5758,12 +5752,6 @@ GSOffsetHorizontal = 7;
 GSOffsetKeepCompatible = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 3;
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {
@@ -5857,12 +5845,6 @@ userData = {
 GSOffsetHorizontal = 8;
 GSOffsetKeepCompatible = 1;
 GSOffsetVertical = 5;
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {
@@ -5956,12 +5938,6 @@ userData = {
 GSOffsetHorizontal = 16;
 GSOffsetKeepCompatible = 1;
 GSOffsetVertical = 9;
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {
@@ -6052,12 +6028,6 @@ stemValues = (
 26
 );
 userData = {
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {
@@ -6150,12 +6120,6 @@ stemValues = (
 userData = {
 GSOffsetHorizontal = 2;
 GSOffsetVertical = 2;
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {
@@ -6248,12 +6212,6 @@ stemValues = (
 userData = {
 GSOffsetHorizontal = 2;
 GSOffsetVertical = 2;
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {
@@ -6344,12 +6302,6 @@ stemValues = (
 170
 );
 userData = {
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 }
 );
