@@ -7903,6 +7903,7 @@ Jcrossedtail = 40;
 "@MMK_R_a" = -30;
 "@MMK_R_o" = -40;
 "@MMK_R_s" = -50;
+itilde = 10;
 };
 "@MMK_L_quotesingle" = {
 "@MMK_R_A" = -80;
@@ -8399,6 +8400,9 @@ hmod = {
 };
 hturnedmod = {
 "@MMK_R_y" = -16;
+};
+itilde = {
+itilde = 50;
 };
 "iu-cy" = {
 "@MMK_R_cyr_Che" = -30;
@@ -9626,6 +9630,7 @@ Jcrossedtail = 34;
 "@MMK_R_a" = -30;
 "@MMK_R_o" = -40;
 "@MMK_R_s" = -50;
+itilde = 10;
 };
 "@MMK_L_quotesingle" = {
 "@MMK_R_A" = -80;
@@ -10125,6 +10130,9 @@ hmod = {
 };
 hturnedmod = {
 "@MMK_R_y" = -16;
+};
+itilde = {
+itilde = 60;
 };
 "iu-cy" = {
 "@MMK_R_cyr_Che" = -30;
@@ -11353,6 +11361,7 @@ Jcrossedtail = 44;
 "@MMK_R_a" = -30;
 "@MMK_R_o" = -40;
 "@MMK_R_s" = -50;
+itilde = 10;
 };
 "@MMK_L_quotesingle" = {
 "@MMK_R_A" = -80;
@@ -11779,6 +11788,9 @@ ampersand.sc = {
 "@MMK_R_w.sc" = -30;
 "@MMK_R_y.sc" = -20;
 };
+apostrophemod = {
+itilde = 10;
+};
 at = {
 "@MMK_R_A" = -30;
 "@MMK_R_GRK_Alpha" = -30;
@@ -11849,6 +11861,9 @@ hmod = {
 };
 hturnedmod = {
 "@MMK_R_y" = -16;
+};
+itilde = {
+itilde = 60;
 };
 "iu-cy" = {
 "@MMK_R_cyr_Che" = -30;
@@ -13092,6 +13107,7 @@ Jcrossedtail = 38;
 "@MMK_R_o" = -40;
 "@MMK_R_s" = -50;
 "@MMK_R_s.sc" = -20;
+itilde = 10;
 };
 "@MMK_L_quotesingle" = {
 "@MMK_R_A" = -80;
@@ -13486,6 +13502,9 @@ aogonek = {
 "@MMK_R_W" = -40;
 "@MMK_R_Y" = -40;
 };
+apostrophemod = {
+itilde = 10;
+};
 asterisk = {
 "@MMK_R_De-cy" = -70;
 };
@@ -13551,6 +13570,9 @@ hturnedmod = {
 };
 "io-cy" = {
 "@MMK_R_cyr_U" = -20;
+};
+itilde = {
+itilde = 60;
 };
 kmod = {
 "@MMK_R_o" = -16;
@@ -14801,6 +14823,7 @@ Jcrossedtail = 46;
 "@MMK_R_o" = -40;
 "@MMK_R_s" = -50;
 "@MMK_R_s.sc" = -20;
+itilde = 15;
 };
 "@MMK_L_quotesingle" = {
 "@MMK_R_A" = -80;
@@ -15198,6 +15221,9 @@ aogonek = {
 "@MMK_R_W" = -40;
 "@MMK_R_Y" = -40;
 };
+apostrophemod = {
+itilde = 20;
+};
 asterisk = {
 "@MMK_R_De-cy" = -70;
 };
@@ -15263,6 +15289,9 @@ hturnedmod = {
 };
 "io-cy" = {
 "@MMK_R_cyr_U" = -20;
+};
+itilde = {
+itilde = 60;
 };
 kmod = {
 "@MMK_R_o" = -16;
@@ -16518,6 +16547,7 @@ Jcrossedtail = 50;
 "@MMK_R_o" = -40;
 "@MMK_R_s" = -50;
 "@MMK_R_s.sc" = -20;
+itilde = 20;
 };
 "@MMK_L_quotesingle" = {
 "@MMK_R_A" = -80;
@@ -16914,6 +16944,9 @@ aogonek = {
 "@MMK_R_W" = -40;
 "@MMK_R_Y" = -40;
 };
+apostrophemod = {
+itilde = 20;
+};
 asterisk = {
 "@MMK_R_De-cy" = -70;
 };
@@ -16979,6 +17012,9 @@ hturnedmod = {
 };
 "io-cy" = {
 "@MMK_R_cyr_U" = -20;
+};
+itilde = {
+itilde = 60;
 };
 kmod = {
 "@MMK_R_o" = -16;
