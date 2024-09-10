@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 6;
 glyphname = "Gje-cy";
 kernLeft = "Nje-cy";
 kernRight = "Te-cy";
@@ -108,23 +109,13 @@ width = 297;
 },
 {
 background = {
-anchors = (
-{
-name = bottom;
-pos = (133,0);
-},
-{
-name = top;
-pos = (358,944);
-}
-);
 shapes = (
 {
 ref = "Ge-cy";
 },
 {
-pos = (135,178);
-ref = acutecomb.loclCYR;
+pos = (492,184);
+ref = acutecomb;
 }
 );
 };
@@ -142,23 +133,13 @@ width = 323;
 },
 {
 background = {
-anchors = (
-{
-name = bottom;
-pos = (169,0);
-},
-{
-name = top;
-pos = (372,927);
-}
-);
 shapes = (
 {
 ref = "Ge-cy";
 },
 {
-pos = (138,161);
-ref = acutecomb.loclCYR;
+pos = (554,184);
+ref = acutecomb;
 }
 );
 };
@@ -168,7 +149,7 @@ shapes = (
 ref = "Ge-cy";
 },
 {
-pos = (554,184);
+pos = (554,165);
 ref = acutecomb;
 }
 );
@@ -197,7 +178,6 @@ ref = acutecomb.loclCYR;
 }
 );
 };
-color = 6;
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {

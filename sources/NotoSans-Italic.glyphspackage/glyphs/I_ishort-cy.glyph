@@ -27,7 +27,7 @@ pos = (201,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 687;
+width = 708;
 },
 {
 anchors = (
@@ -51,7 +51,7 @@ pos = (126,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 707;
+width = 749;
 },
 {
 anchors = (
@@ -75,7 +75,7 @@ pos = (112,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 449;
+width = 470;
 },
 {
 anchors = (
@@ -135,7 +135,7 @@ pos = (104,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 580;
+width = 585;
 },
 {
 anchors = (
@@ -158,11 +158,11 @@ pos = (175,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 687;
+width = 700;
 }
 );
-metricLeft = "Ii-cy";
-metricWidth = "Ii-cy";
+metricLeft = H;
+metricRight = H;
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1049;

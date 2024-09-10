@@ -132,12 +132,6 @@ ref = a;
 width = 379;
 },
 {
-annotations = (
-{
-pos = (161.312,418.228);
-type = Text;
-}
-);
 background = {
 shapes = (
 {

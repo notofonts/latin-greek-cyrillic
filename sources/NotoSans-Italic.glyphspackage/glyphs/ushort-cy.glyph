@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 0;
+color = 6;
 glyphname = "ushort-cy";
 kernLeft = "u-cy";
 kernRight = "u-cy";
@@ -40,7 +40,7 @@ pos = (77,0);
 ref = cyrillicbreve;
 }
 );
-width = 452;
+width = 410;
 },
 {
 anchors = (
@@ -63,7 +63,7 @@ pos = (50,0);
 ref = cyrillicbreve;
 }
 );
-width = 563;
+width = 544;
 },
 {
 anchors = (
@@ -191,11 +191,11 @@ pos = (68,0);
 ref = cyrillicbreve;
 }
 );
-width = 487;
+width = 467;
 }
 );
 metricLeft = "u-cy";
-metricWidth = "u-cy";
+metricRight = "u-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1118;

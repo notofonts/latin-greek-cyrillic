@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 0;
+color = 6;
 glyphname = "iishort-cy";
 kernLeft = "ii-cy";
 kernRight = "en-cy";

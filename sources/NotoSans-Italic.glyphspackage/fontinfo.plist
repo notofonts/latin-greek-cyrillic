@@ -17037,16 +17037,60 @@ Lowercase:
 
 
 Master: Black
-- shift: ca. xx-xx to the left (uc)
+- shift: ca. 61-65 to the left (uc)
          ca. 53-55 to the left (lc)
 
 Uppercase:
 - narrowing (H): ca. -60, vert stem: 191
-- narrowing (O): ca. -xx, vert stem: xx
+- narrowing (O): ca. -66, vert stem: 193
 
 Lowercase:
 - narrowing (n): ca. -50, vert stem: 189
-- narrowing (o): ca. -45, vert stem: 193";
+- narrowing (o): ca. -45, vert stem: 193
+
+
+
+Master: Regular Cond
+- shift: ca. 73-75 to the left (uc)
+         ca. 62-66 to the left (lc)
+
+Uppercase:
+- narrowing (H): ca. -35, vert stem: 80
+- narrowing (O): ca. -41, vert stem: 82
+
+Lowercase:
+- narrowing (n): ca. -31, vert stem: 77
+- narrowing (o): ca. -31, vert stem: 79
+
+
+
+
+Master: Bold Cond
+- shift: ca. 64-66 to the left (uc)
+         ca. 63-65 to the left (lc)
+
+Uppercase:
+- narrowing (H): ca. -34, vert stem: 167
+- narrowing (O): ca. -37, vert stem: 174
+
+Lowercase:
+- narrowing (n): ca. -28, vert stem: 160
+- narrowing (o): ca. -28, vert stem: 161
+
+
+
+
+Master: Thin Cond
+- shift: ca. 76-77 to the left (uc)
+         ca. 61-65 to the left (lc)
+
+Uppercase:
+- narrowing (H): ca. -30, vert stem: 26
+- narrowing (O): ca. -55, vert stem: 27
+
+Lowercase:
+- narrowing (n): ca. -37, vert stem: 26
+- narrowing (o): ca. -39, vert stem: 27";
 properties = (
 {
 key = copyrights;

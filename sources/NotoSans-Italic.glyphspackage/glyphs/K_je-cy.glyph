@@ -48,12 +48,13 @@ pos = (582,161);
 ref = acutecomb;
 }
 );
-width = 651;
+width = 655;
 },
 {
 background = {
 shapes = (
 {
+pos = (12,0);
 ref = Kacute;
 }
 );
@@ -64,16 +65,34 @@ shapes = (
 ref = "Ka-cy";
 },
 {
+pos = (467,184);
 ref = acutecomb;
 }
 );
-width = 365;
+width = 353;
 },
 {
 background = {
+anchors = (
+{
+name = bottom;
+pos = (157,0);
+},
+{
+name = top;
+pos = (357,944);
+}
+);
 shapes = (
 {
-ref = Kacute;
+alignment = -1;
+pos = (10,0);
+ref = K;
+},
+{
+alignment = -1;
+pos = (169,178);
+ref = acute;
 }
 );
 };
@@ -83,10 +102,11 @@ shapes = (
 ref = "Ka-cy";
 },
 {
+pos = (534,178);
 ref = acutecomb;
 }
 );
-width = 432;
+width = 422;
 },
 {
 background = {
@@ -102,6 +122,7 @@ shapes = (
 ref = "Ka-cy";
 },
 {
+pos = (612,178);
 ref = acutecomb;
 }
 );
@@ -313,7 +334,6 @@ width = 536;
 );
 metricLeft = "Ka-cy";
 metricRight = "Ka-cy";
-metricWidth = "Ka-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1036;

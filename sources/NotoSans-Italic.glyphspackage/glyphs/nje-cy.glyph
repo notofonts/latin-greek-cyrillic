@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 0;
 glyphname = "nje-cy";
 kernLeft = "en-cy";
 kernRight = "hardsign-cy";

@@ -31,7 +31,7 @@ pos = (130,0);
 ref = acutecomb.loclCYR;
 }
 );
-width = 419;
+width = 421;
 },
 {
 anchors = (
@@ -59,7 +59,7 @@ pos = (94,0);
 ref = acutecomb.loclCYR;
 }
 );
-width = 486;
+width = 502;
 },
 {
 anchors = (
@@ -87,7 +87,7 @@ pos = (57,0);
 ref = acutecomb.loclCYR;
 }
 );
-width = 262;
+width = 270;
 },
 {
 anchors = (
@@ -115,7 +115,7 @@ pos = (60,0);
 ref = acutecomb.loclCYR;
 }
 );
-width = 318;
+width = 325;
 },
 {
 anchors = (
@@ -156,7 +156,7 @@ pos = (68,0);
 ref = acutecomb.loclCYR;
 }
 );
-width = 407;
+width = 419;
 },
 {
 anchors = (
