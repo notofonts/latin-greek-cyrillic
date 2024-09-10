@@ -490,19 +490,6 @@ name = top;
 pos = (311,536);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(154,268,l),
-(-60,0,l),
-(116,0,l),
-(262,197,l)
-);
-}
-);
-};
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
