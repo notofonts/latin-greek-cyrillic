@@ -7771,8 +7771,9 @@ x.sc = -10;
 "@MMK_R_Y" = 100;
 "@MMK_R_Z" = 40;
 "@MMK_R_l" = 90;
-"@MMK_R_parenright" = 60;
+"@MMK_R_parenright" = 20;
 "@MMK_R_quoteright" = 40;
+"@MMK_R_quotesingle" = 20;
 question = 30;
 };
 "@MMK_L_de-cy" = {
@@ -9498,9 +9499,12 @@ x.sc = -10;
 "@MMK_R_Y" = 100;
 "@MMK_R_Z" = 40;
 "@MMK_R_l" = 90;
-"@MMK_R_parenright" = 60;
+"@MMK_R_parenright" = 80;
+"@MMK_R_quoteleft" = 10;
 "@MMK_R_quoteright" = 40;
-question = 30;
+"@MMK_R_quotesingle" = 50;
+exclam = 20;
+question = 60;
 };
 "@MMK_L_de-cy" = {
 "@MMK_R_parenright" = 20;
@@ -10218,6 +10222,9 @@ schwa = {
 };
 tcaron = {
 "@MMK_R_l" = 40;
+"@MMK_R_parenright" = 50;
+"@MMK_R_quotesingle" = 20;
+question = 20;
 };
 thorn.sc = {
 "@MMK_R_a.sc" = -10;
@@ -11229,9 +11236,12 @@ x.sc = -10;
 "@MMK_R_Y" = 100;
 "@MMK_R_Z" = 40;
 "@MMK_R_l" = 90;
-"@MMK_R_parenright" = 60;
+"@MMK_R_parenright" = 160;
+"@MMK_R_quoteleft" = 40;
 "@MMK_R_quoteright" = 40;
-question = 30;
+"@MMK_R_quotesingle" = 100;
+exclam = 90;
+question = 93;
 };
 "@MMK_L_de-cy" = {
 "@MMK_R_parenright" = 20;
@@ -11949,6 +11959,11 @@ schwa = {
 };
 tcaron = {
 "@MMK_R_l" = 41;
+"@MMK_R_parenright" = 110;
+"@MMK_R_quoteleft" = 10;
+"@MMK_R_quotesingle" = 60;
+exclam = 40;
+question = 50;
 };
 thorn.sc = {
 "@MMK_R_a.sc" = -10;
@@ -12959,7 +12974,9 @@ x.sc = -10;
 "@MMK_R_Z" = 40;
 "@MMK_R_l" = 90;
 "@MMK_R_parenright" = 60;
+"@MMK_R_quoteleft" = 10;
 "@MMK_R_quoteright" = 40;
+"@MMK_R_quotesingle" = 50;
 question = 30;
 };
 "@MMK_L_de-cy" = {
@@ -13665,6 +13682,7 @@ rhotichookmod = 30;
 };
 tcaron = {
 "@MMK_R_l" = 40;
+"@MMK_R_parenright" = 30;
 };
 thorn.sc = {
 "@MMK_R_a.sc" = -10;
@@ -14674,9 +14692,12 @@ x.sc = -10;
 "@MMK_R_Y" = 100;
 "@MMK_R_Z" = 40;
 "@MMK_R_l" = 90;
-"@MMK_R_parenright" = 60;
+"@MMK_R_parenright" = 80;
+"@MMK_R_quoteleft" = 10;
 "@MMK_R_quoteright" = 40;
-question = 30;
+"@MMK_R_quotesingle" = 60;
+exclam = 20;
+question = 40;
 };
 "@MMK_L_de-cy" = {
 "@MMK_R_parenright" = 20;
@@ -15389,6 +15410,8 @@ schwa = {
 };
 tcaron = {
 "@MMK_R_l" = 40;
+"@MMK_R_parenright" = 50;
+"@MMK_R_quotesingle" = 20;
 };
 thorn.sc = {
 "@MMK_R_a.sc" = -10;
@@ -16398,9 +16421,12 @@ x.sc = -10;
 "@MMK_R_Y" = 100;
 "@MMK_R_Z" = 40;
 "@MMK_R_l" = 90;
-"@MMK_R_parenright" = 60;
+"@MMK_R_parenright" = 140;
+"@MMK_R_quoteleft" = 40;
 "@MMK_R_quoteright" = 40;
-question = 30;
+"@MMK_R_quotesingle" = 90;
+exclam = 70;
+question = 90;
 };
 "@MMK_L_de-cy" = {
 "@MMK_R_parenright" = 20;
@@ -17112,6 +17138,10 @@ schwa = {
 };
 tcaron = {
 "@MMK_R_l" = 40;
+"@MMK_R_parenright" = 90;
+"@MMK_R_quotesingle" = 50;
+exclam = 20;
+question = 40;
 };
 thorn.sc = {
 "@MMK_R_a.sc" = -10;
