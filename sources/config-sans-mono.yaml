@@ -3,3 +3,4 @@ familyName: Noto Sans Mono
 googleFonts: true
 sources:
 - NotoSansMono.glyphspackage
+logLevel: DEBUG
