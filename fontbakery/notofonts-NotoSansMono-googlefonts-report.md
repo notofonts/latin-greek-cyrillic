@@ -234,8 +234,12 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">png_Latn (Pangu)</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+<td align="left">cbj_Latn (Ede Cabe)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -253,7 +257,247 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">nfr_Latn (Nafaanra)</td>
+<td align="left">kdh_Latn (Tem)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bov_Latn (Tuwuli)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">gaa_Latn (Ga)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">pkb_Latn (Pokomo)</td>
+<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">cla_Latn (Ron)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">utr_Latn (Etulo)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">eto_Latn (Eton, Cameroon)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nus_Latn (Nuer)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʈ; both buffers returned uni0288=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sef_Latn (Cebaara Senoufo)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
@@ -280,24 +524,51 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">ndv_Latn (Ndut)</td>
+<td align="left">bud_Latn (Ntcham)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">jab_Latn (Hyam)</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -342,12 +613,8 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">gkp_Latn (Kpelle, Guinea)</td>
+<td align="left">bib_Latn (Bissa)</td>
 <td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -359,7 +626,7 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɠ; both buffers returned uni0260=0+600</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -371,7 +638,11 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ǫ; both buffers returned uni01EB=0+600</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -389,11 +660,46 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">mcn_Latn (Masana)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">okr_Latn (Kirike)</td>
+<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">tal_Latn (Tal)</td>
 <td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
 </tr>
 <tr>
@@ -402,15 +708,7 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɦ; both buffers returned uni0266=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḇ; both buffers returned uni1E07=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḏ; both buffers returned uni1E0F=0+600</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -428,8 +726,144 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">lns_Latn (Lamnso’)</td>
+<td align="left">bza_Latn (Bandi)</td>
 <td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ekm_Latn (Elip)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">abr_Latn (Abron)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ewo_Latn (Ewondo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mqb_Latn (Mbuko)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -451,7 +885,7 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">sig_Latn (Paasaal)</td>
+<td align="left">nko_Latn (Nkonya)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
@@ -486,44 +920,21 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">dje_Latn (Zarma)</td>
+<td align="left">myk_Latn (Mamara Senoufo)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bex_Latn (Jur Modo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
 </tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
 </tbody>
 </table>
  [code: failed-language-shaping]
@@ -540,102 +951,12 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">nza_Latn (Tigon Mbembe)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɑ; both buffers returned uni0251=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nyb_Latn (Nyangbo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
+<td align="left">bev_Latn (Bété, Daloa)</td>
 <td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ƒ; both buffers returned fhook=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tem_Latn (Timne)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʌ; both buffers returned uni028C=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -643,34 +964,7 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ȧ; both buffers returned uni0227=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lok_Latn (Loko)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -739,20 +1033,35 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">ntm_Latn (Nateni)</td>
+<td align="left">bwq_Latn (Southern Bobo Madaré)</td>
 <td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
 </tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mls_Latn (Masalit)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 </tbody>
 </table>
@@ -770,109 +1079,12 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">kpo_Latn (Ikposo)</td>
+<td align="left">kvf_Latn (Kabalai)</td>
 <td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ijs_Latn (Ijo, Southeast)</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">rub_Latn (Gungu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ted_Latn (Krumen, Tepo)</td>
-<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -881,14 +1093,111 @@ fontbakery version: 0.12.10
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">knp_Latn (Kwanja)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sav_Latn (Saafi-Saafi)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lnl_Latn (South Central Banda)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -937,8 +1246,1442 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">bdh_Latn (Baka, DRC/South Sudan)</td>
+<td align="left">gmm_Latn (Gbaya-Mbodomo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lg_Latn (Ganda)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ati_Latn (Attié)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dua_Latn (Duala)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">byv_Latn (Medumba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɑ; both buffers returned uni0251=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yav_Latn (Yangben)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sil_Latn (Sisaala, Tumulung)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kyq_Latn (Kenga)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kqp_Latn (Kimré)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bss_Latn (Akoose)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mkl_Latn (Mokole)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ln_Latn (Lingala)</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nzk_Latn (Nzakara)</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ayb_Latn (Ayizo Gbe)</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bba_Latn (Baatonum)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xuo_Latn (Kuo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">knc_Latn (Kanuri, Central)</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɍ; both buffers returned uni024D=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">asg_Latn (Cishingini)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">cme_Latn (Cerma)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yer_Latn (Tarok)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ibb_Latn (Ibibio)</td>
 <td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʌ; both buffers returned uni028C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mcu_Latn (Mambila, Cameroon)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kub_Latn (Kutep)</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">tem_Latn (Timne)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʌ; both buffers returned uni028C=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȧ; both buffers returned uni0227=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xwe_Latn (Gbe, Xwela)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ckl_Latn (Kibaku)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">swb_Latn (Maore Comorian, Latin)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">muh_Latn (Mündü)</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">tbz_Latn (Ditammari)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">fuv_Latn (Nigerian Fulfulde)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">hig_Latn (Kamwe)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">snw_Latn (Selee)</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">vag_Latn (Vagla)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">luo_Latn (Luo)</td>
+<td align="left">Requires Small-cap: ʈ; both buffers returned uni0288=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">fuh_Latn (Fulfulde, Western Niger)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">cou_Latn (Wamey)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mor_Latn (Moro)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḏ; both buffers returned uni1E0F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꟈ; both buffers returned dmiddlestroke=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɽ; both buffers returned uni027D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṯ; both buffers returned uni1E6F=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">gnd_Latn (Zulgo-Gemzek)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nym_Latn (Nyamwezi)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mmu_Latn (Mmaala)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bmq_Latn (Bomu)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kye_Latn (Krache)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ntm_Latn (Nateni)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">fmp_Latn (Fe’fe’)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɑ; both buffers returned uni0251=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sxw_Latn (Saxwe Gbe)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bcn_Latn (Bali)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">agq_Latn (Aghem)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -946,19 +2689,1266 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ṇ; both buffers returned uni1E47=0+600</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nzi_Latn (Nzima)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dop_Latn (Lukpa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bjv_Latn (Bedjond)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">har_Latn (Harari)</td>
+<td align="left">Requires Small-cap: ṫ; both buffers returned uni1E6B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṡ; both buffers returned uni1E61=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḋ; both buffers returned uni1E0B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȧ; both buffers returned uni0227=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḣ; both buffers returned uni1E23=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bas_Latn (Basaa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">jgk_Latn (Gwak)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">etx_Latn (Iten)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dbq_Latn (Daba)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bjt_Latn (Balanta-Ganja)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ajg_Latn (Aja)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʒ; both buffers returned uni0292=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bfo_Latn (Malba Birifor)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dya_Latn (Dyan)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">fan_Latn (Fang)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʒ; both buffers returned uni0292=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʃ; both buffers returned uni0283=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṳ; both buffers returned uni1E73=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bsc_Latn (Bassari)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ỹ; both buffers returned uni1EF9=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">led_Latn (Lendu)</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kzr_Latn (Karang)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bbj_Latn (Ghomala)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">gov_Latn (Goo)</td>
+<td align="left">Some base glyphs were missing: Ɤ, Ɤ̀, Ɤ́, Ɤ̂</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper produced a .notdef</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ahs_Latn (Ashe)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">gvl_Latn (Gulay)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">boz_Latn (Tiéyaxo Bozo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ybb_Latn (Yemba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">daa_Latn (Dangaléat)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dje_Latn (Zarma)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ach_Latn (Acoli)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʈ; both buffers returned uni0288=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dzg_Latn (Dazaga)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">iby_Latn (Ibani)</td>
+<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
 </tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">aha_Latn (Ahanta)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ṿ; both buffers returned uni1E7F=0+600</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">box_Latn (Buamu)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sig_Latn (Paasaal)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">avn_Latn (Avatime)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƒ; both buffers returned fhook=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nmg_Latn (Kwasio)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bqv_Latn (Koro Wachi)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lu_Latn (Luba-Katanga)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">buu_Latn (Budu)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">tpm_Latn (Tampulma)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bex_Latn (Jur Modo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -980,7 +3970,34 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">fuf_Latn (Pular)</td>
+<td align="left">bqc_Latn (Boko)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ikx_Latn (Ik)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
@@ -993,7 +4010,338 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɠ; both buffers returned uni0260=0+600</td>
+<td align="left">Requires Small-cap: ʝ; both buffers returned uni029D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sba_Latn (Ngambay)</td>
+<td align="left">Requires Small-cap: ḛ; both buffers returned uni1E1B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">apd_Latn (Sudanese Arabic)</td>
+<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nza_Latn (Tigon Mbembe)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɑ; both buffers returned uni0251=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nhu_Latn (Noone)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ksf_Latn (Bafia)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lee_Latn (Lyélé)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">gud_Latn (Dida, Yocoboué)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bqj_Latn (Bandial)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ᵽ; both buffers returned uni1D7D=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nku_Latn (Kulango, Bouna)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1001,7 +4349,811 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ses_Latn (Koyraboro Senni)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dip_Latn (Dinka, Northeastern)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">jgo_Latn (Ngomba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bcw_Latn (Bana)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">atg_Latn (Ivbie North-Okpela-Arhe)</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dur_Latn (Dii)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mhi_Latn (Ma’di)</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ệ; both buffers returned uni1EC7=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ộ; both buffers returned uni1ED9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">guk_Latn (Gumuz)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">cko_Latn (Anufo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">abi_Latn (Abidji)</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ndz_Latn (Ndogo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">agc_Latn (Agatu)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ish_Latn (Esan)</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">igb_Latn (Ebira)</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ệ; both buffers returned uni1EC7=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ộ; both buffers returned uni1ED9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kmy_Latn (Koma)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kyf_Latn (Kouya)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sad_Latn (Sandawe)</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nuv_Latn (Nuni, Northern)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">pym_Latn (Pyam)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɦ; both buffers returned uni0266=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">spp_Latn (Sénoufo, Supyire)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mcp_Latn (Makaa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bkv_Latn (Bekwarra)</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ank_Latn (Goemai)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bze_Latn (Jenaama Bozo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -1050,16 +5202,8 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">sok_Latn (Sokoro)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">fon_Latn (Fon)</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1067,15 +5211,7 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -1093,7 +5229,7 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">mfq_Latn (Moba)</td>
+<td align="left">lia_Latn (Limba, West-Central)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
@@ -1103,6 +5239,588 @@ fontbakery version: 0.12.10
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ee_Latn (Ewe)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƒ; both buffers returned fhook=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">neb_Latn (Toura)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mnf_Latn (Mundani)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">gkp_Latn (Kpelle, Guinea)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɠ; both buffers returned uni0260=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǫ; both buffers returned uni01EB=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yay_Latn (Agwagwune)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">fvr_Latn (Fur)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">avu_Latn (Avokaya)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ạ; both buffers returned uni1EA1=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ậ; both buffers returned uni1EAD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nfu_Latn (Mfumte)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bkm_Latn (Kom)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ikw_Latn (Ikwere)</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nga_Latn (Ngbaka)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">keu_Latn (Akebu)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mcn_Latn (Masana)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɦ; both buffers returned uni0266=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḇ; both buffers returned uni1E07=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḏ; both buffers returned uni1E0F=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sld_Latn (Sissala)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -1179,143 +5897,6 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">xwe_Latn (Gbe, Xwela)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">neb_Latn (Toura)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">jen_Latn (Dza)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
 <td align="left">bsq_Latn (Bassa (Latin))</td>
 <td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
 </tr>
@@ -1367,17 +5948,1032 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">tal_Latn (Tal)</td>
+<td align="left">bfa_Latn (Bari)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bkc_Latn (Baka, Cameroon/Gabon)</td>
 <td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">enn_Latn (Engenni)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">jbu_Latn (Jukun Takum)</td>
+<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḳ; both buffers returned uni1E33=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dbd_Latn (Dadiya)</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kkj_Latn (Kako)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lun_Latn (Lunda)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xon_Latn (Konkomba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">biv_Latn (Birifor, Southern)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lok_Latn (Loko)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bbo_Latn (Northern Bobo Madaré)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">tuz_Latn (Turka)</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">tik_Latn (Tikar)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">fod_Latn (Foodo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mnk_Latn (Mandinka)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yat_Latn (Yambeta)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ttr_Latn (Tera)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ve_Latn (Venda)</td>
+<td align="left">Requires Small-cap: ḓ; both buffers returned uni1E13=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḽ; both buffers returned uni1E3D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṋ; both buffers returned uni1E4B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṅ; both buffers returned uni1E45=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṱ; both buffers returned uni1E71=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lip_Latn (Sekpele)</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">tod_Latn (Toma)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɠ; both buffers returned uni0260=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bqp_Latn (Bisã)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">fuc_Latn (Pulaar)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mql_Latn (Mbelime)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">gjn_Latn (Gonja)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yre_Latn (Yaouré)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ica_Latn (Ede Ica)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mwm_Latn (Sar)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḛ; both buffers returned uni1E1B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȳ; both buffers returned uni0233=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mua_Latn (Mundang)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṽ; both buffers returned uni1E7D=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dnj_Latn (Dan)</td>
+<td align="left">Some base glyphs were missing: Ɤ, Ɤ̀, Ɤ́, Ɤ̂, Ɤ̄, Ɤ̋, Ɤ̏</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper produced a .notdef</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȁ; both buffers returned uni0201=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǣ; both buffers returned uni01E3=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʌ; both buffers returned uni028C=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȅ; both buffers returned uni0205=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȉ; both buffers returned uni0209=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȍ; both buffers returned uni020D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɤ; both buffers returned uni0264=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȕ; both buffers returned uni0215=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɯ; both buffers returned uni026F=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">tan_Latn (Tangale)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
 </tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṇ; both buffers returned uni1E47=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+</tr>
 </tbody>
 </table>
  [code: failed-language-shaping]
@@ -1394,11 +6990,7 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">agc_Latn (Agatu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
+<td align="left">bhy_Latn (Bhele)</td>
 <td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
 <tr>
@@ -1421,16 +7013,179 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">xuo_Latn (Kuo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
+<td align="left">kai_Latn (Karekare)</td>
 <td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">shi_Latn (Tachelhit (Latin))</td>
+<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dtm_Latn (Tomo Kan Dogon)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">naw_Latn (Nawuri)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kez_Latn (Kukele)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mzm_Latn (Mumuye)</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1440,6 +7195,30 @@ fontbakery version: 0.12.10
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+</tr>
 </tbody>
 </table>
  [code: failed-language-shaping]
@@ -1456,8 +7235,128 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">ahs_Latn (Ashe)</td>
+<td align="left">tsw_Latn (Tsishingini)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ife_Latn (Ifè)</td>
 <td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lam_Latn (Lamba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">emk_Latn (Maninkakan, Eastern)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">vai_Latn (Vai (Latin))</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1487,12 +7386,556 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">ndz_Latn (Ndogo)</td>
+<td align="left">ny_Latn (Nyanja)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">btt_Latn (Bete-Bendi)</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">jib_Latn (Jibu)</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dts_Latn (Dogon, Toro So)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ncu_Latn (Chumburung)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">gby_Latn (Gbari)</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">idu_Latn (Idoma)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ekp_Latn (Ekpeye)</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ệ; both buffers returned uni1EC7=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ộ; both buffers returned uni1ED9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">abn_Latn (Abua)</td>
+<td align="left">Requires Small-cap: ạ; both buffers returned uni1EA1=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">god_Latn (Godié)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ted_Latn (Krumen, Tepo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dga_Latn (Dagaare, Southern)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nwb_Latn (Nyabwa)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mfv_Latn (Mandjak)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nin_Latn (Ninzo)</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mbu_Latn (Mbula-Bwazza)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bcy_Latn (Bacama)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1514,8 +7957,187 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">lem_Latn (Nomaande)</td>
+<td align="left">wji_Latn (Warji)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">giz_Latn (Southern Giziga)</td>
 <td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">blo_Latn (Anii)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">vut_Latn (Vute)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">fuf_Latn (Pular)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɠ; both buffers returned uni0260=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">tfi_Latn (Gbe, Tofin)</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1541,7 +8163,174 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">pnz_Latn (Pana, Central African Republic)</td>
+<td align="left">nyb_Latn (Nyangbo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƒ; both buffers returned fhook=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">she_Latn (Sheko)</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xsm_Latn (Kasem)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">msc_Latn (Maninka, Sankaran)</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">tuq_Latn (Tedaga)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xed_Latn (Hdi)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
@@ -1554,15 +8343,228 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">cae_Latn (Lehar)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">les_Latn (Lese)</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">wib_Latn (Toussian, Southern)</td>
 <td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">snf_Latn (Noon)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">tnr_Latn (Ménik)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dyo_Latn (Jola-Fonyi)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ttq_Latn (Tawallammat Tamajaq)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǧ; both buffers returned gcaron=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǰ; both buffers returned uni01F0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḷ; both buffers returned uni1E37=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -1631,97 +8633,12 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">fub_Latn (Fulfulde, Adamawa)</td>
+<td align="left">log_Latn (Logo)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tpm_Latn (Tampulma)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">wja_Latn (Waja)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kdl_Latn (Tsikimba)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1743,7 +8660,26 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">nym_Latn (Nyamwezi)</td>
+<td align="left">knf_Latn (Mankanya)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">maw_Latn (Mampruli)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
@@ -1770,457 +8706,7 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">kmy_Latn (Koma)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ada_Latn (Adangme)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">azo_Latn (Awing)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">xrb_Latn (Karaboro, Eastern)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fuq_Latn (Central-Eastern Niger Fulfulde)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">wan_Latn (Wan)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">vag_Latn (Vagla)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bev_Latn (Bété, Daloa)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cae_Latn (Lehar)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">xon_Latn (Konkomba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bqp_Latn (Bisã)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dno_Latn (Ndrulo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɦ; both buffers returned uni0266=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">maf_Latn (Mafa)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">meq_Latn (Merey)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mas_Latn (Masai)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
+<td align="left">teo_Latn (Teso)</td>
 <td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
 <tr>
@@ -2234,552 +8720,6 @@ fontbakery version: 0.12.10
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mql_Latn (Mbelime)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">naw_Latn (Nawuri)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ach_Latn (Acoli)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʈ; both buffers returned uni0288=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bys_Latn (Burak)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">snw_Latn (Selee)</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mzw_Latn (Deg)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kqs_Latn (Kissi, Northern)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ige_Latn (Igede)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">jgo_Latn (Ngomba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">biv_Latn (Birifor, Southern)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bkm_Latn (Kom)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">las_Latn (Lama, Togo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ayb_Latn (Ayizo Gbe)</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ktj_Latn (Krumen, Plapo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">laj_Latn (Lango, Uganda)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dgh_Latn (Dghwede)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ann_Latn (Obolo)</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ộ; both buffers returned uni1ED9=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">efi_Latn (Efik)</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -2844,7 +8784,7 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">kez_Latn (Kukele)</td>
+<td align="left">ada_Latn (Adangme)</td>
 <td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
 <tr>
@@ -2867,20 +8807,16 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">ahl_Latn (Igo)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">yaz_Latn (Lokaa)</td>
+<td align="left">Requires Small-cap: ạ; both buffers returned uni1EA1=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -2898,34 +8834,7 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">lia_Latn (Limba, West-Central)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dts_Latn (Dogon, Toro So)</td>
+<td align="left">bzx_Latn (Bozo, Hainyaxo)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
@@ -2956,8 +8865,1791 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">bjv_Latn (Bedjond)</td>
+<td align="left">sur_Latn (Mwaghavul)</td>
 <td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ntr_Latn (Delo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mev_Latn (Mano)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">anc_Latn (Ngas)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṇ; both buffers returned uni1E47=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yas_Latn (Nugunu)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">png_Latn (Pangu)</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">umb_Latn (Umbundu)</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mey_Latn (Hassaniyya)</td>
+<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẋ; both buffers returned uni1E8B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mgc_Latn (Morokodo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">pnz_Latn (Pana, Central African Republic)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mym_Latn (Me’en)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mdj_Latn (Mangbetu)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mbo_Latn (Mbo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bav_Latn (Vengo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">jen_Latn (Dza)</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ffm_Latn (Maasina Fulfulde)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">tzm_Latn (Central Atlas Tamazight)</td>
+<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">gna_Latn (Kaansa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">any_Latn (Anyin)</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">gng_Latn (Ngangam)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sus_Latn (Susu)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bm_Latn (Bambara)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bvi_Latn (Belanda Viri, Latin)</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḯ; both buffers returned uni1E2F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǘ; both buffers returned uni01D8=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">goa_Latn (Guro)</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">hag_Latn (Hanga)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">moa_Latn (Mwan)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nmz_Latn (Nawdm)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɦ; both buffers returned uni0266=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ade_Latn (Adele)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">puu_Latn (Punu)</td>
+<td align="left">Requires Small-cap: ꞵ; both buffers returned uniA7B5=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">fue_Latn (Fulfulde, Borgu)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">meq_Latn (Merey)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kib_Latn (Koalib)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḏ; both buffers returned uni1E0F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɽ; both buffers returned uni027D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṯ; both buffers returned uni1E6F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɐ; both buffers returned uni0250=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">wwa_Latn (Waama)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yam_Latn (Yamba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">acd_Latn (Gikyode)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lig_Latn (Ligbi)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ige_Latn (Igede)</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mgo_Latn (Metaʼ)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lob_Latn (Lobi)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ⱳ; both buffers returned uni2C73=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mda_Latn (Mada)</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bsp_Latn (Baga Sitemu)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">wan_Latn (Wan)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">cdr_Latn (Kamuku)</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sok_Latn (Sokoro)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">taq_Latn (Tamasheq (Latin))</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǧ; both buffers returned gcaron=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǰ; both buffers returned uni01F0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḷ; both buffers returned uni1E37=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʃ; both buffers returned uni0283=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʒ; both buffers returned uni0292=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bim_Latn (Bimoba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">hz_Latn (Herero)</td>
+<td align="left">Requires Small-cap: ḓ; both buffers returned uni1E13=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṋ; both buffers returned uni1E4B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṱ; both buffers returned uni1E71=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">wo_Latn (Wolof)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">fub_Latn (Fulfulde, Adamawa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bet_Latn (Bété, Guiberoua)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dag_Latn (Dagbani)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʒ; both buffers returned uni0292=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kbp_Latn (Kabiyé)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">rub_Latn (Gungu)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">gqr_Latn (Gor)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2987,8 +10679,550 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">dip_Latn (Dinka, Northeastern)</td>
+<td align="left">wci_Latn (Gbe, Waci)</td>
 <td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƒ; both buffers returned fhook=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bci_Latn (Baoulé)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ngb_Latn (Ngbandi, Northern)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lns_Latn (Lamnso’)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ngh_Latn (Nǁng)</td>
+<td align="left">Requires Small-cap: ʘ; both buffers returned uni0298=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mzw_Latn (Deg)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ha_Latn (Hausa)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ddn_Latn (Dendi)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bdh_Latn (Baka, DRC/South Sudan)</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṇ; both buffers returned uni1E47=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṿ; both buffers returned uni1E7F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">guw_Latn (Gun)</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">pbi_Latn (Parkwa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">hia_Latn (Lamang)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yo_Latn (Yoruba)</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mos_Latn (Mossi)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">krs_Latn (Gbaya, Sudan)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḷ; both buffers returned uni1E37=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lor_Latn (Téén)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">gux_Latn (Gourmanchéma)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kab_Latn (Kabyle)</td>
+<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǧ; both buffers returned gcaron=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">gej_Latn (Gen)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3001,6 +11235,808 @@ fontbakery version: 0.12.10
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">wja_Latn (Waja)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">maf_Latn (Mafa)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">soy_Latn (Miyobe)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">anv_Latn (Denya)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">buw_Latn (gevové)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞵ; both buffers returned uniA7B5=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kby_Latn (Kanuri, Manga)</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɍ; both buffers returned uni024D=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dnj_Latn_LR (Liberian Dan)</td>
+<td align="left">Shaper didn't attach gravecomb to uniA78D</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0302 to uniA78D</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uniA78D</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uniA78D</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">did_Latn (Didinga)</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dow_Latn (Doyayo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">rif_Latn (Riffian (Latin))</td>
+<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǧ; both buffers returned gcaron=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḏ; both buffers returned uni1E0F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƹ; both buffers returned uni01B9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȓ; both buffers returned uni0213=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nfr_Latn (Nafaanra)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">khq_Latn (Koyra Chiini)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">izz_Latn (Izii)</td>
+<td align="left">Requires Small-cap: ạ; both buffers returned uni1EA1=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dyu_Latn (Dyula)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lmp_Latn (Limbum)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kss_Latn (Southern Kisi)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">wob_Latn (Wè Northern)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">cky_Latn (Cakfem-Mushere)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">pil_Latn (Yom)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ldb_Latn (Duya)</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">pug_Latn (Phuie)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ⱳ; both buffers returned uni2C73=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mge_Latn (Mango)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḛ; both buffers returned uni1E1B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ȳ; both buffers returned uni0233=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -3097,8 +12133,380 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">lip_Latn (Sekpele)</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+<td align="left">csk_Latn (Jola-Kasa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">awc_Latn (Cicipu)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">twq_Latn (Tasawaq)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nhb_Latn (Beng)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">suq_Latn (Suri, Tirmaga-Chai)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">srr_Latn (Serer)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƈ; both buffers returned uni0188=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƥ; both buffers returned uni01A5=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƭ; both buffers returned uni01AD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṕ; both buffers returned uni1E55=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yal_Latn (Yalunka)</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bzw_Latn (Basa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">etu_Latn (Ejagham)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bin_Latn (Bini)</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yba_Latn (Yala)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">eka_Latn (Ekajuk)</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kzc_Latn (Bondoukou Kulango)</td>
+<td align="left">Shaper didn't attach tildecomb to uniA7B7</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uniA7B6</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to Iotaserifed</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb.sc to Iotaserifed</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb.sc to uniA7B7</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb.sc to uniA7B6</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɪ; both buffers returned iotaserifed=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3106,7 +12514,116 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Requires Small-cap: ꞷ; both buffers returned uniA7B7=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">saf_Latn (Safaliba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bax_Latn (Bamun (Latin))</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kao_Latn (Xaasongaxango)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -3151,20 +12668,20 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">kai_Latn (Karekare)</td>
+<td align="left">ndv_Latn (Ndut)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3186,11 +12703,344 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">bjt_Latn (Balanta-Ganja)</td>
+<td align="left">efi_Latn (Efik)</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bum_Latn (Bulu)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dyi_Latn (Sénoufo, Djimini)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kdl_Latn (Tsikimba)</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">kia_Latn (Kim)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḛ; both buffers returned uni1E1B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nnw_Latn (Southern Nuni)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mas_Latn (Masai)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mfq_Latn (Moba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ikk_Latn (Ika)</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṅ; both buffers returned uni1E45=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">laj_Latn (Lango, Uganda)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">gde_Latn (Gude)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dgh_Latn (Dghwede)</td>
 <td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
 </tr>
 </tbody>
@@ -3209,8 +13059,67 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">fon_Latn (Fon)</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+<td align="left">aeb_Latn (Tunisian Darija)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḕ; both buffers returned uni1E15=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḷ; both buffers returned uni1E37=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṃ; both buffers returned uni1E43=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mur_Latn (Murle)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3236,12 +13145,24 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">fod_Latn (Foodo)</td>
+<td align="left">las_Latn (Lama, Togo)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3253,7 +13174,11 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -3271,7 +13196,185 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">bzx_Latn (Bozo, Hainyaxo)</td>
+<td align="left">nnh_Latn (Ngiemboon)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">beh_Latn (Biali)</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">eza_Latn (Ezaa)</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">men_Latn (Mende)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ktj_Latn (Krumen, Plapo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mfo_Latn (Mbe)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xrb_Latn (Karaboro, Eastern)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
@@ -3280,11 +13383,194 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mfn_Latn (Mbembe, Cross River)</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">gkn_Latn (Gokana)</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lem_Latn (Nomaande)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">azo_Latn (Awing)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">muy_Latn (Muyang)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -3341,1222 +13627,6 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">ffm_Latn (Maasina Fulfulde)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tik_Latn (Tikar)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">xed_Latn (Hdi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kdh_Latn (Tem)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hz_Latn (Herero)</td>
-<td align="left">Requires Small-cap: ḓ; both buffers returned uni1E13=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṋ; both buffers returned uni1E4B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṱ; both buffers returned uni1E71=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cbj_Latn (Ede Cabe)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ank_Latn (Goemai)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">muh_Latn (Mündü)</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bum_Latn (Bulu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dnj_Latn_LR (Liberian Dan)</td>
-<td align="left">Shaper didn't attach uni0302 to uniA78D</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uniA78D</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uniA78D</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uniA78D</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ade_Latn (Adele)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mqb_Latn (Mbuko)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">swb_Latn (Maore Comorian, Latin)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mor_Latn (Moro)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḏ; both buffers returned uni1E0F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꟈ; both buffers returned dmiddlestroke=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɽ; both buffers returned uni027D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṯ; both buffers returned uni1E6F=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tzm_Latn (Central Atlas Tamazight)</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lee_Latn (Lyélé)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">men_Latn (Mende)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ikw_Latn (Ikwere)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ve_Latn (Venda)</td>
-<td align="left">Requires Small-cap: ḓ; both buffers returned uni1E13=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḽ; both buffers returned uni1E3D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṋ; both buffers returned uni1E4B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṅ; both buffers returned uni1E45=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṱ; both buffers returned uni1E71=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dga_Latn (Dagaare, Southern)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">avu_Latn (Avokaya)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ạ; both buffers returned uni1EA1=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ậ; both buffers returned uni1EAD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tbz_Latn (Ditammari)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yav_Latn (Yangben)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gng_Latn (Ngangam)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tfi_Latn (Gbe, Tofin)</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gjn_Latn (Gonja)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bwq_Latn (Southern Bobo Madaré)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nfu_Latn (Mfumte)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bsc_Latn (Bassari)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ỹ; both buffers returned uni1EF9=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">abi_Latn (Abidji)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">jgk_Latn (Gwak)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">akp_Latn (Siwu)</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dya_Latn (Dyan)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">idu_Latn (Idoma)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ldb_Latn (Duya)</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bza_Latn (Bandi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
 <td align="left">ijj_Latn (Ede Ije)</td>
 <td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
@@ -4580,206 +13650,7 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">yer_Latn (Tarok)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">shi_Latn (Tachelhit (Latin))</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dnj_Latn (Dan)</td>
-<td align="left">Some base glyphs were missing: Ɤ, Ɤ̀, Ɤ́, Ɤ̂, Ɤ̄, Ɤ̋, Ɤ̏</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȁ; both buffers returned uni0201=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǣ; both buffers returned uni01E3=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʌ; both buffers returned uni028C=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȅ; both buffers returned uni0205=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȉ; both buffers returned uni0209=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȍ; both buffers returned uni020D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɤ; both buffers returned uni0264=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȕ; both buffers returned uni0215=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɯ; both buffers returned uni026F=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">jab_Latn (Hyam)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">csk_Latn (Jola-Kasa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bbj_Latn (Ghomala)</td>
+<td align="left">bfd_Latn (Bafut)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
@@ -4788,143 +13659,11 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bav_Latn (Vengo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pym_Latn (Pyam)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɦ; both buffers returned uni0266=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">suq_Latn (Suri, Tirmaga-Chai)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fvr_Latn (Fur)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4940,7 +13679,112 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mfd_Latn (Mendankwe-Nkwen)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɂ; both buffers returned glottalstopcased=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">udu_Latn (Uduk)</td>
+<td align="left">Shaper didn't attach uni035F to T</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni035F to t.sc</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḵ; both buffers returned uni1E35=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṯ; both buffers returned uni1E6F=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẖ; both buffers returned uni1E96=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ozm_Latn (Koonzime)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4948,7 +13792,19 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -5029,116 +13885,7 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">ica_Latn (Ede Ica)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">izz_Latn (Izii)</td>
-<td align="left">Requires Small-cap: ạ; both buffers returned uni1EA1=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mhi_Latn (Ma’di)</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ệ; both buffers returned uni1EC7=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ộ; both buffers returned uni1ED9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">eka_Latn (Ekajuk)</td>
+<td align="left">bvb_Latn (Bube)</td>
 <td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
 </tr>
 </tbody>
@@ -5157,7 +13904,7 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">sav_Latn (Saafi-Saafi)</td>
+<td align="left">loq_Latn (Lobala)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
@@ -5166,11 +13913,11 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -5188,649 +13935,8 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">asg_Latn (Cishingini)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pug_Latn (Phuie)</td>
+<td align="left">toq_Latn (Toposa)</td>
 <td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ⱳ; both buffers returned uni2C73=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sef_Latn (Cebaara Senoufo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fan_Latn (Fang)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʒ; both buffers returned uni0292=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʃ; both buffers returned uni0283=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṳ; both buffers returned uni1E73=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">led_Latn (Lendu)</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">awc_Latn (Cicipu)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mfv_Latn (Mandjak)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">saf_Latn (Safaliba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mzm_Latn (Mumuye)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nuv_Latn (Nuni, Northern)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">eza_Latn (Ezaa)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">xsm_Latn (Kasem)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mos_Latn (Mossi)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bqc_Latn (Boko)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yaz_Latn (Lokaa)</td>
-<td align="left">Requires Small-cap: ạ; both buffers returned uni1EA1=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bov_Latn (Tuwuli)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bqv_Latn (Koro Wachi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">log_Latn (Logo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bze_Latn (Jenaama Bozo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">anv_Latn (Denya)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -5883,108 +13989,7 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">tuq_Latn (Tedaga)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lig_Latn (Ligbi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mdj_Latn (Mangbetu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kye_Latn (Krache)</td>
+<td align="left">gur_Latn (Frafra)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
@@ -6003,64 +14008,9 @@ fontbakery version: 0.12.10
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kzc_Latn (Bondoukou Kulango)</td>
-<td align="left">Shaper didn't attach tildecomb to uniA7B7</td>
-</tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to Iotaserifed</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uniA7B6</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb.sc to Iotaserifed</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb.sc to uniA7B7</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb.sc to uniA7B6</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɪ; both buffers returned iotaserifed=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞷ; both buffers returned uniA7B7=0+600</td>
+<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -6078,7 +14028,7 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">ajg_Latn (Aja)</td>
+<td align="left">ahl_Latn (Igo)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
@@ -6091,16 +14041,8 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
 </tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʒ; both buffers returned uni0292=0+600</td>
-</tr>
 </tbody>
 </table>
  [code: failed-language-shaping]
@@ -6117,58 +14059,7 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">kab_Latn (Kabyle)</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǧ; both buffers returned gcaron=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dbq_Latn (Daba)</td>
+<td align="left">bwr_Latn (Bura-Pabir)</td>
 <td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
 </tr>
 <tr>
@@ -6195,2514 +14086,13 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">bfa_Latn (Bari)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">jib_Latn (Jibu)</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nwb_Latn (Nyabwa)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bcn_Latn (Bali)</td>
+<td align="left">bys_Latn (Burak)</td>
 <td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
 </tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">jbu_Latn (Jukun Takum)</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḳ; both buffers returned uni1E33=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nzk_Latn (Nzakara)</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">abr_Latn (Abron)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bud_Latn (Ntcham)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ikk_Latn (Ika)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṅ; both buffers returned uni1E45=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">byv_Latn (Medumba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɑ; both buffers returned uni0251=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fuh_Latn (Fulfulde, Western Niger)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">wo_Latn (Wolof)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bkv_Latn (Bekwarra)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nzi_Latn (Nzima)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ntr_Latn (Delo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ozm_Latn (Koonzime)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">acd_Latn (Gikyode)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">har_Latn (Harari)</td>
-<td align="left">Requires Small-cap: ṫ; both buffers returned uni1E6B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṡ; both buffers returned uni1E61=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḋ; both buffers returned uni1E0B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȧ; both buffers returned uni0227=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḣ; both buffers returned uni1E23=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">loq_Latn (Lobala)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">box_Latn (Buamu)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kkj_Latn (Kako)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">abn_Latn (Abua)</td>
-<td align="left">Requires Small-cap: ạ; both buffers returned uni1EA1=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">igb_Latn (Ebira)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ệ; both buffers returned uni1EC7=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ộ; both buffers returned uni1ED9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">spp_Latn (Sénoufo, Supyire)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cdr_Latn (Kamuku)</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sil_Latn (Sisaala, Tumulung)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lor_Latn (Téén)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bfd_Latn (Bafut)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hia_Latn (Lamang)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fuc_Latn (Pulaar)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gvl_Latn (Gulay)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lnl_Latn (South Central Banda)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hag_Latn (Hanga)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mur_Latn (Murle)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">okr_Latn (Kirike)</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bmq_Latn (Bomu)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dua_Latn (Duala)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yal_Latn (Yalunka)</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">boz_Latn (Tiéyaxo Bozo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nus_Latn (Nuer)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʈ; both buffers returned uni0288=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">daa_Latn (Dangaléat)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sus_Latn (Susu)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gna_Latn (Kaansa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bvi_Latn (Belanda Viri, Latin)</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḯ; both buffers returned uni1E2F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǘ; both buffers returned uni01D8=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">teo_Latn (Teso)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sur_Latn (Mwaghavul)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gaa_Latn (Ga)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">buw_Latn (gevové)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞵ; both buffers returned uniA7B5=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mym_Latn (Me’en)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kbp_Latn (Kabiyé)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">etu_Latn (Ejagham)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bbo_Latn (Northern Bobo Madaré)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bm_Latn (Bambara)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lu_Latn (Luba-Katanga)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bin_Latn (Bini)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">did_Latn (Didinga)</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cky_Latn (Cakfem-Mushere)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">muy_Latn (Muyang)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yba_Latn (Yala)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">keu_Latn (Akebu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yas_Latn (Nugunu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bsp_Latn (Baga Sitemu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">etx_Latn (Iten)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mdt_Latn (Mbere)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞵ; both buffers returned uniA7B5=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɍ; both buffers returned uni024D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʃ; both buffers returned uni0283=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">apd_Latn (Sudanese Arabic)</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mnf_Latn (Mundani)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nhb_Latn (Beng)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gov_Latn (Goo)</td>
-<td align="left">Some base glyphs were missing: Ɤ, Ɤ̀, Ɤ́, Ɤ̂</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">luo_Latn (Luo)</td>
-<td align="left">Requires Small-cap: ʈ; both buffers returned uni0288=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mbo_Latn (Mbo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ngb_Latn (Ngbandi, Northern)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ny_Latn (Nyanja)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yam_Latn (Yamba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gqr_Latn (Gor)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kby_Latn (Kanuri, Manga)</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɍ; both buffers returned uni024D=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">vut_Latn (Vute)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">les_Latn (Lese)</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">beh_Latn (Biali)</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">avn_Latn (Avatime)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƒ; both buffers returned fhook=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mnk_Latn (Mandinka)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
 </tbody>
 </table>
  [code: failed-language-shaping]
@@ -8718,21 +14108,9 @@ fontbakery version: 0.12.10
 </tr>
 </thead>
 <tbody>
-<tr>
-<td align="left">iqw_Latn (Ikwo)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+<td align="left">lnu_Latn (Longuda)</td>
+<td align="left">Requires Small-cap: ṉ; both buffers returned uni1E49=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -8805,39 +14183,12 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">mgo_Latn (Metaʼ)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">ijs_Latn (Ijo, Southeast)</td>
+<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">enn_Latn (Engenni)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -8871,175 +14222,12 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">wib_Latn (Toussian, Southern)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tuz_Latn (Turka)</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pkb_Latn (Pokomo)</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">moa_Latn (Mwan)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bvb_Latn (Bube)</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tan_Latn (Tangale)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
+<td align="left">iqw_Latn (Ikwo)</td>
 <td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṇ; both buffers returned uni1E47=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -9048,2441 +14236,6 @@ fontbakery version: 0.12.10
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ibb_Latn (Ibibio)</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʌ; both buffers returned uni028C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mfn_Latn (Mbembe, Cross River)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cme_Latn (Cerma)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mua_Latn (Mundang)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṽ; both buffers returned uni1E7D=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mcp_Latn (Makaa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ati_Latn (Attié)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ddn_Latn (Dendi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bib_Latn (Bissa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bwj_Latn (Láá Láá Bwamu)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nku_Latn (Kulango, Bouna)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bci_Latn (Baoulé)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sba_Latn (Ngambay)</td>
-<td align="left">Requires Small-cap: ḛ; both buffers returned uni1E1B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yay_Latn (Agwagwune)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lag_Latn (Langi)</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dyi_Latn (Sénoufo, Djimini)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dyo_Latn (Jola-Fonyi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ksp_Latn (Kabba)</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">adj_Latn (Adioukrou)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">srr_Latn (Serer)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƈ; both buffers returned uni0188=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƥ; both buffers returned uni01A5=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƭ; both buffers returned uni01AD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṕ; both buffers returned uni1E55=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ich_Latn (Etkywan)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kia_Latn (Kim)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḛ; both buffers returned uni1E1B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">iby_Latn (Ibani)</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">emk_Latn (Maninkakan, Eastern)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cko_Latn (Anufo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nin_Latn (Ninzo)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">aha_Latn (Ahanta)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mda_Latn (Mada)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ksf_Latn (Bafia)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">udu_Latn (Uduk)</td>
-<td align="left">Shaper didn't attach uni035F to T</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni035F to t.sc</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḵ; both buffers returned uni1E35=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṯ; both buffers returned uni1E6F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẖ; both buffers returned uni1E96=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">taq_Latn (Tamasheq (Latin))</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǧ; both buffers returned gcaron=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǰ; both buffers returned uni01F0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḷ; both buffers returned uni1E37=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʃ; both buffers returned uni0283=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʒ; both buffers returned uni0292=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lg_Latn (Ganda)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dop_Latn (Lukpa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sxw_Latn (Saxwe Gbe)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mcu_Latn (Mambila, Cameroon)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gmm_Latn (Gbaya-Mbodomo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nhu_Latn (Noone)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nmz_Latn (Nawdm)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɦ; both buffers returned uni0266=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">anc_Latn (Ngas)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṇ; both buffers returned uni1E47=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">idd_Latn (Ede Idaca)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">giz_Latn (Southern Giziga)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bcw_Latn (Bana)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">knf_Latn (Mankanya)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ekm_Latn (Elip)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kub_Latn (Kutep)</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kao_Latn (Xaasongaxango)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lnu_Latn (Longuda)</td>
-<td align="left">Requires Small-cap: ṉ; both buffers returned uni1E49=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kqp_Latn (Kimré)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">rif_Latn (Riffian (Latin))</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǧ; both buffers returned gcaron=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḏ; both buffers returned uni1E0F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƹ; both buffers returned uni01B9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȓ; both buffers returned uni0213=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">eto_Latn (Eton, Cameroon)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">myk_Latn (Mamara Senoufo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mwk_Latn (Kita Maninkakan)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gkn_Latn (Gokana)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kzr_Latn (Karang)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">any_Latn (Anyin)</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bkc_Latn (Baka, Cameroon/Gabon)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nmg_Latn (Kwasio)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pbi_Latn (Parkwa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mbu_Latn (Mbula-Bwazza)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dbd_Latn (Dadiya)</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">god_Latn (Godié)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">blo_Latn (Anii)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tsw_Latn (Tsishingini)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ses_Latn (Koyraboro Senni)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bcy_Latn (Bacama)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sad_Latn (Sandawe)</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kyf_Latn (Kouya)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mgc_Latn (Morokodo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">knc_Latn (Kanuri, Central)</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɍ; both buffers returned uni024D=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">btt_Latn (Bete-Bendi)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">aeb_Latn (Tunisian Darija)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḕ; both buffers returned uni1E15=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḷ; both buffers returned uni1E37=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṃ; both buffers returned uni1E43=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ybb_Latn (Yemba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gux_Latn (Gourmanchéma)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">agq_Latn (Aghem)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -11539,214 +14292,8 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">lun_Latn (Lunda)</td>
+<td align="left">mwk_Latn (Kita Maninkakan)</td>
 <td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">utr_Latn (Etulo)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bet_Latn (Bété, Guiberoua)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lmp_Latn (Limbum)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ee_Latn (Ewe)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƒ; both buffers returned fhook=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bas_Latn (Basaa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">msc_Latn (Maninka, Sankaran)</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -11756,41 +14303,10 @@ fontbakery version: 0.12.10
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gud_Latn (Dida, Yocoboué)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
 </tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
 </tbody>
 </table>
  [code: failed-language-shaping]
@@ -11807,183 +14323,16 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">ish_Latn (Esan)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tod_Latn (Toma)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
+<td align="left">bwj_Latn (Láá Láá Bwamu)</td>
 <td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɠ; both buffers returned uni0260=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lam_Latn (Lamba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dzg_Latn (Dazaga)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gnd_Latn (Zulgo-Gemzek)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">soy_Latn (Miyobe)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -12009,313 +14358,12 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">kyq_Latn (Kenga)</td>
+<td align="left">kpo_Latn (Ikposo)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sld_Latn (Sissala)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">knp_Latn (Kwanja)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bax_Latn (Bamun (Latin))</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kib_Latn (Koalib)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḏ; both buffers returned uni1E0F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɽ; both buffers returned uni027D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṯ; both buffers returned uni1E6F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɐ; both buffers returned uni0250=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">snf_Latn (Noon)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">guw_Latn (Gun)</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gej_Latn (Gen)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -12327,128 +14375,16 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ckl_Latn (Kibaku)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cla_Latn (Ron)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ttr_Latn (Tera)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mfo_Latn (Mbe)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
 </tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
+</tr>
 </tbody>
 </table>
  [code: failed-language-shaping]
@@ -12465,110 +14401,17 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">khq_Latn (Koyra Chiini)</td>
+<td align="left">kqs_Latn (Kissi, Northern)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mey_Latn (Hassaniyya)</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẋ; both buffers returned uni1E8B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mls_Latn (Masalit)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">vai_Latn (Vai (Latin))</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
@@ -12589,8 +14432,12 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">bss_Latn (Akoose)</td>
+<td align="left">dno_Latn (Ndrulo)</td>
 <td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɦ; both buffers returned uni0266=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -12608,18 +14455,6 @@ fontbakery version: 0.12.10
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
 </tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
 </tbody>
 </table>
  [code: failed-language-shaping]
@@ -12636,90 +14471,12 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">bhy_Latn (Bhele)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ncu_Latn (Chumburung)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mge_Latn (Mango)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḛ; both buffers returned uni1E1B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
+<td align="left">lag_Latn (Langi)</td>
 <td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȳ; both buffers returned uni0233=0+600</td>
+<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -12776,365 +14533,8 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">bzw_Latn (Basa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dur_Latn (Dii)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fuv_Latn (Nigerian Fulfulde)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">twq_Latn (Tasawaq)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pil_Latn (Yom)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">toq_Latn (Toposa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kss_Latn (Southern Kisi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dyu_Latn (Dyula)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bim_Latn (Bimoba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gde_Latn (Gude)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nnh_Latn (Ngiemboon)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ekp_Latn (Ekpeye)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ệ; both buffers returned uni1EC7=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+<td align="left">ann_Latn (Obolo)</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -13144,26 +14544,6 @@ fontbakery version: 0.12.10
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ộ; both buffers returned uni1ED9=0+600</td>
 </tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
 </tbody>
 </table>
  [code: failed-language-shaping]
@@ -13180,7 +14560,7 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">gur_Latn (Frafra)</td>
+<td align="left">adj_Latn (Adioukrou)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
@@ -13189,19 +14569,7 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
 </tr>
 </tbody>
 </table>
@@ -13219,564 +14587,13 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">ikx_Latn (Ik)</td>
+<td align="left">fuq_Latn (Central-Eastern Niger Fulfulde)</td>
 <td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʝ; both buffers returned uni029D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">goa_Latn (Guro)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">buu_Latn (Budu)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">krs_Latn (Gbaya, Sudan)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḷ; both buffers returned uni1E37=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dow_Latn (Doyayo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">guk_Latn (Gumuz)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cou_Latn (Wamey)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kvf_Latn (Kabalai)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yo_Latn (Yoruba)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bwr_Latn (Bura-Pabir)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ha_Latn (Hausa)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mwm_Latn (Sar)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḛ; both buffers returned uni1E1B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȳ; both buffers returned uni0233=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dag_Latn (Dagbani)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʒ; both buffers returned uni0292=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ngh_Latn (Nǁng)</td>
-<td align="left">Requires Small-cap: ʘ; both buffers returned uni0298=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ln_Latn (Lingala)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hig_Latn (Kamwe)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mkl_Latn (Mokole)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gby_Latn (Gbari)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
@@ -13785,18 +14602,6 @@ fontbakery version: 0.12.10
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
 </tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
 </tbody>
 </table>
  [code: failed-language-shaping]
@@ -13813,38 +14618,7 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">yat_Latn (Yambeta)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mmu_Latn (Mmaala)</td>
+<td align="left">mdt_Latn (Mbere)</td>
 <td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
@@ -13855,635 +14629,22 @@ fontbakery version: 0.12.10
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mfd_Latn (Mendankwe-Nkwen)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɂ; both buffers returned glottalstopcased=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bqj_Latn (Bandial)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ᵽ; both buffers returned uni1D7D=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">she_Latn (Sheko)</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">wci_Latn (Gbe, Waci)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƒ; both buffers returned fhook=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">umb_Latn (Umbundu)</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fue_Latn (Fulfulde, Borgu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tnr_Latn (Ménik)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mev_Latn (Mano)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">wwa_Latn (Waama)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nga_Latn (Ngbaka)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">wob_Latn (Wè Northern)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">atg_Latn (Ivbie North-Okpela-Arhe)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yre_Latn (Yaouré)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ttq_Latn (Tawallammat Tamajaq)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǧ; both buffers returned gcaron=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǰ; both buffers returned uni01F0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḷ; both buffers returned uni1E37=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fmp_Latn (Fe’fe’)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɑ; both buffers returned uni0251=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ife_Latn (Ifè)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bba_Latn (Baatonum)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bfo_Latn (Malba Birifor)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">puu_Latn (Punu)</td>
 <td align="left">Requires Small-cap: ꞵ; both buffers returned uniA7B5=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
 </tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɍ; both buffers returned uni024D=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ʃ; both buffers returned uni0283=0+600</td>
+</tr>
 </tbody>
 </table>
  [code: failed-language-shaping]
@@ -14500,15 +14661,38 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">ewo_Latn (Ewondo)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">akp_Latn (Siwu)</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ksp_Latn (Kabba)</td>
 <td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
 </tr>
 <tr>
@@ -14517,131 +14701,6 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lob_Latn (Lobi)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ⱳ; both buffers returned uni2C73=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">wji_Latn (Warji)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dtm_Latn (Tomo Kan Dogon)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
 </tr>
 </tbody>
@@ -14660,89 +14719,7 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">nnw_Latn (Southern Nuni)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nko_Latn (Nkonya)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">maw_Latn (Mampruli)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
+<td align="left">idd_Latn (Ede Idaca)</td>
 <td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
 <tr>
@@ -14755,83 +14732,26 @@ fontbakery version: 0.12.10
 
 
 
-* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
+* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
 <table>
 <thead>
 <tr>
 <th align="left">Language</th>
-<th align="left">WARN messages</th>
+<th align="left">FAIL messages</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">mgy_Latn (Mbunga)</td>
-<td align="left">No exemplar glyphs were defined for language Mbunga</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dnj_Latn (Dan)</td>
-<td align="left">Some auxiliary glyphs were missing: Ɤ, Ɤ̀, Ɤ́, Ɤ̂, Ɤ̄, Ɤ̋, Ɤ̏</td>
+<td align="left">ich_Latn (Etkywan)</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">No variant glyphs were found for uni0181</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
 </tr>
 </tbody>
 </table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hna_Latn (Mina)</td>
-<td align="left">No exemplar glyphs were defined for language Mina</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cch_Latn (Atsam)</td>
-<td align="left">No exemplar glyphs were defined for language Atsam</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
+ [code: failed-language-shaping]
 
 
 
@@ -14887,8 +14807,12 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">ggn_Latn (Eastern Gurung, Latin)</td>
-<td align="left">No exemplar glyphs were defined for language Eastern Gurung, Latin</td>
+<td align="left">tod_Latn (Toma)</td>
+<td align="left">No variant glyphs were found for uni028B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">No variant glyphs were found for uni01B2</td>
 </tr>
 </tbody>
 </table>
@@ -14925,12 +14849,50 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">tod_Latn (Toma)</td>
-<td align="left">No variant glyphs were found for uni028B</td>
+<td align="left">cch_Latn (Atsam)</td>
+<td align="left">No exemplar glyphs were defined for language Atsam</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">WARN messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dnj_Latn (Dan)</td>
+<td align="left">Some auxiliary glyphs were missing: Ɤ, Ɤ̀, Ɤ́, Ɤ̂, Ɤ̄, Ɤ̋, Ɤ̏</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">No variant glyphs were found for uni01B2</td>
+<td align="left">No variant glyphs were found for uni0181</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">WARN messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ggn_Latn (Eastern Gurung, Latin)</td>
+<td align="left">No exemplar glyphs were defined for language Eastern Gurung, Latin</td>
 </tr>
 </tbody>
 </table>
@@ -14950,6 +14912,44 @@ fontbakery version: 0.12.10
 <tr>
 <td align="left">kfo_Latn (Koro)</td>
 <td align="left">No exemplar glyphs were defined for language Koro</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">WARN messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">mgy_Latn (Mbunga)</td>
+<td align="left">No exemplar glyphs were defined for language Mbunga</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">WARN messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">hna_Latn (Mina)</td>
+<td align="left">No exemplar glyphs were defined for language Mina</td>
 </tr>
 </tbody>
 </table>
@@ -15180,7 +15180,7 @@ definitions.</p>
 <li>U+02C3 MODIFIER LETTER RIGHT ARROWHEAD: not included in any glyphset definition</li>
 <li>U+02C4 MODIFIER LETTER UP ARROWHEAD: not included in any glyphset definition</li>
 <li>U+02C5 MODIFIER LETTER DOWN ARROWHEAD: not included in any glyphset definition</li>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
 <li>U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition</li>
 <li>U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition</li>
 <li>U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition</li>
@@ -15197,9 +15197,9 @@ definitions.</p>
 <li>U+02D5 MODIFIER LETTER DOWN TACK: not included in any glyphset definition</li>
 <li>U+02D6 MODIFIER LETTER PLUS SIGN: not included in any glyphset definition</li>
 <li>U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+02DE MODIFIER LETTER RHOTIC HOOK: not included in any glyphset definition</li>
 <li>U+02DF MODIFIER LETTER CROSS ACCENT: not included in any glyphset definition</li>
@@ -15235,13 +15235,13 @@ definitions.</p>
 <li>U+02FD MODIFIER LETTER SHELF: not included in any glyphset definition</li>
 <li>U+02FE MODIFIER LETTER OPEN SHELF: not included in any glyphset definition</li>
 <li>U+02FF MODIFIER LETTER LOW LEFT ARROW: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: glagolitic, math, elbasan, gothic, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, tifinagh, coptic</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, glagolitic, math, coptic, elbasan</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, old-permic, math, syriac, tai-le, coptic, canadian-aboriginal</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, coptic, canadian-aboriginal, tai-le, tifinagh, malayalam, syriac, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition</li>
 <li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: not included in any glyphset definition</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
@@ -15264,7 +15264,7 @@ definitions.</p>
 <li>U+0320 COMBINING MINUS SIGN BELOW: try adding syriac</li>
 <li>U+0321 COMBINING PALATALIZED HOOK BELOW: not included in any glyphset definition</li>
 <li>U+0322 COMBINING RETROFLEX HOOK BELOW: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -15275,8 +15275,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, caucasian-albanian, syriac, gothic, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, cherokee, tifinagh, syriac</li>
 <li>U+0332 COMBINING LOW LINE: not included in any glyphset definition</li>
 <li>U+0333 COMBINING DOUBLE LOW LINE: not included in any glyphset definition</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
@@ -15630,12 +15630,12 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: psalter-pahlavi, zanabazar-square, brahmi, malayalam, sharada, mahajani, devanagari, syriac, hanifi-rohingya, gujarati, tai-le, tamil, hatran, meetei-mayek, warang-citi, thaana, new-tai-lue, pahawh-hmong, hanunoo, javanese, arabic, gurmukhi, mongolian, takri, balinese, gunjala-gondi, modi, newa, tagalog, tirhuta, sogdian, limbu, yi, cham, tagbanwa, buhid, khmer, tai-tham, kannada, mandaic, kharoshthi, myanmar, nko, telugu, siddham, rejang, sundanese, buginese, chakma, duployan, khojki, syloti-nagri, bhaiksuki, khudawadi, tibetan, tai-viet, kayah-li, avestan, manichaean, masaram-gondi, lao, oriya, phags-pa, sinhala, batak, bengali, grantha, kaithi, thai, hebrew, lepcha, saurashtra, dogra, tifinagh</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: psalter-pahlavi, zanabazar-square, brahmi, malayalam, sharada, mahajani, devanagari, syriac, hanifi-rohingya, gujarati, old-hungarian, tai-le, tamil, meetei-mayek, warang-citi, thaana, new-tai-lue, pahawh-hmong, hanunoo, javanese, arabic, gurmukhi, mongolian, takri, balinese, gunjala-gondi, modi, newa, tagalog, tirhuta, sogdian, limbu, yi, cham, tagbanwa, buhid, khmer, tai-tham, kannada, mandaic, kharoshthi, myanmar, nko, telugu, siddham, rejang, sundanese, buginese, chakma, duployan, khojki, syloti-nagri, bhaiksuki, khudawadi, tibetan, tai-viet, kayah-li, avestan, manichaean, masaram-gondi, lao, oriya, phags-pa, sinhala, batak, bengali, grantha, kaithi, thai, hebrew, lepcha, saurashtra, dogra, tifinagh</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: thaana, phags-pa, arabic, syriac, nko, hebrew</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: thaana, phags-pa, syriac, nko, hebrew</li>
-<li>U+2010 HYPHEN: try adding one of: cham, syloti-nagri, kayah-li, lisu, kharoshthi, sora-sompeng, arabic, armenian, kaithi, hebrew, sundanese, yi, coptic</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, syloti-nagri, yi</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: khojki, javanese, tagbanwa, rejang, masaram-gondi, duployan, myanmar, chakma, tifinagh, grantha, lao, modi, manichaean, syriac, tirhuta, thaana, tibetan, avestan, batak, kharoshthi, brahmi, balinese, gunjala-gondi, mandaic, pahawh-hmong, psalter-pahlavi, sundanese, saurashtra, limbu, gurmukhi, devanagari, sogdian, malayalam, buginese, cham, khmer, new-tai-lue, warang-citi, zanabazar-square, hatran, phags-pa, syloti-nagri, tagalog, kaithi, kannada, hanifi-rohingya, nko, sinhala, sharada, arabic, oriya, khudawadi, tai-viet, telugu, kayah-li, bengali, lepcha, buhid, tamil, newa, mongolian, takri, yi, gujarati, siddham, thai, dogra, tai-le, hebrew, hanunoo, tai-tham, meetei-mayek, mahajani, bhaiksuki</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: khojki, javanese, tagbanwa, rejang, masaram-gondi, duployan, myanmar, chakma, tifinagh, grantha, lao, modi, manichaean, syriac, tirhuta, thaana, tibetan, avestan, batak, kharoshthi, brahmi, balinese, gunjala-gondi, mandaic, pahawh-hmong, psalter-pahlavi, sundanese, saurashtra, limbu, gurmukhi, devanagari, sogdian, malayalam, buginese, cham, khmer, new-tai-lue, warang-citi, zanabazar-square, phags-pa, syloti-nagri, tagalog, kaithi, kannada, hanifi-rohingya, nko, sinhala, sharada, arabic, oriya, khudawadi, tai-viet, telugu, kayah-li, bengali, lepcha, buhid, tamil, newa, mongolian, takri, yi, gujarati, old-hungarian, siddham, dogra, thai, tai-le, hebrew, hanunoo, tai-tham, meetei-mayek, mahajani, bhaiksuki</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: thaana, phags-pa, nko, arabic, hebrew, syriac</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: thaana, phags-pa, nko, hebrew, syriac</li>
+<li>U+2010 HYPHEN: try adding one of: coptic, syloti-nagri, kharoshthi, kayah-li, kaithi, yi, lisu, sora-sompeng, sundanese, arabic, armenian, hebrew, cham</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition</li>
@@ -15654,7 +15654,7 @@ definitions.</p>
 <li>U+202C POP DIRECTIONAL FORMATTING: not included in any glyphset definition</li>
 <li>U+202D LEFT-TO-RIGHT OVERRIDE: not included in any glyphset definition</li>
 <li>U+202E RIGHT-TO-LEFT OVERRIDE: try adding tifinagh</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, mongolian</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2031 PER TEN THOUSAND SIGN: not included in any glyphset definition</li>
 <li>U+2034 TRIPLE PRIME: try adding math</li>
@@ -15692,10 +15692,10 @@ definitions.</p>
 <li>U+2057 QUADRUPLE PRIME: try adding math</li>
 <li>U+2058 FOUR DOT PUNCTUATION: try adding coptic</li>
 <li>U+2059 FIVE DOT PUNCTUATION: try adding coptic</li>
-<li>U+205A TWO DOT PUNCTUATION: try adding one of: lycian, old-hungarian, old-turkic</li>
+<li>U+205A TWO DOT PUNCTUATION: try adding one of: lycian, old-turkic, old-hungarian</li>
 <li>U+205B FOUR DOT MARK: not included in any glyphset definition</li>
 <li>U+205C DOTTED CROSS: not included in any glyphset definition</li>
-<li>U+205D TRICOLON: try adding one of: old-hungarian, meroitic</li>
+<li>U+205D TRICOLON: try adding one of: meroitic, old-hungarian</li>
 <li>U+205E VERTICAL FOUR DOTS: try adding old-hungarian</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition</li>
 <li>U+2060 WORD JOINER: not included in any glyphset definition</li>
@@ -15754,7 +15754,7 @@ definitions.</p>
 <li>U+209A LATIN SUBSCRIPT SMALL LETTER P: not included in any glyphset definition</li>
 <li>U+209B LATIN SUBSCRIPT SMALL LETTER S: not included in any glyphset definition</li>
 <li>U+209C LATIN SUBSCRIPT SMALL LETTER T: not included in any glyphset definition</li>
-<li>U+20F0 COMBINING ASTERISK ABOVE: try adding one of: grantha, devanagari</li>
+<li>U+20F0 COMBINING ASTERISK ABOVE: try adding one of: devanagari, grantha</li>
 <li>U+2100 ACCOUNT OF: not included in any glyphset definition</li>
 <li>U+2101 ADDRESSED TO THE SUBJECT: not included in any glyphset definition</li>
 <li>U+2102 DOUBLE-STRUCK CAPITAL C: try adding math</li>
@@ -15889,7 +15889,7 @@ definitions.</p>
 <li>U+220E END OF PROOF: try adding math</li>
 <li>U+2210 N-ARY COPRODUCT: try adding math</li>
 <li>U+2218 RING OPERATOR: try adding one of: symbols, math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, yi, math</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, math, yi</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+2220 ANGLE: try adding math</li>
@@ -16299,7 +16299,7 @@ definitions.</p>
 <li>U+25C9 FISHEYE: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: sharada, armenian, mende-kikakui, syriac, hanifi-rohingya, soyombo, new-tai-lue, javanese, math, mongolian, gunjala-gondi, modi, newa, tagalog, sogdian, wancho, tagbanwa, khmer, tai-tham, nko, rejang, sundanese, buginese, canadian-aboriginal, osage, marchen, bhaiksuki, lao, sinhala, batak, hebrew, dogra, symbols, brahmi, malayalam, bassa-vah, tai-le, warang-citi, thaana, hanunoo, gurmukhi, tirhuta, limbu, cham, buhid, caucasian-albanian, myanmar, coptic, chakma, khojki, syloti-nagri, old-permic, bengali, kannada, lepcha, adlam, mahajani, gujarati, meetei-mayek, pahawh-hmong, takri, yi, mandaic, kharoshthi, miao, telugu, duployan, tibetan, khudawadi, tai-viet, manichaean, masaram-gondi, oriya, thai, tifinagh, psalter-pahlavi, zanabazar-square, elbasan, devanagari, tamil, music, ahom, balinese, siddham, kayah-li, phags-pa, grantha, kaithi, saurashtra</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tifinagh, osage, math, sundanese, limbu, gurmukhi, khmer, new-tai-lue, tagalog, kaithi, mende-kikakui, hanifi-rohingya, nko, ahom, tamil, mongolian, takri, miao, siddham, thai, tai-tham, myanmar, chakma, modi, syriac, tibetan, kharoshthi, brahmi, balinese, gunjala-gondi, pahawh-hmong, sogdian, devanagari, kannada, sinhala, oriya, khudawadi, telugu, elbasan, buhid, wancho, dogra, bhaiksuki, marchen, javanese, soyombo, adlam, malayalam, old-permic, zanabazar-square, music, tai-viet, bassa-vah, kayah-li, lepcha, coptic, yi, armenian, hanunoo, warang-citi, meetei-mayek, mahajani, khojki, tagbanwa, rejang, masaram-gondi, duployan, symbols, grantha, lao, manichaean, tirhuta, thaana, caucasian-albanian, batak, mandaic, psalter-pahlavi, saurashtra, buginese, cham, phags-pa, syloti-nagri, sharada, bengali, newa, gujarati, canadian-aboriginal, tai-le, hebrew</li>
 <li>U+25CD CIRCLE WITH VERTICAL FILL: try adding symbols</li>
 <li>U+25CE BULLSEYE: try adding symbols</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
@@ -16351,9 +16351,9 @@ definitions.</p>
 <li>U+25FD WHITE MEDIUM SMALL SQUARE: try adding symbols</li>
 <li>U+25FE BLACK MEDIUM SMALL SQUARE: try adding symbols</li>
 <li>U+25FF LOWER RIGHT TRIANGLE: try adding symbols</li>
-<li>U+266D MUSIC FLAT SIGN: try adding one of: symbols, math, music</li>
-<li>U+266E MUSIC NATURAL SIGN: try adding one of: symbols, math, music</li>
-<li>U+266F MUSIC SHARP SIGN: try adding one of: symbols, math, music</li>
+<li>U+266D MUSIC FLAT SIGN: try adding one of: symbols, music, math</li>
+<li>U+266E MUSIC NATURAL SIGN: try adding one of: symbols, music, math</li>
+<li>U+266F MUSIC SHARP SIGN: try adding one of: symbols, music, math</li>
 <li>U+2736 SIX POINTED BLACK STAR: try adding symbols</li>
 <li>U+2758 LIGHT VERTICAL BAR: try adding symbols</li>
 <li>U+2759 MEDIUM VERTICAL BAR: try adding symbols</li>
@@ -16426,7 +16426,7 @@ definitions.</p>
 <li>U+2E2E REVERSED QUESTION MARK: not included in any glyphset definition</li>
 <li>U+2E2F VERTICAL TILDE: not included in any glyphset definition</li>
 <li>U+2E30 RING POINT: try adding avestan</li>
-<li>U+2E31 WORD SEPARATOR MIDDLE DOT: try adding one of: old-hungarian, avestan, samaritan</li>
+<li>U+2E31 WORD SEPARATOR MIDDLE DOT: try adding one of: avestan, samaritan, old-hungarian</li>
 <li>U+2E32 TURNED COMMA: not included in any glyphset definition</li>
 <li>U+2E33 RAISED DOT: try adding coptic</li>
 <li>U+2E34 RAISED COMMA: try adding coptic</li>
@@ -16503,7 +16503,7 @@ definitions.</p>
 <li>U+A71D MODIFIER LETTER RAISED EXCLAMATION MARK: not included in any glyphset definition</li>
 <li>U+A71E MODIFIER LETTER RAISED INVERTED EXCLAMATION MARK: not included in any glyphset definition</li>
 <li>U+A71F MODIFIER LETTER LOW INVERTED EXCLAMATION MARK: not included in any glyphset definition</li>
-<li>U+A92E KAYAH LI SIGN CWI: try adding one of: kayah-li, myanmar</li>
+<li>U+A92E KAYAH LI SIGN CWI: try adding one of: myanmar, kayah-li</li>
 <li>U+AB30 LATIN SMALL LETTER BARRED ALPHA: not included in any glyphset definition</li>
 <li>U+AB31 LATIN SMALL LETTER A REVERSED-SCHWA: not included in any glyphset definition</li>
 <li>U+AB32 LATIN SMALL LETTER BLACKLETTER E: not included in any glyphset definition</li>
@@ -16579,8 +16579,8 @@ definitions.</p>
 <li>U+FE2B COMBINING MACRON LEFT HALF BELOW: try adding caucasian-albanian</li>
 <li>U+FE2C COMBINING MACRON RIGHT HALF BELOW: try adding caucasian-albanian</li>
 <li>U+FE2D COMBINING CONJOINING MACRON BELOW: try adding caucasian-albanian</li>
-<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: yi, japanese, math, chinese-simplified</li>
-<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: yi, japanese, math, chinese-simplified</li>
+<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: japanese, chinese-simplified, math, yi</li>
+<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: japanese, chinese-simplified, math, yi</li>
 <li>U+FFFC OBJECT REPLACEMENT CHARACTER: not included in any glyphset definition</li>
 <li>U+10780 MODIFIER LETTER SMALL CAPITAL AA: not included in any glyphset definition</li>
 <li>U+10781 MODIFIER LETTER SUPERSCRIPT TRIANGULAR COLON: not included in any glyphset definition</li>
@@ -16694,8 +16694,8 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Zapotec (Latn, 490,000 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Avokaya (Latn, 100,000 speakers), Southern Kisi (Latn, 360,000 speakers), Yala (Latn, 200,000 speakers), Ma’di (Latn, 584,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Mundani (Latn, 34,000 speakers), Dii (Latn, 71,000 speakers), Bafut (Latn, 158,146 speakers), Gulay (Latn, 250,478 speakers), Ekpeye (Latn, 226,000 speakers), Mango (Latn, 77,000 speakers), Ebira (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers), Fur (Latn, 1,230,163 speakers), Igbo (Latn, 27,823,640 speakers), Sar (Latn, 500,000 speakers), Ejagham (Latn, 120,000 speakers), Mfumte (Latn, 79,000 speakers), South Central Banda (Latn, 244,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Vute (Latn, 21,000 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Makaa (Latn, 221,000 speakers), Kom (Latn, 360,685 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Zapotec (Latn, 490,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Makaa (Latn, 221,000 speakers), Basaa (Latn, 332,940 speakers), Vute (Latn, 21,000 speakers), Dii (Latn, 71,000 speakers), Aghem (Latn, 38,843 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ekpeye (Latn, 226,000 speakers), Fur (Latn, 1,230,163 speakers), Mfumte (Latn, 79,000 speakers), Dan (Latn, 1,099,244 speakers), Yala (Latn, 200,000 speakers), Bafut (Latn, 158,146 speakers), Koonzime (Latn, 40,000 speakers), Cicipu (Latn, 44,000 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ma’di (Latn, 584,000 speakers), Gulay (Latn, 250,478 speakers), Bete-Bendi (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Mundani (Latn, 34,000 speakers), Mango (Latn, 77,000 speakers), Lugbara (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), South Central Banda (Latn, 244,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Avokaya (Latn, 100,000 speakers).</p>
  [code: soft-dotted]
 
 
