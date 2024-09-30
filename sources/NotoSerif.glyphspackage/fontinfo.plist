@@ -1,5 +1,5 @@
 {
-.appVersion = "3227";
+.appVersion = "3217";
 .formatVersion = 3;
 axes = (
 {
@@ -3933,25 +3933,27 @@ tag = tnum;
 {
 automatic = 1;
 code = "sub zero by zero.tosf;
-    sub one by one.tosf;
-    sub two by two.tosf;
-    sub three by three.tosf;
-    sub four by four.tosf;
-    sub five by five.tosf;
-    sub six by six.tosf;
-    sub seven by seven.tosf;
-    sub eight by eight.tosf;
-    sub nine by nine.tosf;
-    sub zero.lf by zero.osf;
-    sub one.lf by one.osf;
-    sub two.lf by two.osf;
-    sub three.lf by three.osf;
-    sub four.lf by four.osf;
-    sub five.lf by five.osf;
-    sub six.lf by six.osf;
-    sub seven.lf by seven.osf;
-    sub eight.lf by eight.osf;
-    sub nine.lf by nine.osf;";
+sub one by one.tosf;
+sub two by two.tosf;
+sub three by three.tosf;
+sub four by four.tosf;
+sub five by five.tosf;
+sub six by six.tosf;
+sub seven by seven.tosf;
+sub eight by eight.tosf;
+sub nine by nine.tosf;
+sub figurespace by figurespace.tosf;
+sub zero.lf by zero.osf;
+sub one.lf by one.osf;
+sub two.lf by two.osf;
+sub three.lf by three.osf;
+sub four.lf by four.osf;
+sub five.lf by five.osf;
+sub six.lf by six.osf;
+sub seven.lf by seven.osf;
+sub eight.lf by eight.osf;
+sub nine.lf by nine.osf;
+";
 tag = onum;
 },
 {
