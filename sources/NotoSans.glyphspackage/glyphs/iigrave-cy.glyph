@@ -6,6 +6,16 @@ kernLeft = "en-cy";
 kernRight = "en-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (287,0);
+},
+{
+name = top;
+pos = (287,766);
+}
+);
 background = {
 anchors = (
 {
@@ -44,6 +54,16 @@ ref = gravecomb;
 width = 578;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (322,0);
+},
+{
+name = top;
+pos = (322,766);
+}
+);
 background = {
 anchors = (
 {
@@ -79,9 +99,19 @@ pos = (692,0);
 ref = gravecomb;
 }
 );
-width = 620;
+width = 622;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (358,0);
+},
+{
+name = top;
+pos = (358,766);
+}
+);
 background = {
 anchors = (
 {
@@ -120,6 +150,16 @@ ref = gravecomb;
 width = 682;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (198,0);
+},
+{
+name = top;
+pos = (198,763);
+}
+);
 background = {
 anchors = (
 {
@@ -158,6 +198,16 @@ ref = gravecomb;
 width = 410;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (237,0);
+},
+{
+name = top;
+pos = (237,766);
+}
+);
 background = {
 anchors = (
 {
@@ -196,6 +246,16 @@ ref = gravecomb;
 width = 458;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (288,0);
+},
+{
+name = top;
+pos = (288,766);
+}
+);
 background = {
 anchors = (
 {
@@ -231,7 +291,7 @@ pos = (534,0);
 ref = gravecomb;
 }
 );
-width = 536;
+width = 534;
 }
 );
 metricLeft = "en-cy";

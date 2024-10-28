@@ -6,6 +6,16 @@ kernLeft = "En-cy";
 kernRight = "En-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (347,0);
+},
+{
+name = top;
+pos = (347,952);
+}
+);
 background = {
 anchors = (
 {
@@ -44,6 +54,16 @@ ref = gravecomb;
 width = 714;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (384,0);
+},
+{
+name = top;
+pos = (384,944);
+}
+);
 background = {
 anchors = (
 {
@@ -82,6 +102,16 @@ ref = gravecomb;
 width = 755;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (423,0);
+},
+{
+name = top;
+pos = (423,927);
+}
+);
 background = {
 anchors = (
 {
@@ -120,6 +150,16 @@ ref = gravecomb;
 width = 800;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (250,0);
+},
+{
+name = top;
+pos = (250,929);
+}
+);
 background = {
 anchors = (
 {
@@ -158,6 +198,16 @@ ref = gravecomb;
 width = 516;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (287,0);
+},
+{
+name = top;
+pos = (287,930);
+}
+);
 background = {
 anchors = (
 {
@@ -196,6 +246,16 @@ ref = gravecomb;
 width = 549;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (335,0);
+},
+{
+name = top;
+pos = (335,927);
+}
+);
 background = {
 anchors = (
 {

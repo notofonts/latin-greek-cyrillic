@@ -1,11 +1,21 @@
 {
 category = Letter;
-color = 6;
+color = 1;
 glyphname = "Zhebreve-cy";
 kernLeft = "Zhe-cy";
 kernRight = "Zhe-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (409,0);
+},
+{
+name = top;
+pos = (410,897);
+}
+);
 background = {
 anchors = (
 {
@@ -33,13 +43,23 @@ shapes = (
 ref = "Zhe-cy";
 },
 {
-pos = (232,0);
+pos = (242,4);
 ref = cyrillicbreve.cap;
 }
 );
-width = 800;
+width = 820;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (452,0);
+},
+{
+name = top;
+pos = (460,913);
+}
+);
 background = {
 anchors = (
 {
@@ -67,13 +87,23 @@ shapes = (
 ref = "Zhe-cy";
 },
 {
-pos = (248,0);
+pos = (264,11);
 ref = cyrillicbreve.cap;
 }
 );
-width = 887;
+width = 919;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (530,0);
+},
+{
+name = top;
+pos = (530,941);
+}
+);
 background = {
 anchors = (
 {
@@ -101,13 +131,23 @@ shapes = (
 ref = "Zhe-cy";
 },
 {
-pos = (243,0);
+pos = (284,1);
 ref = cyrillicbreve.cap;
 }
 );
-width = 977;
+width = 1060;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (275,0);
+},
+{
+name = top;
+pos = (274,877);
+}
+);
 background = {
 anchors = (
 {
@@ -135,13 +175,23 @@ shapes = (
 ref = "Zhe-cy";
 },
 {
-pos = (123,-2);
+pos = (129,-9);
 ref = cyrillicbreve.cap;
 }
 );
-width = 535;
+width = 548;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (314,0);
+},
+{
+name = top;
+pos = (314,894);
+}
+);
 background = {
 anchors = (
 {
@@ -169,13 +219,23 @@ shapes = (
 ref = "Zhe-cy";
 },
 {
-pos = (143,0);
+pos = (149,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 615;
+width = 627;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (405,0);
+},
+{
+name = top;
+pos = (405,928);
+}
+);
 background = {
 anchors = (
 {
@@ -203,11 +263,11 @@ shapes = (
 ref = "Zhe-cy";
 },
 {
-pos = (187,0);
+pos = (193,-6);
 ref = cyrillicbreve.cap;
 }
 );
-width = 798;
+width = 810;
 }
 );
 metricLeft = "Zhe-cy";

@@ -6,6 +6,20 @@ kernLeft = "En-cy";
 kernRight = "En-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (391,0);
+},
+{
+name = center;
+pos = (391,357);
+},
+{
+name = top;
+pos = (391,714);
+}
+);
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {
@@ -19,6 +33,20 @@ ref = I.salt;
 width = 782;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (425,0);
+},
+{
+name = center;
+pos = (425,357);
+},
+{
+name = top;
+pos = (425,714);
+}
+);
 layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
 shapes = (
 {
@@ -32,6 +60,20 @@ ref = I.salt;
 width = 850;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (470,0);
+},
+{
+name = center;
+pos = (470,357);
+},
+{
+name = top;
+pos = (470,714);
+}
+);
 background = {
 shapes = (
 {
@@ -88,6 +130,20 @@ ref = I.salt;
 width = 939;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (284,0);
+},
+{
+name = center;
+pos = (284,357);
+},
+{
+name = top;
+pos = (284,714);
+}
+);
 background = {
 shapes = (
 {
@@ -144,6 +200,20 @@ ref = I.salt;
 width = 567;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (334,0);
+},
+{
+name = center;
+pos = (334,357);
+},
+{
+name = top;
+pos = (334,714);
+}
+);
 background = {
 shapes = (
 {
@@ -200,6 +270,20 @@ ref = I.salt;
 width = 667;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (388,0);
+},
+{
+name = center;
+pos = (388,357);
+},
+{
+name = top;
+pos = (388,714);
+}
+);
 background = {
 shapes = (
 {

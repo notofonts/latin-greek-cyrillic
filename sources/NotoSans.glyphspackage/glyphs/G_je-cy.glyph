@@ -6,6 +6,16 @@ kernLeft = "En-cy";
 kernRight = "Te-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (245,0);
+},
+{
+name = top;
+pos = (286,952);
+}
+);
 background = {
 anchors = (
 {
@@ -41,9 +51,19 @@ pos = (473,186);
 ref = acutecomb;
 }
 );
-width = 503;
+width = 507;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (262,0);
+},
+{
+name = top;
+pos = (305,944);
+}
+);
 background = {
 anchors = (
 {
@@ -82,6 +102,16 @@ ref = acutecomb;
 width = 509;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (289,0);
+},
+{
+name = top;
+pos = (328,927);
+}
+);
 background = {
 anchors = (
 {
@@ -120,6 +150,16 @@ ref = acutecomb;
 width = 588;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (165,0);
+},
+{
+name = top;
+pos = (198,929);
+}
+);
 background = {
 anchors = (
 {
@@ -155,9 +195,19 @@ pos = (404,166);
 ref = acutecomb;
 }
 );
-width = 348;
+width = 342;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (184,0);
+},
+{
+name = top;
+pos = (219,930);
+}
+);
 background = {
 anchors = (
 {
@@ -193,9 +243,19 @@ pos = (479,164);
 ref = acutecomb;
 }
 );
-width = 392;
+width = 391;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (221,0);
+},
+{
+name = top;
+pos = (248,927);
+}
+);
 background = {
 anchors = (
 {

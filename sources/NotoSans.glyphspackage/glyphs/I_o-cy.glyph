@@ -6,6 +6,16 @@ kernLeft = "Nje-cy";
 kernRight = "Ie-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (295,0);
+},
+{
+name = top;
+pos = (305,895);
+}
+);
 background = {
 anchors = (
 {
@@ -44,6 +54,16 @@ ref = dieresiscomb;
 width = 550;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (305,908);
+}
+);
 background = {
 anchors = (
 {
@@ -82,6 +102,16 @@ ref = dieresiscomb;
 width = 556;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (295,0);
+},
+{
+name = top;
+pos = (289,928);
+}
+);
 background = {
 anchors = (
 {
@@ -120,6 +150,16 @@ ref = dieresiscomb;
 width = 549;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (201,0);
+},
+{
+name = top;
+pos = (216,862);
+}
+);
 background = {
 anchors = (
 {
@@ -158,6 +198,16 @@ ref = dieresiscomb;
 width = 381;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (221,0);
+},
+{
+name = top;
+pos = (216,882);
+}
+);
 background = {
 anchors = (
 {
@@ -196,6 +246,16 @@ ref = dieresiscomb;
 width = 402;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (233,0);
+},
+{
+name = top;
+pos = (229,928);
+}
+);
 background = {
 anchors = (
 {
