@@ -1,21 +1,11 @@
 {
 category = Letter;
-color = 0;
+color = 6;
 glyphname = "Zedieresis-cy";
 kernLeft = "Ze-cy";
 kernRight = "Ve-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (269,0);
-},
-{
-name = top;
-pos = (265,895);
-}
-);
 background = {
 anchors = (
 {
@@ -45,23 +35,13 @@ ref = "Ze-cy";
 },
 {
 alignment = -1;
-pos = (265,186);
+pos = (264,186);
 ref = dieresiscomb;
 }
 );
 width = 565;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (286,0);
-},
-{
-name = top;
-pos = (257,908);
-}
-);
 background = {
 anchors = (
 {
@@ -91,23 +71,13 @@ ref = "Ze-cy";
 },
 {
 alignment = -1;
-pos = (257,178);
+pos = (274,178);
 ref = dieresiscomb;
 }
 );
-width = 584;
+width = 586;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (305,0);
-},
-{
-name = top;
-pos = (300,928);
-}
-);
 background = {
 anchors = (
 {
@@ -144,16 +114,6 @@ ref = dieresiscomb;
 width = 627;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (180,0);
-},
-{
-name = top;
-pos = (154,861);
-}
-);
 background = {
 anchors = (
 {
@@ -183,23 +143,13 @@ ref = "Ze-cy";
 },
 {
 alignment = -1;
-pos = (155,165);
+pos = (174,187);
 ref = dieresiscomb;
 }
 );
 width = 378;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (212,0);
-},
-{
-name = top;
-pos = (184,883);
-}
-);
 background = {
 anchors = (
 {
@@ -229,23 +179,13 @@ ref = "Ze-cy";
 },
 {
 alignment = -1;
-pos = (183,165);
+pos = (191,177);
 ref = dieresiscomb;
 }
 );
 width = 419;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (247,0);
-},
-{
-name = top;
-pos = (226,932);
-}
-);
 background = {
 anchors = (
 {
@@ -275,7 +215,7 @@ ref = "Ze-cy";
 },
 {
 alignment = -1;
-pos = (226,165);
+pos = (236,161);
 ref = dieresiscomb;
 }
 );
@@ -283,7 +223,7 @@ width = 509;
 }
 );
 metricLeft = "Ze-cy";
-metricWidth = "Ze-cy";
+metricRight = "Ze-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1246;

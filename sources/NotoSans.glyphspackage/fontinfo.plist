@@ -5995,7 +5995,6 @@ pre = 1;
 }
 );
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -6289,6 +6288,7 @@ pre = 1;
 }
 );
 };
+visible = 1;
 },
 {
 axesValues = (

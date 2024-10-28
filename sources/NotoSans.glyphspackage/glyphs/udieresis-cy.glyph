@@ -1,21 +1,11 @@
 {
 category = Letter;
-color = 1;
+color = 6;
 glyphname = "udieresis-cy";
 kernLeft = "u-cy";
 kernRight = "u-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (60,-243);
-},
-{
-name = top;
-pos = (225,709);
-}
-);
 background = {
 anchors = (
 {
@@ -46,16 +36,6 @@ ref = dieresiscomb;
 width = 428;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (94,-240);
-},
-{
-name = top;
-pos = (255,730);
-}
-);
 background = {
 anchors = (
 {
@@ -86,16 +66,6 @@ ref = dieresiscomb;
 width = 510;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (138,-240);
-},
-{
-name = top;
-pos = (305,767);
-}
-);
 background = {
 anchors = (
 {
@@ -126,16 +96,6 @@ ref = dieresiscomb;
 width = 610;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (49,-242);
-},
-{
-name = top;
-pos = (156,696);
-}
-);
 background = {
 anchors = (
 {
@@ -166,16 +126,6 @@ ref = dieresiscomb;
 width = 316;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (75,-240);
-},
-{
-name = top;
-pos = (189,718);
-}
-);
 background = {
 anchors = (
 {
@@ -206,16 +156,6 @@ ref = dieresiscomb;
 width = 370;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (131,-240);
-},
-{
-name = top;
-pos = (246,767);
-}
-);
 background = {
 anchors = (
 {

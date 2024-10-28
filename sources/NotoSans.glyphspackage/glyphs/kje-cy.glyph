@@ -6,16 +6,6 @@ kernLeft = "en-cy";
 kernRight = "zhe-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (234,0);
-},
-{
-name = top;
-pos = (234,766);
-}
-);
 background = {
 anchors = (
 {
@@ -49,19 +39,9 @@ pos = (441,0);
 ref = acutecomb;
 }
 );
-width = 462;
+width = 488;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (265,0);
-},
-{
-name = top;
-pos = (270,766);
-}
-);
 background = {
 anchors = (
 {
@@ -95,19 +75,9 @@ pos = (574,0);
 ref = acutecomb;
 }
 );
-width = 531;
+width = 533;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (329,0);
-},
-{
-name = top;
-pos = (328,766);
-}
-);
 background = {
 anchors = (
 {
@@ -141,19 +111,9 @@ pos = (655,0);
 ref = acutecomb;
 }
 );
-width = 654;
+width = 635;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (162,0);
-},
-{
-name = top;
-pos = (163,763);
-}
-);
 background = {
 anchors = (
 {
@@ -187,19 +147,9 @@ pos = (401,0);
 ref = acutecomb;
 }
 );
-width = 324;
+width = 336;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (198,0);
-},
-{
-name = top;
-pos = (198,766);
-}
-);
 background = {
 anchors = (
 {
@@ -236,16 +186,6 @@ ref = acutecomb;
 width = 396;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (261,0);
-},
-{
-name = top;
-pos = (261,766);
-}
-);
 background = {
 anchors = (
 {
@@ -279,12 +219,11 @@ pos = (580,0);
 ref = acutecomb;
 }
 );
-width = 519;
+width = 504;
 }
 );
 metricLeft = "ka-cy";
 metricRight = "ka-cy";
-metricWidth = "ka-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1116;

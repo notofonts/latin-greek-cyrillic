@@ -1,21 +1,11 @@
 {
 category = Letter;
-color = 0;
+color = 6;
 glyphname = "Udieresis-cy";
 kernLeft = "U-cy";
 kernRight = "U-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (280,0);
-},
-{
-name = top;
-pos = (281,895);
-}
-);
 background = {
 anchors = (
 {
@@ -45,23 +35,13 @@ ref = "U-cy";
 },
 {
 alignment = -1;
-pos = (281,186);
+pos = (278,186);
 ref = dieresiscomb;
 }
 );
-width = 561;
+width = 541;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (303,0);
-},
-{
-name = top;
-pos = (311,908);
-}
-);
 background = {
 anchors = (
 {
@@ -91,23 +71,13 @@ ref = "U-cy";
 },
 {
 alignment = -1;
-pos = (311,178);
+pos = (305,178);
 ref = dieresiscomb;
 }
 );
-width = 616;
+width = 594;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (334,0);
-},
-{
-name = top;
-pos = (343,928);
-}
-);
 background = {
 anchors = (
 {
@@ -137,23 +107,13 @@ ref = "U-cy";
 },
 {
 alignment = -1;
-pos = (344,161);
+pos = (338,161);
 ref = dieresiscomb;
 }
 );
-width = 683;
+width = 662;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (164,0);
-},
-{
-name = top;
-pos = (167,861);
-}
-);
 background = {
 anchors = (
 {
@@ -183,23 +143,13 @@ ref = "U-cy";
 },
 {
 alignment = -1;
-pos = (167,165);
+pos = (179,187);
 ref = dieresiscomb;
 }
 );
-width = 332;
+width = 348;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (198,0);
-},
-{
-name = top;
-pos = (203,883);
-}
-);
 background = {
 anchors = (
 {
@@ -229,23 +179,13 @@ ref = "U-cy";
 },
 {
 alignment = -1;
-pos = (202,165);
+pos = (215,177);
 ref = dieresiscomb;
 }
 );
-width = 399;
+width = 419;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (268,0);
-},
-{
-name = top;
-pos = (270,932);
-}
-);
 background = {
 anchors = (
 {
@@ -275,15 +215,15 @@ ref = "U-cy";
 },
 {
 alignment = -1;
-pos = (270,165);
+pos = (271,161);
 ref = dieresiscomb;
 }
 );
-width = 537;
+width = 531;
 }
 );
 metricLeft = "U-cy";
-metricWidth = "U-cy";
+metricRight = "U-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1264;

@@ -1,21 +1,11 @@
 {
 category = Letter;
-color = 1;
+color = 6;
 glyphname = "iebreve-cy";
 kernLeft = "a-cy";
 kernRight = "ie-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (270,0);
-},
-{
-name = top;
-pos = (271,718);
-}
-);
 background = {
 anchors = (
 {
@@ -52,16 +42,6 @@ ref = cyrillicbreve;
 width = 540;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (301,0);
-},
-{
-name = top;
-pos = (285,740);
-}
-);
 background = {
 anchors = (
 {
@@ -98,16 +78,6 @@ ref = cyrillicbreve;
 width = 564;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (333,0);
-},
-{
-name = top;
-pos = (309,787);
-}
-);
 background = {
 anchors = (
 {
@@ -144,16 +114,6 @@ ref = cyrillicbreve;
 width = 618;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (200,0);
-},
-{
-name = top;
-pos = (191,716);
-}
-);
 background = {
 anchors = (
 {
@@ -183,23 +143,13 @@ alignment = -1;
 ref = e;
 },
 {
-pos = (49,8);
+pos = (49,0);
 ref = cyrillicbreve;
 }
 );
 width = 380;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (230,0);
-},
-{
-name = top;
-pos = (212,735);
-}
-);
 background = {
 anchors = (
 {
@@ -236,16 +186,6 @@ ref = cyrillicbreve;
 width = 418;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (261,0);
-},
-{
-name = top;
-pos = (246,779);
-}
-);
 background = {
 anchors = (
 {
@@ -275,7 +215,7 @@ alignment = -1;
 ref = e;
 },
 {
-pos = (40,-3);
+pos = (40,0);
 ref = cyrillicbreve;
 }
 );
