@@ -1,21 +1,11 @@
 {
 category = Letter;
-color = 1;
+color = 6;
 glyphname = "Abreve-cy";
 kernLeft = "A-cy";
 kernRight = "A-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (289,0);
-},
-{
-name = top;
-pos = (290,893);
-}
-);
 background = {
 anchors = (
 {
@@ -45,23 +35,13 @@ alignment = -1;
 ref = A;
 },
 {
-pos = (122,0);
+pos = (121,0);
 ref = cyrillicbreve.cap;
 }
 );
 width = 577;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (319,0);
-},
-{
-name = top;
-pos = (319,902);
-}
-);
 background = {
 anchors = (
 {
@@ -98,16 +78,6 @@ ref = cyrillicbreve.cap;
 width = 639;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (363,0);
-},
-{
-name = top;
-pos = (363,940);
-}
-);
 background = {
 anchors = (
 {
@@ -144,16 +114,6 @@ ref = cyrillicbreve.cap;
 width = 726;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (189,0);
-},
-{
-name = top;
-pos = (190,884);
-}
-);
 background = {
 anchors = (
 {
@@ -183,23 +143,13 @@ alignment = -1;
 ref = A;
 },
 {
-pos = (45,-2);
+pos = (44,-2);
 ref = cyrillicbreve.cap;
 }
 );
 width = 377;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (220,0);
-},
-{
-name = top;
-pos = (224,894);
-}
-);
 background = {
 anchors = (
 {
@@ -229,23 +179,13 @@ alignment = -1;
 ref = A;
 },
 {
-pos = (59,0);
+pos = (60,0);
 ref = cyrillicbreve.cap;
 }
 );
 width = 450;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (288,0);
-},
-{
-name = top;
-pos = (288,934);
-}
-);
 background = {
 anchors = (
 {
@@ -275,7 +215,7 @@ alignment = -1;
 ref = A;
 },
 {
-pos = (76,0);
+pos = (75,0);
 ref = cyrillicbreve.cap;
 }
 );

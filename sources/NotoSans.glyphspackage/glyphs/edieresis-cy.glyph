@@ -1,21 +1,11 @@
 {
 category = Letter;
-color = 0;
+color = 6;
 glyphname = "edieresis-cy";
 kernLeft = "ze-cy";
 kernRight = "o-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (245,0);
-},
-{
-name = top;
-pos = (216,709);
-}
-);
 background = {
 anchors = (
 {
@@ -43,23 +33,13 @@ shapes = (
 ref = "ereversed-cy";
 },
 {
-pos = (216,0);
+pos = (215,0);
 ref = dieresiscomb;
 }
 );
-width = 494;
+width = 502;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (257,0);
-},
-{
-name = top;
-pos = (214,730);
-}
-);
 background = {
 anchors = (
 {
@@ -87,23 +67,13 @@ shapes = (
 ref = "ereversed-cy";
 },
 {
-pos = (214,0);
+pos = (213,0);
 ref = dieresiscomb;
 }
 );
-width = 494;
+width = 500;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (273,0);
-},
-{
-name = top;
-pos = (248,767);
-}
-);
 background = {
 anchors = (
 {
@@ -131,23 +101,13 @@ shapes = (
 ref = "ereversed-cy";
 },
 {
-pos = (249,0);
+pos = (243,0);
 ref = dieresiscomb;
 }
 );
-width = 543;
+width = 551;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (151,0);
-},
-{
-name = top;
-pos = (134,696);
-}
-);
 background = {
 anchors = (
 {
@@ -179,36 +139,27 @@ pos = (134,0);
 ref = dieresiscomb;
 }
 );
-width = 317;
+width = 336;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (192,0);
-},
-{
-name = top;
-pos = (161,718);
-}
-);
 background = {
 anchors = (
 {
 name = bottom;
-pos = (192,0);
+pos = (201,0);
 },
 {
 name = top;
-pos = (161,718);
+pos = (170,718);
 }
 );
 shapes = (
 {
+pos = (9,0);
 ref = "ereversed-cy";
 },
 {
-pos = (160,0);
+pos = (169,0);
 ref = dieresiscomb;
 }
 );
@@ -216,6 +167,7 @@ ref = dieresiscomb;
 layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
 shapes = (
 {
+pos = (9,0);
 ref = "ereversed-cy";
 },
 {
@@ -223,36 +175,27 @@ pos = (160,0);
 ref = dieresiscomb;
 }
 );
-width = 367;
+width = 379;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (223,0);
-},
-{
-name = top;
-pos = (189,767);
-}
-);
 background = {
 anchors = (
 {
 name = bottom;
-pos = (223,0);
+pos = (232,0);
 },
 {
 name = top;
-pos = (189,767);
+pos = (198,767);
 }
 );
 shapes = (
 {
+pos = (9,0);
 ref = "ereversed-cy";
 },
 {
-pos = (189,0);
+pos = (198,0);
 ref = dieresiscomb;
 }
 );
@@ -260,18 +203,19 @@ ref = dieresiscomb;
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
 shapes = (
 {
+pos = (9,0);
 ref = "ereversed-cy";
 },
 {
-pos = (189,0);
+pos = (199,0);
 ref = dieresiscomb;
 }
 );
-width = 430;
+width = 451;
 }
 );
 metricLeft = "ereversed-cy";
-metricWidth = "ereversed-cy";
+metricRight = "ereversed-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1261;

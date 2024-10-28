@@ -1,21 +1,11 @@
 {
 category = Letter;
-color = 1;
+color = 6;
 glyphname = "Imacron-cy";
 kernLeft = "En-cy";
 kernRight = "En-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (359,0);
-},
-{
-name = top;
-pos = (357,824);
-}
-);
 background = {
 anchors = (
 {
@@ -52,16 +42,6 @@ ref = macroncomb;
 width = 714;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (379,0);
-},
-{
-name = top;
-pos = (377,855);
-}
-);
 background = {
 anchors = (
 {
@@ -98,16 +78,6 @@ ref = macroncomb;
 width = 755;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (391,0);
-},
-{
-name = top;
-pos = (400,882);
-}
-);
 background = {
 anchors = (
 {
@@ -144,16 +114,6 @@ ref = macroncomb;
 width = 800;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (247,0);
-},
-{
-name = top;
-pos = (258,806);
-}
-);
 background = {
 anchors = (
 {
@@ -183,23 +143,13 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (268,165);
+pos = (268,187);
 ref = macroncomb;
 }
 );
 width = 516;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (277,0);
-},
-{
-name = top;
-pos = (275,841);
-}
-);
 background = {
 anchors = (
 {
@@ -229,23 +179,13 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (274,165);
+pos = (274,177);
 ref = macroncomb;
 }
 );
 width = 549;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (313,0);
-},
-{
-name = top;
-pos = (316,901);
-}
-);
 background = {
 anchors = (
 {
@@ -275,7 +215,7 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (316,165);
+pos = (316,161);
 ref = macroncomb;
 }
 );
