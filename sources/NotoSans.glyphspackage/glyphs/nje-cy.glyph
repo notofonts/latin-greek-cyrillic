@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 1;
+color = 0;
 glyphname = "nje-cy";
 kernLeft = "en-cy";
 kernRight = "hardsign-cy";
@@ -150,7 +150,7 @@ nodes = (
 );
 }
 );
-width = 885;
+width = 884;
 },
 {
 anchors = (
@@ -250,7 +250,7 @@ nodes = (
 );
 }
 );
-width = 927;
+width = 929;
 },
 {
 anchors = (
@@ -329,7 +329,7 @@ nodes = (
 );
 }
 );
-width = 570;
+width = 575;
 },
 {
 anchors = (
@@ -429,7 +429,7 @@ nodes = (
 );
 }
 );
-width = 631;
+width = 638;
 },
 {
 anchors = (
@@ -521,7 +521,7 @@ nodes = (
 );
 }
 );
-width = 735;
+width = 734;
 },
 {
 anchors = (

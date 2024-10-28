@@ -1,21 +1,11 @@
 {
 category = Letter;
-color = 1;
+color = 6;
 glyphname = "zhedieresis-cy";
 kernLeft = "zhe-cy";
 kernRight = "zhe-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (345,0);
-},
-{
-name = top;
-pos = (344,709);
-}
-);
 background = {
 anchors = (
 {
@@ -45,23 +35,13 @@ ref = "zhe-cy";
 },
 {
 alignment = -1;
-pos = (344,0);
+pos = (335,0);
 ref = dieresiscomb;
 }
 );
-width = 687;
+width = 670;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (380,0);
-},
-{
-name = top;
-pos = (380,730);
-}
-);
 background = {
 anchors = (
 {
@@ -91,23 +71,13 @@ ref = "zhe-cy";
 },
 {
 alignment = -1;
-pos = (380,0);
+pos = (365,0);
 ref = dieresiscomb;
 }
 );
-width = 759;
+width = 730;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (472,0);
-},
-{
-name = top;
-pos = (471,767);
-}
-);
 background = {
 anchors = (
 {
@@ -137,23 +107,13 @@ ref = "zhe-cy";
 },
 {
 alignment = -1;
-pos = (472,0);
+pos = (441,0);
 ref = dieresiscomb;
 }
 );
-width = 942;
+width = 879;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (222,0);
-},
-{
-name = top;
-pos = (222,696);
-}
-);
 background = {
 anchors = (
 {
@@ -183,23 +143,13 @@ ref = "zhe-cy";
 },
 {
 alignment = -1;
-pos = (222,0);
+pos = (232,0);
 ref = dieresiscomb;
 }
 );
-width = 444;
+width = 464;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (274,0);
-},
-{
-name = top;
-pos = (274,718);
-}
-);
 background = {
 anchors = (
 {
@@ -229,23 +179,13 @@ ref = "zhe-cy";
 },
 {
 alignment = -1;
-pos = (273,0);
+pos = (268,0);
 ref = dieresiscomb;
 }
 );
-width = 547;
+width = 538;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (373,0);
-},
-{
-name = top;
-pos = (373,767);
-}
-);
 background = {
 anchors = (
 {
@@ -275,11 +215,11 @@ ref = "zhe-cy";
 },
 {
 alignment = -1;
-pos = (373,0);
+pos = (355,0);
 ref = dieresiscomb;
 }
 );
-width = 745;
+width = 709;
 }
 );
 metricLeft = "zhe-cy";

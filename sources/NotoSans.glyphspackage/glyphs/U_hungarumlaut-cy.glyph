@@ -6,16 +6,6 @@ kernLeft = "U-cy";
 kernRight = "U-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (280,0);
-},
-{
-name = top;
-pos = (281,952);
-}
-);
 background = {
 anchors = (
 {
@@ -49,19 +39,9 @@ pos = (283,186);
 ref = hungarumlautcomb;
 }
 );
-width = 561;
+width = 541;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (303,0);
-},
-{
-name = top;
-pos = (311,944);
-}
-);
 background = {
 anchors = (
 {
@@ -95,19 +75,9 @@ pos = (328,178);
 ref = hungarumlautcomb;
 }
 );
-width = 616;
+width = 594;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (334,0);
-},
-{
-name = top;
-pos = (343,927);
-}
-);
 background = {
 anchors = (
 {
@@ -141,19 +111,9 @@ pos = (338,161);
 ref = hungarumlautcomb;
 }
 );
-width = 683;
+width = 665;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (164,0);
-},
-{
-name = top;
-pos = (167,931);
-}
-);
 background = {
 anchors = (
 {
@@ -187,19 +147,9 @@ pos = (168,165);
 ref = hungarumlautcomb;
 }
 );
-width = 332;
+width = 348;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (198,0);
-},
-{
-name = top;
-pos = (203,931);
-}
-);
 background = {
 anchors = (
 {
@@ -233,19 +183,9 @@ pos = (217,165);
 ref = hungarumlautcomb;
 }
 );
-width = 399;
+width = 427;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (268,0);
-},
-{
-name = top;
-pos = (270,932);
-}
-);
 background = {
 anchors = (
 {
@@ -283,7 +223,7 @@ width = 537;
 }
 );
 metricLeft = "U-cy";
-metricWidth = "U-cy";
+metricRight = "U-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1266;
