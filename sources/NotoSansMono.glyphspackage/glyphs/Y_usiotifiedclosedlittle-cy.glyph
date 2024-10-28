@@ -41,25 +41,6 @@ ref = "Iotifieda-cy";
 width = 1200;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
-shapes = (
-{
-closed = 1;
-nodes = (
-(1095,0,l),
-(1095,126,l),
-(482,126,l),
-(482,0,l)
-);
-},
-{
-alignment = -1;
-ref = "Iotifieda-cy";
-}
-);
-width = 1200;
-},
-{
 layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
 shapes = (
 {
@@ -107,25 +88,6 @@ nodes = (
 (902,69,l),
 (357,69,l),
 (357,0,l)
-);
-},
-{
-alignment = -1;
-ref = "Iotifieda-cy";
-}
-);
-width = 1000;
-},
-{
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(911,0,l),
-(911,103,l),
-(404,103,l),
-(404,0,l)
 );
 },
 {

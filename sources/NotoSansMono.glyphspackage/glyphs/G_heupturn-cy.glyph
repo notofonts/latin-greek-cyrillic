@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 4;
 glyphname = "Gheupturn-cy";
 layers = (
 {
@@ -51,35 +52,6 @@ nodes = (
 (515,862,l),
 (433,862,l),
 (433,634,l)
-);
-},
-{
-alignment = -1;
-ref = Gamma;
-}
-);
-width = 600;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (300,0);
-},
-{
-name = top;
-pos = (300,865);
-}
-);
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
-shapes = (
-{
-closed = 1;
-nodes = (
-(530,593,l),
-(530,865,l),
-(404,865,l),
-(404,593,l)
 );
 },
 {
@@ -167,35 +139,6 @@ nodes = (
 (440,862,l),
 (364,862,l),
 (364,638,l)
-);
-},
-{
-alignment = -1;
-ref = Gamma;
-}
-);
-width = 500;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (250,0);
-},
-{
-name = top;
-pos = (250,865);
-}
-);
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(450,602,l),
-(450,865,l),
-(326,865,l),
-(326,602,l)
 );
 },
 {

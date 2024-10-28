@@ -1,6 +1,7 @@
 {
 category = Letter;
 color = 6;
+export = 0;
 glyphname = "Ka-cy.loclBGR";
 kernLeft = "En-cy";
 kernRight = "Zhe-cy";

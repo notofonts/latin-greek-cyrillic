@@ -1,6 +1,7 @@
 {
 category = Letter;
 color = 4;
+export = 0;
 glyphname = "iu-cy.loclBGR";
 kernLeft = "en-cy";
 kernRight = "o-cy";

@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3324";
 .formatVersion = 3;
 axes = (
 {
@@ -17389,6 +17389,14 @@ type = "x-height";
 type = "italic angle";
 }
 );
+note = "Cyrillic color coding
+
+1. Cyan – components done by Trifon & Botio
+2. Light Green – designed by Ksenya unchanged
+3. Orange – changed by Trifon & Botio
+4. Purple – improved after review
+5. Red – sill to be done after next assignment from Dave and Simon
+6. No color – sill to be done after next assignment from Dave and Simon";
 properties = (
 {
 key = copyrights;

@@ -47,28 +47,6 @@ ref = zero.dnom;
 width = 1800;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
-shapes = (
-{
-pos = (100,0);
-ref = one.numr;
-},
-{
-pos = (743,0);
-ref = fraction;
-},
-{
-pos = (732,0);
-ref = one.dnom;
-},
-{
-pos = (1100,0);
-ref = zero.dnom;
-}
-);
-width = 1800;
-},
-{
 layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
 shapes = (
 {
@@ -129,28 +107,6 @@ ref = one.dnom;
 },
 {
 pos = (920,0);
-ref = zero.dnom;
-}
-);
-width = 1500;
-},
-{
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-pos = (50,0);
-ref = one.numr;
-},
-{
-pos = (615,0);
-ref = fraction;
-},
-{
-pos = (629,0);
-ref = one.dnom;
-},
-{
-pos = (960,0);
 ref = zero.dnom;
 }
 );

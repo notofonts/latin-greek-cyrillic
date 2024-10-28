@@ -41,25 +41,6 @@ ref = planckconstant;
 width = 600;
 },
 {
-layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
-shapes = (
-{
-closed = 1;
-nodes = (
-(451,586,l),
-(467,680,l),
-(58,680,l),
-(42,586,l)
-);
-},
-{
-alignment = -1;
-ref = planckconstant;
-}
-);
-width = 600;
-},
-{
 layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
 shapes = (
 {
@@ -107,25 +88,6 @@ nodes = (
 (353,670,l),
 (79,670,l),
 (66,605,l)
-);
-},
-{
-alignment = -1;
-ref = planckconstant;
-}
-);
-width = 500;
-},
-{
-layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(379,590,l),
-(398,678,l),
-(79,678,l),
-(60,590,l)
 );
 },
 {
