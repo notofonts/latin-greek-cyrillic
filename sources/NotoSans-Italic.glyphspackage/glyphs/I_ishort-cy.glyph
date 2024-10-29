@@ -1,22 +1,12 @@
 {
 category = Letter;
-color = 5;
+color = 6;
 glyphname = "Iishort-cy";
 kernLeft = "En-cy";
 kernRight = "En-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (287,0);
-},
-{
-name = top;
-pos = (476,917);
-}
-);
-layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+background = {
 shapes = (
 {
 alignment = -1;
@@ -27,19 +17,21 @@ pos = (201,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 708;
+};
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+alignment = -1;
+ref = "Ii-cy";
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (293,0);
-},
-{
-name = top;
-pos = (478,939);
+pos = (198,-16);
+ref = cyrillicbreve.cap;
 }
 );
+width = 689;
+},
+{
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
@@ -47,24 +39,14 @@ alignment = -1;
 ref = "Ii-cy";
 },
 {
-pos = (126,0);
+pos = (126,-1);
 ref = cyrillicbreve.cap;
 }
 );
-width = 749;
+width = 747;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (168,0);
-},
-{
-name = top;
-pos = (348,887);
-}
-);
-layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+background = {
 shapes = (
 {
 alignment = -1;
@@ -75,31 +57,21 @@ pos = (112,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 470;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (194,0);
-},
-{
-name = top;
-pos = (382,914);
-}
-);
-background = {
+};
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
 alignment = -1;
 ref = "Ii-cy";
 },
 {
-pos = (78,0);
+pos = (108,8);
 ref = cyrillicbreve.cap;
 }
 );
-};
+width = 470;
+},
+{
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
@@ -107,23 +79,13 @@ alignment = -1;
 ref = "Ii-cy";
 },
 {
-pos = (114,0);
+pos = (100,-3);
 ref = cyrillicbreve.cap;
 }
 );
-width = 499;
+width = 497;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (231,0);
-},
-{
-name = top;
-pos = (416,936);
-}
-);
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
@@ -131,24 +93,14 @@ alignment = -1;
 ref = "Ii-cy";
 },
 {
-pos = (104,0);
+pos = (103,-1);
 ref = cyrillicbreve.cap;
 }
 );
 width = 585;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (285,0);
-},
-{
-name = top;
-pos = (473,920);
-}
-);
-layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+background = {
 shapes = (
 {
 ref = "Ii-cy";
@@ -158,7 +110,18 @@ pos = (175,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 700;
+};
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+ref = "Ii-cy";
+},
+{
+pos = (172,-14);
+ref = cyrillicbreve.cap;
+}
+);
+width = 698;
 }
 );
 metricLeft = H;

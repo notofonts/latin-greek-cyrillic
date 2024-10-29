@@ -7,13 +7,25 @@ kernRight = "Zhe-cy";
 layers = (
 {
 background = {
-shapes = (
+anchors = (
 {
-ref = "Ka-cy";
+name = bottom;
+pos = (216,0);
 },
 {
-pos = (636,186);
-ref = acutecomb;
+name = top;
+pos = (419,952);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = K;
+},
+{
+alignment = -1;
+pos = (258,186);
+ref = acute;
 }
 );
 };
@@ -23,18 +35,33 @@ shapes = (
 ref = "Ka-cy";
 },
 {
-pos = (636,186);
+pos = (632,186);
 ref = acutecomb;
 }
 );
-width = 538;
+width = 557;
 },
 {
 background = {
+anchors = (
+{
+name = bottom;
+pos = (292,0);
+},
+{
+name = top;
+pos = (483,927);
+}
+);
 shapes = (
 {
-pos = (-4,0);
-ref = Kacute;
+alignment = -1;
+ref = K;
+},
+{
+alignment = -1;
+pos = (238,161);
+ref = acute;
 }
 );
 };
@@ -44,18 +71,33 @@ shapes = (
 ref = "Ka-cy";
 },
 {
-pos = (582,161);
+pos = (585,161);
 ref = acutecomb;
 }
 );
-width = 655;
+width = 662;
 },
 {
 background = {
+anchors = (
+{
+name = bottom;
+pos = (117,0);
+},
+{
+name = top;
+pos = (319,950);
+}
+);
 shapes = (
 {
-pos = (12,0);
-ref = Kacute;
+alignment = -1;
+ref = K;
+},
+{
+alignment = -1;
+pos = (129,184);
+ref = acute;
 }
 );
 };
@@ -65,33 +107,32 @@ shapes = (
 ref = "Ka-cy";
 },
 {
-pos = (467,184);
+pos = (452,184);
 ref = acutecomb;
 }
 );
-width = 353;
+width = 359;
 },
 {
 background = {
 anchors = (
 {
 name = bottom;
-pos = (157,0);
+pos = (147,0);
 },
 {
 name = top;
-pos = (357,944);
+pos = (347,944);
 }
 );
 shapes = (
 {
 alignment = -1;
-pos = (10,0);
 ref = K;
 },
 {
 alignment = -1;
-pos = (169,178);
+pos = (159,178);
 ref = acute;
 }
 );
@@ -102,17 +143,33 @@ shapes = (
 ref = "Ka-cy";
 },
 {
-pos = (534,178);
+pos = (524,178);
 ref = acutecomb;
 }
 );
-width = 422;
+width = 427;
 },
 {
 background = {
+anchors = (
+{
+name = bottom;
+pos = (200,0);
+},
+{
+name = top;
+pos = (400,944);
+}
+);
 shapes = (
 {
-ref = Kacute;
+alignment = -1;
+ref = K;
+},
+{
+alignment = -1;
+pos = (186,178);
+ref = acute;
 }
 );
 };
@@ -122,32 +179,33 @@ shapes = (
 ref = "Ka-cy";
 },
 {
-pos = (612,178);
+pos = (608,178);
 ref = acutecomb;
 }
 );
-width = 536;
+width = 533;
 },
 {
 background = {
 anchors = (
 {
 name = bottom;
-pos = (224,0);
+pos = (248,0);
 },
 {
 name = top;
-pos = (498,944);
+pos = (451,944);
 }
 );
 shapes = (
 {
 alignment = -1;
-ref = "Ka-cy";
+ref = K;
 },
 {
-pos = (271,178);
-ref = acutecomb.loclCYR;
+alignment = -1;
+pos = (249,178);
+ref = acute;
 }
 );
 };
@@ -157,11 +215,11 @@ shapes = (
 ref = "Ka-cy";
 },
 {
-pos = (599,178);
+pos = (595,178);
 ref = acutecomb;
 }
 );
-width = 582;
+width = 591;
 },
 {
 anchors = (

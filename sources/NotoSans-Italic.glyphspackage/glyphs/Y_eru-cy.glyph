@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 1;
 glyphname = "Yeru-cy";
 kernLeft = "En-cy";
 kernRight = "En-cy";
@@ -55,7 +55,6 @@ nodes = (
 }
 );
 };
-color = 1;
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
@@ -118,7 +117,6 @@ nodes = (
 }
 );
 };
-color = 1;
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
@@ -132,7 +130,6 @@ ref = I.salt;
 width = 910;
 },
 {
-color = 1;
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
@@ -146,7 +143,6 @@ ref = I.salt;
 width = 512;
 },
 {
-color = 1;
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
@@ -203,7 +199,6 @@ nodes = (
 }
 );
 };
-color = 1;
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
@@ -260,7 +255,6 @@ nodes = (
 }
 );
 };
-color = 1;
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {

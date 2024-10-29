@@ -6,16 +6,6 @@ kernLeft = "u-cy";
 kernRight = "u-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (109,-243);
-},
-{
-name = top;
-pos = (302,733);
-}
-);
 background = {
 shapes = (
 {
@@ -43,16 +33,6 @@ ref = cyrillicbreve;
 width = 410;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (165,-240);
-},
-{
-name = top;
-pos = (369,785);
-}
-);
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
@@ -89,16 +69,6 @@ ref = cyrillicbreve;
 width = 294;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (62,-243);
-},
-{
-name = top;
-pos = (256,737);
-}
-);
 background = {
 shapes = (
 {
@@ -124,16 +94,6 @@ ref = cyrillicbreve;
 width = 340;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (117,-240);
-},
-{
-name = top;
-pos = (324,775);
-}
-);
 background = {
 shapes = (
 {
@@ -158,16 +118,6 @@ ref = cyrillicbreve;
 width = 457;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (124,-240);
-},
-{
-name = top;
-pos = (321,745);
-}
-);
 background = {
 shapes = (
 {
@@ -194,8 +144,8 @@ ref = cyrillicbreve;
 width = 467;
 }
 );
-metricLeft = "u-cy";
-metricRight = "u-cy";
+metricLeft = y;
+metricRight = y;
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1118;

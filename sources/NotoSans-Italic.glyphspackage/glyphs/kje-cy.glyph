@@ -6,16 +6,6 @@ kernLeft = "en-cy";
 kernRight = "ha-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (191,0);
-},
-{
-name = top;
-pos = (374,766);
-}
-);
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
@@ -27,19 +17,9 @@ pos = (171,0);
 ref = acutecomb.loclCYR;
 }
 );
-width = 442;
+width = 464;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (262,0);
-},
-{
-name = top;
-pos = (463,766);
-}
-);
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
@@ -51,19 +31,9 @@ pos = (180,0);
 ref = acutecomb.loclCYR;
 }
 );
-width = 586;
+width = 610;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (117,0);
-},
-{
-name = top;
-pos = (292,766);
-}
-);
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
@@ -78,16 +48,6 @@ ref = acutecomb.loclCYR;
 width = 285;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (148,0);
-},
-{
-name = top;
-pos = (336,766);
-}
-);
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
@@ -99,42 +59,9 @@ pos = (113,0);
 ref = acutecomb.loclCYR;
 }
 );
-width = 352;
+width = 351;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (203,0);
-},
-{
-name = top;
-pos = (380,766);
-}
-);
-background = {
-anchors = (
-{
-name = bottom;
-pos = (192,0);
-},
-{
-name = top;
-pos = (354,766);
-}
-);
-shapes = (
-{
-alignment = -1;
-ref = "ka-cy";
-},
-{
-alignment = -1;
-pos = (146,0);
-ref = acute;
-}
-);
-};
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
@@ -142,23 +69,13 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-pos = (135,0);
+pos = (150,0);
 ref = acutecomb.loclCYR;
 }
 );
 width = 482;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (227,0);
-},
-{
-name = top;
-pos = (422,766);
-}
-);
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
@@ -166,15 +83,15 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-pos = (195,0);
+pos = (184,0);
 ref = acutecomb.loclCYR;
 }
 );
-width = 504;
+width = 500;
 }
 );
 metricLeft = "ka-cy";
-metricWidth = "ka-cy";
+metricRight = "ka-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1116;

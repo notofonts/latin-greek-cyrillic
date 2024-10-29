@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 0;
 glyphname = "zhe-cy";
 kernLeft = "zhe-cy";
 kernRight = "zhe-cy";
@@ -999,7 +999,6 @@ nodes = (
 }
 );
 };
-color = 1;
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
