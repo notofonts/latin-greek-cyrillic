@@ -2,8 +2,8 @@
 category = Letter;
 color = 1;
 glyphname = "en-cy";
-kernLeft = "en-cy";
-kernRight = "en-cy";
+kernLeft = n.right;
+kernRight = u.left;
 layers = (
 {
 anchors = (
@@ -50,6 +50,7 @@ nodes = (
 }
 );
 };
+color = 11;
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {
@@ -117,6 +118,7 @@ nodes = (
 }
 );
 };
+color = 11;
 layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
 shapes = (
 {
@@ -346,6 +348,7 @@ name = top;
 pos = (262,553);
 }
 );
+color = 11;
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
 shapes = (
 {

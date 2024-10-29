@@ -2,7 +2,8 @@
 category = Letter;
 color = 6;
 glyphname = "tsereversed-cy";
-kernRight = "en-cy";
+kernLeft = "de-cy";
+kernRight = u.left;
 layers = (
 {
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";

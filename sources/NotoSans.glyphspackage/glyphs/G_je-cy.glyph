@@ -2,8 +2,7 @@
 category = Letter;
 color = 6;
 glyphname = "Gje-cy";
-kernLeft = "En-cy";
-kernRight = "Te-cy";
+kernRight = T.left;
 layers = (
 {
 background = {
@@ -29,6 +28,7 @@ ref = acute;
 }
 );
 };
+color = 11;
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {

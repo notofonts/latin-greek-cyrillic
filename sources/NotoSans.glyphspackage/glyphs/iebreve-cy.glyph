@@ -2,8 +2,8 @@
 category = Letter;
 color = 6;
 glyphname = "iebreve-cy";
-kernLeft = "a-cy";
-kernRight = "ie-cy";
+kernLeft = o.right;
+kernRight = o.left;
 layers = (
 {
 background = {
@@ -28,6 +28,7 @@ ref = cyrillicbreve;
 }
 );
 };
+color = 11;
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {

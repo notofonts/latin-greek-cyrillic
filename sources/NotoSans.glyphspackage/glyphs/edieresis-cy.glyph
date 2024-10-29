@@ -3,7 +3,7 @@ category = Letter;
 color = 6;
 glyphname = "edieresis-cy";
 kernLeft = "ze-cy";
-kernRight = "o-cy";
+kernRight = o.left;
 layers = (
 {
 background = {
@@ -27,6 +27,7 @@ ref = dieresiscomb;
 }
 );
 };
+color = 11;
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {

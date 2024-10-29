@@ -2,10 +2,10 @@
 category = Letter;
 color = 6;
 glyphname = "Er-cy";
-kernLeft = "En-cy";
-kernRight = "Er-cy";
+kernRight = P.left;
 layers = (
 {
+color = 11;
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {

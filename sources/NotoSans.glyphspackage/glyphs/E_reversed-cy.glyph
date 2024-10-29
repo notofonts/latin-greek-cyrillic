@@ -3,7 +3,7 @@ category = Letter;
 color = 8;
 glyphname = "Ereversed-cy";
 kernLeft = "Ze-cy";
-kernRight = "O-cy";
+kernRight = O.left;
 layers = (
 {
 anchors = (
@@ -58,6 +58,7 @@ nodes = (
 }
 );
 };
+color = 11;
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {

@@ -2,8 +2,7 @@
 category = Letter;
 color = 1;
 glyphname = "Iu-cy";
-kernLeft = "En-cy";
-kernRight = "O-cy";
+kernRight = O.left;
 layers = (
 {
 anchors = (
@@ -70,6 +69,7 @@ nodes = (
 }
 );
 };
+color = 11;
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {

@@ -2,8 +2,8 @@
 category = Letter;
 color = 6;
 glyphname = "udieresis-cy";
-kernLeft = "u-cy";
-kernRight = "u-cy";
+kernLeft = v.right;
+kernRight = v.left;
 layers = (
 {
 background = {
@@ -23,6 +23,7 @@ ref = ydieresis;
 }
 );
 };
+color = 11;
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {

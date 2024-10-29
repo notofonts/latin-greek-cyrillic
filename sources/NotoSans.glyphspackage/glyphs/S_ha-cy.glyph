@@ -2,8 +2,6 @@
 category = Letter;
 color = 8;
 glyphname = "Sha-cy";
-kernLeft = "En-cy";
-kernRight = "En-cy";
 layers = (
 {
 anchors = (
@@ -20,6 +18,7 @@ name = top;
 pos = (493,714);
 }
 );
+color = 11;
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {

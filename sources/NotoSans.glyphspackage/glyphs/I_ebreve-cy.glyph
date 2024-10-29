@@ -2,8 +2,7 @@
 category = Letter;
 color = 6;
 glyphname = "Iebreve-cy";
-kernLeft = "Nje-cy";
-kernRight = "Ie-cy";
+kernRight = E.left;
 layers = (
 {
 background = {
@@ -28,6 +27,7 @@ ref = cyrillicbreve.cap;
 }
 );
 };
+color = 11;
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {

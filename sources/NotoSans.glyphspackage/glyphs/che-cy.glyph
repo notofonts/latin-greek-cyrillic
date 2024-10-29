@@ -3,7 +3,7 @@ category = Letter;
 color = 8;
 glyphname = "che-cy";
 kernLeft = "che-cy";
-kernRight = "en-cy";
+kernRight = u.left;
 layers = (
 {
 anchors = (
@@ -51,6 +51,7 @@ nodes = (
 }
 );
 };
+color = 11;
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {

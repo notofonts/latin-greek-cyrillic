@@ -2,10 +2,11 @@
 category = Letter;
 color = 6;
 glyphname = "dze-cy";
-kernLeft = "dze-cy";
-kernRight = "dze-cy";
+kernLeft = s.right;
+kernRight = s.left;
 layers = (
 {
+color = 11;
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {

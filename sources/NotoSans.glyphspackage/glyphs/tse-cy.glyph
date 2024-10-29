@@ -2,7 +2,7 @@
 category = Letter;
 color = 8;
 glyphname = "tse-cy";
-kernLeft = "en-cy";
+kernLeft = n.right;
 kernRight = "de-cy";
 layers = (
 {
@@ -41,6 +41,7 @@ nodes = (
 }
 );
 };
+color = 11;
 guides = (
 {
 angle = 90;

@@ -44,7 +44,7 @@ nodes = (
 ref = "el-cy";
 }
 );
-width = 542;
+width = 555;
 },
 {
 background = {

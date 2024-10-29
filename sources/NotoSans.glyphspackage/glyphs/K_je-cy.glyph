@@ -2,7 +2,6 @@
 category = Letter;
 color = 6;
 glyphname = "Kje-cy";
-kernLeft = "En-cy";
 kernRight = "Zhe-cy";
 layers = (
 {
@@ -27,6 +26,7 @@ ref = acutecomb;
 }
 );
 };
+color = 11;
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {

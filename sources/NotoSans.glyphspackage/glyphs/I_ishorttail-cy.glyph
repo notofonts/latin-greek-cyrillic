@@ -1,7 +1,6 @@
 {
 category = Letter;
 glyphname = "Iishorttail-cy";
-kernLeft = "Nje-cy";
 kernRight = "De-cy";
 layers = (
 {

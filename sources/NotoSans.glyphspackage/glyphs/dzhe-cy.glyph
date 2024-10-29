@@ -2,8 +2,8 @@
 category = Letter;
 color = 8;
 glyphname = "dzhe-cy";
-kernLeft = "en-cy";
-kernRight = "en-cy";
+kernLeft = n.right;
+kernRight = u.left;
 layers = (
 {
 anchors = (
@@ -20,6 +20,7 @@ name = top;
 pos = (279,528);
 }
 );
+color = 11;
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {

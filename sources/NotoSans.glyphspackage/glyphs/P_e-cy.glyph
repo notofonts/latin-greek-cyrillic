@@ -2,8 +2,6 @@
 category = Letter;
 color = 1;
 glyphname = "Pe-cy";
-kernLeft = "En-cy";
-kernRight = "En-cy";
 layers = (
 {
 anchors = (
@@ -37,6 +35,7 @@ nodes = (
 }
 );
 };
+color = 11;
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
 shapes = (
 {

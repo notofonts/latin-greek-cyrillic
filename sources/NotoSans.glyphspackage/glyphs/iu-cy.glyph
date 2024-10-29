@@ -2,8 +2,8 @@
 category = Letter;
 color = 8;
 glyphname = "iu-cy";
-kernLeft = "en-cy";
-kernRight = "o-cy";
+kernLeft = n.right;
+kernRight = o.left;
 layers = (
 {
 anchors = (
@@ -66,6 +66,7 @@ nodes = (
 }
 );
 };
+color = 11;
 guides = (
 {
 angle = 90;

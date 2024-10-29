@@ -20,6 +20,7 @@ name = Uppercase;
 );
 customParameters = (
 {
+disabled = 1;
 name = glyphOrder;
 value = (
 .notdef,
@@ -3876,7 +3877,7 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-date = "2024-04-05 09:23:01 +0000";
+date = "2024-10-29 13:23:19 +0000";
 familyName = "Noto Sans";
 featurePrefixes = (
 {
