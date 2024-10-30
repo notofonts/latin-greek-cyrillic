@@ -108,10 +108,6 @@ anchors = (
 {
 name = bottom;
 pos = (250,0);
-},
-{
-name = top;
-pos = (250,913);
 }
 );
 layerId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
