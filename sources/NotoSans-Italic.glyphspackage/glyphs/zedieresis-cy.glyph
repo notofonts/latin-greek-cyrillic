@@ -1,10 +1,168 @@
 {
 category = Letter;
-color = 5;
+color = 6;
 glyphname = "zedieresis-cy";
 kernLeft = "ze-cy";
 kernRight = "ve-cy";
 layers = (
+{
+background = {
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (-102,0);
+ref = dieresis;
+}
+);
+};
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (195,0);
+ref = dieresiscomb;
+}
+);
+width = 449;
+},
+{
+background = {
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (-63,0);
+ref = dieresis;
+}
+);
+};
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (205,0);
+ref = dieresiscomb;
+}
+);
+width = 442;
+},
+{
+background = {
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (-28,0);
+ref = dieresis;
+}
+);
+};
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (247,0);
+ref = dieresiscomb;
+}
+);
+width = 517;
+},
+{
+background = {
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (-99,0);
+ref = dieresis;
+}
+);
+};
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (127,0);
+ref = dieresiscomb;
+}
+);
+width = 290;
+},
+{
+background = {
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (-77,0);
+ref = dieresis;
+}
+);
+};
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (163,0);
+ref = dieresiscomb;
+}
+);
+width = 357;
+},
+{
+background = {
+shapes = (
+{
+pos = (3,0);
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (-37,0);
+ref = dieresis;
+}
+);
+};
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+pos = (3,0);
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (183,0);
+ref = dieresiscomb;
+}
+);
+width = 408;
+},
 {
 anchors = (
 {
@@ -16,7 +174,9 @@ name = top;
 pos = (275,709);
 }
 );
-layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+associatedMasterId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+layerId = "206997E6-F063-43E4-A17F-B7FB91130F20";
+name = "30. Oct 24, 00:04";
 shapes = (
 {
 ref = "ze-cy";
@@ -24,7 +184,7 @@ ref = "ze-cy";
 {
 alignment = -1;
 pos = (-102,0);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 423;
@@ -40,7 +200,9 @@ name = top;
 pos = (294,730);
 }
 );
-layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+layerId = "00226F54-9AF4-4546-A930-E05B52BE7EDC";
+name = "30. Oct 24, 00:04";
 shapes = (
 {
 ref = "ze-cy";
@@ -48,7 +210,7 @@ ref = "ze-cy";
 {
 alignment = -1;
 pos = (-63,0);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 446;
@@ -64,7 +226,9 @@ name = top;
 pos = (345,767);
 }
 );
-layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+associatedMasterId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+layerId = "9D9625CB-B39E-4DFA-A9A9-DD153C7E9666";
+name = "30. Oct 24, 00:04";
 shapes = (
 {
 ref = "ze-cy";
@@ -72,7 +236,7 @@ ref = "ze-cy";
 {
 alignment = -1;
 pos = (-28,0);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 510;
@@ -88,7 +252,9 @@ name = top;
 pos = (191,712);
 }
 );
-layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+associatedMasterId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+layerId = "C2BD0127-24F2-44B6-AB29-98BFA2846DF4";
+name = "30. Oct 24, 00:04";
 shapes = (
 {
 pos = (13,0);
@@ -97,7 +263,7 @@ ref = "ze-cy";
 {
 alignment = -1;
 pos = (-86,0);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 269;
@@ -113,7 +279,9 @@ name = top;
 pos = (215,733);
 }
 );
-layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+layerId = "309F52BB-3F31-4285-B802-716610E5CAD8";
+name = "30. Oct 24, 00:04";
 shapes = (
 {
 pos = (1,0);
@@ -122,7 +290,7 @@ ref = "ze-cy";
 {
 alignment = -1;
 pos = (-76,0);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 337;
@@ -138,7 +306,9 @@ name = top;
 pos = (266,767);
 }
 );
-layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+associatedMasterId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+layerId = "9EFE7177-90D0-42A2-A7B0-CDD9443CD89A";
+name = "30. Oct 24, 00:04";
 shapes = (
 {
 pos = (3,0);
@@ -147,14 +317,13 @@ ref = "ze-cy";
 {
 alignment = -1;
 pos = (-37,0);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 415;
 }
 );
 metricLeft = "ze-cy";
-metricWidth = "ze-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1247;

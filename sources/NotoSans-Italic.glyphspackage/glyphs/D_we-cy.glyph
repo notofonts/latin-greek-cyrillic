@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 0;
 glyphname = "Dwe-cy";
 kernLeft = "De-cy";
 kernRight = "De-cy";
@@ -35,7 +35,7 @@ nodes = (
 ref = "De-cy";
 }
 );
-width = 674;
+width = 645;
 },
 {
 anchors = (
@@ -67,7 +67,7 @@ nodes = (
 ref = "De-cy";
 }
 );
-width = 689;
+width = 640;
 },
 {
 anchors = (
@@ -99,7 +99,7 @@ nodes = (
 ref = "De-cy";
 }
 );
-width = 743;
+width = 756;
 },
 {
 anchors = (
@@ -131,7 +131,7 @@ nodes = (
 ref = "De-cy";
 }
 );
-width = 493;
+width = 474;
 },
 {
 anchors = (
@@ -163,7 +163,7 @@ nodes = (
 ref = "De-cy";
 }
 );
-width = 520;
+width = 503;
 },
 {
 anchors = (
@@ -195,7 +195,7 @@ nodes = (
 ref = "De-cy";
 }
 );
-width = 632;
+width = 630;
 }
 );
 metricLeft = "De-cy";

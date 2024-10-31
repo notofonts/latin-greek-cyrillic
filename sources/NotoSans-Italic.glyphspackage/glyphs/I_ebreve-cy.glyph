@@ -1,21 +1,11 @@
 {
 category = Letter;
-color = 9;
+color = 6;
 glyphname = "Iebreve-cy";
 kernLeft = "Nje-cy";
 kernRight = "Ie-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (212,0);
-},
-{
-name = top;
-pos = (418,917);
-}
-);
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
@@ -23,23 +13,13 @@ alignment = -1;
 ref = E;
 },
 {
-pos = (147,0);
+pos = (142,0);
 ref = cyrillicbreve.cap;
 }
 );
 width = 535;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (236,0);
-},
-{
-name = top;
-pos = (412,920);
-}
-);
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
@@ -47,13 +27,14 @@ alignment = -1;
 ref = E;
 },
 {
-pos = (116,0);
+pos = (109,0);
 ref = cyrillicbreve.cap;
 }
 );
 width = 514;
 },
 {
+background = {
 anchors = (
 {
 name = bottom;
@@ -61,9 +42,21 @@ pos = (262,0);
 },
 {
 name = top;
-pos = (420,939);
+pos = (434,948);
 }
 );
+shapes = (
+{
+alignment = -1;
+ref = E;
+},
+{
+alignment = -1;
+pos = (72,161);
+ref = breve;
+}
+);
+};
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
@@ -71,23 +64,13 @@ alignment = -1;
 ref = E;
 },
 {
-pos = (66,0);
+pos = (80,0);
 ref = cyrillicbreve.cap;
 }
 );
 width = 562;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (113,0);
-},
-{
-name = top;
-pos = (298,887);
-}
-);
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
@@ -95,23 +78,13 @@ alignment = -1;
 ref = E;
 },
 {
-pos = (59,0);
+pos = (68,0);
 ref = cyrillicbreve.cap;
 }
 );
 width = 338;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (128,0);
-},
-{
-name = top;
-pos = (319,914);
-}
-);
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
@@ -119,23 +92,13 @@ alignment = -1;
 ref = E;
 },
 {
-pos = (54,0);
+pos = (60,0);
 ref = cyrillicbreve.cap;
 }
 );
 width = 366;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (154,0);
-},
-{
-name = top;
-pos = (345,936);
-}
-);
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
@@ -143,7 +106,7 @@ alignment = -1;
 ref = E;
 },
 {
-pos = (33,0);
+pos = (27,0);
 ref = cyrillicbreve.cap;
 }
 );

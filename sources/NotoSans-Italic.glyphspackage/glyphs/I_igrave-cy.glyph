@@ -39,7 +39,7 @@ pos = (636,186);
 ref = gravecomb;
 }
 );
-width = 687;
+width = 689;
 },
 {
 background = {
@@ -74,7 +74,7 @@ pos = (742,161);
 ref = gravecomb;
 }
 );
-width = 707;
+width = 747;
 },
 {
 background = {
@@ -109,7 +109,7 @@ pos = (540,188);
 ref = gravecomb;
 }
 );
-width = 449;
+width = 470;
 },
 {
 background = {
@@ -144,7 +144,7 @@ pos = (542,185);
 ref = gravecomb;
 }
 );
-width = 499;
+width = 497;
 },
 {
 background = {
@@ -179,7 +179,7 @@ pos = (546,161);
 ref = gravecomb;
 }
 );
-width = 580;
+width = 585;
 },
 {
 background = {
@@ -214,7 +214,7 @@ pos = (743,178);
 ref = gravecomb;
 }
 );
-width = 700;
+width = 698;
 },
 {
 anchors = (
@@ -509,7 +509,6 @@ width = 580;
 );
 metricLeft = "Ii-cy";
 metricRight = "Ii-cy";
-metricWidth = "Ii-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1037;

@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 0;
 glyphname = "dzzhe-cy";
 kernRight = "ha-cy";
 layers = (
@@ -134,7 +134,7 @@ pos = (470,0);
 ref = "ka-cy";
 }
 );
-width = 912;
+width = 934;
 },
 {
 anchors = (
@@ -266,7 +266,7 @@ pos = (570,0);
 ref = "ka-cy";
 }
 );
-width = 1074;
+width = 1070;
 },
 {
 anchors = (
@@ -398,7 +398,7 @@ pos = (667,0);
 ref = "ka-cy";
 }
 );
-width = 1253;
+width = 1277;
 },
 {
 anchors = (
@@ -662,7 +662,7 @@ pos = (433,0);
 ref = "ka-cy";
 }
 );
-width = 785;
+width = 784;
 },
 {
 anchors = (

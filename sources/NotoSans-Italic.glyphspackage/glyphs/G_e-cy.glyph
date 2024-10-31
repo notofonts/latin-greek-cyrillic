@@ -43,7 +43,7 @@ name = top;
 pos = (377,714);
 }
 );
-layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+background = {
 shapes = (
 {
 closed = 1;
@@ -57,7 +57,22 @@ nodes = (
 );
 }
 );
-width = 523;
+};
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+closed = 1;
+nodes = (
+(207,0,l),
+(325,556,l),
+(553,556,l),
+(586,714,l),
+(167,714,l),
+(16,0,l)
+);
+}
+);
+width = 524;
 },
 {
 anchors = (

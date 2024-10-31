@@ -1,10 +1,220 @@
 {
 category = Letter;
-color = 5;
+color = 6;
 glyphname = "Zedieresis-cy";
 kernLeft = "Ze-cy";
 kernRight = "Ve-cy";
 layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (155,0);
+},
+{
+name = top;
+pos = (362,874);
+}
+);
+shapes = (
+{
+alignment = -1;
+pos = (-15,165);
+ref = dieresis;
+},
+{
+ref = "Ze-cy";
+}
+);
+};
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+ref = "Ze-cy";
+},
+{
+pos = (268,186);
+ref = dieresiscomb;
+}
+);
+width = 533;
+},
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (172,0);
+},
+{
+name = top;
+pos = (361,895);
+}
+);
+shapes = (
+{
+alignment = -1;
+pos = (4,165);
+ref = dieresis;
+},
+{
+ref = "Ze-cy";
+}
+);
+};
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+ref = "Ze-cy";
+},
+{
+pos = (275,178);
+ref = dieresiscomb;
+}
+);
+width = 540;
+},
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (219,0);
+},
+{
+name = top;
+pos = (400,932);
+}
+);
+shapes = (
+{
+alignment = -1;
+pos = (27,165);
+ref = dieresis;
+},
+{
+ref = "Ze-cy";
+}
+);
+};
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+ref = "Ze-cy";
+},
+{
+pos = (303,161);
+ref = dieresiscomb;
+}
+);
+width = 589;
+},
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (71,0);
+},
+{
+name = top;
+pos = (261,877);
+}
+);
+shapes = (
+{
+alignment = -1;
+pos = (-16,165);
+ref = dieresis;
+},
+{
+ref = "Ze-cy";
+}
+);
+};
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+ref = "Ze-cy";
+},
+{
+pos = (206,188);
+ref = dieresiscomb;
+}
+);
+width = 352;
+},
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (129,0);
+},
+{
+name = top;
+pos = (270,898);
+}
+);
+shapes = (
+{
+alignment = -1;
+pos = (-21,165);
+ref = dieresis;
+},
+{
+ref = "Ze-cy";
+}
+);
+};
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+ref = "Ze-cy";
+},
+{
+pos = (218,186);
+ref = dieresiscomb;
+}
+);
+width = 396;
+},
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (168,0);
+},
+{
+name = top;
+pos = (323,932);
+}
+);
+shapes = (
+{
+alignment = -1;
+pos = (20,165);
+ref = dieresis;
+},
+{
+ref = "Ze-cy";
+}
+);
+};
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+ref = "Ze-cy";
+},
+{
+pos = (263,184);
+ref = dieresiscomb;
+}
+);
+width = 494;
+},
 {
 anchors = (
 {
@@ -16,7 +226,9 @@ name = top;
 pos = (362,874);
 }
 );
-layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+associatedMasterId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+layerId = "C65B4903-3E25-4630-A839-845EF2741892";
+name = "29. Oct 24, 23:58";
 shapes = (
 {
 alignment = -1;
@@ -40,7 +252,9 @@ name = top;
 pos = (361,895);
 }
 );
-layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+layerId = "B83BD675-B095-423A-A617-FE74E6D8C0DD";
+name = "29. Oct 24, 23:58";
 shapes = (
 {
 alignment = -1;
@@ -64,7 +278,9 @@ name = top;
 pos = (400,932);
 }
 );
-layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+associatedMasterId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+layerId = "7C7545E5-0FE7-4C45-B710-CB547E70E867";
+name = "29. Oct 24, 23:58";
 shapes = (
 {
 alignment = -1;
@@ -88,7 +304,9 @@ name = top;
 pos = (261,877);
 }
 );
-layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+associatedMasterId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+layerId = "B658518D-C75A-4DF4-AEB6-A49D2BF9C6D9";
+name = "29. Oct 24, 23:58";
 shapes = (
 {
 alignment = -1;
@@ -112,7 +330,9 @@ name = top;
 pos = (270,898);
 }
 );
-layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+layerId = "6881240E-7BE5-47EA-B170-31C2C4035B03";
+name = "29. Oct 24, 23:58";
 shapes = (
 {
 alignment = -1;
@@ -136,7 +356,9 @@ name = top;
 pos = (323,932);
 }
 );
-layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+associatedMasterId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+layerId = "6B68BDBB-B5F8-49EE-94AD-476EC81DFA49";
+name = "29. Oct 24, 23:58";
 shapes = (
 {
 alignment = -1;
@@ -151,7 +373,7 @@ width = 476;
 }
 );
 metricLeft = "Ze-cy";
-metricWidth = "Ze-cy";
+metricRight = "Ze-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1246;

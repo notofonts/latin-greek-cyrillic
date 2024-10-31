@@ -1,22 +1,12 @@
 {
 category = Letter;
-color = 5;
+color = 6;
 glyphname = "Uhungarumlaut-cy";
 kernLeft = "U-cy";
 kernRight = "U-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (208,0);
-},
-{
-name = top;
-pos = (427,952);
-}
-);
-layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+background = {
 shapes = (
 {
 ref = "U-cy";
@@ -27,20 +17,22 @@ pos = (148,186);
 ref = hungarumlaut;
 }
 );
+};
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+ref = "U-cy";
+},
+{
+alignment = -1;
+pos = (360,186);
+ref = hungarumlautcomb;
+}
+);
 width = 546;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (213,0);
-},
-{
-name = top;
-pos = (457,944);
-}
-);
-layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+background = {
 shapes = (
 {
 ref = "U-cy";
@@ -51,20 +43,22 @@ pos = (156,178);
 ref = hungarumlaut;
 }
 );
+};
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+ref = "U-cy";
+},
+{
+alignment = -1;
+pos = (315,178);
+ref = hungarumlautcomb;
+}
+);
 width = 562;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (233,0);
-},
-{
-name = top;
-pos = (480,927);
-}
-);
-layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+background = {
 shapes = (
 {
 ref = "U-cy";
@@ -75,20 +69,22 @@ pos = (112,161);
 ref = hungarumlaut;
 }
 );
+};
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+ref = "U-cy";
+},
+{
+alignment = -1;
+pos = (349,161);
+ref = hungarumlautcomb;
+}
+);
 width = 610;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (99,0);
-},
-{
-name = top;
-pos = (294,931);
-}
-);
-layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+background = {
 shapes = (
 {
 ref = "U-cy";
@@ -99,20 +95,22 @@ pos = (36,165);
 ref = hungarumlaut;
 }
 );
+};
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+ref = "U-cy";
+},
+{
+alignment = -1;
+pos = (214,165);
+ref = hungarumlautcomb;
+}
+);
 width = 319;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (129,0);
-},
-{
-name = top;
-pos = (334,931);
-}
-);
-layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+background = {
 shapes = (
 {
 ref = "U-cy";
@@ -123,20 +121,22 @@ pos = (52,165);
 ref = hungarumlaut;
 }
 );
+};
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+ref = "U-cy";
+},
+{
+alignment = -1;
+pos = (247,165);
+ref = hungarumlautcomb;
+}
+);
 width = 377;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (188,0);
-},
-{
-name = top;
-pos = (409,931);
-}
-);
-layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+background = {
 shapes = (
 {
 ref = "U-cy";
@@ -147,11 +147,21 @@ pos = (88,165);
 ref = hungarumlaut;
 }
 );
+};
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+ref = "U-cy";
+},
+{
+alignment = -1;
+pos = (301,165);
+ref = hungarumlautcomb;
+}
+);
 width = 499;
 }
 );
-metricLeft = "U-cy";
-metricWidth = "U-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1266;

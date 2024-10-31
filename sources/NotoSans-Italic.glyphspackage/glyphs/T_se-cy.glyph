@@ -67,15 +67,15 @@ width = 675;
 anchors = (
 {
 name = bottom;
-pos = (250,-155);
+pos = (251,-155);
 },
 {
 name = center;
-pos = (335,245);
+pos = (336,245);
 },
 {
 name = top;
-pos = (435,714);
+pos = (436,714);
 }
 );
 background = {

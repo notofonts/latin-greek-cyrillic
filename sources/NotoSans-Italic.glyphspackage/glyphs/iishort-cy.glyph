@@ -12,7 +12,7 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (132,-4);
+pos = (124,0);
 ref = cyrillicbreve;
 }
 );
@@ -100,7 +100,7 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (72,0);
+pos = (71,0);
 ref = cyrillicbreve;
 }
 );
@@ -113,7 +113,7 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (62,-4);
+pos = (58,0);
 ref = cyrillicbreve;
 }
 );
@@ -135,32 +135,20 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (65,6);
+pos = (62,2);
 ref = cyrillicbreve;
 }
 );
 width = 413;
 },
 {
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (27,0);
-ref = cyrillicbreve;
-},
-{
-ref = "ii-cy";
-}
-);
-};
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
 ref = "ii-cy";
 },
 {
-pos = (61,0);
+pos = (58,2);
 ref = cyrillicbreve;
 }
 );
@@ -248,7 +236,7 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (116,0);
+pos = (114,0);
 ref = cyrillicbreve;
 }
 );

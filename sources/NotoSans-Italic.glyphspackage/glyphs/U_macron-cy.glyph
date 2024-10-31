@@ -1,21 +1,23 @@
 {
 category = Letter;
-color = 5;
+color = 6;
 glyphname = "Umacron-cy";
 kernLeft = "U-cy";
 kernRight = "U-cy";
 layers = (
 {
-anchors = (
+background = {
+shapes = (
 {
-name = bottom;
-pos = (208,0);
+ref = "U-cy";
 },
 {
-name = top;
-pos = (382,825);
+alignment = -1;
+pos = (143,186);
+ref = macronmod;
 }
 );
+};
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
@@ -30,16 +32,18 @@ ref = macronmod;
 width = 546;
 },
 {
-anchors = (
+background = {
+shapes = (
 {
-name = bottom;
-pos = (213,0);
+ref = "U-cy";
 },
 {
-name = top;
-pos = (394,855);
+alignment = -1;
+pos = (140,178);
+ref = macronmod;
 }
 );
+};
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
@@ -54,16 +58,18 @@ ref = macronmod;
 width = 562;
 },
 {
-anchors = (
+background = {
+shapes = (
 {
-name = bottom;
-pos = (233,0);
+ref = "U-cy";
 },
 {
-name = top;
-pos = (404,882);
+alignment = -1;
+pos = (119,161);
+ref = macronmod;
 }
 );
+};
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
@@ -78,17 +84,7 @@ ref = macronmod;
 width = 610;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (99,0);
-},
-{
-name = top;
-pos = (260,802);
-}
-);
-layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+background = {
 shapes = (
 {
 ref = "U-cy";
@@ -99,20 +95,22 @@ pos = (36,165);
 ref = macronmod;
 }
 );
+};
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+ref = "U-cy";
+},
+{
+alignment = -1;
+pos = (41,188);
+ref = macronmod;
+}
+);
 width = 319;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (129,0);
-},
-{
-name = top;
-pos = (294,835);
-}
-);
-layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+background = {
 shapes = (
 {
 ref = "U-cy";
@@ -123,20 +121,22 @@ pos = (55,165);
 ref = macronmod;
 }
 );
+};
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+ref = "U-cy";
+},
+{
+alignment = -1;
+pos = (59,186);
+ref = macronmod;
+}
+);
 width = 377;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (188,0);
-},
-{
-name = top;
-pos = (361,886);
-}
-);
-layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+background = {
 shapes = (
 {
 ref = "U-cy";
@@ -147,11 +147,23 @@ pos = (98,165);
 ref = macronmod;
 }
 );
+};
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+ref = "U-cy";
+},
+{
+alignment = -1;
+pos = (102,184);
+ref = macronmod;
+}
+);
 width = 499;
 }
 );
 metricLeft = "U-cy";
-metricWidth = "U-cy";
+metricRight = "U-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1262;
