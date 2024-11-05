@@ -7,7 +7,7 @@ layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
 alignment = -1;
-ref = iota;
+ref = "iota-latin";
 }
 );
 width = 279;
@@ -17,7 +17,7 @@ layerId = UUID0;
 shapes = (
 {
 alignment = -1;
-ref = iota;
+ref = "iota-latin";
 }
 );
 width = 334;
@@ -27,7 +27,7 @@ layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
 alignment = -1;
-ref = iota;
+ref = "iota-latin";
 }
 );
 width = 409;
@@ -37,7 +37,7 @@ layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
 alignment = -1;
-ref = iota;
+ref = "iota-latin";
 }
 );
 width = 198;
@@ -47,7 +47,7 @@ layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
 alignment = -1;
-ref = iota;
+ref = "iota-latin";
 }
 );
 width = 276;
@@ -57,7 +57,7 @@ layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
 alignment = -1;
-ref = iota;
+ref = "iota-latin";
 }
 );
 width = 340;
