@@ -51,6 +51,7 @@ pos = (183,0);
 ref = Eta;
 },
 {
+alignment = -1;
 pos = (-21,0);
 ref = psili.case;
 }

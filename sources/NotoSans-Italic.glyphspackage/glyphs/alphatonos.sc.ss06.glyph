@@ -42,9 +42,11 @@ layerId = "da23cf89-8f20-4ebc-9110-1d485871e8fb";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = alpha.sc;
 },
 {
+alignment = -1;
 pos = (268,36);
 ref = tonos.sc;
 }
@@ -102,9 +104,11 @@ layerId = "503d0117-8d72-46bc-adc4-da964c1b7317";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = alpha.sc;
 },
 {
+alignment = -1;
 pos = (177,33);
 ref = tonos.sc;
 }

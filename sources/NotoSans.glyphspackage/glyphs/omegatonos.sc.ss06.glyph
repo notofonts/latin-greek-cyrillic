@@ -42,9 +42,11 @@ layerId = "0653779e-2f98-4339-a734-02ec6ba710c8";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (260,37);
 ref = tonos.sc;
 }

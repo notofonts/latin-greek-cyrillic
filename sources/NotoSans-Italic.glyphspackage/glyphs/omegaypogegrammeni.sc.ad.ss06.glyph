@@ -81,9 +81,11 @@ layerId = "89f9a2f6-2de8-4d5a-8b5b-34ac90f1fd24";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (522,0);
 ref = iota.sc;
 }

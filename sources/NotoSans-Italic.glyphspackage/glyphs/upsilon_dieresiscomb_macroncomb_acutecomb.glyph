@@ -103,9 +103,11 @@ layerId = "4d7d89d9-19f3-4bbc-b370-ee0de8b076a4";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = upsilon;
 },
 {
+alignment = -1;
 pos = (132,-2);
 ref = acutecomb_macroncomb_dieresiscomb;
 }

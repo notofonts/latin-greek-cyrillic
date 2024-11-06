@@ -46,7 +46,7 @@ width = 315;
 layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
 shapes = (
 {
-alignment = 1;
+alignment = -1;
 ref = psilivaria;
 }
 );
@@ -74,7 +74,7 @@ width = 462;
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
 shapes = (
 {
-alignment = 1;
+alignment = -1;
 ref = psilivaria;
 }
 );

@@ -42,9 +42,11 @@ layerId = "4c841a97-e605-421d-ad2d-1270cc5cd3a7";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (137,0);
 ref = brevecomb;
 }

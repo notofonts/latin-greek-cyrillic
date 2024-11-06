@@ -43,9 +43,11 @@ layerId = "34160aa9-a5d4-406c-aab1-84985b131375";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = upsilon;
 },
 {
+alignment = -1;
 pos = (45,0);
 ref = psilioxia_macronmod;
 }

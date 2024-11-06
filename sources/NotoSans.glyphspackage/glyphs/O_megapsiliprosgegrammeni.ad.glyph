@@ -59,10 +59,12 @@ pos = (143,0);
 ref = Omega;
 },
 {
+alignment = -1;
 pos = (-21,0);
 ref = psili.case;
 },
 {
+alignment = -1;
 pos = (903,0);
 ref = prosgegrammeni;
 }

@@ -50,13 +50,16 @@ layerId = "841853ba-bb3f-415d-96e8-41861dd389da";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = alpha.sc;
 },
 {
+alignment = -1;
 pos = (114,36);
 ref = dasiaoxia.sc;
 },
 {
+alignment = -1;
 pos = (695,0);
 ref = iota.sc;
 }

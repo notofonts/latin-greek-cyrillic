@@ -42,9 +42,11 @@ layerId = "38e1e35d-8f9a-494a-aa67-6593215b9aaa";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = omicron.sc;
 },
 {
+alignment = -1;
 pos = (238,36);
 ref = psili.sc;
 }

@@ -42,9 +42,11 @@ layerId = "2e034736-6f2d-48ad-9899-32a04dc7e829";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (-92,0);
 ref = dialytikaperispomeni;
 }

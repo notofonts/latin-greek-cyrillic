@@ -33,6 +33,7 @@ width = 326;
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
+alignment = -1;
 ref = tonos.case;
 }
 );

@@ -51,6 +51,7 @@ pos = (194,0);
 ref = Omicron;
 },
 {
+alignment = -1;
 pos = (-30,0);
 ref = varia.case;
 }

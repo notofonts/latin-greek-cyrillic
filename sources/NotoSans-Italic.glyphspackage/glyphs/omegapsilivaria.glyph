@@ -42,9 +42,11 @@ layerId = "9ad5b89b-b675-4f53-8d7a-f702be4f17e9";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = omega;
 },
 {
+alignment = -1;
 pos = (131,0);
 ref = psilivaria;
 }
