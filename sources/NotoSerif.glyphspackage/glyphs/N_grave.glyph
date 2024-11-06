@@ -20,9 +20,8 @@ alignment = -1;
 ref = N;
 },
 {
-alignment = -1;
-pos = (216,165);
-ref = grave;
+pos = (216,178);
+ref = gravecomb;
 }
 );
 width = 731;
@@ -44,8 +43,8 @@ shapes = (
 ref = N;
 },
 {
-pos = (204,178);
-ref = grave;
+pos = (196,178);
+ref = gravecomb;
 }
 );
 width = 763;
@@ -67,8 +66,8 @@ shapes = (
 ref = N;
 },
 {
-pos = (175,155);
-ref = grave;
+pos = (164,178);
+ref = gravecomb;
 }
 );
 width = 806;
@@ -90,8 +89,8 @@ shapes = (
 ref = N;
 },
 {
-pos = (158,193);
-ref = grave;
+pos = (205,178);
+ref = gravecomb;
 }
 );
 width = 559;
@@ -113,8 +112,8 @@ shapes = (
 ref = N;
 },
 {
-pos = (150,179);
-ref = grave;
+pos = (142,178);
+ref = gravecomb;
 }
 );
 width = 608;
@@ -136,8 +135,8 @@ shapes = (
 ref = N;
 },
 {
-pos = (140,161);
-ref = grave;
+pos = (147,178);
+ref = gravecomb;
 }
 );
 width = 672;

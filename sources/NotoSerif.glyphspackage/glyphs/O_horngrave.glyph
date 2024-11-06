@@ -23,9 +23,8 @@ alignment = -1;
 ref = Ohorn;
 },
 {
-alignment = -1;
-pos = (216,165);
-ref = grave;
+pos = (213,178);
+ref = gravecomb;
 }
 );
 width = 726;
@@ -47,8 +46,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (186,165);
-ref = grave;
+pos = (203,178);
+ref = gravecomb;
 }
 );
 width = 778;
@@ -78,8 +77,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (171,165);
-ref = grave;
+pos = (205,178);
+ref = gravecomb;
 }
 );
 width = 843;
@@ -101,8 +100,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (160,165);
-ref = grave;
+pos = (199,178);
+ref = gravecomb;
 }
 );
 width = 875;
@@ -124,8 +123,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (144,165);
-ref = grave;
+pos = (202,178);
+ref = gravecomb;
 }
 );
 width = 553;
@@ -147,8 +146,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (136,165);
-ref = grave;
+pos = (152,178);
+ref = gravecomb;
 }
 );
 width = 630;
@@ -170,8 +169,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (127,165);
-ref = grave;
+pos = (166,178);
+ref = gravecomb;
 }
 );
 width = 730;
