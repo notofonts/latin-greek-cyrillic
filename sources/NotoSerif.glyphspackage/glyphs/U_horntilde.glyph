@@ -23,9 +23,8 @@ alignment = -1;
 ref = Uhorn;
 },
 {
-alignment = -1;
-pos = (140,165);
-ref = tilde;
+pos = (150,178);
+ref = tildecomb;
 }
 );
 width = 686;
@@ -47,8 +46,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (152,165);
-ref = tilde;
+pos = (171,178);
+ref = tildecomb;
 }
 );
 width = 778;
@@ -78,8 +77,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (162,165);
-ref = tilde;
+pos = (189,178);
+ref = tildecomb;
 }
 );
 width = 853;
@@ -101,8 +100,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (169,165);
-ref = tilde;
+pos = (177,178);
+ref = tildecomb;
 }
 );
 width = 859;
@@ -124,8 +123,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (98,165);
-ref = tilde;
+pos = (109,178);
+ref = tildecomb;
 }
 );
 width = 540;
@@ -147,8 +146,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (113,165);
-ref = tilde;
+pos = (123,178);
+ref = tildecomb;
 }
 );
 width = 617;
@@ -170,8 +169,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (134,165);
-ref = tilde;
+pos = (141,178);
+ref = tildecomb;
 }
 );
 width = 717;
