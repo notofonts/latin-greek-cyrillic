@@ -6,23 +6,23 @@ layers = (
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
-pos = (40,287);
+pos = (41,287);
 ref = aa.pcap;
 scale = (0.65,0.6);
 }
 );
-width = 502;
+width = 504;
 },
 {
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
-pos = (40,287);
+pos = (41,287);
 ref = aa.pcap;
 scale = (0.65,0.6);
 }
 );
-width = 571;
+width = 573;
 },
 {
 associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
@@ -36,12 +36,12 @@ layerId = "0e0eb8f1-721c-4123-81e5-5c15c0deb4cc";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
-pos = (40,287);
+pos = (41,287);
 ref = aa.pcap;
 scale = (0.65,0.6);
 }
 );
-width = 618;
+width = 617;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
@@ -52,29 +52,29 @@ ref = aa.pcap;
 scale = (0.65,0.6);
 }
 );
-width = 637;
+width = 643;
 },
 {
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
-pos = (40,287);
+pos = (41,287);
 ref = aa.pcap;
 scale = (0.65,0.6);
 }
 );
-width = 311;
+width = 307;
 },
 {
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
-pos = (40,287);
+pos = (41,287);
 ref = aa.pcap;
 scale = (0.65,0.6);
 }
 );
-width = 412;
+width = 405;
 },
 {
 associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
@@ -88,12 +88,12 @@ layerId = "02a6c73f-f5e3-404f-b08f-3f9fbeda1b56";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
-pos = (40,287);
+pos = (41,287);
 ref = aa.pcap;
 scale = (0.65,0.6);
 }
 );
-width = 490;
+width = 482;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
@@ -104,7 +104,7 @@ ref = aa.pcap;
 scale = (0.65,0.6);
 }
 );
-width = 558;
+width = 549;
 }
 );
 metricRight = "=|";

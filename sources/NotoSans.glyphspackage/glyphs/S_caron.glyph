@@ -101,7 +101,7 @@ alignment = -1;
 ref = S;
 },
 {
-pos = (282,168);
+pos = (288,168);
 ref = caroncomb;
 }
 );

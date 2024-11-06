@@ -66,7 +66,7 @@ alignment = -1;
 ref = A;
 },
 {
-pos = (137,0);
+pos = (141,0);
 ref = cyrillicbreve.cap;
 }
 );
@@ -133,7 +133,7 @@ alignment = -1;
 ref = A;
 },
 {
-pos = (109,0);
+pos = (112,0);
 ref = cyrillicbreve.cap;
 }
 );
@@ -208,7 +208,7 @@ alignment = -1;
 ref = A;
 },
 {
-pos = (112,0);
+pos = (110,0);
 ref = cyrillicbreve.cap;
 }
 );
@@ -275,7 +275,7 @@ alignment = -1;
 ref = A;
 },
 {
-pos = (110,0);
+pos = (111,0);
 ref = cyrillicbreve.cap;
 }
 );
@@ -342,7 +342,7 @@ alignment = -1;
 ref = A;
 },
 {
-pos = (31,0);
+pos = (32,0);
 ref = cyrillicbreve.cap;
 }
 );
@@ -409,7 +409,7 @@ alignment = -1;
 ref = A;
 },
 {
-pos = (53,0);
+pos = (54,1);
 ref = cyrillicbreve.cap;
 }
 );
@@ -484,7 +484,7 @@ alignment = -1;
 ref = A;
 },
 {
-pos = (71,0);
+pos = (66,2);
 ref = cyrillicbreve.cap;
 }
 );
@@ -551,7 +551,7 @@ alignment = -1;
 ref = A;
 },
 {
-pos = (80,0);
+pos = (76,3);
 ref = cyrillicbreve.cap;
 }
 );

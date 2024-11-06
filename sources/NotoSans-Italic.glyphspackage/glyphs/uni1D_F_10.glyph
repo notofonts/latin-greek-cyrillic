@@ -7,55 +7,55 @@ layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
 angle = 180;
-pos = (439,528);
+pos = (488,760);
 ref = kgreenlandic;
 }
 );
-width = 444;
+width = 439;
 },
 {
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
 angle = 180;
-pos = (495,536);
+pos = (543,760);
 ref = kgreenlandic;
 }
 );
-width = 498;
+width = 495;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
 angle = 180;
-pos = (617,553);
+pos = (661,760);
 ref = kgreenlandic;
 }
 );
-width = 618;
+width = 617;
 },
 {
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
 angle = 180;
-pos = (296,527);
+pos = (337,765);
 ref = kgreenlandic;
 }
 );
-width = 301;
+width = 286;
 },
 {
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
 angle = 180;
-pos = (361,537);
+pos = (411,765);
 ref = kgreenlandic;
 }
 );
-width = 365;
+width = 362;
 },
 {
 associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
@@ -70,7 +70,7 @@ name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
 angle = 180;
-pos = (425,547);
+pos = (472,765);
 ref = kgreenlandic;
 }
 );
@@ -81,11 +81,11 @@ layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
 angle = 180;
-pos = (484,553);
+pos = (529,765);
 ref = kgreenlandic;
 }
 );
-width = 482;
+width = 484;
 }
 );
 metricLeft = "=|k";

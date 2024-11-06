@@ -22,7 +22,7 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (222,0);
+pos = (223,0);
 ref = cyrillicbreve;
 }
 );
@@ -76,7 +76,7 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (239,0);
+pos = (237,0);
 ref = cyrillicbreve;
 }
 );
@@ -99,7 +99,7 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (264,0);
+pos = (268,0);
 ref = cyrillicbreve;
 }
 );
@@ -122,7 +122,7 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (124,8);
+pos = (123,0);
 ref = cyrillicbreve;
 }
 );
@@ -176,7 +176,7 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (158,3);
+pos = (159,0);
 ref = cyrillicbreve;
 }
 );
@@ -199,7 +199,7 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (202,-3);
+pos = (203,0);
 ref = cyrillicbreve;
 }
 );

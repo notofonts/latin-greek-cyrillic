@@ -89,7 +89,7 @@ alignment = -1;
 ref = j_sc.salt;
 },
 {
-pos = (-28,39);
+pos = (-32,41);
 ref = circumflexcomb.sc;
 }
 );

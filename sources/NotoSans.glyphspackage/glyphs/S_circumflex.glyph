@@ -101,7 +101,7 @@ alignment = -1;
 ref = S;
 },
 {
-pos = (283,168);
+pos = (287,168);
 ref = circumflexcomb;
 }
 );

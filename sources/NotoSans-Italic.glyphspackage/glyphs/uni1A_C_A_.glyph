@@ -20,7 +20,7 @@ pos = (-120,0);
 ref = plusbelowcomb;
 },
 {
-pos = (120,0);
+pos = (-161,-193);
 ref = plusbelowcomb;
 }
 );
@@ -44,7 +44,7 @@ pos = (-120,0);
 ref = plusbelowcomb;
 },
 {
-pos = (120,0);
+pos = (-145,-228);
 ref = plusbelowcomb;
 }
 );
@@ -68,7 +68,7 @@ pos = (-120,0);
 ref = plusbelowcomb;
 },
 {
-pos = (120,0);
+pos = (-166,-228);
 ref = plusbelowcomb;
 }
 );
@@ -92,7 +92,7 @@ pos = (-120,0);
 ref = plusbelowcomb;
 },
 {
-pos = (120,0);
+pos = (-161,-197);
 ref = plusbelowcomb;
 }
 );
@@ -116,7 +116,7 @@ pos = (-120,0);
 ref = plusbelowcomb;
 },
 {
-pos = (120,0);
+pos = (-157,-204);
 ref = plusbelowcomb;
 }
 );
@@ -140,7 +140,7 @@ pos = (-120,0);
 ref = plusbelowcomb;
 },
 {
-pos = (120,0);
+pos = (-145,-216);
 ref = plusbelowcomb;
 }
 );

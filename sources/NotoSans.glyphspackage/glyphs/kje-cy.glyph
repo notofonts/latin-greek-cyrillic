@@ -299,7 +299,7 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-pos = (282,0);
+pos = (270,0);
 ref = acutecomb.loclCYR;
 }
 );

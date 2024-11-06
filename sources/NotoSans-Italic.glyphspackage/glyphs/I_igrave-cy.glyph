@@ -48,7 +48,7 @@ alignment = -1;
 ref = "Ii-cy";
 },
 {
-pos = (164,161);
+pos = (163,161);
 ref = gravecomb.loclCYR;
 }
 );
@@ -72,7 +72,7 @@ alignment = -1;
 ref = "Ii-cy";
 },
 {
-pos = (119,188);
+pos = (118,188);
 ref = gravecomb.loclCYR;
 }
 );
@@ -96,7 +96,7 @@ alignment = -1;
 ref = "Ii-cy";
 },
 {
-pos = (117,185);
+pos = (118,185);
 ref = gravecomb.loclCYR;
 }
 );
@@ -120,7 +120,7 @@ alignment = -1;
 ref = "Ii-cy";
 },
 {
-pos = (105,161);
+pos = (104,161);
 ref = gravecomb.loclCYR;
 }
 );
@@ -144,7 +144,7 @@ alignment = -1;
 ref = "Ii-cy";
 },
 {
-pos = (211,178);
+pos = (209,178);
 ref = gravecomb.loclCYR;
 }
 );

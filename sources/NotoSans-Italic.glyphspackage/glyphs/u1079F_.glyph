@@ -6,56 +6,56 @@ layers = (
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
-pos = (52,287);
+pos = (41,287);
 ref = uni1DF05;
 scale = (0.65,0.6);
 }
 );
-width = 421;
+width = 369;
 },
 {
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
-pos = (43,287);
+pos = (41,287);
 ref = uni1DF05;
 scale = (0.65,0.6);
 }
 );
-width = 447;
+width = 419;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
-pos = (50,287);
+pos = (40,287);
 ref = uni1DF05;
 scale = (0.65,0.6);
 }
 );
-width = 570;
+width = 537;
 },
 {
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
-pos = (33,287);
+pos = (41,287);
 ref = uni1DF05;
 scale = (0.65,0.6);
 }
 );
-width = 246;
+width = 234;
 },
 {
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
-pos = (36,287);
+pos = (41,287);
 ref = uni1DF05;
 scale = (0.65,0.6);
 }
 );
-width = 304;
+width = 298;
 },
 {
 associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
@@ -74,18 +74,18 @@ ref = uni1DF05;
 scale = (0.65,0.6);
 }
 );
-width = 390;
+width = 371;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
-pos = (44,287);
+pos = (40,287);
 ref = uni1DF05;
 scale = (0.65,0.6);
 }
 );
-width = 428;
+width = 419;
 }
 );
 metricLeft = u1079E;
