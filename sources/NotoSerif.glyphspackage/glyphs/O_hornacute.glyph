@@ -23,9 +23,8 @@ alignment = -1;
 ref = Ohorn;
 },
 {
-alignment = -1;
-pos = (257,165);
-ref = acute;
+pos = (295,178);
+ref = acutecomb;
 }
 );
 width = 726;
@@ -47,8 +46,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (277,165);
-ref = acute;
+pos = (301,178);
+ref = acutecomb;
 }
 );
 width = 778;
@@ -78,8 +77,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (285,165);
-ref = acute;
+pos = (304,178);
+ref = acutecomb;
 }
 );
 width = 843;
@@ -101,8 +100,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (291,165);
-ref = acute;
+pos = (299,178);
+ref = acutecomb;
 }
 );
 width = 875;
@@ -124,8 +123,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (208,165);
-ref = acute;
+pos = (161,178);
+ref = acutecomb;
 }
 );
 width = 553;
@@ -147,8 +146,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (208,165);
-ref = acute;
+pos = (227,178);
+ref = acutecomb;
 }
 );
 width = 630;
@@ -170,8 +169,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (236,165);
-ref = acute;
+pos = (235,178);
+ref = acutecomb;
 }
 );
 width = 730;
