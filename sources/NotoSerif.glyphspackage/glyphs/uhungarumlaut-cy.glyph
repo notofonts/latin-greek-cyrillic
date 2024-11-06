@@ -22,9 +22,8 @@ alignment = -1;
 ref = y;
 },
 {
-alignment = -1;
-pos = (152,0);
-ref = hungarumlaut;
+pos = (93,0);
+ref = hungarumlautcomb;
 }
 );
 width = 547;
@@ -46,8 +45,8 @@ shapes = (
 ref = y;
 },
 {
-pos = (122,0);
-ref = hungarumlaut;
+pos = (83,0);
+ref = hungarumlautcomb;
 }
 );
 width = 565;
@@ -69,8 +68,8 @@ shapes = (
 ref = y;
 },
 {
-pos = (72,0);
-ref = hungarumlaut;
+pos = (77,0);
+ref = hungarumlautcomb;
 }
 );
 width = 589;
@@ -92,8 +91,8 @@ shapes = (
 ref = y;
 },
 {
-pos = (106,0);
-ref = hungarumlaut;
+pos = (60,0);
+ref = hungarumlautcomb;
 }
 );
 width = 417;
@@ -115,8 +114,8 @@ shapes = (
 ref = y;
 },
 {
-pos = (88,0);
-ref = hungarumlaut;
+pos = (61,0);
+ref = hungarumlautcomb;
 }
 );
 width = 449;
@@ -138,8 +137,8 @@ shapes = (
 ref = y;
 },
 {
-pos = (53,0);
-ref = hungarumlaut;
+pos = (66,0);
+ref = hungarumlautcomb;
 }
 );
 width = 491;
