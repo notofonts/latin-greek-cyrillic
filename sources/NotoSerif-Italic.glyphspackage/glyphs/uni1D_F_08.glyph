@@ -458,9 +458,11 @@ layerId = "10BFA44F-E6AA-4865-9121-2823FD16FA95";
 name = "Display Regular";
 shapes = (
 {
+alignment = -1;
 ref = rlonglegturned;
 },
 {
+alignment = -1;
 pos = (260,0);
 ref = retroflexhookcomb;
 }
@@ -473,9 +475,11 @@ layerId = "B0FB444A-E74D-436F-B895-49B982F8BF08";
 name = "Display Light";
 shapes = (
 {
+alignment = -1;
 ref = rlonglegturned;
 },
 {
+alignment = -1;
 pos = (239,0);
 ref = retroflexhookcomb;
 }
@@ -488,9 +492,11 @@ layerId = "3191161A-E72E-47C9-869E-103505208751";
 name = "Display SemiBold";
 shapes = (
 {
+alignment = -1;
 ref = rlonglegturned;
 },
 {
+alignment = -1;
 pos = (371,0);
 ref = retroflexhookcomb;
 }
@@ -503,10 +509,12 @@ layerId = "644449AA-E48C-4E2F-8B12-FCBF2850D3A5";
 name = "Display Bold";
 shapes = (
 {
+alignment = -1;
 pos = (3,0);
 ref = rlonglegturned;
 },
 {
+alignment = -1;
 pos = (454,0);
 ref = retroflexhookcomb;
 }
@@ -519,9 +527,11 @@ layerId = "CF505F3C-0CC8-4219-B27A-DF48CCC081D9";
 name = "Display Light Condensed";
 shapes = (
 {
+alignment = -1;
 ref = rlonglegturned;
 },
 {
+alignment = -1;
 pos = (200,0);
 ref = retroflexhookcomb;
 }
@@ -534,10 +544,12 @@ layerId = "72A8FA9A-4C7F-42C8-B73F-C4CA998D7924";
 name = "Display Condensed";
 shapes = (
 {
+alignment = -1;
 pos = (1,0);
 ref = rlonglegturned;
 },
 {
+alignment = -1;
 pos = (273,0);
 ref = retroflexhookcomb;
 }
@@ -550,10 +562,12 @@ layerId = "539710FD-14AB-4EB3-A1C2-01F16808EDF5";
 name = "Display SemiBold Condensed";
 shapes = (
 {
+alignment = -1;
 pos = (2,0);
 ref = rlonglegturned;
 },
 {
+alignment = -1;
 pos = (326,0);
 ref = retroflexhookcomb;
 }
@@ -566,10 +580,12 @@ layerId = "F2637B31-968A-4781-AC53-9A098FB32DDA";
 name = "Display Bold Condensed";
 shapes = (
 {
+alignment = -1;
 pos = (3,0);
 ref = rlonglegturned;
 },
 {
+alignment = -1;
 pos = (368,0);
 ref = retroflexhookcomb;
 }
