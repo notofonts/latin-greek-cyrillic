@@ -20,9 +20,8 @@ alignment = -1;
 ref = A;
 },
 {
-alignment = -1;
-pos = (170,165);
-ref = caron;
+pos = (174,178);
+ref = caroncomb;
 }
 );
 width = 645;
@@ -44,8 +43,8 @@ shapes = (
 ref = A;
 },
 {
-pos = (175,165);
-ref = caron;
+pos = (167,178);
+ref = caroncomb;
 }
 );
 width = 705;
@@ -67,8 +66,8 @@ shapes = (
 ref = A;
 },
 {
-pos = (149,165);
-ref = caron;
+pos = (155,178);
+ref = caroncomb;
 }
 );
 width = 788;
@@ -90,8 +89,8 @@ shapes = (
 ref = A;
 },
 {
-pos = (124,165);
-ref = caron;
+pos = (120,178);
+ref = caroncomb;
 }
 );
 width = 499;
@@ -113,8 +112,8 @@ shapes = (
 ref = A;
 },
 {
-pos = (127,165);
-ref = caron;
+pos = (121,178);
+ref = caroncomb;
 }
 );
 width = 568;
@@ -136,8 +135,8 @@ shapes = (
 ref = A;
 },
 {
-pos = (117,165);
-ref = caron;
+pos = (123,178);
+ref = caroncomb;
 }
 );
 width = 657;
