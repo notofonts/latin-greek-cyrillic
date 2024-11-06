@@ -21,8 +21,8 @@ shapes = (
 ref = u;
 },
 {
-pos = (180,0);
-ref = ogonek;
+pos = (281,0);
+ref = ogonekcomb;
 }
 );
 width = 691;
@@ -44,8 +44,8 @@ shapes = (
 ref = u;
 },
 {
-pos = (163,0);
-ref = ogonek;
+pos = (251,0);
+ref = ogonekcomb;
 }
 );
 width = 635;
@@ -67,8 +67,8 @@ shapes = (
 ref = u;
 },
 {
-pos = (151,0);
-ref = ogonek;
+pos = (231,0);
+ref = ogonekcomb;
 }
 );
 width = 577;
@@ -90,8 +90,8 @@ shapes = (
 ref = u;
 },
 {
-pos = (154,0);
-ref = ogonek;
+pos = (168,0);
+ref = ogonekcomb;
 }
 );
 width = 458;
@@ -114,9 +114,8 @@ alignment = -1;
 ref = u;
 },
 {
-alignment = -1;
-pos = (210,0);
-ref = ogonek;
+pos = (263,0);
+ref = ogonekcomb;
 }
 );
 width = 597;
@@ -138,8 +137,8 @@ shapes = (
 ref = u;
 },
 {
-pos = (133,0);
-ref = ogonek;
+pos = (193,0);
+ref = ogonekcomb;
 }
 );
 width = 510;
