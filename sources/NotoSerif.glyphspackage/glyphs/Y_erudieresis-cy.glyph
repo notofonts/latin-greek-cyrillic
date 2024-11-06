@@ -10,12 +10,11 @@ layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
 alignment = -1;
-pos = (130,165);
-ref = dieresis;
+ref = "Yeru-cy";
 },
 {
-alignment = -1;
-ref = "Yeru-cy";
+pos = (132,178);
+ref = dieresiscomb;
 }
 );
 width = 841;
@@ -24,66 +23,66 @@ width = 841;
 layerId = UUID0;
 shapes = (
 {
-pos = (179,165);
-ref = dieresis;
+ref = "Yeru-cy";
 },
 {
-ref = "Yeru-cy";
+pos = (170,178);
+ref = dieresiscomb;
 }
 );
-width = 915;
+width = 991;
 },
 {
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
-pos = (247,165);
-ref = dieresis;
+ref = "Yeru-cy";
 },
 {
-ref = "Yeru-cy";
+pos = (224,178);
+ref = dieresiscomb;
 }
 );
-width = 1035;
+width = 1095;
 },
 {
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
-pos = (115,165);
-ref = dieresis;
+ref = "Yeru-cy";
 },
 {
-ref = "Yeru-cy";
+pos = (103,178);
+ref = dieresiscomb;
 }
 );
-width = 643;
+width = 678;
 },
 {
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
-pos = (147,165);
-ref = dieresis;
+ref = "Yeru-cy";
 },
 {
-ref = "Yeru-cy";
+pos = (146,178);
+ref = dieresiscomb;
 }
 );
-width = 739;
+width = 788;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
-pos = (210,165);
-ref = dieresis;
+ref = "Yeru-cy";
 },
 {
-ref = "Yeru-cy";
+pos = (203,178);
+ref = dieresiscomb;
 }
 );
-width = 885;
+width = 925;
 }
 );
 metricLeft = "Yeru-cy";

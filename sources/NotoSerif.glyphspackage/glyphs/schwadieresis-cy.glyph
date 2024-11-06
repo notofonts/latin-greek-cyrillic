@@ -22,9 +22,8 @@ alignment = -1;
 ref = "schwa-cy";
 },
 {
-alignment = -1;
-pos = (-50,0);
-ref = dieresis;
+pos = (-44,0);
+ref = dieresiscomb;
 }
 );
 width = 489;
@@ -46,8 +45,8 @@ shapes = (
 ref = "schwa-cy";
 },
 {
-pos = (-27,0);
-ref = dieresis;
+pos = (-20,0);
+ref = dieresiscomb;
 }
 );
 width = 535;
@@ -69,8 +68,8 @@ shapes = (
 ref = "schwa-cy";
 },
 {
-pos = (-6,0);
-ref = dieresis;
+pos = (11,0);
+ref = dieresiscomb;
 }
 );
 width = 598;
@@ -92,8 +91,8 @@ shapes = (
 ref = "schwa-cy";
 },
 {
-pos = (-41,0);
-ref = dieresis;
+pos = (-29,0);
+ref = dieresiscomb;
 }
 );
 width = 379;
@@ -115,8 +114,8 @@ shapes = (
 ref = "schwa-cy";
 },
 {
-pos = (-18,0);
-ref = dieresis;
+pos = (-12,0);
+ref = dieresiscomb;
 }
 );
 width = 431;
@@ -138,8 +137,8 @@ shapes = (
 ref = "schwa-cy";
 },
 {
-pos = (4,0);
-ref = dieresis;
+pos = (10,0);
+ref = dieresiscomb;
 }
 );
 width = 499;
