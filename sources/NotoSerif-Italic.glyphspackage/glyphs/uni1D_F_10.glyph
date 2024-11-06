@@ -7,7 +7,7 @@ layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
 angle = 180;
-pos = (533,536);
+pos = (581,760);
 ref = kgreenlandic;
 }
 );
@@ -18,55 +18,55 @@ layerId = UUID0;
 shapes = (
 {
 angle = 180;
-pos = (569,536);
+pos = (617,760);
 ref = kgreenlandic;
 }
 );
-width = 568;
+width = 569;
 },
 {
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
 angle = 180;
-pos = (644,536);
+pos = (692,760);
 ref = kgreenlandic;
 }
 );
-width = 613;
+width = 644;
 },
 {
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
 angle = 180;
-pos = (408,536);
+pos = (456,760);
 ref = kgreenlandic;
 }
 );
-width = 404;
+width = 408;
 },
 {
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
 angle = 180;
-pos = (464,536);
+pos = (512,760);
 ref = kgreenlandic;
 }
 );
-width = 465;
+width = 464;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
 angle = 180;
-pos = (532,536);
+pos = (580,760);
 ref = kgreenlandic;
 }
 );
-width = 524;
+width = 532;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -75,11 +75,11 @@ name = "Display Regular";
 shapes = (
 {
 angle = 180;
-pos = (585,536);
+pos = (581,760);
 ref = kgreenlandic;
 }
 );
-width = 590;
+width = 533;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -88,11 +88,11 @@ name = "Display Light";
 shapes = (
 {
 angle = 180;
-pos = (528,528);
+pos = (581,760);
 ref = kgreenlandic;
 }
 );
-width = 529;
+width = 533;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -101,11 +101,11 @@ name = "Display SemiBold";
 shapes = (
 {
 angle = 180;
-pos = (636,546);
+pos = (581,760);
 ref = kgreenlandic;
 }
 );
-width = 644;
+width = 533;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -114,11 +114,11 @@ name = "Display Bold";
 shapes = (
 {
 angle = 180;
-pos = (674,553);
+pos = (581,760);
 ref = kgreenlandic;
 }
 );
-width = 685;
+width = 533;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -127,11 +127,11 @@ name = "Display Light Condensed";
 shapes = (
 {
 angle = 180;
-pos = (405,527);
+pos = (581,760);
 ref = kgreenlandic;
 }
 );
-width = 409;
+width = 533;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -140,11 +140,11 @@ name = "Display Condensed";
 shapes = (
 {
 angle = 180;
-pos = (473,537);
+pos = (581,760);
 ref = kgreenlandic;
 }
 );
-width = 480;
+width = 533;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -153,11 +153,11 @@ name = "Display SemiBold Condensed";
 shapes = (
 {
 angle = 180;
-pos = (523,547);
+pos = (581,760);
 ref = kgreenlandic;
 }
 );
-width = 532;
+width = 533;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -166,11 +166,11 @@ name = "Display Bold Condensed";
 shapes = (
 {
 angle = 180;
-pos = (562,553);
+pos = (581,760);
 ref = kgreenlandic;
 }
 );
-width = 572;
+width = 533;
 }
 );
 metricLeft = "=|k";

@@ -105,7 +105,7 @@ pos = (-266,0);
 ref = acute;
 }
 );
-width = 0;
+width = 160;
 },
 {
 anchors = (

@@ -20,11 +20,11 @@ pos = (126,0);
 ref = acutecomb;
 },
 {
-pos = (326,0);
+pos = (159,230);
 ref = acutecomb;
 },
 {
-pos = (-74,0);
+pos = (192,460);
 ref = acutecomb;
 }
 );
@@ -48,11 +48,11 @@ pos = (224,0);
 ref = acutecomb;
 },
 {
-pos = (424,0);
+pos = (257,230);
 ref = acutecomb;
 },
 {
-pos = (24,0);
+pos = (290,460);
 ref = acutecomb;
 }
 );
@@ -76,10 +76,11 @@ pos = (220,0);
 ref = acutecomb;
 },
 {
-pos = (440,0);
+pos = (253,230);
 ref = acutecomb;
 },
 {
+pos = (286,460);
 ref = acutecomb;
 }
 );
@@ -103,11 +104,11 @@ pos = (165,0);
 ref = acutecomb;
 },
 {
-pos = (365,0);
+pos = (198,230);
 ref = acutecomb;
 },
 {
-pos = (-35,0);
+pos = (231,460);
 ref = acutecomb;
 }
 );
@@ -131,11 +132,11 @@ pos = (198,0);
 ref = acutecomb;
 },
 {
-pos = (398,0);
+pos = (231,230);
 ref = acutecomb;
 },
 {
-pos = (-2,0);
+pos = (264,460);
 ref = acutecomb;
 }
 );
@@ -159,11 +160,11 @@ pos = (232,0);
 ref = acutecomb;
 },
 {
-pos = (432,0);
+pos = (266,230);
 ref = acutecomb;
 },
 {
-pos = (32,0);
+pos = (300,460);
 ref = acutecomb;
 }
 );
@@ -189,11 +190,11 @@ pos = (-50,0);
 ref = acutecomb;
 },
 {
-pos = (150,0);
+pos = (-17,230);
 ref = acutecomb;
 },
 {
-pos = (-250,0);
+pos = (16,460);
 ref = acutecomb;
 }
 );
@@ -219,11 +220,11 @@ pos = (-40,0);
 ref = acutecomb;
 },
 {
-pos = (160,0);
+pos = (-7,230);
 ref = acutecomb;
 },
 {
-pos = (-240,0);
+pos = (26,460);
 ref = acutecomb;
 }
 );
@@ -249,11 +250,11 @@ pos = (-70,0);
 ref = acutecomb;
 },
 {
-pos = (130,0);
+pos = (-37,230);
 ref = acutecomb;
 },
 {
-pos = (-270,0);
+pos = (-4,460);
 ref = acutecomb;
 }
 );
@@ -279,11 +280,11 @@ pos = (-80,0);
 ref = acutecomb;
 },
 {
-pos = (120,0);
+pos = (-47,230);
 ref = acutecomb;
 },
 {
-pos = (-280,0);
+pos = (-14,460);
 ref = acutecomb;
 }
 );
@@ -309,11 +310,11 @@ pos = (-40,0);
 ref = acutecomb;
 },
 {
-pos = (160,0);
+pos = (-7,230);
 ref = acutecomb;
 },
 {
-pos = (-240,0);
+pos = (26,460);
 ref = acutecomb;
 }
 );
@@ -339,11 +340,11 @@ pos = (-40,0);
 ref = acutecomb;
 },
 {
-pos = (160,0);
+pos = (-7,230);
 ref = acutecomb;
 },
 {
-pos = (-240,0);
+pos = (26,460);
 ref = acutecomb;
 }
 );
@@ -369,11 +370,11 @@ pos = (-60,0);
 ref = acutecomb;
 },
 {
-pos = (140,0);
+pos = (-27,230);
 ref = acutecomb;
 },
 {
-pos = (-260,0);
+pos = (6,460);
 ref = acutecomb;
 }
 );
@@ -399,11 +400,11 @@ pos = (-60,0);
 ref = acutecomb;
 },
 {
-pos = (140,0);
+pos = (-27,230);
 ref = acutecomb;
 },
 {
-pos = (-260,0);
+pos = (6,460);
 ref = acutecomb;
 }
 );
