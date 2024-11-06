@@ -50,13 +50,16 @@ layerId = "68774e67-6b86-4854-b4d1-d1d0f70bc0b1";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = alpha.sc;
 },
 {
+alignment = -1;
 pos = (95,35);
 ref = dasiaperispomeni.sc;
 },
 {
+alignment = -1;
 pos = (194,0);
 ref = ypogegrammeni;
 }

@@ -46,9 +46,11 @@ width = 399;
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (74,0);
 ref = macroncomb;
 }
@@ -59,9 +61,11 @@ width = 209;
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (119,0);
 ref = macroncomb;
 }

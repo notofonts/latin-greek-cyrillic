@@ -50,13 +50,16 @@ layerId = "637f34f0-632a-4e51-b1fc-dcabc9c16df6";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = eta.sc;
 },
 {
+alignment = -1;
 pos = (201,35);
 ref = varia.sc;
 },
 {
+alignment = -1;
 pos = (710,0);
 ref = iota.sc;
 }
