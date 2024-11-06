@@ -17130,7 +17130,6 @@ value = GOOG;
 }
 );
 settings = {
-disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
 };
 stems = (

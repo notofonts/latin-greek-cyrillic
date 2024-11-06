@@ -6664,7 +6664,6 @@ value = "Version 2.014";
 }
 );
 settings = {
-disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
 };
 stems = (
