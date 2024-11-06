@@ -10,12 +10,11 @@ layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
 alignment = -1;
-pos = (136,0);
-ref = macronmod;
+ref = "ii-cy";
 },
 {
-alignment = -1;
-ref = "ii-cy";
+pos = (136,0);
+ref = macroncomb;
 }
 );
 width = 642;
@@ -24,11 +23,11 @@ width = 642;
 layerId = UUID0;
 shapes = (
 {
-pos = (153,0);
-ref = macronmod;
+ref = "ii-cy";
 },
 {
-ref = "ii-cy";
+pos = (153,0);
+ref = macroncomb;
 }
 );
 width = 675;
@@ -45,11 +44,11 @@ layerId = "3040b042-1e48-4361-9142-de2c0482e8d5";
 name = "SemiBold (intermediate)";
 shapes = (
 {
-pos = (155,0);
-ref = macronmod;
+ref = "ii-cy";
 },
 {
-ref = "ii-cy";
+pos = (155,0);
+ref = macroncomb;
 }
 );
 width = 679;
@@ -58,11 +57,11 @@ width = 679;
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
-pos = (170,0);
-ref = macronmod;
+ref = "ii-cy";
 },
 {
-ref = "ii-cy";
+pos = (170,0);
+ref = macroncomb;
 }
 );
 width = 710;
@@ -71,11 +70,11 @@ width = 710;
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
-pos = (92,0);
-ref = macronmod;
+ref = "ii-cy";
 },
 {
-ref = "ii-cy";
+pos = (92,0);
+ref = macroncomb;
 }
 );
 width = 484;
@@ -84,11 +83,11 @@ width = 484;
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
-pos = (109,0);
-ref = macronmod;
+ref = "ii-cy";
 },
 {
-ref = "ii-cy";
+pos = (108,0);
+ref = macroncomb;
 }
 );
 width = 526;
@@ -97,11 +96,11 @@ width = 526;
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
-pos = (133,0);
-ref = macronmod;
+ref = "ii-cy";
 },
 {
-ref = "ii-cy";
+pos = (133,0);
+ref = macroncomb;
 }
 );
 width = 587;
