@@ -19,13 +19,11 @@ pos = (310,766);
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
-alignment = -1;
-pos = (105,0);
-ref = grave;
+ref = "ii-cy";
 },
 {
-alignment = -1;
-ref = "ii-cy";
+pos = (532,0);
+ref = gravecomb;
 }
 );
 width = 560;
