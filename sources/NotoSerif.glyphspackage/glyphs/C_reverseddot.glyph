@@ -6,7 +6,6 @@ layers = (
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-alignment = -1;
 ref = Oopen;
 },
 {
@@ -14,7 +13,7 @@ pos = (212,178);
 ref = dotaccentcomb;
 }
 );
-width = 543;
+width = 550;
 },
 {
 layerId = UUID0;

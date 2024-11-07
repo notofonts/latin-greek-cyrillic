@@ -16,12 +16,10 @@ pos = (266,717);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-alignment = -1;
 ref = o;
 },
 {
-alignment = -1;
-pos = (266,0);
+pos = (85,0);
 ref = breveinvertedcomb;
 }
 );
@@ -44,7 +42,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (288,0);
+pos = (109,0);
 ref = breveinvertedcomb;
 }
 );
@@ -136,7 +134,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (266,0);
+pos = (86,0);
 ref = breveinvertedcomb;
 }
 );

@@ -110,12 +110,10 @@ pos = (251,801);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-alignment = -1;
 ref = e.sc;
 },
 {
-alignment = -1;
-pos = (-25,35);
+pos = (-38,35);
 ref = caroncomb.sc;
 }
 );

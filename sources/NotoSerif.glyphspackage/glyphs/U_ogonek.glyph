@@ -110,16 +110,14 @@ pos = (342,714);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-alignment = -1;
-pos = (2,0);
 ref = U;
 },
 {
-pos = (92,0);
+pos = (90,0);
 ref = ogonekcomb;
 }
 );
-width = 681;
+width = 679;
 },
 {
 anchors = (
