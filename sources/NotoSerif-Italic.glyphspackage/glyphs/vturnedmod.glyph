@@ -6,7 +6,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (157,281);
+pos = (159,288);
+},
+{
+name = ogonek;
+pos = (312,288);
 },
 {
 name = top;
@@ -28,7 +32,11 @@ width = 308;
 anchors = (
 {
 name = bottom;
-pos = (178,284);
+pos = (181,288);
+},
+{
+name = ogonek;
+pos = (334,288);
 },
 {
 name = top;
@@ -50,7 +58,11 @@ width = 350;
 anchors = (
 {
 name = bottom;
-pos = (205,280);
+pos = (205,288);
+},
+{
+name = ogonek;
+pos = (364,288);
 },
 {
 name = top;
@@ -72,7 +84,11 @@ width = 404;
 anchors = (
 {
 name = bottom;
-pos = (126,282);
+pos = (130,288);
+},
+{
+name = ogonek;
+pos = (255,288);
 },
 {
 name = top;
@@ -94,7 +110,11 @@ width = 246;
 anchors = (
 {
 name = bottom;
-pos = (147,285);
+pos = (149,288);
+},
+{
+name = ogonek;
+pos = (282,288);
 },
 {
 name = top;
@@ -116,7 +136,11 @@ width = 286;
 anchors = (
 {
 name = bottom;
-pos = (170,281);
+pos = (172,288);
+},
+{
+name = ogonek;
+pos = (316,288);
 },
 {
 name = top;
