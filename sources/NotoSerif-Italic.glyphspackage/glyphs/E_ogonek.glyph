@@ -19,13 +19,11 @@ pos = (407,714);
 layerId = UUID0;
 shapes = (
 {
-alignment = -1;
 ref = E;
 },
 {
-alignment = -1;
-pos = (303,0);
-ref = ogonek;
+pos = (119,0);
+ref = ogonekcomb;
 }
 );
 width = 623;
@@ -52,13 +50,11 @@ layerId = "d550b088-e283-4532-b8b9-59869bb012c0";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
-alignment = -1;
 ref = E;
 },
 {
-alignment = -1;
-pos = (341,0);
-ref = ogonek;
+pos = (133,0);
+ref = ogonekcomb;
 }
 );
 width = 633;
@@ -77,13 +73,11 @@ pos = (426,714);
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
-alignment = -1;
 ref = E;
 },
 {
-alignment = -1;
-pos = (369,0);
-ref = ogonek;
+pos = (154,0);
+ref = ogonekcomb;
 }
 );
 width = 661;
@@ -102,13 +96,11 @@ pos = (366,714);
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
-alignment = -1;
 ref = E;
 },
 {
-alignment = -1;
-pos = (289,0);
-ref = ogonek;
+pos = (84,0);
+ref = ogonekcomb;
 }
 );
 width = 542;
@@ -127,13 +119,11 @@ pos = (332,714);
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
-alignment = -1;
 ref = E;
 },
 {
-alignment = -1;
-pos = (230,0);
-ref = ogonek;
+pos = (22,0);
+ref = ogonekcomb;
 }
 );
 width = 475;
@@ -152,16 +142,14 @@ pos = (401,714);
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
-alignment = -1;
 ref = E;
 },
 {
-alignment = -1;
-pos = (281,0);
-ref = ogonek;
+pos = (91,0);
+ref = ogonekcomb;
 }
 );
-width = 611;
+width = 604;
 },
 {
 anchors = (
@@ -177,13 +165,11 @@ pos = (348,714);
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
-alignment = -1;
 ref = E;
 },
 {
-alignment = -1;
-pos = (252,0);
-ref = ogonek;
+pos = (51,0);
+ref = ogonekcomb;
 }
 );
 width = 505;
