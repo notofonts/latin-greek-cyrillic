@@ -139,6 +139,37 @@ ref = "Che-cy";
 }
 );
 width = 675;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (383,0);
+},
+{
+name = center;
+pos = (383,357);
+},
+{
+name = top;
+pos = (383,714);
+}
+);
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "043910C9-3405-4CF0-91D3-1928F74B3208";
+name = "7 Nov 24 at 12:13";
+shapes = (
+{
+ref = "Che-cy";
+}
+);
+width = 785;
 }
 );
 script = latin;
