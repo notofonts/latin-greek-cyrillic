@@ -9,6 +9,10 @@ name = bottom;
 pos = (273,0);
 },
 {
+name = ogonek;
+pos = (462,0);
+},
+{
 name = top;
 pos = (273,536);
 },
@@ -33,6 +37,10 @@ anchors = (
 {
 name = bottom;
 pos = (290,0);
+},
+{
+name = ogonek;
+pos = (462,0);
 },
 {
 name = top;
@@ -61,6 +69,10 @@ name = bottom;
 pos = (313,0);
 },
 {
+name = ogonek;
+pos = (482,0);
+},
+{
 name = top;
 pos = (313,536);
 },
@@ -85,6 +97,10 @@ anchors = (
 {
 name = bottom;
 pos = (209,0);
+},
+{
+name = ogonek;
+pos = (358,0);
 },
 {
 name = top;
@@ -113,6 +129,10 @@ name = bottom;
 pos = (232,0);
 },
 {
+name = ogonek;
+pos = (377,0);
+},
+{
 name = top;
 pos = (232,536);
 },
@@ -137,6 +157,10 @@ anchors = (
 {
 name = bottom;
 pos = (261,0);
+},
+{
+name = ogonek;
+pos = (400,0);
 },
 {
 name = top;
