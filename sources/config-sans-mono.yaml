@@ -1,6 +1,7 @@
 buildVariable: true
 familyName: Noto Sans Mono
 googleFonts: true
+logLevel: DEBUG
+recipeProvider: noto
 sources:
 - NotoSansMono.glyphspackage
-logLevel: DEBUG
