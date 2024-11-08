@@ -1,13 +1,14 @@
 buildVariable: true
 familyName: Noto Sans
 googleFonts: true
+includeSubsets:
+- force: true
+  from: Noto Sans Devanagari
+  layoutHandling: closure
+  ranges:
+  - end: 2431
+    start: 2304
+recipeProvider: noto
 sources:
 - NotoSans.glyphspackage
 - NotoSans-Italic.glyphspackage
-includeSubsets:
-- from: Noto Sans Devanagari
-  layoutHandling: closure
-  force: true
-  ranges:
-    - start: 0x900
-      end: 0x97F
