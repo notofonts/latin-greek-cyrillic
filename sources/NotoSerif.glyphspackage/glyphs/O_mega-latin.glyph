@@ -188,8 +188,16 @@ width = 982;
 {
 anchors = (
 {
+name = bottom;
+pos = (562,0);
+},
+{
 name = center;
 pos = (562,357);
+},
+{
+name = top;
+pos = (562,714);
 }
 );
 associatedMasterId = UUID0;
