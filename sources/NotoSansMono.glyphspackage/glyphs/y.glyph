@@ -66,6 +66,10 @@ name = bottom;
 pos = (300,-245);
 },
 {
+name = ogonek;
+pos = (180,-215);
+},
+{
 name = top;
 pos = (300,546);
 },
@@ -384,6 +388,10 @@ anchors = (
 {
 name = bottom;
 pos = (250,-245);
+},
+{
+name = ogonek;
+pos = (142,-215);
 },
 {
 name = top;

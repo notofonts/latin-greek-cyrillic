@@ -150,6 +150,10 @@ name = center;
 pos = (295,357);
 },
 {
+name = ogonek;
+pos = (430,0);
+},
+{
 name = top;
 pos = (301,714);
 },
