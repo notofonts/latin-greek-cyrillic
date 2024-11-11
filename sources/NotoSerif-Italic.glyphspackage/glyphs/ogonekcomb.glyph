@@ -129,7 +129,6 @@ ref = ogonek;
 width = 360;
 }
 );
-metricWidth = "=360";
 script = "";
 subCategory = Nonspacing;
 unicode = 808;
