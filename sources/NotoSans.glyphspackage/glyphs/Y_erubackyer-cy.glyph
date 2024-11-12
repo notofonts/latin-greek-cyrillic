@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 2;
 glyphname = "Yerubackyer-cy";
 layers = (
 {

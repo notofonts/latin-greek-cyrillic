@@ -2,6 +2,7 @@
 category = Letter;
 color = 6;
 glyphname = "yerubackyer-cy";
+kernLeft = "hardsign-cy.right";
 kernRight = "en-cy";
 layers = (
 {

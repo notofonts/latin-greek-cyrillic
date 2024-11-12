@@ -3,7 +3,7 @@ category = Letter;
 color = 6;
 glyphname = "Ha-cy";
 kernLeft = "Zhe-cy";
-kernRight = "Zhe-cy";
+kernRight = K.left;
 layers = (
 {
 background = {

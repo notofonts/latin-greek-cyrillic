@@ -2,8 +2,7 @@
 category = Letter;
 color = 6;
 glyphname = "Er-cy";
-kernLeft = "En-cy";
-kernRight = "Er-cy";
+kernRight = P.left;
 layers = (
 {
 background = {

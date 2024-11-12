@@ -3,7 +3,7 @@ category = Letter;
 color = 6;
 glyphname = "tshe-cy";
 kernLeft = "dje-cy";
-kernRight = "pe-cy";
+kernRight = m;
 layers = (
 {
 background = {

@@ -2,8 +2,7 @@
 category = Letter;
 color = 6;
 glyphname = "Iebreve-cy";
-kernLeft = "Nje-cy";
-kernRight = "Ie-cy";
+kernRight = E.left;
 layers = (
 {
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";

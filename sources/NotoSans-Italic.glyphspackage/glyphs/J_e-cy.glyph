@@ -3,7 +3,6 @@ category = Letter;
 color = 6;
 glyphname = "Je-cy";
 kernLeft = "Je-cy";
-kernRight = "Je-cy";
 layers = (
 {
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";

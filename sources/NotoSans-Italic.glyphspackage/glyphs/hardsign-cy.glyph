@@ -2,7 +2,7 @@
 category = Letter;
 color = 1;
 glyphname = "hardsign-cy";
-kernLeft = "te-cy";
+kernLeft = "hardsign-cy.right";
 kernRight = "hardsign-cy";
 layers = (
 {

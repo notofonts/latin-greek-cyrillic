@@ -1,6 +1,8 @@
 {
 category = Letter;
+color = 2;
 glyphname = "Emsoft-cy";
+kernRight = T.left;
 layers = (
 {
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";

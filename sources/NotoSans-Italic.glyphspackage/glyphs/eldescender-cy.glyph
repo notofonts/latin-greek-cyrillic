@@ -3,6 +3,7 @@ category = Letter;
 color = 8;
 glyphname = "eldescender-cy";
 kernLeft = "el-cy";
+kernRight = "tse-cy";
 layers = (
 {
 background = {

@@ -2,8 +2,8 @@
 category = Letter;
 color = 6;
 glyphname = "Te-cy";
-kernLeft = "Te-cy";
-kernRight = "Te-cy";
+kernLeft = T.right;
+kernRight = T.left;
 layers = (
 {
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";

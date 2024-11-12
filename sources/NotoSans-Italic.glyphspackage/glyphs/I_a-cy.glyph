@@ -3,7 +3,6 @@ category = Letter;
 color = 1;
 glyphname = "Ia-cy";
 kernLeft = "Ia-cy";
-kernRight = "En-cy";
 layers = (
 {
 anchors = (

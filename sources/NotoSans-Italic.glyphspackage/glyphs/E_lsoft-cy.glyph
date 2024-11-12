@@ -3,7 +3,7 @@ category = Letter;
 color = 8;
 glyphname = "Elsoft-cy";
 kernLeft = "El-cy";
-kernRight = "Te-cy";
+kernRight = T.left;
 layers = (
 {
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";

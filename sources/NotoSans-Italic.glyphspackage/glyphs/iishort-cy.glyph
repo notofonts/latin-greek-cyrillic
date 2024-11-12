@@ -2,8 +2,8 @@
 category = Letter;
 color = 6;
 glyphname = "iishort-cy";
-kernLeft = "ii-cy";
-kernRight = "en-cy";
+kernLeft = n.right;
+kernRight = u;
 layers = (
 {
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
