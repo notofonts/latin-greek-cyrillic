@@ -39,21 +39,6 @@ name = _bottom;
 pos = (112,0);
 }
 );
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-ref = ypogegrammeni;
-}
-);
-width = 271;
-},
-{
-anchors = (
-{
-name = _bottom;
-pos = (112,0);
-}
-);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
@@ -106,21 +91,6 @@ ref = ypogegrammeni;
 }
 );
 width = 220;
-},
-{
-anchors = (
-{
-name = _bottom;
-pos = (112,0);
-}
-);
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = ypogegrammeni;
-}
-);
-width = 264;
 }
 );
 script = greek;

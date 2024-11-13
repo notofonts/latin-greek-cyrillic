@@ -39,24 +39,6 @@ ref = eight.dnom;
 width = 840;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-pos = (8,0);
-ref = seven.numr;
-},
-{
-pos = (350,0);
-ref = fraction;
-},
-{
-pos = (442,0);
-ref = eight.dnom;
-}
-);
-width = 840;
-},
-{
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
@@ -130,24 +112,6 @@ ref = eight.dnom;
 }
 );
 width = 664;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-pos = (6,0);
-ref = seven.numr;
-},
-{
-pos = (286,0);
-ref = fraction;
-},
-{
-pos = (362,0);
-ref = eight.dnom;
-}
-);
-width = 684;
 }
 );
 script = "";

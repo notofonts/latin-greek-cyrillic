@@ -3,30 +3,6 @@ category = Separator;
 glyphname = .notdef;
 layers = (
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-closed = 1;
-nodes = (
-(496,0,l),
-(496,714,l),
-(85,714,l),
-(85,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(136,663,l),
-(445,663,l),
-(445,51,l),
-(136,51,l)
-);
-}
-);
-width = 582;
-},
-{
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
@@ -169,30 +145,6 @@ nodes = (
 }
 );
 width = 586;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-closed = 1;
-nodes = (
-(496,0,l),
-(496,714,l),
-(85,714,l),
-(85,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(136,663,l),
-(445,663,l),
-(445,51,l),
-(136,51,l)
-);
-}
-);
-width = 584;
 }
 );
 script = "";
