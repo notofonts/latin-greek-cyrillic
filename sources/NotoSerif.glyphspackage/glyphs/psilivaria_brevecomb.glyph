@@ -35,23 +35,6 @@ ref = psilivaria;
 width = 361;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-alignment = -1;
-pos = (8,99);
-ref = breve;
-scale = (1,0.8331);
-},
-{
-alignment = -1;
-pos = (0,168);
-ref = psilivaria;
-}
-);
-width = 418;
-},
-{
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
@@ -100,23 +83,6 @@ ref = psilivaria;
 }
 );
 width = 348;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-alignment = -1;
-pos = (7,123);
-ref = breve;
-scale = (1,0.8049);
-},
-{
-alignment = -1;
-pos = (0,176);
-ref = psilivaria;
-}
-);
-width = 367;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

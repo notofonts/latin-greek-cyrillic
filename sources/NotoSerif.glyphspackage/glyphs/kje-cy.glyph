@@ -1,9 +1,143 @@
 {
-color = 4;
+color = 0;
 glyphname = "kje-cy";
 kernLeft = cyr_en;
 kernRight = cyr_zhe;
 layers = (
+{
+background = {
+shapes = (
+{
+pos = (138,0);
+ref = kacute;
+}
+);
+};
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+pos = (349,0);
+ref = acutecomb;
+},
+{
+alignment = -1;
+pos = (118,0);
+ref = "ka-cy";
+}
+);
+width = 687;
+},
+{
+background = {
+shapes = (
+{
+pos = (99,0);
+ref = kacute;
+}
+);
+};
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+pos = (271,0);
+ref = acutecomb;
+},
+{
+pos = (94,0);
+ref = "ka-cy";
+}
+);
+width = 568;
+},
+{
+background = {
+shapes = (
+{
+pos = (139,0);
+ref = kacute;
+}
+);
+};
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+pos = (361,0);
+ref = acutecomb;
+},
+{
+pos = (146,0);
+ref = "ka-cy";
+}
+);
+width = 805;
+},
+{
+background = {
+shapes = (
+{
+pos = (99,0);
+ref = kacute;
+}
+);
+};
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+pos = (255,0);
+ref = acutecomb;
+},
+{
+pos = (87,0);
+ref = "ka-cy";
+}
+);
+width = 512;
+},
+{
+background = {
+shapes = (
+{
+pos = (118,0);
+ref = kacute;
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+pos = (335,0);
+ref = acutecomb;
+},
+{
+pos = (108,0);
+ref = "ka-cy";
+}
+);
+width = 699;
+},
+{
+background = {
+shapes = (
+{
+pos = (128,0);
+ref = kacute;
+}
+);
+};
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+pos = (309,0);
+ref = acutecomb;
+},
+{
+pos = (131,0);
+ref = "ka-cy";
+}
+);
+width = 686;
+},
 {
 anchors = (
 {
@@ -15,12 +149,14 @@ name = top;
 pos = (306,766);
 }
 );
-layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+associatedMasterId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+layerId = "472C8529-B53C-469E-9A4F-F99E5BF78560";
+name = "13. Nov 24, 03:11";
 shapes = (
 {
 alignment = -1;
 pos = (231,0);
-ref = acutecomb.loclCYR;
+ref = acutecomb;
 },
 {
 alignment = -1;
@@ -33,47 +169,26 @@ width = 545;
 anchors = (
 {
 name = bottom;
-pos = (335,0);
+pos = (325,0);
 },
 {
 name = top;
-pos = (335,766);
+pos = (325,766);
 }
 );
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+layerId = "20AB050A-AE04-4745-B1E5-BDC27FF5C1C6";
+name = "13. Nov 24, 03:11";
 shapes = (
 {
-pos = (220,0);
-ref = acutecomb.loclCYR;
+pos = (227,0);
+ref = acutecomb;
 },
 {
 ref = "ka-cy";
 }
 );
-width = 620;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (258,0);
-},
-{
-name = top;
-pos = (258,766);
-}
-);
-layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
-shapes = (
-{
-pos = (177,0);
-ref = acutecomb.loclCYR;
-},
-{
-ref = "ka-cy";
-}
-);
-width = 474;
+width = 590;
 },
 {
 anchors = (
@@ -86,11 +201,13 @@ name = top;
 pos = (354,766);
 }
 );
-layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+associatedMasterId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+layerId = "668B4E12-BC39-4571-BCF5-C01037E1E384";
+name = "13. Nov 24, 03:11";
 shapes = (
 {
 pos = (215,0);
-ref = acutecomb.loclCYR;
+ref = acutecomb;
 },
 {
 ref = "ka-cy";
@@ -109,11 +226,13 @@ name = top;
 pos = (231,766);
 }
 );
-layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+associatedMasterId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+layerId = "4ED2F74D-0B06-42E0-8922-1A13D0751D31";
+name = "13. Nov 24, 03:11";
 shapes = (
 {
 pos = (168,0);
-ref = acutecomb.loclCYR;
+ref = acutecomb;
 },
 {
 ref = "ka-cy";
@@ -125,47 +244,26 @@ width = 425;
 anchors = (
 {
 name = bottom;
-pos = (325,0);
+pos = (258,0);
 },
 {
 name = top;
-pos = (325,766);
+pos = (258,766);
 }
 );
-layerId = UUID0;
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+layerId = "44561A99-ADA7-4AA6-9A95-99B338680FB4";
+name = "13. Nov 24, 03:11";
 shapes = (
 {
-pos = (227,0);
-ref = acutecomb.loclCYR;
+pos = (177,0);
+ref = acutecomb;
 },
 {
 ref = "ka-cy";
 }
 );
-width = 592;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (277,0);
-},
-{
-name = top;
-pos = (277,766);
-}
-);
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-pos = (180,0);
-ref = acutecomb.loclCYR;
-},
-{
-ref = "ka-cy";
-}
-);
-width = 524;
+width = 474;
 },
 {
 anchors = (
@@ -178,11 +276,13 @@ name = top;
 pos = (297,766);
 }
 );
-layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+associatedMasterId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+layerId = "D9C60EAD-351D-4D98-8A35-41C6D6A9D4ED";
+name = "13. Nov 24, 03:11";
 shapes = (
 {
 pos = (178,0);
-ref = acutecomb.loclCYR;
+ref = acutecomb;
 },
 {
 ref = "ka-cy";
@@ -192,6 +292,6 @@ width = 555;
 }
 );
 metricLeft = "ka-cy";
-metricWidth = "ka-cy";
+metricRight = "ka-cy";
 unicode = 1116;
 }

@@ -39,24 +39,6 @@ nodes = (
 width = 580;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-ref = zero.osf;
-},
-{
-closed = 1;
-nodes = (
-(447,390,l),
-(404,433,l),
-(137,166,l),
-(180,123,l)
-);
-}
-);
-width = 585;
-},
-{
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
@@ -109,24 +91,6 @@ nodes = (
 }
 );
 width = 464;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-ref = zero.osf;
-},
-{
-closed = 1;
-nodes = (
-(417,424,l),
-(369,464,l),
-(86,127,l),
-(134,87,l)
-);
-}
-);
-width = 503;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";

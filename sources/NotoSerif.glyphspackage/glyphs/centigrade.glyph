@@ -29,19 +29,6 @@ ref = degree;
 width = 1000;
 },
 {
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
-shapes = (
-{
-pos = (340,0);
-ref = C;
-},
-{
-ref = degree;
-}
-);
-width = 1000;
-},
-{
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
@@ -92,19 +79,6 @@ ref = degree;
 }
 );
 width = 791;
-},
-{
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-pos = (272,0);
-ref = C;
-},
-{
-ref = degree;
-}
-);
-width = 815;
 }
 );
 script = "";

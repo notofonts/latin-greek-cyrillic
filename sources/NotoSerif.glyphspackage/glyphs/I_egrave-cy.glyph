@@ -1,9 +1,129 @@
 {
-color = 4;
+color = 6;
 glyphname = "Iegrave-cy";
 kernLeft = cyr_En;
 kernRight = cyr_Ie;
 layers = (
+{
+background = {
+shapes = (
+{
+ref = Egrave;
+}
+);
+};
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (592,165);
+ref = gravecomb;
+}
+);
+width = 585;
+},
+{
+background = {
+shapes = (
+{
+ref = Egrave;
+}
+);
+};
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (476,165);
+ref = gravecomb;
+}
+);
+width = 499;
+},
+{
+background = {
+shapes = (
+{
+ref = Egrave;
+}
+);
+};
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (619,165);
+ref = gravecomb;
+}
+);
+width = 675;
+},
+{
+background = {
+shapes = (
+{
+ref = Egrave;
+}
+);
+};
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (444,165);
+ref = gravecomb;
+}
+);
+width = 449;
+},
+{
+background = {
+shapes = (
+{
+ref = Egrave;
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (598,165);
+ref = gravecomb;
+}
+);
+width = 623;
+},
+{
+background = {
+shapes = (
+{
+ref = Egrave;
+}
+);
+};
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (517,165);
+ref = gravecomb;
+}
+);
+width = 563;
+},
 {
 anchors = (
 {
@@ -15,7 +135,9 @@ name = top;
 pos = (296,931);
 }
 );
-layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+associatedMasterId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+layerId = "9E091396-67C8-4B99-A5DF-64D317763D49";
+name = "13. Nov 24, 03:06";
 shapes = (
 {
 pos = (155,0);
@@ -25,30 +147,82 @@ ref = gravecomb.loclCYR.cap;
 ref = "Ie-cy";
 }
 );
-width = 582;
+width = 585;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (320,0);
+pos = (308,0);
 },
 {
 name = top;
 pos = (321,931);
 }
 );
-layerId = "58AAA307-6DE9-4107-B80A-C255AE991657";
+associatedMasterId = UUID0;
+layerId = "44C2EE4D-7DE8-4607-BCFF-A885BD70097A";
+name = "13. Nov 24, 03:06";
 shapes = (
 {
-pos = (108,0);
+pos = (130,0);
 ref = gravecomb.loclCYR.cap;
 },
 {
 ref = "Ie-cy";
 }
 );
-width = 653;
+width = 623;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (318,0);
+},
+{
+name = top;
+pos = (332,931);
+}
+);
+associatedMasterId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+layerId = "5D46F85E-411D-410D-9E7B-CE18CD43544A";
+name = "13. Nov 24, 03:06";
+shapes = (
+{
+pos = (85,0);
+ref = gravecomb.loclCYR.cap;
+},
+{
+ref = "Ie-cy";
+}
+);
+width = 675;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (221,0);
+},
+{
+name = top;
+pos = (233,931);
+}
+);
+associatedMasterId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+layerId = "A8EA6B09-F554-44EF-82D0-27601F392B29";
+name = "13. Nov 24, 03:06";
+shapes = (
+{
+pos = (104,0);
+ref = gravecomb.loclCYR.cap;
+},
+{
+ref = "Ie-cy";
+}
+);
+width = 449;
 },
 {
 anchors = (
@@ -61,7 +235,9 @@ name = top;
 pos = (271,931);
 }
 );
-layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+layerId = "6AAD7FC1-3DCC-42B8-800D-2C1D3F806456";
+name = "13. Nov 24, 03:06";
 shapes = (
 {
 pos = (89,0);
@@ -77,98 +253,6 @@ width = 499;
 anchors = (
 {
 name = bottom;
-pos = (318,0);
-},
-{
-name = top;
-pos = (332,931);
-}
-);
-layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
-shapes = (
-{
-pos = (85,0);
-ref = gravecomb.loclCYR.cap;
-},
-{
-ref = "Ie-cy";
-}
-);
-width = 648;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (221,0);
-},
-{
-name = top;
-pos = (233,931);
-}
-);
-layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
-shapes = (
-{
-pos = (104,0);
-ref = gravecomb.loclCYR.cap;
-},
-{
-ref = "Ie-cy";
-}
-);
-width = 444;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (308,0);
-},
-{
-name = top;
-pos = (321,931);
-}
-);
-layerId = UUID0;
-shapes = (
-{
-pos = (130,0);
-ref = gravecomb.loclCYR.cap;
-},
-{
-ref = "Ie-cy";
-}
-);
-width = 628;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (264,0);
-},
-{
-name = top;
-pos = (278,931);
-}
-);
-layerId = "BD18C76C-096B-4C52-83B4-518A374966BE";
-shapes = (
-{
-pos = (88,0);
-ref = gravecomb.loclCYR.cap;
-},
-{
-ref = "Ie-cy";
-}
-);
-width = 537;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (278,0);
 },
 {
@@ -176,7 +260,9 @@ name = top;
 pos = (300,931);
 }
 );
-layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+associatedMasterId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+layerId = "73FE5F8C-13F1-4A7A-8806-86E6BB3E4C3D";
+name = "13. Nov 24, 03:06";
 shapes = (
 {
 pos = (78,0);
@@ -186,10 +272,10 @@ ref = gravecomb.loclCYR.cap;
 ref = "Ie-cy";
 }
 );
-width = 565;
+width = 563;
 }
 );
-metricLeft = "Ie-cy";
-metricWidth = "Ie-cy";
+metricLeft = E;
+metricRight = E;
 unicode = 1024;
 }
