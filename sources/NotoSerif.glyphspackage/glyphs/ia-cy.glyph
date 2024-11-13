@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 0;
 glyphname = "ia-cy";
 kernLeft = cyr_ia;
 kernRight = cyr_en;

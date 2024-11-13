@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3326";
 .formatVersion = 3;
 axes = (
 {
@@ -5180,7 +5180,6 @@ pre = 1;
 }
 );
 };
-visible = 1;
 },
 {
 axesValues = (
