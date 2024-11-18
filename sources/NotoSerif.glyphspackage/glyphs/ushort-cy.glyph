@@ -25,7 +25,7 @@ ref = cyrillicbreve;
 ref = "u-cy";
 }
 );
-width = 550;
+width = 538;
 },
 {
 anchors = (
@@ -48,7 +48,7 @@ ref = cyrillicbreve;
 ref = "u-cy";
 }
 );
-width = 462;
+width = 459;
 },
 {
 anchors = (
@@ -71,7 +71,7 @@ ref = cyrillicbreve;
 ref = "u-cy";
 }
 );
-width = 607;
+width = 604;
 },
 {
 anchors = (
@@ -94,7 +94,7 @@ ref = cyrillicbreve;
 ref = "u-cy";
 }
 );
-width = 410;
+width = 416;
 },
 {
 anchors = (
@@ -117,7 +117,7 @@ ref = cyrillicbreve;
 ref = "u-cy";
 }
 );
-width = 570;
+width = 569;
 },
 {
 anchors = (
@@ -140,8 +140,10 @@ ref = cyrillicbreve;
 ref = "u-cy";
 }
 );
-width = 517;
+width = 514;
 }
 );
+metricLeft = "u-cy";
+metricRight = "u-cy";
 unicode = 1118;
 }
