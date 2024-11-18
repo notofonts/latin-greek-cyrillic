@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 1;
+color = 6;
 glyphname = "iishort-cy";
 kernLeft = cyr_en;
 kernRight = cyr_en;
@@ -14,11 +14,11 @@ ref = "ii-cy";
 },
 {
 alignment = -1;
-pos = (193,0);
+pos = (191,0);
 ref = cyrillicbreve;
 }
 );
-width = 642;
+width = 638;
 },
 {
 layerId = UUID0;
@@ -53,11 +53,11 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (132,0);
+pos = (134,0);
 ref = cyrillicbreve;
 }
 );
-width = 484;
+width = 488;
 },
 {
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
@@ -79,11 +79,11 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (141,0);
+pos = (139,0);
 ref = cyrillicbreve;
 }
 );
-width = 587;
+width = 584;
 },
 {
 anchors = (

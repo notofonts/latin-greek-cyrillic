@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 0;
 glyphname = "Edieresis-cy";
 kernLeft = cyr_Ze;
 kernRight = cyr_O;

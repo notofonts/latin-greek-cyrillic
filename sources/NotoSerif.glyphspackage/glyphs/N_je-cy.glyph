@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 0;
 glyphname = "Nje-cy";
 kernLeft = cyr_En;
 kernRight = cyr_Softsign;

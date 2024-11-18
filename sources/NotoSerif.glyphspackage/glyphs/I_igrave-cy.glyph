@@ -1,89 +1,155 @@
 {
-color = 4;
+color = 6;
 glyphname = "Iigrave-cy";
 kernLeft = cyr_En;
 kernRight = cyr_En;
 layers = (
 {
+background = {
+shapes = (
+{
+ref = "Ii-cy";
+},
+{
+pos = (244,165);
+ref = grave;
+}
+);
+};
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
 ref = "Ii-cy";
 },
 {
-pos = (241,0);
-ref = gravecomb.loclCYR.cap;
+pos = (244,165);
+ref = grave;
 }
 );
-width = 766;
+width = 768;
 },
 {
+background = {
+shapes = (
+{
+ref = "Ii-cy";
+},
+{
+pos = (156,165);
+ref = grave;
+}
+);
+};
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
 ref = "Ii-cy";
 },
 {
-pos = (151,0);
-ref = gravecomb.loclCYR.cap;
+pos = (156,165);
+ref = grave;
 }
 );
-width = 642;
+width = 636;
 },
 {
+background = {
+shapes = (
+{
+ref = "Ii-cy";
+},
+{
+pos = (185,165);
+ref = grave;
+}
+);
+};
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
 ref = "Ii-cy";
 },
 {
-pos = (167,0);
-ref = gravecomb.loclCYR.cap;
+pos = (185,165);
+ref = grave;
 }
 );
-width = 834;
+width = 847;
 },
 {
+background = {
+shapes = (
+{
+ref = "Ii-cy";
+},
+{
+pos = (165,165);
+ref = grave;
+}
+);
+};
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
 ref = "Ii-cy";
 },
 {
-pos = (164,0);
-ref = gravecomb.loclCYR.cap;
+pos = (165,165);
+ref = grave;
 }
 );
-width = 584;
+width = 587;
 },
 {
+background = {
+shapes = (
+{
+ref = "Ii-cy";
+},
+{
+pos = (213,165);
+ref = grave;
+}
+);
+};
 layerId = UUID0;
 shapes = (
 {
 ref = "Ii-cy";
 },
 {
-pos = (205,0);
-ref = gravecomb.loclCYR.cap;
+pos = (213,165);
+ref = grave;
 }
 );
-width = 807;
+width = 800;
 },
 {
+background = {
+shapes = (
+{
+ref = "Ii-cy";
+},
+{
+pos = (148,165);
+ref = grave;
+}
+);
+};
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
 ref = "Ii-cy";
 },
 {
-pos = (131,0);
-ref = gravecomb.loclCYR.cap;
+pos = (148,165);
+ref = grave;
 }
 );
-width = 702;
+width = 706;
 }
 );
 metricLeft = "Ii-cy";
-metricWidth = "Ii-cy";
+metricRight = "Ii-cy";
 unicode = 1037;
 }

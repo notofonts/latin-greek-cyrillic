@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 4;
 glyphname = "u-cy";
 kernLeft = cyr_u;
 kernRight = cyr_u;

@@ -19,63 +19,40 @@ ref = "Ge-cy";
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-pos = (558,165);
+pos = (549,165);
 ref = acutecomb;
 },
 {
 ref = "Ge-cy";
 }
 );
-width = 531;
+width = 537;
 },
 {
-background = {
-shapes = (
-{
-pos = (169,165);
-ref = acutecomb.loclCYR;
-},
-{
-ref = "Ge-cy";
-}
-);
-};
-color = 0;
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
-pos = (169,165);
+pos = (435,165);
 ref = acutecomb;
 },
 {
 ref = "Ge-cy";
 }
 );
-width = 447;
+width = 453;
 },
 {
-background = {
-shapes = (
-{
-pos = (208,165);
-ref = acutecomb.loclCYR;
-},
-{
-ref = "Ge-cy";
-}
-);
-};
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
-pos = (592,165);
+pos = (562,165);
 ref = acutecomb;
 },
 {
 ref = "Ge-cy";
 }
 );
-width = 604;
+width = 612;
 },
 {
 background = {
@@ -89,42 +66,30 @@ ref = "Ge-cy";
 }
 );
 };
-color = 0;
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
-pos = (175,165);
+pos = (412,165);
 ref = acutecomb;
 },
 {
 ref = "Ge-cy";
 }
 );
-width = 412;
+width = 420;
 },
 {
-background = {
-shapes = (
-{
-pos = (218,165);
-ref = acutecomb.loclCYR;
-},
-{
-ref = "Ge-cy";
-}
-);
-};
 layerId = UUID0;
 shapes = (
 {
-pos = (560,165);
+pos = (545,165);
 ref = acutecomb;
 },
 {
 ref = "Ge-cy";
 }
 );
-width = 563;
+width = 575;
 },
 {
 background = {
@@ -138,18 +103,17 @@ ref = "Ge-cy";
 }
 );
 };
-color = 0;
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
-pos = (173,165);
+pos = (468,165);
 ref = acutecomb;
 },
 {
 ref = "Ge-cy";
 }
 );
-width = 505;
+width = 525;
 },
 {
 anchors = (

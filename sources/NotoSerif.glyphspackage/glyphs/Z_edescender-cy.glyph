@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 0;
 glyphname = "Zedescender-cy";
 kernLeft = "Ze-cy";
 kernRight = "Be-cy";
