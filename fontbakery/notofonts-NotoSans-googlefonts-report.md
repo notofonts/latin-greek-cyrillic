@@ -10462,15 +10462,15 @@ fontbakery version: 0.12.10
 <tbody>
 <tr>
 <td align="left">dnj_Latn_LR (Liberian Dan)</td>
+<td align="left">Shaper didn't attach gravecomb to uniA78D</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uniA78D</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach uni0302 to uniA78D</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uniA78D</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -15291,17 +15291,15 @@ ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE) and uni031A 
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 0 point 28 in glyph 'uniAB38' has a kink between location wght=100,wdth=100 and location wght=704,wdth=100
+<pre><code>- Contour 0 point 26 in glyph 'u10791' has a kink between location wght=900,wdth=100 and location wght=100,wdth=62
+
+- Contour 0 point 28 in glyph 'uniAB38' has a kink between location wght=100,wdth=100 and location wght=704,wdth=100
 
 - Contour 1 point 28 in glyph 'uniAB38' has a kink between location wght=100,wdth=100 and location wght=704,wdth=100
-
-- Contour 0 point 14 in glyph 'six.osf' has a kink between location wght=704,wdth=100 and location wght=900,wdth=100
 
 - Contour 1 start point differs in glyph 'uni213A' between location wght=400,wdth=100 and location wght=400,wdth=62
 
 - Contour 1 start point differs in glyph 'uni213A' between location wght=400,wdth=62 and location wght=100,wdth=100
-
-- Contour 0 point 26 in glyph 'u10791' has a kink between location wght=900,wdth=100 and location wght=100,wdth=62
 </code></pre>
  [code: interpolation-issues]
 
@@ -15555,13 +15553,13 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+02CD MODIFIER LETTER LOW MACRON: try adding lisu</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: glagolitic, math, coptic, gothic, elbasan</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: math, glagolitic, elbasan, gothic, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, tai-le, math, coptic, duployan, tifinagh, canadian-aboriginal, malayalam, hebrew, todhri</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, duployan, syriac, malayalam, math, todhri, old-permic, canadian-aboriginal, coptic, tai-le, hebrew</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -15571,7 +15569,7 @@ definitions.</p>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+0316 COMBINING GRAVE ACCENT BELOW: not included in any glyphset definition</li>
@@ -15599,7 +15597,7 @@ definitions.</p>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
 <li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, cherokee, caucasian-albanian, tifinagh, gothic, thai, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, thai, syriac, cherokee, sunuwar, caucasian-albanian, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0333 COMBINING DOUBLE LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
@@ -15644,7 +15642,7 @@ definitions.</p>
 <li>U+035B COMBINING ZIGZAG ABOVE: not included in any glyphset definition</li>
 <li>U+035C COMBINING DOUBLE BREVE BELOW: not included in any glyphset definition</li>
 <li>U+035D COMBINING DOUBLE BREVE: not included in any glyphset definition</li>
-<li>U+035E COMBINING DOUBLE MACRON: try adding one of: coptic, todhri, caucasian-albanian</li>
+<li>U+035E COMBINING DOUBLE MACRON: try adding one of: caucasian-albanian, todhri, coptic</li>
 <li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0360 COMBINING DOUBLE TILDE: not included in any glyphset definition</li>
 <li>U+0361 COMBINING DOUBLE INVERTED BREVE: try adding coptic</li>
@@ -15760,10 +15758,10 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, nko, thaana, phags-pa, hebrew, arabic</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, nko, thaana, phags-pa, hebrew</li>
-<li>U+2010 HYPHEN: try adding one of: kayah-li, sora-sompeng, sundanese, cham, coptic, kharoshthi, armenian, hebrew, syloti-nagri, arabic, yi, lisu, kaithi</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, syriac, arabic, thaana, nko, hebrew</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, syriac, thaana, nko, hebrew</li>
+<li>U+2010 HYPHEN: try adding one of: lisu, kaithi, syloti-nagri, armenian, arabic, kayah-li, sundanese, cham, yi, coptic, sora-sompeng, hebrew, kharoshthi</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, arabic, yi</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -15782,7 +15780,7 @@ definitions.</p>
 <li>U+202C POP DIRECTIONAL FORMATTING: not included in any glyphset definition</li>
 <li>U+202D LEFT-TO-RIGHT OVERRIDE: not included in any glyphset definition</li>
 <li>U+202E RIGHT-TO-LEFT OVERRIDE: try adding tifinagh</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, phags-pa, mongolian</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, mongolian, yi</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2031 PER TEN THOUSAND SIGN: not included in any glyphset definition</li>
 <li>U+2034 TRIPLE PRIME: try adding math</li>
@@ -15820,10 +15818,10 @@ definitions.</p>
 <li>U+2057 QUADRUPLE PRIME: try adding math</li>
 <li>U+2058 FOUR DOT PUNCTUATION: try adding coptic</li>
 <li>U+2059 FIVE DOT PUNCTUATION: try adding coptic</li>
-<li>U+205A TWO DOT PUNCTUATION: try adding one of: old-turkic, glagolitic, old-hungarian, carian, georgian, lycian</li>
+<li>U+205A TWO DOT PUNCTUATION: try adding one of: lycian, glagolitic, old-turkic, old-hungarian, georgian, carian</li>
 <li>U+205B FOUR DOT MARK: not included in any glyphset definition</li>
 <li>U+205C DOTTED CROSS: not included in any glyphset definition</li>
-<li>U+205D TRICOLON: try adding one of: meroitic-hieroglyphs, carian, old-hungarian, meroitic</li>
+<li>U+205D TRICOLON: try adding one of: meroitic, carian, old-hungarian, meroitic-hieroglyphs</li>
 <li>U+205E VERTICAL FOUR DOTS: try adding old-hungarian</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2060 WORD JOINER: not included in any glyphset definition</li>
@@ -16026,8 +16024,8 @@ definitions.</p>
 <li>U+2E2D FIVE DOT MARK: not included in any glyphset definition</li>
 <li>U+2E2E REVERSED QUESTION MARK: not included in any glyphset definition</li>
 <li>U+2E2F VERTICAL TILDE: not included in any glyphset definition</li>
-<li>U+2E30 RING POINT: try adding one of: avestan, old-turkic</li>
-<li>U+2E31 WORD SEPARATOR MIDDLE DOT: try adding one of: samaritan, lydian, old-hungarian, carian, georgian, avestan, kaithi</li>
+<li>U+2E30 RING POINT: try adding one of: old-turkic, avestan</li>
+<li>U+2E31 WORD SEPARATOR MIDDLE DOT: try adding one of: kaithi, samaritan, lydian, old-hungarian, georgian, carian, avestan</li>
 <li>U+2E32 TURNED COMMA: not included in any glyphset definition</li>
 <li>U+2E33 RAISED DOT: try adding coptic</li>
 <li>U+2E34 RAISED COMMA: try adding coptic</li>
@@ -16043,7 +16041,7 @@ definitions.</p>
 <li>U+2E3E WIGGLY VERTICAL LINE: not included in any glyphset definition</li>
 <li>U+2E3F CAPITULUM: not included in any glyphset definition</li>
 <li>U+2E40 DOUBLE HYPHEN: not included in any glyphset definition</li>
-<li>U+2E41 REVERSED COMMA: try adding one of: arabic, old-hungarian, adlam</li>
+<li>U+2E41 REVERSED COMMA: try adding one of: old-hungarian, arabic, adlam</li>
 <li>U+2E42 DOUBLE LOW-REVERSED-9 QUOTATION MARK: not included in any glyphset definition</li>
 <li>U+2E43 DASH WITH LEFT UPTURN: try adding glagolitic</li>
 <li>U+2E44 DOUBLE SUSPENSION MARK: not included in any glyphset definition</li>
@@ -16104,7 +16102,7 @@ definitions.</p>
 <li>U+A71D MODIFIER LETTER RAISED EXCLAMATION MARK: not included in any glyphset definition</li>
 <li>U+A71E MODIFIER LETTER RAISED INVERTED EXCLAMATION MARK: not included in any glyphset definition</li>
 <li>U+A71F MODIFIER LETTER LOW INVERTED EXCLAMATION MARK: not included in any glyphset definition</li>
-<li>U+A92E KAYAH LI SIGN CWI: try adding one of: kayah-li, myanmar</li>
+<li>U+A92E KAYAH LI SIGN CWI: try adding one of: myanmar, kayah-li</li>
 <li>U+AB30 LATIN SMALL LETTER BARRED ALPHA: not included in any glyphset definition</li>
 <li>U+AB31 LATIN SMALL LETTER A REVERSED-SCHWA: not included in any glyphset definition</li>
 <li>U+AB32 LATIN SMALL LETTER BLACKLETTER E: not included in any glyphset definition</li>
@@ -16172,14 +16170,14 @@ definitions.</p>
 <li>U+FB04 LATIN SMALL LIGATURE FFL: not included in any glyphset definition</li>
 <li>U+FB05 LATIN SMALL LIGATURE LONG S T: not included in any glyphset definition</li>
 <li>U+FB06 LATIN SMALL LIGATURE ST: not included in any glyphset definition</li>
-<li>U+FE00 VARIATION SELECTOR-1: try adding one of: manichaean, yi, phags-pa</li>
+<li>U+FE00 VARIATION SELECTOR-1: try adding one of: phags-pa, manichaean, yi</li>
 <li>U+FE20 COMBINING LIGATURE LEFT HALF: try adding caucasian-albanian</li>
 <li>U+FE21 COMBINING LIGATURE RIGHT HALF: try adding caucasian-albanian</li>
 <li>U+FE22 COMBINING DOUBLE TILDE LEFT HALF: try adding caucasian-albanian</li>
 <li>U+FE23 COMBINING DOUBLE TILDE RIGHT HALF: try adding caucasian-albanian</li>
-<li>U+FE24 COMBINING MACRON LEFT HALF: try adding one of: coptic, caucasian-albanian</li>
-<li>U+FE25 COMBINING MACRON RIGHT HALF: try adding one of: coptic, caucasian-albanian</li>
-<li>U+FE26 COMBINING CONJOINING MACRON: try adding one of: coptic, caucasian-albanian</li>
+<li>U+FE24 COMBINING MACRON LEFT HALF: try adding one of: caucasian-albanian, coptic</li>
+<li>U+FE25 COMBINING MACRON RIGHT HALF: try adding one of: caucasian-albanian, coptic</li>
+<li>U+FE26 COMBINING CONJOINING MACRON: try adding one of: caucasian-albanian, coptic</li>
 <li>U+FE27 COMBINING LIGATURE LEFT HALF BELOW: try adding caucasian-albanian</li>
 <li>U+FE28 COMBINING LIGATURE RIGHT HALF BELOW: try adding caucasian-albanian</li>
 <li>U+FE29 COMBINING TILDE LEFT HALF BELOW: try adding caucasian-albanian</li>
@@ -26031,15 +26029,15 @@ definitions.</p>
 <tbody>
 <tr>
 <td align="left">dnj_Latn_LR (Liberian Dan)</td>
+<td align="left">Shaper didn't attach gravecomb to uniA78D</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uniA78D</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach uni0302 to uniA78D</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uniA78D</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -30753,13 +30751,13 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+02CD MODIFIER LETTER LOW MACRON: try adding lisu</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: glagolitic, math, coptic, gothic, elbasan</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: math, glagolitic, elbasan, gothic, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, tai-le, math, coptic, duployan, tifinagh, canadian-aboriginal, malayalam, hebrew, todhri</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, duployan, syriac, malayalam, math, todhri, old-permic, canadian-aboriginal, coptic, tai-le, hebrew</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -30769,7 +30767,7 @@ definitions.</p>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+0316 COMBINING GRAVE ACCENT BELOW: not included in any glyphset definition</li>
@@ -30797,7 +30795,7 @@ definitions.</p>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
 <li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, cherokee, caucasian-albanian, tifinagh, gothic, thai, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, thai, syriac, cherokee, sunuwar, caucasian-albanian, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0333 COMBINING DOUBLE LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
@@ -30842,7 +30840,7 @@ definitions.</p>
 <li>U+035B COMBINING ZIGZAG ABOVE: not included in any glyphset definition</li>
 <li>U+035C COMBINING DOUBLE BREVE BELOW: not included in any glyphset definition</li>
 <li>U+035D COMBINING DOUBLE BREVE: not included in any glyphset definition</li>
-<li>U+035E COMBINING DOUBLE MACRON: try adding one of: coptic, todhri, caucasian-albanian</li>
+<li>U+035E COMBINING DOUBLE MACRON: try adding one of: caucasian-albanian, todhri, coptic</li>
 <li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0360 COMBINING DOUBLE TILDE: not included in any glyphset definition</li>
 <li>U+0361 COMBINING DOUBLE INVERTED BREVE: try adding coptic</li>
@@ -30860,7 +30858,7 @@ definitions.</p>
 <li>U+036D COMBINING LATIN SMALL LETTER T: not included in any glyphset definition</li>
 <li>U+036E COMBINING LATIN SMALL LETTER V: not included in any glyphset definition</li>
 <li>U+036F COMBINING LATIN SMALL LETTER X: not included in any glyphset definition</li>
-<li>U+10FB GEORGIAN PARAGRAPH SEPARATOR: try adding one of: glagolitic, georgian</li>
+<li>U+10FB GEORGIAN PARAGRAPH SEPARATOR: try adding one of: georgian, glagolitic</li>
 <li>U+1AB0 COMBINING DOUBLED CIRCUMFLEX ACCENT: not included in any glyphset definition</li>
 <li>U+1AB1 COMBINING DIAERESIS-RING: not included in any glyphset definition</li>
 <li>U+1AB2 COMBINING INFINITY: not included in any glyphset definition</li>
@@ -30959,10 +30957,10 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, nko, thaana, phags-pa, hebrew, arabic</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, nko, thaana, phags-pa, hebrew</li>
-<li>U+2010 HYPHEN: try adding one of: kayah-li, sora-sompeng, sundanese, cham, coptic, kharoshthi, armenian, hebrew, syloti-nagri, arabic, yi, lisu, kaithi</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, syriac, arabic, thaana, nko, hebrew</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, syriac, thaana, nko, hebrew</li>
+<li>U+2010 HYPHEN: try adding one of: lisu, kaithi, syloti-nagri, armenian, arabic, kayah-li, sundanese, cham, yi, coptic, sora-sompeng, hebrew, kharoshthi</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, arabic, yi</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -30981,7 +30979,7 @@ definitions.</p>
 <li>U+202C POP DIRECTIONAL FORMATTING: not included in any glyphset definition</li>
 <li>U+202D LEFT-TO-RIGHT OVERRIDE: not included in any glyphset definition</li>
 <li>U+202E RIGHT-TO-LEFT OVERRIDE: try adding tifinagh</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, phags-pa, mongolian</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, mongolian, yi</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2031 PER TEN THOUSAND SIGN: not included in any glyphset definition</li>
 <li>U+2034 TRIPLE PRIME: try adding math</li>
@@ -31019,10 +31017,10 @@ definitions.</p>
 <li>U+2057 QUADRUPLE PRIME: try adding math</li>
 <li>U+2058 FOUR DOT PUNCTUATION: try adding coptic</li>
 <li>U+2059 FIVE DOT PUNCTUATION: try adding coptic</li>
-<li>U+205A TWO DOT PUNCTUATION: try adding one of: old-turkic, glagolitic, old-hungarian, carian, georgian, lycian</li>
+<li>U+205A TWO DOT PUNCTUATION: try adding one of: lycian, glagolitic, old-turkic, old-hungarian, georgian, carian</li>
 <li>U+205B FOUR DOT MARK: not included in any glyphset definition</li>
 <li>U+205C DOTTED CROSS: not included in any glyphset definition</li>
-<li>U+205D TRICOLON: try adding one of: meroitic-hieroglyphs, carian, old-hungarian, meroitic</li>
+<li>U+205D TRICOLON: try adding one of: meroitic, carian, old-hungarian, meroitic-hieroglyphs</li>
 <li>U+205E VERTICAL FOUR DOTS: try adding old-hungarian</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2060 WORD JOINER: not included in any glyphset definition</li>
@@ -31226,8 +31224,8 @@ definitions.</p>
 <li>U+2E2D FIVE DOT MARK: not included in any glyphset definition</li>
 <li>U+2E2E REVERSED QUESTION MARK: not included in any glyphset definition</li>
 <li>U+2E2F VERTICAL TILDE: not included in any glyphset definition</li>
-<li>U+2E30 RING POINT: try adding one of: avestan, old-turkic</li>
-<li>U+2E31 WORD SEPARATOR MIDDLE DOT: try adding one of: samaritan, lydian, old-hungarian, carian, georgian, avestan, kaithi</li>
+<li>U+2E30 RING POINT: try adding one of: old-turkic, avestan</li>
+<li>U+2E31 WORD SEPARATOR MIDDLE DOT: try adding one of: kaithi, samaritan, lydian, old-hungarian, georgian, carian, avestan</li>
 <li>U+2E32 TURNED COMMA: not included in any glyphset definition</li>
 <li>U+2E33 RAISED DOT: try adding coptic</li>
 <li>U+2E34 RAISED COMMA: try adding coptic</li>
@@ -31243,7 +31241,7 @@ definitions.</p>
 <li>U+2E3E WIGGLY VERTICAL LINE: not included in any glyphset definition</li>
 <li>U+2E3F CAPITULUM: not included in any glyphset definition</li>
 <li>U+2E40 DOUBLE HYPHEN: not included in any glyphset definition</li>
-<li>U+2E41 REVERSED COMMA: try adding one of: arabic, old-hungarian, adlam</li>
+<li>U+2E41 REVERSED COMMA: try adding one of: old-hungarian, arabic, adlam</li>
 <li>U+2E42 DOUBLE LOW-REVERSED-9 QUOTATION MARK: not included in any glyphset definition</li>
 <li>U+2E43 DASH WITH LEFT UPTURN: try adding glagolitic</li>
 <li>U+2E44 DOUBLE SUSPENSION MARK: not included in any glyphset definition</li>
@@ -31304,7 +31302,7 @@ definitions.</p>
 <li>U+A71D MODIFIER LETTER RAISED EXCLAMATION MARK: not included in any glyphset definition</li>
 <li>U+A71E MODIFIER LETTER RAISED INVERTED EXCLAMATION MARK: not included in any glyphset definition</li>
 <li>U+A71F MODIFIER LETTER LOW INVERTED EXCLAMATION MARK: not included in any glyphset definition</li>
-<li>U+A92E KAYAH LI SIGN CWI: try adding one of: kayah-li, myanmar</li>
+<li>U+A92E KAYAH LI SIGN CWI: try adding one of: myanmar, kayah-li</li>
 <li>U+AB30 LATIN SMALL LETTER BARRED ALPHA: not included in any glyphset definition</li>
 <li>U+AB31 LATIN SMALL LETTER A REVERSED-SCHWA: not included in any glyphset definition</li>
 <li>U+AB32 LATIN SMALL LETTER BLACKLETTER E: not included in any glyphset definition</li>
@@ -31372,14 +31370,14 @@ definitions.</p>
 <li>U+FB04 LATIN SMALL LIGATURE FFL: not included in any glyphset definition</li>
 <li>U+FB05 LATIN SMALL LIGATURE LONG S T: not included in any glyphset definition</li>
 <li>U+FB06 LATIN SMALL LIGATURE ST: not included in any glyphset definition</li>
-<li>U+FE00 VARIATION SELECTOR-1: try adding one of: manichaean, yi, phags-pa</li>
+<li>U+FE00 VARIATION SELECTOR-1: try adding one of: phags-pa, manichaean, yi</li>
 <li>U+FE20 COMBINING LIGATURE LEFT HALF: try adding caucasian-albanian</li>
 <li>U+FE21 COMBINING LIGATURE RIGHT HALF: try adding caucasian-albanian</li>
 <li>U+FE22 COMBINING DOUBLE TILDE LEFT HALF: try adding caucasian-albanian</li>
 <li>U+FE23 COMBINING DOUBLE TILDE RIGHT HALF: try adding caucasian-albanian</li>
-<li>U+FE24 COMBINING MACRON LEFT HALF: try adding one of: coptic, caucasian-albanian</li>
-<li>U+FE25 COMBINING MACRON RIGHT HALF: try adding one of: coptic, caucasian-albanian</li>
-<li>U+FE26 COMBINING CONJOINING MACRON: try adding one of: coptic, caucasian-albanian</li>
+<li>U+FE24 COMBINING MACRON LEFT HALF: try adding one of: caucasian-albanian, coptic</li>
+<li>U+FE25 COMBINING MACRON RIGHT HALF: try adding one of: caucasian-albanian, coptic</li>
+<li>U+FE26 COMBINING CONJOINING MACRON: try adding one of: caucasian-albanian, coptic</li>
 <li>U+FE27 COMBINING LIGATURE LEFT HALF BELOW: try adding caucasian-albanian</li>
 <li>U+FE28 COMBINING LIGATURE RIGHT HALF BELOW: try adding caucasian-albanian</li>
 <li>U+FE29 COMBINING TILDE LEFT HALF BELOW: try adding caucasian-albanian</li>
