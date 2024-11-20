@@ -186,6 +186,7 @@ name = top;
 pos = (368,760);
 }
 );
+associatedMasterId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 layerId = m004;
 shapes = (
 {
@@ -354,6 +355,7 @@ name = top;
 pos = (293.99,760);
 }
 );
+associatedMasterId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 layerId = m007;
 shapes = (
 {
