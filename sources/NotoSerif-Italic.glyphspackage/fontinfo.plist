@@ -1,5 +1,5 @@
 {
-.appVersion = "3327";
+.appVersion = "3260";
 .formatVersion = 3;
 axes = (
 {
@@ -21249,7 +21249,10 @@ o - shift -58, width +1 and same stem thickness;
 Cond Black
 
 H - shift -41, width -5 and stem thickness -2 (from the inside);
-O - shift -40, width +5 and stem thickness -6 (from the inside);";
+O - shift -40, width +5 and stem thickness -6 (from the inside);
+
+n - shift -47, width -16 and stem thickness -4 (from the inside);
+o - shift -45, width +6 and stem thickness -3 (from the inisde);";
 properties = (
 {
 key = copyrights;
