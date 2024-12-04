@@ -1,21 +1,11 @@
 {
 category = Letter;
-color = 4;
+color = 7;
 glyphname = "Iishort-cy";
 kernLeft = "En-cy";
 kernRight = "En-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (335,0);
-},
-{
-name = top;
-pos = (517,890);
-}
-);
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
@@ -24,23 +14,13 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (105,0);
+pos = (103,0);
 ref = cyrillicbreve.cap;
 }
 );
 width = 766;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (345,0);
-},
-{
-name = top;
-pos = (538,916);
-}
-);
 layerId = UUID0;
 shapes = (
 {
@@ -49,48 +29,13 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (233,0);
+pos = (232,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 807;
+width = 799;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (353,0);
-},
-{
-name = top;
-pos = (558,933);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-alignment = -1;
-ref = "Ii-cy";
-},
-{
-alignment = -1;
-pos = (230,0);
-ref = cyrillicbreve.cap;
-}
-);
-width = 825;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (359,0);
-},
-{
-name = top;
-pos = (559,945);
-}
-);
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
@@ -103,19 +48,9 @@ pos = (226,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 834;
+width = 847;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (252,0);
-},
-{
-name = top;
-pos = (423,885);
-}
-);
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
@@ -128,19 +63,9 @@ pos = (42,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 584;
+width = 592;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (266,0);
-},
-{
-name = top;
-pos = (463,908);
-}
-);
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
@@ -153,44 +78,9 @@ pos = (180,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 642;
+width = 643;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (276,0);
-},
-{
-name = top;
-pos = (492,926);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = "Ii-cy";
-},
-{
-alignment = -1;
-pos = (182,0);
-ref = cyrillicbreve.cap;
-}
-);
-width = 676;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (284,0);
-},
-{
-name = top;
-pos = (498,939);
-}
-);
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
@@ -203,11 +93,11 @@ pos = (172,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 702;
+width = 696;
 }
 );
 metricLeft = "Ii-cy";
-metricWidth = "Ii-cy";
+metricRight = "Ii-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1049;

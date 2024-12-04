@@ -28,26 +28,6 @@ width = 607;
 anchors = (
 {
 name = bottom;
-pos = (276,0);
-},
-{
-name = top;
-pos = (398,571);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-alignment = -1;
-ref = eth.sc;
-}
-);
-width = 661;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (296,0);
 },
 {
@@ -143,26 +123,6 @@ ref = eth.sc;
 }
 );
 width = 500;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (214,0);
-},
-{
-name = top;
-pos = (336,571);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = eth.sc;
-}
-);
-width = 543;
 }
 );
 metricLeft = eth.sc;

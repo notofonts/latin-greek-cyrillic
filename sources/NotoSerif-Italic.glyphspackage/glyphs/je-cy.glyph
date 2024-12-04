@@ -1,10 +1,64 @@
 {
 category = Letter;
-color = 4;
+color = 6;
 glyphname = "je-cy";
 kernLeft = "je-cy";
 kernRight = "je-cy";
 layers = (
+{
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+ref = j;
+}
+);
+width = 230;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = j;
+}
+);
+width = 291;
+},
+{
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+ref = j;
+}
+);
+width = 373;
+},
+{
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+ref = j;
+}
+);
+width = 186;
+},
+{
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+ref = j;
+}
+);
+width = 243;
+},
+{
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+ref = j;
+}
+);
+width = 311;
+},
 {
 anchors = (
 {
@@ -16,7 +70,9 @@ name = top;
 pos = (199,741);
 }
 );
-layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
+layerId = "02AFE380-B70A-4855-ACA2-76F39CED8E0A";
+name = "19. Nov 24, 18:28";
 shapes = (
 {
 closed = 1;
@@ -78,7 +134,9 @@ name = top;
 pos = (228,761);
 }
 );
-layerId = UUID0;
+associatedMasterId = UUID0;
+layerId = "86C53E0D-1BCD-4E6B-A0C2-7E13B3656CEA";
+name = "19. Nov 24, 18:28";
 shapes = (
 {
 closed = 1;
@@ -133,68 +191,6 @@ width = 282;
 anchors = (
 {
 name = bottom;
-pos = (-40,-250);
-},
-{
-name = top;
-pos = (247,770);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-closed = 1;
-nodes = (
-(57,-250,o),
-(137,-200,o),
-(175,-23,cs),
-(294,536,l),
-(64,536,l),
-(53,483,l),
-(68,483,ls),
-(100,483,o),
-(121,473,o),
-(121,445,cs),
-(121,435,o),
-(117,409,o),
-(111,383,cs),
-(25,-23,ls),
-(-3,-155,o),
-(-22,-193,o),
-(-76,-193,cs),
-(-89,-193,o),
-(-107,-190,o),
-(-115,-186,c),
-(-126,-238,l),
-(-101,-246,o),
-(-76,-250,o),
-(-40,-250,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(280,626,o),
-(327,652,o),
-(327,707,cs),
-(327,752,o),
-(290,770,o),
-(247,770,cs),
-(197,770,o),
-(154,746,o),
-(154,688,cs),
-(154,646,o),
-(188,626,o),
-(232,626,cs)
-);
-}
-);
-width = 315;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (-15,-220);
 },
 {
@@ -202,7 +198,9 @@ name = top;
 pos = (264,777);
 }
 );
-layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+associatedMasterId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+layerId = "308B89B5-CBAE-4D86-A3E1-E21D3754B04F";
+name = "19. Nov 24, 18:28";
 shapes = (
 {
 closed = 1;
@@ -264,7 +262,9 @@ name = top;
 pos = (180,741);
 }
 );
-layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+associatedMasterId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+layerId = "8BC7831A-9769-4552-BD08-9D6150FADA53";
+name = "19. Nov 24, 18:28";
 shapes = (
 {
 closed = 1;
@@ -326,7 +326,9 @@ name = top;
 pos = (205,756);
 }
 );
-layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+layerId = "2F8C4C40-2A1F-4B84-9D64-88F2FDD331F2";
+name = "19. Nov 24, 18:28";
 shapes = (
 {
 closed = 1;
@@ -381,68 +383,6 @@ width = 241;
 anchors = (
 {
 name = bottom;
-pos = (-57,-240);
-},
-{
-name = top;
-pos = (223,766);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-closed = 1;
-nodes = (
-(22,-240,o),
-(101,-198,o),
-(143,-3,cs),
-(258,536,l),
-(67,536,l),
-(57,487,l),
-(69,487,ls),
-(94,487,o),
-(107,477,o),
-(107,452,cs),
-(107,437,o),
-(104,423,o),
-(99,400,cs),
-(13,-3,ls),
-(-16,-140,o),
-(-35,-185,o),
-(-81,-185,cs),
-(-90,-185,o),
-(-101,-183,o),
-(-110,-180,c),
-(-121,-230,l),
-(-101,-237,o),
-(-79,-240,o),
-(-57,-240,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(247,634,o),
-(290,657,o),
-(290,710,cs),
-(290,750,o),
-(258,766,o),
-(223,766,cs),
-(179,766,o),
-(139,743,o),
-(139,689,cs),
-(139,651,o),
-(167,634,o),
-(204,634,cs)
-);
-}
-);
-width = 270;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (-50,-240);
 },
 {
@@ -450,7 +390,9 @@ name = top;
 pos = (238,773);
 }
 );
-layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+associatedMasterId = "081AFB27-5722-432A-9779-C9794386CEF1";
+layerId = "B360D2C7-525B-4594-9AED-11C307131345";
+name = "19. Nov 24, 18:28";
 shapes = (
 {
 closed = 1;
@@ -502,6 +444,8 @@ nodes = (
 width = 293;
 }
 );
+metricLeft = j;
+metricRight = j;
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1112;

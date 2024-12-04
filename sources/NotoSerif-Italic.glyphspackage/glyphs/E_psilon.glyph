@@ -23,21 +23,6 @@ width = 623;
 anchors = (
 {
 name = topleft;
-pos = (167,714);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-ref = E;
-}
-);
-width = 633;
-},
-{
-anchors = (
-{
-name = topleft;
 pos = (161,714);
 }
 );
@@ -108,21 +93,6 @@ ref = E;
 }
 );
 width = 505;
-},
-{
-anchors = (
-{
-name = topleft;
-pos = (133,714);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-ref = E;
-}
-);
-width = 526;
 }
 );
 metricRight = "=O";

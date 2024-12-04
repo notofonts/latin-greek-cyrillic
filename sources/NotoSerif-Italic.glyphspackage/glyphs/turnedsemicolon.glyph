@@ -15,18 +15,6 @@ ref = semicolon;
 width = 286;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-alignment = -1;
-angle = 180;
-pos = (345,533);
-ref = semicolon;
-}
-);
-width = 358;
-},
-{
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
@@ -85,18 +73,6 @@ ref = semicolon;
 }
 );
 width = 244;
-},
-{
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-angle = 180;
-pos = (309,528);
-ref = semicolon;
-}
-);
-width = 302;
 }
 );
 script = "";

@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 11;
 glyphname = "cheverticalstroke-cy";
 kernLeft = "che-cy";
 kernRight = "a-cy";
@@ -62,35 +62,6 @@ ref = "che-cy";
 }
 );
 width = 562;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (233,0);
-},
-{
-name = top;
-pos = (347,536);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-closed = 1;
-nodes = (
-(282,109,l),
-(336,363,l),
-(283,363,l),
-(229,109,l)
-);
-},
-{
-alignment = -1;
-ref = "che-cy";
-}
-);
-width = 614;
 },
 {
 anchors = (
@@ -178,35 +149,6 @@ ref = "che-cy";
 }
 );
 width = 455;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (163,0);
-},
-{
-name = top;
-pos = (277,536);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-closed = 1;
-nodes = (
-(211,103,l),
-(265,363,l),
-(221,363,l),
-(168,103,l)
-);
-},
-{
-alignment = -1;
-ref = "che-cy";
-}
-);
-width = 490;
 },
 {
 anchors = (

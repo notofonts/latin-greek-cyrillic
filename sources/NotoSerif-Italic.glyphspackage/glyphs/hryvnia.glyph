@@ -61,35 +61,6 @@ ref = Tonetwo;
 width = 550;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-closed = 1;
-nodes = (
-(628,310,l),
-(640,369,l),
-(9,369,l),
-(-3,310,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(653,427,l),
-(665,486,l),
-(34,486,l),
-(22,427,l)
-);
-},
-{
-alignment = -1;
-pos = (16,0);
-ref = Tonetwo;
-}
-);
-width = 615;
-},
-{
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
@@ -175,35 +146,6 @@ ref = Tonetwo;
 }
 );
 width = 454;
-},
-{
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-closed = 1;
-nodes = (
-(506,270,l),
-(518,327,l),
-(31,327,l),
-(19,270,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(532,403,l),
-(544,459,l),
-(57,459,l),
-(45,403,l)
-);
-},
-{
-alignment = -1;
-pos = (16,0);
-ref = Tonetwo;
-}
-);
-width = 508;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";

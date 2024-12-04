@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 6;
 glyphname = "ushort-cy";
 kernLeft = "u-cy";
 kernRight = "u-cy";
@@ -56,31 +56,6 @@ ref = "u-cy";
 }
 );
 width = 543;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (55,-240);
-},
-{
-name = top;
-pos = (384,765);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-alignment = -1;
-pos = (102,0);
-ref = cyrillicbreve;
-},
-{
-alignment = -1;
-ref = "u-cy";
-}
-);
-width = 580;
 },
 {
 anchors = (
@@ -150,31 +125,6 @@ ref = "u-cy";
 }
 );
 width = 465;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (30,-240);
-},
-{
-name = top;
-pos = (332,759);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-pos = (-15,0);
-ref = cyrillicbreve;
-},
-{
-alignment = -1;
-ref = "u-cy";
-}
-);
-width = 480;
 },
 {
 anchors = (

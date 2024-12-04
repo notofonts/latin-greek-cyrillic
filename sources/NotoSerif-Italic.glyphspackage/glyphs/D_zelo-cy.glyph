@@ -41,25 +41,6 @@ ref = "Zemlya-cy";
 width = 592;
 },
 {
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-closed = 1;
-nodes = (
-(593,337,l),
-(606,398,l),
-(121,398,l),
-(108,337,l)
-);
-},
-{
-alignment = -1;
-ref = "Zemlya-cy";
-}
-);
-width = 666;
-},
-{
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 metricRight = "=uniA640";
 shapes = (
@@ -116,25 +97,6 @@ ref = "Zemlya-cy";
 }
 );
 width = 486;
-},
-{
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-closed = 1;
-nodes = (
-(504,345,l),
-(516,403,l),
-(136,403,l),
-(123,345,l)
-);
-},
-{
-alignment = -1;
-ref = "Zemlya-cy";
-}
-);
-width = 552;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";

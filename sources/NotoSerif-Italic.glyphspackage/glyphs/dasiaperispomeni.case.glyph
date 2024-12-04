@@ -55,29 +55,6 @@ width = 436;
 anchors = (
 {
 name = _topleft;
-pos = (516,714);
-}
-);
-guides = (
-{
-angle = 78;
-pos = (484,563);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-alignment = -1;
-pos = (-58,-273);
-ref = dasiaperispomeni;
-}
-);
-width = 450;
-},
-{
-anchors = (
-{
-name = _topleft;
 pos = (528,714);
 }
 );
@@ -142,29 +119,6 @@ ref = dasiaperispomeni;
 }
 );
 width = 370;
-},
-{
-anchors = (
-{
-name = _topleft;
-pos = (448,714);
-}
-);
-guides = (
-{
-angle = 78;
-pos = (416,563);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-pos = (-56,-264);
-ref = dasiaperispomeni;
-}
-);
-width = 384;
 },
 {
 anchors = (

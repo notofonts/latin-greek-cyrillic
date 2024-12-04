@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 11;
 glyphname = "Umacron-cy";
 kernLeft = "U-cy";
 kernRight = "U-cy";
@@ -54,31 +54,6 @@ ref = macronmod;
 }
 );
 width = 650;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (290,0);
-},
-{
-name = top;
-pos = (484,850);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-alignment = -1;
-ref = "U-cy";
-},
-{
-alignment = -1;
-pos = (218,165);
-ref = macronmod;
-}
-);
-width = 700;
 },
 {
 anchors = (
@@ -154,31 +129,6 @@ ref = macronmod;
 }
 );
 width = 528;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (226,0);
-},
-{
-name = top;
-pos = (426,847);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = "U-cy";
-},
-{
-alignment = -1;
-pos = (188,168);
-ref = macronmod;
-}
-);
-width = 572;
 },
 {
 anchors = (

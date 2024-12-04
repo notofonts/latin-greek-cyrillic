@@ -1,21 +1,11 @@
 {
 category = Letter;
-color = 4;
+color = 7;
 glyphname = "Iigrave-cy";
 kernLeft = "En-cy";
 kernRight = "En-cy";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (323,0);
-},
-{
-name = top;
-pos = (473,931);
-}
-);
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
@@ -29,16 +19,6 @@ ref = grave;
 width = 766;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (344,0);
-},
-{
-name = top;
-pos = (478,931);
-}
-);
 layerId = UUID0;
 shapes = (
 {
@@ -50,31 +30,6 @@ ref = grave;
 }
 );
 width = 807;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (353,0);
-},
-{
-name = top;
-pos = (495,931);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-alignment = -1;
-ref = "Ii-cy";
-},
-{
-alignment = -1;
-pos = (201,165);
-ref = grave;
-}
-);
-width = 819;
 },
 {
 anchors = (
@@ -148,31 +103,6 @@ ref = grave;
 }
 );
 width = 642;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (278,0);
-},
-{
-name = top;
-pos = (424,931);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = "Ii-cy";
-},
-{
-alignment = -1;
-pos = (151,165);
-ref = grave;
-}
-);
-width = 676;
 },
 {
 anchors = (

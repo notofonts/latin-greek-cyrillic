@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 11;
 glyphname = "te-cy.loclSRB";
 kernLeft = "ii-cy";
 kernRight = "a-cy";
@@ -62,35 +62,6 @@ ref = "sha-cy";
 }
 );
 width = 889;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (412,0);
-},
-{
-name = top;
-pos = (547,685);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-closed = 1;
-nodes = (
-(834,606,l),
-(851,685,l),
-(261,685,l),
-(244,606,l)
-);
-},
-{
-alignment = -1;
-ref = "sha-cy";
-}
-);
-width = 951;
 },
 {
 anchors = (
@@ -178,35 +149,6 @@ ref = "sha-cy";
 }
 );
 width = 725;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (319,0);
-},
-{
-name = top;
-pos = (461,679);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-closed = 1;
-nodes = (
-(694,606,l),
-(710,679,l),
-(215,679,l),
-(199,606,l)
-);
-},
-{
-alignment = -1;
-ref = "sha-cy";
-}
-);
-width = 775;
 },
 {
 anchors = (

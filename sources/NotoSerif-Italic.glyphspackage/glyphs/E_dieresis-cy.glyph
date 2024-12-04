@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 11;
 glyphname = "Edieresis-cy";
 kernLeft = "Ze-cy";
 kernRight = "O-cy";
@@ -54,31 +54,6 @@ ref = dieresis;
 }
 );
 width = 627;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (229,0);
-},
-{
-name = top;
-pos = (378,928);
-}
-);
-layerId = "0748FCBA-26BB-4096-A322-99C7EC440251";
-shapes = (
-{
-alignment = -1;
-ref = "Ereversed-cy";
-},
-{
-alignment = -1;
-pos = (30,165);
-ref = dieresis;
-}
-);
-width = 658;
 },
 {
 anchors = (
@@ -154,31 +129,6 @@ ref = dieresis;
 }
 );
 width = 513;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (179,0);
-},
-{
-name = top;
-pos = (324,913);
-}
-);
-layerId = "50C02CB6-129D-4BF7-ADB7-784B68302109";
-shapes = (
-{
-alignment = -1;
-ref = "Ereversed-cy";
-},
-{
-alignment = -1;
-pos = (15,165);
-ref = dieresis;
-}
-);
-width = 549;
 },
 {
 anchors = (
