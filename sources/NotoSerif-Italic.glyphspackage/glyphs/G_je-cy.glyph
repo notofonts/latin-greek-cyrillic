@@ -9,7 +9,7 @@ layers = (
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
-pos = (249,165);
+pos = (245,165);
 ref = acute;
 },
 {
@@ -19,16 +19,6 @@ ref = "Ge-cy";
 width = 537;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (126,0);
-},
-{
-name = top;
-pos = (459,931);
-}
-);
 layerId = UUID0;
 shapes = (
 {
@@ -42,20 +32,10 @@ ref = "Ge-cy";
 width = 574;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (145,0);
-},
-{
-name = top;
-pos = (502,931);
-}
-);
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
-pos = (227,165);
+pos = (258,165);
 ref = acute;
 },
 {
@@ -65,43 +45,23 @@ ref = "Ge-cy";
 width = 631;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (64,0);
-},
-{
-name = top;
-pos = (370,931);
-}
-);
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
-pos = (197,165);
+pos = (188,165);
 ref = acute;
 },
 {
 ref = "Ge-cy";
 }
 );
-width = 413;
+width = 431;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (89,0);
-},
-{
-name = top;
-pos = (402,931);
-}
-);
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
-pos = (192,165);
+pos = (208,165);
 ref = acute;
 },
 {
@@ -111,27 +71,17 @@ ref = "Ge-cy";
 width = 472;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (115,0);
-},
-{
-name = top;
-pos = (453,931);
-}
-);
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
-pos = (201,165);
+pos = (226,165);
 ref = acute;
 },
 {
 ref = "Ge-cy";
 }
 );
-width = 532;
+width = 522;
 }
 );
 metricLeft = "En-cy";

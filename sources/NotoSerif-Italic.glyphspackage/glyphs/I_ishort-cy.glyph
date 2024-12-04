@@ -63,7 +63,7 @@ pos = (42,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 592;
+width = 602;
 },
 {
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";

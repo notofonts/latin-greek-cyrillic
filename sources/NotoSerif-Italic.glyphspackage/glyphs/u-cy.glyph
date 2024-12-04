@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 0;
+color = 4;
 glyphname = "u-cy";
 kernLeft = "u-cy";
 kernRight = "u-cy";
