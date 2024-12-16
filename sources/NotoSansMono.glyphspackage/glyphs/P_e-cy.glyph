@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 1;
 glyphname = "Pe-cy";
 layers = (
 {
@@ -156,8 +156,8 @@ shapes = (
 closed = 1;
 nodes = (
 (129,0,l),
-(129,638,l),
-(371,638,l),
+(129,636,l),
+(371,636,l),
 (371,0,l),
 (455,0,l),
 (455,714,l),
@@ -196,6 +196,41 @@ nodes = (
 (475,714,l),
 (25,714,l),
 (25,0,l)
+);
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (250,0);
+},
+{
+name = bottomright;
+pos = (480,0);
+},
+{
+name = top;
+pos = (250,714);
+}
+);
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+layerId = "BAE964A3-E809-4160-BA4C-5CC3A34405D0";
+name = "11. Dec 24, 18:38";
+shapes = (
+{
+closed = 1;
+nodes = (
+(129,0,l),
+(129,638,l),
+(371,638,l),
+(371,0,l),
+(455,0,l),
+(455,714,l),
+(45,714,l),
+(45,0,l)
 );
 }
 );

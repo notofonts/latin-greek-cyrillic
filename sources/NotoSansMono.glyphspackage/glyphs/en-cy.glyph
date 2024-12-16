@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 1;
 glyphname = "en-cy";
 layers = (
 {
@@ -62,27 +62,20 @@ name = top;
 pos = (300,536);
 }
 );
-background = {
-shapes = (
-{
-ref = n;
-}
-);
-};
 layerId = UUID0;
 shapes = (
 {
 closed = 1;
 nodes = (
 (170,0,l),
-(170,240,l),
-(430,240,l),
+(170,239,l),
+(430,239,l),
 (430,0,l),
 (520,0,l),
 (520,536,l),
 (430,536,l),
-(430,312,l),
-(170,312,l),
+(430,313,l),
+(170,313,l),
 (170,536,l),
 (80,536,l),
 (80,0,l)
@@ -109,7 +102,21 @@ pos = (300,553);
 background = {
 shapes = (
 {
-ref = n;
+closed = 1;
+nodes = (
+(226,0,l),
+(226,212,l),
+(374,212,l),
+(374,0,l),
+(565,0,l),
+(565,553,l),
+(374,553,l),
+(374,355,l),
+(226,355,l),
+(226,553,l),
+(35,553,l),
+(35,0,l)
+);
 }
 );
 };
@@ -251,6 +258,113 @@ shapes = (
 closed = 1;
 nodes = (
 (190,0,l),
+(190,214,l),
+(310,214,l),
+(310,0,l),
+(465,0,l),
+(465,553,l),
+(310,553,l),
+(310,352,l),
+(190,352,l),
+(190,553,l),
+(35,553,l),
+(35,0,l)
+);
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = bottomright;
+pos = (580,0);
+},
+{
+name = top;
+pos = (300,536);
+}
+);
+associatedMasterId = UUID0;
+background = {
+shapes = (
+{
+ref = n;
+}
+);
+};
+layerId = "0B16393E-63D4-4773-9389-1B1129789A45";
+name = "9. Dec 24, 14:29";
+shapes = (
+{
+closed = 1;
+nodes = (
+(170,0,l),
+(170,240,l),
+(430,240,l),
+(430,0,l),
+(520,0,l),
+(520,536,l),
+(430,536,l),
+(430,312,l),
+(170,312,l),
+(170,536,l),
+(80,536,l),
+(80,0,l)
+);
+}
+);
+visible = 1;
+width = 600;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (251,0);
+},
+{
+name = bottomright;
+pos = (480,0);
+},
+{
+name = top;
+pos = (251,553);
+}
+);
+associatedMasterId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(170,0,l),
+(170,213,l),
+(330,213,l),
+(330,0,l),
+(505,0,l),
+(505,553,l),
+(330,553,l),
+(330,353,l),
+(170,353,l),
+(170,553,l),
+(-5,553,l),
+(-5,0,l)
+);
+}
+);
+};
+layerId = "48DC941E-37A3-4344-A783-544967BB6A6F";
+name = "16. Dec 24, 01:01";
+shapes = (
+{
+closed = 1;
+nodes = (
+(190,0,l),
 (190,217,l),
 (310,217,l),
 (310,0,l),
@@ -269,7 +383,7 @@ width = 500;
 }
 );
 metricLeft = n;
-metricRight = d;
+metricRight = "=|n";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1085;
