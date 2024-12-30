@@ -30,7 +30,7 @@ ref = acutecomb;
 ref = "ge-cy";
 }
 );
-width = 389;
+width = 392;
 },
 {
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
@@ -56,7 +56,7 @@ ref = acutecomb;
 ref = "ge-cy";
 }
 );
-width = 354;
+width = 360;
 },
 {
 background = {
@@ -93,7 +93,7 @@ ref = acutecomb;
 ref = "ge-cy";
 }
 );
-width = 433;
+width = 429;
 },
 {
 anchors = (
