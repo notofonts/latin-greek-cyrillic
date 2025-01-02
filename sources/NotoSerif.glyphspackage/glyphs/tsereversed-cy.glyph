@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 0;
+color = 6;
 glyphname = "tsereversed-cy";
 layers = (
 {
@@ -8,71 +8,71 @@ layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
 alignment = -1;
-pos = (622,0);
+pos = (626,0);
 ref = "tse-cy";
 scale = (-1,1);
 }
 );
-width = 622;
+width = 626;
 },
 {
 layerId = UUID0;
 shapes = (
 {
-pos = (660,0);
+pos = (652,0);
 ref = "tse-cy";
 scale = (-1,1);
 }
 );
-width = 660;
+width = 652;
 },
 {
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
-pos = (701,0);
+pos = (695,0);
 ref = "tse-cy";
 scale = (-1,1);
 }
 );
-width = 701;
+width = 695;
 },
 {
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
-pos = (466,0);
+pos = (476,0);
 ref = "tse-cy";
 scale = (-1,1);
 }
 );
-width = 466;
+width = 476;
 },
 {
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
-pos = (508,0);
+pos = (515,0);
 ref = "tse-cy";
 scale = (-1,1);
 }
 );
-width = 508;
+width = 515;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
-pos = (587,0);
+pos = (585,0);
 ref = "tse-cy";
 scale = (-1,1);
 }
 );
-width = 587;
+width = 585;
 }
 );
 metricLeft = "=|tse-cy";
-metricRight = "=|tse-cy";
+metricRight = "en-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 42593;

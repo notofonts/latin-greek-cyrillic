@@ -1,12 +1,12 @@
 {
 category = Letter;
-color = 0;
+color = 6;
 glyphname = "Udieresis-cy";
 kernLeft = cyr_U;
 kernRight = cyr_U;
 layers = (
 {
-layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+background = {
 shapes = (
 {
 ref = "U-cy";
@@ -17,10 +17,22 @@ pos = (40,165);
 ref = dieresis;
 }
 );
-width = 640;
+};
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+ref = "U-cy";
 },
 {
-layerId = UUID0;
+alignment = -1;
+pos = (314,165);
+ref = dieresiscomb;
+}
+);
+width = 621;
+},
+{
+background = {
 shapes = (
 {
 ref = "U-cy";
@@ -30,10 +42,21 @@ pos = (46,165);
 ref = dieresis;
 }
 );
-width = 650;
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "U-cy";
 },
 {
-layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+pos = (343,165);
+ref = dieresiscomb;
+}
+);
+width = 645;
+},
+{
+background = {
 shapes = (
 {
 ref = "U-cy";
@@ -43,10 +66,21 @@ pos = (77,165);
 ref = dieresis;
 }
 );
-width = 710;
+};
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = "U-cy";
 },
 {
-layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+pos = (377,165);
+ref = dieresiscomb;
+}
+);
+width = 706;
+},
+{
+background = {
 shapes = (
 {
 ref = "U-cy";
@@ -56,10 +90,21 @@ pos = (38,165);
 ref = dieresis;
 }
 );
-width = 497;
+};
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = "U-cy";
 },
 {
-layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+pos = (248,165);
+ref = dieresiscomb;
+}
+);
+width = 487;
+},
+{
+background = {
 shapes = (
 {
 ref = "U-cy";
@@ -69,10 +114,21 @@ pos = (44,165);
 ref = dieresis;
 }
 );
-width = 528;
+};
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = "U-cy";
 },
 {
-layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+pos = (281,165);
+ref = dieresiscomb;
+}
+);
+width = 529;
+},
+{
+background = {
 shapes = (
 {
 ref = "U-cy";
@@ -82,11 +138,22 @@ pos = (68,165);
 ref = dieresis;
 }
 );
-width = 600;
+};
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = "U-cy";
+},
+{
+pos = (328,165);
+ref = dieresiscomb;
+}
+);
+width = 599;
 }
 );
 metricLeft = "U-cy";
-metricWidth = "U-cy";
+metricRight = "U-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1264;

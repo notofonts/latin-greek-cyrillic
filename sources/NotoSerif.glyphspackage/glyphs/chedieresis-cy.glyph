@@ -1,12 +1,12 @@
 {
 category = Letter;
-color = 0;
+color = 6;
 glyphname = "chedieresis-cy";
 kernLeft = cyr_che;
 kernRight = cyr_en;
 layers = (
 {
-layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+background = {
 shapes = (
 {
 alignment = -1;
@@ -18,10 +18,23 @@ alignment = -1;
 ref = "che-cy";
 }
 );
-width = 602;
+};
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+pos = (282,0);
+ref = dieresiscomb;
 },
 {
-layerId = UUID0;
+alignment = -1;
+ref = "che-cy";
+}
+);
+width = 592;
+},
+{
+background = {
 shapes = (
 {
 pos = (18,0);
@@ -31,10 +44,21 @@ ref = dieresis;
 ref = "che-cy";
 }
 );
-width = 632;
+};
+layerId = UUID0;
+shapes = (
+{
+pos = (300,0);
+ref = dieresiscomb;
 },
 {
-layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+ref = "che-cy";
+}
+);
+width = 613;
+},
+{
+background = {
 shapes = (
 {
 pos = (45,0);
@@ -44,10 +68,21 @@ ref = dieresis;
 ref = "che-cy";
 }
 );
-width = 681;
+};
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+pos = (324,0);
+ref = dieresiscomb;
 },
 {
-layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+ref = "che-cy";
+}
+);
+width = 655;
+},
+{
+background = {
 shapes = (
 {
 pos = (-1,0);
@@ -57,10 +92,21 @@ ref = dieresis;
 ref = "che-cy";
 }
 );
-width = 451;
+};
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+pos = (215,0);
+ref = dieresiscomb;
 },
 {
-layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+ref = "che-cy";
+}
+);
+width = 452;
+},
+{
+background = {
 shapes = (
 {
 pos = (19,0);
@@ -70,10 +116,21 @@ ref = dieresis;
 ref = "che-cy";
 }
 );
-width = 503;
+};
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+pos = (239,0);
+ref = dieresiscomb;
 },
 {
-layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+ref = "che-cy";
+}
+);
+width = 488;
+},
+{
+background = {
 shapes = (
 {
 pos = (34,0);
@@ -83,11 +140,22 @@ ref = dieresis;
 ref = "che-cy";
 }
 );
-width = 563;
+};
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+pos = (271,0);
+ref = dieresiscomb;
+},
+{
+ref = "che-cy";
+}
+);
+width = 547;
 }
 );
 metricLeft = "che-cy";
-metricWidth = "che-cy";
+metricRight = "che-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1269;

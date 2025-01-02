@@ -1,12 +1,12 @@
 {
 category = Letter;
-color = 0;
+color = 6;
 glyphname = "Yerudieresis-cy";
 kernLeft = cyr_En;
 kernRight = cyr_En;
 layers = (
 {
-layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+background = {
 shapes = (
 {
 alignment = -1;
@@ -18,10 +18,23 @@ alignment = -1;
 ref = "Yeru-cy";
 }
 );
-width = 841;
+};
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+alignment = -1;
+pos = (422,165);
+ref = dieresiscomb;
 },
 {
-layerId = UUID0;
+alignment = -1;
+ref = "Yeru-cy";
+}
+);
+width = 850;
+},
+{
+background = {
 shapes = (
 {
 pos = (179,165);
@@ -31,10 +44,21 @@ ref = dieresis;
 ref = "Yeru-cy";
 }
 );
-width = 915;
+};
+layerId = UUID0;
+shapes = (
+{
+pos = (457,165);
+ref = dieresiscomb;
 },
 {
-layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+ref = "Yeru-cy";
+}
+);
+width = 914;
+},
+{
+background = {
 shapes = (
 {
 pos = (247,165);
@@ -44,10 +68,21 @@ ref = dieresis;
 ref = "Yeru-cy";
 }
 );
-width = 1035;
+};
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+pos = (532,165);
+ref = dieresiscomb;
 },
 {
-layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+ref = "Yeru-cy";
+}
+);
+width = 1059;
+},
+{
+background = {
 shapes = (
 {
 pos = (115,165);
@@ -57,10 +92,21 @@ ref = dieresis;
 ref = "Yeru-cy";
 }
 );
-width = 643;
+};
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+pos = (323,165);
+ref = dieresiscomb;
 },
 {
-layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+ref = "Yeru-cy";
+}
+);
+width = 648;
+},
+{
+background = {
 shapes = (
 {
 pos = (147,165);
@@ -70,10 +116,21 @@ ref = dieresis;
 ref = "Yeru-cy";
 }
 );
-width = 739;
+};
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+pos = (374,165);
+ref = dieresiscomb;
 },
 {
-layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+ref = "Yeru-cy";
+}
+);
+width = 750;
+},
+{
+background = {
 shapes = (
 {
 pos = (210,165);
@@ -83,11 +140,22 @@ ref = dieresis;
 ref = "Yeru-cy";
 }
 );
-width = 885;
+};
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+pos = (448,165);
+ref = dieresiscomb;
+},
+{
+ref = "Yeru-cy";
+}
+);
+width = 890;
 }
 );
 metricLeft = "Yeru-cy";
-metricWidth = "Yeru-cy";
+metricRight = "Yeru-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1272;

@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 0;
+color = 6;
 glyphname = "Uhungarumlaut-cy";
 kernLeft = cyr_U;
 kernRight = cyr_U;
@@ -13,11 +13,11 @@ ref = "U-cy";
 },
 {
 alignment = -1;
-pos = (178,165);
+pos = (160,165);
 ref = hungarumlaut;
 }
 );
-width = 640;
+width = 621;
 },
 {
 layerId = UUID0;
@@ -26,11 +26,11 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (145,165);
+pos = (168,165);
 ref = hungarumlaut;
 }
 );
-width = 650;
+width = 645;
 },
 {
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
@@ -39,11 +39,11 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (145,165);
+pos = (207,165);
 ref = hungarumlaut;
 }
 );
-width = 710;
+width = 706;
 },
 {
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
@@ -52,11 +52,11 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (127,165);
+pos = (139,165);
 ref = hungarumlaut;
 }
 );
-width = 497;
+width = 487;
 },
 {
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
@@ -65,11 +65,11 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (118,165);
+pos = (141,165);
 ref = hungarumlaut;
 }
 );
-width = 528;
+width = 529;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
@@ -78,15 +78,15 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (124,165);
+pos = (180,165);
 ref = hungarumlaut;
 }
 );
-width = 600;
+width = 599;
 }
 );
 metricLeft = "U-cy";
-metricWidth = "U-cy";
+metricRight = "U-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1266;

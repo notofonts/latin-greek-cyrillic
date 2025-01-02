@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 0;
+color = 6;
 glyphname = "Imacron-cy";
 kernLeft = cyr_En;
 kernRight = cyr_En;
@@ -13,11 +13,11 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (198,165);
+pos = (199,165);
 ref = macronmod;
 }
 );
-width = 766;
+width = 768;
 },
 {
 layerId = UUID0;
@@ -26,11 +26,11 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (218,165);
+pos = (215,165);
 ref = macronmod;
 }
 );
-width = 807;
+width = 800;
 },
 {
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
@@ -39,11 +39,11 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (232,165);
+pos = (239,165);
 ref = macronmod;
 }
 );
-width = 834;
+width = 847;
 },
 {
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
@@ -52,11 +52,11 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (142,165);
+pos = (144,165);
 ref = macronmod;
 }
 );
-width = 584;
+width = 587;
 },
 {
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
@@ -65,11 +65,11 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (167,165);
+pos = (163,165);
 ref = macronmod;
 }
 );
-width = 642;
+width = 636;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
@@ -78,15 +78,15 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (190,165);
+pos = (193,165);
 ref = macronmod;
 }
 );
-width = 702;
+width = 706;
 }
 );
 metricLeft = "Ii-cy";
-metricWidth = "Ii-cy";
+metricRight = "Ii-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1250;

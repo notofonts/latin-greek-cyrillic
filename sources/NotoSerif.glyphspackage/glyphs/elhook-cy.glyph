@@ -18,7 +18,7 @@ pos = (367,0);
 ref = cyrillicbighookUC;
 }
 );
-width = 575;
+width = 582;
 },
 {
 layerId = UUID0;
@@ -31,7 +31,7 @@ pos = (390,0);
 ref = cyrillicbighookUC;
 }
 );
-width = 613;
+width = 602;
 },
 {
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
@@ -44,7 +44,7 @@ pos = (375,0);
 ref = cyrillicbighookUC;
 }
 );
-width = 640;
+width = 641;
 },
 {
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
@@ -57,7 +57,7 @@ pos = (302,0);
 ref = cyrillicbighookUC;
 }
 );
-width = 455;
+width = 461;
 },
 {
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
@@ -70,7 +70,7 @@ pos = (312,0);
 ref = cyrillicbighookUC;
 }
 );
-width = 490;
+width = 495;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
@@ -83,7 +83,7 @@ pos = (321,0);
 ref = cyrillicbighookUC;
 }
 );
-width = 545;
+width = 537;
 }
 );
 metricLeft = "el-cy";

@@ -38,7 +38,7 @@ pos = (193,0);
 ref = cyrillicbreve;
 }
 );
-width = 642;
+width = 638;
 },
 {
 anchors = (
@@ -72,7 +72,7 @@ pos = (171,0);
 ref = cyrillicbreve;
 }
 );
-width = 675;
+width = 664;
 },
 {
 anchors = (
@@ -106,7 +106,7 @@ pos = (165,0);
 ref = cyrillicbreve;
 }
 );
-width = 710;
+width = 702;
 },
 {
 anchors = (
@@ -140,7 +140,7 @@ pos = (132,0);
 ref = cyrillicbreve;
 }
 );
-width = 484;
+width = 488;
 },
 {
 anchors = (
@@ -208,7 +208,7 @@ pos = (140,0);
 ref = cyrillicbreve;
 }
 );
-width = 587;
+width = 584;
 }
 );
 metricLeft = "ii-cy";

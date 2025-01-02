@@ -22,7 +22,7 @@ alignment = -1;
 ref = "Che-cy";
 }
 );
-width = 726;
+width = 722;
 },
 {
 layerId = UUID0;
@@ -40,7 +40,7 @@ nodes = (
 ref = "Che-cy";
 }
 );
-width = 757;
+width = 738;
 },
 {
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
@@ -58,7 +58,7 @@ nodes = (
 ref = "Che-cy";
 }
 );
-width = 800;
+width = 793;
 },
 {
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
@@ -76,7 +76,7 @@ nodes = (
 ref = "Che-cy";
 }
 );
-width = 546;
+width = 541;
 },
 {
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
@@ -94,7 +94,7 @@ nodes = (
 ref = "Che-cy";
 }
 );
-width = 614;
+width = 599;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
@@ -112,7 +112,7 @@ nodes = (
 ref = "Che-cy";
 }
 );
-width = 675;
+width = 673;
 }
 );
 metricLeft = "Che-cy";

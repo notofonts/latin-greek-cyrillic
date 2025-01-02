@@ -24,7 +24,7 @@ alignment = -1;
 ref = "el-cy";
 }
 );
-width = 575;
+width = 582;
 },
 {
 layerId = UUID0;
@@ -44,7 +44,7 @@ nodes = (
 ref = "el-cy";
 }
 );
-width = 613;
+width = 602;
 },
 {
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
@@ -64,7 +64,7 @@ nodes = (
 ref = "el-cy";
 }
 );
-width = 640;
+width = 641;
 },
 {
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
@@ -84,7 +84,7 @@ nodes = (
 ref = "el-cy";
 }
 );
-width = 455;
+width = 461;
 },
 {
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
@@ -104,7 +104,7 @@ nodes = (
 ref = "el-cy";
 }
 );
-width = 490;
+width = 495;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
@@ -124,7 +124,7 @@ nodes = (
 ref = "el-cy";
 }
 );
-width = 545;
+width = 537;
 }
 );
 metricLeft = "el-cy";

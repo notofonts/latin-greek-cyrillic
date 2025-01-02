@@ -95,7 +95,7 @@ nodes = (
 ref = "De-cy";
 }
 );
-width = 712;
+width = 708;
 },
 {
 background = {
@@ -187,7 +187,7 @@ nodes = (
 ref = "De-cy";
 }
 );
-width = 742;
+width = 723;
 },
 {
 background = {
@@ -279,7 +279,7 @@ nodes = (
 ref = "De-cy";
 }
 );
-width = 760;
+width = 759;
 },
 {
 background = {
@@ -371,7 +371,7 @@ nodes = (
 ref = "De-cy";
 }
 );
-width = 577;
+width = 573;
 },
 {
 background = {
@@ -463,7 +463,7 @@ nodes = (
 ref = "De-cy";
 }
 );
-width = 620;
+width = 607;
 },
 {
 background = {
@@ -555,7 +555,7 @@ nodes = (
 ref = "De-cy";
 }
 );
-width = 640;
+width = 646;
 }
 );
 metricLeft = "De-cy";

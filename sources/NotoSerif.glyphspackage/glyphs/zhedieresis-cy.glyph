@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 0;
+color = 6;
 glyphname = "zhedieresis-cy";
 kernLeft = cyr_zhe;
 kernRight = cyr_zhe;
@@ -14,11 +14,11 @@ ref = "zhe-cy";
 },
 {
 alignment = -1;
-pos = (90,0);
-ref = dieresis;
+pos = (382,0);
+ref = dieresiscomb;
 }
 );
-width = 756;
+width = 768;
 },
 {
 layerId = UUID0;
@@ -27,11 +27,11 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (112,0);
-ref = dieresis;
+pos = (400,0);
+ref = dieresiscomb;
 }
 );
-width = 800;
+width = 799;
 },
 {
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
@@ -40,11 +40,11 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (167,0);
-ref = dieresis;
+pos = (467,0);
+ref = dieresiscomb;
 }
 );
-width = 910;
+width = 931;
 },
 {
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
@@ -53,11 +53,11 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (81,0);
-ref = dieresis;
+pos = (303,0);
+ref = dieresiscomb;
 }
 );
-width = 600;
+width = 610;
 },
 {
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
@@ -66,11 +66,11 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (102,0);
-ref = dieresis;
+pos = (329,0);
+ref = dieresiscomb;
 }
 );
-width = 660;
+width = 659;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
@@ -79,15 +79,15 @@ shapes = (
 ref = "zhe-cy";
 },
 {
-pos = (158,0);
-ref = dieresis;
+pos = (400,0);
+ref = dieresiscomb;
 }
 );
 width = 796;
 }
 );
 metricLeft = "zhe-cy";
-metricWidth = "zhe-cy";
+metricRight = "zhe-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1245;

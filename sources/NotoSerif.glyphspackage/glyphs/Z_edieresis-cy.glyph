@@ -1,12 +1,12 @@
 {
 category = Letter;
-color = 0;
+color = 6;
 glyphname = "Zedieresis-cy";
 kernLeft = cyr_Ze;
 kernRight = cyr_Ve;
 layers = (
 {
-layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+background = {
 shapes = (
 {
 ref = "Ze-cy";
@@ -17,10 +17,22 @@ pos = (-23,165);
 ref = dieresis;
 }
 );
-width = 550;
+};
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+ref = "Ze-cy";
 },
 {
-layerId = UUID0;
+alignment = -1;
+pos = (263,165);
+ref = dieresiscomb;
+}
+);
+width = 544;
+},
+{
+background = {
 shapes = (
 {
 ref = "Ze-cy";
@@ -30,10 +42,21 @@ pos = (2,165);
 ref = dieresis;
 }
 );
-width = 595;
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "Ze-cy";
 },
 {
-layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+pos = (291,165);
+ref = dieresiscomb;
+}
+);
+width = 590;
+},
+{
+background = {
 shapes = (
 {
 ref = "Ze-cy";
@@ -43,10 +66,21 @@ pos = (32,165);
 ref = dieresis;
 }
 );
-width = 650;
+};
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = "Ze-cy";
 },
 {
-layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+pos = (328,165);
+ref = dieresiscomb;
+}
+);
+width = 670;
+},
+{
+background = {
 shapes = (
 {
 ref = "Ze-cy";
@@ -56,10 +90,21 @@ pos = (-19,165);
 ref = dieresis;
 }
 );
-width = 410;
+};
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = "Ze-cy";
 },
 {
-layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+pos = (210,165);
+ref = dieresiscomb;
+}
+);
+width = 422;
+},
+{
+background = {
 shapes = (
 {
 ref = "Ze-cy";
@@ -69,7 +114,18 @@ pos = (9,165);
 ref = dieresis;
 }
 );
-width = 485;
+};
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = "Ze-cy";
+},
+{
+pos = (250,165);
+ref = dieresiscomb;
+}
+);
+width = 493;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
@@ -78,15 +134,15 @@ shapes = (
 ref = "Ze-cy";
 },
 {
-pos = (30,165);
-ref = dieresis;
+pos = (290,165);
+ref = dieresiscomb;
 }
 );
-width = 545;
+width = 568;
 }
 );
 metricLeft = "Ze-cy";
-metricWidth = "Ze-cy";
+metricRight = "Ze-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1246;
