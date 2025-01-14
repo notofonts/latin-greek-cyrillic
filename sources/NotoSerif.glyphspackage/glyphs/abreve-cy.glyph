@@ -2,7 +2,7 @@
 category = Letter;
 color = 6;
 glyphname = "abreve-cy";
-kernLeft = "adieresis-cy";
+kernLeft = a;
 kernRight = n;
 layers = (
 {

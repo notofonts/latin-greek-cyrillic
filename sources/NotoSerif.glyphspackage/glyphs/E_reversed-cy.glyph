@@ -2,7 +2,7 @@
 color = 8;
 glyphname = "Ereversed-cy";
 kernLeft = cyr_Ze;
-kernRight = cyr_O;
+kernRight = O;
 layers = (
 {
 anchors = (

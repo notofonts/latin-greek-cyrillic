@@ -2,8 +2,8 @@
 category = Letter;
 color = 6;
 glyphname = "umacron-cy";
-kernLeft = "u-cy";
-kernRight = "u-cy";
+kernLeft = y;
+kernRight = y;
 layers = (
 {
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";

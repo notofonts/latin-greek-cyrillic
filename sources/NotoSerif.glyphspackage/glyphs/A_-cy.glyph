@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = "A-cy";
-kernLeft = cyr_A;
-kernRight = cyr_A;
+kernLeft = A;
+kernRight = A;
 layers = (
 {
 background = {

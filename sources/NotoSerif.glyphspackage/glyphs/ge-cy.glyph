@@ -1,7 +1,7 @@
 {
 color = 1;
 glyphname = "ge-cy";
-kernLeft = cyr_en;
+kernLeft = n;
 kernRight = cyr_te;
 layers = (
 {

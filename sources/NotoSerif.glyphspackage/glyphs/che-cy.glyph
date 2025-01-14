@@ -2,7 +2,7 @@
 color = 8;
 glyphname = "che-cy";
 kernLeft = cyr_che;
-kernRight = cyr_en;
+kernRight = u;
 layers = (
 {
 anchors = (

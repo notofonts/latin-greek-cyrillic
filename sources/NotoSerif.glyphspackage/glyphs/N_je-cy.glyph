@@ -1,7 +1,7 @@
 {
 color = 8;
 glyphname = "Nje-cy";
-kernLeft = cyr_En;
+kernLeft = B;
 kernRight = cyr_Softsign;
 layers = (
 {

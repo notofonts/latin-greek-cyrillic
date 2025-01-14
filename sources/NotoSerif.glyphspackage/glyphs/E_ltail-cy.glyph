@@ -3,7 +3,7 @@ category = Letter;
 color = 11;
 glyphname = "Eltail-cy";
 kernLeft = cyr_El;
-kernRight = "De-cy";
+kernRight = H;
 layers = (
 {
 background = {

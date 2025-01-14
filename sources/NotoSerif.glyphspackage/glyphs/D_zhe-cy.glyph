@@ -1,8 +1,8 @@
 {
 color = 8;
 glyphname = "Dzhe-cy";
-kernLeft = cyr_En;
-kernRight = cyr_En;
+kernLeft = B;
+kernRight = H;
 layers = (
 {
 anchors = (

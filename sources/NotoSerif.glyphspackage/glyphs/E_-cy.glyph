@@ -1,8 +1,8 @@
 {
 color = 8;
 glyphname = "E-cy";
-kernLeft = cyr_O;
-kernRight = cyr_Es;
+kernLeft = O;
+kernRight = C;
 layers = (
 {
 anchors = (

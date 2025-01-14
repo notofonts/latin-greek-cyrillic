@@ -2,7 +2,7 @@
 color = 8;
 glyphname = "el-cy";
 kernLeft = cyr_el;
-kernRight = cyr_en;
+kernRight = u;
 layers = (
 {
 anchors = (

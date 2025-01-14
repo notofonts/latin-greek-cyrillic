@@ -2,8 +2,8 @@
 category = Letter;
 color = 8;
 glyphname = "Emsoft-cy";
-kernLeft = cyr_En;
-kernRight = cyr_Te;
+kernLeft = B;
+kernRight = T;
 layers = (
 {
 anchors = (

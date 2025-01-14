@@ -2,8 +2,8 @@
 category = Letter;
 color = 11;
 glyphname = "zedescender-cy";
-kernLeft = "ze-cy";
-kernRight = "ie-cy";
+kernLeft = cyr_ze;
+kernRight = cyr_ve;
 layers = (
 {
 anchors = (

@@ -3,7 +3,7 @@ category = Letter;
 color = 11;
 glyphname = "yerubackyer-cy";
 kernLeft = cyr_te;
-kernRight = cyr_en;
+kernRight = u;
 layers = (
 {
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";

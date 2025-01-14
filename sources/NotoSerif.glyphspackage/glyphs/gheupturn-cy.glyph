@@ -2,8 +2,8 @@
 category = Letter;
 color = 8;
 glyphname = "gheupturn-cy";
-kernLeft = "ve-cy";
-kernRight = "ge-cy";
+kernLeft = n;
+kernRight = cyr_te;
 layers = (
 {
 anchors = (

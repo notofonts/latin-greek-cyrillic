@@ -3,7 +3,7 @@ category = Letter;
 color = 6;
 glyphname = "Chedieresis-cy";
 kernLeft = cyr_Che;
-kernRight = cyr_En;
+kernRight = H;
 layers = (
 {
 background = {

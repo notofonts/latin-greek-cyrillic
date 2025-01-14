@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = "io-cy";
-kernLeft = cyr_o;
-kernRight = cyr_ie;
+kernLeft = o;
+kernRight = e;
 layers = (
 {
 background = {

@@ -3,7 +3,7 @@ category = Letter;
 color = 11;
 glyphname = "Cheverticalstroke-cy";
 kernLeft = cyr_Che;
-kernRight = cyr_En;
+kernRight = H;
 layers = (
 {
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";

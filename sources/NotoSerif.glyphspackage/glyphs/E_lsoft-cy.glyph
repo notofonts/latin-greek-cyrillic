@@ -2,6 +2,8 @@
 category = Letter;
 color = 8;
 glyphname = "Elsoft-cy";
+kernLeft = cyr_El;
+kernRight = T;
 layers = (
 {
 anchors = (

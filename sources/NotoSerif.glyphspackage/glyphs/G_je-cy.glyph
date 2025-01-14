@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = "Gje-cy";
-kernLeft = cyr_En;
-kernRight = cyr_Te;
+kernLeft = B;
+kernRight = T;
 layers = (
 {
 background = {

@@ -2,7 +2,7 @@
 color = 1;
 glyphname = "Ze-cy";
 kernLeft = cyr_Ze;
-kernRight = cyr_Ve;
+kernRight = B;
 layers = (
 {
 anchors = (

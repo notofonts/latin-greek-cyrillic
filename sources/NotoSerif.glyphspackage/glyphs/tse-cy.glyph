@@ -1,7 +1,7 @@
 {
 color = 8;
 glyphname = "tse-cy";
-kernLeft = cyr_en;
+kernLeft = n;
 kernRight = cyr_de;
 layers = (
 {

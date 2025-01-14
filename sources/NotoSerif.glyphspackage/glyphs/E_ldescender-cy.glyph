@@ -2,6 +2,8 @@
 category = Letter;
 color = 8;
 glyphname = "Eldescender-cy";
+kernLeft = cyr_El;
+kernRight = cyr_De;
 layers = (
 {
 anchors = (

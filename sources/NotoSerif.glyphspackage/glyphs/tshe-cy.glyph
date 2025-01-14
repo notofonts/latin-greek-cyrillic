@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = "tshe-cy";
-kernLeft = cyr_dje;
-kernRight = cyr_a;
+kernLeft = l;
+kernRight = n;
 layers = (
 {
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";

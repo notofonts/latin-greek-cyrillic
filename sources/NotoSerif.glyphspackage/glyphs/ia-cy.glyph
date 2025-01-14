@@ -2,7 +2,7 @@
 color = 8;
 glyphname = "ia-cy";
 kernLeft = cyr_ia;
-kernRight = cyr_en;
+kernRight = u;
 layers = (
 {
 anchors = (

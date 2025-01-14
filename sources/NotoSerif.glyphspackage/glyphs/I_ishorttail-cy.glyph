@@ -2,8 +2,8 @@
 category = Letter;
 color = 11;
 glyphname = "Iishorttail-cy";
-kernLeft = cyr_En;
-kernRight = "De-cy";
+kernLeft = B;
+kernRight = H;
 layers = (
 {
 anchors = (

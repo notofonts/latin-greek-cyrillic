@@ -3,7 +3,7 @@ category = Letter;
 color = 6;
 glyphname = "Edieresis-cy";
 kernLeft = cyr_Ze;
-kernRight = cyr_O;
+kernRight = O;
 layers = (
 {
 background = {

@@ -2,7 +2,8 @@
 category = Letter;
 color = 11;
 glyphname = "aleutka-cy";
-kernLeft = cyr_en;
+kernLeft = n;
+kernRight = cyr_zhe;
 layers = (
 {
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";

@@ -3,6 +3,7 @@ category = Letter;
 color = 11;
 glyphname = "Elhook-cy";
 kernLeft = cyr_El;
+kernRight = H;
 layers = (
 {
 background = {

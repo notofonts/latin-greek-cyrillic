@@ -1,7 +1,7 @@
 {
 color = 1;
 glyphname = "Be-cy";
-kernLeft = cyr_En;
+kernLeft = B;
 kernRight = cyr_Be;
 layers = (
 {
@@ -114,7 +114,7 @@ nodes = (
 );
 }
 );
-width = 580;
+width = 605;
 },
 {
 associatedMasterId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
@@ -235,7 +235,7 @@ nodes = (
 );
 }
 );
-width = 499;
+width = 504;
 },
 {
 anchors = (
@@ -426,7 +426,7 @@ nodes = (
 );
 }
 );
-width = 450;
+width = 463;
 },
 {
 anchors = (
@@ -538,7 +538,7 @@ nodes = (
 );
 }
 );
-width = 621;
+width = 628;
 },
 {
 anchors = (

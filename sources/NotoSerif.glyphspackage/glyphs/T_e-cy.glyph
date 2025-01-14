@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = "Te-cy";
-kernLeft = cyr_Te;
-kernRight = cyr_Te;
+kernLeft = T;
+kernRight = T;
 layers = (
 {
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";

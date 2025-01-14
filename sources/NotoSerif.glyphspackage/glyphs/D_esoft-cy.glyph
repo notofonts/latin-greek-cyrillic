@@ -2,6 +2,8 @@
 category = Letter;
 color = 8;
 glyphname = "Desoft-cy";
+kernLeft = cyr_De;
+kernRight = T;
 layers = (
 {
 anchors = (

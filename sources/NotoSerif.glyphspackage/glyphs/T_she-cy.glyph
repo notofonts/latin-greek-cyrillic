@@ -1,7 +1,7 @@
 {
 color = 8;
 glyphname = "Tshe-cy";
-kernLeft = cyr_Te;
+kernLeft = T;
 kernRight = cyr_Tshe;
 layers = (
 {

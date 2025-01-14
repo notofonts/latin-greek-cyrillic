@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = "er-cy";
-kernLeft = cyr_er;
-kernRight = cyr_o;
+kernLeft = n;
+kernRight = o;
 layers = (
 {
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";

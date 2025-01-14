@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = "yi-cy";
-kernLeft = cyr_en;
-kernRight = cyr_i;
+kernLeft = igrave;
+kernRight = igrave;
 layers = (
 {
 background = {

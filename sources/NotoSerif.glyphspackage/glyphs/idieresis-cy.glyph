@@ -2,8 +2,8 @@
 category = Letter;
 color = 6;
 glyphname = "idieresis-cy";
-kernLeft = cyr_en;
-kernRight = cyr_en;
+kernLeft = n;
+kernRight = u;
 layers = (
 {
 background = {

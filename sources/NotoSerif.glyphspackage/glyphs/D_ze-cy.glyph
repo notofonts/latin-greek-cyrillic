@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = "Dze-cy";
-kernLeft = cyr_Dze;
-kernRight = cyr_Dze;
+kernLeft = S;
+kernRight = S;
 layers = (
 {
 background = {

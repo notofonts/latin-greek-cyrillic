@@ -1,7 +1,7 @@
 {
 color = 4;
 glyphname = "Ka-cy";
-kernLeft = cyr_En;
+kernLeft = B;
 kernRight = cyr_Zhe;
 layers = (
 {

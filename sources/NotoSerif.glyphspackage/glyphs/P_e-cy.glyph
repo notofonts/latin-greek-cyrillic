@@ -1,8 +1,8 @@
 {
 color = 1;
 glyphname = "Pe-cy";
-kernLeft = cyr_En;
-kernRight = cyr_En;
+kernLeft = B;
+kernRight = H;
 layers = (
 {
 anchors = (

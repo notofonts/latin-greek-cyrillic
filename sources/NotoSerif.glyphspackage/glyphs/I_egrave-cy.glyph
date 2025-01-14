@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = "Iegrave-cy";
-kernLeft = cyr_En;
-kernRight = cyr_Ie;
+kernLeft = B;
+kernRight = E;
 layers = (
 {
 background = {
