@@ -89,10 +89,11 @@ width = 379;
 layerId = UUID0;
 shapes = (
 {
+pos = (-5,0);
 ref = e;
 }
 );
-width = 535;
+width = 530;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
@@ -494,7 +495,7 @@ nodes = (
 width = 490;
 }
 );
-metricLeft = e;
+metricLeft = "o-cy";
 metricRight = e;
 unicode = 1077;
 }
