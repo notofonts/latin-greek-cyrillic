@@ -99,10 +99,11 @@ width = 530;
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+pos = (-5,0);
 ref = e;
 }
 );
-width = 499;
+width = 494;
 },
 {
 anchors = (
