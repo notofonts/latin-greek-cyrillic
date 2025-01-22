@@ -2,8 +2,8 @@
 category = Letter;
 color = 1;
 glyphname = "Ge-cy";
-kernLeft = "En-cy";
-kernRight = "Te-cy";
+kernLeft = B;
+kernRight = T;
 layers = (
 {
 anchors = (

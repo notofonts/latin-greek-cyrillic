@@ -2,8 +2,8 @@
 category = Letter;
 color = 8;
 glyphname = "yeru-cy";
-kernLeft = "ii-cy";
-kernRight = "a-cy";
+kernLeft = u;
+kernRight = n;
 layers = (
 {
 guides = (

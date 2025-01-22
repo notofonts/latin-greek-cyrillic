@@ -2,8 +2,8 @@
 category = Letter;
 color = 11;
 glyphname = "Yerubackyer-cy";
-kernLeft = "Te-cy";
-kernRight = "En-cy";
+kernLeft = T;
+kernRight = H;
 layers = (
 {
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";

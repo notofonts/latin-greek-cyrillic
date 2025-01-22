@@ -2,7 +2,7 @@
 category = Letter;
 color = 8;
 glyphname = "e-cy";
-kernLeft = "o-cy";
+kernLeft = o;
 kernRight = "zhe-cy";
 layers = (
 {

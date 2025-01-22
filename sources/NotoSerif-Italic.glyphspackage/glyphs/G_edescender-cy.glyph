@@ -1,8 +1,8 @@
 {
 category = Letter;
 glyphname = "Gedescender-cy";
-kernLeft = "I-cy";
-kernRight = "Ge-cy";
+kernLeft = B;
+kernRight = T;
 layers = (
 {
 anchors = (

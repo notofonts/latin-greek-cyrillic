@@ -2,8 +2,8 @@
 category = Letter;
 color = 6;
 glyphname = "es-cy";
-kernLeft = "o-cy";
-kernRight = "zhe-cy";
+kernLeft = o;
+kernRight = c;
 layers = (
 {
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";

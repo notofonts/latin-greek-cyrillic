@@ -2,7 +2,7 @@
 category = Letter;
 color = 8;
 glyphname = "Shcha-cy";
-kernLeft = "En-cy";
+kernLeft = B;
 kernRight = "De-cy";
 layers = (
 {
@@ -719,7 +719,7 @@ nodes = (
 );
 }
 );
-width = 1009;
+width = 974;
 },
 {
 anchors = (

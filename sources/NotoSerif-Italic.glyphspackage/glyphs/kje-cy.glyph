@@ -2,8 +2,8 @@
 category = Letter;
 color = 6;
 glyphname = "kje-cy";
-kernLeft = "en-cy";
-kernRight = "ha-cy";
+kernLeft = n;
+kernRight = "ka-cy";
 layers = (
 {
 background = {

@@ -2,6 +2,8 @@
 category = Letter;
 color = 8;
 glyphname = "Tsereversed-cy";
+kernLeft = B;
+kernRight = H;
 layers = (
 {
 anchors = (

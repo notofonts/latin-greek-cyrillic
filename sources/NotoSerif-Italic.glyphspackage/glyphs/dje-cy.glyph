@@ -2,8 +2,8 @@
 category = Letter;
 color = 8;
 glyphname = "dje-cy";
-kernLeft = "dje-cy";
-kernRight = "dje-cy";
+kernLeft = b;
+kernRight = n;
 layers = (
 {
 anchors = (

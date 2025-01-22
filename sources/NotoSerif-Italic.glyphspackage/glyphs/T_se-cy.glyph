@@ -2,7 +2,7 @@
 category = Letter;
 color = 8;
 glyphname = "Tse-cy";
-kernLeft = "En-cy";
+kernLeft = B;
 kernRight = "De-cy";
 layers = (
 {
@@ -723,7 +723,7 @@ nodes = (
 );
 }
 );
-width = 725;
+width = 690;
 },
 {
 anchors = (
