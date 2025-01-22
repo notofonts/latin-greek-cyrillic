@@ -18,7 +18,7 @@ pos = (613,0);
 ref = "I-cy";
 }
 );
-width = 941;
+width = 937;
 },
 {
 layerId = UUID0;
@@ -33,7 +33,7 @@ pos = (642,0);
 ref = "I-cy";
 }
 );
-width = 1013;
+width = 1009;
 },
 {
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
@@ -48,7 +48,7 @@ pos = (744,0);
 ref = "I-cy";
 }
 );
-width = 1154;
+width = 1170;
 },
 {
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
@@ -63,7 +63,7 @@ pos = (470,0);
 ref = "I-cy";
 }
 );
-width = 718;
+width = 734;
 },
 {
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
@@ -78,7 +78,7 @@ pos = (524,0);
 ref = "I-cy";
 }
 );
-width = 823;
+width = 825;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
@@ -93,7 +93,7 @@ pos = (635,0);
 ref = "I-cy";
 }
 );
-width = 985;
+width = 988;
 }
 );
 metricLeft = "Hardsign-cy";

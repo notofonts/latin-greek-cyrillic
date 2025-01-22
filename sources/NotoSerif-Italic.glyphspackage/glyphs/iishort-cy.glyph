@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 7;
+color = 6;
 glyphname = "iishort-cy";
 kernLeft = "ii-cy";
 kernRight = "a-cy";
@@ -16,33 +16,33 @@ ref = cyrillicbreve;
 ref = "ii-cy";
 }
 );
-width = 560;
+width = 506;
 },
 {
 layerId = UUID0;
 shapes = (
 {
-pos = (127,0);
+pos = (127,1);
 ref = cyrillicbreve;
 },
 {
 ref = "ii-cy";
 }
 );
-width = 593;
+width = 599;
 },
 {
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
-pos = (149,0);
+pos = (149,1);
 ref = cyrillicbreve;
 },
 {
 ref = "ii-cy";
 }
 );
-width = 685;
+width = 728;
 },
 {
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
@@ -55,35 +55,37 @@ ref = cyrillicbreve;
 ref = "ii-cy";
 }
 );
-width = 435;
+width = 404;
 },
 {
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
-pos = (-14,-1);
+pos = (-14,2);
 ref = cyrillicbreve;
 },
 {
 ref = "ii-cy";
 }
 );
-width = 485;
+width = 495;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
-pos = (50,0);
+pos = (50,1);
 ref = cyrillicbreve;
 },
 {
 ref = "ii-cy";
 }
 );
-width = 572;
+width = 605;
 }
 );
+metricLeft = "ii-cy";
+metricRight = "ii-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1081;

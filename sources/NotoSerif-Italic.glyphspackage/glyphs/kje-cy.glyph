@@ -1,12 +1,12 @@
 {
 category = Letter;
-color = 7;
+color = 6;
 glyphname = "kje-cy";
 kernLeft = "en-cy";
 kernRight = "ha-cy";
 layers = (
 {
-layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+background = {
 shapes = (
 {
 alignment = -1;
@@ -18,9 +18,35 @@ pos = (163,0);
 ref = acute;
 }
 );
-width = 528;
+};
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+ref = "ka-cy";
 },
 {
+alignment = -1;
+pos = (436,0);
+ref = acutecomb;
+}
+);
+width = 525;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "ka-cy";
+},
+{
+alignment = -1;
+pos = (155,0);
+ref = acute;
+}
+);
+};
 guides = (
 {
 angle = 78;
@@ -35,16 +61,14 @@ ref = "ka-cy";
 },
 {
 alignment = -1;
-pos = (155,0);
-ref = acute;
+pos = (504,0);
+ref = acutecomb;
 }
 );
 width = 560;
 },
 {
-layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
-metricLeft = "=afii10076";
-metricRight = "=afii10076";
+background = {
 shapes = (
 {
 alignment = -1;
@@ -56,10 +80,23 @@ pos = (162,0);
 ref = acute;
 }
 );
-width = 645;
+};
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+ref = "ka-cy";
 },
 {
-layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+alignment = -1;
+pos = (654,0);
+ref = acutecomb;
+}
+);
+width = 641;
+},
+{
+background = {
 shapes = (
 {
 alignment = -1;
@@ -71,10 +108,23 @@ pos = (119,0);
 ref = acute;
 }
 );
-width = 413;
+};
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+ref = "ka-cy";
 },
 {
-layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+alignment = -1;
+pos = (332,0);
+ref = acutecomb;
+}
+);
+width = 410;
+},
+{
+background = {
 shapes = (
 {
 alignment = -1;
@@ -86,10 +136,23 @@ pos = (133,0);
 ref = acute;
 }
 );
+};
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+ref = "ka-cy";
+},
+{
+alignment = -1;
+pos = (433,0);
+ref = acutecomb;
+}
+);
 width = 462;
 },
 {
-layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+background = {
 shapes = (
 {
 alignment = -1;
@@ -99,6 +162,19 @@ ref = "ka-cy";
 alignment = -1;
 pos = (147,0);
 ref = acute;
+}
+);
+};
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+ref = "ka-cy";
+},
+{
+alignment = -1;
+pos = (559,0);
+ref = acutecomb;
 }
 );
 width = 534;

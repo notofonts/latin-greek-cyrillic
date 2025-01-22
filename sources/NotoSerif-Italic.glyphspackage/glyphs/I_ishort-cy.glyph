@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 7;
+color = 6;
 glyphname = "Iishort-cy";
 kernLeft = "En-cy";
 kernRight = "En-cy";
@@ -29,7 +29,7 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (232,0);
+pos = (232,-4);
 ref = cyrillicbreve.cap;
 }
 );
@@ -44,7 +44,7 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (226,0);
+pos = (226,-4);
 ref = cyrillicbreve.cap;
 }
 );
@@ -74,7 +74,7 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (180,0);
+pos = (180,-4);
 ref = cyrillicbreve.cap;
 }
 );
@@ -89,7 +89,7 @@ ref = "Ii-cy";
 },
 {
 alignment = -1;
-pos = (172,0);
+pos = (172,-4);
 ref = cyrillicbreve.cap;
 }
 );

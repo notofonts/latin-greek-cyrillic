@@ -1,10 +1,178 @@
 {
 category = Letter;
-color = 11;
+color = 6;
 glyphname = "Yerudieresis-cy";
 kernLeft = "En-cy";
 kernRight = "En-cy";
 layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "Yeru-cy";
+},
+{
+alignment = -1;
+pos = (185,165);
+ref = dieresis;
+}
+);
+};
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+ref = "Yeru-cy";
+},
+{
+alignment = -1;
+pos = (451,165);
+ref = dieresiscomb;
+}
+);
+width = 851;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "Yeru-cy";
+},
+{
+alignment = -1;
+pos = (228,165);
+ref = dieresis;
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = "Yeru-cy";
+},
+{
+alignment = -1;
+pos = (478,165);
+ref = dieresiscomb;
+}
+);
+width = 907;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "Yeru-cy";
+},
+{
+alignment = -1;
+pos = (276,165);
+ref = dieresis;
+}
+);
+};
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+ref = "Yeru-cy";
+},
+{
+alignment = -1;
+pos = (559,165);
+ref = dieresiscomb;
+}
+);
+width = 1055;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "Yeru-cy";
+},
+{
+alignment = -1;
+pos = (134,165);
+ref = dieresis;
+}
+);
+};
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+ref = "Yeru-cy";
+},
+{
+alignment = -1;
+pos = (358,165);
+ref = dieresiscomb;
+}
+);
+width = 659;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "Yeru-cy";
+},
+{
+alignment = -1;
+pos = (183,165);
+ref = dieresis;
+}
+);
+};
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+ref = "Yeru-cy";
+},
+{
+alignment = -1;
+pos = (407,165);
+ref = dieresiscomb;
+}
+);
+width = 746;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "Yeru-cy";
+},
+{
+alignment = -1;
+pos = (242,165);
+ref = dieresis;
+}
+);
+};
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+ref = "Yeru-cy";
+},
+{
+alignment = -1;
+pos = (465,165);
+ref = dieresiscomb;
+}
+);
+width = 864;
+},
 {
 anchors = (
 {
@@ -16,7 +184,9 @@ name = top;
 pos = (544,903);
 }
 );
-layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
+layerId = "B99B0314-37BB-4983-813A-A35CD3C362CD";
+name = "22. Jan 25, 07:43";
 shapes = (
 {
 alignment = -1;
@@ -25,7 +195,7 @@ ref = "Yeru-cy";
 {
 alignment = -1;
 pos = (185,165);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 841;
@@ -41,7 +211,9 @@ name = top;
 pos = (576,910);
 }
 );
-layerId = UUID0;
+associatedMasterId = UUID0;
+layerId = "1CFFB7A4-DD9F-4841-B4EA-4CC8759BF6C1";
+name = "22. Jan 25, 07:43";
 shapes = (
 {
 alignment = -1;
@@ -50,7 +222,7 @@ ref = "Yeru-cy";
 {
 alignment = -1;
 pos = (228,165);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 915;
@@ -66,7 +238,9 @@ name = top;
 pos = (626,936);
 }
 );
-layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+associatedMasterId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+layerId = "F6E86A5C-778E-416B-A285-EFD5FAC004FA";
+name = "22. Jan 25, 07:43";
 shapes = (
 {
 alignment = -1;
@@ -75,7 +249,7 @@ ref = "Yeru-cy";
 {
 alignment = -1;
 pos = (276,165);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 1035;
@@ -91,7 +265,9 @@ name = top;
 pos = (434,862);
 }
 );
-layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+associatedMasterId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+layerId = "780D92AC-FBD1-4BEB-A41F-A4059D383A93";
+name = "22. Jan 25, 07:43";
 shapes = (
 {
 alignment = -1;
@@ -100,7 +276,7 @@ ref = "Yeru-cy";
 {
 alignment = -1;
 pos = (134,165);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 643;
@@ -116,7 +292,9 @@ name = top;
 pos = (490,907);
 }
 );
-layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+layerId = "50012032-CF17-4826-8804-F1E9DD9A6BF0";
+name = "22. Jan 25, 07:43";
 shapes = (
 {
 alignment = -1;
@@ -125,7 +303,7 @@ ref = "Yeru-cy";
 {
 alignment = -1;
 pos = (183,165);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 740;
@@ -141,7 +319,9 @@ name = top;
 pos = (552,918);
 }
 );
-layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+associatedMasterId = "081AFB27-5722-432A-9779-C9794386CEF1";
+layerId = "2097CB02-6F48-46F9-94AE-14543418F393";
+name = "22. Jan 25, 07:43";
 shapes = (
 {
 alignment = -1;
@@ -150,14 +330,14 @@ ref = "Yeru-cy";
 {
 alignment = -1;
 pos = (242,165);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 885;
 }
 );
-metricLeft = "En-cy";
-metricRight = "En-cy";
+metricLeft = "Yeru-cy";
+metricRight = "Yeru-cy";
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1272;
