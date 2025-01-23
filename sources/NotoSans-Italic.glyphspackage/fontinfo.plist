@@ -1,5 +1,5 @@
 {
-.appVersion = "3326";
+.appVersion = "3337";
 .formatVersion = 3;
 axes = (
 {
@@ -20,7 +20,6 @@ name = Uppercase;
 );
 customParameters = (
 {
-disabled = 1;
 name = glyphOrder;
 value = (
 .notdef,
@@ -5513,7 +5512,6 @@ pre = 1;
 }
 );
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -8249,7 +8247,6 @@ ampersand.sc = -20;
 "@MMK_R_dje-cy" = 20;
 "@MMK_R_quote.right" = 40;
 "@MMK_R_quoteleft" = 40;
-"@MMK_R_yi-cy" = 10;
 };
 "@MMK_L_yuslittle-cy" = {
 "@MMK_R_a-cy" = -20;
@@ -9734,7 +9731,6 @@ ampersand.sc = -20;
 "@MMK_R_dje-cy" = 20;
 "@MMK_R_quote.right" = 40;
 "@MMK_R_quoteleft" = 40;
-"@MMK_R_yi-cy" = 10;
 };
 "@MMK_L_yuslittle-cy" = {
 "@MMK_R_a-cy" = -20;
@@ -11248,7 +11244,6 @@ ampersand.sc = -20;
 "@MMK_R_dje-cy" = 50;
 "@MMK_R_quote.right" = 40;
 "@MMK_R_quoteleft" = 40;
-"@MMK_R_yi-cy" = 10;
 };
 "@MMK_L_yuslittle-cy" = {
 "@MMK_R_a-cy" = -20;
@@ -12709,7 +12704,6 @@ ampersand.sc = -20;
 "@MMK_R_question" = 40;
 "@MMK_R_quote.right" = 30;
 "@MMK_R_quoteleft" = 30;
-"@MMK_R_yi-cy" = 5;
 };
 "@MMK_L_yuslittle-cy" = {
 "@MMK_R_a-cy" = -10;
@@ -14162,7 +14156,6 @@ ampersand.sc = -20;
 "@MMK_R_question" = 40;
 "@MMK_R_quote.right" = 30;
 "@MMK_R_quoteleft" = 30;
-"@MMK_R_yi-cy" = 5;
 };
 "@MMK_L_yuslittle-cy" = {
 "@MMK_R_a-cy" = -10;
@@ -15637,7 +15630,6 @@ ampersand.sc = -20;
 "@MMK_R_question" = 40;
 "@MMK_R_quote.right" = 30;
 "@MMK_R_quoteleft" = 30;
-"@MMK_R_yi-cy" = 5;
 };
 "@MMK_L_yuslittle-cy" = {
 "@MMK_R_a-cy" = -10;
