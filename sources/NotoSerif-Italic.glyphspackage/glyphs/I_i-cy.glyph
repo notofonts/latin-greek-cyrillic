@@ -2517,8 +2517,8 @@ nodes = (
 width = 643;
 }
 );
-metricLeft = "En-cy";
-metricRight = "En-cy";
+metricLeft = H;
+metricRight = H;
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1048;

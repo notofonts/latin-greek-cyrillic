@@ -2118,7 +2118,7 @@ nodes = (
 width = 920;
 }
 );
-metricLeft = "En-cy";
+metricLeft = H;
 metricRight = "Softsign-cy";
 script = cyrillic;
 subCategory = Uppercase;

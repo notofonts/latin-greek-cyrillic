@@ -10,12 +10,11 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (-3,0);
 ref = "Ka-cy";
 },
 {
 alignment = -1;
-pos = (321,165);
+pos = (324,165);
 ref = acute;
 }
 );
@@ -24,12 +23,11 @@ layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
 alignment = -1;
-pos = (-3,0);
 ref = "Ka-cy";
 },
 {
 alignment = -1;
-pos = (587,165);
+pos = (590,165);
 ref = acutecomb;
 }
 );
@@ -39,11 +37,10 @@ width = 657;
 background = {
 shapes = (
 {
-pos = (-2,0);
 ref = "Ka-cy";
 },
 {
-pos = (299,165);
+pos = (301,165);
 ref = acute;
 }
 );
@@ -51,11 +48,10 @@ ref = acute;
 layerId = UUID0;
 shapes = (
 {
-pos = (-2,0);
 ref = "Ka-cy";
 },
 {
-pos = (648,165);
+pos = (650,165);
 ref = acutecomb;
 }
 );
@@ -66,12 +62,11 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (7,0);
 ref = "Ka-cy";
 },
 {
 alignment = -1;
-pos = (279,165);
+pos = (272,165);
 ref = acute;
 }
 );
@@ -80,12 +75,11 @@ layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
 alignment = -1;
-pos = (7,0);
 ref = "Ka-cy";
 },
 {
 alignment = -1;
-pos = (770,165);
+pos = (763,165);
 ref = acutecomb;
 }
 );
@@ -96,12 +90,11 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (2,0);
 ref = "Ka-cy";
 },
 {
 alignment = -1;
-pos = (260,165);
+pos = (258,165);
 ref = acute;
 }
 );
@@ -110,12 +103,11 @@ layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
 alignment = -1;
-pos = (2,0);
 ref = "Ka-cy";
 },
 {
 alignment = -1;
-pos = (473,165);
+pos = (471,165);
 ref = acutecomb;
 }
 );
@@ -126,12 +118,11 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (13,0);
 ref = "Ka-cy";
 },
 {
 alignment = -1;
-pos = (252,165);
+pos = (239,165);
 ref = acute;
 }
 );
@@ -140,12 +131,11 @@ layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
 alignment = -1;
-pos = (13,0);
 ref = "Ka-cy";
 },
 {
 alignment = -1;
-pos = (540,165);
+pos = (527,165);
 ref = acutecomb;
 }
 );
@@ -156,12 +146,11 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (17,0);
 ref = "Ka-cy";
 },
 {
 alignment = -1;
-pos = (242,165);
+pos = (225,165);
 ref = acute;
 }
 );
@@ -170,12 +159,11 @@ layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
 alignment = -1;
-pos = (17,0);
 ref = "Ka-cy";
 },
 {
 alignment = -1;
-pos = (646,165);
+pos = (629,165);
 ref = acutecomb;
 }
 );

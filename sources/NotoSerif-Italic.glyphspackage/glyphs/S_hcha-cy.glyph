@@ -1262,7 +1262,7 @@ nodes = (
 width = 786;
 }
 );
-metricLeft = "En-cy";
+metricLeft = H;
 metricRight = "Tse-cy";
 script = cyrillic;
 subCategory = Uppercase;

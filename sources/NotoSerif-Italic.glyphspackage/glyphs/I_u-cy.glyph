@@ -1501,7 +1501,7 @@ nodes = (
 width = 726;
 }
 );
-metricLeft = "En-cy";
+metricLeft = H;
 metricRight = "O-cy";
 script = cyrillic;
 subCategory = Uppercase;

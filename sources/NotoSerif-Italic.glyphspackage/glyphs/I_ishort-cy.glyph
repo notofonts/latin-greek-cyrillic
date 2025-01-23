@@ -96,8 +96,8 @@ ref = cyrillicbreve.cap;
 width = 696;
 }
 );
-metricLeft = "Ii-cy";
-metricRight = "Ii-cy";
+metricLeft = H;
+metricRight = H;
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1049;

@@ -29,7 +29,7 @@ pos = (225,165);
 ref = grave;
 }
 );
-width = 807;
+width = 799;
 },
 {
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
@@ -44,7 +44,7 @@ pos = (180,165);
 ref = grave;
 }
 );
-width = 834;
+width = 847;
 },
 {
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
@@ -57,7 +57,7 @@ pos = (177,165);
 ref = grave;
 }
 );
-width = 584;
+width = 602;
 },
 {
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
@@ -72,7 +72,7 @@ pos = (160,165);
 ref = grave;
 }
 );
-width = 642;
+width = 643;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
@@ -87,9 +87,11 @@ pos = (145,165);
 ref = grave;
 }
 );
-width = 702;
+width = 696;
 }
 );
+metricLeft = H;
+metricRight = H;
 script = cyrillic;
 subCategory = Uppercase;
 unicode = 1037;
