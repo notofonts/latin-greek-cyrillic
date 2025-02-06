@@ -40,7 +40,7 @@ pos = (264,186);
 ref = dieresiscomb;
 }
 );
-width = 565;
+width = 567;
 },
 {
 background = {
@@ -76,7 +76,7 @@ pos = (274,178);
 ref = dieresiscomb;
 }
 );
-width = 586;
+width = 589;
 },
 {
 background = {
@@ -220,7 +220,7 @@ pos = (236,161);
 ref = dieresiscomb;
 }
 );
-width = 509;
+width = 504;
 }
 );
 metricLeft = "Ze-cy";

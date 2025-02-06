@@ -1,5 +1,5 @@
 {
-.appVersion = "3337";
+.appVersion = "3342";
 .formatVersion = 3;
 axes = (
 {
@@ -3465,7 +3465,7 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-date = "2021-10-04 15:22:10 +0000";
+date = "2025-02-06 09:48:34 +0000";
 familyName = "Noto Sans";
 featurePrefixes = (
 {
@@ -15823,88 +15823,16 @@ type = "italic angle";
 name = "zone 1";
 }
 );
-note = "Master: Regular
-- shift: ca. 54-55 to the left (uc)
-         ca. 61-   to the left (lc)
+note = "Cyrillic color coding
 
-Uppercase:
-- narrowing (H): ca. -54, vert stem: 89
-- narrowing (O): ca. -67, vert stem: 95
-
-Lowercase:
-- narrowing (n): ca. -32, 
-- narrowing (o): ca. -46, making the stems narrower with 1 to the inside
+1. Cyan – components done by Trifon & Botio
+2. Light Green – designed by Ksenya unchanged
+3. Orange – changed by Trifon & Botio
+4. Purple – improved after review
+5. No color – sill to be done after next assignment from Dave and Simon
 
 
-
-Master: Thin
-- shift: ca. 44-53 to the left (uc)
-         ca. 52-58 to the left (lc)
-
-Uppercase:
-- narrowing (H): ca. -25, vert stem: 27
-- narrowing (O): ca. -62, vert stem: 27
-
-Lowercase:
-- narrowing (n): ca. 18, vert stem: 26
-- narrowing (o): ca. 22, vert stem: 27
-
-
-Master: Black
-- shift: ca. 61-65 to the left (uc)
-         ca. 53-55 to the left (lc)
-
-Uppercase:
-- narrowing (H): ca. -60, vert stem: 191
-- narrowing (O): ca. -66, vert stem: 193
-
-Lowercase:
-- narrowing (n): ca. -50, vert stem: 189
-- narrowing (o): ca. -45, vert stem: 193
-
-
-
-Master: Regular Cond
-- shift: ca. 73-75 to the left (uc)
-         ca. 62-66 to the left (lc)
-
-Uppercase:
-- narrowing (H): ca. -35, vert stem: 80
-- narrowing (O): ca. -41, vert stem: 82
-
-Lowercase:
-- narrowing (n): ca. -31, vert stem: 77
-- narrowing (o): ca. -31, vert stem: 79
-
-
-
-
-Master: Bold Cond
-- shift: ca. 64-66 to the left (uc)
-         ca. 63-65 to the left (lc)
-
-Uppercase:
-- narrowing (H): ca. -34, vert stem: 167
-- narrowing (O): ca. -37, vert stem: 174
-
-Lowercase:
-- narrowing (n): ca. -28, vert stem: 160
-- narrowing (o): ca. -28, vert stem: 161
-
-
-
-
-Master: Thin Cond
-- shift: ca. 76-77 to the left (uc)
-         ca. 61-65 to the left (lc)
-
-Uppercase:
-- narrowing (H): ca. -30, vert stem: 26
-- narrowing (O): ca. -55, vert stem: 27
-
-Lowercase:
-- narrowing (n): ca. -37, vert stem: 26
-- narrowing (o): ca. -39, vert stem: 27";
+";
 properties = (
 {
 key = copyrights;

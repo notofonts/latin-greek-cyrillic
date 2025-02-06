@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 11;
 glyphname = "entail-cy";
 kernLeft = n;
 kernRight = u;

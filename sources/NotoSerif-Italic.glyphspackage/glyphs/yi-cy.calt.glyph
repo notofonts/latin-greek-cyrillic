@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 3;
+color = 8;
 glyphname = "yi-cy.calt";
 kernLeft = igrave;
 kernRight = iacute;

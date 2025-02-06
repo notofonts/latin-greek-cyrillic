@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 11;
 glyphname = "aleutka-cy";
 kernLeft = n;
 kernRight = cyr_zhe;

@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 6;
 glyphname = "Yerubackyer-cy";
 kernLeft = "Hardsign-cy.right";
 kernRight = "En-cy";

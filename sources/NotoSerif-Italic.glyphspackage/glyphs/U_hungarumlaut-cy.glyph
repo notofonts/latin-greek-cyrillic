@@ -87,7 +87,7 @@ pos = (481,165);
 ref = hungarumlautcomb;
 }
 );
-width = 715;
+width = 721;
 },
 {
 background = {
@@ -143,7 +143,7 @@ pos = (325,165);
 ref = hungarumlautcomb;
 }
 );
-width = 542;
+width = 543;
 },
 {
 background = {
@@ -171,7 +171,7 @@ pos = (428,165);
 ref = hungarumlautcomb;
 }
 );
-width = 597;
+width = 606;
 },
 {
 anchors = (

@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 11;
 glyphname = "Iishorttail-cy";
 kernLeft = B;
 kernRight = H;

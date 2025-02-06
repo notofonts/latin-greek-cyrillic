@@ -87,7 +87,7 @@ pos = (588,165);
 ref = dieresiscomb;
 }
 );
-width = 1120;
+width = 1133;
 },
 {
 background = {
@@ -171,7 +171,7 @@ pos = (469,165);
 ref = dieresiscomb;
 }
 );
-width = 927;
+width = 952;
 },
 {
 anchors = (

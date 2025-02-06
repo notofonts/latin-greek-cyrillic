@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 11;
 glyphname = "te-cy.loclSRB";
 kernLeft = "ii-cy";
 kernRight = "a-cy";

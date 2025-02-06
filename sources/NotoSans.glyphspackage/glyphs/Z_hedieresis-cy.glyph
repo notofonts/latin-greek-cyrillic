@@ -39,7 +39,7 @@ pos = (400,186);
 ref = dieresiscomb;
 }
 );
-width = 800;
+width = 820;
 },
 {
 background = {
@@ -75,7 +75,7 @@ pos = (444,178);
 ref = dieresiscomb;
 }
 );
-width = 887;
+width = 907;
 },
 {
 background = {
@@ -111,7 +111,7 @@ pos = (490,161);
 ref = dieresiscomb;
 }
 );
-width = 977;
+width = 995;
 },
 {
 background = {
@@ -147,7 +147,7 @@ pos = (268,187);
 ref = dieresiscomb;
 }
 );
-width = 535;
+width = 551;
 },
 {
 background = {
@@ -183,7 +183,7 @@ pos = (307,177);
 ref = dieresiscomb;
 }
 );
-width = 615;
+width = 633;
 },
 {
 background = {
@@ -219,7 +219,7 @@ pos = (399,161);
 ref = dieresiscomb;
 }
 );
-width = 798;
+width = 808;
 }
 );
 metricLeft = "Zhe-cy";

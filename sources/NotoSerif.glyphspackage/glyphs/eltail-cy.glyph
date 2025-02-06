@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 11;
 glyphname = "eltail-cy";
 kernLeft = cyr_el;
 kernRight = u;

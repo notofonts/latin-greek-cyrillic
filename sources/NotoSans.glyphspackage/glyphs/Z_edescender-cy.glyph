@@ -40,7 +40,7 @@ pos = (163,0);
 ref = cyrillichookleft;
 }
 );
-width = 565;
+width = 567;
 },
 {
 background = {
@@ -76,7 +76,7 @@ pos = (171,0);
 ref = cyrillichookleft;
 }
 );
-width = 586;
+width = 589;
 },
 {
 layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
@@ -176,7 +176,7 @@ pos = (140,0);
 ref = cyrillichookleft;
 }
 );
-width = 509;
+width = 504;
 },
 {
 anchors = (

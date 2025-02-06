@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 11;
 glyphname = "Cheverticalstroke-cy";
 kernLeft = "Che-cy";
 kernRight = "En-cy";
@@ -177,7 +176,7 @@ alignment = -1;
 ref = "Che-cy";
 }
 );
-width = 647;
+width = 670;
 }
 );
 metricLeft = "Che-cy";

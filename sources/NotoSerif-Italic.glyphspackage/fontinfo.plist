@@ -1,5 +1,5 @@
 {
-.appVersion = "3341";
+.appVersion = "3342";
 .formatVersion = 3;
 axes = (
 {
@@ -3387,7 +3387,7 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-date = "2021-10-04 15:49:12 +0000";
+date = "2025-02-06 10:04:52 +0000";
 familyName = "Noto Serif";
 featurePrefixes = (
 {
@@ -18702,58 +18702,16 @@ type = "x-height";
 type = "italic angle";
 }
 );
-note = "Regular
+note = "Cyrillic color coding
 
-H - shift -60, same width (or +1) and stem thickness;
-O - shift -68, same width (or +3) and stem thickness;
-
-n - shift -74, width -27 and stem thickness -1;
-o - shift -60, same width (or -1) and stem thickness +9;
-
-
-Thin
-
-H - shift -63, same width and stem thickness;
-O - shift -63, same width (or -1) and stem thickness;
-
-n - shift -90, width -60 and same stem thickness;
-o - shift -65, same width (or +3) and same stem thickness; 
+1. Cyan – components done by Trifon & Botio
+2. Light Green – designed by Ksenya unchanged
+3. Orange – changed by Trifon & Botio
+4. Purple – improved after review
+5. No color – sill to be done after next assignment from Dave and Simon
 
 
-Black
-
-H - shift -48, same width and stem thickness;
-O - shift -49, same width (or -2) and stem thickness;
-
-n - shift -55, width -18 and same stem thickness;
-o - shift -53, width -4 and stem thickness -2 (from the inside)
-
-
-
-Cond Reg
-
-H - shift -45, width +5 and same stem thickness;
-O - shift -52, width +7 and stem thickness +2 (from the inside);
-
-n - shift -60, width +9 and stem thickness -4;
-o - shift -46, width -2 and stem thickness -6;
-
-
-Cond Thin
-H - shift -54, width -4 and same stem thickness;
-O - shift -  , same width and stem thickness -1;
-
-n - shift -82, width -40 and stem thickness -1;
-o - shift -58, width +1 and same stem thickness;
-
-
-Cond Black
-
-H - shift -41, width -5 and stem thickness -2 (from the inside);
-O - shift -40, width +5 and stem thickness -6 (from the inside);
-
-n - shift -47, width -16 and stem thickness -4 (from the inside);
-o - shift -45, width +6 and stem thickness -3 (from the inisde);";
+";
 properties = (
 {
 key = copyrights;

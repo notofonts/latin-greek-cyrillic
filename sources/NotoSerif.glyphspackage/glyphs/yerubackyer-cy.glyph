@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 11;
 glyphname = "yerubackyer-cy";
 kernLeft = cyr_te;
 kernRight = u;
