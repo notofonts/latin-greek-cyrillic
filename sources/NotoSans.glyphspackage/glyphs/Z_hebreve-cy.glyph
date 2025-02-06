@@ -37,7 +37,7 @@ pos = (232,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 800;
+width = 820;
 },
 {
 background = {
@@ -71,7 +71,7 @@ pos = (248,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 887;
+width = 907;
 },
 {
 background = {
@@ -105,7 +105,7 @@ pos = (243,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 977;
+width = 995;
 },
 {
 background = {
@@ -139,7 +139,7 @@ pos = (123,-2);
 ref = cyrillicbreve.cap;
 }
 );
-width = 535;
+width = 551;
 },
 {
 background = {
@@ -173,7 +173,7 @@ pos = (143,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 615;
+width = 633;
 },
 {
 background = {
@@ -207,7 +207,7 @@ pos = (187,0);
 ref = cyrillicbreve.cap;
 }
 );
-width = 798;
+width = 808;
 }
 );
 metricLeft = "Zhe-cy";

@@ -1,5 +1,5 @@
 {
-.appVersion = "3342";
+.appVersion = "3337";
 .formatVersion = 3;
 axes = (
 {
@@ -8886,7 +8886,6 @@ guilsinglleft.sc = -30;
 "@MMK_L_yi-cy" = {
 "@MMK_R_dje-cy" = 30;
 "@MMK_R_quote.right" = 30;
-"@MMK_R_yi-cy" = 10;
 };
 "@MMK_L_yuslittle-cy" = {
 "@MMK_R_che-cy" = -30;
@@ -10385,7 +10384,6 @@ guilsinglleft.sc = -30;
 "@MMK_L_yi-cy" = {
 "@MMK_R_dje-cy" = 30;
 "@MMK_R_quote.right" = 30;
-"@MMK_R_yi-cy" = 10;
 };
 "@MMK_L_yuslittle-cy" = {
 "@MMK_R_che-cy" = -30;
@@ -11899,7 +11897,6 @@ guilsinglleft.sc = -30;
 "@MMK_L_yi-cy" = {
 "@MMK_R_dje-cy" = 50;
 "@MMK_R_quote.right" = 30;
-"@MMK_R_yi-cy" = 20;
 };
 "@MMK_L_yuslittle-cy" = {
 "@MMK_R_che-cy" = -30;
