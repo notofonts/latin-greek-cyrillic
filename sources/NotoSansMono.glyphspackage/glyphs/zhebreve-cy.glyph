@@ -1,8 +1,169 @@
 {
 category = Letter;
-color = 4;
+color = 6;
 glyphname = "zhebreve-cy";
 layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "zhe-cy";
+},
+{
+alignment = -1;
+pos = (1,0);
+ref = breve;
+}
+);
+};
+layerId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
+shapes = (
+{
+alignment = -1;
+ref = "zhe-cy";
+},
+{
+alignment = -1;
+ref = cyrillicbreve;
+}
+);
+width = 600;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "zhe-cy";
+},
+{
+alignment = -1;
+ref = breve;
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = "zhe-cy";
+},
+{
+alignment = -1;
+ref = cyrillicbreve;
+}
+);
+width = 600;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "zhe-cy";
+},
+{
+alignment = -1;
+pos = (5,0);
+ref = breve;
+}
+);
+};
+layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
+shapes = (
+{
+alignment = -1;
+ref = "zhe-cy";
+},
+{
+alignment = -1;
+ref = cyrillicbreve;
+}
+);
+width = 600;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "zhe-cy";
+},
+{
+alignment = -1;
+pos = (1,0);
+ref = breve;
+}
+);
+};
+layerId = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
+shapes = (
+{
+alignment = -1;
+ref = "zhe-cy";
+},
+{
+alignment = -1;
+ref = cyrillicbreve;
+}
+);
+width = 500;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "zhe-cy";
+},
+{
+alignment = -1;
+pos = (7,0);
+ref = breve;
+}
+);
+};
+layerId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+shapes = (
+{
+alignment = -1;
+ref = "zhe-cy";
+},
+{
+alignment = -1;
+ref = cyrillicbreve;
+}
+);
+width = 500;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "zhe-cy";
+},
+{
+alignment = -1;
+pos = (1,0);
+ref = breve;
+}
+);
+};
+layerId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
+shapes = (
+{
+alignment = -1;
+ref = "zhe-cy";
+},
+{
+alignment = -1;
+ref = cyrillicbreve;
+}
+);
+width = 500;
+},
 {
 anchors = (
 {
@@ -14,7 +175,9 @@ name = top;
 pos = (300,718);
 }
 );
-layerId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
+associatedMasterId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
+layerId = "3F6B31C2-915E-402C-B9BF-5E888C6209EB";
+name = "6. Feb 25, 03:20";
 shapes = (
 {
 alignment = -1;
@@ -23,7 +186,7 @@ ref = "zhe-cy";
 {
 alignment = -1;
 pos = (1,0);
-ref = breve;
+ref = cyrillicbreve;
 }
 );
 width = 600;
@@ -39,7 +202,9 @@ name = top;
 pos = (300,740);
 }
 );
-layerId = UUID0;
+associatedMasterId = UUID0;
+layerId = "20667703-254F-458A-A381-2C0327E52B5A";
+name = "6. Feb 25, 03:20";
 shapes = (
 {
 alignment = -1;
@@ -47,7 +212,7 @@ ref = "zhe-cy";
 },
 {
 alignment = -1;
-ref = breve;
+ref = cyrillicbreve;
 }
 );
 width = 600;
@@ -63,7 +228,9 @@ name = top;
 pos = (300,787);
 }
 );
-layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
+associatedMasterId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
+layerId = "2879EBF0-B23B-4323-8106-42E89636D491";
+name = "6. Feb 25, 03:20";
 shapes = (
 {
 alignment = -1;
@@ -72,7 +239,7 @@ ref = "zhe-cy";
 {
 alignment = -1;
 pos = (5,0);
-ref = breve;
+ref = cyrillicbreve;
 }
 );
 width = 600;
@@ -88,7 +255,9 @@ name = top;
 pos = (250,716);
 }
 );
-layerId = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
+associatedMasterId = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
+layerId = "1319BA50-2488-4798-942D-7709771DF22C";
+name = "6. Feb 25, 03:20";
 shapes = (
 {
 alignment = -1;
@@ -97,7 +266,7 @@ ref = "zhe-cy";
 {
 alignment = -1;
 pos = (1,0);
-ref = breve;
+ref = cyrillicbreve;
 }
 );
 width = 500;
@@ -113,7 +282,9 @@ name = top;
 pos = (250,741);
 }
 );
-layerId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+layerId = "DA358B7D-4C9E-4982-8DAB-3E676286D5BF";
+name = "6. Feb 25, 03:20";
 shapes = (
 {
 alignment = -1;
@@ -122,7 +293,7 @@ ref = "zhe-cy";
 {
 alignment = -1;
 pos = (7,0);
-ref = breve;
+ref = cyrillicbreve;
 }
 );
 width = 500;
@@ -138,7 +309,9 @@ name = top;
 pos = (250,775);
 }
 );
-layerId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
+associatedMasterId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
+layerId = "5DE44689-A641-410C-B10B-EF53C9277FF8";
+name = "6. Feb 25, 03:20";
 shapes = (
 {
 alignment = -1;
@@ -147,12 +320,14 @@ ref = "zhe-cy";
 {
 alignment = -1;
 pos = (1,0);
-ref = breve;
+ref = cyrillicbreve;
 }
 );
 width = 500;
 }
 );
+metricLeft = "zhe-cy";
+metricRight = "zhe-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1218;

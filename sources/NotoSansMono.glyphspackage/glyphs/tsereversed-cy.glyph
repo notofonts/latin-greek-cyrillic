@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 6;
 glyphname = "tsereversed-cy";
 layers = (
 {
@@ -76,6 +76,8 @@ scale = (-1,1);
 width = 500;
 }
 );
+metricLeft = "=|tse-cy";
+metricRight = "=|tse-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 42593;

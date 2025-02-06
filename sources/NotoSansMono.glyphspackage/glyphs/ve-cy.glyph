@@ -218,7 +218,6 @@ nodes = (
 }
 );
 };
-color = 0;
 layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
 shapes = (
 {

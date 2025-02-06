@@ -1,8 +1,176 @@
 {
 category = Letter;
-color = 4;
+color = 6;
 glyphname = "abreve-cy";
 layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "a-cy";
+},
+{
+alignment = -1;
+pos = (14,0);
+ref = breve;
+}
+);
+};
+layerId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
+shapes = (
+{
+alignment = -1;
+ref = a;
+},
+{
+alignment = -1;
+pos = (5,0);
+ref = cyrillicbreve;
+}
+);
+width = 600;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "a-cy";
+},
+{
+alignment = -1;
+pos = (10,0);
+ref = breve;
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = a;
+},
+{
+alignment = -1;
+pos = (5,0);
+ref = cyrillicbreve;
+}
+);
+width = 600;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "a-cy";
+},
+{
+alignment = -1;
+pos = (15,0);
+ref = breve;
+}
+);
+};
+layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
+shapes = (
+{
+alignment = -1;
+ref = a;
+},
+{
+alignment = -1;
+pos = (9,0);
+ref = cyrillicbreve;
+}
+);
+width = 600;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "a-cy";
+},
+{
+alignment = -1;
+pos = (11,0);
+ref = breve;
+}
+);
+};
+layerId = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
+shapes = (
+{
+alignment = -1;
+ref = a;
+},
+{
+alignment = -1;
+pos = (4,0);
+ref = cyrillicbreve;
+}
+);
+width = 500;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "a-cy";
+},
+{
+alignment = -1;
+pos = (18,0);
+ref = breve;
+}
+);
+};
+layerId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+shapes = (
+{
+alignment = -1;
+ref = a;
+},
+{
+alignment = -1;
+pos = (15,0);
+ref = cyrillicbreve;
+}
+);
+width = 500;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "a-cy";
+},
+{
+alignment = -1;
+pos = (11,0);
+ref = breve;
+}
+);
+};
+layerId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
+shapes = (
+{
+alignment = -1;
+ref = a;
+},
+{
+alignment = -1;
+pos = (14,0);
+ref = cyrillicbreve;
+}
+);
+width = 500;
+},
 {
 anchors = (
 {
@@ -14,7 +182,9 @@ name = top;
 pos = (300,718);
 }
 );
-layerId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
+associatedMasterId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
+layerId = "29632C9C-93E4-4E45-A409-4630577A49E6";
+name = "6. Feb 25, 03:22";
 shapes = (
 {
 alignment = -1;
@@ -23,7 +193,7 @@ ref = "a-cy";
 {
 alignment = -1;
 pos = (14,0);
-ref = breve;
+ref = cyrillicbreve;
 }
 );
 width = 600;
@@ -39,7 +209,9 @@ name = top;
 pos = (300,740);
 }
 );
-layerId = UUID0;
+associatedMasterId = UUID0;
+layerId = "E23783D0-C898-4959-B08E-86CF7699F18B";
+name = "6. Feb 25, 03:22";
 shapes = (
 {
 alignment = -1;
@@ -48,7 +220,7 @@ ref = "a-cy";
 {
 alignment = -1;
 pos = (10,0);
-ref = breve;
+ref = cyrillicbreve;
 }
 );
 width = 600;
@@ -64,7 +236,9 @@ name = top;
 pos = (300,787);
 }
 );
-layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
+associatedMasterId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
+layerId = "B5FDCE6D-006F-4E76-96A5-9ECBE179EA87";
+name = "6. Feb 25, 03:22";
 shapes = (
 {
 alignment = -1;
@@ -73,7 +247,7 @@ ref = "a-cy";
 {
 alignment = -1;
 pos = (15,0);
-ref = breve;
+ref = cyrillicbreve;
 }
 );
 width = 600;
@@ -89,7 +263,9 @@ name = top;
 pos = (250,716);
 }
 );
-layerId = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
+associatedMasterId = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
+layerId = "381D11ED-E7D0-4060-AE41-9868D2250272";
+name = "6. Feb 25, 03:22";
 shapes = (
 {
 alignment = -1;
@@ -98,7 +274,7 @@ ref = "a-cy";
 {
 alignment = -1;
 pos = (11,0);
-ref = breve;
+ref = cyrillicbreve;
 }
 );
 width = 500;
@@ -114,7 +290,9 @@ name = top;
 pos = (250,741);
 }
 );
-layerId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+associatedMasterId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
+layerId = "B06D835B-EB31-4670-A502-2B8B7C360B8F";
+name = "6. Feb 25, 03:22";
 shapes = (
 {
 alignment = -1;
@@ -123,7 +301,7 @@ ref = "a-cy";
 {
 alignment = -1;
 pos = (18,0);
-ref = breve;
+ref = cyrillicbreve;
 }
 );
 width = 500;
@@ -139,7 +317,9 @@ name = top;
 pos = (250,775);
 }
 );
-layerId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
+associatedMasterId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
+layerId = "4FC21E93-1170-4A09-9229-166F5ACD620E";
+name = "6. Feb 25, 03:22";
 shapes = (
 {
 alignment = -1;
@@ -148,12 +328,14 @@ ref = "a-cy";
 {
 alignment = -1;
 pos = (11,0);
-ref = breve;
+ref = cyrillicbreve;
 }
 );
 width = 500;
 }
 );
+metricLeft = "a-cy";
+metricRight = "a-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 1233;

@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 6;
 glyphname = "yureversed-cy";
 layers = (
 {
@@ -76,6 +76,8 @@ scale = (-1,1);
 width = 500;
 }
 );
+metricLeft = "=|iu-cy";
+metricRight = "=|iu-cy";
 script = cyrillic;
 subCategory = Lowercase;
 unicode = 42581;

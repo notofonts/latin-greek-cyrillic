@@ -1,5 +1,5 @@
 {
-.appVersion = "3326";
+.appVersion = "3337";
 .formatVersion = 3;
 axes = (
 {
@@ -20,7 +20,6 @@ name = Uppercase;
 );
 customParameters = (
 {
-disabled = 1;
 name = glyphOrder;
 value = (
 .notdef,
