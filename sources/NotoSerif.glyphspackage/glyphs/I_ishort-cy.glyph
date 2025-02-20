@@ -42,9 +42,11 @@ pos = (321,916);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 ref = "Ii-cy";
 },
 {
+alignment = -1;
 pos = (144,0);
 ref = cyrillicbreve.cap;
 }

@@ -17,6 +17,7 @@ width = 568;
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 pos = (0,287);
 ref = aa.pcap;
 scale = (0.65,0.6);
@@ -36,6 +37,7 @@ layerId = "a232643e-4186-4ac0-ac88-c38870f735b2";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 pos = (0,287);
 ref = aa.pcap;
 scale = (0.65,0.6);
@@ -69,6 +71,7 @@ width = 412;
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 pos = (0,287);
 ref = aa.pcap;
 scale = (0.65,0.6);

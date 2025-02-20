@@ -18,11 +18,11 @@ shapes = (
 ref = UpsilonhookSymbol;
 },
 {
-pos = (579,0);
-ref = dieresis;
+pos = (-8,178);
+ref = dieresiscomb;
 }
 );
-width = 1156;
+width = 579;
 },
 {
 anchors = (
@@ -37,11 +37,11 @@ shapes = (
 ref = UpsilonhookSymbol;
 },
 {
-pos = (661,0);
-ref = dieresis;
+pos = (32,178);
+ref = dieresiscomb;
 }
 );
-width = 1238;
+width = 661;
 },
 {
 anchors = (
@@ -64,11 +64,11 @@ shapes = (
 ref = UpsilonhookSymbol;
 },
 {
-pos = (769,0);
-ref = dieresis;
+pos = (80,178);
+ref = dieresiscomb;
 }
 );
-width = 1346;
+width = 769;
 },
 {
 anchors = (
@@ -83,11 +83,11 @@ shapes = (
 ref = UpsilonhookSymbol;
 },
 {
-pos = (803,0);
-ref = dieresis;
+pos = (84,178);
+ref = dieresiscomb;
 }
 );
-width = 1380;
+width = 803;
 },
 {
 anchors = (
@@ -102,11 +102,11 @@ shapes = (
 ref = UpsilonhookSymbol;
 },
 {
-pos = (454,0);
-ref = dieresis;
+pos = (-8,178);
+ref = dieresiscomb;
 }
 );
-width = 892;
+width = 454;
 },
 {
 anchors = (
@@ -121,11 +121,11 @@ shapes = (
 ref = UpsilonhookSymbol;
 },
 {
-pos = (545,0);
-ref = dieresis;
+pos = (26,178);
+ref = dieresiscomb;
 }
 );
-width = 1002;
+width = 545;
 },
 {
 anchors = (
@@ -140,11 +140,11 @@ shapes = (
 ref = UpsilonhookSymbol;
 },
 {
-pos = (671,0);
-ref = dieresis;
+pos = (70,178);
+ref = dieresiscomb;
 }
 );
-width = 1152;
+width = 671;
 }
 );
 script = greek;

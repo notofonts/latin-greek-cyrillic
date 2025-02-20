@@ -75,9 +75,11 @@ layerId = "a0413402-3db6-489b-af60-b6b625ad208d";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = "ii-cy";
 },
 {
+alignment = -1;
 pos = (154,0);
 ref = cyrillicbreve;
 }

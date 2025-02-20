@@ -7,9 +7,11 @@ layers = (
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (72,0);
 ref = macroncomb;
 }
@@ -20,9 +22,11 @@ width = 230;
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (123,0);
 ref = macroncomb;
 }
@@ -33,9 +37,11 @@ width = 286;
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (168,0);
 ref = macroncomb;
 }
@@ -76,9 +82,11 @@ width = 276;
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (145,0);
 ref = macroncomb;
 }
