@@ -1,6 +1,8 @@
 ## FontBakery report
 
-fontbakery version: 0.12.10
+fontbakery version: 0.13.2
+
+
 
 
 
@@ -10,10 +12,10 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[13] NotoSansMono[wdth,wght].ttf</summary>
+<details><summary>[14] NotoSansMono[wdth,wght].ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
     <div>
 
 
@@ -22,13758 +24,114 @@ fontbakery version: 0.12.10
 
 
 
-* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+* 🔥 **FAIL** <p>GF_Greek_Expert glyphset:</p>
 <table>
 <thead>
 <tr>
-<th align="left">Language</th>
 <th align="left">FAIL messages</th>
+<th align="left">Languages</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">bm_Latn (Bambara)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">The following base characters are missing from the font: Ɤ̀, Ɤ̄, Ɤ́, Ɤ̏, Ɤ, Ɤ̋, Ɤ̂</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+<td align="left">Shaper didn't attach uni030F to .notdef when shaping the text 'Ɤ̏'</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">Shaper didn't attach gravecomb to .notdef when shaping the text 'Ɤ̀'</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dyu_Latn (Dyula)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ha_Latn (Hausa)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ig_Latn (Igbo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṅ; both buffers returned uni1E45=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɵ; both buffers returned uni0275=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lg_Latn (Ganda)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yo_Latn (Yoruba)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">izz_Latn (Izii)</td>
-<td align="left">Requires Small-cap: ạ; both buffers returned uni1EA1=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yay_Latn (Agwagwune)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bkm_Latn (Kom)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tnr_Latn (Ménik)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ha_Latn (Hausa)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gde_Latn (Gude)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bsc_Latn (Bassari)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ỹ; both buffers returned uni1EF9=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ee_Latn (Ewe)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƒ; both buffers returned fhook=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ken_Latn (Kenyang)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">muy_Latn (Muyang)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hig_Latn (Kamwe)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kao_Latn (Xaasongaxango)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dur_Latn (Dii)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kqs_Latn (Kissi, Northern)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pil_Latn (Yom)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kyf_Latn (Kouya)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bbj_Latn (Ghomala)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fod_Latn (Foodo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sxw_Latn (Saxwe Gbe)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">udu_Latn (Uduk)</td>
-<td align="left">Shaper didn't attach uni035F to T</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni035F to t.sc</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḵ; both buffers returned uni1E35=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṯ; both buffers returned uni1E6F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẖ; both buffers returned uni1E96=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dop_Latn (Lukpa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tcd_Latn (Tafi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƒ; both buffers returned fhook=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">did_Latn (Didinga)</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tzm_Latn (Central Atlas Tamazight)</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">byv_Latn (Medumba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɑ; both buffers returned uni0251=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kqp_Latn (Kimré)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sba_Latn (Ngambay)</td>
-<td align="left">Requires Small-cap: ḛ; both buffers returned uni1E1B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ikk_Latn (Ika)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṅ; both buffers returned uni1E45=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mhi_Latn (Ma’di)</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ệ; both buffers returned uni1EC7=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ộ; both buffers returned uni1ED9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yo_Latn (Yoruba)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">spp_Latn (Sénoufo, Supyire)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lia_Latn (Limba, West-Central)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mql_Latn (Mbelime)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mbu_Latn (Mbula-Bwazza)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">idd_Latn (Ede Idaca)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">csk_Latn (Jola-Kasa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yaz_Latn (Lokaa)</td>
-<td align="left">Requires Small-cap: ạ; both buffers returned uni1EA1=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bci_Latn (Baoulé)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">eka_Latn (Ekajuk)</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sav_Latn (Saafi-Saafi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">soy_Latn (Miyobe)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mnf_Latn (Mundani)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mwk_Latn (Kita Maninkakan)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">snw_Latn (Selee)</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dyu_Latn (Dyula)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lam_Latn (Lamba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">abn_Latn (Abua)</td>
-<td align="left">Requires Small-cap: ạ; both buffers returned uni1EA1=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mfv_Latn (Mandjak)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dbq_Latn (Daba)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cky_Latn (Cakfem-Mushere)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bhy_Latn (Bhele)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">twq_Latn (Tasawaq)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sld_Latn (Sissala)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ade_Latn (Adele)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">avu_Latn (Avokaya)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ạ; both buffers returned uni1EA1=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ậ; both buffers returned uni1EAD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ife_Latn (Ifè)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tal_Latn (Tal)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ewo_Latn (Ewondo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">buu_Latn (Budu)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bqc_Latn (Boko)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ati_Latn (Attié)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kbp_Latn (Kabiyé)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lu_Latn (Luba-Katanga)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">emk_Latn (Maninkakan, Eastern)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yam_Latn (Yamba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yas_Latn (Nugunu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dgh_Latn (Dghwede)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">har_Latn (Harari)</td>
-<td align="left">Requires Small-cap: ṫ; both buffers returned uni1E6B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṡ; both buffers returned uni1E61=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḋ; both buffers returned uni1E0B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȧ; both buffers returned uni0227=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḣ; both buffers returned uni1E23=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bex_Latn (Jur Modo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">aha_Latn (Ahanta)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">keu_Latn (Akebu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nga_Latn (Ngbaka)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">aeb_Latn (Tunisian Darija)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḕ; both buffers returned uni1E15=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḷ; both buffers returned uni1E37=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṃ; both buffers returned uni1E43=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">she_Latn (Sheko)</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">muh_Latn (Mündü)</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">okr_Latn (Kirike)</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ny_Latn (Nyanja)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gux_Latn (Gourmanchéma)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ikx_Latn (Ik)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʝ; both buffers returned uni029D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">srr_Latn (Serer)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƈ; both buffers returned uni0188=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƥ; both buffers returned uni01A5=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƭ; both buffers returned uni01AD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṕ; both buffers returned uni1E55=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kpo_Latn (Ikposo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">utr_Latn (Etulo)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bfa_Latn (Bari)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bjv_Latn (Bedjond)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bzx_Latn (Bozo, Hainyaxo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">awc_Latn (Cicipu)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">wwa_Latn (Waama)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ntr_Latn (Delo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ibb_Latn (Ibibio)</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʌ; both buffers returned uni028C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bze_Latn (Jenaama Bozo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">myk_Latn (Mamara Senoufo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gjn_Latn (Gonja)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ig_Latn (Igbo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṅ; both buffers returned uni1E45=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɵ; both buffers returned uni0275=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">teo_Latn (Teso)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ndz_Latn (Ndogo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nwb_Latn (Nyabwa)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">god_Latn (Godié)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lol_Latn (Mongo)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bav_Latn (Vengo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kkj_Latn (Kako)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">meq_Latn (Merey)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nzk_Latn (Nzakara)</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mgd_Latn (Moru)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mgo_Latn (Metaʼ)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">biv_Latn (Birifor, Southern)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lun_Latn (Lunda)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mor_Latn (Moro)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḏ; both buffers returned uni1E0F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꟈ; both buffers returned dmiddlestroke=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɽ; both buffers returned uni027D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṯ; both buffers returned uni1E6F=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">box_Latn (Buamu)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nnw_Latn (Southern Nuni)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mzm_Latn (Mumuye)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">guw_Latn (Gun)</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ica_Latn (Ede Ica)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">eto_Latn (Eton, Cameroon)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fub_Latn (Fulfulde, Adamawa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">adj_Latn (Adioukrou)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ebo_Latn (Teke-Ebo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fvr_Latn (Fur)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yre_Latn (Yaouré)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ntm_Latn (Nateni)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bbo_Latn (Northern Bobo Madaré)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">aks_Latn (Akeselem)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mwm_Latn (Sar)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḛ; both buffers returned uni1E1B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȳ; both buffers returned uni0233=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gby_Latn (Gbari)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gmm_Latn (Gbaya-Mbodomo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ada_Latn (Adangme)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bvb_Latn (Bube)</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">knc_Latn (Kanuri, Central)</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɍ; both buffers returned uni024D=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bov_Latn (Tuwuli)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yer_Latn (Tarok)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bcy_Latn (Bacama)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">boz_Latn (Tiéyaxo Bozo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cdr_Latn (Kamuku)</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cme_Latn (Cerma)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ank_Latn (Goemai)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bfo_Latn (Malba Birifor)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hz_Latn (Herero)</td>
-<td align="left">Requires Small-cap: ḓ; both buffers returned uni1E13=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṋ; both buffers returned uni1E4B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṱ; both buffers returned uni1E71=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">umb_Latn (Umbundu)</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lmp_Latn (Limbum)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">wib_Latn (Toussian, Southern)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bss_Latn (Akoose)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ses_Latn (Koyraboro Senni)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dtm_Latn (Tomo Kan Dogon)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">taq_Latn (Tamasheq (Latin))</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǧ; both buffers returned gcaron=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǰ; both buffers returned uni01F0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḷ; both buffers returned uni1E37=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʃ; both buffers returned uni0283=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʒ; both buffers returned uni0292=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bzw_Latn (Basa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mcu_Latn (Mambila, Cameroon)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sus_Latn (Susu)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">knp_Latn (Kwanja)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">abr_Latn (Abron)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ln_Latn (Lingala)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ngh_Latn (Nǁng)</td>
-<td align="left">Requires Small-cap: ʘ; both buffers returned uni0298=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kus_Latn (Kusaal)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ajg_Latn (Aja)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʒ; both buffers returned uni0292=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tuq_Latn (Tedaga)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sok_Latn (Sokoro)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">abi_Latn (Abidji)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">krs_Latn (Gbaya, Sudan)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḷ; both buffers returned uni1E37=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">vai_Latn (Vai (Latin))</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ybb_Latn (Yemba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kyq_Latn (Kenga)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lob_Latn (Lobi)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ⱳ; both buffers returned uni2C73=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gkn_Latn (Gokana)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bdh_Latn (Baka, DRC/South Sudan)</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṇ; both buffers returned uni1E47=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṿ; both buffers returned uni1E7F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">vag_Latn (Vagla)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mzw_Latn (Deg)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sig_Latn (Paasaal)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dyo_Latn (Jola-Fonyi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nmg_Latn (Kwasio)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ozm_Latn (Koonzime)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mas_Latn (Masai)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ann_Latn (Obolo)</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ộ; both buffers returned uni1ED9=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lem_Latn (Nomaande)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kdl_Latn (Tsikimba)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">iby_Latn (Ibani)</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">buw_Latn (gevové)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞵ; both buffers returned uniA7B5=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kdh_Latn (Tem)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cae_Latn (Lehar)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mmu_Latn (Mmaala)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nza_Latn (Tigon Mbembe)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɑ; both buffers returned uni0251=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ncu_Latn (Chumburung)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bjt_Latn (Balanta-Ganja)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kby_Latn (Kanuri, Manga)</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɍ; both buffers returned uni024D=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">rub_Latn (Gungu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nko_Latn (Nkonya)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mev_Latn (Mano)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tsw_Latn (Tsishingini)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kzr_Latn (Karang)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ige_Latn (Igede)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dow_Latn (Doyayo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fuv_Latn (Nigerian Fulfulde)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">xrb_Latn (Karaboro, Eastern)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">xsm_Latn (Kasem)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gnd_Latn (Zulgo-Gemzek)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kmy_Latn (Koma)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">rif_Latn (Riffian (Latin))</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǧ; both buffers returned gcaron=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḏ; both buffers returned uni1E0F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƹ; both buffers returned uni01B9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȓ; both buffers returned uni0213=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dip_Latn (Dinka, Northeastern)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ahs_Latn (Ashe)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fmp_Latn (Fe’fe’)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɑ; both buffers returned uni0251=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">apd_Latn (Sudanese Arabic)</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nuv_Latn (Nuni, Northern)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nfu_Latn (Mfumte)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kia_Latn (Kim)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḛ; both buffers returned uni1E1B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nzi_Latn (Nzima)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kye_Latn (Krache)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">goa_Latn (Guro)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tpm_Latn (Tampulma)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">suq_Latn (Suri, Tirmaga-Chai)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gaa_Latn (Ga)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">knf_Latn (Mankanya)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">acd_Latn (Gikyode)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ffm_Latn (Maasina Fulfulde)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">atg_Latn (Ivbie North-Okpela-Arhe)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">xon_Latn (Konkomba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bqj_Latn (Bandial)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ᵽ; both buffers returned uni1D7D=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tan_Latn (Tangale)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṇ; both buffers returned uni1E47=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḳ; both buffers returned uni1E33=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sad_Latn (Sandawe)</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ish_Latn (Esan)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sil_Latn (Sisaala, Tumulung)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">jab_Latn (Hyam)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dga_Latn (Dagaare, Southern)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bys_Latn (Burak)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nyb_Latn (Nyangbo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƒ; both buffers returned fhook=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fuq_Latn (Central-Eastern Niger Fulfulde)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bba_Latn (Baatonum)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kvf_Latn (Kabalai)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pip_Latn (Pero)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">luo_Latn (Luo)</td>
-<td align="left">Requires Small-cap: ʈ; both buffers returned uni0288=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bqv_Latn (Koro Wachi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nin_Latn (Ninzo)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mcn_Latn (Masana)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɦ; both buffers returned uni0266=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḇ; both buffers returned uni1E07=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḏ; both buffers returned uni1E0F=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tuz_Latn (Turka)</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lok_Latn (Loko)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">igb_Latn (Ebira)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ệ; both buffers returned uni1EC7=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ộ; both buffers returned uni1ED9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bin_Latn (Bini)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">moa_Latn (Mwan)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">azo_Latn (Awing)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bib_Latn (Bissa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">men_Latn (Mende)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hia_Latn (Lamang)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bfd_Latn (Bafut)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bcn_Latn (Bali)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">guk_Latn (Gumuz)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mkl_Latn (Mokole)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sur_Latn (Mwaghavul)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bwj_Latn (Láá Láá Bwamu)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yba_Latn (Yala)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kub_Latn (Kutep)</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kst_Latn (Winyé)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">led_Latn (Lendu)</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pkb_Latn (Pokomo)</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bsq_Latn (Bassa (Latin))</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dje_Latn (Zarma)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nhb_Latn (Beng)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nym_Latn (Nyamwezi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">wja_Latn (Waja)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">xwe_Latn (Gbe, Xwela)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ngb_Latn (Ngbandi, Northern)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ve_Latn (Venda)</td>
-<td align="left">Requires Small-cap: ḓ; both buffers returned uni1E13=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḽ; both buffers returned uni1E3D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṋ; both buffers returned uni1E4B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṅ; both buffers returned uni1E45=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṱ; both buffers returned uni1E71=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pbi_Latn (Parkwa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">any_Latn (Anyin)</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bas_Latn (Basaa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">naw_Latn (Nawuri)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cou_Latn (Wamey)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">xed_Latn (Hdi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gej_Latn (Gen)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mfn_Latn (Mbembe, Cross River)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bza_Latn (Bandi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">log_Latn (Logo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bwr_Latn (Bura-Pabir)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bev_Latn (Bété, Daloa)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lee_Latn (Lyélé)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ldb_Latn (Duya)</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">idu_Latn (Idoma)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lgg_Latn (Lugbara)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">anc_Latn (Ngas)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṇ; both buffers returned uni1E47=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nus_Latn (Nuer)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʈ; both buffers returned uni0288=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bkv_Latn (Bekwarra)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bcw_Latn (Bana)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">avn_Latn (Avatime)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƒ; both buffers returned fhook=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ckl_Latn (Kibaku)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">eza_Latn (Ezaa)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">laj_Latn (Lango, Uganda)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fuh_Latn (Fulfulde, Western Niger)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">maw_Latn (Mampruli)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ikw_Latn (Ikwere)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nku_Latn (Kulango, Bouna)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">vut_Latn (Vute)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">jgk_Latn (Gwak)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gvl_Latn (Gulay)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cbj_Latn (Ede Cabe)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tfi_Latn (Gbe, Tofin)</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gud_Latn (Dida, Yocoboué)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">wci_Latn (Gbe, Waci)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƒ; both buffers returned fhook=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">beh_Latn (Biali)</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sbd_Latn (Southern Samo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gqr_Latn (Gor)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sef_Latn (Cebaara Senoufo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">jib_Latn (Jibu)</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">jgo_Latn (Ngomba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nnh_Latn (Ngiemboon)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">wob_Latn (Wè Northern)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">shi_Latn (Tachelhit (Latin))</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mos_Latn (Mossi)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ich_Latn (Etkywan)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dnj_Latn_LR (Liberian Dan)</td>
-<td align="left">Shaper didn't attach tildecomb to uniA78D</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0302 to uniA78D</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uniA78D</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uniA78D</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lag_Latn (Langi)</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bet_Latn (Bété, Guiberoua)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ddn_Latn (Dendi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">Shaper didn't attach uni0304 to .notdef when shaping the text 'Ɤ̄'</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tbz_Latn (Ditammari)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lg_Latn (Ganda)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">mfi_Latn (Wandala)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">Shaper didn't attach acutecomb to .notdef when shaping the text 'Ɤ́'</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+<td align="left">Shaper didn't attach uni030B to .notdef when shaping the text 'Ɤ̋'</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">Shaper didn't attach uni0302 to .notdef when shaping the text 'Ɤ̂'</td>
+<td align="left">dnj_Latn (Dan)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+<td align="left">Shaper didn't attach tildecomb to uniA7AE when shaping the text 'Ɪ̃'</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">Shaper didn't attach tildecomb to uniA7B7 when shaping the text 'ꞷ̃'</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
+<td align="left">Shaper didn't attach tildecomb to uniA7B6 when shaping the text 'Ꞷ̃'</td>
 <td align="left">kzc_Latn (Bondoukou Kulango)</td>
-<td align="left">Shaper didn't attach tildecomb to Iotaserifed</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uniA7B7</td>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uniA7B6</td>
+<td align="left">The following base characters are missing from the font: Ɤ̂, Ɤ̀, Ɤ, Ɤ́</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb.sc to Iotaserifed</td>
+<td align="left">Shaper didn't attach acutecomb to .notdef when shaping the text 'Ɤ́'</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb.sc to uniA7B7</td>
+<td align="left">Shaper didn't attach uni0302 to .notdef when shaping the text 'Ɤ̂'</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb.sc to uniA7B6</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɪ; both buffers returned iotaserifed=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞷ; both buffers returned uniA7B7=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nmz_Latn (Nawdm)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɦ; both buffers returned uni0266=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lig_Latn (Ligbi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ted_Latn (Krumen, Tepo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">wji_Latn (Warji)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">puu_Latn (Punu)</td>
-<td align="left">Requires Small-cap: ꞵ; both buffers returned uniA7B5=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">efi_Latn (Efik)</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yal_Latn (Yalunka)</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tvu_Latn (Tunen)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ijj_Latn (Ede Ije)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kab_Latn (Kabyle)</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǧ; both buffers returned gcaron=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dno_Latn (Ndrulo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɦ; both buffers returned uni0266=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dts_Latn (Dogon, Toro So)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">etu_Latn (Ejagham)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kpz_Latn (Sapiny)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">png_Latn (Pangu)</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gkp_Latn (Kpelle, Guinea)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɠ; both buffers returned uni0260=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǫ; both buffers returned uni01EB=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">daa_Latn (Dangaléat)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">khq_Latn (Koyra Chiini)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">jbu_Latn (Jukun Takum)</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḳ; both buffers returned uni1E33=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">wan_Latn (Wan)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mdj_Latn (Mangbetu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kss_Latn (Southern Kisi)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dya_Latn (Dyan)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yat_Latn (Yambeta)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mey_Latn (Hassaniyya)</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḥ; both buffers returned uni1E25=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẋ; both buffers returned uni1E8B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bim_Latn (Bimoba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kez_Latn (Kukele)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ahl_Latn (Igo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">agc_Latn (Agatu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lnl_Latn (South Central Banda)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">akp_Latn (Siwu)</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bsp_Latn (Baga Sitemu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bmq_Latn (Bomu)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mda_Latn (Mada)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gur_Latn (Frafra)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ksp_Latn (Kabba)</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mfo_Latn (Mbe)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bqp_Latn (Bisã)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bm_Latn (Bambara)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mqb_Latn (Mbuko)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fue_Latn (Fulfulde, Borgu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">snf_Latn (Noon)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ktj_Latn (Krumen, Plapo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bom_Latn (Berom)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dyi_Latn (Sénoufo, Djimini)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">jen_Latn (Dza)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bum_Latn (Bulu)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kai_Latn (Karekare)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƙ; both buffers returned uni0199=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ach_Latn (Acoli)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʈ; both buffers returned uni0288=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">neb_Latn (Toura)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ndv_Latn (Ndut)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">wo_Latn (Wolof)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mgc_Latn (Morokodo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṛ; both buffers returned uni1E5B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dag_Latn (Dagbani)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʒ; both buffers returned uni0292=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mls_Latn (Masalit)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lip_Latn (Sekpele)</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nhu_Latn (Noone)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mym_Latn (Me’en)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pug_Latn (Phuie)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ⱳ; both buffers returned uni2C73=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ekp_Latn (Ekpeye)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ệ; both buffers returned uni1EC7=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ộ; both buffers returned uni1ED9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tod_Latn (Toma)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɠ; both buffers returned uni0260=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">loq_Latn (Lobala)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">shz_Latn (Syenara Senoufo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mdt_Latn (Mbere)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞵ; both buffers returned uniA7B5=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɍ; both buffers returned uni024D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʃ; both buffers returned uni0283=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cko_Latn (Anufo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">les_Latn (Lese)</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bud_Latn (Ntcham)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">anv_Latn (Denya)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ksf_Latn (Bafia)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lnu_Latn (Longuda)</td>
-<td align="left">Requires Small-cap: ṉ; both buffers returned uni1E49=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lns_Latn (Lamnso’)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dnj_Latn (Dan)</td>
-<td align="left">Some base glyphs were missing: Ɤ, Ɤ̀, Ɤ́, Ɤ̂, Ɤ̄, Ɤ̋, Ɤ̏</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȁ; both buffers returned uni0201=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǣ; both buffers returned uni01E3=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʌ; both buffers returned uni028C=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȅ; both buffers returned uni0205=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȉ; both buffers returned uni0209=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȍ; both buffers returned uni020D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɤ; both buffers returned uni0264=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȕ; both buffers returned uni0215=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɯ; both buffers returned uni026F=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mfd_Latn (Mendankwe-Nkwen)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɂ; both buffers returned glottalstopcased=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ijs_Latn (Ijo, Southeast)</td>
-<td align="left">Requires Small-cap: ḅ; both buffers returned uni1E05=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bwq_Latn (Southern Bobo Madaré)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fan_Latn (Fang)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʒ; both buffers returned uni0292=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʃ; both buffers returned uni0283=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṳ; both buffers returned uni1E73=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">etx_Latn (Iten)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mge_Latn (Mango)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḛ; both buffers returned uni1E1B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṵ; both buffers returned uni1E75=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȳ; both buffers returned uni0233=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mcp_Latn (Makaa)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">maf_Latn (Mafa)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḿ; both buffers returned uni1E3F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">msc_Latn (Maninka, Sankaran)</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">saf_Latn (Safaliba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">las_Latn (Lama, Togo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">niy_Latn (Ngiti)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mfq_Latn (Moba)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">swb_Latn (Maore Comorian, Latin)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dua_Latn (Duala)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fon_Latn (Fon)</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cla_Latn (Ron)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bvi_Latn (Belanda Viri, Latin)</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḯ; both buffers returned uni1E2F=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǘ; both buffers returned uni01D8=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ayb_Latn (Ayizo Gbe)</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mbo_Latn (Mbo)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yav_Latn (Yangben)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
+<td align="left">Shaper didn't attach gravecomb to .notdef when shaping the text 'Ɤ̀'</td>
 <td align="left">gov_Latn (Goo)</td>
-<td align="left">Some base glyphs were missing: Ɤ, Ɤ̀, Ɤ́, Ɤ̂</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hag_Latn (Hanga)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">Shaper didn't attach uni035F to T when shaping the text 'T͟H'</td>
+<td align="left">udu_Latn (Uduk)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mua_Latn (Mundang)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">Shaper didn't attach gravecomb to uniA78D when shaping the text 'Ɥ̀'</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">Shaper didn't attach acutecomb to uniA78D when shaping the text 'Ɥ́'</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+<td align="left">Shaper didn't attach uni0302 to uniA78D when shaping the text 'Ɥ̂'</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṽ; both buffers returned uni1E7D=0+600</td>
+<td align="left">Shaper didn't attach tildecomb to uniA78D when shaping the text 'Ɥ̃̀'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to uniA78D when shaping the text 'Ɥ̃́'</td>
+<td align="left">dnj_Latn_LR (Liberian Dan)</td>
 </tr>
 </tbody>
 </table>
@@ -13781,1330 +139,7150 @@ fontbakery version: 0.12.10
 
 
 
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
+* ⚠️ **WARN** <p>GF_Greek_Expert glyphset:</p>
 <table>
 <thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">nfr_Latn (Nafaanra)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">When shaping the text 'ı' and shaping the text 'ı' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ſ' and shaping the text 'ſ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">de_Latn (German)</td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">mnk_Latn (Mandinka)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ċ' and shaping the text 'ċ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ǧ' and shaping the text 'ǧ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">bax_Latn (Bamun (Latin))</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ǥ' and shaping the text 'ǥ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+<td align="left">When shaping the text 'ȟ' and shaping the text 'ȟ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">When shaping the text 'ı' and shaping the text 'ı' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">When shaping the text 'ǩ' and shaping the text 'ǩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+<td align="left">When shaping the text 'ʒ' and shaping the text 'ʒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+<td align="left">When shaping the text 'ǯ' and shaping the text 'ǯ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">fi_Latn (Finnish)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ſ' and shaping the text 'ſ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">fr_Latn (French)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">lt_Latn (Lithuanian), sad_Latn (Sandawe) and umb_Latn (Umbundu)</td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">pnz_Latn (Pana, Central African Republic)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ċ' and shaping the text 'ċ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">When shaping the text 'ġ' and shaping the text 'ġ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mt_Latn (Maltese)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȩ; both buffers returned uni0229=0+600</td>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ı' and shaping the text 'ı' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">tr_Latn (Turkish)</td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">Small caps i should be dotted:</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">blo_Latn (Anii)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'i' with features: smcp and shaping the text 'i' in language 'tr' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">tr_Latn (Turkish)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɖ; both buffers returned uni0256=0+600</td>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bm_Latn (Bambara), dyu_Latn (Dyula), bm_Latn (Bambara), bzx_Latn (Bozo, Hainyaxo), dyu_Latn (Dyula), sus_Latn (Susu), man_Latn (Mandingo), kqs_Latn (Kissi, Northern), mwk_Latn (Kita Maninkakan), dtm_Latn (Tomo Kan Dogon), myk_Latn (Mamara Senoufo), emk_Latn (Maninkakan, Eastern), dts_Latn (Dogon, Toro So), bwq_Latn (Southern Bobo Madaré) and boz_Latn (Tiéyaxo Bozo)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">fat_Latn (Fanti), tw_akuapem_Latn (Akuapem Twi), suq_Latn (Suri, Tirmaga-Chai), dga_Latn (Dagaare, Southern), ekm_Latn (Elip), cbj_Latn (Ede Cabe), saf_Latn (Safaliba), nym_Latn (Nyamwezi), idd_Latn (Ede Idaca), tw_akuapem_Latn (Akuapem Twi), fat_Latn (Fanti), ngb_Latn (Ngbandi, Northern), lok_Latn (Loko), ncu_Latn (Chumburung), mfq_Latn (Moba), agc_Latn (Agatu), bov_Latn (Tuwuli), bci_Latn (Baoulé), maw_Latn (Mampruli), nzi_Latn (Nzima), bba_Latn (Baatonum), utr_Latn (Etulo), etx_Latn (Iten), ica_Latn (Ede Ica), adj_Latn (Adioukrou), ada_Latn (Adangme), nfr_Latn (Nafaanra), lia_Latn (Limba, West-Central), tvu_Latn (Tunen), abr_Latn (Abron), mkl_Latn (Mokole), yas_Latn (Nugunu), sef_Latn (Cebaara Senoufo), ati_Latn (Attié), mym_Latn (Me’en), ijj_Latn (Ede Ije), lem_Latn (Nomaande), bhy_Latn (Bhele), ich_Latn (Etkywan), hag_Latn (Hanga), cko_Latn (Anufo), mfo_Latn (Mbe), nhb_Latn (Beng), mzw_Latn (Deg), cme_Latn (Cerma), xrb_Latn (Karaboro, Eastern), ntr_Latn (Delo), vag_Latn (Vagla), bet_Latn (Bété, Guiberoua), wan_Latn (Wan), kez_Latn (Kukele), mur_Latn (Murle), kri_Latn (Krio), lig_Latn (Ligbi), mmu_Latn (Mmaala), ddn_Latn (Dendi), lu_Latn (Luba-Katanga), yba_Latn (Yala), men_Latn (Mende), gjn_Latn (Gonja), moa_Latn (Mwan) and guk_Latn (Gumuz)</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">fuc_Latn (Pulaar)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ff_Latn (Fulah), fub_Latn (Fulfulde, Adamawa), daa_Latn (Dangaléat), fuc_Latn (Pulaar), sav_Latn (Saafi-Saafi), tnr_Latn (Ménik), ff_Latn (Fulah), djc_Latn (Dar Daju Daju), fuh_Latn (Fulfulde, Western Niger) and fue_Latn (Fulfulde, Borgu)</td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">fuf_Latn (Pular)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">When shaping the text 'ƙ' and shaping the text 'ƙ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɠ; both buffers returned uni0260=0+600</td>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ha_Latn (Hausa) and ha_Latn (Hausa)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">btt_Latn (Bete-Bendi)</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+<td align="left">When shaping the text 'ṅ' and shaping the text 'ṅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">kib_Latn (Koalib)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḏ; both buffers returned uni1E0F=0+600</td>
+<td align="left">When shaping the text 'ɵ' and shaping the text 'ɵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ig_Latn (Igbo) and ig_Latn (Igbo)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɽ; both buffers returned uni027D=0+600</td>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṯ; both buffers returned uni1E6F=0+600</td>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɐ; both buffers returned uni0250=0+600</td>
+<td align="left">When shaping the text 'ṣ' and shaping the text 'ṣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+<td align="left">When shaping the text 'ệ' and shaping the text 'ệ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">giz_Latn (Southern Giziga)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ộ' and shaping the text 'ộ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">yo_Latn (Yoruba) and yo_Latn (Yoruba)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ả' and shaping the text 'ả' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">pym_Latn (Pyam)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">When shaping the text 'ạ' and shaping the text 'ạ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">When shaping the text 'ằ' and shaping the text 'ằ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+<td align="left">When shaping the text 'ẳ' and shaping the text 'ẳ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɦ; both buffers returned uni0266=0+600</td>
+<td align="left">When shaping the text 'ẵ' and shaping the text 'ẵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ắ' and shaping the text 'ắ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">gna_Latn (Kaansa)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ặ' and shaping the text 'ặ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+<td align="left">When shaping the text 'ầ' and shaping the text 'ầ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+<td align="left">When shaping the text 'ẩ' and shaping the text 'ẩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">When shaping the text 'ẫ' and shaping the text 'ẫ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+<td align="left">When shaping the text 'ấ' and shaping the text 'ấ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+<td align="left">When shaping the text 'ậ' and shaping the text 'ậ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɲ; both buffers returned uni0272=0+600</td>
+<td align="left">When shaping the text 'ẻ' and shaping the text 'ẻ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṍ; both buffers returned uni1E4D=0+600</td>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ề' and shaping the text 'ề' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṹ; both buffers returned uni1E79=0+600</td>
+<td align="left">When shaping the text 'ể' and shaping the text 'ể' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+<td align="left">When shaping the text 'ễ' and shaping the text 'ễ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ế' and shaping the text 'ế' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">enn_Latn (Engenni)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">When shaping the text 'ệ' and shaping the text 'ệ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">When shaping the text 'ỉ' and shaping the text 'ỉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+<td align="left">When shaping the text 'ỏ' and shaping the text 'ỏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
+<td align="left">When shaping the text 'ồ' and shaping the text 'ồ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ổ' and shaping the text 'ổ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">lor_Latn (Téén)</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">When shaping the text 'ỗ' and shaping the text 'ỗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+<td align="left">When shaping the text 'ố' and shaping the text 'ố' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ộ' and shaping the text 'ộ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+<td align="left">When shaping the text 'ơ' and shaping the text 'ơ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ờ' and shaping the text 'ờ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">dzg_Latn (Dazaga)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ở' and shaping the text 'ở' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+<td align="left">When shaping the text 'ỡ' and shaping the text 'ỡ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">When shaping the text 'ớ' and shaping the text 'ớ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+<td align="left">When shaping the text 'ợ' and shaping the text 'ợ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+<td align="left">When shaping the text 'ủ' and shaping the text 'ủ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ư' and shaping the text 'ư' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">asg_Latn (Cishingini)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">When shaping the text 'ừ' and shaping the text 'ừ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">When shaping the text 'ử' and shaping the text 'ử' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ữ' and shaping the text 'ữ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">toq_Latn (Toposa)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ứ' and shaping the text 'ứ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ự' and shaping the text 'ự' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">dgi_Latn (Northern Dagara)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ỷ' and shaping the text 'ỷ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">When shaping the text 'ỹ' and shaping the text 'ỹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">When shaping the text 'ỵ' and shaping the text 'ỵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">vi_Latn (Vietnamese)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɩ; both buffers returned uni0269=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʋ; both buffers returned uni028B=0+600</td>
+<td align="left">When shaping the text 'ệ' and shaping the text 'ệ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ƴ; both buffers returned uni01B4=0+600</td>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẽ; both buffers returned uni1EBD=0+600</td>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ộ' and shaping the text 'ộ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">ekm_Latn (Elip)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">ttq_Latn (Tawallammat Tamajaq)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">igb_Latn (Ebira) and ekp_Latn (Ekpeye)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǧ; both buffers returned gcaron=0+600</td>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǰ; both buffers returned uni01F0=0+600</td>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɣ; both buffers returned uni0263=0+600</td>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḍ; both buffers returned uni1E0D=0+600</td>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ḷ; both buffers returned uni1E37=0+600</td>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṣ; both buffers returned uni1E63=0+600</td>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ṭ; both buffers returned uni1E6D=0+600</td>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ẓ; both buffers returned uni1E93=0+600</td>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ȳ' and shaping the text 'ȳ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kyq_Latn (Kenga)</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">ttr_Latn (Tera)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">bkc_Latn (Baka, Cameroon/Gabon)</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">dbd_Latn (Dadiya)</td>
-<td align="left">Requires Small-cap: ǝ; both buffers returned uni01DD=0+600</td>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">nmg_Latn (Kwasio)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʊ; both buffers returned uni028A=0+600</td>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">tem_Latn (Timne)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ɑ' and shaping the text 'ɑ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʌ; both buffers returned uni028C=0+600</td>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">nza_Latn (Tigon Mbembe)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ə; both buffers returned uni0259=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ȧ; both buffers returned uni0227=0+600</td>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ahs_Latn (Ashe), bqv_Latn (Koro Wachi) and ldb_Latn (Duya)</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">tik_Latn (Tikar)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ʈ' and shaping the text 'ʈ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">nus_Latn (Nuer)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǹ; both buffers returned uni01F9=0+600</td>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">snf_Latn (Noon) and fuq_Latn (Central-Eastern Niger Fulfulde)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">mur_Latn (Murle)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">tsw_Latn (Tsishingini) and kdl_Latn (Tsikimba)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ồ' and shaping the text 'ồ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mg_Latn (Malagasy)</td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">xuo_Latn (Kuo)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɓ; both buffers returned uni0253=0+600</td>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">yam_Latn (Yamba)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɗ; both buffers returned uni0257=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ybb_Latn (Yemba)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʊ' and shaping the text 'ʊ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">aks_Latn (Akeselem) and kdh_Latn (Tem)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʈ' and shaping the text 'ʈ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">luo_Latn (Luo) and ach_Latn (Acoli)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
 <td align="left">gng_Latn (Ngangam)</td>
-<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ꞌ; both buffers returned uniA78C=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">iqw_Latn (Ikwo)</td>
-<td align="left">Requires Small-cap: ẹ; both buffers returned uni1EB9=0+600</td>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ị; both buffers returned uni1ECB=0+600</td>
+<td align="left">When shaping the text 'ɂ' and shaping the text 'ɂ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mfd_Latn (Mendankwe-Nkwen)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ọ; both buffers returned uni1ECD=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ụ; both buffers returned uni1EE5=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">agq_Latn (Aghem)</td>
-<td align="left">The locl feature did not affect Eng</td>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǎ; both buffers returned uni01CE=0+600</td>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">pcm_Latn (Nigerian Pidgin), bin_Latn (Bini), ish_Latn (Esan) and atg_Latn (Ivbie North-Okpela-Arhe)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɛ; both buffers returned uni025B=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǐ; both buffers returned uni01D0=0+600</td>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɨ; both buffers returned uni0268=0+600</td>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǒ; both buffers returned uni01D2=0+600</td>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ɔ; both buffers returned uni0254=0+600</td>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mas_Latn (Masai), buu_Latn (Budu), niy_Latn (Ngiti), mdj_Latn (Mangbetu), teo_Latn (Teso) and kdj_Latn (Karamojong)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ǔ; both buffers returned uni01D4=0+600</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Requires Small-cap: ʉ; both buffers returned uni0289=0+600</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ggn_Latn (Eastern Gurung, Latin)</td>
-<td align="left">No exemplar glyphs were defined for language Eastern Gurung, Latin</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hna_Latn (Mina)</td>
-<td align="left">No exemplar glyphs were defined for language Mina</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">gaa_Latn (Ga)</td>
-<td align="left">No variant glyphs were found for uni01A9</td>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">No variant glyphs were found for uni01B7</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">syi_Latn (Seki)</td>
-<td align="left">No exemplar glyphs were defined for language Seki</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cch_Latn (Atsam)</td>
-<td align="left">No exemplar glyphs were defined for language Atsam</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">kfo_Latn (Koro)</td>
-<td align="left">No exemplar glyphs were defined for language Koro</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tod_Latn (Toma)</td>
-<td align="left">No variant glyphs were found for uni028B</td>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">No variant glyphs were found for uni01B2</td>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bev_Latn (Bété, Daloa), nko_Latn (Nkonya), nwb_Latn (Nyabwa), ted_Latn (Krumen, Tepo), sig_Latn (Paasaal), yre_Latn (Yaouré), god_Latn (Godié), wob_Latn (Wè Northern), kye_Latn (Krache), ade_Latn (Adele), gud_Latn (Dida, Yocoboué), sil_Latn (Sisaala, Tumulung) and lor_Latn (Téén)</td>
 </tr>
-</thead>
-<tbody>
 <tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">dow_Latn (Doyayo), gmm_Latn (Gbaya-Mbodomo), dua_Latn (Duala), kkj_Latn (Kako) and bkc_Latn (Baka, Cameroon/Gabon)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȁ' and shaping the text 'ȁ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǣ' and shaping the text 'ǣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʌ' and shaping the text 'ʌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȅ' and shaping the text 'ȅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȉ' and shaping the text 'ȉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȍ' and shaping the text 'ȍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɤ' and shaping the text 'ɤ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȕ' and shaping the text 'ȕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɯ' and shaping the text 'ɯ' with features: smcp, the output is expected to be different, but was the same</td>
 <td align="left">dnj_Latn (Dan)</td>
-<td align="left">Some auxiliary glyphs were missing: Ɤ, Ɤ̀, Ɤ́, Ɤ̂, Ɤ̄, Ɤ̋, Ɤ̏</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">No variant glyphs were found for uni0181</td>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">mgy_Latn (Mbunga)</td>
-<td align="left">No exemplar glyphs were defined for language Mbunga</td>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">snw_Latn (Selee), dyi_Latn (Sénoufo, Djimini), anv_Latn (Denya) and tpm_Latn (Tampulma)</td>
 </tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƙ' and shaping the text 'ƙ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">hia_Latn (Lamang)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʊ' and shaping the text 'ʊ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">xsm_Latn (Kasem)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kus_Latn (Kusaal)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǜ' and shaping the text 'ǜ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǘ' and shaping the text 'ǘ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǚ' and shaping the text 'ǚ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǖ' and shaping the text 'ǖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bax_Latn (Bamun (Latin))</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɪ' and shaping the text 'ɪ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞷ' and shaping the text 'ꞷ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kzc_Latn (Bondoukou Kulango)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">acd_Latn (Gikyode)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">swb_Latn (Maore Comorian, Latin)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʒ' and shaping the text 'ʒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">dag_Latn (Dagbani)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">tik_Latn (Tikar)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʊ' and shaping the text 'ʊ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">dbd_Latn (Dadiya)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƙ' and shaping the text 'ƙ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ank_Latn (Goemai), pip_Latn (Pero), wja_Latn (Waja), wji_Latn (Warji) and tal_Latn (Tal)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bbo_Latn (Northern Bobo Madaré) and nku_Latn (Kulango, Bouna)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bfd_Latn (Bafut)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">nhu_Latn (Noone)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">snk_Latn (Soninke) and kao_Latn (Xaasongaxango)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">dgi_Latn (Northern Dagara)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȩ' and shaping the text 'ȩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kzr_Latn (Karang)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bze_Latn (Jenaama Bozo), msc_Latn (Maninka, Sankaran), shz_Latn (Syenara Senoufo), spp_Latn (Sénoufo, Supyire) and yal_Latn (Yalunka)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">muy_Latn (Muyang)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mgo_Latn (Metaʼ) and bum_Latn (Bulu)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">aha_Latn (Ahanta)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">goa_Latn (Guro)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">did_Latn (Didinga)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mcp_Latn (Makaa)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">xuo_Latn (Kuo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">sok_Latn (Sokoro)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṍ' and shaping the text 'ṍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">tuz_Latn (Turka)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">les_Latn (Lese), led_Latn (Lendu), nzk_Latn (Nzakara) and lag_Latn (Langi)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">yo_Latn_BJ (Yoruba, Benin)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƒ' and shaping the text 'ƒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ee_Latn (Ewe)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ệ' and shaping the text 'ệ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ộ' and shaping the text 'ộ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mhi_Latn (Ma’di)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">xed_Latn (Hdi), dbq_Latn (Daba), gnd_Latn (Zulgo-Gemzek), mqb_Latn (Mbuko), gde_Latn (Gude), hig_Latn (Kamwe) and bwr_Latn (Bura-Pabir)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">nuv_Latn (Nuni, Northern)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȩ' and shaping the text 'ȩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">pnz_Latn (Pana, Central African Republic)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḛ' and shaping the text 'ḛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṵ' and shaping the text 'ṵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">sba_Latn (Ngambay)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ln_Latn (Lingala)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ksf_Latn (Bafia)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">sbd_Latn (Southern Samo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mfn_Latn (Mbembe, Cross River)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʊ' and shaping the text 'ʊ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">fod_Latn (Foodo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bjv_Latn (Bedjond)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ạ' and shaping the text 'ạ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">izz_Latn (Izii)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bvb_Latn (Bube), eka_Latn (Ekajuk) and kub_Latn (Kutep)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ffm_Latn (Maasina Fulfulde)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʊ' and shaping the text 'ʊ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">dop_Latn (Lukpa)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ktj_Latn (Krumen, Plapo), kyf_Latn (Kouya), any_Latn (Anyin), kvf_Latn (Kabalai) and naw_Latn (Nawuri)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḍ' and shaping the text 'ḍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḥ' and shaping the text 'ḥ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḷ' and shaping the text 'ḷ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṇ' and shaping the text 'ṇ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṛ' and shaping the text 'ṛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṣ' and shaping the text 'ṣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṭ' and shaping the text 'ṭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẓ' and shaping the text 'ẓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">tda_Latn (Tagdal)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȩ' and shaping the text 'ȩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">dur_Latn (Dii)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʕ' and shaping the text 'ʕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">tsb_Latn (Tsamai) and gwd_Latn (Gawwada)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mfi_Latn (Wandala)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">yay_Latn (Agwagwune)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƃ' and shaping the text 'ƃ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">lom_Latn (Loma, Liberia)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƈ' and shaping the text 'ƈ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƥ' and shaping the text 'ƥ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƭ' and shaping the text 'ƭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṕ' and shaping the text 'ṕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">srr_Latn (Serer)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṍ' and shaping the text 'ṍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bcn_Latn (Bali)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ạ' and shaping the text 'ạ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">yaz_Latn (Lokaa)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṍ' and shaping the text 'ṍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">sld_Latn (Sissala)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṛ' and shaping the text 'ṛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mgc_Latn (Morokodo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">meq_Latn (Merey) and pbi_Latn (Parkwa)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƀ' and shaping the text 'ƀ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẑ' and shaping the text 'ẑ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">buc_Latn (Bushi)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʘ' and shaping the text 'ʘ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ngh_Latn (Nǁng) and nmn_Latn (ǃXoon)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḍ' and shaping the text 'ḍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḥ' and shaping the text 'ḥ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṛ' and shaping the text 'ṛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṣ' and shaping the text 'ṣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṭ' and shaping the text 'ṭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">shi_Latn (Tachelhit (Latin)) and tzm_Latn (Central Atlas Tamazight)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ⓐ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ⓐ</td>
+<td align="left">kib_Latn (Koalib)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḏ' and shaping the text 'ḏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɽ' and shaping the text 'ɽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṯ' and shaping the text 'ṯ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɐ' and shaping the text 'ɐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kib_Latn (Koalib)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">dje_Latn (Zarma), twq_Latn (Tasawaq), ses_Latn (Koyraboro Senni) and khq_Latn (Koyra Chiini)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kst_Latn (Winyé)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">eto_Latn (Eton, Cameroon)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʊ' and shaping the text 'ʊ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">abi_Latn (Abidji)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ndv_Latn (Ndut)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">cla_Latn (Ron), fuv_Latn (Nigerian Fulfulde), asg_Latn (Cishingini), giz_Latn (Southern Giziga), ttr_Latn (Tera), mne_Latn (Naba) and bys_Latn (Burak)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʊ' and shaping the text 'ʊ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">pil_Latn (Yom)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḛ' and shaping the text 'ḛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṵ' and shaping the text 'ṵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȳ' and shaping the text 'ȳ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mwm_Latn (Sar)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʌ' and shaping the text 'ʌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɤ' and shaping the text 'ɤ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
 <td align="left">gov_Latn (Goo)</td>
-<td align="left">Some auxiliary glyphs were missing: Ɤ, Ɤ̀, Ɤ́, Ɤ̂</td>
 </tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_African glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">amo_Latn (Amo)</td>
-<td align="left">No exemplar glyphs were defined for language Amo</td>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">din_Latn (Dinka), bza_Latn (Bandi) and dip_Latn (Dinka, Northeastern)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">cky_Latn (Cakfem-Mushere) and sur_Latn (Mwaghavul)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɦ' and shaping the text 'ɦ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">pym_Latn (Pyam)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʊ' and shaping the text 'ʊ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">lgg_Latn (Lugbara)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">gby_Latn (Gbari)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḛ' and shaping the text 'ḛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṵ' and shaping the text 'ṵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȳ' and shaping the text 'ȳ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mge_Latn (Mango)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">box_Latn (Buamu) and bwj_Latn (Láá Láá Bwamu)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṍ' and shaping the text 'ṍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">gkn_Latn (Gokana)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">she_Latn (Sheko), beh_Latn (Biali) and lns_Latn (Lamnso’)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʒ' and shaping the text 'ʒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʃ' and shaping the text 'ʃ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṳ' and shaping the text 'ṳ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">fan_Latn (Fang)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ⱳ' and shaping the text 'ⱳ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṍ' and shaping the text 'ṍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">pug_Latn (Phuie)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">guw_Latn (Gun) and ayb_Latn (Ayizo Gbe)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḛ' and shaping the text 'ḛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṵ' and shaping the text 'ṵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kia_Latn (Kim)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʒ' and shaping the text 'ʒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ajg_Latn (Aja)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">jab_Latn (Hyam) and btt_Latn (Bete-Bendi)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṛ' and shaping the text 'ṛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ndz_Latn (Ndogo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḅ' and shaping the text 'ḅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḍ' and shaping the text 'ḍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">okr_Latn (Kirike) and ijs_Latn (Ijo, Southeast)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bbj_Latn (Ghomala)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">muh_Latn (Mündü), cdr_Latn (Kamuku) and png_Latn (Pangu)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḍ' and shaping the text 'ḍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǧ' and shaping the text 'ǧ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǰ' and shaping the text 'ǰ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḷ' and shaping the text 'ḷ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṣ' and shaping the text 'ṣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṭ' and shaping the text 'ṭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƭ' and shaping the text 'ƭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẓ' and shaping the text 'ẓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḅ' and shaping the text 'ḅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʃ' and shaping the text 'ʃ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʒ' and shaping the text 'ʒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">tmh_Latn (Tamashek)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƒ' and shaping the text 'ƒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">avn_Latn (Avatime)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḏ' and shaping the text 'ḏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꟈ' and shaping the text 'ꟈ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɽ' and shaping the text 'ɽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṯ' and shaping the text 'ṯ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mor_Latn (Moro)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bkv_Latn (Bekwarra)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḍ' and shaping the text 'ḍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǧ' and shaping the text 'ǧ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḥ' and shaping the text 'ḥ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṛ' and shaping the text 'ṛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṣ' and shaping the text 'ṣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṭ' and shaping the text 'ṭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẓ' and shaping the text 'ẓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḏ' and shaping the text 'ḏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƹ' and shaping the text 'ƹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȓ' and shaping the text 'ȓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">rif_Latn (Riffian (Latin))</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḯ' and shaping the text 'ḯ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǘ' and shaping the text 'ǘ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bvi_Latn (Belanda Viri, Latin)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṇ' and shaping the text 'ṇ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṛ' and shaping the text 'ṛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṿ' and shaping the text 'ṿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bdh_Latn (Baka, DRC/South Sudan)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bsq_Latn (Bassa (Latin))</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bzw_Latn (Basa)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɠ' and shaping the text 'ɠ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǫ' and shaping the text 'ǫ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">gkp_Latn (Kpelle, Guinea)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">dzg_Latn (Dazaga)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʌ' and shaping the text 'ʌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ibb_Latn (Ibibio)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ⱳ' and shaping the text 'ⱳ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">lob_Latn (Lobi)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɍ' and shaping the text 'ɍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kr_Latn (Kanuri), knc_Latn (Kanuri, Central) and kby_Latn (Kanuri, Manga)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">dya_Latn (Dyan)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḅ' and shaping the text 'ḅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḳ' and shaping the text 'ḳ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">jbu_Latn (Jukun Takum)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bfo_Latn (Malba Birifor)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ife_Latn (Ifè)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṍ' and shaping the text 'ṍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">awc_Latn (Cicipu)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞵ' and shaping the text 'ꞵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɍ' and shaping the text 'ɍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʃ' and shaping the text 'ʃ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mdt_Latn (Mbere)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɦ' and shaping the text 'ɦ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">dno_Latn (Ndrulo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kbo_Latn (Keliko)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ahl_Latn (Igo), fon_Latn (Fon) and tfi_Latn (Gbe, Tofin)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȩ' and shaping the text 'ȩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">neb_Latn (Toura)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">cae_Latn (Lehar)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">wib_Latn (Toussian, Southern)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">etu_Latn (Ejagham)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">gqr_Latn (Gor)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞵ' and shaping the text 'ꞵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">buw_Latn (gevové)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">nnw_Latn (Southern Nuni)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḥ' and shaping the text 'ḥ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƙ' and shaping the text 'ƙ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṇ' and shaping the text 'ṇ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẓ' and shaping the text 'ẓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">anc_Latn (Ngas)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">gej_Latn (Gen)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƙ' and shaping the text 'ƙ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kai_Latn (Karekare)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bcw_Latn (Bana)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">agq_Latn (Aghem) and ken_Latn (Kenyang)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bsp_Latn (Baga Sitemu) and ksp_Latn (Kabba)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kbp_Latn (Kabiyé)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʊ' and shaping the text 'ʊ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">keu_Latn (Akebu)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">loq_Latn (Lobala) and mbo_Latn (Mbo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bud_Latn (Ntcham)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">lol_Latn (Mongo) and krw_Latn (Western Krahn)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƒ' and shaping the text 'ƒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṍ' and shaping the text 'ṍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʊ' and shaping the text 'ʊ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">tcd_Latn (Tafi)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ộ' and shaping the text 'ộ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ann_Latn (Obolo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȩ' and shaping the text 'ȩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mnf_Latn (Mundani)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƒ' and shaping the text 'ƒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">wci_Latn (Gbe, Waci)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kmy_Latn (Koma)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḍ' and shaping the text 'ḍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǧ' and shaping the text 'ǧ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǰ' and shaping the text 'ǰ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḷ' and shaping the text 'ḷ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṣ' and shaping the text 'ṣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṭ' and shaping the text 'ṭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẓ' and shaping the text 'ẓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƭ' and shaping the text 'ƭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḅ' and shaping the text 'ḅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḥ' and shaping the text 'ḥ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḳ' and shaping the text 'ḳ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṃ' and shaping the text 'ṃ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṇ' and shaping the text 'ṇ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṛ' and shaping the text 'ṛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẉ' and shaping the text 'ẉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ttq_Latn (Tawallammat Tamajaq)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">enn_Latn (Engenni)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṍ' and shaping the text 'ṍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">gna_Latn (Kaansa)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">jib_Latn (Jibu) and nup_Latn (Nupe-Nupe-Tako)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">yav_Latn (Yangben)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʊ' and shaping the text 'ʊ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">blo_Latn (Anii)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɑ' and shaping the text 'ɑ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">byv_Latn (Medumba)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƙ' and shaping the text 'ƙ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ckl_Latn (Kibaku)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bjt_Latn (Balanta-Ganja) and dgh_Latn (Dghwede)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṽ' and shaping the text 'ṽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mua_Latn (Mundang)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḓ' and shaping the text 'ḓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṋ' and shaping the text 'ṋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṱ' and shaping the text 'ṱ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">hz_Latn (Herero)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">las_Latn (Lama, Togo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ạ' and shaping the text 'ạ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ậ' and shaping the text 'ậ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">avu_Latn (Avokaya)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṅ' and shaping the text 'ṅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ệ' and shaping the text 'ệ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ộ' and shaping the text 'ộ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ikw_Latn (Ikwere)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">nnh_Latn (Ngiemboon)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mos_Latn (Mossi)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȩ' and shaping the text 'ȩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">vut_Latn (Vute)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ozm_Latn (Koonzime)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mda_Latn (Mada)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṣ' and shaping the text 'ṣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṭ' and shaping the text 'ṭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḅ' and shaping the text 'ḅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḍ' and shaping the text 'ḍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḕ' and shaping the text 'ḕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḷ' and shaping the text 'ḷ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṃ' and shaping the text 'ṃ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṛ' and shaping the text 'ṛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẓ' and shaping the text 'ẓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">aeb_Latn (Tunisian Darija)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bkm_Latn (Kom)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">sxw_Latn (Saxwe Gbe) and xwe_Latn (Gbe, Xwela)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">jen_Latn (Dza)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bmq_Latn (Bomu)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">knp_Latn (Kwanja)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṵ' and shaping the text 'ṵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mql_Latn (Mbelime)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">cou_Latn (Wamey)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">gaa_Latn (Ga)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṵ' and shaping the text 'ṵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mev_Latn (Mano)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ewo_Latn (Ewondo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">wwa_Latn (Waama)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṫ' and shaping the text 'ṫ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṡ' and shaping the text 'ṡ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḋ' and shaping the text 'ḋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȧ' and shaping the text 'ȧ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḣ' and shaping the text 'ḣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">har_Latn (Harari)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḅ' and shaping the text 'ḅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">iby_Latn (Ibani)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƙ' and shaping the text 'ƙ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṇ' and shaping the text 'ṇ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḅ' and shaping the text 'ḅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḍ' and shaping the text 'ḍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḳ' and shaping the text 'ḳ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">tan_Latn (Tangale)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḵ' and shaping the text 'ḵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṯ' and shaping the text 'ṯ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẖ' and shaping the text 'ẖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">udu_Latn (Uduk)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">azo_Latn (Awing)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ᵽ' and shaping the text 'ᵽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bqj_Latn (Bandial)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɑ' and shaping the text 'ɑ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">fmp_Latn (Fe’fe’)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʊ' and shaping the text 'ʊ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">xsm_Latn_BF (Kasem, Burkina Faso)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƙ' and shaping the text 'ƙ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mbu_Latn (Mbula-Bwazza)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɉ' and shaping the text 'ɉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʃ' and shaping the text 'ʃ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bsc_Latn_GN (Guinean Bassari)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">yer_Latn (Tarok)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʊ' and shaping the text 'ʊ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">biv_Latn (Birifor, Southern)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḅ' and shaping the text 'ḅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḍ' and shaping the text 'ḍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">pkb_Latn (Pokomo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḓ' and shaping the text 'ḓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḽ' and shaping the text 'ḽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṋ' and shaping the text 'ṋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṅ' and shaping the text 'ṅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṱ' and shaping the text 'ṱ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ve_Latn (Venda)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">iqw_Latn (Ikwo), eza_Latn (Ezaa) and ige_Latn (Igede)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">xon_Latn (Konkomba), bim_Latn (Bimoba) and mcu_Latn (Mambila, Cameroon)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">tbz_Latn (Ditammari)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɠ' and shaping the text 'ɠ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">fuf_Latn (Pular)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">nga_Latn (Ngbaka)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">yat_Latn (Yambeta)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɵ' and shaping the text 'ɵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɥ' and shaping the text 'ɥ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƃ' and shaping the text 'ƃ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">dnj_Latn_LR (Liberian Dan)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṍ' and shaping the text 'ṍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">lee_Latn (Lyélé)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṉ' and shaping the text 'ṉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">lnu_Latn (Longuda)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">idu_Latn (Idoma)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">lip_Latn (Sekpele)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bqp_Latn (Bisã)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṅ' and shaping the text 'ṅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ikk_Latn (Ika)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">vai_Latn (Vai (Latin))</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">lmp_Latn (Limbum)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƙ' and shaping the text 'ƙ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">nin_Latn (Ninzo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">log_Latn (Logo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɠ' and shaping the text 'ɠ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">tod_Latn (Toma)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bqc_Latn (Boko)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƴ' and shaping the text 'ƴ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ỹ' and shaping the text 'ỹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bsc_Latn (Bassari)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞵ' and shaping the text 'ꞵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">puu_Latn (Punu)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṵ' and shaping the text 'ṵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ntm_Latn (Nateni)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bss_Latn (Akoose)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʊ' and shaping the text 'ʊ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kpo_Latn (Ikposo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɦ' and shaping the text 'ɦ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḇ' and shaping the text 'ḇ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḏ' and shaping the text 'ḏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mcn_Latn (Masana)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ỹ' and shaping the text 'ỹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">wok_Latn (Longto)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḍ' and shaping the text 'ḍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǧ' and shaping the text 'ǧ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǰ' and shaping the text 'ǰ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḷ' and shaping the text 'ḷ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṣ' and shaping the text 'ṣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṭ' and shaping the text 'ṭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẓ' and shaping the text 'ẓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḅ' and shaping the text 'ḅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʃ' and shaping the text 'ʃ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʒ' and shaping the text 'ʒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">taq_Latn (Tamasheq (Latin))</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">akp_Latn (Siwu)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">nfu_Latn (Mfumte)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḍ' and shaping the text 'ḍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḥ' and shaping the text 'ḥ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṣ' and shaping the text 'ṣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṭ' and shaping the text 'ṭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẋ' and shaping the text 'ẋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẓ' and shaping the text 'ẓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mey_Latn (Hassaniyya)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">lnl_Latn (South Central Banda)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kss_Latn (Southern Kisi)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ebo_Latn (Teke-Ebo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʝ' and shaping the text 'ʝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƙ' and shaping the text 'ƙ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ikx_Latn (Ik)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bas_Latn (Basaa)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bom_Latn (Berom)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṍ' and shaping the text 'ṍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">soy_Latn (Miyobe)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">maf_Latn (Mafa)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɖ' and shaping the text 'ɖ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ƒ' and shaping the text 'ƒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">nyb_Latn (Nyangbo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kpe_Latn (Kpelle)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kqp_Latn (Kimré)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḷ' and shaping the text 'ḷ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">krs_Latn (Gbaya, Sudan)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bav_Latn (Vengo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">gur_Latn (Frafra)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ạ' and shaping the text 'ạ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḅ' and shaping the text 'ḅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḍ' and shaping the text 'ḍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">abn_Latn (Abua)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">gvl_Latn (Gulay)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bcy_Latn (Bacama)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">tuq_Latn (Tedaga)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṹ' and shaping the text 'ṹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mzm_Latn (Mumuye)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɦ' and shaping the text 'ɦ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">nmz_Latn (Nawdm)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bex_Latn (Jur Modo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṛ' and shaping the text 'ṛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mgd_Latn (Moru)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḛ' and shaping the text 'ḛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">grb_Latn (Grebo)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">efi_Latn (Efik)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḍ' and shaping the text 'ḍ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǧ' and shaping the text 'ǧ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɣ' and shaping the text 'ɣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḥ' and shaping the text 'ḥ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṛ' and shaping the text 'ṛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṣ' and shaping the text 'ṣ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ṭ' and shaping the text 'ṭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẓ' and shaping the text 'ẓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">kab_Latn (Kabyle)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɓ' and shaping the text 'ɓ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɗ' and shaping the text 'ɗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǝ' and shaping the text 'ǝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">jgk_Latn (Gwak)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɨ' and shaping the text 'ɨ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǒ' and shaping the text 'ǒ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">fvr_Latn (Fur)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɩ' and shaping the text 'ɩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɲ' and shaping the text 'ɲ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʋ' and shaping the text 'ʋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʊ' and shaping the text 'ʊ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">bib_Latn (Bissa)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʌ' and shaping the text 'ʌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ə' and shaping the text 'ə' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȧ' and shaping the text 'ȧ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">tem_Latn (Timne)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɛ' and shaping the text 'ɛ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǐ' and shaping the text 'ǐ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ḿ' and shaping the text 'ḿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǹ' and shaping the text 'ǹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ɔ' and shaping the text 'ɔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ʉ' and shaping the text 'ʉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ꞌ' and shaping the text 'ꞌ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">jgo_Latn (Ngomba)</td>
 </tr>
 </tbody>
 </table>
@@ -15116,7 +7294,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check for presence of an ARTICLE.en_us.html file <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.description.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check for presence of an ARTICLE.en_us.html file <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-description-has-article">googlefonts/description/has_article</a></summary>
     <div>
 
 
@@ -15139,7 +7317,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -15167,31 +7345,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 3891 instead.
-Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
- [code: bad-numberOfHMetrics]
-
-
-
-* ⚠️ **WARN** <p>Font is monospaced but 252 glyphs (6.43%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'Iotifiedacy', 'Yusiotifiedclosedlittlecy', 'Emsoftcy', 'Odoublemonocularcy', 'uniA684', 'Odoublecy', 'uni052A', 'uniA657', 'yusiotifiedclosedlittlecy', 'emsoftcy', 'odoublemonocularcy', 'odoublecy', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uniFF5B', 'uniFF5D', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00']</p>
- [code: mono-outliers]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check mark characters are in GDEF mark glyph class. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check mark characters are in GDEF mark glyph class. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-gdef-mark-chars">opentype/gdef_mark_chars</a></summary>
     <div>
 
 
@@ -15210,7 +7364,7 @@ ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni031A (U+
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-monospace">opentype/monospace</a></summary>
     <div>
 
 
@@ -15219,8 +7373,14 @@ ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni031A (U+
 
 
 
-* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
- [code: lacks-kern-info]
+* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 3891 instead.
+Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
+ [code: bad-numberOfHMetrics]
+
+
+
+* ⚠️ **WARN** <p>Font is monospaced but 252 glyphs (6.43%) have a different width. You should check the widths of: ['oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'uniFFFC', 'uniFFFD', 'uni0468', 'uni046C', 'uni046D', 'uni0478', 'uni0479', 'uni01A2', 'uni01C4', 'uni01C5', 'uni01C6', 'uni01C7', 'uni01C8', 'uni01C9', 'uni01CA', 'uni01CB', 'uni01CC', 'uni01F1', 'uni01F2', 'uni01F3', 'uni02A5', 'uni02A8', 'uni1D7A', 'uni1F0A', 'uni1F0B', 'uni1F0C', 'uni1F0D', 'uni1F0E', 'uni1F0F', 'uni1F1A', 'uni1F1B', 'uni1F1C', 'uni1F1D', 'uni1F2A', 'uni1F2B', 'uni1F2C', 'uni1F2D', 'uni1F2E', 'uni1F2F', 'uni1F4A', 'uni1F4B', 'uni1F4C', 'uni1F4D', 'uni1F5B', 'uni1F5D', 'uni1F5F', 'uni1F6A', 'uni1F6B', 'uni1F6C', 'uni1F6D', 'uni1F6E', 'uni1F6F', 'uni1F88', 'uni1F89', 'uni1F8A', 'uni1F8B', 'uni1F8C', 'uni1F8D', 'uni1F8E', 'uni1F8F', 'uni1F98', 'uni1F99', 'uni1F9A', 'uni1F9B', 'uni1F9C', 'uni1F9D', 'uni1F9E', 'uni1F9F', 'uni1FA8', 'uni1FA9', 'uni1FAA', 'uni1FAB', 'uni1FAC', 'uni1FAD', 'uni1FAE', 'uni1FAF', 'uni1FBC', 'uni1FCC', 'uni1FFC', 'uni20A8', 'uni2153', 'uni2154', 'uni0518', 'uni0520', 'uni0521', 'uni0522', 'uni0523', 'uniA728', 'uniA732', 'uniA734', 'uniA736', 'uniA738', 'uniA73A', 'uniA73C', 'uniA74E', 'uniA729', 'uniA74F', 'uniA773', 'uniA7FF', 'uniA656', 'uniA65C', 'uniA666', 'uniA66C', 'uniA684', 'uniA698', 'uni052A', 'uniA657', 'uniA65D', 'uniA667', 'uniA66D', 'uniA699', 'uni052B', 'uni211C', 'uni212C', 'uni210B', 'uni2110', 'uni2112', 'uni211B', 'uni2131', 'uni2133', 'uni2474', 'uni2475', 'uni2189', 'uni2155', 'uni2156', 'uni2157', 'uni2158', 'uni2159', 'uni215A', 'uni2150', 'uni2151', 'uni2152', 'uni2042', 'uni2E0E', 'uni2047', 'uni203B', 'uni2053', 'uniFF5B', 'uniFF5D', 'uni2E3B', 'uni2E3A', 'uni2057', 'uni20B7', 'uni23DF', 'uni23DD', 'uni23E1', 'uni27D7', 'uni27D5', 'uni2A00', 'emptyset', 'uni2031', 'uni27D6', 'uni23DE', 'uni23DC', 'uni23E0', 'uni229B', 'uni229C', 'uni2298', 'uni2296', 'circlemultiply', 'uni2299', 'circleplus', 'uni29B8', 'uni229A', 'uni219C', 'uni219D', 'uni219E', 'uni21A0', 'uni21A2', 'uni21A3', 'uni21A4', 'uni21A6', 'arrowdblright', 'arrowdblleft', 'arrowdblboth', 'uni21DA', 'uni21DB', 'uni21E8', 'uni21E6', 'uni27F5', 'uni27F6', 'uni25EF', 'uni25CD', 'uni25C6', 'uni25C7', 'uni25C8', 'uni25B0', 'uni25B1', 'uni25AD', 'uni25A2', 'uni25A3', 'uni25A4', 'uni25A5', 'uni25A6', 'uni25A7', 'uni25A8', 'uni25A9', 'uni25E7', 'uni25E8', 'uni25E9', 'uni25EA', 'uni25EB', 'uni25F0', 'uni25F1', 'uni25F2', 'uni25F3', 'uni25B6', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25EC', 'uni25ED', 'uni25EE', 'uni25BB', 'uni25C5', 'uni25E5', 'uni25E2', 'uni25E3', 'uni25E4', 'uni2349', 'uni2365', 'uni233E', 'uni235F', 'uni233D', 'uni235C', 'uni236B', 'uni235A', 'uni2371', 'uni2366', 'uni2367', 'uni236D', 'uni2372', 'uni235D', 'uni236C', 'uni2736', 'uni213A', 'uni2103', 'u1F67C', 'u1F67D', 'u1F67E', 'u1F67F', 'uni2109', 'uni2114', 'uni214F', 'weierstrass', 'uni1DF00']</p>
+ [code: mono-outliers]
 
 
 
@@ -15228,7 +7388,7 @@ ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni031A (U+
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#alt-caron">alt_caron</a></summary>
     <div>
 
 
@@ -15263,7 +7423,69 @@ ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni031A (U+
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure files are not too large. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#file-size">file_size</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Font file is 1.3Mb; ideally it should be less than 1.0Mb</p>
+ [code: large-font]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#gpos-kerning-info">gpos_kerning_info</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
+<pre><code>* uniA73C (U+A73C): L&lt;&lt;798.0,0.0&gt;--&lt;701.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2E3B (U+2E3B): L&lt;&lt;1200.0,310.0&gt;--&lt;1200.0,230.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2E3B (U+2E3B): L&lt;&lt;600.0,310.0&gt;--&lt;600.0,230.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2E3A (U+2E3A): L&lt;&lt;600.0,310.0&gt;--&lt;600.0,230.0&gt;&gt; has the same coordinates as a previous segment.
+</code></pre>
+ [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
 
@@ -15281,7 +7503,7 @@ ginsularcomb (U+1ACC), rinsularcomb (U+1ACD), tinsularcomb (U+1ACE), uni031A (U+
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
     <div>
 
 
@@ -15297,23 +7519,23 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+02CD MODIFIER LETTER LOW MACRON: try adding lisu</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, elbasan, glagolitic, math, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, syriac, hebrew, duployan, canadian-aboriginal, math, old-permic, coptic, tai-le, todhri</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, glagolitic, gothic, math, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, tai-le, malayalam, syriac, todhri, duployan, tifinagh, canadian-aboriginal, hebrew, math, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: try adding ethiopic</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+0316 COMBINING GRAVE ACCENT BELOW: not included in any glyphset definition</li>
@@ -15329,7 +7551,7 @@ definitions.</p>
 <li>U+0320 COMBINING MINUS SIGN BELOW: try adding syriac</li>
 <li>U+0321 COMBINING PALATALIZED HOOK BELOW: not included in any glyphset definition</li>
 <li>U+0322 COMBINING RETROFLEX HOOK BELOW: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, duployan, syriac</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -15337,11 +7559,11 @@ definitions.</p>
 <li>U+032A COMBINING BRIDGE BELOW: not included in any glyphset definition</li>
 <li>U+032B COMBINING INVERTED DOUBLE ARCH BELOW: not included in any glyphset definition</li>
 <li>U+032C COMBINING CARON BELOW: try adding math</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, cherokee, caucasian-albanian, tifinagh, syriac, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, caucasian-albanian, syriac, thai, sunuwar, tifinagh, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0333 COMBINING DOUBLE LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
@@ -15386,7 +7608,7 @@ definitions.</p>
 <li>U+035B COMBINING ZIGZAG ABOVE: not included in any glyphset definition</li>
 <li>U+035C COMBINING DOUBLE BREVE BELOW: not included in any glyphset definition</li>
 <li>U+035D COMBINING DOUBLE BREVE: not included in any glyphset definition</li>
-<li>U+035E COMBINING DOUBLE MACRON: try adding one of: coptic, todhri, caucasian-albanian</li>
+<li>U+035E COMBINING DOUBLE MACRON: try adding one of: todhri, coptic, caucasian-albanian</li>
 <li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0360 COMBINING DOUBLE TILDE: not included in any glyphset definition</li>
 <li>U+0361 COMBINING DOUBLE INVERTED BREVE: try adding coptic</li>
@@ -15495,12 +7717,12 @@ definitions.</p>
 <li>U+1DFE COMBINING LEFT ARROWHEAD ABOVE: not included in any glyphset definition</li>
 <li>U+1DFF COMBINING RIGHT ARROWHEAD AND DOWN ARROWHEAD BELOW: not included in any glyphset definition</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: thai, tai-viet, tifinagh, khojki, arabic, malayalam, syriac, saurashtra, sinhala, mahajani, chakma, mongolian, psalter-pahlavi, dogra, khmer, newa, hanifi-rohingya, tai-tham, mandaic, takri, nko, kaithi, bhaiksuki, rejang, kannada, khudawadi, modi, lao, syloti-nagri, tamil, grantha, gunjala-gondi, lepcha, oriya, warang-citi, manichaean, sundanese, batak, tirhuta, balinese, hatran, kayah-li, devanagari, tagalog, hebrew, sharada, tai-le, limbu, hanunoo, thaana, meetei-mayek, zanabazar-square, sogdian, bengali, tagbanwa, buginese, yi, kharoshthi, siddham, myanmar, phags-pa, avestan, new-tai-lue, cham, tibetan, masaram-gondi, telugu, pahawh-hmong, duployan, gurmukhi, brahmi, javanese, gujarati, buhid</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: thai, tai-viet, tifinagh, khojki, arabic, malayalam, syriac, saurashtra, sinhala, mahajani, chakma, mongolian, psalter-pahlavi, dogra, khmer, newa, hanifi-rohingya, tai-tham, mandaic, takri, nko, kaithi, old-hungarian, bhaiksuki, rejang, kannada, khudawadi, modi, lao, syloti-nagri, tamil, grantha, gunjala-gondi, lepcha, oriya, warang-citi, manichaean, sundanese, batak, tirhuta, balinese, kayah-li, devanagari, tagalog, hebrew, sharada, tai-le, limbu, hanunoo, thaana, meetei-mayek, zanabazar-square, sogdian, bengali, tagbanwa, buginese, yi, kharoshthi, siddham, myanmar, phags-pa, avestan, new-tai-lue, cham, tibetan, masaram-gondi, telugu, pahawh-hmong, duployan, gurmukhi, brahmi, javanese, gujarati, buhid</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, arabic, syriac, nko, thaana, hebrew</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, syriac, nko, thaana, hebrew</li>
-<li>U+2010 HYPHEN: try adding one of: sora-sompeng, yi, armenian, kharoshthi, sundanese, arabic, cham, kayah-li, kaithi, hebrew, coptic, syloti-nagri, lisu</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, syloti-nagri, yi</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: masaram-gondi, gurmukhi, malayalam, siddham, modi, oriya, avestan, khmer, tifinagh, arabic, telugu, warang-citi, bengali, tirhuta, khudawadi, grantha, balinese, kayah-li, devanagari, limbu, bhaiksuki, thai, buhid, lepcha, meetei-mayek, new-tai-lue, thaana, newa, gujarati, hatran, kharoshthi, dogra, javanese, saurashtra, sinhala, sogdian, brahmi, batak, mongolian, sundanese, tagbanwa, tai-le, takri, mandaic, phags-pa, psalter-pahlavi, cham, myanmar, buginese, yi, hebrew, manichaean, hanunoo, pahawh-hmong, khojki, tai-viet, kannada, nko, kaithi, chakma, lao, tai-tham, mahajani, tagalog, gunjala-gondi, syriac, rejang, tamil, tibetan, sharada, duployan, syloti-nagri, zanabazar-square, hanifi-rohingya</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: masaram-gondi, gurmukhi, malayalam, old-hungarian, siddham, modi, oriya, avestan, khmer, tifinagh, arabic, telugu, warang-citi, bengali, tirhuta, khudawadi, grantha, balinese, kayah-li, devanagari, limbu, bhaiksuki, thai, buhid, lepcha, meetei-mayek, new-tai-lue, thaana, newa, gujarati, kharoshthi, dogra, javanese, saurashtra, sinhala, sogdian, brahmi, batak, mongolian, sundanese, tagbanwa, tai-le, takri, mandaic, phags-pa, psalter-pahlavi, cham, myanmar, buginese, yi, hebrew, manichaean, hanunoo, pahawh-hmong, khojki, tai-viet, kannada, nko, kaithi, chakma, lao, tai-tham, mahajani, tagalog, gunjala-gondi, syriac, rejang, tamil, tibetan, sharada, duployan, syloti-nagri, zanabazar-square, hanifi-rohingya</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, phags-pa, thaana, arabic, hebrew, nko</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, phags-pa, thaana, hebrew, nko</li>
+<li>U+2010 HYPHEN: try adding one of: kaithi, sundanese, armenian, cham, syloti-nagri, arabic, hebrew, yi, kharoshthi, lisu, sora-sompeng, coptic, kayah-li</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, arabic, yi</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -15519,7 +7741,7 @@ definitions.</p>
 <li>U+202C POP DIRECTIONAL FORMATTING: not included in any glyphset definition</li>
 <li>U+202D LEFT-TO-RIGHT OVERRIDE: not included in any glyphset definition</li>
 <li>U+202E RIGHT-TO-LEFT OVERRIDE: try adding tifinagh</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, yi, mongolian</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2031 PER TEN THOUSAND SIGN: not included in any glyphset definition</li>
 <li>U+2034 TRIPLE PRIME: try adding math</li>
@@ -15557,10 +7779,10 @@ definitions.</p>
 <li>U+2057 QUADRUPLE PRIME: try adding math</li>
 <li>U+2058 FOUR DOT PUNCTUATION: try adding coptic</li>
 <li>U+2059 FIVE DOT PUNCTUATION: try adding coptic</li>
-<li>U+205A TWO DOT PUNCTUATION: try adding one of: glagolitic, old-turkic, carian, georgian, old-hungarian, lycian</li>
+<li>U+205A TWO DOT PUNCTUATION: try adding one of: georgian, old-hungarian, glagolitic, lycian, old-turkic, carian</li>
 <li>U+205B FOUR DOT MARK: not included in any glyphset definition</li>
 <li>U+205C DOTTED CROSS: not included in any glyphset definition</li>
-<li>U+205D TRICOLON: try adding one of: meroitic, carian, meroitic-hieroglyphs, old-hungarian</li>
+<li>U+205D TRICOLON: try adding one of: meroitic-hieroglyphs, carian, old-hungarian, meroitic</li>
 <li>U+205E VERTICAL FOUR DOTS: try adding old-hungarian</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2060 WORD JOINER: not included in any glyphset definition</li>
@@ -15620,7 +7842,7 @@ definitions.</p>
 <li>U+209A LATIN SUBSCRIPT SMALL LETTER P: try adding math</li>
 <li>U+209B LATIN SUBSCRIPT SMALL LETTER S: try adding math</li>
 <li>U+209C LATIN SUBSCRIPT SMALL LETTER T: try adding math</li>
-<li>U+20F0 COMBINING ASTERISK ABOVE: try adding one of: devanagari, grantha</li>
+<li>U+20F0 COMBINING ASTERISK ABOVE: try adding one of: grantha, devanagari</li>
 <li>U+2100 ACCOUNT OF: try adding math</li>
 <li>U+2101 ADDRESSED TO THE SUBJECT: try adding math</li>
 <li>U+2102 DOUBLE-STRUCK CAPITAL C: try adding math</li>
@@ -15755,7 +7977,7 @@ definitions.</p>
 <li>U+220E END OF PROOF: try adding math</li>
 <li>U+2210 N-ARY COPRODUCT: try adding math</li>
 <li>U+2218 RING OPERATOR: try adding one of: symbols, math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, symbols, yi, math</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: yi, symbols, tai-tham, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+2220 ANGLE: try adding math</li>
@@ -15999,7 +8221,7 @@ definitions.</p>
 <li>U+25C9 FISHEYE: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: saurashtra, mongolian, psalter-pahlavi, mandaic, old-permic, math, syloti-nagri, manichaean, balinese, music, limbu, buginese, mende-kikakui, masaram-gondi, soyombo, buhid, sinhala, mahajani, chakma, newa, hanifi-rohingya, takri, tamil, kannada, oriya, miao, tagalog, sogdian, tagbanwa, marchen, caucasian-albanian, myanmar, cham, telugu, brahmi, coptic, tai-viet, tifinagh, malayalam, syriac, khmer, tai-tham, bassa-vah, khudawadi, warang-citi, adlam, lao, gunjala-gondi, sundanese, tirhuta, kayah-li, devanagari, canadian-aboriginal, sharada, bengali, kharoshthi, siddham, new-tai-lue, ahom, duployan, gurmukhi, thai, khojki, dogra, nko, osage, kaithi, bhaiksuki, rejang, symbols, modi, grantha, lepcha, armenian, batak, thaana, hebrew, tai-le, hanunoo, meetei-mayek, zanabazar-square, elbasan, yi, phags-pa, wancho, tibetan, pahawh-hmong, javanese, gujarati</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: osage, balinese, buhid, lepcha, meetei-mayek, newa, gujarati, saurashtra, armenian, cham, ahom, hebrew, nko, tai-tham, syriac, tibetan, sharada, syloti-nagri, zanabazar-square, hanifi-rohingya, math, marchen, gurmukhi, siddham, modi, oriya, tifinagh, bengali, grantha, limbu, bhaiksuki, kharoshthi, dogra, brahmi, elbasan, tai-le, yi, wancho, pahawh-hmong, kannada, lao, old-permic, mahajani, caucasian-albanian, bassa-vah, tai-viet, coptic, masaram-gondi, warang-citi, devanagari, new-tai-lue, thaana, mende-kikakui, sinhala, mongolian, tagbanwa, phags-pa, myanmar, buginese, hanunoo, tamil, tagalog, gunjala-gondi, soyombo, rejang, duployan, malayalam, khmer, telugu, tirhuta, khudawadi, kayah-li, music, adlam, thai, canadian-aboriginal, javanese, sogdian, batak, sundanese, takri, mandaic, psalter-pahlavi, manichaean, khojki, symbols, miao, kaithi, chakma</li>
 <li>U+25CD CIRCLE WITH VERTICAL FILL: try adding symbols</li>
 <li>U+25CE BULLSEYE: try adding symbols</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
@@ -16051,9 +8273,9 @@ definitions.</p>
 <li>U+25FD WHITE MEDIUM SMALL SQUARE: try adding symbols</li>
 <li>U+25FE BLACK MEDIUM SMALL SQUARE: try adding symbols</li>
 <li>U+25FF LOWER RIGHT TRIANGLE: try adding symbols</li>
-<li>U+266D MUSIC FLAT SIGN: try adding one of: symbols, music, math</li>
-<li>U+266E MUSIC NATURAL SIGN: try adding one of: symbols, music, math</li>
-<li>U+266F MUSIC SHARP SIGN: try adding one of: symbols, music, math</li>
+<li>U+266D MUSIC FLAT SIGN: try adding one of: music, symbols, math</li>
+<li>U+266E MUSIC NATURAL SIGN: try adding one of: music, symbols, math</li>
+<li>U+266F MUSIC SHARP SIGN: try adding one of: music, symbols, math</li>
 <li>U+2736 SIX POINTED BLACK STAR: try adding symbols</li>
 <li>U+2758 LIGHT VERTICAL BAR: try adding symbols</li>
 <li>U+2759 MEDIUM VERTICAL BAR: try adding symbols</li>
@@ -16126,7 +8348,7 @@ definitions.</p>
 <li>U+2E2E REVERSED QUESTION MARK: not included in any glyphset definition</li>
 <li>U+2E2F VERTICAL TILDE: not included in any glyphset definition</li>
 <li>U+2E30 RING POINT: try adding one of: old-turkic, avestan</li>
-<li>U+2E31 WORD SEPARATOR MIDDLE DOT: try adding one of: samaritan, avestan, kaithi, carian, lydian, georgian, old-hungarian</li>
+<li>U+2E31 WORD SEPARATOR MIDDLE DOT: try adding one of: kaithi, georgian, old-hungarian, avestan, carian, lydian, samaritan</li>
 <li>U+2E32 TURNED COMMA: not included in any glyphset definition</li>
 <li>U+2E33 RAISED DOT: try adding coptic</li>
 <li>U+2E34 RAISED COMMA: try adding coptic</li>
@@ -16264,7 +8486,7 @@ definitions.</p>
 <li>U+AB69 MODIFIER LETTER SMALL TURNED W: not included in any glyphset definition</li>
 <li>U+AB6A MODIFIER LETTER LEFT TACK: not included in any glyphset definition</li>
 <li>U+AB6B MODIFIER LETTER RIGHT TACK: not included in any glyphset definition</li>
-<li>U+FE00 VARIATION SELECTOR-1: try adding one of: manichaean, yi, phags-pa</li>
+<li>U+FE00 VARIATION SELECTOR-1: try adding one of: phags-pa, manichaean, yi</li>
 <li>U+FE20 COMBINING LIGATURE LEFT HALF: try adding caucasian-albanian</li>
 <li>U+FE21 COMBINING LIGATURE RIGHT HALF: try adding caucasian-albanian</li>
 <li>U+FE22 COMBINING DOUBLE TILDE LEFT HALF: try adding caucasian-albanian</li>
@@ -16279,8 +8501,8 @@ definitions.</p>
 <li>U+FE2B COMBINING MACRON LEFT HALF BELOW: try adding caucasian-albanian</li>
 <li>U+FE2C COMBINING MACRON RIGHT HALF BELOW: try adding caucasian-albanian</li>
 <li>U+FE2D COMBINING CONJOINING MACRON BELOW: try adding caucasian-albanian</li>
-<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: chinese-simplified, math, yi, japanese</li>
-<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: chinese-simplified, math, yi, japanese</li>
+<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: yi, math, chinese-simplified, japanese</li>
+<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: yi, math, chinese-simplified, japanese</li>
 <li>U+FFFC OBJECT REPLACEMENT CHARACTER: not included in any glyphset definition</li>
 <li>U+10780 MODIFIER LETTER SMALL CAPITAL AA: not included in any glyphset definition</li>
 <li>U+10781 MODIFIER LETTER SUPERSCRIPT TRIANGULAR COLON: not included in any glyphset definition</li>
@@ -16384,7 +8606,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
     <div>
 
 
@@ -16394,8 +8616,6 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᪾̀ i᪾́ i᪾̂ i᪾̃ i᪾̄ i᪾̅ i᪾̆ i᪾̇ i᪾̈ i᪾̉ i᪾̊ i᪾̋ i᪾̌ i᪾̍ i᪾̎ i᪾̏ i᪾̐ i᪾̑ i᪾̒ i᪾̓</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Kaska (Latn, 125 speakers), Navajo (Latn, 166,319 speakers), Han (Latn, 6 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Zapotec (Latn, 490,000 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Makaa (Latn, 221,000 speakers), South Central Banda (Latn, 244,000 speakers), Cicipu (Latn, 44,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Fur (Latn, 1,230,163 speakers), Sar (Latn, 500,000 speakers), Aghem (Latn, 38,843 speakers), Mundani (Latn, 34,000 speakers), Ebira (Latn, 2,200,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ekpeye (Latn, 226,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Nateni (Latn, 100,000 speakers), Avokaya (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Nzakara (Latn, 50,000 speakers), Yala (Latn, 200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Vute (Latn, 21,000 speakers), Mango (Latn, 77,000 speakers), Dii (Latn, 71,000 speakers), Ma’di (Latn, 584,000 speakers), Heiltsuk (Latn, 300 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ejagham (Latn, 120,000 speakers), Dan (Latn, 1,099,244 speakers), Ngbaka (Latn, 1,020,000 speakers), Gulay (Latn, 250,478 speakers), Igbo (Latn, 27,823,640 speakers), Kom (Latn, 360,685 speakers), Mfumte (Latn, 79,000 speakers), Southern Kisi (Latn, 360,000 speakers), Basaa (Latn, 332,940 speakers).</p>
  [code: soft-dotted]
 
 
@@ -16404,7 +8624,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check the direction of the outermost contour in each glyph <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check the direction of the outermost contour in each glyph <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-direction">outline_direction</a></summary>
     <div>
 
 
@@ -16436,25 +8656,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure files are not too large. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Font file is 1.4Mb; ideally it should be less than 1.0Mb</p>
- [code: large-font]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
     <div>
 
 
@@ -16480,8 +8682,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 3 | 10 | 95 | 7 | 136 | 0 | 
-| 0% | 0% | 1% | 4% | 38% | 3% | 54% | 0% | 
+| 0 | 0 | 3 | 11 | 88 | 6 | 128 | 0 | 
+| 0% | 0% | 1% | 5% | 37% | 3% | 54% | 0% | 
 
 
 
