@@ -6,58 +6,66 @@ layers = (
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+pos = (442,0);
 ref = breveinverteddoublecomb;
 }
 );
-width = 0;
+width = 883;
 },
 {
 layerId = UUID0;
 shapes = (
 {
+pos = (400,0);
 ref = breveinverteddoublecomb;
 }
 );
-width = 0;
+width = 800;
 },
 {
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+pos = (380,0);
 ref = breveinverteddoublecomb;
 }
 );
-width = 0;
+width = 759;
 },
 {
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+pos = (304,0);
 ref = breveinverteddoublecomb;
 }
 );
-width = 0;
+width = 607;
 },
 {
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
 alignment = -1;
+pos = (371,0);
 ref = breveinverteddoublecomb;
 }
 );
-width = 0;
+width = 738;
 },
 {
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+pos = (338,0);
 ref = breveinverteddoublecomb;
 }
 );
-width = 0;
+width = 675;
 }
 );
+metricLeft = "=undertie";
+metricRight = "=undertie";
 script = "";
 subCategory = Other;
 unicode = 8256;
