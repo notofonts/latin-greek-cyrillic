@@ -3,73 +3,104 @@ category = Punctuation;
 glyphname = invertedundertie;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (325,-214);
+}
+);
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
-pos = (0,-233);
-ref = doublebrevebelowcomb;
-scale = (1,-1);
+pos = (0,-847);
+ref = charactertie;
 }
 );
-width = 0;
+width = 650;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (304,-207);
+}
+);
 layerId = UUID0;
 shapes = (
 {
-pos = (0,-233);
-ref = doublebrevebelowcomb;
-scale = (1,-1);
+pos = (0,-851);
+ref = charactertie;
 }
 );
-width = 0;
+width = 609;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (300,-212);
+}
+);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
-pos = (0,-233);
-ref = doublebrevebelowcomb;
-scale = (1,-1);
+pos = (0,-861);
+ref = charactertie;
 }
 );
-width = 0;
+width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (297,-202);
+}
+);
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
-pos = (0,-233);
-ref = doublebrevebelowcomb;
-scale = (1,-1);
+pos = (0,-857);
+ref = charactertie;
 }
 );
-width = 0;
+width = 595;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (304,-201);
+}
+);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-alignment = -1;
-pos = (0,-233);
-ref = doublebrevebelowcomb;
-scale = (1,-1);
+pos = (0,-852);
+ref = charactertie;
 }
 );
-width = 0;
+width = 609;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (300,-206);
+}
+);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
-pos = (0,-233);
-ref = doublebrevebelowcomb;
-scale = (1,-1);
+pos = (0,-856);
+ref = charactertie;
 }
 );
-width = 0;
+width = 600;
 }
 );
+metricLeft = "=undertie";
+metricRight = "=undertie";
 script = "";
 subCategory = Other;
 unicode = 8276;
