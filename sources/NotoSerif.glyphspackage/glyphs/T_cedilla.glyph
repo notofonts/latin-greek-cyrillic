@@ -21,7 +21,8 @@ shapes = (
 ref = T;
 },
 {
-pos = (348,0);
+alignment = 1;
+pos = (177,0);
 ref = cedillacomb;
 }
 );
@@ -44,7 +45,8 @@ shapes = (
 ref = T;
 },
 {
-pos = (311,0);
+alignment = 1;
+pos = (143,0);
 ref = cedillacomb;
 }
 );
@@ -67,7 +69,8 @@ shapes = (
 ref = T;
 },
 {
-pos = (290,0);
+alignment = 1;
+pos = (149,0);
 ref = cedillacomb;
 }
 );
@@ -90,7 +93,8 @@ shapes = (
 ref = T;
 },
 {
-pos = (220,0);
+alignment = 1;
+pos = (98,0);
 ref = cedillacomb;
 }
 );
@@ -113,7 +117,8 @@ shapes = (
 ref = T;
 },
 {
-pos = (274,0);
+alignment = 1;
+pos = (128,0);
 ref = cedillacomb;
 }
 );
@@ -136,7 +141,8 @@ shapes = (
 ref = T;
 },
 {
-pos = (251,0);
+alignment = 1;
+pos = (119,0);
 ref = cedillacomb;
 }
 );
