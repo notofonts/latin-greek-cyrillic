@@ -3,70 +3,136 @@ color = 4;
 glyphname = uni1DF10;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (210,0);
+},
+{
+name = top;
+pos = (324,536);
+}
+);
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
+alignment = -1;
 angle = 180;
-pos = (581,760);
+pos = (533,536);
 ref = kgreenlandic;
 }
 );
 width = 533;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (228,0);
+},
+{
+name = top;
+pos = (342,536);
+}
+);
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 angle = 180;
-pos = (617,760);
+pos = (569,536);
 ref = kgreenlandic;
 }
 );
-width = 569;
+width = 568;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (265,0);
+},
+{
+name = top;
+pos = (379,536);
+}
+);
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
+alignment = -1;
 angle = 180;
-pos = (692,760);
+pos = (644,536);
 ref = kgreenlandic;
 }
 );
-width = 644;
+width = 613;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (147,0);
+},
+{
+name = top;
+pos = (261,536);
+}
+);
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
+alignment = -1;
 angle = 180;
-pos = (456,760);
+pos = (408,536);
 ref = kgreenlandic;
 }
 );
-width = 408;
+width = 404;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (175,0);
+},
+{
+name = top;
+pos = (289,536);
+}
+);
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
+alignment = -1;
 angle = 180;
-pos = (512,760);
+pos = (464,536);
 ref = kgreenlandic;
 }
 );
-width = 464;
+width = 465;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (209,0);
+},
+{
+name = top;
+pos = (323,536);
+}
+);
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
+alignment = -1;
 angle = 180;
-pos = (580,760);
+pos = (532,536);
 ref = kgreenlandic;
 }
 );
-width = 532;
+width = 524;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -75,7 +141,7 @@ name = "Display Regular";
 shapes = (
 {
 angle = 180;
-pos = (581,760);
+pos = (533,536);
 ref = kgreenlandic;
 }
 );
@@ -88,7 +154,7 @@ name = "Display Light";
 shapes = (
 {
 angle = 180;
-pos = (581,760);
+pos = (533,536);
 ref = kgreenlandic;
 }
 );
@@ -101,7 +167,7 @@ name = "Display SemiBold";
 shapes = (
 {
 angle = 180;
-pos = (581,760);
+pos = (533,536);
 ref = kgreenlandic;
 }
 );
@@ -114,7 +180,7 @@ name = "Display Bold";
 shapes = (
 {
 angle = 180;
-pos = (581,760);
+pos = (533,536);
 ref = kgreenlandic;
 }
 );
@@ -153,7 +219,7 @@ name = "Display SemiBold Condensed";
 shapes = (
 {
 angle = 180;
-pos = (581,760);
+pos = (533,536);
 ref = kgreenlandic;
 }
 );
@@ -166,7 +232,7 @@ name = "Display Bold Condensed";
 shapes = (
 {
 angle = 180;
-pos = (581,760);
+pos = (533,536);
 ref = kgreenlandic;
 }
 );
