@@ -140,13 +140,11 @@ layerId = "8e5795ff-c257-46fc-954d-40a0bec3a1aa";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
-alignment = -1;
 ref = u;
 },
 {
-alignment = -1;
-pos = (-147,-806);
-ref = dieresis;
+pos = (225,0);
+ref = dieresisbelowcomb;
 }
 );
 width = 452;
