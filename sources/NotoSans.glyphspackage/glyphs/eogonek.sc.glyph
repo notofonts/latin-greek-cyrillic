@@ -45,7 +45,8 @@ shapes = (
 ref = e.sc;
 },
 {
-pos = (32,0);
+anchor = ogonek;
+pos = (102,0);
 ref = ogonekcomb;
 }
 );

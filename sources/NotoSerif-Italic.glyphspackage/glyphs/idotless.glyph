@@ -14,7 +14,7 @@ pos = (176,263);
 },
 {
 name = ogonek;
-pos = (131,0);
+pos = (200,0);
 },
 {
 name = top;
@@ -70,7 +70,7 @@ pos = (213,263);
 },
 {
 name = ogonek;
-pos = (189,0);
+pos = (270,0);
 },
 {
 name = top;
@@ -126,7 +126,7 @@ pos = (183,263);
 },
 {
 name = ogonek;
-pos = (158,0);
+pos = (224,0);
 },
 {
 name = top;
@@ -182,7 +182,7 @@ pos = (101,263);
 },
 {
 name = ogonek;
-pos = (80,0);
+pos = (119,0);
 },
 {
 name = top;
@@ -238,7 +238,7 @@ pos = (147,263);
 },
 {
 name = ogonek;
-pos = (138,0);
+pos = (174,0);
 },
 {
 name = top;
@@ -294,7 +294,7 @@ pos = (152,263);
 },
 {
 name = ogonek;
-pos = (119,0);
+pos = (174,0);
 },
 {
 name = top;

@@ -10,7 +10,7 @@ ref = I.salt;
 },
 {
 anchor = ogonek;
-pos = (-103,0);
+pos = (-102,0);
 ref = ogonekcomb;
 }
 );
@@ -24,7 +24,7 @@ ref = I.salt;
 },
 {
 anchor = ogonek;
-pos = (-52,0);
+pos = (-51,0);
 ref = ogonekcomb;
 }
 );
@@ -38,7 +38,7 @@ ref = I.salt;
 },
 {
 anchor = ogonek;
-pos = (8,0);
+pos = (12,0);
 ref = ogonekcomb;
 }
 );
@@ -52,7 +52,7 @@ ref = I.salt;
 },
 {
 anchor = ogonek;
-pos = (-110,0);
+pos = (-111,0);
 ref = ogonekcomb;
 }
 );
@@ -66,7 +66,7 @@ ref = I.salt;
 },
 {
 anchor = ogonek;
-pos = (-73,0);
+pos = (-70,0);
 ref = ogonekcomb;
 }
 );
@@ -80,7 +80,7 @@ ref = I.salt;
 },
 {
 anchor = ogonek;
-pos = (-16,0);
+pos = (-11,0);
 ref = ogonekcomb;
 }
 );

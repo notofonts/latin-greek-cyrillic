@@ -21,7 +21,7 @@ ref = a;
 },
 {
 anchor = ogonek;
-pos = (226,0);
+pos = (187,0);
 ref = ogonekcomb;
 }
 );
@@ -45,7 +45,7 @@ ref = a;
 },
 {
 anchor = ogonek;
-pos = (159,0);
+pos = (91,0);
 ref = ogonekcomb;
 }
 );
@@ -69,7 +69,7 @@ ref = a;
 },
 {
 anchor = ogonek;
-pos = (181,0);
+pos = (153,0);
 ref = ogonekcomb;
 }
 );
@@ -93,7 +93,7 @@ ref = a;
 },
 {
 anchor = ogonek;
-pos = (92,0);
+pos = (56,0);
 ref = ogonekcomb;
 }
 );
@@ -117,7 +117,7 @@ ref = a;
 },
 {
 anchor = ogonek;
-pos = (159,0);
+pos = (118,0);
 ref = ogonekcomb;
 }
 );
@@ -141,7 +141,7 @@ ref = a;
 },
 {
 anchor = ogonek;
-pos = (136,0);
+pos = (81,0);
 ref = ogonekcomb;
 }
 );

@@ -21,7 +21,8 @@ shapes = (
 ref = I;
 },
 {
-pos = (-9,0);
+anchor = ogonek;
+pos = (-29,1);
 ref = ogonekcomb;
 }
 );
@@ -44,7 +45,8 @@ shapes = (
 ref = I;
 },
 {
-pos = (36,0);
+anchor = ogonek;
+pos = (54,1);
 ref = ogonekcomb;
 }
 );
@@ -67,7 +69,8 @@ shapes = (
 ref = I;
 },
 {
-pos = (-10,0);
+anchor = ogonek;
+pos = (27,1);
 ref = ogonekcomb;
 }
 );
@@ -90,7 +93,8 @@ shapes = (
 ref = I;
 },
 {
-pos = (-85,0);
+anchor = ogonek;
+pos = (-113,1);
 ref = ogonekcomb;
 }
 );
@@ -113,7 +117,8 @@ shapes = (
 ref = I;
 },
 {
-pos = (-53,0);
+anchor = ogonek;
+pos = (-92,1);
 ref = ogonekcomb;
 }
 );
@@ -136,7 +141,8 @@ shapes = (
 ref = I;
 },
 {
-pos = (-51,0);
+anchor = ogonek;
+pos = (-47,1);
 ref = ogonekcomb;
 }
 );

@@ -20,7 +20,7 @@ ref = idotless;
 },
 {
 anchor = ogonek;
-pos = (-5,0);
+pos = (-12,0);
 ref = ogonekcomb;
 }
 );
@@ -44,7 +44,7 @@ ref = idotless;
 },
 {
 anchor = ogonek;
-pos = (69,0);
+pos = (58,0);
 ref = ogonekcomb;
 }
 );
@@ -68,7 +68,7 @@ ref = idotless;
 },
 {
 anchor = ogonek;
-pos = (28,0);
+pos = (18,0);
 ref = ogonekcomb;
 }
 );
@@ -92,7 +92,7 @@ ref = idotless;
 },
 {
 anchor = ogonek;
-pos = (-78,0);
+pos = (-87,0);
 ref = ogonekcomb;
 }
 );
@@ -116,7 +116,7 @@ ref = idotless;
 },
 {
 anchor = ogonek;
-pos = (-20,0);
+pos = (-38,0);
 ref = ogonekcomb;
 }
 );
@@ -140,7 +140,7 @@ ref = idotless;
 },
 {
 anchor = ogonek;
-pos = (-26,0);
+pos = (-32,0);
 ref = ogonekcomb;
 }
 );
