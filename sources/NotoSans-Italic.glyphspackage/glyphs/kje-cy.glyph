@@ -23,7 +23,7 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-pos = (171,0);
+pos = (159,0);
 ref = acutecomb.loclCYR;
 }
 );
@@ -47,7 +47,7 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-pos = (180,0);
+pos = (172,0);
 ref = acutecomb.loclCYR;
 }
 );
@@ -71,7 +71,7 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-pos = (96,0);
+pos = (93,0);
 ref = acutecomb.loclCYR;
 }
 );
@@ -95,7 +95,7 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-pos = (113,0);
+pos = (111,0);
 ref = acutecomb.loclCYR;
 }
 );
@@ -142,7 +142,7 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-pos = (135,0);
+pos = (132,0);
 ref = acutecomb.loclCYR;
 }
 );
@@ -166,7 +166,7 @@ alignment = -1;
 ref = "ka-cy";
 },
 {
-pos = (195,0);
+pos = (190,0);
 ref = acutecomb.loclCYR;
 }
 );

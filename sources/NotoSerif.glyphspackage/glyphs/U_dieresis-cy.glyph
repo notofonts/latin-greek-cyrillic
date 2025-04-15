@@ -12,9 +12,8 @@ shapes = (
 ref = "U-cy";
 },
 {
-alignment = -1;
-pos = (40,165);
-ref = dieresis;
+pos = (40,178);
+ref = dieresiscomb;
 }
 );
 width = 640;
@@ -26,8 +25,8 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (46,165);
-ref = dieresis;
+pos = (62,178);
+ref = dieresiscomb;
 }
 );
 width = 650;
@@ -47,8 +46,8 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (71,165);
-ref = dieresis;
+pos = (98,178);
+ref = dieresiscomb;
 }
 );
 width = 700;
@@ -60,8 +59,8 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (77,165);
-ref = dieresis;
+pos = (128,178);
+ref = dieresiscomb;
 }
 );
 width = 710;
@@ -73,8 +72,8 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (38,165);
-ref = dieresis;
+pos = (31,178);
+ref = dieresiscomb;
 }
 );
 width = 497;
@@ -86,8 +85,8 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (44,165);
-ref = dieresis;
+pos = (53,178);
+ref = dieresiscomb;
 }
 );
 width = 528;
@@ -99,8 +98,8 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (68,165);
-ref = dieresis;
+pos = (115,178);
+ref = dieresiscomb;
 }
 );
 width = 600;

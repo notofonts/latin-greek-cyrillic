@@ -48,7 +48,7 @@ pos = (304,0);
 ref = j_sc.salt;
 }
 );
-width = 717;
+width = 727;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
@@ -104,11 +104,11 @@ shapes = (
 ref = i_sc.salt;
 },
 {
-pos = (229,0);
+pos = (237,0);
 ref = j_sc.salt;
 }
 );
-width = 531;
+width = 539;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";

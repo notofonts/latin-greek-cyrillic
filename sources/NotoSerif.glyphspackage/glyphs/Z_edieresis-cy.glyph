@@ -12,9 +12,8 @@ shapes = (
 ref = "Ze-cy";
 },
 {
-alignment = -1;
-pos = (-23,165);
-ref = dieresis;
+pos = (-29,178);
+ref = dieresiscomb;
 }
 );
 width = 550;
@@ -26,8 +25,8 @@ shapes = (
 ref = "Ze-cy";
 },
 {
-pos = (2,165);
-ref = dieresis;
+pos = (-2,178);
+ref = dieresiscomb;
 }
 );
 width = 595;
@@ -39,8 +38,8 @@ shapes = (
 ref = "Ze-cy";
 },
 {
-pos = (32,165);
-ref = dieresis;
+pos = (26,178);
+ref = dieresiscomb;
 }
 );
 width = 650;
@@ -52,8 +51,8 @@ shapes = (
 ref = "Ze-cy";
 },
 {
-pos = (-19,165);
-ref = dieresis;
+pos = (-29,178);
+ref = dieresiscomb;
 }
 );
 width = 410;
@@ -65,8 +64,8 @@ shapes = (
 ref = "Ze-cy";
 },
 {
-pos = (9,165);
-ref = dieresis;
+pos = (11,178);
+ref = dieresiscomb;
 }
 );
 width = 485;
@@ -86,8 +85,8 @@ shapes = (
 ref = "Ze-cy";
 },
 {
-pos = (19,165);
-ref = dieresis;
+pos = (10,178);
+ref = dieresiscomb;
 }
 );
 width = 510;
@@ -99,8 +98,8 @@ shapes = (
 ref = "Ze-cy";
 },
 {
-pos = (30,165);
-ref = dieresis;
+pos = (22,178);
+ref = dieresiscomb;
 }
 );
 width = 545;

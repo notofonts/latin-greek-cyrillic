@@ -110,12 +110,10 @@ pos = (324,801);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-alignment = -1;
 ref = h.sc;
 },
 {
-alignment = -1;
-pos = (34,35);
+pos = (35,35);
 ref = circumflexcomb.sc;
 }
 );

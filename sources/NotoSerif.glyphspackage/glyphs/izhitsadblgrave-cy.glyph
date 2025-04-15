@@ -18,12 +18,10 @@ pos = (273,766);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-alignment = -1;
 ref = "izhitsa-cy";
 },
 {
-alignment = -1;
-pos = (556,0);
+pos = (93,0);
 ref = dblgravecomb;
 }
 );
@@ -46,7 +44,7 @@ shapes = (
 ref = "izhitsa-cy";
 },
 {
-pos = (589,0);
+pos = (61,0);
 ref = dblgravecomb;
 }
 );
@@ -69,7 +67,7 @@ shapes = (
 ref = "izhitsa-cy";
 },
 {
-pos = (645,0);
+pos = (94,0);
 ref = dblgravecomb;
 }
 );
@@ -92,7 +90,7 @@ shapes = (
 ref = "izhitsa-cy";
 },
 {
-pos = (423,0);
+pos = (40,0);
 ref = dblgravecomb;
 }
 );
@@ -115,7 +113,7 @@ shapes = (
 ref = "izhitsa-cy";
 },
 {
-pos = (473,0);
+pos = (56,0);
 ref = dblgravecomb;
 }
 );
@@ -138,7 +136,7 @@ shapes = (
 ref = "izhitsa-cy";
 },
 {
-pos = (538,0);
+pos = (71,0);
 ref = dblgravecomb;
 }
 );

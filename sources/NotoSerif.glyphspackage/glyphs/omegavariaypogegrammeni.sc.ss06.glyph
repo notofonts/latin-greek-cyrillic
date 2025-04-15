@@ -50,13 +50,16 @@ layerId = "4394a9a4-144f-4297-9e00-b19e27a82265";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (209,35);
 ref = varia.sc;
 },
 {
+alignment = -1;
 pos = (228,0);
 ref = ypogegrammeni;
 }
@@ -126,13 +129,16 @@ layerId = "d68513a5-12c0-4299-9d32-9b0ae9f712d6";
 name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (162,35);
 ref = varia.sc;
 },
 {
+alignment = -1;
 pos = (169,0);
 ref = ypogegrammeni;
 }

@@ -3,130 +3,145 @@ category = Letter;
 glyphname = Hturned;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (300,714);
+}
+);
 layerId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
 shapes = (
 {
-closed = 1;
-nodes = (
-(505,0,l),
-(505,714,l),
-(479,714,l),
-(479,388,l),
-(121,388,l),
-(121,714,l),
-(95,714,l),
-(95,363,l),
-(479,363,l),
-(479,0,l)
-);
+ref = "Che-cy";
 }
 );
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (300,714);
+}
+);
 layerId = UUID0;
 shapes = (
 {
-closed = 1;
-nodes = (
-(530,0,l),
-(530,714,l),
-(440,714,l),
-(440,412,l),
-(160,412,l),
-(160,714,l),
-(70,714,l),
-(70,332,l),
-(440,332,l),
-(440,0,l)
-);
+ref = "Che-cy";
 }
 );
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (300,714);
+}
+);
 layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
 shapes = (
 {
-closed = 1;
-nodes = (
-(560,0,l),
-(560,714,l),
-(383,714,l),
-(383,445,l),
-(217,445,l),
-(217,714,l),
-(40,714,l),
-(40,295,l),
-(383,295,l),
-(383,0,l)
-);
+ref = "Che-cy";
 }
 );
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (250,0);
+},
+{
+name = top;
+pos = (250,714);
+}
+);
 layerId = "82FB5ACD-33BC-4284-9837-1B4D88A7F1E9";
 shapes = (
 {
-closed = 1;
-nodes = (
-(435,0,l),
-(435,714,l),
-(409,714,l),
-(409,388,l),
-(91,388,l),
-(91,714,l),
-(65,714,l),
-(65,363,l),
-(409,363,l),
-(409,0,l)
-);
+ref = "Che-cy";
 }
 );
 width = 500;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (250,0);
+},
+{
+name = top;
+pos = (250,714);
+}
+);
 layerId = "C5665599-2906-40DA-AF7F-7DBC0844951A";
 shapes = (
 {
-closed = 1;
-nodes = (
-(455,0,l),
-(455,714,l),
-(371,714,l),
-(371,411,l),
-(129,411,l),
-(129,714,l),
-(45,714,l),
-(45,333,l),
-(371,333,l),
-(371,0,l)
-);
+ref = "Che-cy";
 }
 );
 width = 500;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (250,0);
+},
+{
+name = top;
+pos = (250,714);
+}
+);
 layerId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
 shapes = (
 {
-closed = 1;
-nodes = (
-(475,0,l),
-(475,714,l),
-(322,714,l),
-(322,441,l),
-(178,441,l),
-(178,714,l),
-(25,714,l),
-(25,301,l),
-(322,301,l),
-(322,0,l)
-);
+ref = "Che-cy";
 }
 );
 width = 500;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (300,714);
+}
+);
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "AF75BF2C-850C-4D1C-ADC1-2B804E612F71";
+name = "7 Nov 24 at 12:17";
+shapes = (
+{
+ref = "Che-cy";
+}
+);
+width = 600;
 }
 );
 script = latin;

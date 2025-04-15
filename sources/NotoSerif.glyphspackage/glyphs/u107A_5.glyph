@@ -6,6 +6,7 @@ layers = (
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
+alignment = -1;
 pos = (0,287);
 ref = q;
 scale = (0.65,0.6);
@@ -36,6 +37,7 @@ layerId = "148e78df-38d7-465c-8b69-0a80624e5e4c";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 pos = (0,287);
 ref = q;
 scale = (0.65,0.6);
@@ -47,6 +49,7 @@ width = 434;
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 pos = (0,287);
 ref = q;
 scale = (0.65,0.6);
@@ -58,6 +61,7 @@ width = 445;
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 pos = (0,287);
 ref = q;
 scale = (0.65,0.6);
@@ -80,6 +84,7 @@ width = 320;
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 pos = (0,287);
 ref = q;
 scale = (0.65,0.6);

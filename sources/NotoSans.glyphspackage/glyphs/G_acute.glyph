@@ -77,7 +77,7 @@ alignment = -1;
 ref = G;
 },
 {
-pos = (658,168);
+pos = (683,168);
 ref = acutecomb;
 }
 );

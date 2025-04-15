@@ -12,6 +12,7 @@ pos = (309,0);
 ref = UpsilonhookSymbol;
 },
 {
+alignment = -1;
 pos = (-30,0);
 ref = tonos.case;
 }
@@ -27,6 +28,7 @@ pos = (278,0);
 ref = UpsilonhookSymbol;
 },
 {
+alignment = -1;
 pos = (-30,0);
 ref = tonos.case;
 }
@@ -42,6 +44,7 @@ pos = (210,0);
 ref = UpsilonhookSymbol;
 },
 {
+alignment = -1;
 pos = (-30,0);
 ref = tonos.case;
 }
@@ -57,6 +60,7 @@ pos = (206,0);
 ref = UpsilonhookSymbol;
 },
 {
+alignment = -1;
 pos = (-30,0);
 ref = tonos.case;
 }
@@ -72,6 +76,7 @@ pos = (142,0);
 ref = UpsilonhookSymbol;
 },
 {
+alignment = -1;
 pos = (-30,0);
 ref = tonos.case;
 }
@@ -87,6 +92,7 @@ pos = (138,0);
 ref = UpsilonhookSymbol;
 },
 {
+alignment = -1;
 pos = (-30,0);
 ref = tonos.case;
 }

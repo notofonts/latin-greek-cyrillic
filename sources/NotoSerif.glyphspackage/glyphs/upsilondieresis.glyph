@@ -12,7 +12,7 @@ shapes = (
 ref = upsilon;
 },
 {
-pos = (332,0);
+pos = (42,0);
 ref = dieresiscomb;
 }
 );
@@ -25,7 +25,7 @@ shapes = (
 ref = upsilon;
 },
 {
-pos = (250,0);
+pos = (-38,0);
 ref = dieresiscomb;
 }
 );
@@ -38,7 +38,7 @@ shapes = (
 ref = upsilon;
 },
 {
-pos = (298,0);
+pos = (56,0);
 ref = dieresiscomb;
 }
 );
@@ -51,7 +51,7 @@ shapes = (
 ref = upsilon;
 },
 {
-pos = (182,0);
+pos = (-35,0);
 ref = dieresiscomb;
 }
 );
@@ -64,7 +64,7 @@ shapes = (
 ref = upsilon;
 },
 {
-pos = (216,0);
+pos = (-70,0);
 ref = dieresiscomb;
 }
 );
@@ -77,7 +77,6 @@ shapes = (
 ref = upsilon;
 },
 {
-pos = (227,0);
 ref = dieresiscomb;
 }
 );
@@ -98,7 +97,7 @@ shapes = (
 ref = upsilon;
 },
 {
-pos = (249,0);
+pos = (13,0);
 ref = dieresiscomb;
 }
 );

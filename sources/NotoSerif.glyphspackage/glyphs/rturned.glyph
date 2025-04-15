@@ -71,6 +71,7 @@ pos = (548,536);
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 angle = 180;
 pos = (558,536);
 ref = r;
@@ -146,6 +147,7 @@ pos = (458,536);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 angle = 180;
 pos = (466,536);
 ref = r;

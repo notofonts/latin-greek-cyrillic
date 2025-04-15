@@ -33,6 +33,7 @@ layerId = "1882ae19-1d7b-40a4-a635-faceba820aa8";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = "Fita-cy";
 }
 );
@@ -60,6 +61,7 @@ width = 444;
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
+alignment = -1;
 ref = "Fita-cy";
 }
 );
@@ -77,6 +79,7 @@ layerId = "8481ddb2-c170-49a6-bd84-02351080dcfd";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = "Fita-cy";
 }
 );
@@ -86,6 +89,7 @@ width = 536;
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
+alignment = -1;
 ref = "Fita-cy";
 }
 );

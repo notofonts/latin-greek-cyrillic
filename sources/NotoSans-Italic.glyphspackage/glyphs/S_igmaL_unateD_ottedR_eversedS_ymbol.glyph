@@ -59,9 +59,11 @@ width = 337;
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
+alignment = -1;
 ref = Oopen;
 },
 {
+alignment = -1;
 pos = (71,304);
 ref = period;
 }

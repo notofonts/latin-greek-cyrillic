@@ -71,9 +71,11 @@ width = 500;
 layerId = "35DC4C3B-953E-41FE-A906-9781CEBB9B49";
 shapes = (
 {
+alignment = -1;
 ref = one.numr;
 },
 {
+alignment = -1;
 pos = (530,0);
 ref = fraction;
 }

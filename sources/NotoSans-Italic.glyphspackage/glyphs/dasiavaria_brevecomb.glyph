@@ -13,6 +13,7 @@ pos = (280,528);
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
+alignment = -1;
 pos = (55,0);
 ref = breve;
 },
@@ -34,6 +35,7 @@ pos = (332,536);
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
+alignment = -1;
 pos = (82,0);
 ref = breve;
 },
@@ -55,6 +57,7 @@ pos = (381,553);
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
+alignment = -1;
 pos = (81,136);
 ref = breve;
 scale = (1,0.775);
@@ -77,6 +80,7 @@ pos = (285,526);
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
+alignment = -1;
 pos = (74,0);
 ref = breve;
 },
@@ -98,6 +102,7 @@ pos = (303,536);
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
+alignment = -1;
 pos = (78,54);
 ref = breve;
 scale = (1,0.877);
@@ -128,6 +133,7 @@ layerId = "d1473b91-4a4c-439a-869e-c2c137523db0";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 pos = (96,86);
 ref = breve;
 scale = (1,0.807);
@@ -150,6 +156,7 @@ pos = (364,553);
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
+alignment = -1;
 pos = (97,92);
 ref = breve;
 scale = (1,0.808);

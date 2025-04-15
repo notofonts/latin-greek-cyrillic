@@ -21,6 +21,7 @@ alignment = -1;
 ref = "U-cy";
 },
 {
+alignment = -1;
 pos = (116,0);
 ref = cyrillicbreve.cap;
 }
@@ -45,6 +46,7 @@ alignment = -1;
 ref = "U-cy";
 },
 {
+alignment = -1;
 pos = (103,10);
 ref = cyrillicbreve.cap;
 }
@@ -69,6 +71,7 @@ alignment = -1;
 ref = "U-cy";
 },
 {
+alignment = -1;
 pos = (53,0);
 ref = cyrillicbreve.cap;
 }
@@ -93,6 +96,7 @@ alignment = -1;
 ref = "U-cy";
 },
 {
+alignment = -1;
 pos = (64,0);
 ref = cyrillicbreve.cap;
 }
@@ -141,6 +145,7 @@ alignment = -1;
 ref = "U-cy";
 },
 {
+alignment = -1;
 pos = (3,-5);
 ref = cyrillicbreve.cap;
 }

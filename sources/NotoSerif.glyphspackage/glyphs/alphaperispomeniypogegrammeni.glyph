@@ -8,13 +8,16 @@ layers = (
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (62,0);
 ref = perispomeni;
 },
 {
+alignment = -1;
 pos = (174,0);
 ref = ypogegrammeni;
 }
@@ -25,13 +28,16 @@ width = 620;
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (52,0);
 ref = perispomeni;
 },
 {
+alignment = -1;
 pos = (137,0);
 ref = ypogegrammeni;
 }
@@ -50,13 +56,16 @@ layerId = "bc98b722-bd64-4a33-a719-56213c040cda";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (49,0);
 ref = perispomeni;
 },
 {
+alignment = -1;
 pos = (119,0);
 ref = ypogegrammeni;
 }
@@ -67,13 +76,16 @@ width = 666;
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (27,0);
 ref = perispomeni;
 },
 {
+alignment = -1;
 pos = (113,0);
 ref = ypogegrammeni;
 }
@@ -84,13 +96,16 @@ width = 693;
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (45,0);
 ref = perispomeni;
 },
 {
+alignment = -1;
 pos = (104,0);
 ref = ypogegrammeni;
 }
@@ -101,13 +116,16 @@ width = 499;
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (40,0);
 ref = perispomeni;
 },
 {
+alignment = -1;
 pos = (99,0);
 ref = ypogegrammeni;
 }
@@ -126,13 +144,16 @@ layerId = "7a69f1b1-abbc-4a73-a996-797ae26572f6";
 name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (24,0);
 ref = perispomeni;
 },
 {
+alignment = -1;
 pos = (72,0);
 ref = ypogegrammeni;
 }
@@ -143,13 +164,16 @@ width = 570;
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (30,0);
 ref = perispomeni;
 },
 {
+alignment = -1;
 pos = (74,0);
 ref = ypogegrammeni;
 }

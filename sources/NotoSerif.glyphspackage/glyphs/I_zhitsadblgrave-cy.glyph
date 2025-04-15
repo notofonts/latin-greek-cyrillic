@@ -18,12 +18,10 @@ pos = (316,931);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-alignment = -1;
 ref = "Izhitsa-cy";
 },
 {
-alignment = -1;
-pos = (623,165);
+pos = (136,178);
 ref = dblgravecomb;
 }
 );
@@ -46,7 +44,7 @@ shapes = (
 ref = "Izhitsa-cy";
 },
 {
-pos = (655,165);
+pos = (115,178);
 ref = dblgravecomb;
 }
 );
@@ -69,7 +67,7 @@ shapes = (
 ref = "Izhitsa-cy";
 },
 {
-pos = (700,165);
+pos = (144,178);
 ref = dblgravecomb;
 }
 );
@@ -92,7 +90,7 @@ shapes = (
 ref = "Izhitsa-cy";
 },
 {
-pos = (477,165);
+pos = (78,178);
 ref = dblgravecomb;
 }
 );
@@ -115,7 +113,7 @@ shapes = (
 ref = "Izhitsa-cy";
 },
 {
-pos = (523,165);
+pos = (96,178);
 ref = dblgravecomb;
 }
 );
@@ -138,7 +136,7 @@ shapes = (
 ref = "Izhitsa-cy";
 },
 {
-pos = (584,165);
+pos = (112,178);
 ref = dblgravecomb;
 }
 );

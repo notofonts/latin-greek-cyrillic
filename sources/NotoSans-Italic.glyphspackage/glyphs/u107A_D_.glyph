@@ -6,23 +6,23 @@ layers = (
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
-pos = (92,287);
+pos = (41,287);
 ref = tsdigraphretroflexhook;
 scale = (0.65,0.6);
 }
 );
-width = 482;
+width = 408;
 },
 {
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
-pos = (69,287);
+pos = (41,287);
 ref = tsdigraphretroflexhook;
 scale = (0.65,0.6);
 }
 );
-width = 492;
+width = 455;
 },
 {
 associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
@@ -36,40 +36,40 @@ layerId = "f62f33a4-9efb-4ec3-91ec-9291fcc561e7";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
-pos = (70,287);
+pos = (41,287);
 ref = tsdigraphretroflexhook;
 scale = (0.65,0.6);
 }
 );
-width = 538;
+width = 502;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
-pos = (56,287);
+pos = (40,287);
 ref = tsdigraphretroflexhook;
 scale = (0.65,0.6);
 }
 );
-width = 521;
+width = 512;
 },
 {
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
-pos = (46,287);
+pos = (41,287);
 ref = tsdigraphretroflexhook;
 scale = (0.65,0.6);
 }
 );
-width = 262;
+width = 260;
 },
 {
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
-pos = (43,287);
+pos = (41,287);
 ref = tsdigraphretroflexhook;
 scale = (0.65,0.6);
 }
@@ -80,12 +80,12 @@ width = 324;
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
-pos = (39,287);
+pos = (40,287);
 ref = tsdigraphretroflexhook;
 scale = (0.65,0.6);
 }
 );
-width = 429;
+width = 427;
 }
 );
 metricLeft = u107AB;

@@ -23,7 +23,7 @@ alignment = -1;
 ref = "Ka-cy";
 },
 {
-pos = (265,186);
+pos = (232,186);
 ref = acutecomb.loclCYR;
 }
 );
@@ -67,7 +67,7 @@ alignment = -1;
 ref = "Ka-cy";
 },
 {
-pos = (258,168);
+pos = (230,168);
 ref = acutecomb.loclCYR;
 }
 );
@@ -91,7 +91,7 @@ alignment = -1;
 ref = "Ka-cy";
 },
 {
-pos = (251,161);
+pos = (236,161);
 ref = acutecomb.loclCYR;
 }
 );
@@ -115,7 +115,7 @@ alignment = -1;
 ref = "Ka-cy";
 },
 {
-pos = (178,188);
+pos = (159,188);
 ref = acutecomb.loclCYR;
 }
 );
@@ -151,7 +151,7 @@ alignment = -1;
 ref = "Ka-cy";
 },
 {
-pos = (190,178);
+pos = (180,178);
 ref = acutecomb.loclCYR;
 }
 );
@@ -175,7 +175,7 @@ alignment = -1;
 ref = "Ka-cy";
 },
 {
-pos = (208,161);
+pos = (192,161);
 ref = acutecomb.loclCYR;
 }
 );
@@ -199,7 +199,7 @@ alignment = -1;
 ref = "Ka-cy";
 },
 {
-pos = (271,178);
+pos = (255,178);
 ref = acutecomb.loclCYR;
 }
 );

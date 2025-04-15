@@ -134,11 +134,11 @@ shapes = (
 ref = f.ss02;
 },
 {
-pos = (373,0);
+pos = (374,0);
 ref = l;
 }
 );
-width = 670;
+width = 673;
 },
 {
 anchors = (
@@ -314,11 +314,11 @@ shapes = (
 ref = f.ss02;
 },
 {
-pos = (271,0);
+pos = (278,0);
 ref = l;
 }
 );
-width = 492;
+width = 505;
 },
 {
 anchors = (

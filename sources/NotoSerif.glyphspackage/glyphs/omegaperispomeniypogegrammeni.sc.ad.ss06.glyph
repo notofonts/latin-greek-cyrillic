@@ -8,13 +8,16 @@ layers = (
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (117,35);
 ref = perispomeni.sc;
 },
 {
+alignment = -1;
 pos = (620,0);
 ref = iota.sc;
 }
@@ -25,13 +28,16 @@ width = 908;
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (106,35);
 ref = perispomeni.sc;
 },
 {
+alignment = -1;
 pos = (647,0);
 ref = iota.sc;
 }
@@ -42,13 +48,16 @@ width = 977;
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (121,35);
 ref = perispomeni.sc;
 },
 {
+alignment = -1;
 pos = (747,0);
 ref = iota.sc;
 }
@@ -59,13 +68,16 @@ width = 1135;
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (72,35);
 ref = perispomeni.sc;
 },
 {
+alignment = -1;
 pos = (466,0);
 ref = iota.sc;
 }
@@ -76,13 +88,16 @@ width = 699;
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (82,35);
 ref = perispomeni.sc;
 },
 {
+alignment = -1;
 pos = (535,0);
 ref = iota.sc;
 }
@@ -101,13 +116,16 @@ layerId = "630c8555-49cc-47f8-afe0-d2de57eb6249";
 name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (101,35);
 ref = perispomeni.sc;
 },
 {
+alignment = -1;
 pos = (609,0);
 ref = iota.sc;
 }
@@ -118,13 +136,16 @@ width = 909;
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (103,35);
 ref = perispomeni.sc;
 },
 {
+alignment = -1;
 pos = (641,0);
 ref = iota.sc;
 }

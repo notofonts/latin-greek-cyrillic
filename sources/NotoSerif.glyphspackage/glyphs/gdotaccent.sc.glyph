@@ -18,12 +18,10 @@ pos = (307,753);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-alignment = -1;
 ref = g.sc;
 },
 {
-alignment = -1;
-pos = (129,35);
+pos = (141,35);
 ref = dotaccentcomb.sc;
 }
 );

@@ -101,13 +101,16 @@ layerId = "a6822c2c-cb61-4166-9845-5dd456ab4879";
 name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (101,35);
 ref = dasiaperispomeni.sc;
 },
 {
+alignment = -1;
 pos = (609,0);
 ref = iota.sc;
 }

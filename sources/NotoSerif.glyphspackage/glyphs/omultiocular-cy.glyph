@@ -6,36 +6,43 @@ layers = (
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
+alignment = -1;
 pos = (255,244);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (147,489);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (42,239);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (359,490);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (469,243);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (155,-5);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (367,-5);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
@@ -47,36 +54,43 @@ width = 804;
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 pos = (249,234);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (139,473);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (36,234);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (353,473);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (459,234);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (139,-7);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (353,-7);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
@@ -88,36 +102,43 @@ width = 804;
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 pos = (252,234);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (151,468);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (52,234);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (353,468);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (454,234);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (151,0);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (353,0);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
@@ -129,36 +150,43 @@ width = 804;
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 pos = (191,234);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (108,479);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (28,234);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (270,479);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (354,234);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (110,-11);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (273,-11);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
@@ -170,36 +198,43 @@ width = 609;
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 pos = (199,234);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (116,473);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (35,234);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (280,473);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (364,234);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (117,-5);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (282,-5);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
@@ -211,36 +246,43 @@ width = 636;
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 pos = (210,234);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (126,469);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (44,234);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (294,469);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (379,234);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (126,-1);
 ref = "omonocular-cy";
 scale = (0.51,0.51);
 },
 {
+alignment = -1;
 pos = (294,-1);
 ref = "omonocular-cy";
 scale = (0.51,0.51);

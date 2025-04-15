@@ -43,9 +43,11 @@ layerId = "3e216f70-985d-41f2-b78f-e78c77cf2aa6";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = UpsilonhookSymbol;
 },
 {
+alignment = -1;
 pos = (-113,0);
 ref = tonos.case;
 }

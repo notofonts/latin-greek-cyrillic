@@ -103,7 +103,7 @@ alignment = -1;
 ref = U;
 },
 {
-pos = (692,168);
+pos = (724,168);
 ref = tildecomb;
 }
 );

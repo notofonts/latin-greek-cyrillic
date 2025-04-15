@@ -59,10 +59,12 @@ pos = (418,0);
 ref = Eta;
 },
 {
+alignment = -1;
 pos = (-21,0);
 ref = psilioxia.case;
 },
 {
+alignment = -1;
 pos = (1183,0);
 ref = prosgegrammeni;
 }

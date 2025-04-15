@@ -431,11 +431,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (122,0);
+pos = (-135,-240);
 ref = retroflexhookcomb;
 }
 );
-width = 369;
+width = 231;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -446,11 +446,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (134,0);
+pos = (-135,-240);
 ref = retroflexhookcomb;
 }
 );
-width = 321;
+width = 231;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -461,11 +461,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (209,0);
+pos = (-135,-240);
 ref = retroflexhookcomb;
 }
 );
-width = 407;
+width = 231;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -476,11 +476,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (278,0);
+pos = (-135,-240);
 ref = retroflexhookcomb;
 }
 );
-width = 435;
+width = 231;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -491,11 +491,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (112,0);
+pos = (-135,-240);
 ref = retroflexhookcomb;
 }
 );
-width = 250;
+width = 231;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -506,11 +506,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (159,0);
+pos = (-135,-240);
 ref = retroflexhookcomb;
 }
 );
-width = 299;
+width = 231;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -521,11 +521,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (195,0);
+pos = (-135,-240);
 ref = retroflexhookcomb;
 }
 );
-width = 335;
+width = 231;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -536,11 +536,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (221,-4);
+pos = (-135,-240);
 ref = retroflexhookcomb;
 }
 );
-width = 363;
+width = 231;
 }
 );
 metricLeft = tretroflexhook;

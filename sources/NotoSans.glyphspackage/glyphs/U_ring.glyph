@@ -103,7 +103,7 @@ alignment = -1;
 ref = U;
 },
 {
-pos = (374,168);
+pos = (386,168);
 ref = ringcomb;
 }
 );

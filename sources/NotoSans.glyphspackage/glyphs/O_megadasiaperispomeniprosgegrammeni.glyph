@@ -59,10 +59,12 @@ pos = (395,0);
 ref = Omega;
 },
 {
+alignment = -1;
 pos = (-30,0);
 ref = dasiaperispomeni.case;
 },
 {
+alignment = -1;
 pos = (633,0);
 ref = ypogegrammeni;
 }

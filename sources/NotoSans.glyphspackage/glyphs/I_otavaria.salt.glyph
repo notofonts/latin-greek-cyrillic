@@ -54,7 +54,7 @@ pos = (244,0);
 ref = Iota.salt;
 },
 {
-alignment = 1;
+alignment = -1;
 pos = (-30,0);
 ref = varia.case;
 }

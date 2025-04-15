@@ -42,9 +42,11 @@ layerId = "56d9af20-6097-46fb-a88e-3f2bf2bbc415";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = upsilon;
 },
 {
+alignment = -1;
 pos = (289,0);
 ref = macroncomb;
 }

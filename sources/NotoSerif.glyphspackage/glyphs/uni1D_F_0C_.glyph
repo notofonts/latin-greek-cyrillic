@@ -45,9 +45,11 @@ width = 519;
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 ref = eshcurl;
 },
 {
+alignment = -1;
 pos = (-35,-295);
 ref = equalsuperior;
 }

@@ -542,12 +542,12 @@ layerId = "10BFA44F-E6AA-4865-9121-2823FD16FA95";
 name = "Display Regular";
 shapes = (
 {
-pos = (538,0);
+pos = (372,0);
 ref = g;
 scale = (-1,1);
 }
 );
-width = 538;
+width = 486;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -555,12 +555,12 @@ layerId = "B0FB444A-E74D-436F-B895-49B982F8BF08";
 name = "Display Light";
 shapes = (
 {
-pos = (510,0);
+pos = (372,0);
 ref = g;
 scale = (-1,1);
 }
 );
-width = 510;
+width = 486;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -568,12 +568,12 @@ layerId = "3191161A-E72E-47C9-869E-103505208751";
 name = "Display SemiBold";
 shapes = (
 {
-pos = (560,0);
+pos = (372,0);
 ref = g;
 scale = (-1,1);
 }
 );
-width = 560;
+width = 486;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -581,12 +581,12 @@ layerId = "644449AA-E48C-4E2F-8B12-FCBF2850D3A5";
 name = "Display Bold";
 shapes = (
 {
-pos = (576,0);
+pos = (372,0);
 ref = g;
 scale = (-1,1);
 }
 );
-width = 576;
+width = 486;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -594,12 +594,12 @@ layerId = "CF505F3C-0CC8-4219-B27A-DF48CCC081D9";
 name = "Display Light Condensed";
 shapes = (
 {
-pos = (391,0);
+pos = (372,0);
 ref = g;
 scale = (-1,1);
 }
 );
-width = 391;
+width = 486;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -607,12 +607,12 @@ layerId = "72A8FA9A-4C7F-42C8-B73F-C4CA998D7924";
 name = "Display Condensed";
 shapes = (
 {
-pos = (430,0);
+pos = (372,0);
 ref = g;
 scale = (-1,1);
 }
 );
-width = 430;
+width = 486;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -620,12 +620,12 @@ layerId = "539710FD-14AB-4EB3-A1C2-01F16808EDF5";
 name = "Display SemiBold Condensed";
 shapes = (
 {
-pos = (458,0);
+pos = (372,0);
 ref = g;
 scale = (-1,1);
 }
 );
-width = 458;
+width = 486;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -633,12 +633,12 @@ layerId = "F2637B31-968A-4781-AC53-9A098FB32DDA";
 name = "Display Bold Condensed";
 shapes = (
 {
-pos = (480,0);
+pos = (372,0);
 ref = g;
 scale = (-1,1);
 }
 );
-width = 480;
+width = 486;
 }
 );
 unicode = 122625;

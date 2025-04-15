@@ -17,13 +17,12 @@ pos = (179,714);
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
-alignment = -1;
 ref = I;
 },
 {
-alignment = -1;
-pos = (-17,0);
-ref = ogonek;
+anchor = ogonek;
+pos = (-77,0);
+ref = ogonekcomb;
 }
 );
 width = 165;
@@ -42,13 +41,12 @@ pos = (236,714);
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
-alignment = -1;
 ref = I;
 },
 {
-alignment = -1;
-pos = (59,0);
-ref = ogonek;
+anchor = ogonek;
+pos = (-19,0);
+ref = ogonekcomb;
 }
 );
 width = 279;
@@ -75,13 +73,12 @@ layerId = "1762bf2d-93e4-48c5-a754-35427332f7e6";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
-alignment = -1;
 ref = I;
 },
 {
-alignment = -1;
-pos = (74,0);
-ref = ogonek;
+anchor = ogonek;
+pos = (83,0);
+ref = ogonekcomb;
 }
 );
 width = 383;
@@ -108,13 +105,12 @@ layerId = "cdaade6a-0ed9-4ec4-b48e-c65bc826fb22";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
-alignment = -1;
 ref = I;
 },
 {
-alignment = -1;
-pos = (37,0);
-ref = ogonek;
+anchor = ogonek;
+pos = (52,0);
+ref = ogonekcomb;
 }
 );
 width = 317;
@@ -133,13 +129,12 @@ pos = (257,714);
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
-alignment = -1;
 ref = I;
 },
 {
-alignment = -1;
-pos = (57,0);
-ref = ogonek;
+anchor = ogonek;
+pos = (28,0);
+ref = ogonekcomb;
 }
 );
 width = 324;
@@ -158,13 +153,12 @@ pos = (224,714);
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
-alignment = -1;
 ref = I;
 },
 {
-alignment = -1;
-pos = (15,0);
-ref = ogonek;
+anchor = ogonek;
+pos = (6,0);
+ref = ogonekcomb;
 }
 );
 width = 260;
@@ -183,13 +177,12 @@ pos = (278,714);
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
-alignment = -1;
 ref = I;
 },
 {
-alignment = -1;
-pos = (58,0);
-ref = ogonek;
+anchor = ogonek;
+pos = (100,0);
+ref = ogonekcomb;
 }
 );
 width = 373;
@@ -208,13 +201,12 @@ pos = (297,714);
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
-alignment = -1;
 ref = I;
 },
 {
-alignment = -1;
-pos = (106,0);
-ref = ogonek;
+anchor = ogonek;
+pos = (123,0);
+ref = ogonekcomb;
 }
 );
 width = 426;

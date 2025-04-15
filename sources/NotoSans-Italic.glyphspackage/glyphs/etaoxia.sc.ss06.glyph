@@ -42,9 +42,11 @@ layerId = "d8e23167-f6d6-4a7f-98d9-2b535f3cbfcb";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = eta.sc;
 },
 {
+alignment = -1;
 pos = (232,36);
 ref = oxia.sc;
 }
@@ -102,9 +104,11 @@ layerId = "734c62fe-98a2-49d5-a19e-b388fe08aed4";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = eta.sc;
 },
 {
+alignment = -1;
 pos = (149,33);
 ref = oxia.sc;
 }

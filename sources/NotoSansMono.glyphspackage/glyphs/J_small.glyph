@@ -60,6 +60,7 @@ pos = (380,553);
 layerId = "963C7F4A-CFE2-43FC-8D10-B7434095D111";
 shapes = (
 {
+alignment = -1;
 pos = (-13,-1);
 ref = j.sc;
 scale = (0.938,0.938);

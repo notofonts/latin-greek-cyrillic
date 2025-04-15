@@ -308,12 +308,12 @@ layerId = "10BFA44F-E6AA-4865-9121-2823FD16FA95";
 name = "Display Regular";
 shapes = (
 {
-pos = (585,0);
+pos = (419,0);
 ref = k;
 scale = (-1,1);
 }
 );
-width = 590;
+width = 533;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -321,12 +321,12 @@ layerId = "B0FB444A-E74D-436F-B895-49B982F8BF08";
 name = "Display Light";
 shapes = (
 {
-pos = (521,0);
+pos = (419,0);
 ref = k;
 scale = (-1,1);
 }
 );
-width = 522;
+width = 533;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -334,12 +334,12 @@ layerId = "3191161A-E72E-47C9-869E-103505208751";
 name = "Display SemiBold";
 shapes = (
 {
-pos = (636,0);
+pos = (419,0);
 ref = k;
 scale = (-1,1);
 }
 );
-width = 644;
+width = 533;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -347,12 +347,12 @@ layerId = "644449AA-E48C-4E2F-8B12-FCBF2850D3A5";
 name = "Display Bold";
 shapes = (
 {
-pos = (674,0);
+pos = (419,0);
 ref = k;
 scale = (-1,1);
 }
 );
-width = 685;
+width = 533;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -360,12 +360,12 @@ layerId = "CF505F3C-0CC8-4219-B27A-DF48CCC081D9";
 name = "Display Light Condensed";
 shapes = (
 {
-pos = (405,0);
+pos = (419,0);
 ref = k;
 scale = (-1,1);
 }
 );
-width = 409;
+width = 533;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -373,12 +373,12 @@ layerId = "72A8FA9A-4C7F-42C8-B73F-C4CA998D7924";
 name = "Display Condensed";
 shapes = (
 {
-pos = (473,0);
+pos = (419,0);
 ref = k;
 scale = (-1,1);
 }
 );
-width = 480;
+width = 533;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -386,12 +386,12 @@ layerId = "539710FD-14AB-4EB3-A1C2-01F16808EDF5";
 name = "Display SemiBold Condensed";
 shapes = (
 {
-pos = (523,0);
+pos = (419,0);
 ref = k;
 scale = (-1,1);
 }
 );
-width = 532;
+width = 533;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -399,12 +399,12 @@ layerId = "F2637B31-968A-4781-AC53-9A098FB32DDA";
 name = "Display Bold Condensed";
 shapes = (
 {
-pos = (562,0);
+pos = (419,0);
 ref = k;
 scale = (-1,1);
 }
 );
-width = 572;
+width = 533;
 }
 );
 metricLeft = "=|k";

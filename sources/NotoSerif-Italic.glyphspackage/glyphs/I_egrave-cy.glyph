@@ -19,11 +19,11 @@ pos = (401,931);
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
-pos = (190,165);
-ref = grave;
+ref = "Ie-cy";
 },
 {
-ref = "Ie-cy";
+pos = (601,178);
+ref = gravecomb;
 }
 );
 width = 582;
@@ -42,11 +42,11 @@ pos = (410,931);
 layerId = UUID0;
 shapes = (
 {
-pos = (150,165);
-ref = grave;
+ref = "Ie-cy";
 },
 {
-ref = "Ie-cy";
+pos = (707,178);
+ref = gravecomb;
 }
 );
 width = 628;
@@ -73,11 +73,11 @@ layerId = "36ee4c32-dab5-4ef4-afc3-92f093fb7bcc";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
-pos = (128,165);
-ref = grave;
+ref = "Ie-cy";
 },
 {
-ref = "Ie-cy";
+pos = (784,178);
+ref = gravecomb;
 }
 );
 width = 653;
@@ -96,11 +96,11 @@ pos = (409,931);
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
-pos = (102,165);
-ref = grave;
+ref = "Ie-cy";
 },
 {
-ref = "Ie-cy";
+pos = (838,178);
+ref = gravecomb;
 }
 );
 width = 648;
@@ -119,11 +119,11 @@ pos = (322,931);
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
-pos = (119,165);
-ref = grave;
+ref = "Ie-cy";
 },
 {
-ref = "Ie-cy";
+pos = (442,178);
+ref = gravecomb;
 }
 );
 width = 444;
@@ -142,11 +142,11 @@ pos = (337,931);
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
-pos = (99,165);
-ref = grave;
+ref = "Ie-cy";
 },
 {
-ref = "Ie-cy";
+pos = (565,178);
+ref = gravecomb;
 }
 );
 width = 499;
@@ -165,11 +165,11 @@ pos = (372,931);
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
-pos = (90,165);
-ref = grave;
+ref = "Ie-cy";
 },
 {
-ref = "Ie-cy";
+pos = (711,178);
+ref = gravecomb;
 }
 );
 width = 565;

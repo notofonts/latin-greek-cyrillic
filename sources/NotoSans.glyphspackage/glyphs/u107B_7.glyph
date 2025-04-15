@@ -63,7 +63,7 @@ ref = clicklateral;
 scale = (0.65,0.6);
 }
 );
-width = 279;
+width = 280;
 },
 {
 layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";

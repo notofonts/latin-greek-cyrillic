@@ -42,9 +42,11 @@ layerId = "8f89a6e8-a129-4de8-a7f4-f9e9325fb655";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (133,0);
 ref = varia;
 }
@@ -102,9 +104,11 @@ layerId = "72caba74-0553-490d-b8c1-a4c3c96c1ae8";
 name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (85,0);
 ref = varia;
 }
