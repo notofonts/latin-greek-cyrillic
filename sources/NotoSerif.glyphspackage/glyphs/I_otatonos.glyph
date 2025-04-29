@@ -8,10 +8,12 @@ layers = (
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 pos = (208,0);
 ref = Iota;
 },
 {
+alignment = -1;
 pos = (-50,0);
 ref = tonos.case;
 }
@@ -22,10 +24,12 @@ width = 634;
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 pos = (145,0);
 ref = Iota;
 },
 {
+alignment = -1;
 pos = (-50,0);
 ref = tonos.case;
 }
@@ -44,10 +48,12 @@ layerId = "b4eb2d80-be8b-4cf9-94f7-bfd0dc2f0d6d";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 pos = (163,0);
 ref = Iota;
 },
 {
+alignment = -1;
 pos = (-50,0);
 ref = tonos.case;
 }
@@ -58,10 +64,12 @@ width = 564;
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 pos = (184,0);
 ref = Iota;
 },
 {
+alignment = -1;
 pos = (-50,0);
 ref = tonos.case;
 }
@@ -72,10 +80,12 @@ width = 539;
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 pos = (82,0);
 ref = Iota;
 },
 {
+alignment = -1;
 pos = (-50,0);
 ref = tonos.case;
 }
@@ -86,10 +96,12 @@ width = 335;
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
+alignment = -1;
 pos = (82,0);
 ref = Iota;
 },
 {
+alignment = -1;
 pos = (-50,0);
 ref = tonos.case;
 }
@@ -100,10 +112,12 @@ width = 407;
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 pos = (141,0);
 ref = Iota;
 },
 {
+alignment = -1;
 pos = (-50,0);
 ref = tonos.case;
 }
@@ -122,10 +136,12 @@ layerId = "28397da6-df0f-4def-bb99-ba9041b34fde";
 name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
+alignment = -1;
 pos = (158,0);
 ref = Iota;
 },
 {
+alignment = -1;
 pos = (-50,0);
 ref = tonos.case;
 }

@@ -46,6 +46,7 @@ pos = (629,721);
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 angle = 90;
 pos = (619,-196);
 ref = mturned;
@@ -71,6 +72,7 @@ pos = (634,765);
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 angle = 90;
 pos = (619,-227);
 ref = mturned;
@@ -96,6 +98,7 @@ pos = (563,603);
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 angle = 90;
 pos = (557,-55);
 ref = mturned;
@@ -121,6 +124,7 @@ pos = (565,626);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 angle = 90;
 pos = (555,-107);
 ref = mturned;
@@ -146,6 +150,7 @@ pos = (567,678);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 angle = 90;
 pos = (553,-150);
 ref = mturned;

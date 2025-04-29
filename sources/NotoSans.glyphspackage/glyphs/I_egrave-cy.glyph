@@ -55,7 +55,7 @@ alignment = -1;
 ref = "Ie-cy";
 },
 {
-pos = (300,186);
+pos = (303,186);
 ref = gravecomb.loclCYR;
 }
 );
@@ -103,7 +103,7 @@ alignment = -1;
 ref = "Ie-cy";
 },
 {
-pos = (294,161);
+pos = (296,161);
 ref = gravecomb.loclCYR;
 }
 );
@@ -127,7 +127,7 @@ alignment = -1;
 ref = "Ie-cy";
 },
 {
-pos = (212,187);
+pos = (216,187);
 ref = gravecomb.loclCYR;
 }
 );

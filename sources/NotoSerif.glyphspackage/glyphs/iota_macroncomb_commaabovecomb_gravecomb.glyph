@@ -8,9 +8,11 @@ layers = (
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (-113,0);
 ref = psilivaria_macronmod;
 }
@@ -21,9 +23,11 @@ width = 230;
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (-62,0);
 ref = psilivaria_macronmod;
 }
@@ -34,9 +38,11 @@ width = 286;
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (-71,0);
 ref = psilivaria_macronmod;
 }
@@ -47,9 +53,11 @@ width = 399;
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (-56,0);
 ref = psilivaria_macronmod;
 }
@@ -60,9 +68,11 @@ width = 209;
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (-52,0);
 ref = psilivaria_macronmod;
 }
@@ -73,9 +83,11 @@ width = 276;
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (-77,0);
 ref = psilivaria_macronmod;
 }

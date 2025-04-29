@@ -81,9 +81,11 @@ layerId = "3e990b87-993e-4de0-8e73-08b6cf8efce0";
 name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (609,0);
 ref = iota.sc;
 }

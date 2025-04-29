@@ -22,11 +22,11 @@ shapes = (
 ref = aring.sc;
 },
 {
-pos = (96,142);
+pos = (65,127);
 ref = acutecomb.sc;
 }
 );
-width = 703;
+width = 706;
 },
 {
 anchors = (
@@ -45,11 +45,11 @@ shapes = (
 ref = aring.sc;
 },
 {
-pos = (58,121);
+pos = (9,133);
 ref = acutecomb.sc;
 }
 );
-width = 592;
+width = 593;
 },
 {
 anchors = (
@@ -76,11 +76,11 @@ shapes = (
 ref = aring.sc;
 },
 {
-pos = (80,133);
+pos = (45,145);
 ref = acutecomb.sc;
 }
 );
-width = 665;
+width = 666;
 },
 {
 anchors = (
@@ -99,11 +99,11 @@ shapes = (
 ref = aring.sc;
 },
 {
-pos = (81,135);
+pos = (55,162);
 ref = acutecomb.sc;
 }
 );
-width = 587;
+width = 589;
 },
 {
 anchors = (
@@ -122,7 +122,7 @@ shapes = (
 ref = aring.sc;
 },
 {
-pos = (21,105);
+pos = (-11,163);
 ref = acutecomb.sc;
 }
 );
@@ -145,11 +145,11 @@ shapes = (
 ref = aring.sc;
 },
 {
-pos = (-20,89);
+pos = (-30,159);
 ref = acutecomb.sc;
 }
 );
-width = 521;
+width = 518;
 },
 {
 anchors = (
@@ -168,11 +168,11 @@ shapes = (
 ref = aring.sc;
 },
 {
-pos = (38,113);
+pos = (14,163);
 ref = acutecomb.sc;
 }
 );
-width = 484;
+width = 485;
 }
 );
 metricWidth = a.sc;

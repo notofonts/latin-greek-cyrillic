@@ -8,9 +8,11 @@ layers = (
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (45,0);
 ref = perispomeni;
 }
@@ -21,9 +23,11 @@ width = 596;
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (63,0);
 ref = perispomeni;
 }
@@ -42,9 +46,11 @@ layerId = "a370fc0a-7bdb-462b-a9d2-3a05817bb2ed";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (51,0);
 ref = perispomeni;
 }
@@ -55,9 +61,11 @@ width = 675;
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (35,0);
 ref = perispomeni;
 }
@@ -68,9 +76,11 @@ width = 698;
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (24,0);
 ref = perispomeni;
 }
@@ -81,9 +91,11 @@ width = 487;
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (56,0);
 ref = perispomeni;
 }
@@ -102,9 +114,11 @@ layerId = "4259d92d-8832-4bae-8e7b-1b935331bacc";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (60,0);
 ref = perispomeni;
 }
@@ -115,9 +129,11 @@ width = 580;
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (56,0);
 ref = perispomeni;
 }

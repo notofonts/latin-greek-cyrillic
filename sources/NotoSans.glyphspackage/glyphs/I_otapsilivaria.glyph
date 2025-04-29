@@ -51,6 +51,7 @@ pos = (458,0);
 ref = Iota;
 },
 {
+alignment = -1;
 pos = (-21,0);
 ref = psilivaria.case;
 }

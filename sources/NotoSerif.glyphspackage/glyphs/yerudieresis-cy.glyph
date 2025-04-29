@@ -19,13 +19,11 @@ pos = (363,738);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-alignment = -1;
-pos = (75,0);
-ref = dieresis;
+ref = "yeru-cy";
 },
 {
-alignment = -1;
-ref = "yeru-cy";
+pos = (81,0);
+ref = dieresiscomb;
 }
 );
 width = 740;
@@ -44,11 +42,11 @@ pos = (413,744);
 layerId = UUID0;
 shapes = (
 {
-pos = (125,0);
-ref = dieresis;
+ref = "yeru-cy";
 },
 {
-ref = "yeru-cy";
+pos = (122,0);
+ref = dieresiscomb;
 }
 );
 width = 820;
@@ -75,11 +73,11 @@ layerId = "1bcb9d08-6cb6-4f7e-b5ea-a8e032197f7c";
 name = "SemiBold (intermediate)";
 shapes = (
 {
-pos = (172,0);
-ref = dieresis;
+ref = "yeru-cy";
 },
 {
-ref = "yeru-cy";
+pos = (155,0);
+ref = dieresiscomb;
 }
 );
 width = 876;
@@ -98,11 +96,11 @@ pos = (482,762);
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
-pos = (207,0);
-ref = dieresis;
+ref = "yeru-cy";
 },
 {
-ref = "yeru-cy";
+pos = (195,0);
+ref = dieresiscomb;
 }
 );
 width = 945;
@@ -121,11 +119,11 @@ pos = (286,736);
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
-pos = (67,0);
-ref = dieresis;
+ref = "yeru-cy";
 },
 {
-ref = "yeru-cy";
+pos = (63,0);
+ref = dieresiscomb;
 }
 );
 width = 563;
@@ -144,11 +142,11 @@ pos = (335,745);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
-pos = (108,0);
-ref = dieresis;
+ref = "yeru-cy";
 },
 {
-ref = "yeru-cy";
+pos = (102,0);
+ref = dieresiscomb;
 }
 );
 width = 657;
@@ -175,11 +173,11 @@ layerId = "29f33489-5521-487e-871c-e3f4d3acf2a8";
 name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
-pos = (145,0);
-ref = dieresis;
+ref = "yeru-cy";
 },
 {
-ref = "yeru-cy";
+pos = (135,0);
+ref = dieresiscomb;
 }
 );
 width = 745;
@@ -198,11 +196,11 @@ pos = (402,758);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
-pos = (173,0);
-ref = dieresis;
+ref = "yeru-cy";
 },
 {
-ref = "yeru-cy";
+pos = (159,0);
+ref = dieresiscomb;
 }
 );
 width = 785;

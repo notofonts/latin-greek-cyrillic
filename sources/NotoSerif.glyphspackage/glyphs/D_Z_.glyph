@@ -133,9 +133,11 @@ pos = (965,714);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 ref = D;
 },
 {
+alignment = -1;
 pos = (664,0);
 ref = Z;
 }

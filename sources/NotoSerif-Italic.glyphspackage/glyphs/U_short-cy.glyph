@@ -79,7 +79,7 @@ alignment = -1;
 ref = "U-cy";
 },
 {
-pos = (189,0);
+pos = (181,0);
 ref = cyrillicbreve.cap;
 }
 );
@@ -103,7 +103,7 @@ alignment = -1;
 ref = "U-cy";
 },
 {
-pos = (197,0);
+pos = (196,0);
 ref = cyrillicbreve.cap;
 }
 );

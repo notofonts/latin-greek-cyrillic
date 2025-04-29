@@ -43,9 +43,11 @@ layerId = "559102ea-a014-4f6e-8e62-4822c96ce59d";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (-90,0);
 ref = psilioxia_brevecomb;
 }

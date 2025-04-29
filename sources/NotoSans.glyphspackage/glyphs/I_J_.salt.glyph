@@ -44,11 +44,11 @@ shapes = (
 ref = I.salt;
 },
 {
-pos = (331,0);
+pos = (323,0);
 ref = J.salt;
 }
 );
-width = 787;
+width = 783;
 },
 {
 layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";

@@ -102,9 +102,11 @@ layerId = "31c0b40b-3022-41a4-9e1b-3e8ee38686fe";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = alpha.sc;
 },
 {
+alignment = -1;
 pos = (14,39);
 ref = brevecomb.sc;
 }

@@ -6,6 +6,7 @@ layers = (
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
+alignment = -1;
 pos = (0,287);
 ref = clicklateral;
 scale = (0.65,0.6);
@@ -28,6 +29,7 @@ width = 382;
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 pos = (0,287);
 ref = clicklateral;
 scale = (0.65,0.6);
@@ -39,6 +41,7 @@ width = 397;
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 pos = (0,287);
 ref = clicklateral;
 scale = (0.65,0.6);

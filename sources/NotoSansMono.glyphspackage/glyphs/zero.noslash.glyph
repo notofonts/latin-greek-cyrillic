@@ -43,6 +43,7 @@ nodes = (
 width = 600;
 },
 {
+associatedMasterId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
 layerId = "A3018D0F-8B4B-4295-AE04-84912D9BB11D";
 shapes = (
 {
@@ -243,6 +244,7 @@ nodes = (
 width = 500;
 },
 {
+associatedMasterId = "02EF4DD5-EF93-4764-9336-ED93C6797AC3";
 layerId = "28AE7390-0F8D-4D03-A566-30BDF518EAE7";
 shapes = (
 {

@@ -84,6 +84,7 @@ pos = (377,577);
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
+alignment = -1;
 pos = (-12,-59);
 ref = psilivaria;
 }

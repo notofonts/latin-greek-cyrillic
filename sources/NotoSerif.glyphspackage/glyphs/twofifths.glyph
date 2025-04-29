@@ -7,13 +7,16 @@ layers = (
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
+alignment = -1;
 ref = two.numr;
 },
 {
+alignment = -1;
 pos = (415,0);
 ref = fraction;
 },
 {
+alignment = -1;
 pos = (462,0);
 ref = five.dnom;
 }
@@ -24,13 +27,16 @@ width = 862;
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 ref = two.numr;
 },
 {
+alignment = -1;
 pos = (421,0);
 ref = fraction;
 },
 {
+alignment = -1;
 pos = (478,0);
 ref = five.dnom;
 }
@@ -49,13 +55,16 @@ layerId = "684991a7-a046-498e-b1e0-3508609814f0";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = two.numr;
 },
 {
+alignment = -1;
 pos = (430,0);
 ref = fraction;
 },
 {
+alignment = -1;
 pos = (498,0);
 ref = five.dnom;
 }
@@ -66,13 +75,16 @@ width = 898;
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 ref = two.numr;
 },
 {
+alignment = -1;
 pos = (445,0);
 ref = fraction;
 },
 {
+alignment = -1;
 pos = (513,0);
 ref = five.dnom;
 }
@@ -83,13 +95,16 @@ width = 913;
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 ref = two.numr;
 },
 {
+alignment = -1;
 pos = (309,0);
 ref = fraction;
 },
 {
+alignment = -1;
 pos = (346,0);
 ref = five.dnom;
 }
@@ -100,13 +115,16 @@ width = 649;
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 ref = two.numr;
 },
 {
+alignment = -1;
 pos = (334,0);
 ref = fraction;
 },
 {
+alignment = -1;
 pos = (378,0);
 ref = five.dnom;
 }
@@ -125,13 +143,16 @@ layerId = "d68e7912-9d4a-4e17-83a8-b18086bc68b2";
 name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = two.numr;
 },
 {
+alignment = -1;
 pos = (349,0);
 ref = fraction;
 },
 {
+alignment = -1;
 pos = (395,0);
 ref = five.dnom;
 }
@@ -142,13 +163,16 @@ width = 721;
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 ref = two.numr;
 },
 {
+alignment = -1;
 pos = (367,0);
 ref = fraction;
 },
 {
+alignment = -1;
 pos = (425,0);
 ref = five.dnom;
 }

@@ -22,7 +22,7 @@ ref = clickdental;
 scale = (0.65,0.6);
 }
 );
-width = 219;
+width = 218;
 },
 {
 associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
@@ -85,7 +85,7 @@ ref = clickdental;
 scale = (0.65,0.6);
 }
 );
-width = 208;
+width = 209;
 }
 );
 metricRight = "=|";

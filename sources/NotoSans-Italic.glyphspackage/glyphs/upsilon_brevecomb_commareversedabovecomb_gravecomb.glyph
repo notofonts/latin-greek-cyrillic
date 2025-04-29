@@ -43,9 +43,11 @@ layerId = "35a5902d-ff82-4315-b1b6-4b5c1359f133";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = upsilon;
 },
 {
+alignment = -1;
 pos = (-22,0);
 ref = dasiavaria_brevecomb;
 }

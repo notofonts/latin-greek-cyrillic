@@ -6,67 +6,67 @@ layers = (
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
-pos = (42,287);
+pos = (41,287);
 ref = tccurl;
 scale = (0.65,0.6);
 }
 );
-width = 462;
+width = 417;
 },
 {
 layerId = UUID0;
 shapes = (
 {
-pos = (45,287);
+pos = (41,287);
 ref = tccurl;
 scale = (0.65,0.6);
 }
 );
-width = 540;
+width = 493;
 },
 {
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
-pos = (51,287);
+pos = (41,287);
 ref = tccurl;
 scale = (0.65,0.6);
 }
 );
-width = 655;
+width = 599;
 },
 {
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
-pos = (43,287);
+pos = (41,287);
 ref = tccurl;
 scale = (0.65,0.6);
 }
 );
-width = 374;
+width = 341;
 },
 {
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
-pos = (43,287);
+pos = (41,287);
 ref = tccurl;
 scale = (0.65,0.6);
 }
 );
-width = 441;
+width = 408;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
-pos = (47,287);
+pos = (41,287);
 ref = tccurl;
 scale = (0.65,0.6);
 }
 );
-width = 538;
+width = 497;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -74,12 +74,12 @@ layerId = "10BFA44F-E6AA-4865-9121-2823FD16FA95";
 name = "Display Regular";
 shapes = (
 {
-pos = (0,287);
+pos = (41,287);
 ref = tccurl;
 scale = (0.65,0.6);
 }
 );
-width = 501;
+width = 417;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -87,12 +87,12 @@ layerId = "B0FB444A-E74D-436F-B895-49B982F8BF08";
 name = "Display Light";
 shapes = (
 {
-pos = (0,287);
+pos = (41,287);
 ref = tccurl;
 scale = (0.65,0.6);
 }
 );
-width = 462;
+width = 417;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -100,12 +100,12 @@ layerId = "3191161A-E72E-47C9-869E-103505208751";
 name = "Display SemiBold";
 shapes = (
 {
-pos = (0,287);
+pos = (41,287);
 ref = tccurl;
 scale = (0.65,0.6);
 }
 );
-width = 571;
+width = 417;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -113,12 +113,12 @@ layerId = "644449AA-E48C-4E2F-8B12-FCBF2850D3A5";
 name = "Display Bold";
 shapes = (
 {
-pos = (0,287);
+pos = (41,287);
 ref = tccurl;
 scale = (0.65,0.6);
 }
 );
-width = 620;
+width = 417;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -126,12 +126,12 @@ layerId = "CF505F3C-0CC8-4219-B27A-DF48CCC081D9";
 name = "Display Light Condensed";
 shapes = (
 {
-pos = (0,287);
+pos = (41,287);
 ref = tccurl;
 scale = (0.65,0.6);
 }
 );
-width = 351;
+width = 417;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -139,12 +139,12 @@ layerId = "72A8FA9A-4C7F-42C8-B73F-C4CA998D7924";
 name = "Display Condensed";
 shapes = (
 {
-pos = (0,287);
+pos = (41,287);
 ref = tccurl;
 scale = (0.65,0.6);
 }
 );
-width = 422;
+width = 417;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -152,12 +152,12 @@ layerId = "539710FD-14AB-4EB3-A1C2-01F16808EDF5";
 name = "Display SemiBold Condensed";
 shapes = (
 {
-pos = (0,287);
+pos = (41,287);
 ref = tccurl;
 scale = (0.65,0.6);
 }
 );
-width = 476;
+width = 417;
 },
 {
 associatedMasterId = "A783126C-D342-49FA-8B69-0453AD03268C";
@@ -165,12 +165,12 @@ layerId = "F2637B31-968A-4781-AC53-9A098FB32DDA";
 name = "Display Bold Condensed";
 shapes = (
 {
-pos = (0,287);
+pos = (41,287);
 ref = tccurl;
 scale = (0.65,0.6);
 }
 );
-width = 517;
+width = 417;
 }
 );
 metricLeft = "=o*.5";

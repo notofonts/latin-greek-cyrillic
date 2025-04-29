@@ -11,6 +11,7 @@ name = _bottom;
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
+alignment = -1;
 pos = (-193,-278);
 ref = w;
 scale = (0.45,0.4);
@@ -27,6 +28,7 @@ name = _bottom;
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 pos = (-192,-278);
 ref = w;
 scale = (0.45,0.4);
@@ -43,6 +45,7 @@ name = _bottom;
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 pos = (-189,-278);
 ref = w;
 scale = (0.45,0.4);
@@ -59,6 +62,7 @@ name = _bottom;
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 pos = (-147,-278);
 ref = w;
 scale = (0.45,0.4);
@@ -75,6 +79,7 @@ name = _bottom;
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 pos = (-151,-278);
 ref = w;
 scale = (0.45,0.4);
@@ -91,6 +96,7 @@ name = _bottom;
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 pos = (-157,-278);
 ref = w;
 scale = (0.45,0.4);

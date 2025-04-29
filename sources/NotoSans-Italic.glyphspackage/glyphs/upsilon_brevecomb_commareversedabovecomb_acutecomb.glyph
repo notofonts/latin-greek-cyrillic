@@ -43,9 +43,11 @@ layerId = "2560239a-ec56-472c-abde-984417dcfa9d";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = upsilon;
 },
 {
+alignment = -1;
 pos = (44,0);
 ref = dasiaoxia_brevecomb;
 }

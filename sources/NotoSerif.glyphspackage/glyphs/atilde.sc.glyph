@@ -142,12 +142,10 @@ pos = (261,735);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-alignment = -1;
 ref = a.sc;
 },
 {
-alignment = -1;
-pos = (-29,35);
+pos = (-30,35);
 ref = tildecomb.sc;
 }
 );

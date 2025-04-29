@@ -111,9 +111,11 @@ layerId = "d33295a3-0ee9-41a9-9180-740521ec6116";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = omicron.sc;
 },
 {
+alignment = -1;
 pos = (158,33);
 ref = tonos.sc;
 }

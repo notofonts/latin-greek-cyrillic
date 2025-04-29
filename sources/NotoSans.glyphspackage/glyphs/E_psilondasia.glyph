@@ -51,6 +51,7 @@ pos = (193,0);
 ref = Epsilon;
 },
 {
+alignment = -1;
 pos = (-51,0);
 ref = dasia.case;
 }

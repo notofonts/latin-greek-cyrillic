@@ -110,12 +110,10 @@ pos = (281,801);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-alignment = -1;
 ref = c.sc;
 },
 {
-alignment = -1;
-pos = (12,35);
+pos = (-8,35);
 ref = acutecomb.sc;
 }
 );

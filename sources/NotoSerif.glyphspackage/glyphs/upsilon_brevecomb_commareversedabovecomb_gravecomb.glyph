@@ -9,9 +9,11 @@ layers = (
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
+alignment = -1;
 ref = upsilon;
 },
 {
+alignment = -1;
 pos = (52,0);
 ref = dasiavaria_brevecomb;
 }
@@ -22,9 +24,11 @@ width = 502;
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 ref = upsilon;
 },
 {
+alignment = -1;
 pos = (29,0);
 ref = dasiavaria_brevecomb;
 }
@@ -35,9 +39,11 @@ width = 541;
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 ref = upsilon;
 },
 {
+alignment = -1;
 pos = (66,-11);
 ref = dasiavaria_brevecomb;
 }
@@ -48,9 +54,11 @@ width = 647;
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 ref = upsilon;
 },
 {
+alignment = -1;
 pos = (28,-29);
 ref = dasiavaria_brevecomb;
 }
@@ -61,9 +69,11 @@ width = 413;
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 ref = upsilon;
 },
 {
+alignment = -1;
 pos = (33,-23);
 ref = dasiavaria_brevecomb;
 }
@@ -82,9 +92,11 @@ layerId = "2af34696-41d4-4717-9b0f-f65ab09fe27f";
 name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = upsilon;
 },
 {
+alignment = -1;
 pos = (24,-18);
 ref = dasiavaria_brevecomb;
 }
@@ -95,9 +107,11 @@ width = 528;
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 ref = upsilon;
 },
 {
+alignment = -1;
 pos = (49,-18);
 ref = dasiavaria_brevecomb;
 }

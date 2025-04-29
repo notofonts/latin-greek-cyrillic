@@ -42,9 +42,11 @@ layerId = "a9b06b2e-92ce-48c8-8f21-6cdf57f570f7";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = alpha.sc;
 },
 {
+alignment = -1;
 pos = (47,36);
 ref = psiliperispomeni.sc;
 }
@@ -102,9 +104,11 @@ layerId = "b6c50284-bf96-46dd-a427-157bd46e6e11";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = alpha.sc;
 },
 {
+alignment = -1;
 pos = (5,35);
 ref = psiliperispomeni.sc;
 }

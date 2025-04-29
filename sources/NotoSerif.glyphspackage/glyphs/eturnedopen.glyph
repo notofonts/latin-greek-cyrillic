@@ -38,6 +38,7 @@ pos = (234,536);
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 angle = 180;
 pos = (475,535);
 ref = "reversedze-cy";
@@ -59,6 +60,7 @@ pos = (268,536);
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 angle = 180;
 pos = (558,540);
 ref = "reversedze-cy";
@@ -80,6 +82,7 @@ pos = (173,536);
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 angle = 180;
 pos = (343,533);
 ref = "reversedze-cy";
@@ -101,6 +104,7 @@ pos = (190,536);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 angle = 180;
 pos = (395,535);
 ref = "reversedze-cy";
@@ -122,6 +126,7 @@ pos = (233,536);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 angle = 180;
 pos = (467,539);
 ref = "reversedze-cy";
