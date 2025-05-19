@@ -1,7 +1,10 @@
 name: Build, QA, Release
-on:
-  - push
-  - pull_request
+
+on: push
+
+permissions:
+  pages: write
+  id-token: write
 
 jobs:
   build_font:
