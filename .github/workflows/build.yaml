@@ -5,6 +5,7 @@ on: push
 permissions:
   pages: write
   id-token: write
+  contents: write
 
 jobs:
   build_font:
