@@ -50,13 +50,16 @@ layerId = "40837833-3401-4cc0-9e2e-5d33d1dad98f";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = Omega;
 },
 {
+alignment = -1;
 pos = (-412,0);
 ref = psiliperispomeni.case;
 },
 {
+alignment = -1;
 pos = (772,0);
 ref = prosgegrammeni;
 }
@@ -126,13 +129,16 @@ layerId = "83710fb9-f995-4803-9551-5c6fabfba989";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = Omega;
 },
 {
+alignment = -1;
 pos = (-365,0);
 ref = psiliperispomeni.case;
 },
 {
+alignment = -1;
 pos = (609,0);
 ref = prosgegrammeni;
 }

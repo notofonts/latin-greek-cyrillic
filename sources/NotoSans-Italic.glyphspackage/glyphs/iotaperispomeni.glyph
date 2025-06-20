@@ -42,9 +42,11 @@ layerId = "94dacbca-9f0b-49d7-b041-370b287580c2";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (-115,0);
 ref = perispomeni;
 }

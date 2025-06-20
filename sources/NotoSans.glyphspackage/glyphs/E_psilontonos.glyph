@@ -51,6 +51,7 @@ pos = (224,0);
 ref = Epsilon;
 },
 {
+alignment = -1;
 pos = (-30,0);
 ref = tonos.case;
 }

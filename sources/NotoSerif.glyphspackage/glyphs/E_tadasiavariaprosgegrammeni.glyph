@@ -8,14 +8,17 @@ layers = (
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
+alignment = -1;
 pos = (195,0);
 ref = Eta;
 },
 {
+alignment = -1;
 pos = (-62,0);
 ref = dasiavaria.case;
 },
 {
+alignment = -1;
 pos = (507,0);
 ref = ypogegrammeni;
 }
@@ -26,14 +29,17 @@ width = 956;
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 pos = (291,0);
 ref = Eta;
 },
 {
+alignment = -1;
 pos = (-66,0);
 ref = dasiavaria.case;
 },
 {
+alignment = -1;
 pos = (575,0);
 ref = ypogegrammeni;
 }
@@ -52,14 +58,17 @@ layerId = "8f53c45a-8785-405e-b891-23de9e5b1055";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 pos = (338,0);
 ref = Eta;
 },
 {
+alignment = -1;
 pos = (-80,0);
 ref = dasiavaria.case;
 },
 {
+alignment = -1;
 pos = (609,0);
 ref = ypogegrammeni;
 }
@@ -70,14 +79,17 @@ width = 1157;
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 pos = (387,0);
 ref = Eta;
 },
 {
+alignment = -1;
 pos = (-90,0);
 ref = dasiavaria.case;
 },
 {
+alignment = -1;
 pos = (654,0);
 ref = ypogegrammeni;
 }
@@ -88,14 +100,17 @@ width = 1225;
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 pos = (209,0);
 ref = Eta;
 },
 {
+alignment = -1;
 pos = (-49,0);
 ref = dasiavaria.case;
 },
 {
+alignment = -1;
 pos = (430,0);
 ref = ypogegrammeni;
 }
@@ -106,14 +121,17 @@ width = 792;
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 pos = (282,0);
 ref = Eta;
 },
 {
+alignment = -1;
 pos = (-61,0);
 ref = dasiavaria.case;
 },
 {
+alignment = -1;
 pos = (487,0);
 ref = ypogegrammeni;
 }
@@ -132,14 +150,17 @@ layerId = "268b19bd-a54c-44b2-9002-85f6886ef333";
 name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
+alignment = -1;
 pos = (309,0);
 ref = Eta;
 },
 {
+alignment = -1;
 pos = (-70,0);
 ref = dasiavaria.case;
 },
 {
+alignment = -1;
 pos = (509,0);
 ref = ypogegrammeni;
 }
@@ -150,14 +171,17 @@ width = 979;
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 pos = (361,0);
 ref = Eta;
 },
 {
+alignment = -1;
 pos = (-78,0);
 ref = dasiavaria.case;
 },
 {
+alignment = -1;
 pos = (560,0);
 ref = ypogegrammeni;
 }

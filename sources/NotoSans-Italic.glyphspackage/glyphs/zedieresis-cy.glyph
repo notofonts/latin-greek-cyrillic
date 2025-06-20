@@ -123,7 +123,6 @@ pos = (191,712);
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
-pos = (13,0);
 ref = "ze-cy";
 },
 {
@@ -148,7 +147,6 @@ pos = (215,733);
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
-pos = (1,0);
 ref = "ze-cy";
 },
 {
@@ -173,7 +171,6 @@ pos = (266,767);
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
-pos = (3,0);
 ref = "ze-cy";
 },
 {

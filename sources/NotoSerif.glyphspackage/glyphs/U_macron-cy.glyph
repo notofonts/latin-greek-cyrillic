@@ -12,9 +12,8 @@ shapes = (
 ref = "U-cy";
 },
 {
-alignment = -1;
-pos = (142,165);
-ref = macronmod;
+pos = (144,178);
+ref = macroncomb;
 }
 );
 width = 640;
@@ -26,8 +25,8 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (147,165);
-ref = macronmod;
+pos = (165,178);
+ref = macroncomb;
 }
 );
 width = 650;
@@ -47,8 +46,8 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (172,165);
-ref = macronmod;
+pos = (201,178);
+ref = macroncomb;
 }
 );
 width = 700;
@@ -60,8 +59,8 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (177,165);
-ref = macronmod;
+pos = (231,178);
+ref = macroncomb;
 }
 );
 width = 710;
@@ -73,8 +72,8 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (106,168);
-ref = macronmod;
+pos = (100,178);
+ref = macroncomb;
 }
 );
 width = 497;
@@ -86,8 +85,8 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (115,165);
-ref = macronmod;
+pos = (126,178);
+ref = macroncomb;
 }
 );
 width = 528;
@@ -99,8 +98,8 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (144,165);
-ref = macronmod;
+pos = (194,178);
+ref = macroncomb;
 }
 );
 width = 600;

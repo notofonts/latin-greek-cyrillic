@@ -103,7 +103,7 @@ alignment = -1;
 ref = W;
 },
 {
-pos = (742,168);
+pos = (767,168);
 ref = acutecomb;
 }
 );

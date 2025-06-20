@@ -59,10 +59,12 @@ pos = (394,0);
 ref = Omega;
 },
 {
+alignment = -1;
 pos = (-30,0);
 ref = psiliperispomeni.case;
 },
 {
+alignment = -1;
 pos = (632,0);
 ref = ypogegrammeni;
 }

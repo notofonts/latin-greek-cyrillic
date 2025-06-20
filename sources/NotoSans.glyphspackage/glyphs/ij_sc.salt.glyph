@@ -83,11 +83,11 @@ shapes = (
 ref = i_sc.salt;
 },
 {
-pos = (224,0);
+pos = (226,0);
 ref = j_sc.salt;
 }
 );
-width = 555;
+width = 557;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";

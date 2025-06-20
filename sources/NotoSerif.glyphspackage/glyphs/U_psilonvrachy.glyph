@@ -10,7 +10,7 @@ shapes = (
 ref = Upsilon;
 },
 {
-pos = (269,178);
+pos = (115,178);
 ref = brevecomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = Upsilon;
 },
 {
-pos = (313,178);
+pos = (133,178);
 ref = brevecomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = Upsilon;
 },
 {
-pos = (372,178);
+pos = (157,178);
 ref = brevecomb;
 }
 );
@@ -49,7 +49,7 @@ shapes = (
 ref = Upsilon;
 },
 {
-pos = (211,178);
+pos = (80,178);
 ref = brevecomb;
 }
 );
@@ -62,7 +62,7 @@ shapes = (
 ref = Upsilon;
 },
 {
-pos = (254,178);
+pos = (99,178);
 ref = brevecomb;
 }
 );
@@ -75,7 +75,7 @@ shapes = (
 ref = Upsilon;
 },
 {
-pos = (310,178);
+pos = (124,178);
 ref = brevecomb;
 }
 );

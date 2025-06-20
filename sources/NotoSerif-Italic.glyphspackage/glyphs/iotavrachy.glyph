@@ -11,7 +11,7 @@ shapes = (
 ref = iota;
 },
 {
-pos = (78,0);
+pos = (125,0);
 ref = brevecomb;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = iota;
 },
 {
-pos = (122,0);
+pos = (110,0);
 ref = brevecomb;
 }
 );
@@ -58,7 +58,7 @@ shapes = (
 ref = iota;
 },
 {
-pos = (150,0);
+pos = (160,0);
 ref = brevecomb;
 }
 );
@@ -71,7 +71,7 @@ shapes = (
 ref = iota;
 },
 {
-pos = (81,0);
+pos = (72,0);
 ref = brevecomb;
 }
 );
@@ -84,7 +84,7 @@ shapes = (
 ref = iota;
 },
 {
-pos = (134,0);
+pos = (110,0);
 ref = brevecomb;
 }
 );
@@ -105,7 +105,7 @@ shapes = (
 ref = iota;
 },
 {
-pos = (160,0);
+pos = (148,0);
 ref = brevecomb;
 }
 );
@@ -118,7 +118,7 @@ shapes = (
 ref = iota;
 },
 {
-pos = (163,0);
+pos = (159,0);
 ref = brevecomb;
 }
 );

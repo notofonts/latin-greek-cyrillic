@@ -3918,5 +3918,15 @@ u1DF1D,
 u1DF1E,
 uniA7D2,
 uniA7D4,
-uni1DF1Adotless
+uni1DF1Adotless,
+iogonek.loclNAV,
+aogonek.loclNAV.sc,
+eogonek.loclNAV.sc,
+iogonek.loclNAV.sc,
+iogonekdotless.loclNAV.sc,
+oogonek.loclNAV.sc,
+uogonek.loclNAV.sc,
+ogonekcomb.loclNAV,
+iogonekdotless.sc,
+oogonek.sc
 )

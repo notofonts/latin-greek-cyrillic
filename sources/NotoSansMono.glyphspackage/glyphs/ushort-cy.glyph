@@ -21,6 +21,7 @@ alignment = -1;
 ref = "u-cy";
 },
 {
+alignment = -1;
 pos = (141,10);
 ref = cyrillicbreve;
 }
@@ -69,6 +70,7 @@ alignment = -1;
 ref = "u-cy";
 },
 {
+alignment = -1;
 pos = (11,-10);
 ref = cyrillicbreve;
 }
@@ -93,6 +95,7 @@ alignment = -1;
 ref = "u-cy";
 },
 {
+alignment = -1;
 pos = (-21,22);
 ref = cyrillicbreve;
 }
@@ -117,6 +120,7 @@ alignment = -1;
 ref = "u-cy";
 },
 {
+alignment = -1;
 pos = (-17,11);
 ref = cyrillicbreve;
 }

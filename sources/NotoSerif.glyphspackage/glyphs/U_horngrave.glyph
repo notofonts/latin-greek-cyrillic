@@ -19,13 +19,11 @@ pos = (343,931);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-alignment = -1;
 ref = Uhorn;
 },
 {
-alignment = -1;
-pos = (196,165);
-ref = grave;
+pos = (193,178);
+ref = gravecomb;
 }
 );
 width = 686;
@@ -47,8 +45,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (182,165);
-ref = grave;
+pos = (203,178);
+ref = gravecomb;
 }
 );
 width = 778;
@@ -78,8 +76,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (171,165);
-ref = grave;
+pos = (210,178);
+ref = gravecomb;
 }
 );
 width = 853;
@@ -101,8 +99,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (163,165);
-ref = grave;
+pos = (191,178);
+ref = gravecomb;
 }
 );
 width = 859;
@@ -124,8 +122,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (137,165);
-ref = grave;
+pos = (195,178);
+ref = gravecomb;
 }
 );
 width = 540;
@@ -147,8 +145,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (133,165);
-ref = grave;
+pos = (146,178);
+ref = gravecomb;
 }
 );
 width = 617;
@@ -170,8 +168,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (129,165);
-ref = grave;
+pos = (160,178);
+ref = gravecomb;
 }
 );
 width = 717;

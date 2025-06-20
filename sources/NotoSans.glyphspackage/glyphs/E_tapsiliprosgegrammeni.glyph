@@ -59,10 +59,12 @@ pos = (183,0);
 ref = Eta;
 },
 {
+alignment = -1;
 pos = (-21,0);
 ref = psili.case;
 },
 {
+alignment = -1;
 pos = (420,0);
 ref = ypogegrammeni;
 }

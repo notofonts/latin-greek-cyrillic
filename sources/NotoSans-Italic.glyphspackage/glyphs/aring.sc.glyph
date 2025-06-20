@@ -111,7 +111,7 @@ alignment = -1;
 ref = a.sc;
 },
 {
-pos = (-15,39);
+pos = (-18,41);
 ref = ringcomb.sc;
 }
 );

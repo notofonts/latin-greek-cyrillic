@@ -11,62 +11,62 @@ ref = q;
 scale = (0.65,0.6);
 }
 );
-width = 377;
+width = 369;
 },
 {
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
-pos = (48,287);
+pos = (41,287);
 ref = q;
 scale = (0.65,0.6);
 }
 );
-width = 399;
+width = 376;
 },
 {
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
-pos = (45,287);
+pos = (40,287);
 ref = q;
 scale = (0.65,0.6);
 }
 );
-width = 418;
+width = 395;
 },
 {
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
-pos = (51,287);
+pos = (41,287);
 ref = q;
 scale = (0.65,0.6);
 }
 );
-width = 275;
+width = 247;
 },
 {
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
-pos = (50,287);
+pos = (41,287);
 ref = q;
 scale = (0.65,0.6);
 }
 );
-width = 301;
+width = 274;
 },
 {
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
-pos = (48,287);
+pos = (40,287);
 ref = q;
 scale = (0.65,0.6);
 }
 );
-width = 341;
+width = 317;
 }
 );
 metricRight = "=|u10797";

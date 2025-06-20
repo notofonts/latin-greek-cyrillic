@@ -41,9 +41,11 @@ pos = (301,912);
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 ref = "Ii-cy";
 },
 {
+alignment = -1;
 pos = (103,10);
 ref = cyrillicbreve.cap;
 }
@@ -68,6 +70,7 @@ alignment = -1;
 ref = "Ii-cy";
 },
 {
+alignment = -1;
 pos = (53,0);
 ref = cyrillicbreve.cap;
 }
@@ -92,6 +95,7 @@ alignment = -1;
 ref = "Ii-cy";
 },
 {
+alignment = -1;
 pos = (68,0);
 ref = cyrillicbreve.cap;
 }
@@ -140,6 +144,7 @@ alignment = -1;
 ref = "Ii-cy";
 },
 {
+alignment = -1;
 pos = (6,-5);
 ref = cyrillicbreve.cap;
 }

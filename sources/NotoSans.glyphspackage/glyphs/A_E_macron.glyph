@@ -77,7 +77,7 @@ alignment = -1;
 ref = AE;
 },
 {
-pos = (505,168);
+pos = (506,168);
 ref = macroncomb;
 }
 );

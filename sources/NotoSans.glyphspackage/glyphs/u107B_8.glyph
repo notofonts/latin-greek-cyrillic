@@ -33,7 +33,7 @@ ref = clickalveolar;
 scale = (0.65,0.6);
 }
 );
-width = 337;
+width = 335;
 },
 {
 layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
@@ -55,7 +55,7 @@ ref = clickalveolar;
 scale = (0.65,0.6);
 }
 );
-width = 263;
+width = 265;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
@@ -66,7 +66,7 @@ ref = clickalveolar;
 scale = (0.65,0.6);
 }
 );
-width = 275;
+width = 276;
 }
 );
 metricRight = "=|";

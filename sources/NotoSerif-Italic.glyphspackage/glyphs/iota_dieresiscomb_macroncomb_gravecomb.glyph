@@ -43,9 +43,11 @@ layerId = "b3af1fa6-91ea-47de-8aed-f99cd7b7567e";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = iota;
 },
 {
+alignment = -1;
 pos = (-99,0);
 ref = gravecomb_macroncomb_dieresiscomb;
 }

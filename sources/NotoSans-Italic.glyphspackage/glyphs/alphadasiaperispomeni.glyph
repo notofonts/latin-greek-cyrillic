@@ -81,9 +81,11 @@ layerId = "72ee3d3d-4070-49eb-91d5-b30013080448";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (13,0);
 ref = dasiaperispomeni;
 }

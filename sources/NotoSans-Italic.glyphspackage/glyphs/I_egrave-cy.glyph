@@ -22,7 +22,7 @@ shapes = (
 ref = "Ie-cy";
 },
 {
-pos = (171,186);
+pos = (175,186);
 ref = gravecomb.loclCYR;
 }
 );
@@ -45,7 +45,7 @@ shapes = (
 ref = "Ie-cy";
 },
 {
-pos = (93,161);
+pos = (94,161);
 ref = gravecomb.loclCYR;
 }
 );
@@ -68,7 +68,7 @@ shapes = (
 ref = "Ie-cy";
 },
 {
-pos = (65,188);
+pos = (67,188);
 ref = gravecomb.loclCYR;
 }
 );
@@ -123,7 +123,7 @@ shapes = (
 ref = "Ie-cy";
 },
 {
-pos = (64,185);
+pos = (61,185);
 ref = gravecomb.loclCYR;
 }
 );
@@ -146,7 +146,7 @@ shapes = (
 ref = "Ie-cy";
 },
 {
-pos = (30,161);
+pos = (35,161);
 ref = gravecomb.loclCYR;
 }
 );
@@ -181,7 +181,7 @@ shapes = (
 ref = "Ie-cy";
 },
 {
-pos = (138,178);
+pos = (140,178);
 ref = gravecomb.loclCYR;
 }
 );

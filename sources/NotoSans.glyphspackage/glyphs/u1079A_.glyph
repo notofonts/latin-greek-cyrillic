@@ -11,7 +11,7 @@ ref = lzdigraph;
 scale = (0.65,0.6);
 }
 );
-width = 343;
+width = 342;
 },
 {
 layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
@@ -22,7 +22,7 @@ ref = lzdigraph;
 scale = (0.65,0.6);
 }
 );
-width = 389;
+width = 392;
 },
 {
 layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
@@ -33,7 +33,7 @@ ref = lzdigraph;
 scale = (0.65,0.6);
 }
 );
-width = 491;
+width = 476;
 },
 {
 layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
@@ -44,7 +44,7 @@ ref = lzdigraph;
 scale = (0.65,0.6);
 }
 );
-width = 208;
+width = 210;
 },
 {
 layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
@@ -66,7 +66,7 @@ ref = lzdigraph;
 scale = (0.65,0.6);
 }
 );
-width = 390;
+width = 383;
 }
 );
 metricRight = t;

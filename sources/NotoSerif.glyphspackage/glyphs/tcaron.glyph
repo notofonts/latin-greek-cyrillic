@@ -17,10 +17,12 @@ pos = (222,760);
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 pos = (4,0);
 ref = t;
 },
 {
+alignment = -1;
 pos = (179,0);
 ref = caroncommaaccent;
 }

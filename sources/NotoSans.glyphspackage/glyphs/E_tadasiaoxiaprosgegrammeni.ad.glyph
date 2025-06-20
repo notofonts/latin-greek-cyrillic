@@ -59,10 +59,12 @@ pos = (418,0);
 ref = Eta;
 },
 {
+alignment = -1;
 pos = (-51,0);
 ref = dasiaoxia.case;
 },
 {
+alignment = -1;
 pos = (1183,0);
 ref = prosgegrammeni;
 }

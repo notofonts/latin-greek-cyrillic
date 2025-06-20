@@ -22,11 +22,11 @@ shapes = (
 ref = "Softsign-cy";
 },
 {
-pos = (513,0);
+pos = (568,0);
 ref = "I-cy";
 }
 );
-width = 841;
+width = 896;
 },
 {
 anchors = (
@@ -45,11 +45,11 @@ shapes = (
 ref = "Softsign-cy";
 },
 {
-pos = (544,0);
+pos = (620,0);
 ref = "I-cy";
 }
 );
-width = 915;
+width = 991;
 },
 {
 anchors = (
@@ -68,11 +68,11 @@ shapes = (
 ref = "Softsign-cy";
 },
 {
-pos = (625,0);
+pos = (685,0);
 ref = "I-cy";
 }
 );
-width = 1035;
+width = 1095;
 },
 {
 anchors = (
@@ -91,11 +91,11 @@ shapes = (
 ref = "Softsign-cy";
 },
 {
-pos = (395,0);
+pos = (430,0);
 ref = "I-cy";
 }
 );
-width = 643;
+width = 678;
 },
 {
 anchors = (
@@ -114,11 +114,11 @@ shapes = (
 ref = "Softsign-cy";
 },
 {
-pos = (441,0);
+pos = (490,0);
 ref = "I-cy";
 }
 );
-width = 740;
+width = 789;
 },
 {
 anchors = (
@@ -137,11 +137,11 @@ shapes = (
 ref = "Softsign-cy";
 },
 {
-pos = (535,0);
+pos = (575,0);
 ref = "I-cy";
 }
 );
-width = 885;
+width = 925;
 }
 );
 metricLeft = "En-cy";

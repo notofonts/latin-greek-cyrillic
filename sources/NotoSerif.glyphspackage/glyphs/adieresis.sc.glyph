@@ -142,12 +142,10 @@ pos = (261,753);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
-alignment = -1;
 ref = a.sc;
 },
 {
-alignment = -1;
-pos = (-27,35);
+pos = (-28,35);
 ref = dieresiscomb.sc;
 }
 );

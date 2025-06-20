@@ -6,23 +6,23 @@ layers = (
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
 shapes = (
 {
-pos = (57,287);
+pos = (41,287);
 ref = dzdigraphretroflexhook;
 scale = (0.65,0.6);
 }
 );
-width = 646;
+width = 593;
 },
 {
 layerId = UUID0;
 shapes = (
 {
-pos = (53,287);
+pos = (41,287);
 ref = dzdigraphretroflexhook;
 scale = (0.65,0.6);
 }
 );
-width = 760;
+width = 712;
 },
 {
 associatedMasterId = UUID0;
@@ -36,45 +36,45 @@ layerId = "e9c1dde7-2b76-4b64-bc9e-f5aa8d2c36b4";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
-pos = (52,287);
+pos = (41,287);
 ref = dzdigraphretroflexhook;
 scale = (0.65,0.6);
 }
 );
-width = 828;
+width = 773;
 },
 {
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
 shapes = (
 {
-pos = (51,287);
+pos = (41,287);
 ref = dzdigraphretroflexhook;
 scale = (0.65,0.6);
 }
 );
-width = 885;
+width = 826;
 },
 {
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
 shapes = (
 {
-pos = (52,287);
+pos = (41,287);
 ref = dzdigraphretroflexhook;
 scale = (0.65,0.6);
 }
 );
-width = 499;
+width = 484;
 },
 {
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
 shapes = (
 {
-pos = (55,287);
+pos = (41,287);
 ref = dzdigraphretroflexhook;
 scale = (0.65,0.6);
 }
 );
-width = 644;
+width = 604;
 },
 {
 associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
@@ -88,23 +88,23 @@ layerId = "1d377ac7-9fdd-444a-b439-20731baf05ef";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
-pos = (53,287);
+pos = (41,287);
 ref = dzdigraphretroflexhook;
 scale = (0.65,0.6);
 }
 );
-width = 692;
+width = 648;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
 shapes = (
 {
-pos = (52,287);
+pos = (41,287);
 ref = dzdigraphretroflexhook;
 scale = (0.65,0.6);
 }
 );
-width = 750;
+width = 714;
 }
 );
 metricLeft = o;

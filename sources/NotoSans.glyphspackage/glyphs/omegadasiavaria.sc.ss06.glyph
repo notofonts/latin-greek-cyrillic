@@ -42,9 +42,11 @@ layerId = "7bae3029-06df-4951-9ba2-1d4de099a751";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (66,37);
 ref = dasiavaria.sc;
 }

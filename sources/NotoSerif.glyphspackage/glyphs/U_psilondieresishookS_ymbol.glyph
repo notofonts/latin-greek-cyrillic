@@ -19,7 +19,7 @@ ref = UpsilonhookSymbol;
 },
 {
 pos = (-8,178);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 579;
@@ -37,8 +37,8 @@ shapes = (
 ref = UpsilonhookSymbol;
 },
 {
-pos = (28,178);
-ref = dieresis;
+pos = (32,178);
+ref = dieresiscomb;
 }
 );
 width = 661;
@@ -65,7 +65,7 @@ ref = UpsilonhookSymbol;
 },
 {
 pos = (80,178);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 769;
@@ -84,7 +84,7 @@ ref = UpsilonhookSymbol;
 },
 {
 pos = (84,178);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 803;
@@ -103,7 +103,7 @@ ref = UpsilonhookSymbol;
 },
 {
 pos = (-8,178);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 454;
@@ -121,8 +121,8 @@ shapes = (
 ref = UpsilonhookSymbol;
 },
 {
-pos = (25,178);
-ref = dieresis;
+pos = (26,178);
+ref = dieresiscomb;
 }
 );
 width = 545;
@@ -141,7 +141,7 @@ ref = UpsilonhookSymbol;
 },
 {
 pos = (70,178);
-ref = dieresis;
+ref = dieresiscomb;
 }
 );
 width = 671;

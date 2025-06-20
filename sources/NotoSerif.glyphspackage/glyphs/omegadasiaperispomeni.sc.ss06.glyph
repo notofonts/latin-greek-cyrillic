@@ -42,9 +42,11 @@ layerId = "996d085a-7e03-49de-9d11-f9e4539da41e";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (125,35);
 ref = dasiaperispomeni.sc;
 }
@@ -102,9 +104,11 @@ layerId = "5493e9ad-07ee-4db8-85fe-b90f4b25e793";
 name = "SemiBold Condensed (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = omega.sc;
 },
 {
+alignment = -1;
 pos = (101,35);
 ref = dasiaperispomeni.sc;
 }

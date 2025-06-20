@@ -18,9 +18,11 @@ pos = (421,714);
 layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
+alignment = -1;
 ref = "Softsign-cy";
 },
 {
+alignment = -1;
 pos = (513,0);
 ref = "I-cy";
 }
@@ -41,9 +43,11 @@ pos = (374,714);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 ref = "Softsign-cy";
 },
 {
+alignment = -1;
 pos = (441,0);
 ref = "I-cy";
 }
@@ -64,9 +68,11 @@ pos = (512,714);
 layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
+alignment = -1;
 ref = "Softsign-cy";
 },
 {
+alignment = -1;
 pos = (625,0);
 ref = "I-cy";
 }
@@ -87,9 +93,11 @@ pos = (322,714);
 layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
+alignment = -1;
 ref = "Softsign-cy";
 },
 {
+alignment = -1;
 pos = (395,0);
 ref = "I-cy";
 }
@@ -110,9 +118,11 @@ pos = (458,714);
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 ref = "Softsign-cy";
 },
 {
+alignment = -1;
 pos = (544,0);
 ref = "I-cy";
 }
@@ -133,9 +143,11 @@ pos = (443,714);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 ref = "Softsign-cy";
 },
 {
+alignment = -1;
 pos = (535,0);
 ref = "I-cy";
 }

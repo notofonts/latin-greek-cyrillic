@@ -1,0 +1,82 @@
+{
+glyphname = eogonek.loclNAV.sc;
+layers = (
+{
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (1,0);
+ref = ogonekcomb;
+}
+);
+width = 501;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (-11,0);
+ref = ogonekcomb;
+}
+);
+width = 535;
+},
+{
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (40,0);
+ref = ogonekcomb;
+}
+);
+width = 603;
+},
+{
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (-27,0);
+ref = ogonekcomb;
+}
+);
+width = 388;
+},
+{
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = e.sc;
+},
+{
+ref = ogonekcomb;
+}
+);
+width = 438;
+},
+{
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (34,0);
+ref = ogonekcomb;
+}
+);
+width = 503;
+}
+);
+}

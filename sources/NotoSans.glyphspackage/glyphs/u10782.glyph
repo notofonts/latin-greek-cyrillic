@@ -11,7 +11,7 @@ ref = colontriangularhalfmod;
 scale = (0.65,0.6);
 }
 );
-width = 226;
+width = 225;
 },
 {
 layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
@@ -33,7 +33,7 @@ ref = colontriangularhalfmod;
 scale = (0.65,0.6);
 }
 );
-width = 170;
+width = 171;
 },
 {
 layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";

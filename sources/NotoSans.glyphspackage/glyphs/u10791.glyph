@@ -22,7 +22,7 @@ ref = ramshorn;
 scale = (0.65,0.6);
 }
 );
-width = 329;
+width = 330;
 },
 {
 layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";

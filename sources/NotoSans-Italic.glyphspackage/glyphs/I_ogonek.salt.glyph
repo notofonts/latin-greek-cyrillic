@@ -10,7 +10,7 @@ alignment = -1;
 ref = I.salt;
 },
 {
-pos = (105,0);
+pos = (-75,0);
 ref = ogonekcomb;
 }
 );
@@ -24,7 +24,7 @@ alignment = -1;
 ref = I.salt;
 },
 {
-pos = (123,0);
+pos = (-57,0);
 ref = ogonekcomb;
 }
 );
@@ -37,7 +37,7 @@ shapes = (
 ref = I.salt;
 },
 {
-pos = (182,0);
+pos = (2,0);
 ref = ogonekcomb;
 }
 );
@@ -51,7 +51,7 @@ alignment = -1;
 ref = I.salt;
 },
 {
-pos = (76,0);
+pos = (-104,0);
 ref = ogonekcomb;
 }
 );
@@ -65,7 +65,7 @@ alignment = -1;
 ref = I.salt;
 },
 {
-pos = (107,0);
+pos = (-73,0);
 ref = ogonekcomb;
 }
 );
@@ -79,7 +79,7 @@ alignment = -1;
 ref = I.salt;
 },
 {
-pos = (137,0);
+pos = (-43,0);
 ref = ogonekcomb;
 }
 );

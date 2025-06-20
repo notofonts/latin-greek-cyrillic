@@ -28,6 +28,7 @@ pos = (503,714);
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
+alignment = -1;
 pos = (-48,-224);
 ref = dasiaperispomeni;
 }
@@ -44,6 +45,7 @@ pos = (563,714);
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
+alignment = -1;
 pos = (-57,-265);
 ref = dasiaperispomeni;
 }
@@ -92,6 +94,7 @@ pos = (495,714);
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
+alignment = -1;
 pos = (-56,-265);
 ref = dasiaperispomeni;
 }

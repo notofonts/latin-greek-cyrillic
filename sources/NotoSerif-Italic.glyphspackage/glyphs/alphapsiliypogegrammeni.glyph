@@ -50,13 +50,16 @@ layerId = "75e392b2-4b90-4660-bfe4-d06266d8cdfa";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = alpha;
 },
 {
+alignment = -1;
 pos = (119,0);
 ref = psili;
 },
 {
+alignment = -1;
 pos = (146,0);
 ref = ypogegrammeni;
 }

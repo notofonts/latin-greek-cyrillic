@@ -10,6 +10,7 @@ alignment = -1;
 ref = i_sc.salt;
 },
 {
+alignment = -1;
 pos = (-43,0);
 ref = ogonekcomb.sc;
 }
@@ -24,6 +25,7 @@ alignment = -1;
 ref = i_sc.salt;
 },
 {
+alignment = -1;
 pos = (5,0);
 ref = ogonekcomb.sc;
 }
@@ -51,6 +53,7 @@ alignment = -1;
 ref = i_sc.salt;
 },
 {
+alignment = -1;
 pos = (-19,0);
 ref = ogonekcomb.sc;
 }
@@ -65,6 +68,7 @@ alignment = -1;
 ref = i_sc.salt;
 },
 {
+alignment = -1;
 pos = (8,0);
 ref = ogonekcomb.sc;
 }
@@ -79,6 +83,7 @@ alignment = -1;
 ref = i_sc.salt;
 },
 {
+alignment = -1;
 pos = (38,0);
 ref = ogonekcomb.sc;
 }

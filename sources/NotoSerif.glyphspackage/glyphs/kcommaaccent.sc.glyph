@@ -96,9 +96,11 @@ pos = (300,571);
 layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
+alignment = -1;
 ref = k.sc;
 },
 {
+alignment = -1;
 pos = (299,0);
 ref = commaaccentcomb;
 }
@@ -167,9 +169,11 @@ pos = (253,571);
 layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
+alignment = -1;
 ref = k.sc;
 },
 {
+alignment = -1;
 pos = (254,0);
 ref = commaaccentcomb;
 }

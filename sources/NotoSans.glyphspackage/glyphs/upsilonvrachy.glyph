@@ -42,9 +42,11 @@ layerId = "ad2d8a66-842d-4dcc-8d16-363c61aa7115";
 name = "SemiBold (intermediate)";
 shapes = (
 {
+alignment = -1;
 ref = upsilon;
 },
 {
+alignment = -1;
 pos = (308,0);
 ref = brevecomb;
 }

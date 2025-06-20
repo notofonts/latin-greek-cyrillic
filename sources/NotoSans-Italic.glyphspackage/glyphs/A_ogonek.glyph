@@ -19,13 +19,12 @@ pos = (241,714);
 layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
 shapes = (
 {
-alignment = -1;
 ref = A;
 },
 {
-alignment = -1;
-pos = (169,0);
-ref = ogonek;
+anchor = ogonek;
+pos = (96,0);
+ref = ogonekcomb;
 }
 );
 width = 326;
@@ -44,13 +43,12 @@ pos = (379,714);
 layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
 shapes = (
 {
-alignment = -1;
 ref = A;
 },
 {
-alignment = -1;
-pos = (400,0);
-ref = ogonek;
+anchor = ogonek;
+pos = (313,0);
+ref = ogonekcomb;
 }
 );
 width = 547;
@@ -77,13 +75,11 @@ layerId = "e8337c41-a0fe-495c-b749-c2bf60f651f5";
 name = "SemiBold Italic (intermediate)";
 shapes = (
 {
-alignment = -1;
 ref = A;
 },
 {
-alignment = -1;
-pos = (362,0);
-ref = ogonek;
+pos = (128,0);
+ref = ogonekcomb;
 }
 );
 width = 628;
@@ -110,13 +106,11 @@ layerId = "20ccf135-fb7b-4a58-ac12-da15251e53a8";
 name = "SemiBold Condensed Italic (intermediate)";
 shapes = (
 {
-alignment = -1;
 ref = A;
 },
 {
-alignment = -1;
-pos = (254,0);
-ref = ogonek;
+pos = (56,0);
+ref = ogonekcomb;
 }
 );
 width = 470;
@@ -135,13 +129,12 @@ pos = (376,714);
 layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
 shapes = (
 {
-alignment = -1;
 ref = A;
 },
 {
-alignment = -1;
-pos = (365,0);
-ref = ogonek;
+anchor = ogonek;
+pos = (311,0);
+ref = ogonekcomb;
 }
 );
 width = 562;
@@ -160,13 +153,12 @@ pos = (284,715);
 layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
 shapes = (
 {
-alignment = -1;
 ref = A;
 },
 {
-alignment = -1;
-pos = (217,0);
-ref = ogonek;
+anchor = ogonek;
+pos = (165,0);
+ref = ogonekcomb;
 }
 );
 width = 404;
@@ -185,13 +177,12 @@ pos = (355,717);
 layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
 shapes = (
 {
-alignment = -1;
 ref = A;
 },
 {
-alignment = -1;
-pos = (288,0);
-ref = ogonek;
+anchor = ogonek;
+pos = (277,0);
+ref = ogonekcomb;
 }
 );
 width = 532;
@@ -210,13 +201,12 @@ pos = (431,714);
 layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
 shapes = (
 {
-alignment = -1;
 ref = A;
 },
 {
-alignment = -1;
-pos = (367,0);
-ref = ogonek;
+anchor = ogonek;
+pos = (405,0);
+ref = ogonekcomb;
 }
 );
 width = 676;
