@@ -5199,12 +5199,6 @@ stemValues = (
 88
 );
 userData = {
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {
@@ -5299,12 +5293,6 @@ stemValues = (
 191
 );
 userData = {
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {
@@ -5399,12 +5387,6 @@ stemValues = (
 26
 );
 userData = {
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {
@@ -5499,12 +5481,6 @@ stemValues = (
 80
 );
 userData = {
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {
@@ -5599,12 +5575,6 @@ stemValues = (
 167
 );
 userData = {
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 }
 );
