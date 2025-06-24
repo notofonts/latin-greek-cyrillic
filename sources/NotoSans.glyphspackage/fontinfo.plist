@@ -5867,12 +5867,6 @@ GSOffsetHorizontal = 2;
 GSOffsetKeepCompatible = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 2;
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {

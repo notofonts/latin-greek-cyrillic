@@ -5072,12 +5072,6 @@ stemValues = (
 userData = {
 GSOffsetHorizontal = 1;
 GSOffsetVertical = 1;
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {
