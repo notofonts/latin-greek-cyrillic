@@ -5169,12 +5169,6 @@ userData = {
 GSOffsetHorizontal = 5;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 visible = 1;
 },
@@ -5272,12 +5266,6 @@ userData = {
 GSOffsetHorizontal = 7;
 GSOffsetProportional = 1;
 GSOffsetVertical = 1;
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {
@@ -5373,12 +5361,6 @@ stemValues = (
 userData = {
 GSOffsetHorizontal = -6;
 GSOffsetVertical = -6;
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {
@@ -5474,12 +5456,6 @@ stemValues = (
 userData = {
 GSOffsetHorizontal = 5;
 GSOffsetVertical = 5;
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 },
 {
@@ -5575,12 +5551,6 @@ stemValues = (
 userData = {
 GSOffsetHorizontal = -4;
 GSOffsetVertical = -4;
-com.github.googlei18n.ufo2ft.filters = (
-{
-name = flattenComponents;
-pre = 1;
-}
-);
 };
 }
 );
