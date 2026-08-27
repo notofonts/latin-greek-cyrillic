@@ -98,7 +98,7 @@ ref = U;
 },
 {
 alignment = -1;
-pos = (159,165);
+pos = (162,165);
 ref = ring;
 }
 );
