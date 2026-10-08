@@ -1,4 +1,4 @@
-SOURCES=$(shell python3 scripts/read-config.py --sources | sed 's/[^a-zA-Z._\/ ]//')
+SOURCES=$(shell python3 scripts/read-config.py --sources | sed 's/[^-a-zA-Z._\/ ]//')
 help:
 	@echo "###"
 	@echo "# Build targets"
