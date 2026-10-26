@@ -30,6 +30,10 @@ anchors = (
 {
 name = topleft;
 pos = (158,714);
+},
+{
+name = bottom;
+pos = (406,0);
 }
 );
 guides = (
@@ -51,6 +55,10 @@ anchors = (
 {
 name = topleft;
 pos = (148,714);
+},
+{
+name = bottom;
+pos = (335,0);
 }
 );
 guides = (
@@ -72,6 +80,10 @@ anchors = (
 {
 name = topleft;
 pos = (122,714);
+},
+{
+name = bottom;
+pos = (253,0);
 }
 );
 guides = (
@@ -93,6 +105,10 @@ anchors = (
 {
 name = topleft;
 pos = (141,714);
+},
+{
+name = bottom;
+pos = (325,0);
 }
 );
 guides = (
@@ -114,6 +130,10 @@ anchors = (
 {
 name = topleft;
 pos = (131,714);
+},
+{
+name = bottom;
+pos = (431,0);
 }
 );
 guides = (

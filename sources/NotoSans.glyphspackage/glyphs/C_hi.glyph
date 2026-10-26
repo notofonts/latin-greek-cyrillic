@@ -7,6 +7,12 @@ kernRight = GRK_Chi;
 layers = (
 {
 layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
+anchors = (
+{
+name = top;
+pos = (276,714);
+}
+);
 shapes = (
 {
 ref = X;
@@ -16,6 +22,12 @@ width = 509;
 },
 {
 layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+anchors = (
+{
+name = top;
+pos = (295,714);
+}
+);
 shapes = (
 {
 ref = X;
@@ -25,6 +37,12 @@ width = 586;
 },
 {
 layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
+anchors = (
+{
+name = top;
+pos = (324,714);
+}
+);
 shapes = (
 {
 ref = X;
@@ -34,6 +52,12 @@ width = 723;
 },
 {
 layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
+anchors = (
+{
+name = top;
+pos = (179,714);
+}
+);
 shapes = (
 {
 ref = X;
@@ -43,6 +67,12 @@ width = 331;
 },
 {
 layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+anchors = (
+{
+name = top;
+pos = (201,714);
+}
+);
 shapes = (
 {
 ref = X;
@@ -52,6 +82,12 @@ width = 400;
 },
 {
 layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
+anchors = (
+{
+name = top;
+pos = (233,714);
+}
+);
 shapes = (
 {
 ref = X;

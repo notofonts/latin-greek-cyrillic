@@ -18,6 +18,12 @@ width = 742;
 },
 {
 layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+anchors = (
+{
+name = bottom;
+pos = (406,0);
+}
+);
 shapes = (
 {
 ref = Omicron;
@@ -31,6 +37,12 @@ width = 829;
 },
 {
 layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+anchors = (
+{
+name = bottom;
+pos = (335,0);
+}
+);
 shapes = (
 {
 ref = Omicron;
@@ -44,6 +56,12 @@ width = 684;
 },
 {
 layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+anchors = (
+{
+name = bottom;
+pos = (279,0);
+}
+);
 shapes = (
 {
 ref = Omicron;
@@ -57,6 +75,12 @@ width = 537;
 },
 {
 layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+anchors = (
+{
+name = bottom;
+pos = (358,0);
+}
+);
 shapes = (
 {
 ref = Omicron;
@@ -70,6 +94,12 @@ width = 689;
 },
 {
 layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+anchors = (
+{
+name = bottom;
+pos = (455,0);
+}
+);
 shapes = (
 {
 ref = Omicron;
