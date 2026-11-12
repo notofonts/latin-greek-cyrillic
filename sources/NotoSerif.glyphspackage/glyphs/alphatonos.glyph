@@ -5,13 +5,13 @@ kernLeft = GRK_omicron;
 kernRight = GRK_alpha;
 layers = (
 {
-layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 anchors = (
 {
 name = bottom;
 pos = (351,0);
 }
 );
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
 ref = alpha;
@@ -24,6 +24,12 @@ ref = tonos;
 width = 693;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (250,0);
+}
+);
 layerId = UUID0;
 shapes = (
 {
@@ -37,13 +43,13 @@ ref = tonos;
 width = 639;
 },
 {
-layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 anchors = (
 {
 name = bottom;
 pos = (317,0);
 }
 );
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
 ref = alpha;
@@ -56,13 +62,13 @@ ref = tonos;
 width = 626;
 },
 {
-layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 anchors = (
 {
 name = bottom;
 pos = (268,0);
 }
 );
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
 ref = alpha;
@@ -75,13 +81,13 @@ ref = tonos;
 width = 499;
 },
 {
-layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 anchors = (
 {
 name = bottom;
 pos = (333,0);
 }
 );
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
 ref = alpha;
@@ -94,13 +100,13 @@ ref = tonos;
 width = 620;
 },
 {
-layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 anchors = (
 {
 name = bottom;
 pos = (370,0);
 }
 );
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
 ref = alpha;

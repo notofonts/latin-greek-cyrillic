@@ -4,13 +4,13 @@ kernLeft = GRK_Alphatonos;
 kernRight = GRK_Alpha;
 layers = (
 {
-layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 anchors = (
 {
 name = bottom;
 pos = (378,0);
 }
 );
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
 shapes = (
 {
 ref = Alpha;
@@ -23,6 +23,12 @@ ref = tonos.case;
 width = 788;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (335,0);
+}
+);
 layerId = UUID0;
 shapes = (
 {
@@ -36,13 +42,13 @@ ref = tonos.case;
 width = 705;
 },
 {
-layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 anchors = (
 {
 name = bottom;
 pos = (315,0);
 }
 );
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
 shapes = (
 {
 ref = Alpha;
@@ -55,13 +61,13 @@ ref = tonos.case;
 width = 657;
 },
 {
-layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 anchors = (
 {
 name = bottom;
 pos = (259,0);
 }
 );
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
 shapes = (
 {
 ref = Alpha;
@@ -74,13 +80,13 @@ ref = tonos.case;
 width = 499;
 },
 {
-layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 anchors = (
 {
 name = bottom;
 pos = (335,0);
 }
 );
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
 shapes = (
 {
 ref = Alpha;
@@ -93,13 +99,13 @@ ref = tonos.case;
 width = 645;
 },
 {
-layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 anchors = (
 {
 name = bottom;
 pos = (400,0);
 }
 );
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
 shapes = (
 {
 ref = Alpha;
