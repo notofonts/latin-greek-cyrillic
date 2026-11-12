@@ -7,6 +7,10 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (314,0);
+},
+{
 name = topleft;
 pos = (138,714);
 }
@@ -28,12 +32,12 @@ width = 742;
 {
 anchors = (
 {
-name = topleft;
-pos = (158,714);
-},
-{
 name = bottom;
 pos = (406,0);
+},
+{
+name = topleft;
+pos = (158,714);
 }
 );
 guides = (
@@ -53,12 +57,12 @@ width = 829;
 {
 anchors = (
 {
-name = topleft;
-pos = (148,714);
-},
-{
 name = bottom;
 pos = (335,0);
+},
+{
+name = topleft;
+pos = (148,714);
 }
 );
 guides = (
@@ -78,12 +82,12 @@ width = 684;
 {
 anchors = (
 {
-name = topleft;
-pos = (122,714);
-},
-{
 name = bottom;
 pos = (253,0);
+},
+{
+name = topleft;
+pos = (122,714);
 }
 );
 guides = (
@@ -103,12 +107,12 @@ width = 537;
 {
 anchors = (
 {
-name = topleft;
-pos = (141,714);
-},
-{
 name = bottom;
 pos = (325,0);
+},
+{
+name = topleft;
+pos = (141,714);
 }
 );
 guides = (
@@ -128,12 +132,12 @@ width = 689;
 {
 anchors = (
 {
-name = topleft;
-pos = (131,714);
-},
-{
 name = bottom;
 pos = (431,0);
+},
+{
+name = topleft;
+pos = (131,714);
 }
 );
 guides = (

@@ -9,6 +9,10 @@ anchors = (
 {
 name = center;
 pos = (527,357);
+},
+{
+name = top;
+pos = (480,714);
 }
 );
 layerId = UUID0;
